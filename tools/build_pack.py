@@ -51,6 +51,8 @@ def build_catalog(extras=()):
     meta = load(DATA / "meta.json")
     if not isinstance(meta, dict) or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(meta.get("updated"))):
         raise ValueError("data/meta.json 的 updated 要写成 YYYY-MM-DD")
+    if "revision" in meta and not (is_int(meta["revision"]) and meta["revision"] >= 0):  # 同一天改资料时加一；没有就是 0
+        raise ValueError("data/meta.json 的 revision 要是 0 或正整数")
     genres = load_genres()
     by_cat, seen = {c: [] for c in CATS}, set()
 

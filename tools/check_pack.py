@@ -1,7 +1,7 @@
 r"""按软件导入时的规则检查数据包，再多查几项资料格式。
 
     py tools/check_pack.py dist/碧翠子禁书库数据包-2026-10-27.zip
-    py tools/check_pack.py 包.zip --min-updated 2026-10-27   # 软件自带资料的日期，比它旧的包软件不收
+    py tools/check_pack.py 包.zip --min-updated 2026-10-28 --min-revision 1   # 软件自带资料的日期和 revision，比它旧的包软件不收
 
 有问题时退出码是 1。
 """
@@ -237,7 +237,7 @@ def canon_problems(canon, ids):
             out.append(f"canon 的 {wid} 要是 {{\"by\": \"manual\" 或 \"vote\", \"since\": \"YYYY-MM-DD\", \"note\": 说明（可选）}}")
     return out
 
-def check(path, min_updated):
+def check(path, min_updated, min_revision=0):
     problems, notes = [], []
     try:
         z = zipfile.ZipFile(path)
@@ -303,10 +303,13 @@ def check(path, min_updated):
     if not is_int(version) or version > CATALOG_VERSION:
         problems.append(f"version 是 {version!r}，软件只认到 {CATALOG_VERSION}")
     updated = cat.get("updated")
+    revision = cat.get("revision", 0)  # 同一天的资料用 revision 分新旧，没有就是 0
+    if not (is_int(revision) and revision >= 0):
+        problems.append(f"revision 要是 0 或正整数：{revision!r}")
     if not isinstance(updated, str) or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", updated):
         problems.append(f"updated 要写成 YYYY-MM-DD：{updated!r}")
-    elif min_updated and updated < min_updated:
-        problems.append(f"资料日期 {updated} 比软件自带的 {min_updated} 旧，软件不会导入")
+    elif min_updated and is_int(revision) and (updated, revision) < (min_updated, min_revision):
+        problems.append(f"资料 {updated} revision {revision} 比软件自带的 {min_updated} revision {min_revision} 旧，软件不会导入")
 
     # 资料格式（软件不会因此拒收，但会显示不对）
     ids = [g.get("id") for g in games if isinstance(g, dict)]
@@ -393,7 +396,7 @@ def check(path, min_updated):
     for g in games:
         if isinstance(g, dict):
             srcs[g.get("src")] = srcs.get(g.get("src"), 0) + 1
-    notes.insert(0, f"资料日期 {updated}，作品 {len(games)} 部（{', '.join(f'{k} {v}' for k, v in sorted(srcs.items(), key=lambda kv: -kv[1]))}），"
+    notes.insert(0, f"资料日期 {updated}（revision {revision}），作品 {len(games)} 部（{', '.join(f'{k} {v}' for k, v in sorted(srcs.items(), key=lambda kv: -kv[1]))}），"
                     f"封面 {len(covers)} 张（包里图片 {len(cover_files)} 张）")
     notes.insert(1, f"榜单 {len(rankings)} 个、{rk_items} 条，带 rj 的 {rk_rj} 条，对得上作品的 {rk_hit} 条")
     notes.insert(2, f"题材标签 {len(genres)} 个，带题材的作品 {tagged} 部（DLsite 作品 {srcs.get('dlsite', 0)} 部）")
@@ -420,8 +423,9 @@ def main():
     ap = argparse.ArgumentParser(description="检查碧翠子禁书库数据包")
     ap.add_argument("pack", type=Path)
     ap.add_argument("--min-updated", help="软件自带资料的日期 YYYY-MM-DD")
+    ap.add_argument("--min-revision", type=int, default=0, help="软件自带资料的 revision（同一天时比它）")
     args = ap.parse_args()
-    problems, notes = check(args.pack, args.min_updated)
+    problems, notes = check(args.pack, args.min_updated, args.min_revision)
     for n in notes:
         print(n)
     if problems:
