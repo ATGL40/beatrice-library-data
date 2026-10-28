@@ -149,6 +149,9 @@ def check(path, min_updated):
         elif src == "dlsite":
             if not str(g.get("url", "")).startswith("https://"):
                 problems.append(f"{g.get('id')} 是 DLsite 作品，url 要是 https 链接：{g.get('url')!r}")
+        elif src in ("cien", "fanbox"):  # 赞助站：支持页链接可有可无，有就要是 https
+            if g.get("url") and not str(g["url"]).startswith("https://"):
+                problems.append(f"{g.get('id')} 的 url 要是 https 链接：{g.get('url')!r}")
         elif g.get("url"):  # 其他来源不写 url；rate / dl / rc 可以没有或 null
             problems.append(f"{g.get('id')} 的来源是 {src}，不该有 url")
         if "also" in g and not (isinstance(g["also"], list) and all(s in SRCS for s in g["also"])):
