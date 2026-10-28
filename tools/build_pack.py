@@ -58,6 +58,18 @@ def signal_problem(g):
     return None
 
 
+def community_problem(g):
+    """community（社区评分汇总，tools/community.py 写的）：任何来源都可以有，可以没有或 null；
+    有就要是 {"avg": 1–5 的数, "count": 正整数}，返回问题说明或 None"""
+    v = g.get("community")
+    if v is None:
+        return None
+    if not (isinstance(v, dict) and set(v) == {"avg", "count"} and isinstance(v["avg"], (int, float))
+            and not isinstance(v["avg"], bool) and 1 <= v["avg"] <= 5 and is_int(v["count"]) and v["count"] >= 1):
+        return "的 community 要是 {\"avg\": 1–5 的数, \"count\": 正整数}"
+    return None
+
+
 def load(path):
     return json.loads(path.read_text(encoding="utf-8-sig"))
 
@@ -98,7 +110,7 @@ def build_catalog(extras=()):
             bad = [x for x in g["genres"] if x not in genres]
             if bad:
                 raise ValueError(f"{gid} 的题材 {bad} 不在 data/genres.json 里")
-        problem = signal_problem(g)
+        problem = signal_problem(g) or community_problem(g)
         if problem:
             raise ValueError(f"{gid} {problem}")
         seen.add(gid)

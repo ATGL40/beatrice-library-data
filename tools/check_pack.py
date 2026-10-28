@@ -72,6 +72,18 @@ def signal_problem(g):
     return None
 
 
+def community_problem(g):
+    """community（社区评分汇总，tools/community.py 写的）：任何来源都可以有，可以没有或 null；
+    有就要是 {"avg": 1–5 的数, "count": 正整数}，返回问题说明或 None"""
+    v = g.get("community")
+    if v is None:
+        return None
+    if not (isinstance(v, dict) and set(v) == {"avg", "count"} and isinstance(v["avg"], (int, float))
+            and not isinstance(v["avg"], bool) and 1 <= v["avg"] <= 5 and is_int(v["count"]) and v["count"] >= 1):
+        return "的 community 要是 {\"avg\": 1–5 的数, \"count\": 正整数}"
+    return None
+
+
 def check(path, min_updated):
     problems, notes = [], []
     try:
@@ -183,10 +195,10 @@ def check(path, min_updated):
                 problems.append(f"{g.get('id')} 的 genres 要是字符串数组，每个 id 都要在 genres 字典里")
             else:
                 tagged += 1
-        problem = signal_problem(g)
-        if problem:
-            problems.append(f"{g.get('id')} {problem}")
-        for key in SIGNALS:
+        for problem in (signal_problem(g), community_problem(g)):
+            if problem:
+                problems.append(f"{g.get('id')} {problem}")
+        for key in list(SIGNALS) + ["community"]:
             if g.get(key) is not None:
                 signals[key] = signals.get(key, 0) + 1
 
@@ -229,6 +241,7 @@ def check(path, min_updated):
     notes.insert(2, f"题材标签 {len(genres)} 个，带题材的作品 {tagged} 部（DLsite 作品 {srcs.get('dlsite', 0)} 部）")
     notes.insert(3, "分数信号：" + "，".join(f"{key} {signals.get(key, 0)} 部（{src} 作品 {srcs.get(src, 0)} 部）"
                                           for key, src in SIGNALS.items()))
+    notes.insert(4, f"社区评分 community {signals.get('community', 0)} 部")
     if len(cover_files) > len(covers):
         notes.append(f"有 {len(cover_files) - len(covers)} 张图片没有作品用到")
     return problems, notes

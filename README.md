@@ -27,6 +27,7 @@ data/
 tools/
   build_pack.py    把 data/ 打成数据包
   check_pack.py    按软件导入时的规则检查数据包
+  community.py     把评分提交汇总成社区评分（见「参与评分」）
 ```
 
 字段的意思见[软件仓库](https://github.com/ATGL40/beatrice-library)里的接口说明。`data/` 里不写 `cover`，封面字段由打包脚本生成。
@@ -36,6 +37,8 @@ tools/
 `genres` 是题材标签：只有 DLsite 的作品写，值是 DLsite 题材 id（字符串）的数组，按 DLsite 作品页的顺序；id 对应的日 / 中 / 英名称在 `data/genres.json`（打包时作为顶层 `genres` 写进 catalog.json），名称都取自 DLsite 各语言页面。作品页已经下架、查不到题材的，不写这个字段。
 
 `egs` / `steam` / `followers` 是非 DLsite 作品的分数信号，查不到就不写或填 `null`：商业作品写 `egs`（`{"median": 中央值 0–100, "count": 数据数}`，取自 [ErogameScape](https://erogamescape.dyndns.org/)，经 VNDB 的外链对上作品），Steam 作品写 `steam`（`{"positive": 好评率 %, "reviews": 全语言评测数}`，取自 Steam 商店的评测汇总），Ci-en 作品写 `followers`（创作者在 Ci-en 的关注者数）；FANBOX 不公开数字，不写。
+
+`community` 是社区评分：`{"avg": 平均星级 1–5（两位小数）, "count": 评分人数}`，任何来源的作品都可以有，由 `tools/community.py` 根据大家提交的评分生成，没人评分的作品不写。请不要手改。
 
 ## 自己打包
 
@@ -49,6 +52,29 @@ py tools/check_pack.py dist/碧翠子禁书库数据包-<日期>.zip
 ```
 
 封面文件夹里的图片按「作品 id + .jpg/.jpeg/.png/.webp」命名，比如 `RJ124341.jpg`。找得到的才会写进包。`--extra` 的文件格式是 `{"games": [作品…], "rankings": {"榜单 id": [条目…]}}`，作品并进对应分类，榜单条目按 `rank` 插进 `data/rankings.json` 里同 id 的榜单。macOS / Linux 把 `py` 换成 `python3`。
+
+## 参与评分
+
+软件不联网。想让自己的星级算进社区评分的话：
+
+1. 在软件里导出「提交用的评分」文件。文件里只有作品 id 和 1–5 的星级，没有名字、评论和其他标记：
+   ```json
+   {"kind": "beatrice-ratings-submission", "version": 1, "app": "软件版本", "catalog": "资料日期", "ratings": {"RJ01004084": 5}}
+   ```
+2. 在本仓库[新建 issue](https://github.com/ATGL40/beatrice-library-data/issues/new/choose)，选「提交评分 / Submit ratings」，把文件内容整个粘贴进去，勾上同意，提交。
+
+- **公开的只有汇总：**每部作品的平均星级和人数，写进 `data/` 的 `community` 字段，随数据包发布，授权同其他资料（ODbL 1.0）。单份提交不进仓库。注意 issue 本身是公开的，贴进去的内容别人看得到，所以请用提交用的文件，不要贴普通导出的评分文件（里面有名字和评论）。
+- **一个账号一份：**同一个 GitHub 账号再提交，新的顶掉旧的。
+- 资料里没有的作品、不是 1–5 的分数会被丢掉；超过 2,000 条、或 30 条以上几乎全是同一个星级的提交，当成刷分不算。
+
+维护者汇总：把私下收到的文件放进 `submissions/`（不进仓库），文件名第一个点之前的部分算一个人，同一个人取修改时间最新的文件；然后运行
+
+```
+py tools/community.py --dry-run --from-github   # 先看统计；--from-github 读带 ratings 标签的 issue（只读，要登录 gh，--gh 指定路径）
+py tools/community.py --from-github             # 写进 data/
+```
+
+不想算进去的 issue 加上 `invalid` 标签。
 
 ## 修正资料
 
@@ -87,5 +113,6 @@ Catalog data for **Beatrice Library** (碧翠子禁书库), an offline desktop m
 - **Text packs only:** released packs contain `catalog.json` only. Cover images are copyrighted by their owners and are never stored or distributed here. `tools/build_pack.py --covers <dir>` builds a pack with your own local covers (`<id>.jpg|jpeg|png|webp`); keep such packs to yourself. `--extra <file.json>` merges extra local entries (`{"games": [...], "rankings": {"<list id>": [items...]}}`) into the build.
 - **Build / check:** `python3 tools/build_pack.py` writes `dist/碧翠子禁书库数据包-<updated>.zip`; `python3 tools/check_pack.py <pack.zip> [--min-updated YYYY-MM-DD]` validates it with the same rules as the app's importer. Python 3.9+, no dependencies.
 - **Contribute:** edit `data/*.json` (one file per category, sorted by id, no `cover` field), bump `updated` in `data/meta.json`, run both scripts, open a pull request. No images, please. Every work has `src` (`dlsite` / `fanza` / `commercial` / `steam` / `cien` / `fanbox`); DLsite works carry their store `url` and `cien` / `fanbox` works their support-page `url`; other sources leave `url` out and set `rate` / `dl` / `rc` to `null`; `also` (optional array) lists other storefronts the work is on. `genres` (DLsite works only) is an array of DLsite genre ids (strings, in the order shown on the work page); `data/genres.json` maps each id to its ja / zh / en name as DLsite shows it, and is emitted as the top-level `genres` object of catalog.json. Score signals for non-DLsite works (omit or `null` when unknown): commercial works carry `egs` (`{"median": 0–100, "count": n}`, the ErogameScape median score and number of ratings, matched via VNDB's external links), Steam works `steam` (`{"positive": percent, "reviews": n}`, all-language totals from the Steam store review summary), Ci-en works `followers` (the creator's Ci-en follower count); FANBOX shows no counts, so none.
+- **Contribute ratings:** the app never goes online. Export the ratings-submission file from the app (work ids and 1–5 stars only; no name, no notes, no other marks): `{"kind": "beatrice-ratings-submission", "version": 1, "app": "<app version>", "catalog": "<data date>", "ratings": {"RJ01004084": 5}}`. Then [open an issue](https://github.com/ATGL40/beatrice-library-data/issues/new/choose) with the 「提交评分 / Submit ratings」 form, paste the whole file, tick the consent box and submit. Only aggregates are published: each work's average stars and number of raters, written to its `community` field (`{"avg": 1–5, two decimals, "count": n}`) and shipped in the packs under ODbL 1.0; individual submissions are never committed (the issue itself is public, so paste the submission file, not a normal ratings export, which contains your name and notes). One submission per GitHub account: a newer one replaces the older one. Unknown work ids and scores outside 1–5 are dropped; submissions with more than 2,000 ratings, or 30+ ratings that are ≥95% the same star value, are treated as spam. Maintainers run `python3 tools/community.py --dry-run --from-github` (read-only `gh` access to issues labelled `ratings`; issues labelled `invalid` are skipped), then without `--dry-run` to write `data/`; files received privately go in `submissions/` (gitignored), one person per file-name key (the part before the first dot), newest modification time wins.
 - **Sources:** product info from [DLsite](https://www.dlsite.com/), commercial titles from public [ErogameScape](https://erogamescape.dyndns.org/) / [VNDB](https://vndb.org/) data, Steam titles from the Steam store, in-development works from public [Ci-en](https://ci-en.net/) / [pixivFANBOX](https://www.fanbox.cc/) pages; rankings from [ErogameScape](https://erogamescape.dyndns.org/) (yearly median score lists) and [VNDB](https://vndb.org/) (via the official API; VNDB data is licensed under [ODbL](https://vndb.org/d17)). Chinese/English names and short notes are written by the maintainer.
 - **License:** data under the [Open Database License 1.0](https://opendatacommons.org/licenses/odbl/1-0/) (see [LICENSE](LICENSE)); scripts in `tools/` under MIT (see [tools/LICENSE](tools/LICENSE)). Maintainer: [ATGL40](https://github.com/ATGL40).

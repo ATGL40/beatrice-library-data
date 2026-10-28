@@ -2,3 +2,4 @@ dist/
 covers/
 *.zip
 __pycache__/
+submissions/
