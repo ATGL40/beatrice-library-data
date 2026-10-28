@@ -91,8 +91,8 @@ py tools/community.py --from-github             # 写进 data/
 
 - 作品资料（名称、社团、发售日期、评分、评分人数、销量、商店页链接）：[DLsite](https://www.dlsite.com/)；商业作品来自 [ErogameScape](https://erogamescape.dyndns.org/) 和 [VNDB](https://vndb.org/) 的公开资料，Steam 作品来自 Steam 商店页，开发中的作品来自 [Ci-en](https://ci-en.net/) 和 [pixivFANBOX](https://www.fanbox.cc/) 的公开页面。中文名、英文名和一句话简介由维护者整理。
 - 民间榜单：
-  - [ErogameScape -エロゲー批評空間-](https://erogamescape.dyndns.org/) 的年度中央値排行（18禁・商業 / 18禁・同人），2021–2025 年各取前 20。
-  - [VNDB (The Visual Novel Database)](https://vndb.org/) 的评分排行，经 [VNDB 官方 API](https://api.vndb.org/kana) 查询，2021–2025 年各取前 20。VNDB 的数据以 [ODbL](https://vndb.org/d17) 授权。
+  - [ErogameScape -エロゲー批評空間-](https://erogamescape.dyndns.org/) 的年度中央値排行（18禁・商業 / 18禁・同人），2016–2025 年各取前 20。
+  - [VNDB (The Visual Novel Database)](https://vndb.org/) 的评分排行，经 [VNDB 官方 API](https://api.vndb.org/kana) 查询，2016–2025 年各取前 20。VNDB 的数据以 [ODbL](https://vndb.org/d17) 授权。
 
 榜单的具体条件写在 `data/rankings.json` 每个榜单的 `note` 里。
 

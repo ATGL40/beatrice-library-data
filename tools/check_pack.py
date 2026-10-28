@@ -226,7 +226,8 @@ def check(path, min_updated):
                 problems.append(f"榜单 {rid} 有条目 url 不是 https：{it['url']!r}")
             if it.get("rj") is not None:
                 rk_rj += 1
-                if not re.fullmatch(r"RJ\d+", str(it["rj"])):
+                # rj 是作品 id（RJ 号、vndb-v…、steam-… 都行），软件按原样去对作品，超过 40 个字符会被截掉
+                if not (isinstance(it["rj"], str) and len(it["rj"]) <= 40 and NAME_OK.fullmatch(it["rj"])):
                     problems.append(f"榜单 {rid} 有 rj 格式不对：{it['rj']!r}")
                 elif it["rj"] in id_set:
                     rk_hit += 1

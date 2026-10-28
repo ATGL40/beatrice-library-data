@@ -1,5 +1,1855 @@
 [
   {
+    "id": "egs-commercial-2016",
+    "name": "ErogameScape 中央値順（18禁・商業）",
+    "source": "ErogameScape -エロゲー批評空間-",
+    "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/toukei_year_median.php?year=2016&erogame=t&count=10",
+    "year": 2016,
+    "kind": "score",
+    "note": "批評空間用户打分（0–100）的中央值排序；条件：该年发售、18禁、数据数≥10，从「18禁のみ」表中去掉同人作品后取前20；同分时按数据数多者在前（照页面原顺序）；批評空間的「18禁」标记里也含少数全年龄重制/主机版（如月姫2021），照原样保留",
+    "items": [
+      {
+        "rank": 1,
+        "title": "穢翼のユースティア ～新装版～",
+        "rj": "vndb-v3770",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24442"
+      },
+      {
+        "rank": 2,
+        "title": "BALDR HEART",
+        "rj": "vndb-v18783",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=23035"
+      },
+      {
+        "rank": 3,
+        "title": "真剣で私に恋しなさい! A",
+        "rj": "vndb-v20604",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24039"
+      },
+      {
+        "rank": 4,
+        "title": "カタハネ ―An' call Belle―",
+        "rj": "vndb-v22",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=23615"
+      },
+      {
+        "rank": 5,
+        "title": "三射面談 ～連鎖する恥辱・調教の学園～ インモラルエディション",
+        "rj": "vndb-v6357",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24460"
+      },
+      {
+        "rank": 6,
+        "title": "アマツツミ",
+        "rj": "vndb-v18852",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=23116"
+      },
+      {
+        "rank": 7,
+        "title": "あけいろ怪奇譚",
+        "rj": "vndb-v18495",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=22473"
+      },
+      {
+        "rank": 8,
+        "title": "凍京NECRO",
+        "rj": "vndb-v13666",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=19650"
+      },
+      {
+        "rank": 9,
+        "title": "銀色、遥か",
+        "rj": "vndb-v18778",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=22258"
+      },
+      {
+        "rank": 10,
+        "title": "戦国†恋姫X ～乙女絢爛☆戦国絵巻～",
+        "rj": "vndb-v13188",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=21428"
+      },
+      {
+        "rank": 11,
+        "title": "フレラバ ～Friend to Lover～ HD Renewal Edition",
+        "rj": "vndb-v11856",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=23571"
+      },
+      {
+        "rank": 12,
+        "title": "WIZARD LINKS",
+        "rj": "vndb-v17828",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=22166"
+      },
+      {
+        "rank": 13,
+        "title": "無限煉姦 ERE",
+        "rj": "vndb-v8311",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=23831"
+      },
+      {
+        "rank": 14,
+        "title": "ノラと皇女と野良猫ハート",
+        "rj": "vndb-v18148",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=22474"
+      },
+      {
+        "rank": 15,
+        "title": "千の刃濤、桃花染の皇姫",
+        "rj": "vndb-v15708",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=20967"
+      },
+      {
+        "rank": 16,
+        "title": "Re:LieF ～親愛なるあなたへ～",
+        "rj": "vndb-v19587",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=23563"
+      },
+      {
+        "rank": 17,
+        "title": "乙女理論とその後の周辺 -Belle Epoque-",
+        "rj": "vndb-v18130",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=22057"
+      },
+      {
+        "rank": 18,
+        "title": "シンソウノイズ ～受信探偵の事件簿～",
+        "rj": "vndb-v19684",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=23974"
+      },
+      {
+        "rank": 19,
+        "title": "見上げてごらん、夜空の星を FINE DAYS",
+        "rj": "vndb-v18907",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=23222"
+      },
+      {
+        "rank": 20,
+        "title": "死に逝く君、館に芽吹く憎悪",
+        "rj": "vndb-v19233",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=23562"
+      }
+    ]
+  },
+  {
+    "id": "egs-doujin-2016",
+    "name": "ErogameScape 中央値順（18禁・同人）",
+    "source": "ErogameScape -エロゲー批評空間-",
+    "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/toukei_year_median.php?year=2016&erogame=t&coterie=t&count=10",
+    "year": 2016,
+    "kind": "score",
+    "note": "批評空間用户打分（0–100）的中央值排序；条件：该年发售、18禁、同人、数据数≥10，取前20；同分时照页面原顺序",
+    "items": [
+      {
+        "rank": 1,
+        "title": "カンダタ物語3",
+        "rj": "RJ185466",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24052"
+      },
+      {
+        "rank": 2,
+        "title": "King Exit",
+        "rj": "RJ190251",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24893"
+      },
+      {
+        "rank": 3,
+        "title": "色欲の小毬荘 ～千星編～",
+        "rj": "RJ181514",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24025"
+      },
+      {
+        "rank": 4,
+        "title": "古書店街の橋姫",
+        "rj": "RJ183696",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24332"
+      },
+      {
+        "rank": 5,
+        "title": "初代露出系魔法少女 ルナリィ☆リリィ",
+        "rj": "RJ179929",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=22312"
+      },
+      {
+        "rank": 6,
+        "title": "ネノトリ",
+        "rj": "RJ179700",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24556"
+      },
+      {
+        "rank": 7,
+        "title": "ダンジョンタウン ～遺跡の森と夢魔の薬～",
+        "rj": "RJ182003",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24509"
+      },
+      {
+        "rank": 8,
+        "title": "退魔巫女遊戯",
+        "rj": "RJ176344",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24113"
+      },
+      {
+        "rank": 9,
+        "title": "兄嫁京香さんとその母千佳子さん ～美人妻と美熟母といっしょ❤︎～ 兄嫁の母千佳子編",
+        "rj": "RJ184231",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=23327"
+      },
+      {
+        "rank": 10,
+        "title": "WE ARE BANDITS!! ウィーアーバンディッツ ～恥辱に手折られし戦場の花～",
+        "rj": "RJ180795",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=25225"
+      },
+      {
+        "rank": 12,
+        "title": "ビフレストの魔物娼館",
+        "rj": "RJ176115",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=25327"
+      },
+      {
+        "rank": 13,
+        "title": "ジャッジメントあいらんど -Judgement Island-",
+        "rj": "RJ191640",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=22242"
+      },
+      {
+        "rank": 14,
+        "title": "パンツ泥棒たちとスク水マーメイド",
+        "rj": "RJ172521",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24121"
+      },
+      {
+        "rank": 15,
+        "title": "小悪魔シェリー2 ～新婚生活編～",
+        "rj": "RJ185244",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24248"
+      },
+      {
+        "rank": 18,
+        "title": "バカだけどチンチンしゃぶるのだけはじょうずなちーちゃん",
+        "rj": "RJ181074",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=23710"
+      },
+      {
+        "rank": 20,
+        "title": "さよなら、うつつ。 ～金で買える程度のハッピーデッドエンド追加版～",
+        "rj": "RJ171370",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=22996"
+      }
+    ]
+  },
+  {
+    "id": "vndb-2016",
+    "name": "VNDB 评分排行（含H内容）",
+    "source": "VNDB (The Visual Novel Database)",
+    "url": "https://api.vndb.org/kana",
+    "year": 2016,
+    "kind": "score",
+    "note": "VNDB用户打分（10–100，贝叶斯加权）排序，用官方API查询：首发在该年、至少一个版本标记含H内容、投票数≥30，取前20；只收视觉小说类，基本不含H-RPG；数据ODbL授权，需注明来源",
+    "items": [
+      {
+        "rank": 1,
+        "title": "古書店街の橋姫",
+        "rj": "RJ183696",
+        "url": "https://vndb.org/v17018"
+      },
+      {
+        "rank": 2,
+        "title": "真剣で私に恋しなさい！A-5",
+        "rj": "vndb-v20602",
+        "url": "https://vndb.org/v20602"
+      },
+      {
+        "rank": 3,
+        "title": "銀色、遥か",
+        "rj": "vndb-v18778",
+        "url": "https://vndb.org/v18778"
+      },
+      {
+        "rank": 4,
+        "title": "アマカノ+",
+        "rj": "vndb-v19810",
+        "url": "https://vndb.org/v19810"
+      },
+      {
+        "rank": 5,
+        "title": "巨乳ファンタジー外伝２after -オスタシアの野望-",
+        "rj": "vndb-v19494",
+        "url": "https://vndb.org/v19494"
+      },
+      {
+        "rank": 6,
+        "title": "Dies irae ~Interview with Kaziklu Bey~",
+        "rj": "vndb-v18685",
+        "url": "https://vndb.org/v18685"
+      },
+      {
+        "rank": 7,
+        "title": "あけいろ怪奇譚",
+        "rj": "vndb-v18495",
+        "url": "https://vndb.org/v18495"
+      },
+      {
+        "rank": 8,
+        "title": "ユニオリズム・カルテット A3-DAYS",
+        "rj": "vndb-v18882",
+        "url": "https://vndb.org/v18882"
+      },
+      {
+        "rank": 9,
+        "title": "妻みぐい3",
+        "rj": "vndb-v18486",
+        "url": "https://vndb.org/v18486"
+      },
+      {
+        "rank": 10,
+        "title": "BALDR HEART",
+        "rj": "vndb-v18783",
+        "url": "https://vndb.org/v18783"
+      },
+      {
+        "rank": 11,
+        "title": "炎の孕ませおっぱい★エロアプリ学園",
+        "rj": "vndb-v19345",
+        "url": "https://vndb.org/v19345"
+      },
+      {
+        "rank": 12,
+        "title": "千の刃濤、桃花染の皇姫",
+        "rj": "vndb-v15708",
+        "url": "https://vndb.org/v15708"
+      },
+      {
+        "rank": 13,
+        "title": "真剣で私に恋しなさい！Ａ プラスディスク",
+        "rj": "vndb-v20604",
+        "url": "https://vndb.org/v20604"
+      },
+      {
+        "rank": 14,
+        "title": "에덴의 너머",
+        "rj": "vndb-v19726",
+        "url": "https://vndb.org/v19726"
+      },
+      {
+        "rank": 15,
+        "title": "凍京NECRO＜トウキョウ・ネクロ＞",
+        "rj": "vndb-v13666",
+        "url": "https://vndb.org/v13666"
+      },
+      {
+        "rank": 16,
+        "title": "カノジョ＊ステップ",
+        "rj": "vndb-v19347",
+        "url": "https://vndb.org/v19347"
+      },
+      {
+        "rank": 17,
+        "title": "アマツツミ",
+        "rj": "vndb-v18852",
+        "url": "https://vndb.org/v18852"
+      },
+      {
+        "rank": 18,
+        "title": "フローラル・フローラブ",
+        "rj": "vndb-v18842",
+        "url": "https://vndb.org/v18842"
+      },
+      {
+        "rank": 19,
+        "title": "PURELY×CATION",
+        "rj": "vndb-v18723",
+        "url": "https://vndb.org/v18723"
+      },
+      {
+        "rank": 20,
+        "title": "見上げてごらん、夜空の星を FINE DAYS",
+        "rj": "vndb-v18907",
+        "url": "https://vndb.org/v18907"
+      }
+    ]
+  },
+  {
+    "id": "egs-commercial-2017",
+    "name": "ErogameScape 中央値順（18禁・商業）",
+    "source": "ErogameScape -エロゲー批評空間-",
+    "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/toukei_year_median.php?year=2017&erogame=t&count=10",
+    "year": 2017,
+    "kind": "score",
+    "note": "批評空間用户打分（0–100）的中央值排序；条件：该年发售、18禁、数据数≥10，从「18禁のみ」表中去掉同人作品后取前20；同分时按数据数多者在前（照页面原顺序）；批評空間的「18禁」标记里也含少数全年龄重制/主机版（如月姫2021），照原样保留",
+    "items": [
+      {
+        "rank": 1,
+        "title": "景の海のアペイリア",
+        "rj": "vndb-v20860",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24991"
+      },
+      {
+        "rank": 2,
+        "title": "金色ラブリッチェ",
+        "rj": "vndb-v21852",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=25861"
+      },
+      {
+        "rank": 3,
+        "title": "神様のゲーム －監禁された6人の男女－",
+        "rj": "vndb-v18796",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=23010"
+      },
+      {
+        "rank": 4,
+        "title": "Dies irae ～Acta est Fabula～ HD -Animation Anniversary-",
+        "rj": "vndb-v548",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=25522"
+      },
+      {
+        "rank": 5,
+        "title": "かまいたちの夜 輪廻彩声",
+        "rj": "vndb-v1241",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24488"
+      },
+      {
+        "rank": 6,
+        "title": "ノラと皇女と野良猫ハート2",
+        "rj": "vndb-v19841",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24085"
+      },
+      {
+        "rank": 7,
+        "title": "アオイトリ",
+        "rj": "vndb-v21523",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=25602"
+      },
+      {
+        "rank": 8,
+        "title": "幕末尽忠報国烈士伝 -MIBURO-",
+        "rj": "vndb-v18953",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=23274"
+      },
+      {
+        "rank": 9,
+        "title": "シルヴァリオ トリニティ",
+        "rj": "vndb-v19223",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=23564"
+      },
+      {
+        "rank": 10,
+        "title": "きんとうか",
+        "rj": "vndb-v13882",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=21529"
+      },
+      {
+        "rank": 11,
+        "title": "Making＊Lovers",
+        "rj": "vndb-v21552",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=25613"
+      },
+      {
+        "rank": 12,
+        "title": "水葬銀貨のイストリア",
+        "rj": "vndb-v20471",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24652"
+      },
+      {
+        "rank": 13,
+        "title": "ChronoBox -クロノボックス-",
+        "rj": "vndb-v20144",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24356"
+      },
+      {
+        "rank": 14,
+        "title": "もののあはれは彩の頃。",
+        "rj": "vndb-v20498",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24662"
+      },
+      {
+        "rank": 15,
+        "title": "夜巡る、ボクらの迷子教室",
+        "rj": "vndb-v21405",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=25481"
+      },
+      {
+        "rank": 16,
+        "title": "ゴールデンアワー",
+        "rj": "vndb-v20416",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24449"
+      },
+      {
+        "rank": 17,
+        "title": "美少女万華鏡 -罪と罰の少女-",
+        "rj": "vndb-v19182",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=23528"
+      },
+      {
+        "rank": 18,
+        "title": "天結いキャッスルマイスター",
+        "rj": "vndb-v20418",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24599"
+      },
+      {
+        "rank": 19,
+        "title": "真・恋姫†夢想 -革命- 蒼天の覇王",
+        "rj": "vndb-v18649",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24854"
+      },
+      {
+        "rank": 20,
+        "title": "アマカノ ～Second Season～＋",
+        "rj": "vndb-v21675",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=23565"
+      }
+    ]
+  },
+  {
+    "id": "egs-doujin-2017",
+    "name": "ErogameScape 中央値順（18禁・同人）",
+    "source": "ErogameScape -エロゲー批評空間-",
+    "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/toukei_year_median.php?year=2017&erogame=t&coterie=t&count=10",
+    "year": 2017,
+    "kind": "score",
+    "note": "批評空間用户打分（0–100）的中央值排序；条件：该年发售、18禁、同人、数据数≥10，取前20；同分时照页面原顺序",
+    "items": [
+      {
+        "rank": 1,
+        "title": "もんむす・くえすと! ぱらどっくすRPG 中章",
+        "rj": "RJ201109",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=25414"
+      },
+      {
+        "rank": 2,
+        "title": "戦国の黒百合 ～ふたなり姫と忍ぶ少女達～",
+        "rj": "RJ192704",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=22988"
+      },
+      {
+        "rank": 3,
+        "title": "プロナント・シンフォニー",
+        "rj": "RJ196613",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=25516"
+      },
+      {
+        "rank": 4,
+        "title": "BLACKSOULS -黒の童話と五魔姫-",
+        "rj": "RJ203687",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=25740"
+      },
+      {
+        "rank": 5,
+        "title": "ぜんがく! ～全裸登校週間特別対策合宿～",
+        "rj": "RJ203770",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=22311"
+      },
+      {
+        "rank": 6,
+        "title": "湯けむり人妻慕情旅 ～ゆきずりの関係を結ぶ女たち～",
+        "rj": "RJ208156",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=25820"
+      },
+      {
+        "rank": 7,
+        "title": "グール×グーラ・コンパーニャ",
+        "rj": "RJ179471",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24861"
+      },
+      {
+        "rank": 8,
+        "title": "魔剣士リーネ2",
+        "rj": "RJ194521",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=20090"
+      },
+      {
+        "rank": 9,
+        "title": "親友の母 久美子 ～穴の位置から孕ませ方まで全て彼女が教えてくれた～",
+        "rj": "RJ213180",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=25627"
+      },
+      {
+        "rank": 10,
+        "title": "涙声のギニヨル",
+        "rj": "RJ170185",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=23025"
+      },
+      {
+        "rank": 11,
+        "title": "ナコの魔法と純欲の怪人",
+        "rj": "RJ205518",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=25717"
+      },
+      {
+        "rank": 12,
+        "title": "巫女ノカナタ 阿国神社異聞録 ～廻ノ章～",
+        "rj": "RJ215030",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=26288"
+      },
+      {
+        "rank": 13,
+        "title": "遊郭に売られた俺の彼女",
+        "rj": "RJ195414",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=25034"
+      },
+      {
+        "rank": 14,
+        "title": "ニルハナ",
+        "rj": "RJ215260",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=22733"
+      },
+      {
+        "rank": 15,
+        "title": "性拓三妹 ～ポルルカ色欲物語～",
+        "rj": "RJ195746",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=25612"
+      },
+      {
+        "rank": 16,
+        "title": "SHRIFT",
+        "rj": "RJ209839",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=32133"
+      },
+      {
+        "rank": 17,
+        "title": "民間正義会社2",
+        "rj": "RJ201363",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=25426"
+      },
+      {
+        "rank": 18,
+        "title": "ワルキューレAスレイブ",
+        "rj": "RJ197770",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24828"
+      },
+      {
+        "rank": 19,
+        "title": "ネコぱら Vol.3 ネコたちのアロマティゼ",
+        "rj": "RJ200500",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24782"
+      }
+    ]
+  },
+  {
+    "id": "vndb-2017",
+    "name": "VNDB 评分排行（含H内容）",
+    "source": "VNDB (The Visual Novel Database)",
+    "url": "https://api.vndb.org/kana",
+    "year": 2017,
+    "kind": "score",
+    "note": "VNDB用户打分（10–100，贝叶斯加权）排序，用官方API查询：首发在该年、至少一个版本标记含H内容、投票数≥30，取前20；只收视觉小说类，基本不含H-RPG；数据ODbL授权，需注明来源",
+    "items": [
+      {
+        "rank": 1,
+        "title": "もんむす・くえすと！　ぱらどっくすRPG中章",
+        "rj": "RJ201109",
+        "url": "https://vndb.org/v21267"
+      },
+      {
+        "rank": 2,
+        "title": "アマカノ～Second Season～＋",
+        "rj": "vndb-v21675",
+        "url": "https://vndb.org/v21675"
+      },
+      {
+        "rank": 3,
+        "title": "幕末尽忠報国烈士伝　MIBURO",
+        "rj": "vndb-v18953",
+        "url": "https://vndb.org/v18953"
+      },
+      {
+        "rank": 4,
+        "title": "真・恋姫†夢想-革命- 蒼天の覇王",
+        "rj": "vndb-v18649",
+        "url": "https://vndb.org/v18649"
+      },
+      {
+        "rank": 5,
+        "title": "シルヴァリオ トリニティ",
+        "rj": "vndb-v19223",
+        "url": "https://vndb.org/v19223"
+      },
+      {
+        "rank": 6,
+        "title": "きんとうか",
+        "rj": "vndb-v13882",
+        "url": "https://vndb.org/v13882"
+      },
+      {
+        "rank": 7,
+        "title": "金色ラブリッチェ",
+        "rj": "vndb-v21852",
+        "url": "https://vndb.org/v21852"
+      },
+      {
+        "rank": 8,
+        "title": "もののあはれは彩の頃。",
+        "rj": "vndb-v20498",
+        "url": "https://vndb.org/v20498"
+      },
+      {
+        "rank": 9,
+        "title": "景の海のアペイリア",
+        "rj": "vndb-v20860",
+        "url": "https://vndb.org/v20860"
+      },
+      {
+        "rank": 10,
+        "title": "ようこそ！ スケベエルフの森へ",
+        "rj": "vndb-v20464",
+        "url": "https://vndb.org/v20464"
+      },
+      {
+        "rank": 11,
+        "title": "ノラと皇女と野良猫ハート2",
+        "rj": "vndb-v19841",
+        "url": "https://vndb.org/v19841"
+      },
+      {
+        "rank": 12,
+        "title": "D.C.Ⅲ DreamDays～ダ・カーポⅢ～ドリームデイズ",
+        "rj": "vndb-v21192",
+        "url": "https://vndb.org/v21192"
+      },
+      {
+        "rank": 13,
+        "title": "アストラエアの白き永遠 Finale -白き星の夢-",
+        "rj": "vndb-v19294",
+        "url": "https://vndb.org/v19294"
+      },
+      {
+        "rank": 14,
+        "title": "新妻LOVELY×CATION",
+        "rj": "vndb-v20406",
+        "url": "https://vndb.org/v20406"
+      },
+      {
+        "rank": 15,
+        "title": "巨乳ファンタジー3 if",
+        "rj": "vndb-v21528",
+        "url": "https://vndb.org/v21528"
+      },
+      {
+        "rank": 16,
+        "title": "しごカレ ～エッチな女子大生とドキ×２ラブレッスン！！～",
+        "rj": "vndb-v21474",
+        "url": "https://vndb.org/v21474"
+      },
+      {
+        "rank": 17,
+        "title": "は～とふるママン",
+        "rj": "vndb-v20161",
+        "url": "https://vndb.org/v20161"
+      },
+      {
+        "rank": 18,
+        "title": "ばくあね２ ～弟、いっぱいしぼっちゃうぞ！～",
+        "rj": "vndb-v20367",
+        "url": "https://vndb.org/v20367"
+      },
+      {
+        "rank": 19,
+        "title": "水葬銀貨のイストリア",
+        "rj": "vndb-v20471",
+        "url": "https://vndb.org/v20471"
+      },
+      {
+        "rank": 20,
+        "title": "天結いキャッスルマイスター",
+        "rj": "vndb-v20418",
+        "url": "https://vndb.org/v20418"
+      }
+    ]
+  },
+  {
+    "id": "egs-commercial-2018",
+    "name": "ErogameScape 中央値順（18禁・商業）",
+    "source": "ErogameScape -エロゲー批評空間-",
+    "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/toukei_year_median.php?year=2018&erogame=t&count=10",
+    "year": 2018,
+    "kind": "score",
+    "note": "批評空間用户打分（0–100）的中央值排序；条件：该年发售、18禁、数据数≥10，从「18禁のみ」表中去掉同人作品后取前20；同分时按数据数多者在前（照页面原顺序）；批評空間的「18禁」标记里也含少数全年龄重制/主机版（如月姫2021），照原样保留",
+    "items": [
+      {
+        "rank": 1,
+        "title": "ランス10",
+        "rj": "vndb-v20802",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=20764"
+      },
+      {
+        "rank": 2,
+        "title": "WHITE ALBUM2 EXTENDED EDITION",
+        "rj": "vndb-v16493",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=26206"
+      },
+      {
+        "rank": 3,
+        "title": "素晴らしき日々 ～不連続存在～ フルボイスHD版",
+        "rj": "vndb-v3144",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=26680"
+      },
+      {
+        "rank": 4,
+        "title": "蒼の彼方のフォーリズム Perfect Edition",
+        "rj": "vndb-v12849",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=26972"
+      },
+      {
+        "rank": 5,
+        "title": "VenusBlood:Lagoon",
+        "rj": "vndb-v23125",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=26878"
+      },
+      {
+        "rank": 6,
+        "title": "抜きゲーみたいな島に住んでる貧乳はどうすりゃいいですか?",
+        "rj": "vndb-v22899",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=26724"
+      },
+      {
+        "rank": 7,
+        "title": "アメイジング・グレイス -What color is your attribute?-",
+        "rj": "vndb-v23448",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27059"
+      },
+      {
+        "rank": 8,
+        "title": "世界でいちばんNG(ダメ)な恋 ハピネスモーション",
+        "rj": "vndb-v415",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=26110"
+      },
+      {
+        "rank": 9,
+        "title": "戯画ロイヤルスウィートコレクション",
+        "rj": "vndb-v682",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27150"
+      },
+      {
+        "rank": 10,
+        "title": "sweet pool リマスター版",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=26695"
+      },
+      {
+        "rank": 11,
+        "title": "ハロー・レディ! -Superior Entelecheia-",
+        "rj": "vndb-v13631",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27275"
+      },
+      {
+        "rank": 12,
+        "title": "コイカツ!",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=26529"
+      },
+      {
+        "rank": 13,
+        "title": "屋上の百合霊さん フルコーラス",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=25982"
+      },
+      {
+        "rank": 14,
+        "title": "カスタムオーダーメイド3D2+ GP-01",
+        "rj": "vndb-v26900",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27506"
+      },
+      {
+        "rank": 15,
+        "title": "9-nine- そらいろそらうたそらのおと",
+        "rj": "vndb-v21668",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=25689"
+      },
+      {
+        "rank": 16,
+        "title": "バタフライシーカー",
+        "rj": "vndb-v22027",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=26026"
+      },
+      {
+        "rank": 17,
+        "title": "宿星のガールフレンド -the destiny star of girlfriend-",
+        "rj": "vndb-v22880",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=26727"
+      },
+      {
+        "rank": 18,
+        "title": "空に刻んだパラレログラム",
+        "rj": "vndb-v23908",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27146"
+      },
+      {
+        "rank": 19,
+        "title": "Erewhon",
+        "rj": "vndb-v22636",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=26604"
+      },
+      {
+        "rank": 20,
+        "title": "封緘のグラセスタ",
+        "rj": "vndb-v23199",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=26907"
+      }
+    ]
+  },
+  {
+    "id": "egs-doujin-2018",
+    "name": "ErogameScape 中央値順（18禁・同人）",
+    "source": "ErogameScape -エロゲー批評空間-",
+    "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/toukei_year_median.php?year=2018&erogame=t&coterie=t&count=10",
+    "year": 2018,
+    "kind": "score",
+    "note": "批評空間用户打分（0–100）的中央值排序；条件：该年发售、18禁、同人、数据数≥10，取前20；同分时照页面原顺序",
+    "items": [
+      {
+        "rank": 1,
+        "title": "BLACKSOULSII -愛しき貴方へ贈る不思議の国-",
+        "rj": "RJ237469",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27468"
+      },
+      {
+        "rank": 2,
+        "title": "ラッキードッグ1 + bad egg",
+        "rj": "RJ299876",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27325"
+      },
+      {
+        "rank": 3,
+        "title": "ゾンビのあふれた世界で俺だけが襲われない Vol.3",
+        "rj": "RJ222970",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=26667"
+      },
+      {
+        "rank": 4,
+        "title": "ゾンビのあふれた世界で俺だけが襲われない Vol.2",
+        "rj": "RJ222062",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=26666"
+      },
+      {
+        "rank": 5,
+        "title": "インサルトオーダー ～生イキにゃん娘の快堕メニュー～",
+        "rj": "RJ220246",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27319"
+      },
+      {
+        "rank": 6,
+        "title": "ぜんがく! 紗奈アペンド",
+        "rj": "RJ222431",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=26691"
+      },
+      {
+        "rank": 7,
+        "title": "紅獄の剣士ティーナ",
+        "rj": "RJ228892",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=28322"
+      },
+      {
+        "rank": 8,
+        "title": "ドラゴンアカデミー3",
+        "rj": "RJ234249",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27246"
+      },
+      {
+        "rank": 9,
+        "title": "戦乱のヘキサ",
+        "rj": "RJ222686",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=26809"
+      },
+      {
+        "rank": 10,
+        "title": "ダンジョンタウンEX ～夜魔と淫魔の聖誕祭～",
+        "rj": "RJ211260",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=26123"
+      },
+      {
+        "rank": 11,
+        "title": "ナイトメアガールズ",
+        "rj": "RJ215006",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=26259"
+      },
+      {
+        "rank": 12,
+        "title": "蛇のシンデレラ",
+        "rj": "RJ218671",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=26646"
+      },
+      {
+        "rank": 13,
+        "title": "魔界国フレルハデス ～魔界の女を嫁にする!～",
+        "rj": "RJ214761",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29909"
+      },
+      {
+        "rank": 14,
+        "title": "1room -家出少女-",
+        "rj": "RJ228027",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27098"
+      },
+      {
+        "rank": 15,
+        "title": "GranEndeII",
+        "rj": "RJ212283",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=26077"
+      },
+      {
+        "rank": 17,
+        "title": "くすあは ～女の子に嘲笑され搾られたひと夏～",
+        "rj": "RJ224037",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=26807"
+      },
+      {
+        "rank": 18,
+        "title": "ゆずが地球にいた頃",
+        "rj": "RJ240388",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27519"
+      },
+      {
+        "rank": 19,
+        "title": "世界一、受けたい虚○を。-Really, Another Imaginary. -",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24917"
+      }
+    ]
+  },
+  {
+    "id": "vndb-2018",
+    "name": "VNDB 评分排行（含H内容）",
+    "source": "VNDB (The Visual Novel Database)",
+    "url": "https://api.vndb.org/kana",
+    "year": 2018,
+    "kind": "score",
+    "note": "VNDB用户打分（10–100，贝叶斯加权）排序，用官方API查询：首发在该年、至少一个版本标记含H内容、投票数≥30，取前20；只收视觉小说类，基本不含H-RPG；数据ODbL授权，需注明来源",
+    "items": [
+      {
+        "rank": 1,
+        "title": "Rance Ⅹ -決戦-",
+        "rj": "vndb-v20802",
+        "url": "https://vndb.org/v20802"
+      },
+      {
+        "rank": 2,
+        "title": "ラッキードッグ１+bad egg",
+        "rj": "RJ299876",
+        "url": "https://vndb.org/v4918"
+      },
+      {
+        "rank": 3,
+        "title": "真・恋姫†夢想-革命- 孫呉の血脈",
+        "rj": "vndb-v20591",
+        "url": "https://vndb.org/v20591"
+      },
+      {
+        "rank": 4,
+        "title": "VenusBlood:Lagoon",
+        "rj": "vndb-v23125",
+        "url": "https://vndb.org/v23125"
+      },
+      {
+        "rank": 6,
+        "title": "巨乳ファンタジー３if-アルテミスの矢・メデューサの願い-",
+        "rj": "vndb-v22581",
+        "url": "https://vndb.org/v22581"
+      },
+      {
+        "rank": 7,
+        "title": "支配の教壇",
+        "rj": "vndb-v22697",
+        "url": "https://vndb.org/v22697"
+      },
+      {
+        "rank": 8,
+        "title": "カスタムオーダーメイド3D2",
+        "rj": "vndb-v26900",
+        "url": "https://vndb.org/v26900"
+      },
+      {
+        "rank": 9,
+        "title": "Love×Holic ～魅惑の乙女と白濁カンケイ～",
+        "rj": "vndb-v22713",
+        "url": "https://vndb.org/v22713"
+      },
+      {
+        "rank": 10,
+        "title": "9-nine-そらいろそらうたそらのおと",
+        "rj": "vndb-v21668",
+        "url": "https://vndb.org/v21668"
+      },
+      {
+        "rank": 11,
+        "title": "抜きゲーみたいな島に住んでる貧乳はどうすりゃいいですか？",
+        "rj": "vndb-v22899",
+        "url": "https://vndb.org/v22899"
+      },
+      {
+        "rank": 12,
+        "title": "封緘のグラセスタ",
+        "rj": "vndb-v23199",
+        "url": "https://vndb.org/v23199"
+      },
+      {
+        "rank": 13,
+        "title": "パート妻の情事 ～熟した艶と蕩ける吐息～",
+        "rj": "RJ239450",
+        "url": "https://vndb.org/v24716"
+      },
+      {
+        "rank": 14,
+        "title": "蛇のシンデレラ",
+        "rj": "vndb-v21742",
+        "url": "https://vndb.org/v21742"
+      },
+      {
+        "rank": 15,
+        "title": "贄の町",
+        "rj": "vndb-v22741",
+        "url": "https://vndb.org/v22741"
+      },
+      {
+        "rank": 16,
+        "title": "ぱいずり♥フィアンセ 「坊ちゃま、今日はどのおっぱいを召し上がりますか？」",
+        "rj": "vndb-v23169",
+        "url": "https://vndb.org/v23169"
+      },
+      {
+        "rank": 17,
+        "title": "見上げてごらん、夜空の星を Interstellar Focus",
+        "rj": "vndb-v22303",
+        "url": "https://vndb.org/v22303"
+      },
+      {
+        "rank": 18,
+        "title": "ままはは2",
+        "rj": "vndb-v23543",
+        "url": "https://vndb.org/v23543"
+      },
+      {
+        "rank": 19,
+        "title": "冥刻學園 胎動編「お願いします…先生の精液で、私達を孕ませて欲しいんです…♡」",
+        "rj": "vndb-v23985",
+        "url": "https://vndb.org/v23985"
+      },
+      {
+        "rank": 20,
+        "title": "アメイジング・グレイス -What color is your attribute?-",
+        "rj": "vndb-v23448",
+        "url": "https://vndb.org/v23448"
+      }
+    ]
+  },
+  {
+    "id": "egs-commercial-2019",
+    "name": "ErogameScape 中央値順（18禁・商業）",
+    "source": "ErogameScape -エロゲー批評空間-",
+    "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/toukei_year_median.php?year=2019&erogame=t&count=10",
+    "year": 2019,
+    "kind": "score",
+    "note": "批評空間用户打分（0–100）的中央值排序；条件：该年发售、18禁、数据数≥10，从「18禁のみ」表中去掉同人作品后取前20；同分时按数据数多者在前（照页面原顺序）；批評空間的「18禁」标记里也含少数全年龄重制/主机版（如月姫2021），照原样保留",
+    "items": [
+      {
+        "rank": 1,
+        "title": "さくら、もゆ。 -as the Night's, Reincarnation-",
+        "rj": "vndb-v22313",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=26245"
+      },
+      {
+        "rank": 2,
+        "title": "抜きゲーみたいな島に住んでる貧乳はどうすりゃいいですか? 2",
+        "rj": "vndb-v23741",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27720"
+      },
+      {
+        "rank": 3,
+        "title": "殻ノ少女《FULL VOICE HD SIZE EDITION》",
+        "rj": "vndb-v810",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=26999"
+      },
+      {
+        "rank": 4,
+        "title": "星空のメモリア HD -Shooting Star＆Eternal Heart アニバーサリーBOX-",
+        "rj": "vndb-v2959",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=28658"
+      },
+      {
+        "rank": 5,
+        "title": "MUSICUS!",
+        "rj": "vndb-v22783",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=28634"
+      },
+      {
+        "rank": 6,
+        "title": "AI: ソムニウム ファイル",
+        "rj": "vndb-v26532",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27007"
+      },
+      {
+        "rank": 7,
+        "title": "AI: ソムニウム ファイル",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27008"
+      },
+      {
+        "rank": 8,
+        "title": "9-nine- はるいろはるこいはるのかぜ",
+        "rj": "vndb-v23740",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27136"
+      },
+      {
+        "rank": 9,
+        "title": "アオナツライン",
+        "rj": "vndb-v24702",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27418"
+      },
+      {
+        "rank": 10,
+        "title": "月の彼方で逢いましょう",
+        "rj": "vndb-v24803",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27525"
+      },
+      {
+        "rank": 11,
+        "title": "初めての彼女",
+        "rj": "vndb-v24648",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27398"
+      },
+      {
+        "rank": 12,
+        "title": "新妻環 ～環の愛妻日記+ハーレムENDのそれから～",
+        "rj": "vndb-v25750",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27889"
+      },
+      {
+        "rank": 13,
+        "title": "金色ラブリッチェ -Golden Time-",
+        "rj": "vndb-v24717",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27485"
+      },
+      {
+        "rank": 14,
+        "title": "きまぐれテンプテーション",
+        "rj": "vndb-v26000",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=28088"
+      },
+      {
+        "rank": 15,
+        "title": "ソーサレス＊アライヴ! ～the World's End Fallen Star～",
+        "rj": "vndb-v23288",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=26980"
+      },
+      {
+        "rank": 16,
+        "title": "イブニクル2",
+        "rj": "vndb-v23742",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27115"
+      },
+      {
+        "rank": 17,
+        "title": "和香様の座する世界",
+        "rj": "vndb-v24870",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27548"
+      },
+      {
+        "rank": 18,
+        "title": "どっちのiが好きですか？",
+        "rj": "vndb-v25999",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=28075"
+      },
+      {
+        "rank": 19,
+        "title": "Missing-X-Link ～天のゆりかご、伽の花～",
+        "rj": "vndb-v25055",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27638"
+      },
+      {
+        "rank": 20,
+        "title": "もっと!孕ませ!炎のおっぱい超エロ♡アプリ学園!",
+        "rj": "vndb-v25964",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=28072"
+      }
+    ]
+  },
+  {
+    "id": "egs-doujin-2019",
+    "name": "ErogameScape 中央値順（18禁・同人）",
+    "source": "ErogameScape -エロゲー批評空間-",
+    "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/toukei_year_median.php?year=2019&erogame=t&coterie=t&count=10",
+    "year": 2019,
+    "kind": "score",
+    "note": "批評空間用户打分（0–100）的中央值排序；条件：该年发售、18禁、同人、数据数≥10，取前20；同分时照页面原顺序",
+    "items": [
+      {
+        "rank": 1,
+        "title": "神の目のアイオーン ～前編～",
+        "rj": "RJ266972",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=28833"
+      },
+      {
+        "rank": 2,
+        "title": "素晴らしき国家の築き方",
+        "rj": "RJ219681",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27662"
+      },
+      {
+        "rank": 3,
+        "title": "フォーリン・ラビリンス -隷属の少女たち-",
+        "rj": "RJ240457",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=28831"
+      },
+      {
+        "rank": 4,
+        "title": "TS魔法少女なお!2nd!!",
+        "rj": "RJ251926",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27951"
+      },
+      {
+        "rank": 5,
+        "title": "FalseMyth ～謀欲のサクリファイス～",
+        "rj": "RJ249820",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29760"
+      },
+      {
+        "rank": 6,
+        "title": "Ambrosia アンブロシア",
+        "rj": "RJ237060",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29632"
+      },
+      {
+        "rank": 7,
+        "title": "とも鳴りの舟 ～Empty room We onry satisfy～",
+        "rj": "RJ265100",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27592"
+      },
+      {
+        "rank": 8,
+        "title": "ナイトテール",
+        "rj": "RJ231296",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27877"
+      },
+      {
+        "rank": 10,
+        "title": "蒸気都市の探偵少女",
+        "rj": "RJ326502",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27836"
+      },
+      {
+        "rank": 11,
+        "title": "妹! せいかつ ～モノクローム～",
+        "rj": "RJ258445",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=28207"
+      },
+      {
+        "rank": 15,
+        "title": "爆乳エルフ嫁と早漏くん ～催眠寝取られ盗み見録～",
+        "rj": "RJ248754",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29390"
+      },
+      {
+        "rank": 16,
+        "title": "PrincessProject -プリンセスプロジェクト-",
+        "rj": "RJ247298",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27980"
+      },
+      {
+        "rank": 18,
+        "title": "慰愛の詩",
+        "rj": "RJ255900",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=28062"
+      },
+      {
+        "rank": 19,
+        "title": "装煌聖姫イースフィア ～淫虐の洗脳改造～",
+        "rj": "RJ245808",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27594"
+      },
+      {
+        "rank": 20,
+        "title": "クベルの首枷病",
+        "rj": "RJ255342",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29315"
+      }
+    ]
+  },
+  {
+    "id": "vndb-2019",
+    "name": "VNDB 评分排行（含H内容）",
+    "source": "VNDB (The Visual Novel Database)",
+    "url": "https://api.vndb.org/kana",
+    "year": 2019,
+    "kind": "score",
+    "note": "VNDB用户打分（10–100，贝叶斯加权）排序，用官方API查询：首发在该年、至少一个版本标记含H内容、投票数≥30，取前20；只收视觉小说类，基本不含H-RPG；数据ODbL授权，需注明来源",
+    "items": [
+      {
+        "rank": 1,
+        "title": "さくら、もゆ。-as the Night's, Reincarnation-",
+        "rj": "vndb-v22313",
+        "url": "https://vndb.org/v22313"
+      },
+      {
+        "rank": 2,
+        "title": "抜きゲーみたいな島に住んでる貧乳はどうすりゃいいですか？ 2",
+        "rj": "vndb-v23741",
+        "url": "https://vndb.org/v23741"
+      },
+      {
+        "rank": 3,
+        "title": "真・恋姫†夢想-革命- 劉旗の大望",
+        "rj": "vndb-v20592",
+        "url": "https://vndb.org/v20592"
+      },
+      {
+        "rank": 4,
+        "title": "ままごと ～ママとないしょのエッチしましょ～",
+        "rj": "vndb-v26530",
+        "url": "https://vndb.org/v26530"
+      },
+      {
+        "rank": 5,
+        "title": "月の彼方で逢いましょう",
+        "rj": "vndb-v24803",
+        "url": "https://vndb.org/v24803"
+      },
+      {
+        "rank": 6,
+        "title": "金色ラブリッチェ-Golden Time-",
+        "rj": "vndb-v24717",
+        "url": "https://vndb.org/v24717"
+      },
+      {
+        "rank": 7,
+        "title": "MUSICUS!",
+        "rj": "vndb-v22783",
+        "url": "https://vndb.org/v22783"
+      },
+      {
+        "rank": 8,
+        "title": "新妻環 ～環の愛妻日記 ＋ハーレムＥＮＤのそれから～",
+        "rj": "vndb-v25750",
+        "url": "https://vndb.org/v25750"
+      },
+      {
+        "rank": 9,
+        "title": "家属～母と姉妹の嬌声～",
+        "rj": "vndb-v26206",
+        "url": "https://vndb.org/v26206"
+      },
+      {
+        "rank": 10,
+        "title": "もっと！孕ませ！炎のおっぱい超エロ♡アプリ学園！",
+        "rj": "vndb-v25964",
+        "url": "https://vndb.org/v25964"
+      },
+      {
+        "rank": 11,
+        "title": "Oathbreaker",
+        "rj": "vndb-v27521",
+        "url": "https://vndb.org/v27521"
+      },
+      {
+        "rank": 12,
+        "title": "みつあね",
+        "rj": "vndb-v26056",
+        "url": "https://vndb.org/v26056"
+      },
+      {
+        "rank": 13,
+        "title": "どっちのiが好きですか？",
+        "rj": "vndb-v25999",
+        "url": "https://vndb.org/v25999"
+      },
+      {
+        "rank": 15,
+        "title": "恋はそっと咲く花のように～二人は永遠に寄り添っていく～",
+        "rj": "vndb-v24782",
+        "url": "https://vndb.org/v24782"
+      },
+      {
+        "rank": 16,
+        "title": "ソーサレス＊アライヴ！～the World's End Fallen Star～",
+        "rj": "vndb-v23288",
+        "url": "https://vndb.org/v23288"
+      },
+      {
+        "rank": 17,
+        "title": "9-nine-はるいろはるこいはるのかぜ",
+        "rj": "vndb-v23740",
+        "url": "https://vndb.org/v23740"
+      },
+      {
+        "rank": 18,
+        "title": "ガールズ・ブック・メイカー -幸せのリブレット-",
+        "rj": "vndb-v23736",
+        "url": "https://vndb.org/v23736"
+      },
+      {
+        "rank": 19,
+        "title": "流星ワールドアクター",
+        "rj": "vndb-v24110",
+        "url": "https://vndb.org/v24110"
+      },
+      {
+        "rank": 20,
+        "title": "絆きらめく恋いろは －椿恋歌－",
+        "rj": "vndb-v23744",
+        "url": "https://vndb.org/v23744"
+      }
+    ]
+  },
+  {
+    "id": "egs-commercial-2020",
+    "name": "ErogameScape 中央値順（18禁・商業）",
+    "source": "ErogameScape -エロゲー批評空間-",
+    "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/toukei_year_median.php?year=2020&erogame=t&count=10",
+    "year": 2020,
+    "kind": "score",
+    "note": "批評空間用户打分（0–100）的中央值排序；条件：该年发售、18禁、数据数≥10，从「18禁のみ」表中去掉同人作品后取前20；同分时按数据数多者在前（照页面原顺序）；批評空間的「18禁」标记里也含少数全年龄重制/主机版（如月姫2021），照原样保留",
+    "items": [
+      {
+        "rank": 1,
+        "title": "âge アーカイブス ～20thBOX Edition～",
+        "rj": "vndb-v444",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29078"
+      },
+      {
+        "rank": 2,
+        "title": "白昼夢の青写真",
+        "rj": "vndb-v26987",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=28941"
+      },
+      {
+        "rank": 3,
+        "title": "天ノ少女《PREMIUM EDITION》",
+        "rj": "vndb-v17012",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=22704"
+      },
+      {
+        "rank": 4,
+        "title": "虚ノ少女《NEW CAST REMASTER EDITION》",
+        "rj": "vndb-v5922",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=28984"
+      },
+      {
+        "rank": 5,
+        "title": "さくらの雲＊スカアレットの恋",
+        "rj": "vndb-v26664",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=28762"
+      },
+      {
+        "rank": 6,
+        "title": "9-nine- ゆきいろゆきはなゆきのあと",
+        "rj": "vndb-v26523",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=28639"
+      },
+      {
+        "rank": 7,
+        "title": "ドーナドーナ いっしょにわるいことをしよう",
+        "rj": "vndb-v27519",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29109"
+      },
+      {
+        "rank": 8,
+        "title": "抜きゲーみたいな島に住んでる貧乳はどうすりゃいいですか? 2 スス子ルートアペンド",
+        "rj": "vndb-v23741",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29872"
+      },
+      {
+        "rank": 9,
+        "title": "終ノ空 remake",
+        "rj": "vndb-v28806",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29931"
+      },
+      {
+        "rank": 10,
+        "title": "アマカノ2",
+        "rj": "vndb-v26307",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=28433"
+      },
+      {
+        "rank": 11,
+        "title": "美少女万華鏡 -理と迷宮の少女-",
+        "rj": "vndb-v27057",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=28992"
+      },
+      {
+        "rank": 12,
+        "title": "月の彼方で逢いましょう SweetSummerRainbow",
+        "rj": "vndb-v26485",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=28582"
+      },
+      {
+        "rank": 13,
+        "title": "BETA-SIXDOUZE",
+        "rj": "vndb-v28326",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29088"
+      },
+      {
+        "rank": 14,
+        "title": "ハミダシクリエイティブ",
+        "rj": "vndb-v27449",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29095"
+      },
+      {
+        "rank": 15,
+        "title": "放課後シンデレラ",
+        "rj": "vndb-v28283",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29457"
+      },
+      {
+        "rank": 16,
+        "title": "紅月ゆれる恋あかり",
+        "rj": "vndb-v28712",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29834"
+      },
+      {
+        "rank": 17,
+        "title": "保健室のセンセーとシャボン玉中毒の助手",
+        "rj": "vndb-v28666",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29743"
+      },
+      {
+        "rank": 19,
+        "title": "光翼戦姫エクスティア3",
+        "rj": "vndb-v27170",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29006"
+      },
+      {
+        "rank": 20,
+        "title": "贄の町 完全版",
+        "rj": "vndb-v22741",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29841"
+      }
+    ]
+  },
+  {
+    "id": "egs-doujin-2020",
+    "name": "ErogameScape 中央値順（18禁・同人）",
+    "source": "ErogameScape -エロゲー批評空間-",
+    "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/toukei_year_median.php?year=2020&erogame=t&coterie=t&count=10",
+    "year": 2020,
+    "kind": "score",
+    "note": "批評空間用户打分（0–100）的中央值排序；条件：该年发售、18禁、同人、数据数≥10，取前20；同分时照页面原顺序",
+    "items": [
+      {
+        "rank": 1,
+        "title": "魔法少女セレスフォニア",
+        "rj": "RJ297120",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=30810"
+      },
+      {
+        "rank": 2,
+        "title": "僕たちはいけない遊びを覚えてゆく ～風雲相討学園フラット2完全版～",
+        "rj": "RJ293728",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29794"
+      },
+      {
+        "rank": 3,
+        "title": "MECHANICA -うさぎと水星のバラッド-",
+        "rj": "RJ278019",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29245"
+      },
+      {
+        "rank": 4,
+        "title": "ロレーナと遺跡の国 ～銃と魔法のトレジャーハンター～",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=30541"
+      },
+      {
+        "rank": 6,
+        "title": "Pray Game",
+        "rj": "RJ266116",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=30505"
+      },
+      {
+        "rank": 7,
+        "title": "ベオグラードメトロの子供たち",
+        "rj": "RJ305804",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29957"
+      },
+      {
+        "rank": 8,
+        "title": "夏色のコワレモノ",
+        "rj": "RJ269335",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=28838"
+      },
+      {
+        "rank": 9,
+        "title": "ウウウルトラC",
+        "rj": "RJ297267",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=30070"
+      },
+      {
+        "rank": 11,
+        "title": "さまぁ☆ソルト ～童貞と処女の夫婦～",
+        "rj": "RJ296472",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29870"
+      },
+      {
+        "rank": 13,
+        "title": "硝子のこんぺいとう",
+        "rj": "RJ249478",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29050"
+      },
+      {
+        "rank": 14,
+        "title": "エガオノリユウ",
+        "rj": "RJ269227",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24634"
+      },
+      {
+        "rank": 15,
+        "title": "痴者の夢",
+        "rj": "RJ302678",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29578"
+      },
+      {
+        "rank": 16,
+        "title": "露出系魔法女子大生クリスティア",
+        "rj": "RJ266066",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=28662"
+      },
+      {
+        "rank": 17,
+        "title": "ドブ川に散りぬ初恋の",
+        "rj": "RJ282609",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29383"
+      },
+      {
+        "rank": 18,
+        "title": "高慢妻陥落!! ～イイ女だけどヤな女～",
+        "rj": "RJ277940",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29217"
+      },
+      {
+        "rank": 19,
+        "title": "卵の鍵",
+        "rj": "RJ269035",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29645"
+      },
+      {
+        "rank": 20,
+        "title": "念動少女セーラースプレンダー",
+        "rj": "RJ280849",
+        "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=33573"
+      }
+    ]
+  },
+  {
+    "id": "vndb-2020",
+    "name": "VNDB 评分排行（含H内容）",
+    "source": "VNDB (The Visual Novel Database)",
+    "url": "https://api.vndb.org/kana",
+    "year": 2020,
+    "kind": "score",
+    "note": "VNDB用户打分（10–100，贝叶斯加权）排序，用官方API查询：首发在该年、至少一个版本标记含H内容、投票数≥30，取前20；只收视觉小说类，基本不含H-RPG；数据ODbL授权，需注明来源",
+    "items": [
+      {
+        "rank": 1,
+        "title": "9-nine-ゆきいろゆきはなゆきのあと",
+        "rj": "vndb-v26523",
+        "url": "https://vndb.org/v26523"
+      },
+      {
+        "rank": 2,
+        "title": "白昼夢の青写真",
+        "rj": "vndb-v26987",
+        "url": "https://vndb.org/v26987"
+      },
+      {
+        "rank": 3,
+        "title": "まいてつ Last Run!!",
+        "rj": "vndb-v25635",
+        "url": "https://vndb.org/v25635"
+      },
+      {
+        "rank": 4,
+        "title": "天ノ少女",
+        "rj": "vndb-v17012",
+        "url": "https://vndb.org/v17012"
+      },
+      {
+        "rank": 5,
+        "title": "Mama×Holic ～魅惑のママと甘々カンケイ～",
+        "rj": "vndb-v28731",
+        "url": "https://vndb.org/v28731"
+      },
+      {
+        "rank": 6,
+        "title": "月の彼方で逢いましょう SweetSummerRainbow",
+        "rj": "vndb-v26485",
+        "url": "https://vndb.org/v26485"
+      },
+      {
+        "rank": 7,
+        "title": "Our Life: Beginnings & Always",
+        "rj": "vndb-v26391",
+        "url": "https://vndb.org/v26391"
+      },
+      {
+        "rank": 8,
+        "title": "Being a DIK",
+        "url": "https://vndb.org/v25288"
+      },
+      {
+        "rank": 9,
+        "title": "アマカノ２",
+        "rj": "vndb-v26307",
+        "url": "https://vndb.org/v26307"
+      },
+      {
+        "rank": 10,
+        "title": "さまぁ☆ソルト~童貞と処女の夫婦~",
+        "rj": "RJ296472",
+        "url": "https://vndb.org/v28123"
+      },
+      {
+        "rank": 11,
+        "title": "東京２４区",
+        "rj": "vndb-v25712",
+        "url": "https://vndb.org/v25712"
+      },
+      {
+        "rank": 12,
+        "title": "さくらの雲＊スカアレットの恋",
+        "rj": "vndb-v26664",
+        "url": "https://vndb.org/v26664"
+      },
+      {
+        "rank": 13,
+        "title": "ウウウルトラC",
+        "rj": "RJ297267",
+        "url": "https://vndb.org/v23393"
+      },
+      {
+        "rank": 14,
+        "title": "光翼戦姫エクスティア3",
+        "rj": "vndb-v27170",
+        "url": "https://vndb.org/v27170"
+      },
+      {
+        "rank": 15,
+        "title": "ドーナドーナ いっしょにわるいことをしよう",
+        "rj": "vndb-v27519",
+        "url": "https://vndb.org/v27519"
+      },
+      {
+        "rank": 16,
+        "title": "支配の教壇II",
+        "rj": "vndb-v27492",
+        "url": "https://vndb.org/v27492"
+      },
+      {
+        "rank": 17,
+        "title": "美少女万華鏡 -理と迷宮の少女-",
+        "rj": "vndb-v27057",
+        "url": "https://vndb.org/v27057"
+      },
+      {
+        "rank": 18,
+        "title": "プリンセスハートリンク～剣姫たちの艶舞～",
+        "rj": "vndb-v28285",
+        "url": "https://vndb.org/v28285"
+      },
+      {
+        "rank": 19,
+        "title": "紅月ゆれる恋あかり",
+        "rj": "vndb-v28712",
+        "url": "https://vndb.org/v28712"
+      },
+      {
+        "rank": 20,
+        "title": "終ノ空 remake",
+        "rj": "vndb-v28806",
+        "url": "https://vndb.org/v28806"
+      }
+    ]
+  },
+  {
     "id": "egs-commercial-2021",
     "name": "ErogameScape 中央値順（18禁・商業）",
     "source": "ErogameScape -エロゲー批評空間-",
@@ -11,6 +1861,7 @@
       {
         "rank": 1,
         "title": "月姫 -A piece of blue glass moon-",
+        "rj": "vndb-v17909",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=30421"
       },
       {
@@ -21,11 +1872,13 @@
       {
         "rank": 3,
         "title": "パルフェリメイク",
+        "rj": "vndb-v683",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=30366"
       },
       {
         "rank": 4,
         "title": "スロウ・ダメージ",
+        "rj": "vndb-v19035",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=23389"
       },
       {
@@ -36,16 +1889,19 @@
       {
         "rank": 6,
         "title": "星織ユメミライ Perfect Edition",
+        "rj": "vndb-v14265",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=30746"
       },
       {
         "rank": 7,
         "title": "冥契のルペルカリア",
+        "rj": "vndb-v29383",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=30122"
       },
       {
         "rank": 8,
         "title": "Making*Lovers フルHDリマスター",
+        "rj": "vndb-v21552",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=30666"
       },
       {
@@ -56,56 +1912,67 @@
       {
         "rank": 10,
         "title": "創作彼女の恋愛公式",
+        "rj": "vndb-v31136",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=31106"
       },
       {
         "rank": 11,
         "title": "Role player:小粥姉妹の粘膜ポトレ ぐりぐちゃLIVE!",
+        "rj": "vndb-v30771",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=30818"
       },
       {
         "rank": 12,
         "title": "魔法少女消耗戦線 DeadΩAegis",
+        "rj": "vndb-v29300",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=30069"
       },
       {
         "rank": 13,
         "title": "Monkeys!¡",
+        "rj": "vndb-v31262",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=31276"
       },
       {
         "rank": 14,
         "title": "アインシュタインより愛を込めて APOLLOCRISIS",
+        "rj": "vndb-v31436",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=30396"
       },
       {
         "rank": 15,
         "title": "我が姫君に栄冠を",
+        "rj": "vndb-v29057",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29938"
       },
       {
         "rank": 16,
         "title": "源平繚乱絵巻 -GIKEI-",
+        "rj": "vndb-v25003",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27615"
       },
       {
         "rank": 17,
         "title": "ゆびさきコネクション",
+        "rj": "vndb-v29667",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=30259"
       },
       {
         "rank": 18,
         "title": "聖奴隷学園2",
+        "rj": "vndb-v28875",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29850"
       },
       {
         "rank": 19,
         "title": "極限痴漢特異点2 痴漢の証明",
+        "rj": "vndb-v29638",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=30257"
       },
       {
         "rank": 20,
         "title": "ピュア×コネクト フルHDリマスター",
+        "rj": "vndb-v16166",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=31747"
       }
     ]
@@ -208,11 +2075,13 @@
       {
         "rank": 16,
         "title": "ざくろの事",
+        "rj": "RJ343320",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=31599"
       },
       {
         "rank": 17,
         "title": "芙蓉の浄土に安き給う",
+        "rj": "RJ319615",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=30703"
       },
       {
@@ -249,16 +2118,19 @@
       {
         "rank": 1,
         "title": "スロウ・ダメージ",
+        "rj": "vndb-v19035",
         "url": "https://vndb.org/v19035"
       },
       {
         "rank": 2,
         "title": "巨乳ファンタジー4 -修道士アストル-",
+        "rj": "vndb-v27685",
         "url": "https://vndb.org/v27685"
       },
       {
         "rank": 3,
         "title": "Echo",
+        "rj": "vndb-v18157",
         "url": "https://vndb.org/v18157"
       },
       {
@@ -271,37 +2143,44 @@
       {
         "rank": 5,
         "title": "冥契のルペルカリア",
+        "rj": "vndb-v29383",
         "url": "https://vndb.org/v29383"
       },
       {
         "rank": 6,
         "title": "もっと！孕ませ！炎のおっぱい異世界超エロ♥サキュバス学園！",
         "zh": "吹弹！丰盈！波涛汹涌！异世界魅魔学园！",
+        "rj": "vndb-v29909",
         "url": "https://vndb.org/v29909"
       },
       {
         "rank": 7,
         "title": "Role player：小粥姉妹の粘膜ポトレ ぐりぐちゃLIVE！",
+        "rj": "vndb-v30771",
         "url": "https://vndb.org/v30771"
       },
       {
         "rank": 8,
         "title": "我が姫君に栄冠を",
+        "rj": "vndb-v29057",
         "url": "https://vndb.org/v29057"
       },
       {
         "rank": 9,
         "title": "妻蜜ねぶり～蒸れた柔肌に恋して…～",
+        "rj": "vndb-v32026",
         "url": "https://vndb.org/v32026"
       },
       {
         "rank": 10,
         "title": "屈辱3",
+        "rj": "vndb-v31037",
         "url": "https://vndb.org/v31037"
       },
       {
         "rank": 11,
         "title": "聖奴隷学園2",
+        "rj": "vndb-v28875",
         "url": "https://vndb.org/v28875"
       },
       {
@@ -313,11 +2192,13 @@
       {
         "rank": 13,
         "title": "Once in a Lifetime",
+        "rj": "vndb-v31448",
         "url": "https://vndb.org/v31448"
       },
       {
         "rank": 14,
         "title": "Monkeys!¡",
+        "rj": "vndb-v31262",
         "url": "https://vndb.org/v31262"
       },
       {
@@ -329,26 +2210,31 @@
       {
         "rank": 16,
         "title": "ねぇねぇ姉",
+        "rj": "vndb-v31272",
         "url": "https://vndb.org/v31272"
       },
       {
         "rank": 17,
         "title": "D.C.4 ～ダ・カーポ4～ フォーチュネイトデパーチャーズ",
+        "rj": "vndb-v29066",
         "url": "https://vndb.org/v29066"
       },
       {
         "rank": 18,
         "title": "ゆびさきコネクション",
+        "rj": "vndb-v29667",
         "url": "https://vndb.org/v29667"
       },
       {
         "rank": 19,
         "title": "思い出抱えてアイにコイ!!",
+        "rj": "vndb-v31125",
         "url": "https://vndb.org/v31125"
       },
       {
         "rank": 20,
         "title": "戦国†恋姫EX壱～奥州の独眼竜編～",
+        "rj": "vndb-v31818",
         "url": "https://vndb.org/v31818"
       }
     ]
@@ -365,101 +2251,121 @@
       {
         "rank": 1,
         "title": "ヘンタイ・プリズン",
+        "rj": "vndb-v31055",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=31550"
       },
       {
         "rank": 2,
         "title": "CHAOS;CHILD",
+        "rj": "vndb-v14018",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=31920"
       },
       {
         "rank": 3,
         "title": "蒼の彼方のフォーリズム EXTRA2",
+        "rj": "vndb-v21438",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=30183"
       },
       {
         "rank": 4,
         "title": "いろとりどりのセカイ HD Re:GENERATION",
+        "rj": "vndb-v5834",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=32777"
       },
       {
         "rank": 5,
         "title": "ジュエリー・ハーツ・アカデミア -We will wing wonder world-",
+        "rj": "vndb-v33175",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=32066"
       },
       {
         "rank": 6,
         "title": "アマカノ2 ～Perfect Edition～",
+        "rj": "vndb-v26307",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=32040"
       },
       {
         "rank": 7,
         "title": "贄の町 いろむすび",
+        "rj": "vndb-v30162",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=32451"
       },
       {
         "rank": 8,
         "title": "ハミダシクリエイティブ凸",
+        "rj": "vndb-v33205",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=32521"
       },
       {
         "rank": 9,
         "title": "サメと生きる七日間",
+        "rj": "vndb-v37716",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=33134"
       },
       {
         "rank": 10,
         "title": "CHAOS;HEAD NOAH",
+        "rj": "vndb-v22505",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=31894"
       },
       {
         "rank": 11,
         "title": "AMBITIOUS MISSION",
+        "rj": "vndb-v33036",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=32004"
       },
       {
         "rank": 12,
         "title": "放課後シンデレラ2",
+        "rj": "vndb-v36131",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=32784"
       },
       {
         "rank": 13,
         "title": "エヴァーメイデン ～堕落の園の乙女たち～",
+        "rj": "vndb-v31427",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=31275"
       },
       {
         "rank": 14,
         "title": "もっと!孕ませ!炎のおっぱい異世界おっぱいメイド学園!",
+        "rj": "vndb-v38511",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=33322"
       },
       {
         "rank": 15,
         "title": "魔法少女消耗戦線 another record -ちいさきものたちのゆめ-",
+        "rj": "vndb-v33721",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=32480"
       },
       {
         "rank": 16,
         "title": "VenusBlood Savior",
+        "rj": "vndb-v31670",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=31428"
       },
       {
         "rank": 17,
         "title": "恥辱の制服2",
+        "rj": "vndb-v33842",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=32321"
       },
       {
         "rank": 18,
         "title": "学園淫奇譚 〜かおり憑きの少女〜",
+        "rj": "vndb-v33290",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=31897"
       },
       {
         "rank": 19,
         "title": "神聖昂燐ダクリュオン・ルナ ～堕聖母誕生～",
+        "rj": "vndb-v35348",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=32512"
       },
       {
         "rank": 20,
         "title": "霊神楽 ～奮闘記～ 参",
+        "rj": "vndb-v36154",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=32587"
       }
     ]
@@ -500,6 +2406,7 @@
       {
         "rank": 5,
         "title": "おそ咲きの花",
+        "rj": "RJ424699",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=33702"
       },
       {
@@ -601,32 +2508,38 @@
         "rank": 1,
         "title": "蒼の彼方のフォーリズム EXTRA2",
         "zh": "苍之彼方的四重奏 EXTRA2",
+        "rj": "vndb-v21438",
         "url": "https://vndb.org/v21438"
       },
       {
         "rank": 2,
         "title": "ヘンタイ・プリズン",
         "zh": "变态监狱",
+        "rj": "vndb-v31055",
         "url": "https://vndb.org/v31055"
       },
       {
         "rank": 3,
         "title": "もっと！孕ませ！炎のおっぱい異世界おっぱいメイド学園！",
+        "rj": "vndb-v38511",
         "url": "https://vndb.org/v38511"
       },
       {
         "rank": 4,
         "title": "ジュエリー・ハーツ・アカデミア -We will wing wonder world-",
+        "rj": "vndb-v33175",
         "url": "https://vndb.org/v33175"
       },
       {
         "rank": 5,
         "title": "AMBITIOUS MISSION",
+        "rj": "vndb-v33036",
         "url": "https://vndb.org/v33036"
       },
       {
         "rank": 6,
         "title": "Lessons in Love",
+        "rj": "vndb-v28118",
         "url": "https://vndb.org/v28118"
       },
       {
@@ -638,11 +2551,13 @@
       {
         "rank": 8,
         "title": "魔法少女消耗戦線 another record -ちいさきものたちのゆめ-",
+        "rj": "vndb-v33721",
         "url": "https://vndb.org/v33721"
       },
       {
         "rank": 9,
         "title": "Leap of Faith",
+        "rj": "steam-1768640",
         "url": "https://vndb.org/v28200"
       },
       {
@@ -654,54 +2569,64 @@
       {
         "rank": 11,
         "title": "Hush Hush: Only Your Love Can Save Them",
+        "rj": "vndb-v24239",
         "url": "https://vndb.org/v24239"
       },
       {
         "rank": 12,
         "title": "エヴァーメイデン　～堕落の園の乙女たち～",
+        "rj": "vndb-v31427",
         "url": "https://vndb.org/v31427"
       },
       {
         "rank": 13,
         "title": "ははむす ～落ちぶれ貴族の母と娘～",
+        "rj": "vndb-v34149",
         "url": "https://vndb.org/v34149"
       },
       {
         "rank": 14,
         "title": "ハミダシクリエイティブ凸",
         "zh": "常轨脱离Creative凸",
+        "rj": "vndb-v33205",
         "url": "https://vndb.org/v33205"
       },
       {
         "rank": 15,
         "title": "贄の町-いろむすび-",
         "zh": "祭品小镇 彩结",
+        "rj": "vndb-v30162",
         "url": "https://vndb.org/v30162"
       },
       {
         "rank": 16,
         "title": "VenusBlood Savior",
+        "rj": "vndb-v31670",
         "url": "https://vndb.org/v31670"
       },
       {
         "rank": 17,
         "title": "放課後シンデレラ２",
+        "rj": "vndb-v36131",
         "url": "https://vndb.org/v36131"
       },
       {
         "rank": 18,
         "title": "戦国†恋姫EX弐～鬼の国、越前編～",
+        "rj": "vndb-v31819",
         "url": "https://vndb.org/v31819"
       },
       {
         "rank": 19,
         "title": "Role player：とろろ姉妹の粘膜ポトレ　ぐりぐちゃLIVE！",
+        "rj": "vndb-v36175",
         "url": "https://vndb.org/v36175"
       },
       {
         "rank": 20,
         "title": "新世界狂歡",
         "zh": "新世界狂欢",
+        "rj": "vndb-v34078",
         "url": "https://vndb.org/v34078"
       }
     ]
@@ -718,21 +2643,25 @@
       {
         "rank": 1,
         "title": "サクラノ刻 -櫻の森の下を歩む-",
+        "rj": "vndb-v20431",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=25169"
       },
       {
         "rank": 2,
         "title": "この世の果てで恋を唄う少女YU-NO【Windows10対応版】",
+        "rj": "vndb-v1377",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=33900"
       },
       {
         "rank": 3,
         "title": "アマカノ2+",
+        "rj": "vndb-v31813",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=33621"
       },
       {
         "rank": 4,
         "title": "カルタグラ ～ツキ狂イノ病～ 《REBIRTH FHD SIZE EDITION》",
+        "rj": "vndb-v515",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=33654"
       },
       {
@@ -743,16 +2672,19 @@
       {
         "rank": 6,
         "title": "ましろ色シンフォニー SANA EDITION",
+        "rj": "vndb-v37651",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=33110"
       },
       {
         "rank": 7,
         "title": "コイバナ恋愛",
+        "rj": "vndb-v44195",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=34260"
       },
       {
         "rank": 8,
         "title": "クリミナルボーダー 2nd offence",
+        "rj": "vndb-v37116",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=33999"
       },
       {
@@ -763,6 +2695,7 @@
       {
         "rank": 10,
         "title": "恋にはあまえが必要です",
+        "rj": "vndb-v39649",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=33548"
       },
       {
@@ -773,46 +2706,55 @@
       {
         "rank": 12,
         "title": "ハッピーライヴ ショウアップ アンコール!!",
+        "rj": "vndb-v43448",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=34136"
       },
       {
         "rank": 13,
         "title": "妹と彼女 それぞれの選択",
+        "rj": "vndb-v31003",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=34218"
       },
       {
         "rank": 14,
         "title": "GAMMA DIMENSION ～ALPHA&BETA FAN DISK～",
+        "rj": "vndb-v40858",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=33722"
       },
       {
         "rank": 15,
         "title": "VenusBlood GAIA International",
+        "rj": "vndb-v12986",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=34631"
       },
       {
         "rank": 16,
         "title": "戦国†恋姫EX参 ～毛利家の絆編～",
+        "rj": "vndb-v31820",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=34124"
       },
       {
         "rank": 17,
         "title": "あまいろショコラータ3",
+        "rj": "vndb-v41339",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=34671"
       },
       {
         "rank": 18,
         "title": "乙女の剣と秘めごとコンチェルト",
+        "rj": "vndb-v43312",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=34119"
       },
       {
         "rank": 19,
         "title": "それは舞い散る桜のように -Re:BIRTH-",
+        "rj": "vndb-v35082",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=33741"
       },
       {
         "rank": 20,
         "title": "TO･RA･WA･SE ～囚われの偽妃が夢みる初夜～",
+        "rj": "vndb-v43468",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=34155"
       }
     ]
@@ -829,6 +2771,7 @@
       {
         "rank": 1,
         "title": "月の女、河の天使、神めくとき。",
+        "rj": "RJ01059271",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=34335"
       },
       {
@@ -942,53 +2885,63 @@
       {
         "rank": 1,
         "title": "サクラノ刻－櫻の森の下を歩む－",
+        "rj": "vndb-v20431",
         "url": "https://vndb.org/v20431"
       },
       {
         "rank": 2,
         "title": "アマカノ２＋",
         "zh": "甜蜜女友2+",
+        "rj": "vndb-v31813",
         "url": "https://vndb.org/v31813"
       },
       {
         "rank": 3,
         "title": "D.C.5 ～ダ・カーポ5～",
+        "rj": "vndb-v36687",
         "url": "https://vndb.org/v36687"
       },
       {
         "rank": 4,
         "title": "ましろ色シンフォニー SANA EDITION",
         "zh": "纯白交响曲 SANA EDITION",
+        "rj": "vndb-v37651",
         "url": "https://vndb.org/v37651"
       },
       {
         "rank": 6,
         "title": "Bunny's ママ代行サービス",
+        "rj": "vndb-v41944",
         "url": "https://vndb.org/v41944"
       },
       {
         "rank": 7,
         "title": "Artemis",
+        "rj": "vndb-v30755",
         "url": "https://vndb.org/v30755"
       },
       {
         "rank": 8,
         "title": "大戦国ランス",
+        "rj": "vndb-v48266",
         "url": "https://vndb.org/v48266"
       },
       {
         "rank": 9,
         "title": "A Promise Best Left Unkept",
+        "rj": "RJ01034984",
         "url": "https://vndb.org/v32699"
       },
       {
         "rank": 10,
         "title": "Letters to Venus",
+        "rj": "vndb-v47036",
         "url": "https://vndb.org/v47036"
       },
       {
         "rank": 11,
         "title": "Proud Father",
+        "rj": "vndb-v34148",
         "url": "https://vndb.org/v34148"
       },
       {
@@ -1000,6 +2953,7 @@
       {
         "rank": 13,
         "title": "Ripples",
+        "rj": "vndb-v33448",
         "url": "https://vndb.org/v33448"
       },
       {
@@ -1012,31 +2966,37 @@
         "rank": 15,
         "title": "あまいろショコラータ 3",
         "zh": "巧可甜恋3",
+        "rj": "vndb-v41339",
         "url": "https://vndb.org/v41339"
       },
       {
         "rank": 16,
         "title": "淫獄の放課後",
+        "rj": "vndb-v38604",
         "url": "https://vndb.org/v38604"
       },
       {
         "rank": 17,
         "title": "戦国†恋姫EX参～毛利家の絆編～",
+        "rj": "vndb-v31820",
         "url": "https://vndb.org/v31820"
       },
       {
         "rank": 18,
         "title": "いつまでもママといっしょ！～誘惑ママのおっぱいに甘えていっぱい射精したい！～",
+        "rj": "vndb-v45954",
         "url": "https://vndb.org/v45954"
       },
       {
         "rank": 19,
         "title": "ははむす外伝 ～水晶の女王デルフィーナ～",
+        "rj": "vndb-v46287",
         "url": "https://vndb.org/v46287"
       },
       {
         "rank": 20,
         "title": "Tennis Ace",
+        "rj": "vndb-v22837",
         "url": "https://vndb.org/v22837"
       }
     ]
@@ -1063,26 +3023,31 @@
       {
         "rank": 3,
         "title": "はじめるセカイの理想論 -goodbye world index-",
+        "rj": "vndb-v47458",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=35267"
       },
       {
         "rank": 4,
         "title": "魔法少女消耗戦線DeadΩAegis フルボイス版",
+        "rj": "vndb-v29300",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=36374"
       },
       {
         "rank": 5,
         "title": "アストラエアの白き永遠 FHD Re:Eternity",
+        "rj": "vndb-v12984",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=36802"
       },
       {
         "rank": 6,
         "title": "アンラベル・トリガー",
+        "rj": "vndb-v47547",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=35269"
       },
       {
         "rank": 7,
         "title": "旭光のマリアージュ",
+        "rj": "vndb-v49512",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=36003"
       },
       {
@@ -1093,61 +3058,73 @@
       {
         "rank": 9,
         "title": "オトメ世界の歩き方",
+        "rj": "vndb-v48125",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=35742"
       },
       {
         "rank": 10,
         "title": "刹那にかける恋はなび",
+        "rj": "vndb-v47880",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=35499"
       },
       {
         "rank": 11,
         "title": "鏖呪ノ嶼",
+        "rj": "vndb-v48959",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=35830"
       },
       {
         "rank": 12,
         "title": "紬の花嫁",
+        "rj": "vndb-v51186",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=36633"
       },
       {
         "rank": 13,
         "title": "双天†恋姫 -至源の王-",
+        "rj": "vndb-v50113",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=36257"
       },
       {
         "rank": 14,
         "title": "D.C.5 Plus Happiness ～ダ・カーポ5～プラスハピネス",
+        "rj": "vndb-v36687",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=36542"
       },
       {
         "rank": 15,
         "title": "戦国†恋姫BRAVE壱 ～四国の鬼若子、長曾我部編～",
+        "rj": "vndb-v50520",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=36333"
       },
       {
         "rank": 16,
         "title": "催眠性指導 -Secret Lesson-",
+        "rj": "vndb-v41351",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=35655"
       },
       {
         "rank": 17,
         "title": "キョウセイ支配",
+        "rj": "vndb-v49438",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=35976"
       },
       {
         "rank": 18,
         "title": "死に逝く騎士、異世界に響く断末魔",
+        "rj": "vndb-v49274",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=35869"
       },
       {
         "rank": 19,
         "title": "Strawberry Nauts -ストロベリーノーツ- Full HD Memorial Plus",
+        "rj": "vndb-v7507",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=36813"
       },
       {
         "rank": 20,
         "title": "きまぐれテンプテーション2 ゆうやみ廻奇譚",
+        "rj": "vndb-v41195",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=36786"
       }
     ]
@@ -1170,6 +3147,7 @@
       {
         "rank": 2,
         "title": "大穢 -前編-",
+        "rj": "RJ01235825",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=37389"
       },
       {
@@ -1187,7 +3165,7 @@
       {
         "rank": 5,
         "title": "夏色クローバー",
-        "rj": "RJ01600657",
+        "rj": "steam-2458860",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=36700"
       },
       {
@@ -1247,7 +3225,7 @@
       {
         "rank": 15,
         "title": "ヤギ症候群",
-        "rj": "RJ01239373",
+        "rj": "vndb-v52231",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=36877"
       },
       {
@@ -1294,41 +3272,49 @@
       {
         "rank": 2,
         "title": "Summer's Gone: Season 1",
+        "rj": "steam-2240150",
         "url": "https://vndb.org/v27557"
       },
       {
         "rank": 3,
         "title": "D.C.5 Future Link ～ダ・カーポ5～ フューチャーリンク",
+        "rj": "vndb-v46116",
         "url": "https://vndb.org/v46116"
       },
       {
         "rank": 4,
         "title": "東京殺人鬼 学校の怪談",
+        "rj": "vndb-v42652",
         "url": "https://vndb.org/v42652"
       },
       {
         "rank": 5,
         "title": "Misericorde Volume Two: White Wool & Snow",
+        "rj": "vndb-v60641",
         "url": "https://vndb.org/v60641"
       },
       {
         "rank": 6,
         "title": "Arches",
+        "rj": "vndb-v30992",
         "url": "https://vndb.org/v30992"
       },
       {
         "rank": 7,
         "title": "催眠性指導 -Secret Lesson-",
+        "rj": "vndb-v41351",
         "url": "https://vndb.org/v41351"
       },
       {
         "rank": 8,
         "title": "アンラベル・トリガー",
+        "rj": "vndb-v47547",
         "url": "https://vndb.org/v47547"
       },
       {
         "rank": 9,
         "title": "旭光のマリアージュ",
+        "rj": "vndb-v49512",
         "url": "https://vndb.org/v49512"
       },
       {
@@ -1341,47 +3327,55 @@
         "rank": 11,
         "title": "夏色四葉草",
         "zh": "夏色四叶草",
-        "rj": "RJ01600657",
+        "rj": "steam-2458860",
         "url": "https://vndb.org/v45510"
       },
       {
         "rank": 12,
         "title": "Repeat",
+        "rj": "vndb-v20147",
         "url": "https://vndb.org/v20147"
       },
       {
         "rank": 13,
         "title": "Bewitching Sinners",
+        "rj": "vndb-v41700",
         "url": "https://vndb.org/v41700"
       },
       {
         "rank": 14,
         "title": "Pure×Holic ～純潔乙女と婚姻カンケイ！？～",
+        "rj": "vndb-v49143",
         "url": "https://vndb.org/v49143"
       },
       {
         "rank": 15,
         "title": "malcatras' maiden",
+        "rj": "vndb-v50981",
         "url": "https://vndb.org/v50981"
       },
       {
         "rank": 16,
         "title": "Companion of Darkness",
+        "rj": "vndb-v45742",
         "url": "https://vndb.org/v45742"
       },
       {
         "rank": 17,
         "title": "ボクをほっとけない二人のギャル ～陰キャのオタクがムチムチドスケベギャルとエロ三昧の日々を送るまで～",
+        "rj": "vndb-v52345",
         "url": "https://vndb.org/v52345"
       },
       {
         "rank": 18,
         "title": "戦国†恋姫BRAVE壱 ～四国の鬼若子、長曾我部編～",
+        "rj": "vndb-v50520",
         "url": "https://vndb.org/v50520"
       },
       {
         "rank": 19,
         "title": "キョウセイ支配",
+        "rj": "vndb-v49438",
         "url": "https://vndb.org/v49438"
       },
       {
@@ -1404,6 +3398,7 @@
       {
         "rank": 1,
         "title": "サクラノ詩 -櫻の森の上を舞う- 10th Anniversary Edition",
+        "rj": "vndb-v562",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=39075"
       },
       {
@@ -1424,26 +3419,31 @@
       {
         "rank": 5,
         "title": "君が望む永遠 ～Enhanced Edition R～",
+        "rj": "vndb-v94",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=39356"
       },
       {
         "rank": 6,
         "title": "ライムライト・レモネードジャム",
+        "rj": "vndb-v56650",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=38794"
       },
       {
         "rank": 7,
         "title": "ジュエリー・ナイツ・アルカディア -The ends of the world-",
+        "rj": "vndb-v50416",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=36717"
       },
       {
         "rank": 8,
         "title": "アマカノ3",
+        "rj": "vndb-v50215",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=38745"
       },
       {
         "rank": 9,
         "title": "廃村少女[弐] ～陰り誘う秘姫の匣～",
+        "rj": "vndb-v53486",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=37903"
       },
       {
@@ -1454,51 +3454,61 @@
       {
         "rank": 11,
         "title": "DeepOne -領界侵犯-",
+        "rj": "vndb-v32797",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=31886"
       },
       {
         "rank": 12,
         "title": "聖奴隷学園3",
+        "rj": "vndb-v51465",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=36711"
       },
       {
         "rank": 13,
         "title": "何度目かのはじめまして",
+        "rj": "vndb-v57252",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=38888"
       },
       {
         "rank": 14,
         "title": "ハミダシクリエイティブRe:Re:call",
+        "rj": "vndb-v53590",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=37533"
       },
       {
         "rank": 15,
         "title": "恋愛、はじめまして",
+        "rj": "vndb-v52702",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=37191"
       },
       {
         "rank": 16,
         "title": "ハッピーウィークエンド",
+        "rj": "vndb-v55002",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=38067"
       },
       {
         "rank": 17,
         "title": "猫忍えくすはーとSPIN!2",
+        "rj": "vndb-v58009",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=39070"
       },
       {
         "rank": 18,
         "title": "もっと!孕ませ!炎のおっぱい異世界おっぱいバニー学園!",
+        "rj": "vndb-v54050",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=37607"
       },
       {
         "rank": 19,
         "title": "顔のない月 -待宵の双椿-",
+        "rj": "vndb-v50076",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=36585"
       },
       {
         "rank": 20,
         "title": "D.C.5 Sweet Happiness ～ダ・カーポ5～スイートハピネス",
+        "rj": "vndb-v46116",
         "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=37459"
       }
     ]
@@ -1653,17 +3663,20 @@
       {
         "rank": 2,
         "title": "lesson",
+        "rj": "vndb-v54472",
         "url": "https://vndb.org/v54472"
       },
       {
         "rank": 3,
         "title": "アマカノ３",
         "zh": "甜蜜女友 3",
+        "rj": "vndb-v50215",
         "url": "https://vndb.org/v50215"
       },
       {
         "rank": 4,
         "title": "もっと！孕ませ！炎のおっぱい異世界おっぱいバニー学園！",
+        "rj": "vndb-v54050",
         "url": "https://vndb.org/v54050"
       },
       {
@@ -1676,22 +3689,26 @@
       {
         "rank": 6,
         "title": "ライムライト・レモネードジャム",
+        "rj": "vndb-v56650",
         "url": "https://vndb.org/v56650"
       },
       {
         "rank": 7,
         "title": "Such a Sharp Pain",
+        "rj": "vndb-v34968",
         "url": "https://vndb.org/v34968"
       },
       {
         "rank": 8,
         "title": "YKMET: Strade",
+        "rj": "vndb-v57944",
         "url": "https://vndb.org/v57944"
       },
       {
         "rank": 9,
         "title": "何度目かのはじめまして",
         "zh": "几度相逢若初见",
+        "rj": "vndb-v57252",
         "url": "https://vndb.org/v57252"
       },
       {
@@ -1703,51 +3720,61 @@
       {
         "rank": 11,
         "title": "Wild Cats",
+        "rj": "vndb-v53153",
         "url": "https://vndb.org/v53153"
       },
       {
         "rank": 12,
         "title": "Chasing Sunsets",
+        "rj": "steam-1783110",
         "url": "https://vndb.org/v29267"
       },
       {
         "rank": 13,
         "title": "巨乳ファンタジー5-王子リーン-",
+        "rj": "vndb-v50008",
         "url": "https://vndb.org/v50008"
       },
       {
         "rank": 14,
         "title": "ジュエリー・ナイツ・アルカディア -The ends of the world-",
+        "rj": "vndb-v50416",
         "url": "https://vndb.org/v50416"
       },
       {
         "rank": 15,
         "title": "聖奴隷学園3",
+        "rj": "vndb-v51465",
         "url": "https://vndb.org/v51465"
       },
       {
         "rank": 16,
         "title": "LONER_DOG://Snuff Puppy Carnage Society",
+        "rj": "vndb-v57848",
         "url": "https://vndb.org/v57848"
       },
       {
         "rank": 17,
         "title": "Game of Hearts",
+        "rj": "vndb-v46087",
         "url": "https://vndb.org/v46087"
       },
       {
         "rank": 18,
         "title": "Race of Life",
+        "rj": "vndb-v38326",
         "url": "https://vndb.org/v38326"
       },
       {
         "rank": 19,
         "title": "Role player：いくら姉妹の粘膜ポトレ ぐりぐちゃLIVE！",
+        "rj": "vndb-v54509",
         "url": "https://vndb.org/v54509"
       },
       {
         "rank": 20,
         "title": "Unbroken",
+        "rj": "vndb-v37296",
         "url": "https://vndb.org/v37296"
       }
     ]
