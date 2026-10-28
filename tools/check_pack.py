@@ -18,6 +18,7 @@ MAX_FILE = 50 << 20
 MAX_TOTAL = 1 << 30
 CATS = {"f-rpg", "m-rpg", "adv", "slg", "act", "other"}
 SRCS = {"dlsite", "fanza", "commercial", "steam", "cien", "fanbox"}
+SIGNALS = {"egs": "commercial", "steam": "steam", "followers": "cien"}  # 分数信号字段 → 写它的来源
 LANGS = ("ja", "zh", "en")
 EXTS = {"jpg", "jpeg", "png", "webp"}
 NAME_OK = re.compile(r"[A-Za-z0-9._-]+")
@@ -50,6 +51,25 @@ def read_limited(z, info, limit):
 
 def is_int(v):
     return isinstance(v, int) and not isinstance(v, bool)
+
+
+def signal_problem(g):
+    """egs / steam / followers：只有对应来源的作品写，可以没有或 null；有就查类型和范围，返回问题说明或 None"""
+    for key, src in SIGNALS.items():
+        v = g.get(key)
+        if v is None:
+            continue
+        if g.get("src") != src:
+            return f"的来源是 {g.get('src')}，只有 {src} 的作品写 {key}"
+        if key == "egs" and not (isinstance(v, dict) and set(v) == {"median", "count"} and is_int(v["median"])
+                                 and 0 <= v["median"] <= 100 and is_int(v["count"]) and v["count"] >= 0):
+            return "的 egs 要是 {\"median\": 0–100 的整数, \"count\": 非负整数}"
+        if key == "steam" and not (isinstance(v, dict) and set(v) == {"positive", "reviews"} and is_int(v["positive"])
+                                   and 0 <= v["positive"] <= 100 and is_int(v["reviews"]) and v["reviews"] >= 0):
+            return "的 steam 要是 {\"positive\": 0–100 的整数, \"reviews\": 非负整数}"
+        if key == "followers" and not (is_int(v) and v >= 0):
+            return "的 followers 要是非负整数"
+    return None
 
 
 def check(path, min_updated):
@@ -135,7 +155,7 @@ def check(path, min_updated):
     for gid, names in genres.items():
         if not (gid.isdigit() and isinstance(names, dict) and all(isinstance(names.get(k), str) and names[k] for k in LANGS)):
             problems.append(f"题材 {gid!r} 格式不对：要有 {', '.join(LANGS)} 三个名称")
-    tagged = 0
+    tagged, signals = 0, {}
     for g in games:
         if not isinstance(g, dict) or not g.get("id"):
             continue
@@ -163,6 +183,12 @@ def check(path, min_updated):
                 problems.append(f"{g.get('id')} 的 genres 要是字符串数组，每个 id 都要在 genres 字典里")
             else:
                 tagged += 1
+        problem = signal_problem(g)
+        if problem:
+            problems.append(f"{g.get('id')} {problem}")
+        for key in SIGNALS:
+            if g.get(key) is not None:
+                signals[key] = signals.get(key, 0) + 1
 
     rankings = cat.get("rankings", [])
     rk_items = rk_rj = rk_hit = 0
@@ -201,6 +227,8 @@ def check(path, min_updated):
                     f"封面 {len(covers)} 张（包里图片 {len(cover_files)} 张）")
     notes.insert(1, f"榜单 {len(rankings)} 个、{rk_items} 条，带 rj 的 {rk_rj} 条，对得上作品的 {rk_hit} 条")
     notes.insert(2, f"题材标签 {len(genres)} 个，带题材的作品 {tagged} 部（DLsite 作品 {srcs.get('dlsite', 0)} 部）")
+    notes.insert(3, "分数信号：" + "，".join(f"{key} {signals.get(key, 0)} 部（{src} 作品 {srcs.get(src, 0)} 部）"
+                                          for key, src in SIGNALS.items()))
     if len(cover_files) > len(covers):
         notes.append(f"有 {len(cover_files) - len(covers)} 张图片没有作品用到")
     return problems, notes

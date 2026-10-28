@@ -7215,6 +7215,7 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "followers": 22489,
     "url": "https://ci-en.dlsite.com/creator/2013",
     "note": "以圣女为主人公的模拟游戏，已向付费支援者发放先行体验版"
   },
@@ -7238,6 +7239,7 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "followers": 3968,
     "url": "https://ci-en.dlsite.com/creator/27405",
     "note": "可以自定义角色的 3D 模拟游戏"
   },
@@ -7261,6 +7263,7 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "followers": 37142,
     "url": "https://ci-en.dlsite.com/creator/322",
     "note": "用 WOLF RPG 编辑器制作、以旅店为舞台的事件型游戏"
   },
@@ -7284,6 +7287,7 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "followers": 35812,
     "url": "https://ci-en.dlsite.com/creator/4398",
     "note": "催眠题材模拟游戏的下一作，可攻略多位女主角"
   },
@@ -7307,6 +7311,7 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "followers": 39962,
     "url": "https://ci-en.dlsite.com/creator/7854",
     "note": "和地缚灵同居的恐怖题材模拟游戏"
   },
@@ -7330,6 +7335,7 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "followers": 58486,
     "url": "https://ci-en.dlsite.com/creator/8791",
     "note": "建设经营模拟游戏，有怪物培育、侵略和委托系统"
   },
@@ -7350,6 +7356,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 66,
+      "reviews": 13790
+    },
     "note": "太空歌剧题材，回合制战棋与弹幕射击交替进行的 3D 作品，2024 年正式版"
   },
   {
@@ -7369,6 +7379,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 89,
+      "reviews": 1850
+    },
     "note": "可多人联机的农场模拟，培育的不是作物而是狗头人"
   },
   {
@@ -7390,6 +7404,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 89,
+      "reviews": 10250
+    },
     "note": "3D 冒险养成游戏，捕捉并培育名为“奈菲林”的魔物混血种族（抢先体验）"
   },
   {
@@ -7411,6 +7429,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 90,
+      "reviews": 1054
+    },
     "note": "从三位性格不同的女主角中选择并互动的 3D 恋爱模拟游戏"
   },
   {
@@ -7432,6 +7454,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 85,
+      "reviews": 5170
+    },
     "note": "农场经营与回合制 RPG 结合的怪物娘题材游戏，抢先体验阶段"
   },
   {
@@ -7453,6 +7479,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 93,
+      "reviews": 3232
+    },
     "note": "收留一位失忆女子、与她共同生活的模拟游戏"
   },
   {
@@ -7474,6 +7504,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 95,
+      "reviews": 2098
+    },
     "note": "东京情人旅馆经理的恋爱模拟"
   },
   {
@@ -7495,6 +7529,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 89,
+      "reviews": 2259
+    },
     "note": "经营只在夜间营业的魅魔咖啡馆的模拟游戏"
   },
   {
@@ -7514,6 +7552,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 77,
+      "reviews": 739
+    },
     "note": "古风青楼经营与角色互动的模拟游戏"
   },
   {
@@ -7533,6 +7575,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 84,
+      "reviews": 2111
+    },
     "note": "与龙族伙伴互动的兽人题材模拟游戏（抢先体验）"
   },
   {
@@ -7557,6 +7603,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 92,
+      "reviews": 2209
+    },
     "note": "经营一家酒馆、招募女性员工的 Live2D 模拟经营游戏"
   },
   {
@@ -7581,6 +7631,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 89,
+      "reviews": 625
+    },
     "note": "对抗女英雄组织的策略模拟游戏，事件为 3D 动画"
   },
   {
@@ -7600,6 +7654,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 96,
+      "reviews": 16307
+    },
     "note": "种田、伐木、钓鱼的村庄经营角色扮演模拟游戏"
   },
   {
@@ -7619,6 +7677,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 85,
+      "reviews": 702
+    },
     "note": "扮演兽人调教精灵女王的互动模拟"
   },
   {
@@ -7640,6 +7702,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 87,
+      "reviews": 1026
+    },
     "note": "一步步掌控小镇居民的策略模拟游戏，带 RPG 要素"
   },
   {
@@ -7661,6 +7727,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 91,
+      "reviews": 4651
+    },
     "note": "荒岛生存建造游戏，可以采集、建房、驯服岛上居民，抢先体验版"
   },
   {
@@ -7682,6 +7752,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 87,
+      "reviews": 359
+    },
     "note": "在海边森林旅馆打工的时间管理模拟"
   },
   {
@@ -7701,6 +7775,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 94,
+      "reviews": 5667
+    },
     "note": "古风恋爱模拟，随剧情与多位女子发展关系"
   },
   {
@@ -7720,6 +7798,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 88,
+      "reviews": 765
+    },
     "note": "异世界成人用品店经营模拟，与各种族店员一起开店"
   },
   {
@@ -7739,6 +7821,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 89,
+      "reviews": 1486
+    },
     "note": "成为 VTuber 事务所经纪人、培养三位 VTuber 的养成模拟"
   },
   {
@@ -7758,6 +7844,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 85,
+      "reviews": 1762
+    },
     "note": "以学院网球部为舞台的教练养成游戏，含网球比赛玩法"
   },
   {
@@ -7777,6 +7867,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 93,
+      "reviews": 895
+    },
     "note": "转生成中世纪小镇酒馆老板的经营冒险游戏"
   },
   {
@@ -7796,6 +7890,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 91,
+      "reviews": 372
+    },
     "note": "经营咖啡店、雇佣女仆的经营模拟"
   },
   {
@@ -7815,6 +7913,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 86,
+      "reviews": 1367
+    },
     "note": "扮演院长经营医院的模拟游戏"
   },
   {
@@ -7834,6 +7936,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 86,
+      "reviews": 1487
+    },
     "note": "二手电子产品店题材的经营模拟"
   },
   {
@@ -7853,6 +7959,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 80,
+      "reviews": 511
+    },
     "note": "带小游戏的澡堂经营模拟，改造濒临倒闭的店铺还债"
   },
   {
@@ -7874,6 +7984,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 93,
+      "reviews": 1278
+    },
     "note": "经营哥布林巢穴的建造策略游戏，管理人口、金币和口粮"
   },
   {
@@ -7893,6 +8007,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 85,
+      "reviews": 367
+    },
     "note": "带着精灵少女躲避王国卫兵、一边逃亡一边培养她的 3D 冒险"
   },
   {
@@ -7914,6 +8032,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 90,
+      "reviews": 461
+    },
     "note": "渔夫题材的成人游戏，钓鱼时不断「钓」到意外收获"
   },
   {
@@ -7935,6 +8057,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 89,
+      "reviews": 229
+    },
     "note": "电子宠物式养成游戏，培养鬼娘击败怪物"
   },
   {
@@ -7954,6 +8080,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 82,
+      "reviews": 947
+    },
     "note": "复仇题材的成人冒险游戏，在一个月内安排日程、玩小游戏"
   },
   {
@@ -7973,6 +8103,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 85,
+      "reviews": 352
+    },
     "note": "与朋友的妹妹同居三周的恋爱模拟"
   },
   {
@@ -7994,6 +8128,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 89,
+      "reviews": 291
+    },
     "note": "经营博客、满足订阅者要求的女主人公模拟游戏"
   },
   {
@@ -8015,6 +8153,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 87,
+      "reviews": 481
+    },
     "note": "像素风按摩店经营放置游戏，雇佣员工、升级房间"
   },
   {
@@ -8036,6 +8178,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 95,
+      "reviews": 3987
+    },
     "note": "为三条雄龙洗澡、聊天的 3D 互动模拟"
   },
   {
@@ -8057,6 +8203,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 94,
+      "reviews": 3572
+    },
     "note": "卡牌构筑 Roguelike 策略游戏，深入地下城唤醒大魔王"
   },
   {
@@ -8078,6 +8228,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 89,
+      "reviews": 997
+    },
     "note": "扮演见习侍从、在有限时间内追求心上人的 RPG 加恋爱模拟游戏"
   },
   {
@@ -8100,6 +8254,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "egs": {
+      "median": 65,
+      "count": 188
+    },
     "note": "以海域国家为舞台、内政与战斗并重的战略 SLG"
   },
   {
@@ -8119,6 +8277,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "egs": {
+      "median": 77,
+      "count": 117
+    },
     "note": "攻略据点、收服女神的回合制战略 SLG"
   },
   {
@@ -8141,6 +8303,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "egs": {
+      "median": 70,
+      "count": 74
+    },
     "note": "培养冒险者挑战迷宫的养成 SLG"
   },
   {
@@ -8163,6 +8329,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "egs": {
+      "median": 80,
+      "count": 379
+    },
     "note": "收集知识、建造城堡要塞的战略 SRPG"
   },
   {
@@ -8184,6 +8354,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "egs": {
+      "median": 86,
+      "count": 144
+    },
     "note": "「VenusBlood」系列的回合制战略 SLG，以海洋为舞台"
   },
   {
@@ -8205,6 +8379,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "egs": {
+      "median": 75,
+      "count": 104
+    },
     "note": "华琳在山中筑巢、迎击入侵者的地牢经营 SLG（《真・恋姫》题材，与 SofthouseChara 合作）"
   },
   {
@@ -8224,6 +8402,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "egs": {
+      "median": 80,
+      "count": 134
+    },
     "note": "经营女仆俱乐部、可自定义角色的 3D 模拟"
   },
   {
@@ -8243,6 +8425,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "egs": {
+      "median": 78,
+      "count": 107
+    },
     "note": "建造并经营迷宫、带 SRPG 战斗的策略游戏"
   },
   {
@@ -8265,6 +8451,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "egs": {
+      "median": 79,
+      "count": 89
+    },
     "note": "战国题材的剧情 ADV，穿插战场模拟玩法"
   },
   {
@@ -8284,6 +8474,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "egs": {
+      "median": 80,
+      "count": 28
+    },
     "note": "回合制战略模拟，培养并指挥部下攻略敌国"
   },
   {
@@ -8306,6 +8500,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "egs": {
+      "median": 80,
+      "count": 38
+    },
     "note": "带模拟要素的电车痴汉题材拔作"
   },
   {
@@ -8328,6 +8526,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "egs": {
+      "median": 80,
+      "count": 39
+    },
     "note": "带征服模拟要素的凌辱题材 SLG"
   }
 ]

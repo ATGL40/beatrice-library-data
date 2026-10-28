@@ -2181,6 +2181,7 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "followers": 42374,
     "url": "https://ci-en.dlsite.com/creator/4941",
     "note": "TCG 风格的卡牌对战游戏，事件用 Live2D 动画表现"
   },
@@ -2204,6 +2205,7 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "followers": 36437,
     "url": "https://ci-en.dlsite.com/creator/996",
     "note": "女主人公被困的触手题材游戏，先行体验版已到 v2.70"
   },
@@ -2249,6 +2251,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 81,
+      "reviews": 1350
+    },
     "note": "克苏鲁题材的横版探索解谜游戏"
   },
   {
@@ -2270,6 +2276,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 91,
+      "reviews": 685
+    },
     "note": "VR 沙盒互动游戏，题材为兽人角色"
   },
   {
@@ -2291,6 +2301,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 90,
+      "reviews": 563
+    },
     "note": "用 8 张牌对赌的卡牌轮盘游戏"
   },
   {
@@ -2310,6 +2324,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 97,
+      "reviews": 4436
+    },
     "note": "被困在无尽列车上、找出异变的「8 番出口」式游戏"
   },
   {
@@ -2329,6 +2347,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 81,
+      "reviews": 535
+    },
     "note": "「8 番出口」式找异变游戏，在无尽地下通道中寻找出口"
   },
   {
@@ -2348,6 +2370,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 88,
+      "reviews": 274
+    },
     "note": "节奏游戏＋恋爱模拟，半魔主人公对抗驱魔团"
   },
   {
@@ -2367,6 +2393,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 84,
+      "reviews": 1464
+    },
     "note": "猫娘同事陪在桌面旁的挂机陪伴类游戏"
   },
   {
@@ -2386,6 +2416,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 96,
+      "reviews": 72539
+    },
     "note": "结合三消解谜与回合战斗的魔幻题材游戏"
   },
   {
@@ -2407,6 +2441,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 92,
+      "reviews": 775
+    },
     "note": "带幽默成人元素的找物游戏"
   },
   {
@@ -2428,6 +2466,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 87,
+      "reviews": 1757
+    },
     "note": "带剧情的解谜冒险游戏，新人冒险者追击哥布林深入地下"
   },
   {
@@ -2449,6 +2491,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 91,
+      "reviews": 8159
+    },
     "note": "三消解谜与恋爱模拟结合的游戏"
   }
 ]

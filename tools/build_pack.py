@@ -20,6 +20,7 @@ DATA = ROOT / "data"
 CATS = ["f-rpg", "m-rpg", "adv", "slg", "act", "other"]
 URL_SRCS = ("dlsite", "cien", "fanbox")  # 只有这几个来源写链接：DLsite 商店页、赞助站的支持页
 SRCS = ["dlsite", "fanza", "commercial", "steam", "cien", "fanbox"]
+SIGNALS = {"egs": "commercial", "steam": "steam", "followers": "cien"}  # 分数信号字段 → 写它的来源
 SRC_BY_PREFIX = {"RJ": "dlsite", "fanza-": "fanza", "vndb-": "commercial", "steam-": "steam", "cien-": "cien", "fanbox-": "fanbox"}
 OTHER_FILES = {"meta.json", "rankings.json", "scoring.json", "genres.json"}
 LANGS = ("ja", "zh", "en")
@@ -32,6 +33,29 @@ def safe_name(name):
     """和软件一样：只用字母、数字和 ._-，不以 . 开头、不以 . 或空格结尾，不是 Windows 保留名"""
     return (bool(NAME_OK.fullmatch(name)) and not name.startswith(".") and not name.endswith((".", " "))
             and name.split(".")[0].upper() not in RESERVED)
+
+
+def is_int(v):
+    return isinstance(v, int) and not isinstance(v, bool)
+
+
+def signal_problem(g):
+    """egs / steam / followers：只有对应来源的作品写，可以没有或 null；有就查类型和范围，返回问题说明或 None"""
+    for key, src in SIGNALS.items():
+        v = g.get(key)
+        if v is None:
+            continue
+        if g.get("src") != src:
+            return f"的来源是 {g.get('src')}，只有 {src} 的作品写 {key}"
+        if key == "egs" and not (isinstance(v, dict) and set(v) == {"median", "count"} and is_int(v["median"])
+                                 and 0 <= v["median"] <= 100 and is_int(v["count"]) and v["count"] >= 0):
+            return "的 egs 要是 {\"median\": 0–100 的整数, \"count\": 非负整数}"
+        if key == "steam" and not (isinstance(v, dict) and set(v) == {"positive", "reviews"} and is_int(v["positive"])
+                                   and 0 <= v["positive"] <= 100 and is_int(v["reviews"]) and v["reviews"] >= 0):
+            return "的 steam 要是 {\"positive\": 0–100 的整数, \"reviews\": 非负整数}"
+        if key == "followers" and not (is_int(v) and v >= 0):
+            return "的 followers 要是非负整数"
+    return None
 
 
 def load(path):
@@ -74,6 +98,9 @@ def build_catalog(extras=()):
             bad = [x for x in g["genres"] if x not in genres]
             if bad:
                 raise ValueError(f"{gid} 的题材 {bad} 不在 data/genres.json 里")
+        problem = signal_problem(g)
+        if problem:
+            raise ValueError(f"{gid} {problem}")
         seen.add(gid)
         by_cat[g["cat"]].append(g)
 

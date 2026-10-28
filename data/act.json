@@ -6961,6 +6961,7 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "followers": 43952,
     "url": "https://ci-en.dlsite.com/creator/1030",
     "note": "点阵风探索型动作 RPG"
   },
@@ -6983,6 +6984,7 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "followers": 80927,
     "url": "https://ci-en.dlsite.com/creator/12611",
     "note": "点阵风 2D 横版动作游戏，以体验版形式持续更新"
   },
@@ -7005,6 +7007,7 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "followers": 36858,
     "url": "https://ci-en.dlsite.com/creator/13060",
     "note": "战斗探索游戏「TUNNEL ESCAPE」的续作，2026 年 10 月宣布开发"
   },
@@ -7028,6 +7031,7 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "followers": 37012,
     "url": "https://ci-en.dlsite.com/creator/1756",
     "note": "动作加卡组构筑的游戏，每月更新版本"
   },
@@ -7051,6 +7055,7 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "followers": 128327,
     "url": "https://ci-en.dlsite.com/creator/17888",
     "note": "忍者题材的点阵风 2D 动作游戏"
   },
@@ -7073,6 +7078,7 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "followers": 35774,
     "url": "https://ci-en.dlsite.com/creator/186",
     "note": "Spine 动画的横版动作游戏"
   },
@@ -7096,6 +7102,7 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "followers": 25179,
     "url": "https://ci-en.dlsite.com/creator/18693",
     "note": "女主人公的迷宫动作游戏，Beta 版按月更新"
   },
@@ -7119,6 +7126,7 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "followers": 29098,
     "url": "https://ci-en.dlsite.com/creator/2130",
     "note": "猎奇向的动作游戏，按月发表制作报告"
   },
@@ -7141,6 +7149,7 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "followers": 72921,
     "url": "https://ci-en.dlsite.com/creator/227",
     "note": "3D 动作游戏，C108 时公开了体验版"
   },
@@ -7163,6 +7172,7 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "followers": 63538,
     "url": "https://ci-en.dlsite.com/creator/23364",
     "note": "动作游戏续作，2026 年 7 月起公开体验版"
   },
@@ -7186,6 +7196,7 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "followers": 22090,
     "url": "https://ci-en.dlsite.com/creator/51",
     "note": "女性视角的动作游戏新作"
   },
@@ -7209,6 +7220,7 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "followers": 86073,
     "url": "https://ci-en.dlsite.com/creator/5170",
     "note": "扮演史莱姆的动作新作，目前公开了验证版"
   },
@@ -7232,6 +7244,7 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "followers": 22584,
     "url": "https://ci-en.dlsite.com/creator/5332",
     "note": "2D 加 3D 的动作游戏，α 体验版已到 Ver0.070"
   },
@@ -7255,6 +7268,7 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "followers": 26457,
     "url": "https://ci-en.dlsite.com/creator/5355",
     "note": "在孤岛上探索、收集七颗宝石的动作游戏"
   },
@@ -7278,6 +7292,7 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "followers": 19563,
     "url": "https://ci-en.dlsite.com/creator/6141",
     "note": "女性之间格斗对战的游戏，Ci-en 公开 a0.55 版（相当于抢先体验）"
   },
@@ -7301,6 +7316,7 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "followers": 46350,
     "url": "https://ci-en.dlsite.com/creator/8186",
     "note": "忍者题材的横版动作游戏，2026 年 6 月发表"
   },
@@ -7346,6 +7362,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 92,
+      "reviews": 1120
+    },
     "note": "用丘比特之箭作战的简单射击（STG）游戏"
   },
   {
@@ -7367,6 +7387,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 85,
+      "reviews": 545
+    },
     "note": "银发少女持枪消灭怪物的第三人称射击游戏"
   },
   {
@@ -7388,6 +7412,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 86,
+      "reviews": 17165
+    },
     "note": "可自定义魅魔外观的暗黑奇幻动作 RPG，与同伴一起挑战 Boss，抢先体验阶段"
   },
   {
@@ -7409,6 +7437,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 94,
+      "reviews": 5947
+    },
     "note": "在丧尸与怪物横行的世界中杀出一条路的动作游戏"
   },
   {
@@ -7430,6 +7462,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 91,
+      "reviews": 1020
+    },
     "note": "赏金猎人女主角探索大地图的复古点阵银河恶魔城式动作游戏"
   },
   {
@@ -7451,6 +7487,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 93,
+      "reviews": 1062
+    },
     "note": "复古风横版动作游戏，猎魔人在被诅咒的城市讨伐魅魔（Libra Heart 同人作的 DX 版）"
   },
   {
@@ -7472,6 +7512,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 85,
+      "reviews": 823
+    },
     "note": "收录两款复古风横版动作游戏的合集，带解谜要素（Libra Heart 作品）"
   },
   {
@@ -7491,6 +7535,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 86,
+      "reviews": 238
+    },
     "note": "2D 横版探索动作游戏，猫娘挑战地下城"
   },
   {
@@ -7510,6 +7558,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 88,
+      "reviews": 856
+    },
     "note": "躲避\"黑暗海妖\"追捕、寻找线索逃脱的动作冒险"
   },
   {
@@ -7529,6 +7581,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 83,
+      "reviews": 1033
+    },
     "note": "成人向 2D 像素横版平台动作"
   },
   {
@@ -7550,6 +7606,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 93,
+      "reviews": 3364
+    },
     "note": "守夜生存类动作游戏，用监控和门锁撑过每一晚，抢先体验版"
   },
   {
@@ -7571,6 +7631,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 93,
+      "reviews": 814
+    },
     "note": "女祭司躲避怪物、解谜逃出城堡的动作游戏"
   },
   {
@@ -7592,6 +7656,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 82,
+      "reviews": 822
+    },
     "note": "女主人公的第三人称 3D 生存恐怖游戏，线性剧情＋半开放场景"
   },
   {
@@ -7613,6 +7681,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 93,
+      "reviews": 925
+    },
     "note": "美少女驾驶战机的纵版弹幕射击游戏，Live2D 立绘"
   },
   {
@@ -7634,6 +7706,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 89,
+      "reviews": 1257
+    },
     "note": "半妖忍者少女为主角的横版动作游戏，日版名《MANARI ～半妖の忍少女～》"
   },
   {
@@ -7655,6 +7731,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 91,
+      "reviews": 1321
+    },
     "note": "复古风格的射击动作游戏，拯救少女、讨伐怪物"
   },
   {
@@ -7674,6 +7754,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 90,
+      "reviews": 977
+    },
     "note": "银河恶魔城式动作冒险，魅魔主人公可魅惑敌人"
   },
   {
@@ -7695,6 +7779,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 80,
+      "reviews": 278
+    },
     "note": "视觉小说＋动作游戏，佣兵主人公与公主对抗"
   },
   {
@@ -7714,6 +7802,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 81,
+      "reviews": 290
+    },
     "note": "割草类幸存者游戏，收集装备不断变强"
   },
   {
@@ -7733,6 +7825,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 87,
+      "reviews": 441
+    },
     "note": "像素风防守射击游戏，切换武器、部署炮塔抵御外星虫潮"
   },
   {
@@ -7754,6 +7850,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "steam": {
+      "positive": 91,
+      "reviews": 680
+    },
     "note": "被困在自己电脑里的动作冒险游戏"
   },
   {
@@ -7773,6 +7873,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "egs": {
+      "median": 85,
+      "count": 476
+    },
     "note": "高速机甲动作战斗与剧情 ADV 结合的赛博朋克作品"
   },
   {
@@ -7792,6 +7896,10 @@
     "rate": null,
     "dl": null,
     "rc": null,
+    "egs": {
+      "median": 75,
+      "count": 167
+    },
     "note": "BALDR 系列的赛博朋克高速动作 ADV"
   }
 ]
