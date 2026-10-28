@@ -1,0 +1,28 @@
+{
+  "name": "图鉴综合榜",
+  "parts": [
+    {
+      "key": "praise",
+      "label": "口碑",
+      "method": "bayes",
+      "field": "rate",
+      "count": "rc",
+      "prior": 50,
+      "weight": 50
+    },
+    {
+      "key": "heat",
+      "label": "热度",
+      "method": "year-percentile",
+      "field": "dl",
+      "weight": 25
+    },
+    {
+      "key": "lists",
+      "label": "榜单",
+      "method": "rankings",
+      "cap": 3,
+      "weight": 25
+    }
+  ]
+}

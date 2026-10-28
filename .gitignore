@@ -1,0 +1,4 @@
+dist/
+covers/
+*.zip
+__pycache__/
