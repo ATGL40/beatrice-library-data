@@ -1500,37 +1500,6 @@
     ]
   },
   {
-    "id": "RJ01271506",
-    "cat": "slg",
-    "src": "dlsite",
-    "state": "released",
-    "title": "フォレスティア～ちいさな町の牧場ライフ～",
-    "names": {
-      "ja": "フォレスティア～ちいさな町の牧場ライフ～",
-      "zh": "佛蕾斯缇亚～小镇的牧场生活～",
-      "en": "Forestia ~Ranch Life in a Little Town~"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "いなずまそふと",
-    "date": "2025-05-16",
-    "rate": 4.79,
-    "dl": 41945,
-    "rc": 8985,
-    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01271506.html",
-    "note": "种田、养动物、钓鱼的慢生活模拟",
-    "genres": [
-      "502",
-      "504",
-      "032",
-      "008",
-      "013",
-      "004"
-    ]
-  },
-  {
     "id": "RJ01274276",
     "cat": "slg",
     "src": "dlsite",
@@ -6681,33 +6650,6 @@
     ]
   },
   {
-    "id": "RJ385039",
-    "cat": "slg",
-    "src": "dlsite",
-    "state": "released",
-    "title": "放課後の鬼ごっこ",
-    "names": {
-      "ja": "放課後の鬼ごっこ",
-      "zh": "放课后捉迷藏",
-      "en": "Afterschool Tag"
-    },
-    "mt": [],
-    "circle": "DOTTORU GAMES",
-    "date": "2022-05-12",
-    "rate": 4.53,
-    "dl": 56737,
-    "rc": 9865,
-    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ385039.html",
-    "note": "在废校中躲避幽灵、存活下来的游戏",
-    "genres": [
-      "502",
-      "431",
-      "504",
-      "019",
-      "115"
-    ]
-  },
-  {
     "id": "RJ385087",
     "cat": "slg",
     "src": "dlsite",
@@ -6766,39 +6708,6 @@
       "122",
       "130",
       "123",
-      "182"
-    ]
-  },
-  {
-    "id": "RJ390522",
-    "cat": "slg",
-    "src": "dlsite",
-    "state": "released",
-    "title": "田舎ライフ",
-    "names": {
-      "ja": "田舎ライフ",
-      "zh": "乡村生活",
-      "en": "Country Life"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "ピクトルサーカス",
-    "date": "2022-05-11",
-    "rate": 4.33,
-    "dl": 47270,
-    "rc": 12154,
-    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ390522.html",
-    "note": "在乡下度过一个夏天的点阵动画 SLG",
-    "genres": [
-      "073",
-      "431",
-      "211",
-      "504",
-      "008",
-      "115",
-      "128",
       "182"
     ]
   },

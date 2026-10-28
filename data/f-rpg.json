@@ -4750,37 +4750,6 @@
     ]
   },
   {
-    "id": "RJ228892",
-    "cat": "f-rpg",
-    "src": "dlsite",
-    "state": "released",
-    "title": "紅獄の剣士ティーナ",
-    "names": {
-      "ja": "紅獄の剣士ティーナ",
-      "zh": "红狱剑士蒂娜",
-      "en": "Tina, Swordswoman of the Crimson Prison"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "しなちくかすてぃーら",
-    "date": "2018-07-20",
-    "rate": 4.63,
-    "dl": 49615,
-    "rc": 20670,
-    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ228892.html",
-    "note": "",
-    "genres": [
-      "432",
-      "211",
-      "048",
-      "016",
-      "138",
-      "182"
-    ]
-  },
-  {
     "id": "RJ231296",
     "cat": "f-rpg",
     "src": "dlsite",
