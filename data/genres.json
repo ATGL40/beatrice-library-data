@@ -1,0 +1,1532 @@
+{
+  "001": {
+    "ja": "学校/学園",
+    "zh": "学校/学园",
+    "en": "School / Academy"
+  },
+  "002": {
+    "ja": "オフィス/職場",
+    "zh": "办公室/职场",
+    "en": "Office / Workplace"
+  },
+  "003": {
+    "ja": "屋外",
+    "zh": "室外",
+    "en": "Outdoor"
+  },
+  "004": {
+    "ja": "ラブラブ/あまあま",
+    "zh": "亲热/甜蜜",
+    "en": "Lovey Dovey / Sweet Love"
+  },
+  "005": {
+    "ja": "ギャグ",
+    "zh": "搞笑",
+    "en": "Gag / Joke"
+  },
+  "006": {
+    "ja": "退廃/背徳/インモラル",
+    "zh": "颓废/背德",
+    "en": "Decadent / Immoral"
+  },
+  "007": {
+    "ja": "コメディ",
+    "zh": "喜剧",
+    "en": "Comedy"
+  },
+  "008": {
+    "ja": "日常/生活",
+    "zh": "日常/生活",
+    "en": "Slice of Life / Daily Living"
+  },
+  "009": {
+    "ja": "ミリタリー",
+    "zh": "军事",
+    "en": "Military"
+  },
+  "010": {
+    "ja": "SF",
+    "zh": "科幻",
+    "en": "SF"
+  },
+  "011": {
+    "ja": "スポーツ",
+    "zh": "运动/体育",
+    "en": "Sports"
+  },
+  "012": {
+    "ja": "格闘",
+    "zh": "格斗",
+    "en": "Fighting / Martial Arts"
+  },
+  "013": {
+    "ja": "ほのぼの",
+    "zh": "温馨",
+    "en": "Heartwarming"
+  },
+  "014": {
+    "ja": "恋人同士",
+    "zh": "情侣/恋人",
+    "en": "Lovers"
+  },
+  "015": {
+    "ja": "シリアス",
+    "zh": "严肃/沉重",
+    "en": "Serious"
+  },
+  "016": {
+    "ja": "ファンタジー",
+    "zh": "奇幻",
+    "en": "Fantasy"
+  },
+  "017": {
+    "ja": "歴史/時代物",
+    "zh": "历史/古风",
+    "en": "Epic / Historical"
+  },
+  "019": {
+    "ja": "ホラー",
+    "zh": "恐怖",
+    "en": "Horror"
+  },
+  "020": {
+    "ja": "キャットファイト",
+    "zh": "女子搏斗",
+    "en": "Cat Fight"
+  },
+  "022": {
+    "ja": "サスペンス",
+    "zh": "悬疑",
+    "en": "Suspense"
+  },
+  "024": {
+    "ja": "バイオレンス",
+    "zh": "暴力",
+    "en": "Violence"
+  },
+  "026": {
+    "ja": "オカルト",
+    "zh": "超自然现象",
+    "en": "Occult"
+  },
+  "028": {
+    "ja": "歳の差",
+    "zh": "年龄差",
+    "en": "Age Disparity"
+  },
+  "029": {
+    "ja": "魔法",
+    "zh": "魔法",
+    "en": "Magic"
+  },
+  "031": {
+    "ja": "同居",
+    "zh": "同居",
+    "en": "Living Together"
+  },
+  "032": {
+    "ja": "純愛",
+    "zh": "纯爱",
+    "en": "Pure Love"
+  },
+  "034": {
+    "ja": "戦場",
+    "zh": "战场",
+    "en": "War / Battlefield"
+  },
+  "035": {
+    "ja": "おもらし",
+    "zh": "失禁",
+    "en": "Peeing Oneself"
+  },
+  "046": {
+    "ja": "ハーレム",
+    "zh": "后宫",
+    "en": "Harem"
+  },
+  "048": {
+    "ja": "寝取られ",
+    "zh": "被NTR(苦主视角)",
+    "en": "Cuckoldry (Netorare)"
+  },
+  "049": {
+    "ja": "着衣",
+    "zh": "着衣/穿衣",
+    "en": "Clothed"
+  },
+  "051": {
+    "ja": "萌え",
+    "zh": "萌",
+    "en": "Moe"
+  },
+  "052": {
+    "ja": "燃え",
+    "zh": "燃",
+    "en": "Hot / Burning"
+  },
+  "055": {
+    "ja": "感動",
+    "zh": "感动",
+    "en": "Emotional / Touching"
+  },
+  "056": {
+    "ja": "癒し",
+    "zh": "治愈",
+    "en": "Healing"
+  },
+  "057": {
+    "ja": "淡白/あっさり",
+    "zh": "平淡/冷淡",
+    "en": "Plain / Nonpersisting"
+  },
+  "058": {
+    "ja": "オールハッピー",
+    "zh": "皆大欢喜",
+    "en": "Totally Happy"
+  },
+  "059": {
+    "ja": "ツンデレ",
+    "zh": "傲娇",
+    "en": "Tsundere"
+  },
+  "060": {
+    "ja": "女性視点",
+    "zh": "女性视角",
+    "en": "Woman's Viewpoint"
+  },
+  "061": {
+    "ja": "鬱",
+    "zh": "致郁",
+    "en": "Depression / Depressing"
+  },
+  "062": {
+    "ja": "脚",
+    "zh": "腿/足",
+    "en": "Legs"
+  },
+  "063": {
+    "ja": "お尻/ヒップ",
+    "zh": "臀部/屁股",
+    "en": "Buttocks"
+  },
+  "064": {
+    "ja": "フェチ",
+    "zh": "癖好/性趣",
+    "en": "Fetish"
+  },
+  "065": {
+    "ja": "おっぱい",
+    "zh": "胸部/奶子",
+    "en": "Breasts"
+  },
+  "066": {
+    "ja": "マニアック/変態",
+    "zh": "特殊癖好/变态",
+    "en": "Abnormal / Perverted"
+  },
+  "068": {
+    "ja": "淫語",
+    "zh": "淫语",
+    "en": "Dirty Talk"
+  },
+  "069": {
+    "ja": "汁/液大量",
+    "zh": "大量汁/液",
+    "en": "Lots of White Cream / Juices"
+  },
+  "070": {
+    "ja": "連続絶頂",
+    "zh": "连续高潮",
+    "en": "Successive Orgasms"
+  },
+  "071": {
+    "ja": "断面図",
+    "zh": "断面图",
+    "en": "Cross-section View"
+  },
+  "073": {
+    "ja": "アニメ",
+    "zh": "动画",
+    "en": "Anime"
+  },
+  "074": {
+    "ja": "制服",
+    "zh": "制服",
+    "en": "Uniform"
+  },
+  "075": {
+    "ja": "セーラー服",
+    "zh": "水手服",
+    "en": "Sailor-style Uniform"
+  },
+  "077": {
+    "ja": "水着",
+    "zh": "泳装",
+    "en": "Swimwear"
+  },
+  "078": {
+    "ja": "メイド",
+    "zh": "女仆",
+    "en": "Maid"
+  },
+  "079": {
+    "ja": "ナース",
+    "zh": "护士",
+    "en": "Nurse"
+  },
+  "080": {
+    "ja": "巫女",
+    "zh": "巫女",
+    "en": "Shrine Maiden"
+  },
+  "081": {
+    "ja": "軍服",
+    "zh": "军服",
+    "en": "Army Uniform"
+  },
+  "082": {
+    "ja": "下着",
+    "zh": "内衣",
+    "en": "Underwear"
+  },
+  "083": {
+    "ja": "パンツ",
+    "zh": "内裤",
+    "en": "Panties"
+  },
+  "085": {
+    "ja": "ゴスロリ",
+    "zh": "哥特萝莉",
+    "en": "Gothic Lolita"
+  },
+  "086": {
+    "ja": "コスプレ",
+    "zh": "Cosplay/角色扮演",
+    "en": "Cosplay"
+  },
+  "087": {
+    "ja": "ボンデージ",
+    "zh": "拘束服",
+    "en": "Bondage"
+  },
+  "088": {
+    "ja": "ブルマ",
+    "zh": "校园体操服",
+    "en": "Bloomers / Buruma"
+  },
+  "090": {
+    "ja": "ミニスカ",
+    "zh": "迷你裙",
+    "en": "Short Skirt"
+  },
+  "091": {
+    "ja": "着物/和服",
+    "zh": "浴衣/和服",
+    "en": "Kimono / Japanese Clothes"
+  },
+  "092": {
+    "ja": "エプロン",
+    "zh": "围裙",
+    "en": "Apron"
+  },
+  "093": {
+    "ja": "ラバー",
+    "zh": "胶衣",
+    "en": "Rubber"
+  },
+  "094": {
+    "ja": "レオタード",
+    "zh": "紧身衣/舞蹈服",
+    "en": "Leotard"
+  },
+  "096": {
+    "ja": "シスター",
+    "zh": "修女",
+    "en": "Sister / Nun"
+  },
+  "098": {
+    "ja": "ウェイトレス",
+    "zh": "侍女",
+    "en": "Waitress"
+  },
+  "099": {
+    "ja": "バニーガール",
+    "zh": "兔女郎",
+    "en": "Bunny Girl"
+  },
+  "100": {
+    "ja": "スパッツ",
+    "zh": "紧身裤/运动短裤",
+    "en": "Leggings"
+  },
+  "101": {
+    "ja": "ニーソックス",
+    "zh": "过膝袜",
+    "en": "Knee Socks"
+  },
+  "102": {
+    "ja": "ストッキング",
+    "zh": "丝袜",
+    "en": "Stockings"
+  },
+  "104": {
+    "ja": "スクール水着",
+    "zh": "死库水/校园泳装",
+    "en": "School Swimwear"
+  },
+  "105": {
+    "ja": "スーツ",
+    "zh": "西装",
+    "en": "Suit"
+  },
+  "111": {
+    "ja": "女装",
+    "zh": "女装",
+    "en": "Cross-dressing as a Woman"
+  },
+  "112": {
+    "ja": "ノーマルプレイ",
+    "zh": "正常玩法",
+    "en": "Vanilla Sex"
+  },
+  "113": {
+    "ja": "合意なし",
+    "zh": "强X",
+    "en": "Dub-con"
+  },
+  "114": {
+    "ja": "命令/無理矢理",
+    "zh": "命令/强迫",
+    "en": "Ordered / Compelled"
+  },
+  "115": {
+    "ja": "逆レ",
+    "zh": "反向奸",
+    "en": "Reverse R"
+  },
+  "116": {
+    "ja": "複数プレイ/乱交",
+    "zh": "多P/乱交",
+    "en": "Orgy Sex"
+  },
+  "117": {
+    "ja": "放置プレイ",
+    "zh": "放置プレイ",
+    "en": "Erotic Sexual Denial"
+  },
+  "118": {
+    "ja": "レズ/女同士",
+    "zh": "蕾丝/女同",
+    "en": "Lesbian"
+  },
+  "120": {
+    "ja": "近親もの",
+    "zh": "骨科",
+    "en": "Relative Matter"
+  },
+  "121": {
+    "ja": "回し",
+    "zh": "多人运动",
+    "en": "Sharing is caring"
+  },
+  "122": {
+    "ja": "パイズリ",
+    "zh": "乳交",
+    "en": "Breast Sex"
+  },
+  "123": {
+    "ja": "和姦",
+    "zh": "通奸/和奸",
+    "en": "Consensual Sex"
+  },
+  "124": {
+    "ja": "手コキ",
+    "zh": "手交",
+    "en": "Hand Job"
+  },
+  "125": {
+    "ja": "足コキ",
+    "zh": "足交",
+    "en": "Foot Job"
+  },
+  "126": {
+    "ja": "ぶっかけ",
+    "zh": "外射",
+    "en": "Bukkake"
+  },
+  "127": {
+    "ja": "顔射",
+    "zh": "颜射",
+    "en": "Facial Cumshot"
+  },
+  "128": {
+    "ja": "中出し",
+    "zh": "内射/中出",
+    "en": "Internal Cumshot"
+  },
+  "129": {
+    "ja": "妊娠/孕ませ",
+    "zh": "怀孕",
+    "en": "Pregnancy / Impregnation"
+  },
+  "130": {
+    "ja": "母乳",
+    "zh": "母乳",
+    "en": "Breast Milk"
+  },
+  "131": {
+    "ja": "搾乳",
+    "zh": "挤奶",
+    "en": "Milking"
+  },
+  "132": {
+    "ja": "出産",
+    "zh": "分娩",
+    "en": "Childbirth"
+  },
+  "133": {
+    "ja": "産卵",
+    "zh": "产卵",
+    "en": "Egg Laying"
+  },
+  "134": {
+    "ja": "屈辱",
+    "zh": "羞辱",
+    "en": "Violation"
+  },
+  "135": {
+    "ja": "オナニー",
+    "zh": "自慰",
+    "en": "Masturbation"
+  },
+  "136": {
+    "ja": "SM",
+    "zh": "SM",
+    "en": "SM"
+  },
+  "137": {
+    "ja": "緊縛",
+    "zh": "捆绑/紧缚",
+    "en": "Sexual Bondage"
+  },
+  "138": {
+    "ja": "フェラチオ",
+    "zh": "口交",
+    "en": "Blowjob / Fellatio"
+  },
+  "139": {
+    "ja": "秘密さわさわ",
+    "zh": "偷偷摸摸",
+    "en": "Secret Fondling"
+  },
+  "140": {
+    "ja": "しつけ",
+    "zh": "教育",
+    "en": "Discipline"
+  },
+  "142": {
+    "ja": "淫乱",
+    "zh": "淫乱",
+    "en": "Naughty / Lewd"
+  },
+  "143": {
+    "ja": "露出",
+    "zh": "露出",
+    "en": "Outdoor Exposure"
+  },
+  "144": {
+    "ja": "言葉責め",
+    "zh": "言语刺激",
+    "en": "Verbal Humiliation"
+  },
+  "145": {
+    "ja": "青姦",
+    "zh": "室外性交/野战",
+    "en": "Outdoor Sex"
+  },
+  "146": {
+    "ja": "拘束",
+    "zh": "拘束",
+    "en": "Restraint"
+  },
+  "147": {
+    "ja": "下僕",
+    "zh": "奴仆",
+    "en": "Servant"
+  },
+  "148": {
+    "ja": "浣腸",
+    "zh": "灌肠",
+    "en": "Enema"
+  },
+  "149": {
+    "ja": "羞恥/恥辱",
+    "zh": "羞耻/耻辱",
+    "en": "Shame / Humiliation"
+  },
+  "151": {
+    "ja": "閉じ込め",
+    "zh": "限制自由",
+    "en": "Captured"
+  },
+  "152": {
+    "ja": "焦らし",
+    "zh": "挑逗/调情",
+    "en": "Tease"
+  },
+  "153": {
+    "ja": "くすぐり",
+    "zh": "挠痒痒",
+    "en": "Tickling"
+  },
+  "154": {
+    "ja": "超ひどい",
+    "zh": "造孽",
+    "en": "Very Mean"
+  },
+  "155": {
+    "ja": "盗撮",
+    "zh": "偷拍/盗摄",
+    "en": "Upskirt / Spy Photo"
+  },
+  "156": {
+    "ja": "男性受け",
+    "zh": "男性受",
+    "en": "Submissive Man"
+  },
+  "157": {
+    "ja": "トランス/暗示",
+    "zh": "暗示",
+    "en": "Trance / Suggestion"
+  },
+  "158": {
+    "ja": "百合",
+    "zh": "百合",
+    "en": "Yuri / Girls Love"
+  },
+  "159": {
+    "ja": "放尿/おしっこ",
+    "zh": "放尿/小便",
+    "en": "Urination / Peeing"
+  },
+  "160": {
+    "ja": "アナル",
+    "zh": "肛交",
+    "en": "Anal"
+  },
+  "161": {
+    "ja": "スカトロ",
+    "zh": "粪便/排泄物",
+    "en": "Scatology"
+  },
+  "162": {
+    "ja": "触手",
+    "zh": "触手",
+    "en": "Tentacle"
+  },
+  "164": {
+    "ja": "機械責め",
+    "zh": "机械X",
+    "en": "Machine Sex"
+  },
+  "165": {
+    "ja": "拡張",
+    "zh": "扩张",
+    "en": "Stretch / Expansion"
+  },
+  "166": {
+    "ja": "ショートカット",
+    "zh": "短发",
+    "en": "Short Hair"
+  },
+  "167": {
+    "ja": "ロングヘア",
+    "zh": "长发",
+    "en": "Long Hair"
+  },
+  "170": {
+    "ja": "金髪",
+    "zh": "金发",
+    "en": "Blonde Hair"
+  },
+  "171": {
+    "ja": "黒髪",
+    "zh": "黑发",
+    "en": "Black Hair"
+  },
+  "173": {
+    "ja": "ポニーテール",
+    "zh": "单马尾",
+    "en": "Ponytail"
+  },
+  "174": {
+    "ja": "ツインテール",
+    "zh": "双马尾",
+    "en": "Twin Tail"
+  },
+  "175": {
+    "ja": "ネコミミ",
+    "zh": "猫耳",
+    "en": "Nekomimi (Cat Ears)"
+  },
+  "176": {
+    "ja": "獣耳",
+    "zh": "兽耳",
+    "en": "Animal Ears"
+  },
+  "177": {
+    "ja": "長身",
+    "zh": "高挑",
+    "en": "Tall Person"
+  },
+  "178": {
+    "ja": "スレンダー",
+    "zh": "苗条",
+    "en": "Slender"
+  },
+  "179": {
+    "ja": "ムチムチ",
+    "zh": "丰满",
+    "en": "Voluptuous / Plump"
+  },
+  "181": {
+    "ja": "筋肉",
+    "zh": "肌肉",
+    "en": "Muscular"
+  },
+  "182": {
+    "ja": "巨乳/爆乳",
+    "zh": "巨乳/爆乳",
+    "en": "Big Breasts"
+  },
+  "183": {
+    "ja": "貧乳/微乳",
+    "zh": "贫乳/微乳",
+    "en": "Tiny Breasts"
+  },
+  "184": {
+    "ja": "複乳/怪乳/超乳",
+    "zh": "复乳/怪乳/超乳",
+    "en": "Multi- / Monster- / Mega-breasts"
+  },
+  "185": {
+    "ja": "乳首/乳輪",
+    "zh": "乳头/乳晕",
+    "en": "Nipples / Areola"
+  },
+  "186": {
+    "ja": "ぼて腹/妊婦",
+    "zh": "西瓜肚/孕妇",
+    "en": "Pregnant Woman"
+  },
+  "187": {
+    "ja": "ツルペタ",
+    "zh": "平胸/飞机场",
+    "en": "Tsurupeta"
+  },
+  "188": {
+    "ja": "パイパン",
+    "zh": "白虎/无阴毛",
+    "en": "No Pubic Hair"
+  },
+  "189": {
+    "ja": "陰毛/腋毛",
+    "zh": "阴毛/腋毛",
+    "en": "Pubic Hair / Armpit Hair"
+  },
+  "190": {
+    "ja": "フタナリ",
+    "zh": "扶她",
+    "en": "Futanari / Hermaphrodite"
+  },
+  "191": {
+    "ja": "巨根",
+    "zh": "巨根",
+    "en": "Large Cock"
+  },
+  "192": {
+    "ja": "童貞",
+    "zh": "童贞/处男",
+    "en": "Virgin Male"
+  },
+  "193": {
+    "ja": "処女",
+    "zh": "处女",
+    "en": "Virgin Female"
+  },
+  "194": {
+    "ja": "巨大化",
+    "zh": "巨大化",
+    "en": "Supersize"
+  },
+  "196": {
+    "ja": "方言",
+    "zh": "方言",
+    "en": "Dialect (Language)"
+  },
+  "197": {
+    "ja": "ボクっ娘",
+    "zh": "男性自称少女/仆娘",
+    "en": "Boyish Girl"
+  },
+  "198": {
+    "ja": "無表情",
+    "zh": "无表情",
+    "en": "Expressionless / Deadpan"
+  },
+  "199": {
+    "ja": "猟奇",
+    "zh": "猎奇",
+    "en": "Bizarre / Eccentric"
+  },
+  "200": {
+    "ja": "人体改造",
+    "zh": "人体改造",
+    "en": "Body Modification"
+  },
+  "201": {
+    "ja": "責め苦",
+    "zh": "拷打",
+    "en": "Agony"
+  },
+  "202": {
+    "ja": "フィストファック",
+    "zh": "拳交",
+    "en": "Fisting / Fist Sex"
+  },
+  "203": {
+    "ja": "ニプルファック",
+    "zh": "乳头交",
+    "en": "Nipple Penetration"
+  },
+  "204": {
+    "ja": "血液/流血",
+    "zh": "血液/流血",
+    "en": "Blood / Bleeding"
+  },
+  "205": {
+    "ja": "狂気",
+    "zh": "疯狂",
+    "en": "Madness"
+  },
+  "206": {
+    "ja": "少女",
+    "zh": "少女",
+    "en": "Girl"
+  },
+  "208": {
+    "ja": "ぷに",
+    "zh": "娃娃脸/婴儿肥",
+    "en": "Puni"
+  },
+  "209": {
+    "ja": "年上",
+    "zh": "年上",
+    "en": "Senior"
+  },
+  "210": {
+    "ja": "少年",
+    "zh": "少年",
+    "en": "Boy"
+  },
+  "211": {
+    "ja": "ショタ",
+    "zh": "正太",
+    "en": "Shota"
+  },
+  "212": {
+    "ja": "妹",
+    "zh": "妹妹",
+    "en": "Younger Sister"
+  },
+  "213": {
+    "ja": "母親",
+    "zh": "母亲",
+    "en": "Mother"
+  },
+  "214": {
+    "ja": "義妹",
+    "zh": "义妹",
+    "en": "Younger Stepsister"
+  },
+  "218": {
+    "ja": "熟女",
+    "zh": "熟女",
+    "en": "Mature Woman / MILF"
+  },
+  "219": {
+    "ja": "人妻",
+    "zh": "人妻",
+    "en": "Married Woman"
+  },
+  "220": {
+    "ja": "お姉さん",
+    "zh": "姐姐",
+    "en": "Oneesan / Older Girl / Older Sister"
+  },
+  "221": {
+    "ja": "既婚者",
+    "zh": "已婚者",
+    "en": "Married Person"
+  },
+  "222": {
+    "ja": "幼なじみ",
+    "zh": "青梅竹马",
+    "en": "Childhood Friend"
+  },
+  "223": {
+    "ja": "双子",
+    "zh": "双胞胎",
+    "en": "Twins"
+  },
+  "226": {
+    "ja": "女教師",
+    "zh": "女教师",
+    "en": "Female Teacher"
+  },
+  "230": {
+    "ja": "サラリーマン",
+    "zh": "白领/上班族",
+    "en": "Salaried Worker"
+  },
+  "232": {
+    "ja": "OL",
+    "zh": "OL",
+    "en": "Office Lady"
+  },
+  "233": {
+    "ja": "戦士",
+    "zh": "战士",
+    "en": "Warrior"
+  },
+  "234": {
+    "ja": "女王様/お姫様",
+    "zh": "女王/公主",
+    "en": "Queen / Princess"
+  },
+  "235": {
+    "ja": "エルフ/妖精",
+    "zh": "精灵/妖精",
+    "en": "Elf / Fairy"
+  },
+  "237": {
+    "ja": "天使/悪魔",
+    "zh": "天使/恶魔",
+    "en": "Angel / Demon"
+  },
+  "239": {
+    "ja": "幽霊",
+    "zh": "幽灵",
+    "en": "Ghost"
+  },
+  "240": {
+    "ja": "魔法少女",
+    "zh": "魔法少女",
+    "en": "Magical Girl"
+  },
+  "241": {
+    "ja": "魔法使い/魔女",
+    "zh": "魔法师/魔女",
+    "en": "Magician / Witch"
+  },
+  "242": {
+    "ja": "お嬢様",
+    "zh": "大小姐",
+    "en": "Upper-class Girl"
+  },
+  "243": {
+    "ja": "妖怪",
+    "zh": "妖怪",
+    "en": "Youkai"
+  },
+  "245": {
+    "ja": "性転換(TS)",
+    "zh": "性转换(TS)",
+    "en": "Sex Change / Transsexual"
+  },
+  "246": {
+    "ja": "天然",
+    "zh": "天然呆",
+    "en": "Natural Airhead"
+  },
+  "249": {
+    "ja": "擬人化",
+    "zh": "拟人化",
+    "en": "Personification"
+  },
+  "250": {
+    "ja": "女体化",
+    "zh": "女体化",
+    "en": "Feminization"
+  },
+  "251": {
+    "ja": "けもの/獣化",
+    "zh": "野兽/兽化",
+    "en": "Kemo / Animalization / Transfur"
+  },
+  "254": {
+    "ja": "ロボット/アンドロイド",
+    "zh": "机器人/仿生人",
+    "en": "Robot / Android"
+  },
+  "255": {
+    "ja": "メガネ",
+    "zh": "眼镜",
+    "en": "Glasses"
+  },
+  "256": {
+    "ja": "首輪/鎖/拘束具",
+    "zh": "项圈/锁链/拘束道具",
+    "en": "Collar / Chain / Restraints"
+  },
+  "257": {
+    "ja": "道具/異物",
+    "zh": "道具/异物",
+    "en": "Foreign Objects"
+  },
+  "258": {
+    "ja": "靴下",
+    "zh": "袜子",
+    "en": "Socks"
+  },
+  "260": {
+    "ja": "ピアス/装飾品",
+    "zh": "耳环/装饰品",
+    "en": "Piercings / Accessories"
+  },
+  "262": {
+    "ja": "ムチ/縄/蝋燭",
+    "zh": "鞭子/绳子/蜡烛",
+    "en": "Whip / Rope / Candle"
+  },
+  "263": {
+    "ja": "おもちゃ",
+    "zh": "玩具",
+    "en": "Toys"
+  },
+  "265": {
+    "ja": "薬物",
+    "zh": "药物",
+    "en": "Drugs"
+  },
+  "268": {
+    "ja": "姉妹",
+    "zh": "姐妹",
+    "en": "Sisters"
+  },
+  "269": {
+    "ja": "変身ヒロイン",
+    "zh": "变身女主",
+    "en": "Transforming Girl"
+  },
+  "270": {
+    "ja": "下克上",
+    "zh": "下克上",
+    "en": "Gekokujo (the lower rules the higher)"
+  },
+  "272": {
+    "ja": "ヤクザ/裏社会",
+    "zh": "黑社会/黑手党",
+    "en": "Crime / Gangster"
+  },
+  "281": {
+    "ja": "同級生/同僚",
+    "zh": "同学/同事",
+    "en": "Classmate / Colleague"
+  },
+  "284": {
+    "ja": "警察/刑事",
+    "zh": "警察/刑警",
+    "en": "Police / Detective"
+  },
+  "285": {
+    "ja": "先輩/後輩",
+    "zh": "前辈/后辈",
+    "en": "Junior / Senior (at work, school, etc)"
+  },
+  "288": {
+    "ja": "主従",
+    "zh": "主从/主仆",
+    "en": "Master and Servant"
+  },
+  "290": {
+    "ja": "クール攻め",
+    "zh": "高冷攻",
+    "en": "Cool Attitude (Dominant)"
+  },
+  "292": {
+    "ja": "クール受け",
+    "zh": "高冷受",
+    "en": "Cool Attitude (Submissive)"
+  },
+  "295": {
+    "ja": "ソフトエッチ",
+    "zh": "软色情",
+    "en": "Softcore Eroticism"
+  },
+  "296": {
+    "ja": "シリーズもの",
+    "zh": "系列作品",
+    "en": "Serial Product"
+  },
+  "298": {
+    "ja": "ミステリー",
+    "zh": "推理",
+    "en": "Mystery"
+  },
+  "300": {
+    "ja": "丸呑み",
+    "zh": "丸吞",
+    "en": "Vore"
+  },
+  "301": {
+    "ja": "電車",
+    "zh": "电车",
+    "en": "Train"
+  },
+  "302": {
+    "ja": "寝取り",
+    "zh": "NTR(黄毛视角)",
+    "en": "Cuckoldry (Netori)"
+  },
+  "303": {
+    "ja": "男の娘",
+    "zh": "伪娘",
+    "en": "Otoko no ko"
+  },
+  "304": {
+    "ja": "おやじ",
+    "zh": "大叔",
+    "en": "Middle-aged Man"
+  },
+  "308": {
+    "ja": "料理/グルメ",
+    "zh": "料理/美食",
+    "en": "Cooking / Gourmet"
+  },
+  "310": {
+    "ja": "評論",
+    "zh": "评论",
+    "en": "Critical Essay"
+  },
+  "311": {
+    "ja": "おさわり",
+    "zh": "触摸/抚摸",
+    "en": "Touch / Feel"
+  },
+  "312": {
+    "ja": "きせかえ",
+    "zh": "换装",
+    "en": "Clothes Changing / Dress up"
+  },
+  "313": {
+    "ja": "リョナ",
+    "zh": "虐待/ryona",
+    "en": "Ryona / Brutal"
+  },
+  "316": {
+    "ja": "ヤンデレ",
+    "zh": "病娇",
+    "en": "Yandere"
+  },
+  "317": {
+    "ja": "人外娘/モンスター娘",
+    "zh": "人外娘/魔物娘",
+    "en": "Nonhuman / Monster Girl"
+  },
+  "321": {
+    "ja": "褐色/日焼け",
+    "zh": "褐皮/晒痕",
+    "en": "Tanned Skin / Suntan"
+  },
+  "323": {
+    "ja": "アヘ顔",
+    "zh": "高潮脸/阿黑颜",
+    "en": "Ahegao / Gapeface"
+  },
+  "324": {
+    "ja": "異種えっち",
+    "zh": "异种X",
+    "en": "Interspecies Sex"
+  },
+  "325": {
+    "ja": "悪堕ち",
+    "zh": "恶堕",
+    "en": "Corrupted Morals"
+  },
+  "326": {
+    "ja": "精神支配",
+    "zh": "精神支配",
+    "en": "Mind Control"
+  },
+  "400": {
+    "ja": "学生",
+    "zh": "学生",
+    "en": "Student"
+  },
+  "405": {
+    "ja": "レスラー/格闘家",
+    "zh": "摔角手/格斗家",
+    "en": "Wrestler / Fighter"
+  },
+  "409": {
+    "ja": "芸能人/アイドル/モデル",
+    "zh": "艺人/偶像/模特",
+    "en": "Entertainer / Idol / Model"
+  },
+  "413": {
+    "ja": "ヤリチン/プレイボーイ",
+    "zh": "海王/花花公子",
+    "en": "Playboy"
+  },
+  "414": {
+    "ja": "ゾンビ",
+    "zh": "僵尸/丧尸",
+    "en": "Zombie"
+  },
+  "415": {
+    "ja": "ギャル",
+    "zh": "辣妹",
+    "en": "Gal"
+  },
+  "416": {
+    "ja": "ビッチ",
+    "zh": "婊子",
+    "en": "Bitch / Slut"
+  },
+  "419": {
+    "ja": "不良/ヤンキー",
+    "zh": "不良/混混",
+    "en": "Delinquent / Hoodlum"
+  },
+  "423": {
+    "ja": "叔父/義父",
+    "zh": "叔父/义父",
+    "en": "Uncle / Stepfather"
+  },
+  "424": {
+    "ja": "上司",
+    "zh": "上司",
+    "en": "Boss"
+  },
+  "427": {
+    "ja": "王子様/王子系",
+    "zh": "王子殿下/王子系",
+    "en": "Prince / Royalty"
+  },
+  "431": {
+    "ja": "ドット",
+    "zh": "像素",
+    "en": "Dot / Pixel"
+  },
+  "432": {
+    "ja": "女主人公",
+    "zh": "女主人公",
+    "en": "Female Protagonist"
+  },
+  "433": {
+    "ja": "逆転無し",
+    "zh": "无逆转",
+    "en": "No Reverse"
+  },
+  "437": {
+    "ja": "初体験",
+    "zh": "初体验",
+    "en": "First Experience"
+  },
+  "438": {
+    "ja": "同棲",
+    "zh": "婚前同居",
+    "en": "Cohabitation"
+  },
+  "440": {
+    "ja": "浮気",
+    "zh": "出轨",
+    "en": "Cheating / Adultery"
+  },
+  "443": {
+    "ja": "憑依",
+    "zh": "附身",
+    "en": "Possession"
+  },
+  "444": {
+    "ja": "時間停止",
+    "zh": "时间停止",
+    "en": "Time Stopping"
+  },
+  "445": {
+    "ja": "石化",
+    "zh": "石化",
+    "en": "Petrifaction"
+  },
+  "446": {
+    "ja": "売春/援交",
+    "zh": "卖春/援交",
+    "en": "Prostitution / Paid Dating"
+  },
+  "447": {
+    "ja": "風俗/ソープ",
+    "zh": "风俗/泡泡浴",
+    "en": "Sex Industry / Soapland"
+  },
+  "448": {
+    "ja": "色仕掛け",
+    "zh": "色诱",
+    "en": "Coquettish / Seduction"
+  },
+  "455": {
+    "ja": "ラブコメ",
+    "zh": "爱情喜剧",
+    "en": "Love Comedy / Romcom"
+  },
+  "464": {
+    "ja": "スパンキング",
+    "zh": "打屁股",
+    "en": "Spanking"
+  },
+  "465": {
+    "ja": "モブおじさん",
+    "zh": "路人大叔",
+    "en": "Mob Sex"
+  },
+  "473": {
+    "ja": "太め/デブ",
+    "zh": "微胖/肥胖",
+    "en": "Chubby / Fat"
+  },
+  "484": {
+    "ja": "腹パン",
+    "zh": "腹击",
+    "en": "Gut Punch"
+  },
+  "486": {
+    "ja": "未亡人",
+    "zh": "寡妇",
+    "en": "Widow"
+  },
+  "487": {
+    "ja": "イラマチオ",
+    "zh": "深喉口交(男主导)",
+    "en": "Irrumatio"
+  },
+  "488": {
+    "ja": "口内射精",
+    "zh": "口内射精/口爆",
+    "en": "Oral Cumshot"
+  },
+  "489": {
+    "ja": "ごっくん/食ザー",
+    "zh": "吞精/食精",
+    "en": "Cum Swallowing"
+  },
+  "490": {
+    "ja": "虫えっち",
+    "zh": "虫X",
+    "en": "Insect Sex"
+  },
+  "495": {
+    "ja": "すやすやえっち",
+    "zh": "睡奸/迷奸",
+    "en": "Sleep Sex"
+  },
+  "496": {
+    "ja": "バイノーラル/ダミヘ",
+    "zh": "双声道立体声/人头麦",
+    "en": "Binaural"
+  },
+  "497": {
+    "ja": "ASMR",
+    "zh": "ASMR",
+    "en": "ASMR"
+  },
+  "499": {
+    "ja": "クンニ",
+    "zh": "舔阴",
+    "en": "Cunnilingus"
+  },
+  "500": {
+    "ja": "耳舐め",
+    "zh": "舔耳",
+    "en": "Ear Licking"
+  },
+  "501": {
+    "ja": "潮吹き",
+    "zh": "潮吹",
+    "en": "Squirting / Gushing"
+  },
+  "502": {
+    "ja": "男主人公",
+    "zh": "男主人公",
+    "en": "Male Protagonist"
+  },
+  "503": {
+    "ja": "ささやき",
+    "zh": "低语",
+    "en": "Whispering"
+  },
+  "504": {
+    "ja": "おねショタ",
+    "zh": "姐姐×正太",
+    "en": "Elder Girl x Younger Boy"
+  },
+  "505": {
+    "ja": "くノ一",
+    "zh": "女忍者",
+    "en": "Kunoichi (Ninja Girl)"
+  },
+  "506": {
+    "ja": "サキュバス/淫魔",
+    "zh": "魅魔/淫魔",
+    "en": "Succubus / Incubus"
+  },
+  "509": {
+    "ja": "3D作品",
+    "zh": "3D作品",
+    "en": "3D Works"
+  },
+  "510": {
+    "ja": "ツクール",
+    "zh": "RPG制作大师",
+    "en": "RPG Maker"
+  },
+  "512": {
+    "ja": "東方Project",
+    "zh": "东方Project",
+    "en": "Touhou Project"
+  },
+  "513": {
+    "ja": "VTuber",
+    "zh": "VTuber",
+    "en": "VTuber"
+  },
+  "514": {
+    "ja": "オナサポ",
+    "zh": "自慰辅助",
+    "en": "Guided Masturbation"
+  },
+  "519": {
+    "ja": "異世界転生",
+    "zh": "异世界转生",
+    "en": "Isekai"
+  },
+  "522": {
+    "ja": "メス堕ち",
+    "zh": "雌堕",
+    "en": "Fem-corruption"
+  },
+  "523": {
+    "ja": "乳首責め",
+    "zh": "乳头刺激",
+    "en": "Nipple Teasing"
+  },
+  "524": {
+    "ja": "オホ声",
+    "zh": "哦吼淫叫",
+    "en": "Vulgar Moans"
+  },
+  "526": {
+    "ja": "快楽堕ち",
+    "zh": "沉迷快乐/快乐堕落",
+    "en": "Pleasure Corruption"
+  },
+  "527": {
+    "ja": "クリ責め",
+    "zh": "阴蒂刺激",
+    "en": "Clit Teasing"
+  },
+  "528": {
+    "ja": "本番なし",
+    "zh": "无插入/无正戏",
+    "en": "No Penetrative Sex"
+  },
+  "529": {
+    "ja": "寝取らせ",
+    "zh": "故意被NTR/绿奴",
+    "en": "Cuckoldry (Netorase)"
+  },
+  "530": {
+    "ja": "逆NTR",
+    "zh": "逆NTR",
+    "en": "Reverse Cuckoldry"
+  },
+  "531": {
+    "ja": "つるぺたババア",
+    "zh": "萝老太婆",
+    "en": "Petite Baba"
+  },
+  "532": {
+    "ja": "逆アナル",
+    "zh": "逆肛交",
+    "en": "Reverse Anal"
+  },
+  "533": {
+    "ja": "戦闘エロ",
+    "zh": "战斗H",
+    "en": "Battle Fuck"
+  },
+  "536": {
+    "ja": "女性優位",
+    "zh": "女性主导",
+    "en": "Femdom"
+  },
+  "538": {
+    "ja": "ママ",
+    "zh": "妈妈",
+    "en": "Mommie"
+  },
+  "539": {
+    "ja": "体格差",
+    "zh": "体型差",
+    "en": "Body Size Disparity"
+  },
+  "541": {
+    "ja": "獣人",
+    "zh": "兽人",
+    "en": "Beastkin"
+  },
+  "637": {
+    "ja": "キス",
+    "zh": "亲吻",
+    "en": "Kissing"
+  },
+  "642": {
+    "ja": "感覚遮断",
+    "zh": "感官屏蔽",
+    "en": "Sensory Deprivation"
+  },
+  "643": {
+    "ja": "人格排泄",
+    "zh": "人格排泄",
+    "en": "Personality Excretion"
+  },
+  "647": {
+    "ja": "膨乳",
+    "zh": "乳房膨胀",
+    "en": "Breast Expansion"
+  },
+  "648": {
+    "ja": "淫紋",
+    "zh": "淫纹",
+    "en": "Womb Tattoo / Lust Crest"
+  },
+  "649": {
+    "ja": "喘ぎ真似",
+    "zh": "模仿娇喘",
+    "en": "Moan Imitation"
+  },
+  "654": {
+    "ja": "寝バック",
+    "zh": "平趴后入",
+    "en": "Prone Bone"
+  },
+  "659": {
+    "ja": "マッサージ",
+    "zh": "按摩",
+    "en": "Massage"
+  },
+  "661": {
+    "ja": "常識改変",
+    "zh": "常识改变",
+    "en": "Altered Sense of Normal"
+  }
+}

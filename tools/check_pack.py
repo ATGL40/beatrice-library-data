@@ -18,6 +18,7 @@ MAX_FILE = 50 << 20
 MAX_TOTAL = 1 << 30
 CATS = {"f-rpg", "m-rpg", "adv", "slg", "act", "other"}
 SRCS = {"dlsite", "fanza", "commercial", "steam", "cien", "fanbox"}
+LANGS = ("ja", "zh", "en")
 EXTS = {"jpg", "jpeg", "png", "webp"}
 NAME_OK = re.compile(r"[A-Za-z0-9._-]+")
 RESERVED = {"CON", "PRN", "AUX", "NUL"} | {f"{p}{i}" for p in ("COM", "LPT") for i in range(1, 10)}
@@ -127,6 +128,14 @@ def check(path, min_updated):
     dup = sorted({i for i in ids if ids.count(i) > 1}, key=str)
     if dup:
         problems.append(f"id 重复：{dup}")
+    genres = cat.get("genres", {})
+    if not isinstance(genres, dict):
+        problems.append("genres 不是对象（题材 id → 各语言名称）")
+        genres = {}
+    for gid, names in genres.items():
+        if not (gid.isdigit() and isinstance(names, dict) and all(isinstance(names.get(k), str) and names[k] for k in LANGS)):
+            problems.append(f"题材 {gid!r} 格式不对：要有 {', '.join(LANGS)} 三个名称")
+    tagged = 0
     for g in games:
         if not isinstance(g, dict) or not g.get("id"):
             continue
@@ -144,6 +153,13 @@ def check(path, min_updated):
             problems.append(f"{g.get('id')} 的来源是 {src}，不该有 url")
         if "also" in g and not (isinstance(g["also"], list) and all(s in SRCS for s in g["also"])):
             problems.append(f"{g.get('id')} 的 also 要是来源数组")
+        if "genres" in g:
+            if src != "dlsite":
+                problems.append(f"{g.get('id')} 的来源是 {src}，只有 DLsite 的作品写 genres")
+            if not (isinstance(g["genres"], list) and all(isinstance(x, str) and x in genres for x in g["genres"])):
+                problems.append(f"{g.get('id')} 的 genres 要是字符串数组，每个 id 都要在 genres 字典里")
+            else:
+                tagged += 1
 
     rankings = cat.get("rankings", [])
     rk_items = rk_rj = rk_hit = 0
@@ -181,6 +197,7 @@ def check(path, min_updated):
     notes.insert(0, f"资料日期 {updated}，作品 {len(games)} 部（{', '.join(f'{k} {v}' for k, v in sorted(srcs.items(), key=lambda kv: -kv[1]))}），"
                     f"封面 {len(covers)} 张（包里图片 {len(cover_files)} 张）")
     notes.insert(1, f"榜单 {len(rankings)} 个、{rk_items} 条，带 rj 的 {rk_rj} 条，对得上作品的 {rk_hit} 条")
+    notes.insert(2, f"题材标签 {len(genres)} 个，带题材的作品 {tagged} 部（DLsite 作品 {srcs.get('dlsite', 0)} 部）")
     if len(cover_files) > len(covers):
         notes.append(f"有 {len(cover_files) - len(covers)} 张图片没有作品用到")
     return problems, notes

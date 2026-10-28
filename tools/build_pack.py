@@ -20,7 +20,8 @@ DATA = ROOT / "data"
 CATS = ["f-rpg", "m-rpg", "adv", "slg", "act", "other"]
 SRCS = ["dlsite", "fanza", "commercial", "steam", "cien", "fanbox"]
 SRC_BY_PREFIX = {"RJ": "dlsite", "fanza-": "fanza", "vndb-": "commercial", "steam-": "steam", "cien-": "cien", "fanbox-": "fanbox"}
-OTHER_FILES = {"meta.json", "rankings.json", "scoring.json"}
+OTHER_FILES = {"meta.json", "rankings.json", "scoring.json", "genres.json"}
+LANGS = ("ja", "zh", "en")
 EXTS = [".jpg", ".jpeg", ".png", ".webp"]
 NAME_OK = re.compile(r"[A-Za-z0-9._-]+")
 RESERVED = {"CON", "PRN", "AUX", "NUL"} | {f"{p}{i}" for p in ("COM", "LPT") for i in range(1, 10)}
@@ -43,6 +44,7 @@ def build_catalog(extras=()):
     meta = load(DATA / "meta.json")
     if not isinstance(meta, dict) or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(meta.get("updated"))):
         raise ValueError("data/meta.json 的 updated 要写成 YYYY-MM-DD")
+    genres = load_genres()
     by_cat, seen = {c: [] for c in CATS}, set()
 
     def add(g, where, cat=None):
@@ -63,6 +65,14 @@ def build_catalog(extras=()):
             raise ValueError(f"{gid} 的来源是 {g['src']}，只有 DLsite 的作品写 url")
         if "also" in g and not (isinstance(g["also"], list) and all(s in SRCS for s in g["also"])):
             raise ValueError(f"{gid} 的 also 要是来源数组，取值和 src 一样")
+        if "genres" in g:
+            if g["src"] != "dlsite":
+                raise ValueError(f"{gid} 的来源是 {g['src']}，只有 DLsite 的作品写 genres")
+            if not (isinstance(g["genres"], list) and all(isinstance(x, str) for x in g["genres"])):
+                raise ValueError(f"{gid} 的 genres 要是题材 id（字符串）数组")
+            bad = [x for x in g["genres"] if x not in genres]
+            if bad:
+                raise ValueError(f"{gid} 的题材 {bad} 不在 data/genres.json 里")
         seen.add(gid)
         by_cat[g["cat"]].append(g)
 
@@ -77,13 +87,29 @@ def build_catalog(extras=()):
     rankings = load(DATA / "rankings.json") if (DATA / "rankings.json").exists() else []
     for extra in extras:
         merge_extra(load(extra), extra.name, add, rankings)
-    catalog = {k: v for k, v in meta.items() if k not in ("games", "rankings", "scoring")}
+    catalog = {k: v for k, v in meta.items() if k not in ("games", "rankings", "scoring", "genres")}
+    if genres:
+        catalog["genres"] = genres
     catalog["games"] = [g for c in CATS for g in sorted(by_cat[c], key=lambda g: g["id"])]
     if rankings:
         catalog["rankings"] = rankings
     if (DATA / "scoring.json").exists():
         catalog["scoring"] = load(DATA / "scoring.json")
     return catalog
+
+
+def load_genres():
+    """data/genres.json：{"题材 id": {"ja": …, "zh": …, "en": …}}，id 是 DLsite 的题材编号（字符串）；可以没有"""
+    path = DATA / "genres.json"
+    if not path.exists():
+        return {}
+    genres = load(path)
+    if not isinstance(genres, dict):
+        raise ValueError("data/genres.json 必须是对象：题材 id → 各语言名称")
+    for gid, names in genres.items():
+        if not (gid.isdigit() and isinstance(names, dict) and all(isinstance(names.get(k), str) and names[k] for k in LANGS)):
+            raise ValueError(f"data/genres.json 里的题材 {gid!r} 格式不对：要有 {', '.join(LANGS)} 三个名称")
+    return genres
 
 
 def merge_extra(ex, where, add, rankings):
