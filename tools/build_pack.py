@@ -18,6 +18,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 CATS = ["f-rpg", "m-rpg", "adv", "slg", "act", "other"]
+SRCS = ["dlsite", "fanza", "commercial", "steam", "cien", "fanbox"]
+SRC_BY_PREFIX = {"RJ": "dlsite", "fanza-": "fanza", "vndb-": "commercial", "steam-": "steam", "cien-": "cien", "fanbox-": "fanbox"}
 OTHER_FILES = {"meta.json", "rankings.json", "scoring.json"}
 EXTS = [".jpg", ".jpeg", ".png", ".webp"]
 NAME_OK = re.compile(r"[A-Za-z0-9._-]+")
@@ -53,6 +55,14 @@ def build_catalog(extras=()):
             raise ValueError(f"{gid} 的 cat 是 {g.get('cat')!r}，和 {where} 对不上")
         if "cover" in g:
             raise ValueError(f"{gid} 写了 cover：封面字段由打包脚本生成，{where} 里不要写")
+        if "src" not in g:  # 旧格式 / 本地另加的条目：按 id 前缀补来源
+            g["src"] = next((s for p, s in SRC_BY_PREFIX.items() if gid.startswith(p)), None)
+        if g["src"] not in SRCS:
+            raise ValueError(f"{gid} 的 src 是 {g.get('src')!r}，要是 {', '.join(SRCS)} 之一")
+        if g["src"] != "dlsite" and g.get("url"):
+            raise ValueError(f"{gid} 的来源是 {g['src']}，只有 DLsite 的作品写 url")
+        if "also" in g and not (isinstance(g["also"], list) and all(s in SRCS for s in g["also"])):
+            raise ValueError(f"{gid} 的 also 要是来源数组，取值和 src 一样")
         seen.add(gid)
         by_cat[g["cat"]].append(g)
 

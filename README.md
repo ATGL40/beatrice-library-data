@@ -30,6 +30,8 @@ tools/
 
 字段的意思见[软件仓库](https://github.com/ATGL40/beatrice-library)里的接口说明。`data/` 里不写 `cover`，封面字段由打包脚本生成。
 
+`src` 是作品来源：`dlsite` / `fanza` / `commercial`（商业作品）/ `steam` / `cien` / `fanbox`（后两个是开发中的作品）；只有 DLsite 的作品写 `url`，其他来源不写 `url`，`rate`、`dl`、`rc` 填 `null`；也在别的来源上架的，用 `also`（来源数组）记一下，没有就不写。
+
 ## 自己打包
 
 要 Python 3.9 以上，不用装别的库。
@@ -56,7 +58,7 @@ py tools/check_pack.py dist/碧翠子禁书库数据包-<日期>.zip
 
 ## 资料来源
 
-- 作品资料（名称、社团、发售日期、评分、评分人数、销量、商店页链接）：[DLsite](https://www.dlsite.com/)。中文名、英文名和一句话简介由维护者整理。
+- 作品资料（名称、社团、发售日期、评分、评分人数、销量、商店页链接）：[DLsite](https://www.dlsite.com/)；商业作品来自 [ErogameScape](https://erogamescape.dyndns.org/) 和 [VNDB](https://vndb.org/) 的公开资料，Steam 作品来自 Steam 商店页，开发中的作品来自 [Ci-en](https://ci-en.net/) 和 [pixivFANBOX](https://www.fanbox.cc/) 的公开页面。中文名、英文名和一句话简介由维护者整理。
 - 民间榜单：
   - [ErogameScape -エロゲー批評空間-](https://erogamescape.dyndns.org/) 的年度中央値排行（18禁・商業 / 18禁・同人），2021–2025 年各取前 20。
   - [VNDB (The Visual Novel Database)](https://vndb.org/) 的评分排行，经 [VNDB 官方 API](https://api.vndb.org/kana) 查询，2021–2025 年各取前 20。VNDB 的数据以 [ODbL](https://vndb.org/d17) 授权。
@@ -79,6 +81,6 @@ Catalog data for **Beatrice Library** (碧翠子禁书库), an offline desktop m
 - **Use:** download `beatrice-library-data-<date>.zip` from [Releases](https://github.com/ATGL40/beatrice-library-data/releases), then in the app: 设置 (Settings) → 作品资料 → 导入数据包 (Import data pack). Packs older than the app's built-in data are rejected.
 - **Text packs only:** released packs contain `catalog.json` only. Cover images are copyrighted by their owners and are never stored or distributed here. `tools/build_pack.py --covers <dir>` builds a pack with your own local covers (`<id>.jpg|jpeg|png|webp`); keep such packs to yourself. `--extra <file.json>` merges extra local entries (`{"games": [...], "rankings": {"<list id>": [items...]}}`) into the build.
 - **Build / check:** `python3 tools/build_pack.py` writes `dist/碧翠子禁书库数据包-<updated>.zip`; `python3 tools/check_pack.py <pack.zip> [--min-updated YYYY-MM-DD]` validates it with the same rules as the app's importer. Python 3.9+, no dependencies.
-- **Contribute:** edit `data/*.json` (one file per category, sorted by id, no `cover` field), bump `updated` in `data/meta.json`, run both scripts, open a pull request. No images, please.
-- **Sources:** product info from [DLsite](https://www.dlsite.com/); rankings from [ErogameScape](https://erogamescape.dyndns.org/) (yearly median score lists) and [VNDB](https://vndb.org/) (via the official API; VNDB data is licensed under [ODbL](https://vndb.org/d17)). Chinese/English names and short notes are written by the maintainer.
+- **Contribute:** edit `data/*.json` (one file per category, sorted by id, no `cover` field), bump `updated` in `data/meta.json`, run both scripts, open a pull request. No images, please. Every work has `src` (`dlsite` / `fanza` / `commercial` / `steam` / `cien` / `fanbox`); only DLsite works carry `url`, other sources leave `url` out and set `rate` / `dl` / `rc` to `null`; `also` (optional array) lists other storefronts the work is on.
+- **Sources:** product info from [DLsite](https://www.dlsite.com/), commercial titles from public [ErogameScape](https://erogamescape.dyndns.org/) / [VNDB](https://vndb.org/) data, Steam titles from the Steam store, in-development works from public [Ci-en](https://ci-en.net/) / [pixivFANBOX](https://www.fanbox.cc/) pages; rankings from [ErogameScape](https://erogamescape.dyndns.org/) (yearly median score lists) and [VNDB](https://vndb.org/) (via the official API; VNDB data is licensed under [ODbL](https://vndb.org/d17)). Chinese/English names and short notes are written by the maintainer.
 - **License:** data under the [Open Database License 1.0](https://opendatacommons.org/licenses/odbl/1-0/) (see [LICENSE](LICENSE)); scripts in `tools/` under MIT (see [tools/LICENSE](tools/LICENSE)). Maintainer: [ATGL40](https://github.com/ATGL40).

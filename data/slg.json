@@ -1,7 +1,53 @@
 [
   {
+    "id": "RJ01004084",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "八星帝",
+    "names": {
+      "ja": "八星帝",
+      "zh": "八星帝",
+      "en": "Hasseitei"
+    },
+    "mt": [
+      "en"
+    ],
+    "circle": "だいふく船団",
+    "date": "2024-02-09",
+    "rate": 4.52,
+    "dl": 16543,
+    "rc": 4776,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01004084.html",
+    "note": "以宇宙为舞台、舰队战攻占行星的回合制战略游戏"
+  },
+  {
+    "id": "RJ01006462",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "群青のオルファネージ ～淫欲に堕ちゆく無垢なる少女～",
+    "names": {
+      "ja": "群青のオルファネージ ～淫欲に堕ちゆく無垢なる少女～",
+      "zh": "群青孤儿院 ～堕入淫欲的无垢少女～",
+      "en": "Ultramarine Orphanage ~An Innocent Girl Falling into Lust~"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "こみなみ",
+    "date": "2023-01-21",
+    "rate": 4.56,
+    "dl": 16697,
+    "rc": 5536,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01006462.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
     "id": "RJ01006720",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "ROOM",
     "names": {
@@ -19,8 +65,77 @@
     "note": "偷窥女孩生活并洗脑的 SLG"
   },
   {
+    "id": "RJ01007158",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "万引き女子の指導法",
+    "names": {
+      "ja": "万引き女子の指導法",
+      "zh": "偷窃女子的指导法",
+      "en": "How to Discipline a Shoplifting Girl"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "JSK工房",
+    "date": "2022-12-22",
+    "rate": 4.65,
+    "dl": 13295,
+    "rc": 5036,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01007158.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ01021115",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "満車率300% 弐",
+    "names": {
+      "ja": "満車率300% 弐",
+      "zh": "满车率300% 贰",
+      "en": "Train Capacity 300% 2"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "ベルゼブブ",
+    "date": "2023-04-18",
+    "rate": 4.57,
+    "dl": 28953,
+    "rc": 7917,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01021115.html",
+    "note": "在拥挤电车与车站中行动的模拟游戏，系列第二作"
+  },
+  {
+    "id": "RJ01031172",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "がちんこ傭兵団",
+    "names": {
+      "ja": "がちんこ傭兵団",
+      "zh": "硬派佣兵团",
+      "en": "Gachinko Mercenaries"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ポン・デ・ウシ",
+    "date": "2023-03-05",
+    "rate": 4.42,
+    "dl": 8375,
+    "rc": 2736,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01031172.html",
+    "note": "招募同伴扩充佣兵团的轻量战棋模拟游戏，可高速战斗"
+  },
+  {
     "id": "RJ01043407",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "苗床クリッカー",
     "names": {
@@ -41,8 +156,55 @@
     "note": "用点击让魔物填满世界的放置游戏，约 1～2 小时"
   },
   {
+    "id": "RJ01049120",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ハーレム島へようこそ!",
+    "names": {
+      "ja": "ハーレム島へようこそ!",
+      "zh": "欢迎来到后宫岛！",
+      "en": "Welcome to Harem Island!"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "Resta!",
+    "date": "2023-08-09",
+    "rate": 4.38,
+    "dl": 29678,
+    "rc": 7003,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01049120.html",
+    "note": "在南国岛屿上与女性们共同生活的模拟游戏"
+  },
+  {
+    "id": "RJ01051561",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "そして今夜も",
+    "names": {
+      "ja": "そして今夜も",
+      "zh": "然后今夜也",
+      "en": "And Tonight Again"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ヨツカセ",
+    "date": "2023-04-22",
+    "rate": 4.17,
+    "dl": 5096,
+    "rc": 1006,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01051561.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
     "id": "RJ01052320",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "忍堕とし",
     "names": {
@@ -62,6 +224,7 @@
   {
     "id": "RJ01053661",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "護身術道場 秘密のNTRレッスン",
     "names": {
@@ -79,8 +242,101 @@
     "note": "护身术道场题材的寝取模拟"
   },
   {
+    "id": "RJ01054087",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "わからせ!魔王様",
+    "names": {
+      "ja": "わからせ!魔王様",
+      "zh": "让魔王大人认清现实！",
+      "en": "Teach the Demon Lord a Lesson!"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "JSK工房",
+    "date": "2023-04-30",
+    "rate": 4.73,
+    "dl": 10895,
+    "rc": 3995,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01054087.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ01056644",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "そして今夜も#3",
+    "names": {
+      "ja": "そして今夜も#3",
+      "zh": "然后今夜也#3",
+      "en": "And Tonight Again #3"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ヨツカセ",
+    "date": "2023-05-06",
+    "rate": 4.19,
+    "dl": 4624,
+    "rc": 884,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01056644.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ01064780",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "そして今夜も#4",
+    "names": {
+      "ja": "そして今夜も#4",
+      "zh": "然后今夜也#4",
+      "en": "And Tonight Again #4"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ヨツカセ",
+    "date": "2023-06-02",
+    "rate": 4.17,
+    "dl": 9549,
+    "rc": 1449,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01064780.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ01066136",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "爆乳おばさんと夏の田舎性活",
+    "names": {
+      "ja": "爆乳おばさんと夏の田舎性活",
+      "zh": "与爆乳阿姨的夏日乡村性活",
+      "en": "Summer Country Life with a Busty Auntie"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "みかん畑",
+    "date": "2023-07-10",
+    "rate": 4.58,
+    "dl": 13344,
+    "rc": 3579,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01066136.html",
+    "note": "夏日乡下生活的日常模拟游戏"
+  },
+  {
     "id": "RJ01073609",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "ループトレイン -痴漢アプリであの娘にイタズラ!-",
     "names": {
@@ -100,8 +356,49 @@
     "note": "3D 电车题材，使用催眠 APP 的调教模拟"
   },
   {
+    "id": "RJ01075284",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "召しませ!サキュバスさん ～今宵もあなたの精液いただきます♪はらぺこメレの密着搾精～",
+    "names": {
+      "ja": "召しませ!サキュバスさん ～今宵もあなたの精液いただきます♪はらぺこメレの密着搾精～",
+      "zh": "开动了！魅魔小姐～今晚也来榨干你的精液♪饥饿梅蕾的连续搾精～",
+      "en": "Come on in! Succubus-san ~Hungry Mere Squeezes Out Your Semen Tonight~"
+    },
+    "mt": [],
+    "circle": "ししどラボ",
+    "date": "2023-11-17",
+    "rate": 4.56,
+    "dl": 25471,
+    "rc": 5048,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01075284.html",
+    "note": "Live2D 互动与 ASMR 结合的魅魔陪伴模拟游戏"
+  },
+  {
+    "id": "RJ01081301",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "冒険者の宿へようこそ!2",
+    "names": {
+      "ja": "冒険者の宿へようこそ!2",
+      "zh": "欢迎来到冒险者之屋！2",
+      "en": "Welcome to the Adventurers' Inn! 2"
+    },
+    "mt": [],
+    "circle": "ぺぺろんちーの",
+    "date": "2023-09-12",
+    "rate": 4.36,
+    "dl": 32709,
+    "rc": 7279,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01081301.html",
+    "note": "经营冒险者旅店、接待住客的模拟游戏，系列第二作"
+  },
+  {
     "id": "RJ01082260",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "侵蝕のヒプノシス",
     "names": {
@@ -122,8 +419,119 @@
     "note": "日常被催眠逐渐侵蚀的养成模拟"
   },
   {
+    "id": "RJ01083821",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "護身術道場 秘密のNTRレッスン -葵編-",
+    "names": {
+      "ja": "護身術道場 秘密のNTRレッスン -葵編-",
+      "zh": "防身术道场 秘密的NTR课程 -葵篇-",
+      "en": "Self-Defense Dojo: Secret NTR Lessons ~Aoi's Story~"
+    },
+    "mt": [],
+    "circle": "WAKUWAKU",
+    "date": "2023-08-11",
+    "rate": 4.54,
+    "dl": 50757,
+    "rc": 9460,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01083821.html",
+    "note": "《护身术道场》的独立续篇，以新角色为主的模拟游戏"
+  },
+  {
+    "id": "RJ01083992",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "孕ませ!子作りファーム",
+    "names": {
+      "ja": "孕ませ!子作りファーム",
+      "zh": "受孕！育子农场",
+      "en": "Breeding! Baby-Making Farm"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "XO_PROJECT",
+    "date": "2023-09-16",
+    "rate": 4.6,
+    "dl": 27789,
+    "rc": 7398,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01083992.html",
+    "note": "经营农场、与伴侣们组建家庭的养成模拟游戏"
+  },
+  {
+    "id": "RJ01087153",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ラストハーレム～孕ませインフレーション～",
+    "names": {
+      "ja": "ラストハーレム～孕ませインフレーション～",
+      "zh": "最后的后宫～受孕膨胀～",
+      "en": "Last Harem ~Inpregflation~"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "穀雨堂",
+    "date": "2023-10-26",
+    "rate": 4.35,
+    "dl": 29951,
+    "rc": 5523,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01087153.html",
+    "note": "以 3D 角色互动和后代繁衍为核心的养成模拟游戏"
+  },
+  {
+    "id": "RJ01094244",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "メイドdays",
+    "names": {
+      "ja": "メイドdays",
+      "zh": "女仆days",
+      "en": "Maid Days"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "高温注意",
+    "date": "2023-09-02",
+    "rate": 4.4,
+    "dl": 18645,
+    "rc": 4636,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01094244.html",
+    "note": "与女仆共同生活、可换装的互动模拟游戏"
+  },
+  {
+    "id": "RJ01094259",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "女子大生との同棲生活",
+    "names": {
+      "ja": "女子大生との同棲生活",
+      "zh": "与女大学生的同居生活",
+      "en": "Life With a College Girl [PC Ver.]"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Playmeow",
+    "date": "2023-10-03",
+    "rate": 4.13,
+    "dl": 6750,
+    "rc": 1075,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01094259.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
     "id": "RJ01103194",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "情欲の古式マッサージ店 -裏サービスにハマる母娘たち-",
     "names": {
@@ -143,6 +551,7 @@
   {
     "id": "RJ01116084",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "催眠アイドル 女子大生ライバーと催眠アプリでエッチしちゃう話",
     "names": {
@@ -160,8 +569,126 @@
     "note": "用催眠 APP 调教女主播的模拟"
   },
   {
+    "id": "RJ01118876",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "夢見る酒場と秘密の調教",
+    "names": {
+      "ja": "夢見る酒場と秘密の調教",
+      "zh": "梦想酒馆与秘密调教",
+      "en": "The Dreaming Tavern and Secret Training"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "お米とステーキ亭",
+    "date": "2025-06-01",
+    "rate": 4.59,
+    "dl": 21594,
+    "rc": 4544,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01118876.html",
+    "note": "冒险者兼营酒馆与娼馆的经营 SLG，全程鼠标操作"
+  },
+  {
+    "id": "RJ01127013",
+    "cat": "slg",
+    "src": "dlsite",
+    "also": [
+      "steam"
+    ],
+    "state": "released",
+    "title": "くらげらいふ",
+    "names": {
+      "ja": "くらげらいふ",
+      "zh": "水母生活",
+      "en": "Kurage Life"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "テイル・アキ",
+    "date": "2024-02-25",
+    "rate": 4.66,
+    "dl": 18600,
+    "rc": 5404,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01127013.html",
+    "note": "与朴素的打工女孩一起工作、慢慢拉近关系的模拟游戏"
+  },
+  {
+    "id": "RJ01131276",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "吸血鬼○○日記",
+    "names": {
+      "ja": "吸血鬼○○日記",
+      "zh": "吸血鬼○○日记",
+      "en": "Vampire ○○ Diary"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ベスプチ",
+    "date": "2024-02-10",
+    "rate": 4.64,
+    "dl": 16576,
+    "rc": 4933,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01131276.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ01137528",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ホムンクルスとの性活 ~Life with a Homunculus~",
+    "names": {
+      "ja": "ホムンクルスとの性活 ~Life with a Homunculus~",
+      "zh": "与人造人的性活",
+      "en": "Life with a Homunculus"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "へるめす",
+    "date": "2024-06-08",
+    "rate": 4.45,
+    "dl": 13345,
+    "rc": 2969,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01137528.html",
+    "note": "养育人造人的 Live2D 育成游戏，性格随养育方式变化"
+  },
+  {
+    "id": "RJ01144461",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ぽんこつ生主ミライちゃん～えっちなコメント受付中～",
+    "names": {
+      "ja": "ぽんこつ生主ミライちゃん～えっちなコメント受付中～",
+      "zh": "废柴主播未来酱 ～欢迎色色评论～",
+      "en": "Ponkotsu Streamer Mirai-chan"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "むねにくたべたい",
+    "date": "2024-06-29",
+    "rate": 4.64,
+    "dl": 27470,
+    "rc": 6155,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01144461.html",
+    "note": "直接打字发弹幕与主播互动的模拟游戏"
+  },
+  {
     "id": "RJ01150544",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "オペレーションダークサイド:聖核戦姫壊滅作戦",
     "names": {
@@ -182,8 +709,29 @@
     "note": "捕获变身女英雄并洗脑的养成模拟"
   },
   {
+    "id": "RJ01154711",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "Vtuber Hack",
+    "names": {
+      "ja": "Vtuber Hack",
+      "zh": "Vtuber Hack",
+      "en": "Vtuber Hack"
+    },
+    "mt": [],
+    "circle": "ベルゼブブ",
+    "date": "2024-02-20",
+    "rate": 4.44,
+    "dl": 22523,
+    "rc": 5056,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01154711.html",
+    "note": "入侵 Vtuber 的设备、查明其真实身份的模拟游戏"
+  },
+  {
     "id": "RJ01161200",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "なついろレッスン～the last summer time",
     "names": {
@@ -204,8 +752,75 @@
     "note": "与大小姐相处的 Live2D 触摸模拟"
   },
   {
+    "id": "RJ01166703",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "神彩の乙女 ～売れすぎた彩視る商人～",
+    "names": {
+      "ja": "神彩の乙女 ～売れすぎた彩視る商人～",
+      "zh": "神彩的少女 ～太过畅销的视彩商人～",
+      "en": "Maiden of Divine Colors ~The Color-Seeing Merchant Who Sold Too Well~"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ダイジョビ研究所",
+    "date": "2025-04-19",
+    "rate": 4.68,
+    "dl": 32592,
+    "rc": 8136,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01166703.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ01167615",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "PIXEL CALL GIRLS -REI-",
+    "names": {
+      "ja": "PIXEL CALL GIRLS -REI-",
+      "zh": "PIXEL CALL GIRLS -REI-",
+      "en": "PIXEL CALL GIRLS -REI-"
+    },
+    "mt": [],
+    "circle": "Milk Engine",
+    "date": "2025-04-26",
+    "rate": 4.6,
+    "dl": 27718,
+    "rc": 4284,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01167615.html",
+    "note": "以点阵循环动画为主的东方 Project 同人互动作品"
+  },
+  {
+    "id": "RJ01169637",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "サキュバスカジノ ~淫魔城サキュバス~",
+    "names": {
+      "ja": "サキュバスカジノ ~淫魔城サキュバス~",
+      "zh": "魅魔赌场 ～淫魔城～",
+      "en": "Succubus Casino"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ユウガオ",
+    "date": "2024-06-28",
+    "rate": 4.42,
+    "dl": 20754,
+    "rc": 4323,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01169637.html",
+    "note": "以老虎机为核心玩法的魅魔主题游戏"
+  },
+  {
     "id": "RJ01172438",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "すと～きんぐ! ~あの子に催眠→こっそりイタズラ→どこでもえっち~",
     "names": {
@@ -226,8 +841,52 @@
     "note": "跟踪女孩并恶作剧的模拟，含催眠与时停"
   },
   {
+    "id": "RJ01173055",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ミナミさんホテルにいこう",
+    "names": {
+      "ja": "ミナミさんホテルにいこう",
+      "zh": "和南小姐去酒店吧",
+      "en": "Let's Go to a Hotel with Minami-san"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "プランクトンセスナ",
+    "date": "2024-03-23",
+    "rate": 4.56,
+    "dl": 24821,
+    "rc": 5874,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01173055.html",
+    "note": "操作简单的约会模拟小品"
+  },
+  {
+    "id": "RJ01175290",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "存在感薄い妹との簡単生活",
+    "names": {
+      "ja": "存在感薄い妹との簡単生活",
+      "zh": "和存在感薄弱的妹妹一起的简单生活",
+      "en": "A Simple Life with My Unobtrusive Sister"
+    },
+    "mt": [],
+    "circle": "逆流茶会",
+    "date": "2026-03-31",
+    "rate": 4.19,
+    "dl": 35682,
+    "rc": 3329,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01175290.html",
+    "note": "同居＋动作战斗＋Roguelike 的开放世界奇幻游戏"
+  },
+  {
     "id": "RJ01178024",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "異世界樹の巫女～魔法のチカラでおさわりHやりたい放題～",
     "names": {
@@ -248,8 +907,115 @@
     "note": "转生异世界、收集「爱的能量」的触摸模拟"
   },
   {
+    "id": "RJ01178251",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ドリス姫と夜のオツトメ",
+    "names": {
+      "ja": "ドリス姫と夜のオツトメ",
+      "zh": "多丽丝公主与夜晚的奥兹托梅",
+      "en": "Doris - Lady of the Night"
+    },
+    "mt": [],
+    "circle": "MountBatten",
+    "date": "2024-04-05",
+    "rate": 4.66,
+    "dl": 19169,
+    "rc": 4698,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01178251.html",
+    "note": "与住在圣域的驴耳公主互动的实时 2D 动画游戏"
+  },
+  {
+    "id": "RJ01212921",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "アリアサキュズム",
+    "names": {
+      "ja": "アリアサキュズム",
+      "zh": "阿莉亚魅魔节奏",
+      "en": "Aria Succubism"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "かまくらら",
+    "date": "2024-11-21",
+    "rate": 4.69,
+    "dl": 35909,
+    "rc": 6875,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01212921.html",
+    "note": "与魅魔对决的轻量节奏游戏，为期十天"
+  },
+  {
+    "id": "RJ01221783",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "冒険者ちゃんを捕まえた!～Live2D触手シミュレーター～【エロステータス・産卵・スライム排泄・オホ声etc】",
+    "names": {
+      "ja": "冒険者ちゃんを捕まえた!～Live2D触手シミュレーター～【エロステータス・産卵・スライム排泄・オホ声etc】",
+      "zh": "冒险者酱被抓住了！～Live2D触手模拟器～【情色状态・产卵・黏液排泄・哦吼淫叫等】",
+      "en": "Catch That Adventurer! ~Live2D Tentacle Simulation~"
+    },
+    "mt": [],
+    "circle": "No.7 Void Mine",
+    "date": "2024-07-19",
+    "rate": 4.66,
+    "dl": 19739,
+    "rc": 3812,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01221783.html",
+    "note": "操控触手调教冒险者的 Live2D 模拟游戏"
+  },
+  {
+    "id": "RJ01226398",
+    "cat": "slg",
+    "src": "dlsite",
+    "also": [
+      "steam"
+    ],
+    "state": "released",
+    "title": "WINTER-田舎の性活-",
+    "names": {
+      "ja": "WINTER-田舎の性活-",
+      "zh": "WINTER-乡村性活-",
+      "en": "Winter ~Life in the Countryside~"
+    },
+    "mt": [],
+    "circle": "ディーゼルマイン",
+    "date": "2024-09-13",
+    "rate": 4.77,
+    "dl": 33692,
+    "rc": 6748,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01226398.html",
+    "note": "与青梅竹马共度冬天的点阵动画模拟游戏，《SUMMER》续作"
+  },
+  {
+    "id": "RJ01244412",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "NTRレッスン",
+    "names": {
+      "ja": "NTRレッスン",
+      "zh": "NTR课程",
+      "en": "NTR Lesson"
+    },
+    "mt": [],
+    "circle": "Hizure",
+    "date": "2024-08-31",
+    "rate": 4.46,
+    "dl": 31749,
+    "rc": 6099,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01244412.html",
+    "note": "教育与 NTR 结合的模拟游戏"
+  },
+  {
     "id": "RJ01245835",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "MazeCave~俺の感覚遮断触手ダンジョン!",
     "names": {
@@ -267,8 +1033,32 @@
     "note": "设置感官遮断陷阱、建造地下城的模拟"
   },
   {
+    "id": "RJ01261731",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "さらけだせ!野外露出配信",
+    "names": {
+      "ja": "さらけだせ!野外露出配信",
+      "zh": "全部展现！野外露出直播",
+      "en": "Expose It All! Outdoor Streaming"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ガオン堂",
+    "date": "2024-10-03",
+    "rate": 4.65,
+    "dl": 18804,
+    "rc": 3788,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01261731.html",
+    "note": "人气低迷的女主播靠露出直播走红的模拟游戏"
+  },
+  {
     "id": "RJ01271506",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "フォレスティア～ちいさな町の牧場ライフ～",
     "names": {
@@ -289,8 +1079,54 @@
     "note": "种田、养动物、钓鱼的慢生活模拟"
   },
   {
+    "id": "RJ01274276",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "闘技女王ヴァイオラ",
+    "names": {
+      "ja": "闘技女王ヴァイオラ",
+      "zh": "斗技女王维奥拉",
+      "en": "Arena Queen Viola"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "JSK工房",
+    "date": "2024-10-10",
+    "rate": 4.7,
+    "dl": 15784,
+    "rc": 3966,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01274276.html",
+    "note": "在地下斗技场挑战无败女王的指令式对战游戏"
+  },
+  {
+    "id": "RJ01293869",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "終末シェルター性活",
+    "names": {
+      "ja": "終末シェルター性活",
+      "zh": "末日避难所性活",
+      "en": "Doomsday Shelter Sex Life"
+    },
+    "mt": [
+      "en"
+    ],
+    "circle": "7センチ",
+    "date": "2025-01-26",
+    "rate": 4.42,
+    "dl": 20957,
+    "rc": 4630,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01293869.html",
+    "note": "末日题材的避难所求生 SLG，在封闭的避难所中同居生活"
+  },
+  {
     "id": "RJ01295900",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "種付都市へようこそ",
     "names": {
@@ -310,8 +1146,74 @@
     "note": "在地方都市与 35 名以上女性交流的点阵 SLG"
   },
   {
+    "id": "RJ01305765",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "もかラブReLive♪ ～ガチ恋距離でイキ顔観察+可愛い笑顔に暴発ぶっかけアニメーション～",
+    "names": {
+      "ja": "もかラブReLive♪ ～ガチ恋距離でイキ顔観察+可愛い笑顔に暴発ぶっかけアニメーション～",
+      "zh": "Moka Love ReLive♪ ～近距离观察高潮表情＋可爱笑脸射精动画～",
+      "en": "Moka Love ReLive - Observing Ecstasy at a Distance + Cute Smiling Faces with Accidental Cum Anime [PC]"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "ライオクライオ",
+    "date": "2025-01-11",
+    "rate": 4.74,
+    "dl": 31326,
+    "rc": 4445,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01305765.html",
+    "note": "Live2D 互动模拟，画面分格同时呈现表情与动作"
+  },
+  {
+    "id": "RJ01317267",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "シロウト家出娘と俺 Sweet Days",
+    "names": {
+      "ja": "シロウト家出娘と俺 Sweet Days",
+      "zh": "素人离家少女与我 Sweet Days",
+      "en": "The Amateur Runaway Girl and Me: Sweet Days"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "レベル1",
+    "date": "2025-06-27",
+    "rate": 4.69,
+    "dl": 17147,
+    "rc": 3014,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01317267.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ01323899",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "奥様はNTR志望 純愛?復讐?",
+    "names": {
+      "ja": "奥様はNTR志望 純愛?復讐?",
+      "zh": "妻子是自愿NTR 纯爱？复仇？",
+      "en": "Wife Wants NTR - Pure Love or Revenge?"
+    },
+    "mt": [],
+    "circle": "azucat",
+    "date": "2025-03-02",
+    "rate": 4.36,
+    "dl": 31323,
+    "rc": 4302,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01323899.html",
+    "note": "3D 人妻题材互动 SLG，含纯爱与复仇两条路线"
+  },
+  {
     "id": "RJ01348926",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "Fallen / Brand New World",
     "names": {
@@ -329,8 +1231,205 @@
     "note": "在奇幻都市与女仆一起生活的 SLG"
   },
   {
+    "id": "RJ01351531",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "囮痴○捜査官リナ",
+    "names": {
+      "ja": "囮痴○捜査官リナ",
+      "zh": "诱饵痴汉搜查官莉娜",
+      "en": "Decoy Molester Investigator Rina"
+    },
+    "mt": [
+      "en"
+    ],
+    "circle": "メタモルフォーゼ",
+    "date": "2025-06-28",
+    "rate": 4.59,
+    "dl": 34332,
+    "rc": 6478,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01351531.html",
+    "note": "电车题材的 Roguelite，女搜查官反复挑战逐步变强"
+  },
+  {
+    "id": "RJ01363303",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "極道無頼EX:女警・鮎川光--処女が変態に変わる分かれ道",
+    "names": {
+      "ja": "極道無頼EX:女警・鮎川光--処女が変態に変わる分かれ道",
+      "zh": "极道无赖EX：女警鲇川光",
+      "en": "Yakuza Rogue EX: Hikari Ayukawa [PC Ver.]"
+    },
+    "mt": [],
+    "circle": "WAKUWAKU",
+    "date": "2026-06-05",
+    "rate": 4.36,
+    "dl": 24646,
+    "rc": 2156,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01363303.html",
+    "note": "女警题材的剧情 SLG，多路线分支"
+  },
+  {
+    "id": "RJ01380783",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "廃墟でG ～ドスケベ変態露出サンドボックス～",
+    "names": {
+      "ja": "廃墟でG ～ドスケベ変態露出サンドボックス～",
+      "zh": "在废墟里 G ～变态露出沙盒～",
+      "en": "G in the Ruins ~Perverted Exhibitionist Sandbox~"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "阿能蟹工船Z",
+    "date": "2025-05-05",
+    "rate": 4.32,
+    "dl": 21756,
+    "rc": 2664,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01380783.html",
+    "note": "3D 沙盒游戏，在沼泽废墟中自由探索"
+  },
+  {
+    "id": "RJ01386956",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ライフガードホリック",
+    "names": {
+      "ja": "ライフガードホリック",
+      "zh": "救生员狂热",
+      "en": "Lifeguard Holic"
+    },
+    "mt": [],
+    "circle": "Big S Studio",
+    "date": "2026-08-18",
+    "rate": 4.56,
+    "dl": 28313,
+    "rc": 1833,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01386956.html",
+    "note": "救生员题材的 SLG，「NTRaholic」的精神续作"
+  },
+  {
+    "id": "RJ01387100",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "これでお前も性処理課！",
+    "names": {
+      "ja": "これでお前も性処理課！",
+      "zh": "这样一来你也是性处理科的一员了！",
+      "en": "Now You're in the Sexual Handling Department!"
+    },
+    "mt": [],
+    "circle": "むくどりGames",
+    "date": "2025-05-31",
+    "rate": 4.24,
+    "dl": 36271,
+    "rc": 3993,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01387100.html",
+    "note": "实时 3D 职场题材互动 SLG"
+  },
+  {
+    "id": "RJ01394659",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "偽世界樹の巫女～街中おさわり放題&エロトラップでギャルゲッチュ～",
+    "names": {
+      "ja": "偽世界樹の巫女～街中おさわり放題&エロトラップでギャルゲッチュ～",
+      "zh": "伪世界树的巫女～街头尽情触摸&色情陷阱捕获美少女～",
+      "en": "Shrine Maiden of the False World Tree ~Touch Freely Around Town & Catch Gals with Ero Traps~"
+    },
+    "mt": [
+      "en"
+    ],
+    "circle": "たわわデリバリー",
+    "date": "2026-02-01",
+    "rate": 4.38,
+    "dl": 16224,
+    "rc": 1587,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01394659.html",
+    "note": "异世界城镇中的 3D 互动模拟，可使用魔法和陷阱"
+  },
+  {
+    "id": "RJ01402070",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "SUMMER ~夏の14日~",
+    "names": {
+      "ja": "SUMMER ~夏の14日~",
+      "zh": "SUMMER ~夏日14天~",
+      "en": "SUMMER ~14 Days of Summer~"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ディーゼルマイン",
+    "date": "2025-11-14",
+    "rate": 4.67,
+    "dl": 21738,
+    "rc": 3260,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01402070.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ01407719",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "愛想がよくてめっちゃ良い子なギャルと性行為実習！",
+    "names": {
+      "ja": "愛想がよくてめっちゃ良い子なギャルと性行為実習！",
+      "zh": "与亲切又超好的辣妹进行性行为实习！",
+      "en": "Sex Practice with a Friendly, Super Nice Gyaru!"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "エロフラ部",
+    "date": "2025-06-25",
+    "rate": 4.78,
+    "dl": 27871,
+    "rc": 4739,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01407719.html",
+    "note": "女性主导氛围的触摸互动模拟"
+  },
+  {
+    "id": "RJ01409387",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "NTRサッカー",
+    "names": {
+      "ja": "NTRサッカー",
+      "zh": "NTR 足球",
+      "en": "NTR Soccer"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "Hizure",
+    "date": "2026-07-03",
+    "rate": 4.55,
+    "dl": 16600,
+    "rc": 1727,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01409387.html",
+    "note": "足球题材的 SLG"
+  },
+  {
     "id": "RJ01415588",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "生き残れ！無人島サバイバル性活♡",
     "names": {
@@ -351,8 +1450,29 @@
     "note": "漂流到无人岛的男女一边求生一边脱出，约 4～5 小时"
   },
   {
+    "id": "RJ01435937",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "Re:Sister―妹とふたり、ひみつの同棲生活―",
+    "names": {
+      "ja": "Re:Sister―妹とふたり、ひみつの同棲生活―",
+      "zh": "Re:Sister―与妹妹两人，秘密的同居生活―",
+      "en": "Re:Sister ~Two Siblings, One Secret Life~"
+    },
+    "mt": [],
+    "circle": "アラン・マイヤー",
+    "date": "2025-10-31",
+    "rate": 4.64,
+    "dl": 31354,
+    "rc": 4288,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01435937.html",
+    "note": "Live2D 同居互动模拟，通过交流提升亲密度"
+  },
+  {
     "id": "RJ01437470",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "清掃員伝説",
     "names": {
@@ -372,6 +1492,7 @@
   {
     "id": "RJ01437730",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "ドキドキ!性感マッサージ",
     "names": {
@@ -392,8 +1513,32 @@
     "note": "以按摩为名的触摸游戏，一周约 2～3 小时，多结局"
   },
   {
+    "id": "RJ01446405",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "Halcyon Days ~シスターちゃんと陽だまりの日々~",
+    "names": {
+      "ja": "Halcyon Days ~シスターちゃんと陽だまりの日々~",
+      "zh": "Halcyon Days ～与修女酱的暖阳日子～",
+      "en": "Halcyon Days ~Sunny Days with the Little Sister~"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "CatNight",
+    "date": "2025-09-14",
+    "rate": 4.36,
+    "dl": 33941,
+    "rc": 4555,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01446405.html",
+    "note": "与修女同居的日常互动模拟，提升好感度"
+  },
+  {
     "id": "RJ01452526",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "理想のひきこもり生活 ～父娘イチャイチャ同棲～",
     "names": {
@@ -413,8 +1558,29 @@
     "note": "与家里蹲女儿同居的 3D 日常生活模拟"
   },
   {
+    "id": "RJ01459897",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "近所の人妻2-旦那の隣で我を忘れてる中出しSEX",
+    "names": {
+      "ja": "近所の人妻2-旦那の隣で我を忘れてる中出しSEX",
+      "zh": "邻家的人妻2-在丈夫身旁忘我地中出SEX",
+      "en": "The Married Woman Nextdoor 2 - Creampie SEX Beside Her Husband"
+    },
+    "mt": [],
+    "circle": "AibanWork",
+    "date": "2025-09-05",
+    "rate": 4.49,
+    "dl": 37689,
+    "rc": 3512,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01459897.html",
+    "note": "动画演出的邻居人妻题材互动 SLG"
+  },
+  {
     "id": "RJ01464588",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "ギャルベヤ！?～学校最寄りのギャルのたまり場～",
     "names": {
@@ -437,6 +1603,7 @@
   {
     "id": "RJ01465067",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "無人島社員旅行記 女たちの生存戦略",
     "names": {
@@ -457,8 +1624,29 @@
     "note": "与三名女同事在无人岛生存的后宫 SLG"
   },
   {
+    "id": "RJ01473408",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "できる後輩アオイちゃん！ ～二人ぐらし始まっちゃいました～",
+    "names": {
+      "ja": "できる後輩アオイちゃん！ ～二人ぐらし始まっちゃいました～",
+      "zh": "能干的学妹小葵！～两人的同居生活开始了～",
+      "en": "Roommate Life with your Cute Former Labmate!"
+    },
+    "mt": [],
+    "circle": "むねにくたべたい",
+    "date": "2026-03-26",
+    "rate": 4.56,
+    "dl": 22672,
+    "rc": 3020,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01473408.html",
+    "note": "与公司后辈同居的 3D 日常模拟，做饭、打扫增进关系"
+  },
+  {
     "id": "RJ01482095",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "イケない！ 同棲らいふ",
     "names": {
@@ -479,8 +1667,430 @@
     "note": "手绘 2D 动画的同居养成模拟，约 4～6 小时"
   },
   {
+    "id": "RJ01483203",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "PUBPET",
+    "names": {
+      "ja": "PUBPET",
+      "zh": "PUBPET",
+      "en": "PUBPET"
+    },
+    "mt": [],
+    "circle": "NEKOUJI",
+    "date": "2026-04-15",
+    "rate": 4.35,
+    "dl": 25796,
+    "rc": 2523,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01483203.html",
+    "note": "以 21 点为基础的对战卡牌游戏"
+  },
+  {
+    "id": "RJ01483219",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "秘密のシェアハウスせいかつ‼",
+    "names": {
+      "ja": "秘密のシェアハウスせいかつ‼",
+      "zh": "秘密的合租屋生活‼",
+      "en": "Secret Share-House Life!!"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "わんあっぷ",
+    "date": "2026-01-05",
+    "rate": 4.51,
+    "dl": 32921,
+    "rc": 4285,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01483219.html",
+    "note": "合租屋同居生活模拟"
+  },
+  {
+    "id": "RJ01500551",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "おなクラ メイドライフ～クラスのギャルメイドとリゾートご奉仕性活～",
+    "names": {
+      "ja": "おなクラ メイドライフ～クラスのギャルメイドとリゾートご奉仕性活～",
+      "zh": "同班女仆生活～与班上辣妹女仆的度假侍奉性活～",
+      "en": "OnaKura Maid Life ~Resort Service Life with My Gyaru Classmate Maid~"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "まっちゃそふと",
+    "date": "2025-12-12",
+    "rate": 4.44,
+    "dl": 24270,
+    "rc": 3245,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01500551.html",
+    "note": "暑假在度假地与辣妹女仆同居的日常模拟"
+  },
+  {
+    "id": "RJ01527035",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "隠居魔女との30日間",
+    "names": {
+      "ja": "隠居魔女との30日間",
+      "zh": "与隐居魔女的 30 天",
+      "en": "30 Days with the Retired Witches"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "エロフラ部",
+    "date": "2026-01-24",
+    "rate": 4.6,
+    "dl": 30150,
+    "rc": 3870,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01527035.html",
+    "note": "能使用魔法的互动模拟，与三位魔女姐妹同居 30 天"
+  },
+  {
+    "id": "RJ01544625",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "CIRCLEMATE サークルメイト",
+    "names": {
+      "ja": "CIRCLEMATE サークルメイト",
+      "zh": "CIRCLEMATE 社团伙伴",
+      "en": "CIRCLEMATE"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "スチールニャンコ",
+    "date": "2026-07-17",
+    "rate": 4.63,
+    "dl": 33785,
+    "rc": 2911,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01544625.html",
+    "note": "大学文艺社团题材的互动模拟，全语音"
+  },
+  {
+    "id": "RJ01549139",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "常識改変しみゅれーたー 催○アプリで好きなあの子と恋人になろう",
+    "names": {
+      "ja": "常識改変しみゅれーたー 催○アプリで好きなあの子と恋人になろう",
+      "zh": "常识改变模拟器 使用催○APP与心仪的她成为恋人吧",
+      "en": "Common Sense Alteration Simulator ~become lovers with your desired woman using a special app~"
+    },
+    "mt": [],
+    "circle": "azucat",
+    "date": "2026-02-12",
+    "rate": 4.13,
+    "dl": 23929,
+    "rc": 1829,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01549139.html",
+    "note": "3D 互动模拟，自由度较高的养成系统"
+  },
+  {
+    "id": "RJ01554226",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "流民娘と始める食堂繁盛記",
+    "names": {
+      "ja": "流民娘と始める食堂繁盛記",
+      "zh": "与流民娘一起经营的食堂繁盛记",
+      "en": "Diner Management Chronicles with Displaced Maidens"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "XO_PROJECT",
+    "date": "2026-02-07",
+    "rate": 4.62,
+    "dl": 24017,
+    "rc": 3778,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01554226.html",
+    "note": "经营小食堂的模拟游戏，与员工少女一起让店铺兴旺"
+  },
+  {
+    "id": "RJ01556529",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "HOME",
+    "names": {
+      "ja": "HOME",
+      "zh": "HOME",
+      "en": "HOME"
+    },
+    "mt": [],
+    "circle": "SORAREVO",
+    "date": "2026-08-29",
+    "rate": 4.38,
+    "dl": 23285,
+    "rc": 1986,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01556529.html",
+    "note": "在房间布置陷阱拆散情侣的策略 SLG"
+  },
+  {
+    "id": "RJ01574150",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "白騎士調教",
+    "names": {
+      "ja": "白騎士調教",
+      "zh": "白骑士调教",
+      "en": "Training the White Knight"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "マイ結社",
+    "date": "2026-02-24",
+    "rate": 4.32,
+    "dl": 19219,
+    "rc": 1720,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01574150.html",
+    "note": "3D 调教模拟，10 天内将等级提升到 100"
+  },
+  {
+    "id": "RJ01580202",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "拘束クラブ",
+    "names": {
+      "ja": "拘束クラブ",
+      "zh": "拘束俱乐部",
+      "en": "Restraint Club"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "SDT",
+    "date": "2026-04-28",
+    "rate": 4.22,
+    "dl": 13302,
+    "rc": 942,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01580202.html",
+    "note": "3D 互动模拟，设定为会员制秘密俱乐部"
+  },
+  {
+    "id": "RJ01595506",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "魔女の遺産",
+    "names": {
+      "ja": "魔女の遺産",
+      "zh": "魔女的遗产",
+      "en": "The Witch's Legacy"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ベスプチ",
+    "date": "2026-05-16",
+    "rate": 4.67,
+    "dl": 14413,
+    "rc": 2328,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01595506.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ01702695",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "とある冒険者街の性体店！",
+    "names": {
+      "ja": "とある冒険者街の性体店！",
+      "zh": "某冒险者街的性体店！",
+      "en": "The Body Shop in a Certain Adventurer Town!"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ろたたた!",
+    "date": "2026-09-05",
+    "rate": 4.67,
+    "dl": 29570,
+    "rc": 2888,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01702695.html",
+    "note": "冒险者街按摩店经营 SLG"
+  },
+  {
+    "id": "RJ01722990",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ふれあいミイちゃん【おさわりゲーム/リアルタイムアニメーション】",
+    "names": {
+      "ja": "ふれあいミイちゃん【おさわりゲーム/リアルタイムアニメーション】",
+      "zh": "亲密接触咪酱【触摸游戏/实时动画】",
+      "en": "Interactive Mii [Touching Game / Real-Time Animation]"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "ペンギン発電所",
+    "date": "2026-10-01",
+    "rate": 4.81,
+    "dl": 33954,
+    "rc": 2666,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01722990.html",
+    "note": "与流浪猫娘同居的实时动画互动模拟，打工赚钱买食物"
+  },
+  {
+    "id": "RJ01724797",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "見習いサキュバス リリア〜人間界搾精日誌〜",
+    "names": {
+      "ja": "見習いサキュバス リリア〜人間界搾精日誌〜",
+      "zh": "见习魅魔莉莉娅～人间界榨精日志～",
+      "en": "Apprentice Succubus Lilia ~Human World Semen Extraction Diary~"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "パコネソフト",
+    "date": "2026-10-06",
+    "rate": 4.53,
+    "dl": 14698,
+    "rc": 676,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01724797.html",
+    "note": "3D 魅魔养成模拟，在限定天数内完成任务"
+  },
+  {
+    "id": "RJ170963",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "サクリファイスメイズ～性神の双子姫～",
+    "names": {
+      "ja": "サクリファイスメイズ～性神の双子姫～",
+      "zh": "牺牲迷宫～性神的双子公主～",
+      "en": "Sacrifice Maze ~Twin Princesses of Divine Sex~"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "モニスタラッシュ / a Matures",
+    "date": "2016-01-30",
+    "rate": 4.38,
+    "dl": 9901,
+    "rc": 5218,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ170963.html",
+    "note": "布置陷阱与魔物、改造迷宫迎击入侵者的迷宫经营 SLG"
+  },
+  {
+    "id": "RJ171622",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "俺とルッカと武闘会",
+    "names": {
+      "ja": "俺とルッカと武闘会",
+      "zh": "我与露卡与武斗会",
+      "en": "Me & Lucca & The Tourney"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "SCAR",
+    "date": "2016-02-26",
+    "rate": 4.24,
+    "dl": 2915,
+    "rc": 1494,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ171622.html",
+    "note": "在 30 天内把少女露卡培养成剑斗士的养成模拟"
+  },
+  {
+    "id": "RJ171696",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ドット調教SLGターニャ",
+    "names": {
+      "ja": "ドット調教SLGターニャ",
+      "zh": "点阵调教SLG 塔妮娅",
+      "en": "Dot Training SLG Tanya"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "ふらいんぐパンジャンドラム",
+    "date": "2016-04-16",
+    "rate": 3.96,
+    "dl": 4528,
+    "rc": 1995,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ171696.html",
+    "note": "点阵动画、全语音的轻量培育模拟游戏"
+  },
+  {
+    "id": "RJ172648",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ウィッチナイツサーガ",
+    "names": {
+      "ja": "ウィッチナイツサーガ",
+      "zh": "魔女骑士传说",
+      "en": "Witch Knights Saga"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "コタツギルド",
+    "date": "2016-02-27",
+    "rate": 4.44,
+    "dl": 5976,
+    "rc": 3219,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ172648.html",
+    "note": "全 36 章的长篇奇幻战棋 SRPG"
+  },
+  {
+    "id": "RJ174756",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "異種姦調教ADV -姦獄アリス-",
+    "names": {
+      "ja": "異種姦調教ADV -姦獄アリス-",
+      "zh": "异种奸调教ADV -奸狱爱丽丝-",
+      "en": "Kangoku Alice"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "Laboratory",
+    "date": "2016-04-25",
+    "rate": 4.1,
+    "dl": 3353,
+    "rc": 1773,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ174756.html",
+    "note": "用鼠标操作、自由度较高的培育模拟游戏"
+  },
+  {
     "id": "RJ176115",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "ビフレストの魔物娼館",
     "names": {
@@ -502,6 +2112,7 @@
   {
     "id": "RJ179387",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "ウラレタウン",
     "names": {
@@ -521,8 +2132,534 @@
     "note": "实时 3D 的经营模拟"
   },
   {
+    "id": "RJ180795",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "WE ARE BANDITS!! ウィーアーバンディッツ ～恥辱に手折られし戦場の花～",
+    "names": {
+      "ja": "WE ARE BANDITS!! ウィーアーバンディッツ ～恥辱に手折られし戦場の花～",
+      "zh": "我们是山贼!!",
+      "en": "WE ARE BANDITS!!"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "ゴールデンフィーバー",
+    "date": "2016-07-30",
+    "rate": 4.58,
+    "dl": 9902,
+    "rc": 4801,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ180795.html",
+    "note": "以山贼头目为主角的长篇战棋 SRPG"
+  },
+  {
+    "id": "RJ183670",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "おさけリース",
+    "names": {
+      "ja": "おさけリース",
+      "zh": "美酒莉丝",
+      "en": "Osake Riesz"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "ガーディアンエンジェル",
+    "date": "2016-08-26",
+    "rate": 4.64,
+    "dl": 8379,
+    "rc": 4263,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ183670.html",
+    "note": "通过小游戏劝酒的点阵触摸互动游戏"
+  },
+  {
+    "id": "RJ186688",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "奴○ハーレム解放戦線～解放の英雄と夜伽の戦士たち～",
+    "names": {
+      "ja": "奴○ハーレム解放戦線～解放の英雄と夜伽の戦士たち～",
+      "zh": "奴隶后宫解放战线",
+      "en": "Sl*ve Harem Liberation Front"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "シャレイドGirl's",
+    "date": "2016-11-18",
+    "rate": 4.38,
+    "dl": 7166,
+    "rc": 2910,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ186688.html",
+    "note": "30 多关的正统战棋 SRPG，第二王子率领伙伴旅行"
+  },
+  {
+    "id": "RJ188230",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "スポットライト☆シンデレラ",
+    "names": {
+      "ja": "スポットライト☆シンデレラ",
+      "zh": "聚光灯☆灰姑娘",
+      "en": "Spotlight * Cinderella"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "ベルゼブブ",
+    "date": "2017-04-25",
+    "rate": 4.46,
+    "dl": 2874,
+    "rc": 1541,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ188230.html",
+    "note": "把无名新人偶像培养成顶级偶像的养成模拟"
+  },
+  {
+    "id": "RJ188839",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "セクサロイドな彼女【VR版】",
+    "names": {
+      "ja": "セクサロイドな彼女【VR版】",
+      "zh": "性爱机器人女友【VR版】",
+      "en": "She is Sexaroid ver.VR"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "惰眠ズ/精霊ぴぃねす",
+    "date": "2017-07-29",
+    "rate": 4.42,
+    "dl": 9086,
+    "rc": 1570,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ188839.html",
+    "note": "支持 VR 的实时 3D 主视角模拟游戏"
+  },
+  {
+    "id": "RJ189414",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "黒夜神 RE:FinE ～堕ちた肉奴○達の徒花～",
+    "names": {
+      "ja": "黒夜神 RE:FinE ～堕ちた肉奴○達の徒花～",
+      "zh": "黑夜神 RE:FinE",
+      "en": "God of the Dark Night RE:FinE"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "KI-SofTWarE",
+    "date": "2016-12-31",
+    "rate": 4.28,
+    "dl": 8513,
+    "rc": 3820,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ189414.html",
+    "note": "收服并培育角色、扩张势力的模拟游戏重制版"
+  },
+  {
+    "id": "RJ194321",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "Night Attack on Little Sis!",
+    "names": {
+      "ja": "Night Attack on Little Sis!",
+      "zh": "Night Attack on Little Sis!",
+      "en": "Night Attack on Little Sis!"
+    },
+    "mt": [],
+    "circle": "Namida",
+    "date": "2017-02-10",
+    "rate": 4.15,
+    "dl": 4025,
+    "rc": 1788,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ194321.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ194521",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "魔剣士リーネ2",
+    "names": {
+      "ja": "魔剣士リーネ2",
+      "zh": "魔剑士莉涅2",
+      "en": "Leane of Legitimate Crown"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "まくらカバーソフト",
+    "date": "2017-02-25",
+    "rate": 4.56,
+    "dl": 16359,
+    "rc": 8097,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ194521.html",
+    "note": "女武将会被夺走的正统奇幻战略 SLG 第二作"
+  },
+  {
+    "id": "RJ195345",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "幻想少女大戦永",
+    "names": {
+      "ja": "幻想少女大戦永",
+      "zh": "幻想少女大战永",
+      "en": "Fantasy Maiden Wars Eternity"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "さんぼん堂",
+    "date": "2017-02-26",
+    "rate": 4.75,
+    "dl": 1369,
+    "rc": 673,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ195345.html",
+    "note": "东方Project 同人战略 SRPG，可用角色 50 名以上"
+  },
+  {
+    "id": "RJ198014",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "バージン・ロード",
+    "names": {
+      "ja": "バージン・ロード",
+      "zh": "处女之路",
+      "en": "VIRGIN LODE"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "ぺぺろんちーの",
+    "date": "2017-07-11",
+    "rate": 4.36,
+    "dl": 11174,
+    "rc": 6279,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ198014.html",
+    "note": "扮演恶德司教的中世纪箱庭模拟游戏"
+  },
+  {
+    "id": "RJ199106",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ノーブルスレイブ 〜貴族少女奴隷調教〜",
+    "names": {
+      "ja": "ノーブルスレイブ 〜貴族少女奴隷調教〜",
+      "zh": "贵族奴隶～贵族少女奴隶调教～",
+      "en": "Noble Slave ~Aristocrat Girl's Slave Training~"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "らぷらす",
+    "date": "2017-06-11",
+    "rate": 4.21,
+    "dl": 6537,
+    "rc": 3295,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ199106.html",
+    "note": "鼠标拖拽操作的实时养成模拟"
+  },
+  {
+    "id": "RJ199139",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "王国のソウルスミス",
+    "names": {
+      "ja": "王国のソウルスミス",
+      "zh": "王国的灵魂铁匠",
+      "en": "Soul Smith of the Kingdom"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "犬と猫",
+    "date": "2017-05-01",
+    "rate": 4.54,
+    "dl": 2541,
+    "rc": 973,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ199139.html",
+    "note": "不断打铁卖武器的铁匠铺经营模拟"
+  },
+  {
+    "id": "RJ201058",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "オークの野望:全国版",
+    "names": {
+      "ja": "オークの野望:全国版",
+      "zh": "兽人的野望：全国版",
+      "en": "Orc of Ambitia: Nationwide Edition"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "ディーゼルマイン",
+    "date": "2017-06-28",
+    "rate": 4.07,
+    "dl": 7712,
+    "rc": 3221,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ201058.html",
+    "note": "捕获各地女勇者、强化兽人军团的 3D 战略模拟"
+  },
+  {
+    "id": "RJ203624",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "真・痴○の極み",
+    "names": {
+      "ja": "真・痴○の極み",
+      "zh": "真·痴汉的极致",
+      "en": "Shin Chikan no Kiwami: Groper of Glory"
+    },
+    "mt": [],
+    "circle": "ベルゼブブ",
+    "date": "2018-02-20",
+    "rate": 4.41,
+    "dl": 6678,
+    "rc": 3130,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ203624.html",
+    "note": "电车痴汉题材的模拟游戏"
+  },
+  {
+    "id": "RJ206855",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "召喚術師ジェイスの復讐",
+    "names": {
+      "ja": "召喚術師ジェイスの復讐",
+      "zh": "召唤术师杰斯的复仇",
+      "en": "The Revenge of Summoner Jace"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "OOPARTS",
+    "date": "2017-09-12",
+    "rate": 4.2,
+    "dl": 3604,
+    "rc": 1788,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ206855.html",
+    "note": "借神力时间停止的点阵触摸模拟游戏"
+  },
+  {
+    "id": "RJ207879",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "CENDRES",
+    "names": {
+      "ja": "CENDRES",
+      "zh": "CENDRES",
+      "en": "CENDRES"
+    },
+    "mt": [],
+    "circle": "矢印キー",
+    "date": "2017-09-18",
+    "rate": 4.33,
+    "dl": 8301,
+    "rc": 3756,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ207879.html",
+    "note": "带猎奇要素的简易塔防游戏"
+  },
+  {
+    "id": "RJ208520",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "竜王ちゃんの野望",
+    "names": {
+      "ja": "竜王ちゃんの野望",
+      "zh": "龙王酱的野望",
+      "en": "Dragonlord's Ambition"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "SPLUSH WAVE",
+    "date": "2017-09-15",
+    "rate": 4.42,
+    "dl": 11149,
+    "rc": 6368,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ208520.html",
+    "note": "以统一战国风异世界为目标的战略 SLG"
+  },
+  {
+    "id": "RJ209685",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "四国志すぺしゃるDX ～酒池肉うどん戦記～",
+    "names": {
+      "ja": "四国志すぺしゃるDX ～酒池肉うどん戦記～",
+      "zh": "四国志特别DX～酒池肉乌冬战记～",
+      "en": "Shikokushi ~food and sightseeing and beauties~"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "ふらいんぐパンジャンドラム",
+    "date": "2017-12-09",
+    "rate": 4.44,
+    "dl": 3270,
+    "rc": 1446,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ209685.html",
+    "note": "以四国为舞台、兼顾美食观光的地方制霸战略 SLG"
+  },
+  {
+    "id": "RJ209965",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "まいにちまいと。～妹の麻衣と毎日エッチな生活～",
+    "names": {
+      "ja": "まいにちまいと。～妹の麻衣と毎日エッチな生活～",
+      "zh": "每天和麻衣。～与妹妹麻衣每天色色的生活～",
+      "en": "Everyday's A MAIday. ~Mai Erotic Life with My Little Sister Mai~"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "アオクマシー",
+    "date": "2017-10-04",
+    "rate": 4.29,
+    "dl": 4608,
+    "rc": 1719,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ209965.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ213645",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ファンタジー戦略戦術シミュレーション ディザーターズ(Deserter's)",
+    "names": {
+      "ja": "ファンタジー戦略戦術シミュレーション ディザーターズ(Deserter's)",
+      "zh": "奇幻战略战术模拟 逃兵们（Deserter's）",
+      "en": "Fantasy Strategy & Tactics Simulation Deserter's"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "WhiteCute & AlphaNuts",
+    "date": "2026-03-14",
+    "rate": 4.41,
+    "dl": 12901,
+    "rc": 2105,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ213645.html",
+    "note": "奇幻题材的战略战术模拟，含奴隶战士系统，开发历时 9 年"
+  },
+  {
+    "id": "RJ214446",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "シスタースレイブ ～修道少女奴隷調教～",
+    "names": {
+      "ja": "シスタースレイブ ～修道少女奴隷調教～",
+      "zh": "修女奴隶～修道少女奴隶调教～",
+      "en": "Sister Slave ~Faithful Girl's Slave Training~"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "らぷらす",
+    "date": "2017-12-30",
+    "rate": 4.43,
+    "dl": 32676,
+    "rc": 14377,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ214446.html",
+    "note": "鼠标触摸操作的养成模拟，全语音"
+  },
+  {
+    "id": "RJ214906",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "淫籠のエルヴス",
+    "names": {
+      "ja": "淫籠のエルヴス",
+      "zh": "淫笼精灵",
+      "en": "Elves of the Lewd Cage"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "SOUTH TREE",
+    "date": "2018-02-23",
+    "rate": 4.43,
+    "dl": 4914,
+    "rc": 2639,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ214906.html",
+    "note": "黑暗精灵调教师与精灵的调教 SLG"
+  },
+  {
+    "id": "RJ216322",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "プリンセス・エスカレイション～監禁王女～",
+    "names": {
+      "ja": "プリンセス・エスカレイション～監禁王女～",
+      "zh": "公主堕落进阶 ～监禁王女～",
+      "en": "Princess Escalation ~The Captive Princess~"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ネガティブギャング",
+    "date": "2018-01-12",
+    "rate": 4.44,
+    "dl": 12865,
+    "rc": 5071,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ216322.html",
+    "note": "自由度很高的指令选择式调教模拟"
+  },
+  {
+    "id": "RJ218388",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "セクハラオフィス",
+    "names": {
+      "ja": "セクハラオフィス",
+      "zh": "性骚扰办公室",
+      "en": "Sexual Harassment Office"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ハリケーンドットコム",
+    "date": "2018-01-30",
+    "rate": 4.23,
+    "dl": 6938,
+    "rc": 3283,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ218388.html",
+    "note": "以职场为舞台的全点阵动画游戏"
+  },
+  {
     "id": "RJ220246",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "インサルトオーダー ～生イキにゃん娘の快堕メニュー～",
     "names": {
@@ -542,8 +2679,121 @@
     "note": "实时 3D 的调教模拟，可自定义角色"
   },
   {
+    "id": "RJ220365",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "冒険者の宿へようこそ!",
+    "names": {
+      "ja": "冒険者の宿へようこそ!",
+      "zh": "欢迎来到冒险者旅店！",
+      "en": "Welcome to the Adventurers' Inn!"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "ぺぺろんちーの",
+    "date": "2018-05-22",
+    "rate": 4.48,
+    "dl": 23542,
+    "rc": 11131,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ220365.html",
+    "note": "经营冒险者旅店的模拟游戏"
+  },
+  {
+    "id": "RJ221485",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "オークション",
+    "names": {
+      "ja": "オークション",
+      "zh": "拍卖会",
+      "en": "Auction"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ハリケーンドットコム",
+    "date": "2018-03-21",
+    "rate": 4.07,
+    "dl": 19538,
+    "rc": 7978,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ221485.html",
+    "note": "全点阵动画的拍卖题材经营模拟"
+  },
+  {
+    "id": "RJ222368",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "Sl*ve Matrix",
+    "names": {
+      "ja": "Sl*ve Matrix",
+      "zh": "奴隶矩阵",
+      "en": "Sl*ve Matrix"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Auto Eden",
+    "date": "2018-04-02",
+    "rate": 4.64,
+    "dl": 6269,
+    "rc": 2706,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ222368.html",
+    "note": "以人外角色为对象的调教 SLG"
+  },
+  {
+    "id": "RJ224252",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "拘束尋問 皇女イリーナ",
+    "names": {
+      "ja": "拘束尋問 皇女イリーナ",
+      "zh": "拘束审问 皇女伊莉娜",
+      "en": "Restraint and Interrogation - Princess Irene"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "JSK工房",
+    "date": "2018-05-01",
+    "rate": 4.62,
+    "dl": 5916,
+    "rc": 3016,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ224252.html",
+    "note": "审问皇女、揭开帝国阴谋的触摸式 Flash 游戏"
+  },
+  {
+    "id": "RJ224494",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ノノの魔法雑貨店",
+    "names": {
+      "ja": "ノノの魔法雑貨店",
+      "zh": "诺诺的魔法杂货店",
+      "en": "Nono's Magic General Store"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "犬と猫",
+    "date": "2018-05-04",
+    "rate": 4.47,
+    "dl": 2290,
+    "rc": 852,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ224494.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
     "id": "RJ228027",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "1room -家出少女-",
     "names": {
@@ -561,8 +2811,251 @@
     "note": "与离家出走少女同居的生活模拟"
   },
   {
+    "id": "RJ228459",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "自宅警備員2",
+    "names": {
+      "ja": "自宅警備員2",
+      "zh": "自宅警备员2",
+      "en": "Homeguard (Jitaku Keibiin) 2"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "ベルゼブブ",
+    "date": "2018-12-04",
+    "rate": 4.56,
+    "dl": 14973,
+    "rc": 6439,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ228459.html",
+    "note": "以家中为舞台的偷窥题材模拟第二作"
+  },
+  {
+    "id": "RJ229618",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "♀プリーストいぢめ",
+    "names": {
+      "ja": "♀プリーストいぢめ",
+      "zh": "欺负♀牧师",
+      "en": "Persecuting Priestesses"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Riphial",
+    "date": "2018-07-22",
+    "rate": 4.35,
+    "dl": 7671,
+    "rc": 4217,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ229618.html",
+    "note": "摆弄支援职业神职者的模拟系游戏"
+  },
+  {
+    "id": "RJ230060",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "あきらポイント、お持ちですか?",
+    "names": {
+      "ja": "あきらポイント、お持ちですか?",
+      "zh": "请问有小晶积分吗？",
+      "en": "Do you have AKIRA Points?"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "ゴールデンフィーバー",
+    "date": "2018-08-12",
+    "rate": 4.67,
+    "dl": 5000,
+    "rc": 2730,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ230060.html",
+    "note": "与搬来的青梅竹马同居的生活模拟"
+  },
+  {
+    "id": "RJ233564",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ねこメイドひろいました!",
+    "names": {
+      "ja": "ねこメイドひろいました!",
+      "zh": "捡到猫女仆了！",
+      "en": "NekoHiroiMasita"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "CatBellUnion",
+    "date": "2018-08-30",
+    "rate": 4.31,
+    "dl": 6436,
+    "rc": 2182,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ233564.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ235158",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "Dissolute Daydream",
+    "names": {
+      "ja": "Dissolute Daydream",
+      "zh": "放纵白日梦",
+      "en": "Dissolute Daydream"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "すにぃる",
+    "date": "2018-10-25",
+    "rate": 4.33,
+    "dl": 7156,
+    "rc": 3680,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ235158.html",
+    "note": "点击放置加触摸玩法的养成游戏"
+  },
+  {
+    "id": "RJ236253",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ELEVATOR GIRL",
+    "names": {
+      "ja": "ELEVATOR GIRL",
+      "zh": "电梯小姐",
+      "en": "ELEVATOR GIRL"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "ハリケーンドットコム",
+    "date": "2018-10-05",
+    "rate": 4.46,
+    "dl": 15672,
+    "rc": 6888,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ236253.html",
+    "note": "以百货公司电梯为舞台的全点阵动画游戏"
+  },
+  {
+    "id": "RJ236820",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "VRふたなり女王様 -もみじの甘々前立腺調教-",
+    "names": {
+      "ja": "VRふたなり女王様 -もみじの甘々前立腺調教-",
+      "zh": "VR扶她女王大人 -红叶的甜蜜前列腺调教-",
+      "en": "VR Futanari Queen -Momiji's Sweet Prostate Training-"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "みたらしだんご",
+    "date": "2018-11-03",
+    "rate": 4.56,
+    "dl": 10694,
+    "rc": 3671,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ236820.html",
+    "note": "支持 VR 的实时 3D 主观视角调教模拟"
+  },
+  {
+    "id": "RJ239244",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "堕落戦記ベルフェゴール・サーガ～魔王の媚薬と発情奴○たち～",
+    "names": {
+      "ja": "堕落戦記ベルフェゴール・サーガ～魔王の媚薬と発情奴○たち～",
+      "zh": "堕落战记贝尔芬格传奇 ～魔王的媚药与发情奴○们～",
+      "en": "Belphegor Saga ~Demonic Love Potion and Sl*ves In Heat~"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "シャレイドGirl's",
+    "date": "2018-12-14",
+    "rate": 4.52,
+    "dl": 11620,
+    "rc": 4957,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ239244.html",
+    "note": "按选择分光暗两条路线、80 张地图以上的大体量 SRPG"
+  },
+  {
+    "id": "RJ243445",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "魔王軍へようこそ5 -創世-",
+    "names": {
+      "ja": "魔王軍へようこそ5 -創世-",
+      "zh": "欢迎来到魔王军5 -创世-",
+      "en": "Welcome to the Demon Lord's Army 5 -Genesis-"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ののの通信",
+    "date": "2019-01-25",
+    "rate": 4.63,
+    "dl": 7422,
+    "rc": 3699,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ243445.html",
+    "note": "指挥魔物击退冒险者、同时经营店铺的魔王军养成与经营 SLG"
+  },
+  {
+    "id": "RJ245378",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "痴○の衝動if",
+    "names": {
+      "ja": "痴○の衝動if",
+      "zh": "痴汉的冲动 if",
+      "en": "Urge to Molest \"if\""
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "SOUTH TREE",
+    "date": "2019-04-09",
+    "rate": 4.57,
+    "dl": 32834,
+    "rc": 13361,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ245378.html",
+    "note": "《痴汉的冲动》的 IF 篇模拟游戏，讲述另一条故事线"
+  },
+  {
+    "id": "RJ246337",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "サキュバス戦記",
+    "names": {
+      "ja": "サキュバス戦記",
+      "zh": "魅魔战记",
+      "en": "Succubus Senki"
+    },
+    "mt": [],
+    "circle": "色仕掛けまとめブログ",
+    "date": "2019-02-17",
+    "rate": 4.71,
+    "dl": 26018,
+    "rc": 9760,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ246337.html",
+    "note": "与 50 多名魅魔敌人作战、拯救王国的战略 RPG（SRPG）"
+  },
+  {
     "id": "RJ247530",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "魔王のハーレムは冒険者町にて",
     "names": {
@@ -582,8 +3075,76 @@
     "note": "失忆魔王与随从潜入冒险者小镇的喜剧 SLG"
   },
   {
+    "id": "RJ247915",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "大鎌のトラップダンジョン!=新人魔王の初仕事編=～女勇者を邪神の力を使って撃退した結果とんでもないことになってしまった模様～",
+    "names": {
+      "ja": "大鎌のトラップダンジョン!=新人魔王の初仕事編=～女勇者を邪神の力を使って撃退した結果とんでもないことになってしまった模様～",
+      "zh": "大镰的陷阱地牢！=新人魔王的第一份工作=",
+      "en": "The New Demon Lord's First Job ~Use the Powers of Evil to Fight Off the Heroines~"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "モニスタラッシュ / a Matures",
+    "date": "2019-04-26",
+    "rate": 4.32,
+    "dl": 7355,
+    "rc": 3791,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ247915.html",
+    "note": "新人魔王布置陷阱迎击女冒险者的地牢防守 SLG"
+  },
+  {
+    "id": "RJ249587",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "えふごにょ",
+    "names": {
+      "ja": "えふごにょ",
+      "zh": "えふごにょ（FGO 同人）",
+      "en": "F Go Nyo"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "SPLUSH WAVE",
+    "date": "2019-04-11",
+    "rate": 4.59,
+    "dl": 4954,
+    "rc": 2454,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ249587.html",
+    "note": "与 FGO 角色作战的据点防卫型横版战略 RPG"
+  },
+  {
+    "id": "RJ254647",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "薄暗い部屋の中で一人ぼっちの女の子とランデブー",
+    "names": {
+      "ja": "薄暗い部屋の中で一人ぼっちの女の子とランデブー",
+      "zh": "在昏暗的房间里与孤单女孩的幽会",
+      "en": "Rendezvous with a Lonely Girl in a Dim Room"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ティッシュはこ",
+    "date": "2019-06-01",
+    "rate": 4.56,
+    "dl": 27488,
+    "rc": 9739,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ254647.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
     "id": "RJ256808",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "裏路地ノ事情-Back Alley Tales",
     "names": {
@@ -603,8 +3164,185 @@
     "note": "修复监控录像、了解后巷故事的点阵 SLG"
   },
   {
+    "id": "RJ257125",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "Little Life",
+    "names": {
+      "ja": "Little Life",
+      "zh": "小小生活",
+      "en": "Little Life"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "いーめいどぷらす",
+    "date": "2019-07-07",
+    "rate": 4.33,
+    "dl": 9648,
+    "rc": 4094,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ257125.html",
+    "note": "照顾突然出现的小人族女孩、直到她能回到原来世界的养成模拟"
+  },
+  {
+    "id": "RJ257628",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "おじさんの人類種付計画。",
+    "names": {
+      "ja": "おじさんの人類種付計画。",
+      "zh": "大叔的人类播种计划。",
+      "en": "Middle-aged Man's Human Reproduction Plan Trial."
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "くらいや",
+    "date": "2019-07-03",
+    "rate": 4.37,
+    "dl": 18327,
+    "rc": 6720,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ257628.html",
+    "note": "点阵风搞笑模拟游戏，舞台是一个规则被改写的世界"
+  },
+  {
+    "id": "RJ257630",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "KIZUNA PLAYER",
+    "names": {
+      "ja": "KIZUNA PLAYER",
+      "zh": "羁绊玩家",
+      "en": "KIZUNA PLAYER"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "NGL FACTORY",
+    "date": "2019-07-02",
+    "rate": 4.59,
+    "dl": 18096,
+    "rc": 5107,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ257630.html",
+    "note": "用 Unity 和 Live2D 制作、用鼠标实时操作的互动小游戏"
+  },
+  {
+    "id": "RJ258095",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "やみの不思議な館",
+    "names": {
+      "ja": "やみの不思議な館",
+      "zh": "亚美的神奇洋馆",
+      "en": "Yami's Mysterious Mansion"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Oimoland",
+    "date": "2019-07-13",
+    "rate": 4.6,
+    "dl": 7133,
+    "rc": 3641,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ258095.html",
+    "note": "3D 恐怖探索加模拟养成，舞台是一座神秘洋馆"
+  },
+  {
+    "id": "RJ258698",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "隣人部の秘密活動",
+    "names": {
+      "ja": "隣人部の秘密活動",
+      "zh": "邻人部的秘密活动",
+      "en": "Nieghbor's Club Secret Activities"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "ジジ★インイン",
+    "date": "2019-07-17",
+    "rate": 4.32,
+    "dl": 4458,
+    "rc": 1880,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ258698.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ260744",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "UnHolY ToRturEr",
+    "names": {
+      "ja": "UnHolY ToRturEr",
+      "zh": "邪恶拷问者",
+      "en": "UnHolY ToRturEr"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "アンホリクリエイション",
+    "date": "2019-12-14",
+    "rate": 4.52,
+    "dl": 15189,
+    "rc": 5663,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ260744.html",
+    "note": "点击（clicker）型模拟游戏，结局随培养方向变化，多结局"
+  },
+  {
+    "id": "RJ260986",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "CLUB・ナチュラルハート",
+    "names": {
+      "ja": "CLUB・ナチュラルハート",
+      "zh": "自然之心俱乐部",
+      "en": "CLUB Natural Hearts"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "童心茶屋",
+    "date": "2019-09-26",
+    "rate": 4.47,
+    "dl": 5551,
+    "rc": 3073,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ260986.html",
+    "note": "与魔物娘恋爱的夜总会经营模拟，结局全员幸福"
+  },
+  {
+    "id": "RJ261011",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ナンパビーチを誰とでもヤリまくりヌーディストビーチにしよう!!",
+    "names": {
+      "ja": "ナンパビーチを誰とでもヤリまくりヌーディストビーチにしよう!!",
+      "zh": "把搭讪海滩变成人人都能做的天体海滩!!",
+      "en": "Let's Turn The Pick-Up Beach into a Free-For-All Nudist Fucking Beach!!"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "貴様巻きソフト",
+    "date": "2019-08-14",
+    "rate": 4.36,
+    "dl": 19590,
+    "rc": 9245,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ261011.html",
+    "note": "在海滩上搭讪、逐步改变海滩风气的轻量模拟游戏"
+  },
+  {
     "id": "RJ262114",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "Charming Mate ～女王サキュバス育成日誌～",
     "names": {
@@ -624,8 +3362,186 @@
     "note": "和魅魔同居并养成的 SLG"
   },
   {
+    "id": "RJ266482",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ハッスルタイム!",
+    "names": {
+      "ja": "ハッスルタイム!",
+      "zh": "奋斗时间！",
+      "en": "HUSTLE TIME"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "ベルゼブブ",
+    "date": "2019-10-08",
+    "rate": 4.49,
+    "dl": 7408,
+    "rc": 3188,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ266482.html",
+    "note": "跌入谷底的青年在夜晚街区展开复仇的模拟游戏"
+  },
+  {
+    "id": "RJ267088",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "孕ませ体験クリニック",
+    "names": {
+      "ja": "孕ませ体験クリニック",
+      "zh": "受孕体验诊所",
+      "en": "Impregnation Experience Clinic"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "第Lスタジオ",
+    "date": "2019-10-29",
+    "rate": 4.42,
+    "dl": 5279,
+    "rc": 1980,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ267088.html",
+    "note": "以诊所为舞台的动画模拟游戏"
+  },
+  {
+    "id": "RJ269745",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ハルヲウルヤカタ",
+    "names": {
+      "ja": "ハルヲウルヤカタ",
+      "zh": "小春卖身的公馆",
+      "en": "The Mansion Where Haru Sells Herself"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "アマツチヤ",
+    "date": "2019-11-12",
+    "rate": 4.31,
+    "dl": 10813,
+    "rc": 5648,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ269745.html",
+    "note": "没有剧情、专注数值管理的经营小游戏"
+  },
+  {
+    "id": "RJ272131",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "バージン・ロード2",
+    "names": {
+      "ja": "バージン・ロード2",
+      "zh": "处女之路2",
+      "en": "VIRGIN LODE 2"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "ぺぺろんちーの",
+    "date": "2019-12-24",
+    "rate": 4.47,
+    "dl": 8111,
+    "rc": 3537,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ272131.html",
+    "note": "扮演司教、以中世纪“初夜权”为题材的模拟游戏"
+  },
+  {
+    "id": "RJ272680",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ナイの調教日記",
+    "names": {
+      "ja": "ナイの調教日記",
+      "zh": "奈的调教日记",
+      "en": "Nai's Training Diary"
+    },
+    "mt": [
+      "en"
+    ],
+    "circle": "Playmeow",
+    "date": "2020-01-24",
+    "rate": 4.26,
+    "dl": 16781,
+    "rc": 5961,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ272680.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ273529",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "竜王ちゃんの野望 完全版",
+    "names": {
+      "ja": "竜王ちゃんの野望 完全版",
+      "zh": "龙王酱的野望 完全版",
+      "en": "Dragonlord's Ambition [Complete Edition]"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "SPLUSH WAVE",
+    "date": "2020-01-01",
+    "rate": 4.49,
+    "dl": 13558,
+    "rc": 5027,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ273529.html",
+    "note": "勇者斗恶龙二创的战国式战略 SLG，统一大陆、招揽敌将"
+  },
+  {
+    "id": "RJ278273",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "お姉ちゃんといっしょ。～唯奈のあまあま全肯定～",
+    "names": {
+      "ja": "お姉ちゃんといっしょ。～唯奈のあまあま全肯定～",
+      "zh": "和姐姐在一起。～唯奈的甜蜜全肯定～",
+      "en": "With an Older Girl ~Yuina's Sweet Encouragement~"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "ボウサバG",
+    "date": "2020-10-25",
+    "rate": 4.67,
+    "dl": 11906,
+    "rc": 5898,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ278273.html",
+    "note": "与温柔姐姐同居、拥抱掏耳朵等日常互动的交流游戏"
+  },
+  {
+    "id": "RJ278706",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "寝込んだ少女:昼寝の少女",
+    "names": {
+      "ja": "寝込んだ少女:昼寝の少女",
+      "zh": "睡着的少女：午睡的少女",
+      "en": "Sleeping girl: Siesta girl"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "pH Studio",
+    "date": "2020-02-22",
+    "rate": 4.09,
+    "dl": 3650,
+    "rc": 812,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ278706.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
     "id": "RJ280657",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "プリンセスハーレム",
     "names": {
@@ -645,8 +3561,118 @@
     "note": "鼠标操作的触摸调教模拟，女主角 3 人"
   },
   {
+    "id": "RJ280842",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "わんこの恩返し ～捨て犬少女とイチャラブ同棲生活!?～",
+    "names": {
+      "ja": "わんこの恩返し ～捨て犬少女とイチャラブ同棲生活!?～",
+      "zh": "狗狗的报恩~和弃犬少女恩爱的同居生活！？~",
+      "en": "Returning the favor of the dog"
+    },
+    "mt": [],
+    "circle": "azucat",
+    "date": "2020-05-01",
+    "rate": 4.01,
+    "dl": 2845,
+    "rc": 789,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ280842.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ280974",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "コンビニ少女Z",
+    "names": {
+      "ja": "コンビニ少女Z",
+      "zh": "便利店少女Z",
+      "en": "The Convenience Store Girl Z"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "ベルゼブブ",
+    "date": "2020-04-14",
+    "rate": 4.59,
+    "dl": 12142,
+    "rc": 5237,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ280974.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ281027",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "孕ませ!精液転送プロジェクト",
+    "names": {
+      "ja": "孕ませ!精液転送プロジェクト",
+      "zh": "受孕！精液传送计划",
+      "en": "Impregnate! Semen Transfer Project!"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "く魔王",
+    "date": "2021-08-13",
+    "rate": 4.18,
+    "dl": 14164,
+    "rc": 5826,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ281027.html",
+    "note": "与仿生人女主角搭档的科幻题材模拟游戏"
+  },
+  {
+    "id": "RJ283778",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "優艶の花 続 淫縛の館",
+    "names": {
+      "ja": "優艶の花 続 淫縛の館",
+      "zh": "优艳之花 续 淫缚之馆",
+      "en": "Graceful Flower II: The Mansion of Lewd Bondage"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "Double Soft Cream",
+    "date": "2020-04-22",
+    "rate": 4.66,
+    "dl": 19913,
+    "rc": 8297,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ283778.html",
+    "note": "即时 3D 与插画结合、角色会实时反应的互动调教模拟"
+  },
+  {
+    "id": "RJ286256",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "BLACK-MARKET",
+    "names": {
+      "ja": "BLACK-MARKET",
+      "zh": "黑市",
+      "en": "BLACK-MARKET"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "いーめいどぷらす",
+    "date": "2020-05-08",
+    "rate": 4.5,
+    "dl": 25836,
+    "rc": 10661,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ286256.html",
+    "note": "3D 与 2D 结合的娼馆经营模拟，雇用随机生成的角色并扩建设施"
+  },
+  {
     "id": "RJ286680",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "神具姫ヒーローアンチドミー",
     "names": {
@@ -666,6 +3692,7 @@
   {
     "id": "RJ286695",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "インペリアルハーレム",
     "names": {
@@ -683,8 +3710,76 @@
     "note": "鼠标操作的触摸调教模拟，Live2D 动画"
   },
   {
+    "id": "RJ287865",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "Hな酒場へようこそ",
+    "names": {
+      "ja": "Hな酒場へようこそ",
+      "zh": "欢迎光临 H 酒馆",
+      "en": "Welcome to the Sexy Bar!"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "毛ガニ研究室",
+    "date": "2020-07-20",
+    "rate": 4.44,
+    "dl": 16767,
+    "rc": 7441,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ287865.html",
+    "note": "为还债经营酒馆、守护女主不被其他男人夺走的经营模拟"
+  },
+  {
+    "id": "RJ289232",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "コンビニ少女Z 万引無双ぱっち",
+    "names": {
+      "ja": "コンビニ少女Z 万引無双ぱっち",
+      "zh": "便利店少女Z 偷窃无双补丁",
+      "en": "The Convenience Store Girl Z ~Invincible Shoplifter Patch~"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "ベルゼブブ",
+    "date": "2020-06-02",
+    "rate": 4.53,
+    "dl": 14183,
+    "rc": 5451,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ289232.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ289780",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "Live2Dで動くイソップ寓話",
+    "names": {
+      "ja": "Live2Dで動くイソップ寓話",
+      "zh": "Live2D 伊索寓言",
+      "en": "Aesop's Fables in Live2D"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "MountBatten",
+    "date": "2020-06-01",
+    "rate": 4.61,
+    "dl": 17981,
+    "rc": 7623,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ289780.html",
+    "note": "扮演禁欲中的国王、与妃子对话的 Live2D 互动游戏"
+  },
+  {
     "id": "RJ291561",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "ゴブリンの巣穴",
     "names": {
@@ -704,6 +3799,7 @@
   {
     "id": "RJ292145",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "ダンジョンズレギオン-魔王に捧ぐ乙女の肢体-",
     "names": {
@@ -721,8 +3817,31 @@
     "note": "率领魔族防守地下城的策略模拟"
   },
   {
+    "id": "RJ294102",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ある帝都のある店で",
+    "names": {
+      "ja": "ある帝都のある店で",
+      "zh": "在某帝都的某家店",
+      "en": "A Certain Shop in the Capital..."
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "URURUC",
+    "date": "2020-10-24",
+    "rate": 4.49,
+    "dl": 6976,
+    "rc": 2964,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ294102.html",
+    "note": "经营店铺、避免被搞垮的模拟经营游戏"
+  },
+  {
     "id": "RJ295125",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "NTR伝説",
     "names": {
@@ -740,8 +3859,138 @@
     "note": "点阵画风的人妻寝取模拟"
   },
   {
+    "id": "RJ295396",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ホレスの格闘場",
+    "names": {
+      "ja": "ホレスの格闘場",
+      "zh": "赫雷斯的角斗场",
+      "en": "Jerez's Arena"
+    },
+    "mt": [],
+    "circle": "永恒アリス工坊",
+    "date": "2020-07-30",
+    "rate": 4.44,
+    "dl": 7283,
+    "rc": 2021,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ295396.html",
+    "note": "奴隶商人培养没落贵族千金参加地下格斗的养成模拟，Steam 版名为 Jerez's Arena"
+  },
+  {
+    "id": "RJ296365",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "KAGUYA PLAYER",
+    "names": {
+      "ja": "KAGUYA PLAYER",
+      "zh": "KAGUYA PLAYER",
+      "en": "KAGUYA PLAYER"
+    },
+    "mt": [],
+    "circle": "NGL FACTORY",
+    "date": "2020-08-08",
+    "rate": 4.67,
+    "dl": 11877,
+    "rc": 3347,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ296365.html",
+    "note": "用鼠标实时操作的 Live2D 互动小游戏，有三种玩法"
+  },
+  {
+    "id": "RJ300453",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "クールなメイドさんと一緒っ!",
+    "names": {
+      "ja": "クールなメイドさんと一緒っ!",
+      "zh": "和冷酷女仆在一起！",
+      "en": "Together with a Cool Maid!"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "スタジオねこキック",
+    "date": "2020-09-27",
+    "rate": 4.44,
+    "dl": 25889,
+    "rc": 11204,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ300453.html",
+    "note": "与女仆在破旧房子里开始新生活的慢生活养成模拟"
+  },
+  {
+    "id": "RJ301237",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "メイドlife",
+    "names": {
+      "ja": "メイドlife",
+      "zh": "女仆生活",
+      "en": "Maid life"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "高温注意",
+    "date": "2020-11-22",
+    "rate": 4.49,
+    "dl": 22242,
+    "rc": 9195,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ301237.html",
+    "note": "与女仆同居的生活模拟，可换装、外出"
+  },
+  {
+    "id": "RJ302928",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "サキュって!アテンプテーション～クソザコ淫魔の愛され奮闘記～",
+    "names": {
+      "ja": "サキュって!アテンプテーション～クソザコ淫魔の愛され奮闘記～",
+      "zh": "魅魔来了！诱惑～杂鱼魅魔的被爱奋斗记～",
+      "en": "SuckYou! A Temptation ~Low Level Succubus' Struggle to Be Loved~"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "シストレイド",
+    "date": "2021-03-17",
+    "rate": 4.51,
+    "dl": 25253,
+    "rc": 10641,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ302928.html",
+    "note": "在现代都市赚钱、积累人气的魅魔养成 SLG，带全动画演出"
+  },
+  {
+    "id": "RJ303351",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "魔女裁判",
+    "names": {
+      "ja": "魔女裁判",
+      "zh": "魔女审判",
+      "en": "Witch Trial"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "メタモルフォーゼ",
+    "date": "2021-01-25",
+    "rate": 4.24,
+    "dl": 16908,
+    "rc": 7201,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ303351.html",
+    "note": "使用怪物与异常状态卡牌进行的卡牌策略 SLG"
+  },
+  {
     "id": "RJ304810",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "コン狐との日常+(ぷらす)",
     "names": {
@@ -759,8 +4008,600 @@
     "note": "与孤独妖狐一起生活的 Live2D 交流游戏"
   },
   {
+    "id": "RJ305720",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ぞんびっ娘アイランド",
+    "names": {
+      "ja": "ぞんびっ娘アイランド",
+      "zh": "僵尸娘岛",
+      "en": "Zombie Girl Island"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "7センチ",
+    "date": "2021-01-15",
+    "rate": 4.47,
+    "dl": 13914,
+    "rc": 6026,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ305720.html",
+    "note": "以逃离僵尸横行的海岛为目标的模拟游戏"
+  },
+  {
+    "id": "RJ307505",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "咲夜と都合の良い催○法",
+    "names": {
+      "ja": "咲夜と都合の良い催○法",
+      "zh": "咲夜与方便的催眠法",
+      "en": "Conveniently Hypnotizing Sakuya"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "ビタミンごはん",
+    "date": "2020-11-20",
+    "rate": 4.55,
+    "dl": 6285,
+    "rc": 2512,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ307505.html",
+    "note": "东方 Project 同人，与咲夜互动的模拟游戏"
+  },
+  {
+    "id": "RJ309639",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "おとなりの奥様は今日も独り",
+    "names": {
+      "ja": "おとなりの奥様は今日も独り",
+      "zh": "隔壁的太太今天也一个人",
+      "en": "The Wife Next Door Is Alone Again Today"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "やさにき",
+    "date": "2020-12-06",
+    "rate": 4.59,
+    "dl": 13165,
+    "rc": 5356,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ309639.html",
+    "note": "攻略隔壁人妻的恋爱模拟，按日程提升好感"
+  },
+  {
+    "id": "RJ309823",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "コンビニ少女Z クレマお仕置きぱっち",
+    "names": {
+      "ja": "コンビニ少女Z クレマお仕置きぱっち",
+      "zh": "便利店少女Z 投诉客惩罚补丁",
+      "en": "The Convenience Store Girl Z ~Complainer Punishment Patch~"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "ベルゼブブ",
+    "date": "2020-12-22",
+    "rate": 4.56,
+    "dl": 12939,
+    "rc": 4872,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ309823.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ309886",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "死神教団 ～淫森に呑まれた村セグルメット",
+    "names": {
+      "ja": "死神教団 ～淫森に呑まれた村セグルメット",
+      "zh": "死神教团 ～被淫森吞没的村庄塞古尔梅特～",
+      "en": "Reapers Order ~The Lewdwood Village of Segurmet~"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "サークル冥魅亭",
+    "date": "2021-04-29",
+    "rate": 4.51,
+    "dl": 24247,
+    "rc": 9615,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ309886.html",
+    "note": "经营教团、扩大信徒的模拟游戏"
+  },
+  {
+    "id": "RJ314702",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "飼い犬勇者と魔王の城",
+    "names": {
+      "ja": "飼い犬勇者と魔王の城",
+      "zh": "家犬勇者与魔王城",
+      "en": "Pet Shota Hero and the Succubus Castle"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "ディーゼルマイン",
+    "date": "2021-02-01",
+    "rate": 4.58,
+    "dl": 20680,
+    "rc": 7636,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ314702.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ322272",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "潮吹き少女シズク",
+    "names": {
+      "ja": "潮吹き少女シズク",
+      "zh": "潮吹少女雫",
+      "en": "Squirting Girl Shizuku"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ボマゴェ",
+    "date": "2021-03-31",
+    "rate": 4.23,
+    "dl": 3347,
+    "rc": 807,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ322272.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ322566",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ダンジョン∞クリエイト",
+    "names": {
+      "ja": "ダンジョン∞クリエイト",
+      "zh": "地牢∞创造",
+      "en": "Dungeon Create"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "nikukyu",
+    "date": "2021-03-31",
+    "rate": 3.86,
+    "dl": 1044,
+    "rc": 367,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ322566.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ322970",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "蛮族レジェンド",
+    "names": {
+      "ja": "蛮族レジェンド",
+      "zh": "蛮族传说",
+      "en": "Barbarian Legend"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "黒い豚",
+    "date": "2021-05-20",
+    "rate": 4.03,
+    "dl": 12874,
+    "rc": 5062,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ322970.html",
+    "note": "组建军队攻打他国的战争策略模拟游戏"
+  },
+  {
+    "id": "RJ323674",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "雪屋温泉～子宝の湯～",
+    "names": {
+      "ja": "雪屋温泉～子宝の湯～",
+      "zh": "雪屋温泉～子宝之汤～",
+      "en": "Yukiya Hot Spring ~The Waters of Fertility~"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "こぐま企画",
+    "date": "2021-04-18",
+    "rate": 4.42,
+    "dl": 19030,
+    "rc": 6261,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ323674.html",
+    "note": "以雪中温泉旅馆为舞台的箱庭式点阵模拟游戏"
+  },
+  {
+    "id": "RJ323781",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "アイドル無惨 〜散らされる処女〜",
+    "names": {
+      "ja": "アイドル無惨 〜散らされる処女〜",
+      "zh": "偶像无惨 〜被夺走的处女〜",
+      "en": "Idol Tragedy ~Her Virginity Taken~"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "あいBAR",
+    "date": "2021-04-22",
+    "rate": 4.2,
+    "dl": 874,
+    "rc": 356,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ323781.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ324247",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ゴブリンの巣穴 I'll borne",
+    "names": {
+      "ja": "ゴブリンの巣穴 I'll borne",
+      "zh": "哥布林的巢穴 I'll borne",
+      "en": "Goblin Burrow: I'll Borne"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "ぺぺろんちーの",
+    "date": "2021-07-20",
+    "rate": 4.65,
+    "dl": 20199,
+    "rc": 8152,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ324247.html",
+    "note": "经营哥布林巢穴的模拟游戏"
+  },
+  {
+    "id": "RJ325126",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "満車率300%",
+    "names": {
+      "ja": "満車率300%",
+      "zh": "满员率300%",
+      "en": "Train Capacity 300%"
+    },
+    "mt": [],
+    "circle": "ベルゼブブ",
+    "date": "2022-04-12",
+    "rate": 4.6,
+    "dl": 28495,
+    "rc": 10766,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ325126.html",
+    "note": "以拥挤电车为舞台的模拟游戏"
+  },
+  {
+    "id": "RJ326025",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ガールズBar & ガールズ!",
+    "names": {
+      "ja": "ガールズBar & ガールズ!",
+      "zh": "女孩酒吧&女孩们！",
+      "en": "Girl's Bar & Girls!"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "シストレイド",
+    "date": "2021-05-28",
+    "rate": 4.47,
+    "dl": 23695,
+    "rc": 8297,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ326025.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ327261",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ズッ友の真後ろで露出したれ!",
+    "names": {
+      "ja": "ズッ友の真後ろで露出したれ!",
+      "zh": "在死党背后露出吧！",
+      "en": "Flash Right Behind Your Bestie!"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ボマゴェ",
+    "date": "2021-05-15",
+    "rate": 4.42,
+    "dl": 7669,
+    "rc": 2100,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ327261.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ328453",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "エルフと暮せば ～憩いの森の2人暮らし～",
+    "names": {
+      "ja": "エルフと暮せば ～憩いの森の2人暮らし～",
+      "zh": "与精灵的同居生活",
+      "en": "Living with an Elf ~Life for Two in the Forest of Rest~"
+    },
+    "mt": [
+      "en"
+    ],
+    "circle": "やさにき",
+    "date": "2021-08-06",
+    "rate": 4.61,
+    "dl": 12640,
+    "rc": 4861,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ328453.html",
+    "note": "在和平的森林里与精灵女孩共同生活的模拟游戏"
+  },
+  {
+    "id": "RJ331142",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "援交ファンタジー～愛と勇気と援交で世界を救う物語～",
+    "names": {
+      "ja": "援交ファンタジー～愛と勇気と援交で世界を救う物語～",
+      "zh": "援交幻想～用爱、勇气和援交拯救世界的故事～",
+      "en": "Paid Dating Fantasy: Saving the World with Love and Courage"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "らぷらす",
+    "date": "2023-04-28",
+    "rate": 4.53,
+    "dl": 19170,
+    "rc": 5968,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ331142.html",
+    "note": "借助“爱之妖精”的技能拯救奇幻世界的互动模拟游戏"
+  },
+  {
+    "id": "RJ331694",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "異世界娼館ロード",
+    "names": {
+      "ja": "異世界娼館ロード",
+      "zh": "异世界妓院路",
+      "en": "Isekai Brothel Road"
+    },
+    "mt": [],
+    "circle": "見影",
+    "date": "2021-09-24",
+    "rate": 4.47,
+    "dl": 18809,
+    "rc": 6763,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ331694.html",
+    "note": "理解各种族的喜好、与转生者开的店竞争的经营 SLG"
+  },
+  {
+    "id": "RJ333182",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ヒロモンSLG -不思議な魔物と調教師-",
+    "names": {
+      "ja": "ヒロモンSLG -不思議な魔物と調教師-",
+      "zh": "英雄怪兽 SLG -不可思议的魔物与驯兽师-",
+      "en": "Heromon SLG ~Mysterious Monsters and Their Trainer~"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "RiceReng",
+    "date": "2021-08-05",
+    "rate": 4.69,
+    "dl": 11615,
+    "rc": 5991,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ333182.html",
+    "note": "培养怪物娘并带她们战斗的养成 SLG"
+  },
+  {
+    "id": "RJ341761",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "無人島サバイバーズ",
+    "names": {
+      "ja": "無人島サバイバーズ",
+      "zh": "无人岛幸存者",
+      "en": "Remote Island Survivors"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "NTR教団",
+    "date": "2021-09-04",
+    "rate": 4.35,
+    "dl": 19177,
+    "rc": 8254,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ341761.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ342292",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "淫魔回胴録～Succubus Slot～",
+    "names": {
+      "ja": "淫魔回胴録～Succubus Slot～",
+      "zh": "淫魔回转录～Succubus Slot～",
+      "en": "Succubus Slot"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "おやすみ開発所",
+    "date": "2021-11-20",
+    "rate": 4.48,
+    "dl": 18105,
+    "rc": 6491,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ342292.html",
+    "note": "以老虎机为核心玩法的魅魔题材游戏"
+  },
+  {
+    "id": "RJ342578",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "Jam packed line tale",
+    "names": {
+      "ja": "Jam packed line tale",
+      "zh": "Jam packed line tale",
+      "en": "Jam packed line tale"
+    },
+    "mt": [],
+    "circle": "エロフラッシュの辺境",
+    "date": "2021-09-26",
+    "rate": 4.61,
+    "dl": 19002,
+    "rc": 7065,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ342578.html",
+    "note": "用鼠标操作、角色实时反应的互动动画游戏，共五天"
+  },
+  {
+    "id": "RJ344628",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ロボライフ-アイノとの日々",
+    "names": {
+      "ja": "ロボライフ-アイノとの日々",
+      "zh": "Robolife——与爱诺的日常",
+      "en": "Robolife-Days with Aino"
+    },
+    "mt": [],
+    "circle": "BaranceStudio",
+    "date": "2021-09-28",
+    "rate": 4.51,
+    "dl": 15333,
+    "rc": 5071,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ344628.html",
+    "note": "让机器人女孩打工、解决居民烦恼并开发零件的养成模拟"
+  },
+  {
+    "id": "RJ344891",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "魔王の秘宝",
+    "names": {
+      "ja": "魔王の秘宝",
+      "zh": "魔王的秘宝",
+      "en": "The Demon Lord's Treasure"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "モンスター研",
+    "date": "2021-10-29",
+    "rate": 4.16,
+    "dl": 19010,
+    "rc": 6680,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ344891.html",
+    "note": "作为魔王阵营贵族管理领地、培育怪物的点阵 SLG"
+  },
+  {
+    "id": "RJ345267",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "HOUSHOU PLAYER",
+    "names": {
+      "ja": "HOUSHOU PLAYER",
+      "zh": "HOUSHOU PLAYER",
+      "en": "HOUSHOU PLAYER"
+    },
+    "mt": [],
+    "circle": "NGL FACTORY",
+    "date": "2021-09-30",
+    "rate": 4.66,
+    "dl": 22252,
+    "rc": 5206,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ345267.html",
+    "note": "用鼠标实时操作的 VTuber 同人互动游戏"
+  },
+  {
+    "id": "RJ354496",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "癒らし暮らし ～Relief Doll～",
+    "names": {
+      "ja": "癒らし暮らし ～Relief Doll～",
+      "zh": "治愈生活～Relief Doll～",
+      "en": "Healing Life ~Relief Doll~"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "SOUTH TREE",
+    "date": "2022-05-10",
+    "rate": 4.5,
+    "dl": 10214,
+    "rc": 3835,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ354496.html",
+    "note": "扮演照料人的仿生人、治愈孤独上班族女性的生活模拟"
+  },
+  {
+    "id": "RJ356209",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ケモミミ☆トレーニング ～狂暴けもみみ令嬢調教トライアル",
+    "names": {
+      "ja": "ケモミミ☆トレーニング ～狂暴けもみみ令嬢調教トライアル",
+      "zh": "兽耳☆训练～狂暴兽耳千金调教试炼～",
+      "en": "Kemomimi Training ~The Sexual Trials of a Raging Kemomimi Mistress~"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "サークル冥魅亭",
+    "date": "2022-03-04",
+    "rate": 4.63,
+    "dl": 18055,
+    "rc": 7265,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ356209.html",
+    "note": "以甜蜜互动为主的兽耳大小姐调教模拟"
+  },
+  {
     "id": "RJ356899",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "シロウト家出娘と俺",
     "names": {
@@ -780,8 +4621,179 @@
     "note": "与离家少女同居、打工赚生活费的日常 SLG"
   },
   {
+    "id": "RJ362605",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ネジ込みシミュレーターVol4 -強気クールお姉さんの極太野人ちんぽぐちょぐちょ挿れ放題!!-【性器拡張・ガチセックス】",
+    "names": {
+      "ja": "ネジ込みシミュレーターVol4 -強気クールお姉さんの極太野人ちんぽぐちょぐちょ挿れ放題!!-【性器拡張・ガチセックス】",
+      "zh": "自慰模拟器-Vol4-强势冷酷的大姐姐被野人极粗肉棒啪啪自助插入！！【性器扩张·激烈性爱】",
+      "en": "NejicomiSimulator Vol.4: Iron-willed Warrioress Takes Thunderous Cock"
+    },
+    "mt": [],
+    "circle": "やぶから堂",
+    "date": "2022-01-28",
+    "rate": 4.51,
+    "dl": 18849,
+    "rc": 4556,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ362605.html",
+    "note": "Live2D 动态、鼠标同步操作的互动模拟器第四作"
+  },
+  {
+    "id": "RJ367308",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "LOVE IS UNDEAD ラブ・イズ・アンデッド",
+    "names": {
+      "ja": "LOVE IS UNDEAD ラブ・イズ・アンデッド",
+      "zh": "爱是不死",
+      "en": "LOVE IS UNDEAD"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "Liquid Moon",
+    "date": "2022-01-07",
+    "rate": 4.61,
+    "dl": 23729,
+    "rc": 8633,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ367308.html",
+    "note": "培育僵尸娘的调教养成模拟"
+  },
+  {
+    "id": "RJ376315",
+    "cat": "slg",
+    "src": "dlsite",
+    "also": [
+      "steam"
+    ],
+    "state": "released",
+    "title": "怠け怪獣姫は働きたくない",
+    "names": {
+      "ja": "怠け怪獣姫は働きたくない",
+      "zh": "爱摸鱼的怪兽姬不想工作",
+      "en": "Kaiju Princess"
+    },
+    "mt": [],
+    "circle": "PantyParrot",
+    "date": "2022-08-31",
+    "rate": 4.65,
+    "dl": 22239,
+    "rc": 6408,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ376315.html",
+    "note": "与怪兽公主同居，兼顾时间管理、恋爱与养成的模拟游戏"
+  },
+  {
+    "id": "RJ378557",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "家出物語～エッチな事なんて知らなかったのに～",
+    "names": {
+      "ja": "家出物語～エッチな事なんて知らなかったのに～",
+      "zh": "离家出走物语～明明什么色色的事都不知道～",
+      "en": "Runaway Story ~From Virgin to Slut~"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "変態+tick",
+    "date": "2022-03-05",
+    "rate": 4.36,
+    "dl": 11251,
+    "rc": 3935,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ378557.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ380242",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "吊り下げシミュレーターVol2 -捕らわれ美女の機械姦-【性器拡張・膨乳・ピアス】",
+    "names": {
+      "ja": "吊り下げシミュレーターVol2 -捕らわれ美女の機械姦-【性器拡張・膨乳・ピアス】",
+      "zh": "吊挂模拟器Vol2 -被囚禁的美女机械奸-【性器扩张・膨乳・穿环】",
+      "en": "Suspended Sex Simulator Vol. 2 ~Captured Royalty Machine Sex~"
+    },
+    "mt": [],
+    "circle": "ニート(株)",
+    "date": "2022-04-29",
+    "rate": 4.61,
+    "dl": 34482,
+    "rc": 8782,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ380242.html",
+    "note": "Live2D 动态、鼠标同步操作的互动模拟器第二作"
+  },
+  {
+    "id": "RJ381438",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "魔法剣士ラピス",
+    "names": {
+      "ja": "魔法剣士ラピス",
+      "zh": "魔法剑士拉碧丝",
+      "en": "Magic Swordswoman Lapis"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "からあげカンパニー",
+    "date": "2022-03-20",
+    "rate": 4.29,
+    "dl": 11157,
+    "rc": 4406,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ381438.html",
+    "note": "玩家扮演触手怪物、对付被困女剑士的互动模拟"
+  },
+  {
+    "id": "RJ383456",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ソフィアとの秘密【Live2D×癒し系ご奉仕生活シュミレーション】",
+    "names": {
+      "ja": "ソフィアとの秘密【Live2D×癒し系ご奉仕生活シュミレーション】",
+      "zh": "我与索菲娅的秘密【Live2D×治愈系侍奉生活模拟】",
+      "en": "Secret with Sophia"
+    },
+    "mt": [],
+    "circle": "めがみそふと",
+    "date": "2022-12-03",
+    "rate": 4.64,
+    "dl": 28592,
+    "rc": 8539,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ383456.html",
+    "note": "与女仆索菲娅共同生活的 Live2D 治愈系交流模拟"
+  },
+  {
+    "id": "RJ383745",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "アパート物語/公寓物語",
+    "names": {
+      "ja": "アパート物語/公寓物語",
+      "zh": "公寓物语",
+      "en": "APARTMENT STORY"
+    },
+    "mt": [],
+    "circle": "pH Studio",
+    "date": "2022-04-05",
+    "rate": 4.16,
+    "dl": 20894,
+    "rc": 5002,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ383745.html",
+    "note": "以整栋公寓为舞台的箱庭式模拟游戏"
+  },
+  {
     "id": "RJ385039",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "放課後の鬼ごっこ",
     "names": {
@@ -799,8 +4811,51 @@
     "note": "在废校中躲避幽灵、存活下来的游戏"
   },
   {
+    "id": "RJ385087",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "白魔女さんとヤり放題",
+    "names": {
+      "ja": "白魔女さんとヤり放題",
+      "zh": "与白魔女尽情欢爱",
+      "en": "Fuck The Kemomimi White Witch To Your Heart's Desire!"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "シガナイアトリエ",
+    "date": "2022-04-19",
+    "rate": 4.2,
+    "dl": 8558,
+    "rc": 2960,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ385087.html",
+    "note": "与兽耳魔女互动的动画模拟"
+  },
+  {
+    "id": "RJ387608",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "母乳少女～夏の甘い思い出【同棲SLG、オープンワールド型】",
+    "names": {
+      "ja": "母乳少女～夏の甘い思い出【同棲SLG、オープンワールド型】",
+      "zh": "【6/5为止折扣中】母乳少女～夏日的甜蜜回忆【同居SLG、开放世界】【日文版】",
+      "en": "Milk Girl ~Sweet memories of summer~"
+    },
+    "mt": [],
+    "circle": "azucat",
+    "date": "2022-05-20",
+    "rate": 4.25,
+    "dl": 9796,
+    "rc": 2878,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ387608.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
     "id": "RJ390522",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "田舎ライフ",
     "names": {
@@ -821,8 +4876,72 @@
     "note": "在乡下度过一个夏天的点阵动画 SLG"
   },
   {
+    "id": "RJ392532",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "背信少女リリィハント",
+    "names": {
+      "ja": "背信少女リリィハント",
+      "zh": "背信少女 莉莉狩猎",
+      "en": "Betrayed Girl Lily Hunt"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "らじかるこんとらすと",
+    "date": "2022-08-11",
+    "rate": 4.63,
+    "dl": 8906,
+    "rc": 3327,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ392532.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ400653",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "蛮族に狙われた村～村丸ごと寝取られちゃうシミュレーション～",
+    "names": {
+      "ja": "蛮族に狙われた村～村丸ごと寝取られちゃうシミュレーション～",
+      "zh": "被蛮族盯上的村庄～NTR整个村庄的模拟游戏～",
+      "en": "The Village Targeted By Barbarians ~NTR of an entire village Simulation~"
+    },
+    "mt": [],
+    "circle": "毛ガニ研究室",
+    "date": "2022-09-09",
+    "rate": 4.41,
+    "dl": 20994,
+    "rc": 6745,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ400653.html",
+    "note": "村庄被蛮族盯上后逐步沦陷的模拟游戏"
+  },
+  {
+    "id": "RJ401415",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ゴブリンの巣穴 the Fable",
+    "names": {
+      "ja": "ゴブリンの巣穴 the Fable",
+      "zh": "哥布林的巢穴 the Fable",
+      "en": "Goblin Burrow: the Fable"
+    },
+    "mt": [],
+    "circle": "ぺぺろんちーの",
+    "date": "2022-08-02",
+    "rate": 4.66,
+    "dl": 10792,
+    "rc": 3572,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ401415.html",
+    "note": "扮演哥布林经营巢穴的模拟游戏"
+  },
+  {
     "id": "RJ401420",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "モンスターブラックマーケット",
     "names": {
@@ -842,6 +4961,7 @@
   {
     "id": "RJ401895",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "モブ娘捕獲学園",
     "names": {
@@ -861,6 +4981,7 @@
   {
     "id": "RJ402638",
     "cat": "slg",
+    "src": "dlsite",
     "state": "released",
     "title": "おとなりの奥様は今日も独り2 遅咲きの青い春",
     "names": {
@@ -879,5 +5000,1286 @@
     "rc": 15127,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ402638.html",
     "note": "与邻居人妻加深关系的寝取模拟第二作"
+  },
+  {
+    "id": "RJ410389",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "お帰りくださいませ勇者さま!",
+    "names": {
+      "ja": "お帰りくださいませ勇者さま!",
+      "zh": "欢迎回来，勇者大人！",
+      "en": "Welcome Home, Hero!"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "とらいあんぐる！",
+    "date": "2023-03-03",
+    "rate": 4.41,
+    "dl": 20572,
+    "rc": 5643,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ410389.html",
+    "note": "招待前来拜访的勇者的魔物娘旅馆模拟游戏"
+  },
+  {
+    "id": "RJ415680",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "好きな女の子達と好きなだけ中出しお触りえっちVR",
+    "names": {
+      "ja": "好きな女の子達と好きなだけ中出しお触りえっちVR",
+      "zh": "和喜欢的女孩子们尽情亲热 VR",
+      "en": "Intimate VR with the Girls You Like"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "Eヤツのサークル",
+    "date": "2022-09-11",
+    "rate": 4.48,
+    "dl": 9984,
+    "rc": 2143,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ415680.html",
+    "note": "可从 12 名角色中选择、支持 VR 的实时 3D 互动作品"
+  },
+  {
+    "id": "RJ416147",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "隠居軍師の救国ストラテジー",
+    "names": {
+      "ja": "隠居軍師の救国ストラテジー",
+      "zh": "【中日英韩】隐居军师的救国方针",
+      "en": "How a Retired Strategist Saved the Country (PC Ver.)"
+    },
+    "mt": [],
+    "circle": "とま団",
+    "date": "2022-11-04",
+    "rate": 4.43,
+    "dl": 13514,
+    "rc": 3859,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ416147.html",
+    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
+  },
+  {
+    "id": "RJ417245",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "Project Sexaroid ～プロジェクト セクサロイド～",
+    "names": {
+      "ja": "Project Sexaroid ～プロジェクト セクサロイド～",
+      "zh": "性爱机器人计划",
+      "en": "Project Sexaroid"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ゆうちゅう部",
+    "date": "2022-09-15",
+    "rate": 4.27,
+    "dl": 20216,
+    "rc": 7763,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ417245.html",
+    "note": "培育无表情人形机器人的养成模拟，通关后有分数挑战"
+  },
+  {
+    "id": "RJ432234",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "乳愛奴隷調教計画",
+    "names": {
+      "ja": "乳愛奴隷調教計画",
+      "zh": "乳爱奴隶调教计划",
+      "en": "Paizuri Training Program [PC Ver.]"
+    },
+    "mt": [],
+    "circle": "喘葉の森",
+    "date": "2022-12-03",
+    "rate": 4.7,
+    "dl": 16154,
+    "rc": 4489,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ432234.html",
+    "note": "以单一玩法为主题的调教模拟"
+  },
+  {
+    "id": "RJ432642",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "OURO PLAYER",
+    "names": {
+      "ja": "OURO PLAYER",
+      "zh": "OURO PLAYER",
+      "en": "OURO PLAYER"
+    },
+    "mt": [],
+    "circle": "NGL FACTORY",
+    "date": "2022-11-03",
+    "rate": 4.64,
+    "dl": 11025,
+    "rc": 2076,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ432642.html",
+    "note": "用鼠标实时操作的互动模拟"
+  },
+  {
+    "id": "RJ439912",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "種付委員のオシゴト",
+    "names": {
+      "ja": "種付委員のオシゴト",
+      "zh": "播种委员的工作",
+      "en": "The Breeding Committee's Job"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "meteo.H",
+    "date": "2022-12-15",
+    "rate": 4.39,
+    "dl": 15493,
+    "rc": 3609,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ439912.html",
+    "note": "被任命为\"播种委员\"后在城镇生活的模拟游戏"
+  },
+  {
+    "id": "cien-2013",
+    "cat": "slg",
+    "src": "cien",
+    "state": "dev",
+    "title": "聖国のミルベリア",
+    "names": {
+      "ja": "聖国のミルベリア",
+      "zh": "圣国的米尔贝莉娅",
+      "en": "Milberia of the Holy Kingdom"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "Laboratory",
+    "date": "2026-10-08",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "以圣女为主人公的模拟游戏，已向付费支援者发放先行体验版"
+  },
+  {
+    "id": "cien-27405",
+    "cat": "slg",
+    "src": "cien",
+    "state": "dev",
+    "title": "カスタムロマンスシティ3D3",
+    "names": {
+      "ja": "カスタムロマンスシティ3D3",
+      "zh": "定制浪漫都市3D3",
+      "en": "Custom Romance City 3D3"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "KISS",
+    "date": "2026-10-27",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "可以自定义角色的 3D 模拟游戏"
+  },
+  {
+    "id": "cien-322",
+    "cat": "slg",
+    "src": "cien",
+    "state": "dev",
+    "title": "宿かせぎ（仮）",
+    "names": {
+      "ja": "宿かせぎ（仮）",
+      "zh": "旅店打工（暂定）",
+      "en": "Inn Earnings (working title)"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "テングステン",
+    "date": "2026-10-15",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "用 WOLF RPG 编辑器制作、以旅店为舞台的事件型游戏"
+  },
+  {
+    "id": "cien-4398",
+    "cat": "slg",
+    "src": "cien",
+    "state": "dev",
+    "title": "ヒカゲモノ（仮）",
+    "names": {
+      "ja": "ヒカゲモノ（仮）",
+      "zh": "日陰者（暂定）",
+      "en": "Hikagemono (working title)"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "中尉（野良）",
+    "date": "2026-09-20",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "催眠题材模拟游戏的下一作，可攻略多位女主角"
+  },
+  {
+    "id": "cien-7854",
+    "cat": "slg",
+    "src": "cien",
+    "state": "dev",
+    "title": "204号室（仮）",
+    "names": {
+      "ja": "204号室（仮）",
+      "zh": "204号室（暂定）",
+      "en": "Room 204"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "やさにき",
+    "date": "2026-09-26",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "和地缚灵同居的恐怖题材模拟游戏"
+  },
+  {
+    "id": "cien-8791",
+    "cat": "slg",
+    "src": "cien",
+    "state": "dev",
+    "title": "ProjectR（仮）",
+    "names": {
+      "ja": "ProjectR（仮）",
+      "zh": "ProjectR（暂定）",
+      "en": "Project R"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "[チーム]アップルパイ",
+    "date": "2026-10-23",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "建设经营模拟游戏，有怪物培育、侵略和委托系统"
+  },
+  {
+    "id": "steam-1034140",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "Subverse",
+    "names": {
+      "ja": "Subverse",
+      "zh": "Subverse",
+      "en": "Subverse"
+    },
+    "mt": [],
+    "circle": "Studio FOW Interactive",
+    "date": "2024-11-15",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "太空歌剧题材，回合制战棋与弹幕射击交替进行的 3D 作品，2024 年正式版"
+  },
+  {
+    "id": "steam-1102930",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "KoboldKare",
+    "names": {
+      "ja": "KoboldKare",
+      "zh": "KoboldKare",
+      "en": "KoboldKare"
+    },
+    "mt": [],
+    "circle": "Naelstrof",
+    "date": "2022-12-15",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "可多人联机的农场模拟，培育的不是作物而是狗头人"
+  },
+  {
+    "id": "steam-1161770",
+    "cat": "slg",
+    "src": "steam",
+    "state": "dev",
+    "title": "Breeders of the Nephelym",
+    "names": {
+      "ja": "Breeders of the Nephelym",
+      "zh": "奈菲林培育者",
+      "en": "Breeders of the Nephelym"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "DerelictHelmsman",
+    "date": "2019-10-18",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "3D 冒险养成游戏，捕捉并培育名为“奈菲林”的魔物混血种族（抢先体验）"
+  },
+  {
+    "id": "steam-1181140",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "PerfectLover",
+    "names": {
+      "ja": "PerfectLover",
+      "zh": "完美恋人",
+      "en": "PerfectLover"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "MIGI STUDIO",
+    "date": "2019-11-21",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "从三位性格不同的女主角中选择并互动的 3D 恋爱模拟游戏"
+  },
+  {
+    "id": "steam-1223750",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "Cloud Meadow",
+    "names": {
+      "ja": "Cloud Meadow",
+      "zh": "云之牧场",
+      "en": "Cloud Meadow"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Team Nimbus",
+    "date": "2020-03-03",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "农场经营与回合制 RPG 结合的怪物娘题材游戏，抢先体验阶段"
+  },
+  {
+    "id": "steam-1296770",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "Her New Memory - Hentai Simulator",
+    "names": {
+      "ja": "Her New Memory - Hentai Simulator",
+      "zh": "她的新记忆",
+      "en": "Her New Memory - Hentai Simulator"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Zodiacus Games",
+    "date": "2022-02-08",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "收留一位失忆女子、与她共同生活的模拟游戏"
+  },
+  {
+    "id": "steam-1517850",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "Quickie: A Love Hotel Story",
+    "names": {
+      "ja": "Quickie: A Love Hotel Story",
+      "zh": "速战速决：情人旅馆物语",
+      "en": "Quickie: A Love Hotel Story"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Oppai Games",
+    "date": "2025-06-06",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "东京情人旅馆经理的恋爱模拟"
+  },
+  {
+    "id": "steam-1520500",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "Succubus Cafe",
+    "names": {
+      "ja": "Succubus Cafe",
+      "zh": "魅魔咖啡馆",
+      "en": "Succubus Cafe"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "MIGI STUDIO",
+    "date": "2021-05-13",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "经营只在夜间营业的魅魔咖啡馆的模拟游戏"
+  },
+  {
+    "id": "steam-1802980",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "Yihongyuan",
+    "names": {
+      "ja": "Yihongyuan",
+      "zh": "怡红院",
+      "en": "Yihongyuan"
+    },
+    "mt": [],
+    "circle": "9Garden",
+    "date": "2023-03-02",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "古风青楼经营与角色互动的模拟游戏"
+  },
+  {
+    "id": "steam-1814630",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "FarmD",
+    "names": {
+      "ja": "FarmD",
+      "zh": "FarmD",
+      "en": "FarmD"
+    },
+    "mt": [],
+    "circle": "Softscale",
+    "date": "2021-12-03",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "与龙族伙伴互动的兽人题材模拟游戏（抢先体验）"
+  },
+  {
+    "id": "steam-1974520",
+    "cat": "slg",
+    "src": "steam",
+    "also": [
+      "dlsite"
+    ],
+    "state": "released",
+    "title": "Dusk Pub - Adult Only",
+    "names": {
+      "ja": "Dusk Pub - Adult Only",
+      "zh": "黄昏酒馆",
+      "en": "Dusk Pub - Adult Only"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "YellowDuckWorks",
+    "date": "2024-04-12",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "经营一家酒馆、招募女性员工的 Live2D 模拟经营游戏"
+  },
+  {
+    "id": "steam-2090810",
+    "cat": "slg",
+    "src": "steam",
+    "also": [
+      "dlsite"
+    ],
+    "state": "released",
+    "title": "X-Angels",
+    "names": {
+      "ja": "X-Angels",
+      "zh": "X-Angels ～以正义之名使其堕落！美少女英雄～",
+      "en": "X-Angels"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Barance Studio",
+    "date": "2024-06-21",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "对抗女英雄组织的策略模拟游戏，事件为 3D 动画"
+  },
+  {
+    "id": "steam-2109460",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "VillageRhapsody",
+    "names": {
+      "ja": "VillageRhapsody",
+      "zh": "乡村狂想曲",
+      "en": "VillageRhapsody"
+    },
+    "mt": [],
+    "circle": "YooGame",
+    "date": "2023-04-26",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "种田、伐木、钓鱼的村庄经营角色扮演模拟游戏"
+  },
+  {
+    "id": "steam-2651440",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "Fallen Elf Freya",
+    "names": {
+      "ja": "堕落エルフ・フレイヤ",
+      "zh": "堕落精灵·芙蕾雅",
+      "en": "Fallen Elf Freya"
+    },
+    "mt": [],
+    "circle": "Honey Rider",
+    "date": "2025-10-21",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "扮演兽人调教精灵女王的互动模拟"
+  },
+  {
+    "id": "steam-2708950",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "Corruption Town",
+    "names": {
+      "ja": "Corruption Town",
+      "zh": "堕落之城",
+      "en": "Corruption Town"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "BoredBasmati",
+    "date": "2024-11-01",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "一步步掌控小镇居民的策略模拟游戏，带 RPG 要素"
+  },
+  {
+    "id": "steam-2739590",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "Mad Island",
+    "names": {
+      "ja": "Mad Island",
+      "zh": "疯狂岛",
+      "en": "Mad Island"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "EmadePlus",
+    "date": "2024-05-23",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "荒岛生存建造游戏，可以采集、建房、驯服岛上居民，抢先体验版"
+  },
+  {
+    "id": "steam-2789410",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "Komadori Inn",
+    "names": {
+      "ja": "Komadori Inn",
+      "zh": "知更鸟旅馆",
+      "en": "Komadori Inn"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Inlet Pipe Productions",
+    "date": "2026-03-29",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "在海边森林旅馆打工的时间管理模拟"
+  },
+  {
+    "id": "steam-2897760",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "Romantic Escapades",
+    "names": {
+      "ja": "Romantic Escapades",
+      "zh": "极品采花郎",
+      "en": "Romantic Escapades"
+    },
+    "mt": [],
+    "circle": "蠑螈",
+    "date": "2025-10-09",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "古风恋爱模拟，随剧情与多位女子发展关系"
+  },
+  {
+    "id": "steam-2962480",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "Isekai Sex Boutique",
+    "names": {
+      "ja": "異世界アダルトショップ",
+      "zh": "异世界情趣用品店",
+      "en": "Isekai Sex Boutique"
+    },
+    "mt": [],
+    "circle": "PEROCO WORKS",
+    "date": "2025-06-25",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "异世界成人用品店经营模拟，与各种族店员一起开店"
+  },
+  {
+    "id": "steam-3044740",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "V-LOVER!",
+    "names": {
+      "ja": "V-LOVER!",
+      "zh": "请成为最能干的VTuber吧！",
+      "en": "V-LOVER!"
+    },
+    "mt": [],
+    "circle": "Hentopia",
+    "date": "2025-06-24",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "成为 VTuber 事务所经纪人、培养三位 VTuber 的养成模拟"
+  },
+  {
+    "id": "steam-3099640",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "Academy Love Saga: Tennis Angels EX",
+    "names": {
+      "ja": "テニス エンゼル EX",
+      "zh": "网球天使EX",
+      "en": "Academy Love Saga: Tennis Angels EX"
+    },
+    "mt": [],
+    "circle": "Tora Creatives",
+    "date": "2025-04-18",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "以学院网球部为舞台的教练养成游戏，含网球比赛玩法"
+  },
+  {
+    "id": "steam-3236900",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "Rebirth Pub",
+    "names": {
+      "ja": "転生酒場",
+      "zh": "重生酒馆",
+      "en": "Rebirth Pub"
+    },
+    "mt": [],
+    "circle": "Seikou Soft.",
+    "date": "2026-08-14",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "转生成中世纪小镇酒馆老板的经营冒险游戏"
+  },
+  {
+    "id": "steam-3306200",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "Futanari★Coffee shop",
+    "names": {
+      "ja": "フタナリ★喫茶店",
+      "zh": "扶她★咖啡店",
+      "en": "Futanari★Coffee shop"
+    },
+    "mt": [],
+    "circle": "W77Games",
+    "date": "2026-01-20",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "经营咖啡店、雇佣女仆的经营模拟"
+  },
+  {
+    "id": "steam-3347670",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "BM General Hospital",
+    "names": {
+      "ja": "黒山総合病院",
+      "zh": "黑山综合医院",
+      "en": "BM General Hospital"
+    },
+    "mt": [],
+    "circle": "zzzgame",
+    "date": "2025-02-28",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "扮演院长经营医院的模拟游戏"
+  },
+  {
+    "id": "steam-3576350",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "Sex, Secrets & Used Tech",
+    "names": {
+      "ja": "やらない？中古屋の闇営業",
+      "zh": "修干嘛？二手3C店的闇营业",
+      "en": "Sex, Secrets & Used Tech"
+    },
+    "mt": [],
+    "circle": "WorkNite Games",
+    "date": "2026-06-24",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "二手电子产品店题材的经营模拟"
+  },
+  {
+    "id": "steam-3734630",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "Immoral-Bathhouse",
+    "names": {
+      "ja": "背德浴場",
+      "zh": "背德浴场",
+      "en": "Immoral-Bathhouse"
+    },
+    "mt": [],
+    "circle": "奶油貓工作室",
+    "date": "2026-03-18",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "带小游戏的澡堂经营模拟，改造濒临倒闭的店铺还债"
+  },
+  {
+    "id": "steam-3782910",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "Goblin Nest",
+    "names": {
+      "ja": "Goblin Nest",
+      "zh": "哥布林巢穴",
+      "en": "Goblin Nest"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "BadColor",
+    "date": "2026-03-26",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "经营哥布林巢穴的建造策略游戏，管理人口、金币和口粮"
+  },
+  {
+    "id": "steam-3830690",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "Flee, My Elven Ninja!  3D",
+    "names": {
+      "ja": "忍者エルフ逃走中！  3D",
+      "zh": "精灵忍者逃走中  3D",
+      "en": "Flee, My Elven Ninja!  3D"
+    },
+    "mt": [],
+    "circle": "Barance Studio",
+    "date": "2026-04-16",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "带着精灵少女躲避王国卫兵、一边逃亡一边培养她的 3D 冒险"
+  },
+  {
+    "id": "steam-3851570",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "Lure Of Passion",
+    "names": {
+      "ja": "Lure Of Passion",
+      "zh": "激情诱饵",
+      "en": "Lure Of Passion"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Snakerser's Games",
+    "date": "2026-01-05",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "渔夫题材的成人游戏，钓鱼时不断「钓」到意外收获"
+  },
+  {
+    "id": "steam-4184190",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "Onigotchi",
+    "names": {
+      "ja": "Onigotchi",
+      "zh": "鬼宠",
+      "en": "Onigotchi"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "BadColor",
+    "date": "2026-09-24",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "电子宠物式养成游戏，培养鬼娘击败怪物"
+  },
+  {
+    "id": "steam-4242290",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "SPITE: Taking the Boss's Wife, Sister and Mother",
+    "names": {
+      "ja": "SPITE：社長の妻、妹、母を奪う",
+      "zh": "SPITE：拿下老板的妻子、妹妹和母亲",
+      "en": "SPITE: Taking the Boss's Wife, Sister and Mother"
+    },
+    "mt": [],
+    "circle": "DIAMOND VISUAL",
+    "date": "2026-05-22",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "复仇题材的成人冒险游戏，在一个月内安排日程、玩小游戏"
+  },
+  {
+    "id": "steam-4321510",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "With the Devilish Her…",
+    "names": {
+      "ja": "魔性の彼女と...",
+      "zh": "与魔性的她…",
+      "en": "With the Devilish Her…"
+    },
+    "mt": [],
+    "circle": "まろん☆まろん",
+    "date": "2026-08-19",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "与朋友的妹妹同居三周的恋爱模拟"
+  },
+  {
+    "id": "steam-4341260",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "WebCam: Behind The Screen",
+    "names": {
+      "ja": "WebCam: Behind The Screen",
+      "zh": "摄像头：屏幕背后",
+      "en": "WebCam: Behind The Screen"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Cream Corp.",
+    "date": "2026-08-27",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "经营博客、满足订阅者要求的女主人公模拟游戏"
+  },
+  {
+    "id": "steam-4689440",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "Happy Endings",
+    "names": {
+      "ja": "Happy Endings",
+      "zh": "圆满结局",
+      "en": "Happy Endings"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Late Night Studios",
+    "date": "2026-08-28",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "像素风按摩店经营放置游戏，雇佣员工、升级房间"
+  },
+  {
+    "id": "steam-4739660",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "Drag'n Wash",
+    "names": {
+      "ja": "Drag'n Wash",
+      "zh": "拖拽洗龙",
+      "en": "Drag'n Wash"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Gator Dragon Games",
+    "date": "2026-09-10",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "为三条雄龙洗澡、聊天的 3D 互动模拟"
+  },
+  {
+    "id": "steam-823910",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "Last Evil",
+    "names": {
+      "ja": "Last Evil",
+      "zh": "最后的邪恶",
+      "en": "Last Evil"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Flametorch",
+    "date": "2020-06-24",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "卡牌构筑 Roguelike 策略游戏，深入地下城唤醒大魔王"
+  },
+  {
+    "id": "steam-849740",
+    "cat": "slg",
+    "src": "steam",
+    "state": "released",
+    "title": "Love Esquire - RPG/Dating Sim/Visual Novel",
+    "names": {
+      "ja": "Love Esquire - RPG/Dating Sim/Visual Novel",
+      "zh": "爱情侍从",
+      "en": "Love Esquire"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Yangyang Mobile",
+    "date": "2019-10-08",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "扮演见习侍从、在有限时间内追求心上人的 RPG 加恋爱模拟游戏"
+  },
+  {
+    "id": "vndb-v18683",
+    "cat": "slg",
+    "src": "commercial",
+    "state": "released",
+    "title": "珊海王の円環",
+    "names": {
+      "ja": "珊海王の円環",
+      "zh": "珊海王之环",
+      "en": "Sankai Ou no Yubiwa"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "エウシュリー",
+    "date": "2016-04-28",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "以海域国家为舞台、内政与战斗并重的战略 SLG"
+  },
+  {
+    "id": "vndb-v19725",
+    "cat": "slg",
+    "src": "commercial",
+    "state": "released",
+    "title": "VenusBlood -RAGNAROK-",
+    "names": {
+      "ja": "VenusBlood -RAGNAROK-",
+      "zh": "VenusBlood -RAGNAROK-",
+      "en": "VenusBlood -RAGNAROK-"
+    },
+    "mt": [],
+    "circle": "DualTail(DualMage)",
+    "date": "2016-12-22",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "攻略据点、收服女神的回合制战略 SLG"
+  },
+  {
+    "id": "vndb-v20250",
+    "cat": "slg",
+    "src": "commercial",
+    "state": "released",
+    "title": "呪いの魔剣に闇憑き乙女",
+    "names": {
+      "ja": "呪いの魔剣に闇憑き乙女",
+      "zh": "被诅咒魔剑缠身的少女",
+      "en": "Noroi no Maken ni Yamitsuki Otome"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ソフトハウスキャラ",
+    "date": "2017-03-24",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "培养冒险者挑战迷宫的养成 SLG"
+  },
+  {
+    "id": "vndb-v20418",
+    "cat": "slg",
+    "src": "commercial",
+    "state": "released",
+    "title": "天結いキャッスルマイスター",
+    "names": {
+      "ja": "天結いキャッスルマイスター",
+      "zh": "天结城堡大师",
+      "en": "Amayui Castle Meister"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "エウシュリー",
+    "date": "2017-05-26",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "收集知识、建造城堡要塞的战略 SRPG"
+  },
+  {
+    "id": "vndb-v23125",
+    "cat": "slg",
+    "src": "commercial",
+    "state": "released",
+    "title": "VenusBlood:Lagoon",
+    "names": {
+      "ja": "VenusBlood:Lagoon",
+      "zh": "维纳斯之血:泻湖",
+      "en": "VenusBlood:Lagoon"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "DualTail",
+    "date": "2018-12-28",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "「VenusBlood」系列的回合制战略 SLG，以海洋为舞台"
+  },
+  {
+    "id": "vndb-v26238",
+    "cat": "slg",
+    "src": "commercial",
+    "state": "released",
+    "title": "巣作りカリンちゃん",
+    "names": {
+      "ja": "巣作りカリンちゃん",
+      "zh": "筑巢华琳酱",
+      "en": "Suzukuri Dungeon: Karin in the Mountain"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "KarinProject",
+    "date": "2019-12-20",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "华琳在山中筑巢、迎击入侵者的地牢经营 SLG（《真・恋姫》题材，与 SofthouseChara 合作）"
+  },
+  {
+    "id": "vndb-v26900",
+    "cat": "slg",
+    "src": "commercial",
+    "state": "released",
+    "title": "カスタムオーダーメイド3D2",
+    "names": {
+      "ja": "カスタムオーダーメイド3D2",
+      "zh": "3D定制女仆2",
+      "en": "CUSTOM ORDER MAID 3D2"
+    },
+    "mt": [],
+    "circle": "KISS",
+    "date": "2018-02-23",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "经营女仆俱乐部、可自定义角色的 3D 模拟"
+  },
+  {
+    "id": "vndb-v29872",
+    "cat": "slg",
+    "src": "commercial",
+    "state": "released",
+    "title": "天結いラビリンスマイスター",
+    "names": {
+      "ja": "天結いラビリンスマイスター",
+      "zh": "天结迷宫大师",
+      "en": "Amayui Labyrinth Meister"
+    },
+    "mt": [],
+    "circle": "エウシュリー",
+    "date": "2021-07-21",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "建造并经营迷宫、带 SRPG 战斗的策略游戏"
+  },
+  {
+    "id": "vndb-v31820",
+    "cat": "slg",
+    "src": "commercial",
+    "state": "released",
+    "title": "戦国†恋姫EX参 ～毛利家の絆編～",
+    "names": {
+      "ja": "戦国†恋姫EX参 ～毛利家の絆編～",
+      "zh": "战国†恋姬EX 参 ～毛利家之绊篇～",
+      "en": "Sengoku Koihime EX 3: Bonds of the Mouri Clan"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "BaseSon",
+    "date": "2023-07-28",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "战国题材的剧情 ADV，穿插战场模拟玩法"
+  },
+  {
+    "id": "vndb-v55101",
+    "cat": "slg",
+    "src": "commercial",
+    "state": "released",
+    "title": "VenusBlood VALKYRIE",
+    "names": {
+      "ja": "VenusBlood VALKYRIE",
+      "zh": "VenusBlood VALKYRIE",
+      "en": "VenusBlood VALKYRIE"
+    },
+    "mt": [],
+    "circle": "DualTail(DualMage)",
+    "date": "2025-07-25",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "回合制战略模拟，培养并指挥部下攻略敌国"
+  },
+  {
+    "id": "vndb-v55175",
+    "cat": "slg",
+    "src": "commercial",
+    "state": "released",
+    "title": "極限痴漢特異点NEO",
+    "names": {
+      "ja": "極限痴漢特異点NEO",
+      "zh": "极限痴汉特异点 NEO",
+      "en": "Kyokugen Chikan Tokuiten NEO"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "アストロノーツ・シリウス",
+    "date": "2025-06-27",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "带模拟要素的电车痴汉题材拔作"
+  },
+  {
+    "id": "vndb-v61195",
+    "cat": "slg",
+    "src": "commercial",
+    "state": "released",
+    "title": "姫と艶欲のインペリウム",
+    "names": {
+      "ja": "姫と艶欲のインペリウム",
+      "zh": "公主与艳欲的帝国",
+      "en": "Hime to En'yoku no Imperium (Princesses and the Empire of Lust)"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "Escu:de",
+    "date": "2026-04-24",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "带征服模拟要素的凌辱题材 SLG"
   }
 ]

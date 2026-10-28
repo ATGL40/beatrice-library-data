@@ -17,6 +17,7 @@ MAX_ENTRIES = 20000
 MAX_FILE = 50 << 20
 MAX_TOTAL = 1 << 30
 CATS = {"f-rpg", "m-rpg", "adv", "slg", "act", "other"}
+SRCS = {"dlsite", "fanza", "commercial", "steam", "cien", "fanbox"}
 EXTS = {"jpg", "jpeg", "png", "webp"}
 NAME_OK = re.compile(r"[A-Za-z0-9._-]+")
 RESERVED = {"CON", "PRN", "AUX", "NUL"} | {f"{p}{i}" for p in ("COM", "LPT") for i in range(1, 10)}
@@ -133,6 +134,16 @@ def check(path, min_updated):
             problems.append(f"{g.get('id')} 的 cat 不合法：{g.get('cat')!r}")
         if "rc" in g and not (g["rc"] is None or is_int(g["rc"])):
             problems.append(f"{g.get('id')} 的 rc 不是整数或 null")
+        src = g.get("src")
+        if src not in SRCS:
+            problems.append(f"{g.get('id')} 的 src 不合法：{src!r}（要是 {', '.join(sorted(SRCS))} 之一）")
+        elif src == "dlsite":
+            if not str(g.get("url", "")).startswith("https://"):
+                problems.append(f"{g.get('id')} 是 DLsite 作品，url 要是 https 链接：{g.get('url')!r}")
+        elif g.get("url"):  # 其他来源不写 url；rate / dl / rc 可以没有或 null
+            problems.append(f"{g.get('id')} 的来源是 {src}，不该有 url")
+        if "also" in g and not (isinstance(g["also"], list) and all(s in SRCS for s in g["also"])):
+            problems.append(f"{g.get('id')} 的 also 要是来源数组")
 
     rankings = cat.get("rankings", [])
     rk_items = rk_rj = rk_hit = 0
@@ -163,7 +174,12 @@ def check(path, min_updated):
                 elif it["rj"] in id_set:
                     rk_hit += 1
 
-    notes.insert(0, f"资料日期 {updated}，作品 {len(games)} 部，封面 {len(covers)} 张（包里图片 {len(cover_files)} 张）")
+    srcs = {}
+    for g in games:
+        if isinstance(g, dict):
+            srcs[g.get("src")] = srcs.get(g.get("src"), 0) + 1
+    notes.insert(0, f"资料日期 {updated}，作品 {len(games)} 部（{', '.join(f'{k} {v}' for k, v in sorted(srcs.items(), key=lambda kv: -kv[1]))}），"
+                    f"封面 {len(covers)} 张（包里图片 {len(cover_files)} 张）")
     notes.insert(1, f"榜单 {len(rankings)} 个、{rk_items} 条，带 rj 的 {rk_rj} 条，对得上作品的 {rk_hit} 条")
     if len(cover_files) > len(covers):
         notes.append(f"有 {len(cover_files) - len(covers)} 张图片没有作品用到")
