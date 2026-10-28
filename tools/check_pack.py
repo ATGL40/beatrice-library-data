@@ -6,6 +6,7 @@ r"""按软件导入时的规则检查数据包，再多查几项资料格式。
 有问题时退出码是 1。
 """
 import argparse
+import datetime
 import json
 import re
 import sys
@@ -62,11 +63,11 @@ def signal_problem(g):
         if g.get("src") != src:
             return f"的来源是 {g.get('src')}，只有 {src} 的作品写 {key}"
         if key == "egs" and not (isinstance(v, dict) and set(v) == {"median", "count"} and is_int(v["median"])
-                                 and 0 <= v["median"] <= 100 and is_int(v["count"]) and v["count"] >= 0):
-            return "的 egs 要是 {\"median\": 0–100 的整数, \"count\": 非负整数}"
+                                 and 0 <= v["median"] <= 100 and is_int(v["count"]) and v["count"] >= 1):
+            return "的 egs 要是 {\"median\": 0–100 的整数, \"count\": 正整数}"
         if key == "steam" and not (isinstance(v, dict) and set(v) == {"positive", "reviews"} and is_int(v["positive"])
-                                   and 0 <= v["positive"] <= 100 and is_int(v["reviews"]) and v["reviews"] >= 0):
-            return "的 steam 要是 {\"positive\": 0–100 的整数, \"reviews\": 非负整数}"
+                                   and 0 <= v["positive"] <= 100 and is_int(v["reviews"]) and v["reviews"] >= 1):
+            return "的 steam 要是 {\"positive\": 0–100 的整数, \"reviews\": 正整数}"
         if key == "followers" and not (is_int(v) and v >= 0):
             return "的 followers 要是非负整数"
     return None
@@ -83,6 +84,158 @@ def community_problem(g):
         return "的 community 要是 {\"avg\": 1–5 的数, \"count\": 正整数}"
     return None
 
+
+def raw_problem(g):
+    """DLsite 的原始数据：rate 是 0–5 的数，rc 是正整数，dl 是非负整数，都可以没有或 null；返回问题说明或 None"""
+    rate, rc, dl = g.get("rate"), g.get("rc"), g.get("dl")
+    if rate is not None and not (is_num(rate) and 0 <= rate <= 5):
+        return f"的 rate 要是 0–5 的数：{rate!r}"
+    if rc is not None and not (is_int(rc) and rc >= 1):
+        return f"的 rc 要是正整数：{rc!r}"
+    if dl is not None and not (is_int(dl) and dl >= 0):
+        return f"的 dl 要是非负整数：{dl!r}"
+    return None
+
+
+def godvote_problem(g):
+    """godvote（神作复议的结算结果，tools/community.py 写的）：可以没有；有就要是
+    {"support": 非负整数, "oppose": 非负整数, "settled": 结算日期, "changed": 上次因投票升降的日期（可以没有）}，
+    没有 changed 时至少 1 票，返回问题说明或 None"""
+    v = g.get("godvote")
+    if v is None:
+        return None
+    if not (isinstance(v, dict) and {"support", "oppose", "settled"} <= set(v) <= {"support", "oppose", "settled", "changed"}
+            and is_int(v["support"]) and is_int(v["oppose"]) and v["support"] >= 0 and v["oppose"] >= 0
+            and is_date(v["settled"]) and ("changed" not in v or is_date(v["changed"]))
+            and (v["support"] + v["oppose"] >= 1 or "changed" in v)):
+        return ("的 godvote 要是 {\"support\": 非负整数, \"oppose\": 非负整数, \"settled\": \"YYYY-MM-DD\"}"
+                "（可以再有 \"changed\": \"YYYY-MM-DD\"），没有 changed 时至少 1 票")
+    return None
+
+
+def is_num(v):
+    return isinstance(v, (int, float)) and not isinstance(v, bool)
+
+
+def is_date(v):
+    return isinstance(v, str) and bool(DATE_RE.fullmatch(v))
+
+
+DATE_RE = re.compile(r"\d{4}-\d{2}-\d{2}")
+SCORED = ("dlsite", "commercial", "steam")  # 综合榜只给这三个来源的已发售作品打分
+SCORING_KEYS = {"name", "version", "praise", "heat", "players", "community", "curve", "bands", "cap", "nominee", "gates",
+                "canon", "development"}
+REASON_RULES = ("oppose", "all", "none")
+
+
+def scoring_problems(sc):
+    """综合榜配方（version 2，见 README「综合榜配方」），返回问题列表"""
+    if not isinstance(sc, dict):
+        return ["scoring 不是对象"]
+    out = []
+
+    def need(ok, msg):
+        if not ok:
+            out.append("scoring " + msg)
+        return ok
+
+    def obj(v, keys):
+        return isinstance(v, dict) and set(v) == set(keys)
+
+    def per_src(v, test):
+        return obj(v, SCORED) and all(test(v[s]) for s in SCORED)
+
+    def span(v):
+        return isinstance(v, list) and len(v) == 2 and all(map(is_num, v)) and v[0] < v[1]
+
+    def line(v):  # 口碑线：{rating: {来源: 数}, raters: {来源: 正整数}}
+        return obj(v, ("rating", "raters")) and per_src(v["rating"], is_num) and per_src(v["raters"], lambda n: is_int(n) and n >= 1)
+
+    extra = sorted(set(sc) - SCORING_KEYS)
+    need(not extra, f"有不认识的字段：{extra}")
+    need(isinstance(sc.get("name"), str) and sc["name"].strip() != "", "的 name 要是非空字符串")
+    if not need(is_int(sc.get("version")) and sc["version"] == 2, f"的 version 要是 2：{sc.get('version')!r}"):
+        return out
+    pr = sc.get("praise")
+    need(obj(pr, ("k", "anchors")) and per_src(pr["k"], lambda v: is_num(v) and v > 0) and per_src(pr["anchors"], span),
+         "的 praise 要是 {k: {来源: 正数}, anchors: {来源: [低, 高]}}，来源是 dlsite / commercial / steam")
+    h = sc.get("heat")
+    age = h.get("age") if isinstance(h, dict) else None
+    need(obj(h, ("method", "weight", "anchors", "age")) and h["method"] == "abs-log"
+         and is_num(h["weight"]) and 0 <= h["weight"] <= 1 and per_src(h["anchors"], span)
+         and obj(age, ("min", "max", "exp")) and all(is_num(age[k]) for k in age)
+         and 0 < age["min"] <= age["max"] and age["exp"] >= 0,
+         "的 heat 要是 {method: \"abs-log\", weight: 0–1, anchors: {来源: [低, 高]}, age: {min: >0, max: ≥min, exp: ≥0}}")
+    pl = sc.get("players")
+    need(obj(pl, ("neutral", "prior", "cap")) and is_num(pl["neutral"]) and 1 <= pl["neutral"] <= 5
+         and is_num(pl["prior"]) and pl["prior"] >= 0 and is_num(pl["cap"]) and pl["cap"] >= 0,
+         "的 players 要是 {neutral: 1–5, prior: ≥0, cap: ≥0}")
+    cm = sc.get("community")
+    need(obj(cm, ("minCount", "prior", "weight")) and is_int(cm["minCount"]) and cm["minCount"] >= 1
+         and is_num(cm["prior"]) and cm["prior"] >= 0 and is_num(cm["weight"]) and 0 <= cm["weight"] <= 1,
+         "的 community 要是 {minCount: 正整数, prior: ≥0, weight: 0–1}")
+    cv = sc.get("curve")
+    pts = cv.get("points") if obj(cv, ("on", "points")) and cv["on"] == "composite" else None
+    need(isinstance(pts, list) and len(pts) >= 2 and all(isinstance(q, list) and len(q) == 2 and all(map(is_num, q)) for q in pts)
+         and all(a[0] < b[0] and a[1] <= b[1] for a, b in zip(pts, pts[1:])) and 0 <= pts[0][1] and pts[-1][1] <= 100,
+         "的 curve 要是 {on: \"composite\", points: [[综合分, 最终分]…]}，综合分严格递增、最终分不减、在 0–100")
+    bands = sc.get("bands")
+    labels, band_min = [], {}
+    if need(isinstance(bands, list) and len(bands) >= 3
+            and all(isinstance(b, list) and len(b) == 2 and isinstance(b[0], str) and b[0] and is_num(b[1]) for b in bands),
+            "的 bands 要是 [[档名, 最低分]…]"):
+        labels, band_min = [b[0] for b in bands], dict(bands)
+        need(labels[:2] == ["神作", "神作提名"], "的 bands 前两档要是 神作、神作提名（只由神作名单 / 投票和提名门槛给）")
+        need(len(set(labels)) == len(labels), "的 bands 档名重复")
+        need(all(a[1] > b[1] for a, b in zip(bands, bands[1:])) and bands[-1][1] == 0, "的 bands 最低分要从高到低排、最后一档是 0")
+    cap, nm, cn = sc.get("cap"), sc.get("nominee"), sc.get("canon")
+    need(obj(cap, ("max",)) and is_num(cap["max"]) and 0 < cap["max"] < band_min.get("神作提名", 100),
+         "的 cap 要是 {max: 分}，比神作提名的最低分小（神作和神作提名以外的作品都封顶在 max）")
+    need(obj(nm, ("score", "minF0", "praise", "others")) and nm["praise"] in ("praise", "praiseTop") and is_int(nm["others"])
+         and 0 <= nm["others"] <= 3 and nm["score"] == band_min.get("神作提名") and is_num(nm["minF0"]) and 0 <= nm["minF0"] <= 100,
+         "的 nominee 要是 {score: 神作提名档的最低分, minF0: 0–100, praise: \"praise\" 或 \"praiseTop\", others: 0–3}")
+    gt = sc.get("gates")
+    if need(obj(gt, ("praise", "praiseTop", "heat", "lists", "community", "tiers")),
+            "的 gates 要有 praise / praiseTop / heat / lists / community / tiers"):
+        need(line(gt["praise"]), "的 gates.praise 要是 {rating: {来源: 数}, raters: {来源: 正整数}}")
+        need(line(gt["praiseTop"]), "的 gates.praiseTop 要是 {rating: {来源: 数}, raters: {来源: 正整数}}（固定的原始评分线和人数线）")
+        need(obj(gt["heat"], ("min",)) and is_num(gt["heat"]["min"]) and 0 <= gt["heat"]["min"] <= 100, "的 gates.heat 要是 {min: 0–100}")
+        need(obj(gt["lists"], ("also",)) and isinstance(gt["lists"]["also"], bool), "的 gates.lists 要是 {also: true/false}")
+        c = gt["community"]
+        need(obj(c, ("minAvg", "minCount")) and is_num(c["minAvg"]) and 1 <= c["minAvg"] <= 5
+             and is_int(c["minCount"]) and c["minCount"] >= 1, "的 gates.community 要是 {minAvg: 1–5, minCount: 正整数}")
+        tiers = gt["tiers"]
+        need(isinstance(tiers, list) and all(
+            obj(x, ("band", "praise", "others", "capTo")) and x["band"] in labels[2:] and x["praise"] in ("praise", "praiseTop")
+            and is_int(x["others"]) and 0 <= x["others"] <= 3 and is_num(x["capTo"]) and x["capTo"] < band_min[x["band"]]
+            for x in tiers), "的 gates.tiers 要是 [{band: 档名（神作、神作提名以外）, praise: \"praise\" 或 \"praiseTop\", others: 0–3, capTo: 比这一档最低分小}…]")
+    need(obj(cn, ("rulesVersion", "minScore", "promote", "demote", "cooldownDays", "reasonRequired", "reasonMinChars"))
+         and is_int(cn["rulesVersion"]) and cn["rulesVersion"] >= 1 and cn["minScore"] == band_min.get("神作")
+         and obj(cn["promote"], ("minVoters", "support")) and obj(cn["demote"], ("minVoters", "oppose"))
+         and all(is_int(cn[k]["minVoters"]) and cn[k]["minVoters"] >= 1 for k in ("promote", "demote"))
+         and all(is_num(cn[k][f]) and 0 < cn[k][f] <= 1 for k, f in (("promote", "support"), ("demote", "oppose")))
+         and is_int(cn["cooldownDays"]) and cn["cooldownDays"] >= 0 and cn["reasonRequired"] in REASON_RULES
+         and is_int(cn["reasonMinChars"]) and cn["reasonMinChars"] >= 0,
+         "的 canon 要是 {rulesVersion: 正整数, minScore: 神作档的最低分, promote: {minVoters: 正整数, support: 0–1}, "
+         "demote: {minVoters: 正整数, oppose: 0–1}, cooldownDays: 非负整数, reasonRequired: oppose / all / none, reasonMinChars: 非负整数}")
+    dv = sc.get("development")
+    need(obj(dv, ("name", "field")) and all(isinstance(dv[k], str) and dv[k] for k in ("name", "field")),
+         "的 development 要是 {name: 榜名, field: 字段名}")
+    return out
+
+
+def canon_problems(canon, ids):
+    """神作名单 canon：{作品 id: {"by": "manual" 或 "vote", "since": "YYYY-MM-DD", "note": 说明（可以没有）}}，作品要在资料里"""
+    if not isinstance(canon, dict):
+        return ["canon 不是对象（作品 id → {by, since, note}）"]
+    out = []
+    for wid, v in canon.items():
+        if wid not in ids:
+            out.append(f"canon 里的 {wid} 不在作品资料里")
+        if not (isinstance(v, dict) and {"by", "since"} <= set(v) <= {"by", "since", "note"} and v["by"] in ("manual", "vote")
+                and is_date(v["since"]) and ("note" not in v or isinstance(v["note"], str))):
+            out.append(f"canon 的 {wid} 要是 {{\"by\": \"manual\" 或 \"vote\", \"since\": \"YYYY-MM-DD\", \"note\": 说明（可选）}}")
+    return out
 
 def check(path, min_updated):
     problems, notes = [], []
@@ -173,8 +326,6 @@ def check(path, min_updated):
             continue
         if g.get("cat") not in CATS:
             problems.append(f"{g.get('id')} 的 cat 不合法：{g.get('cat')!r}")
-        if "rc" in g and not (g["rc"] is None or is_int(g["rc"])):
-            problems.append(f"{g.get('id')} 的 rc 不是整数或 null")
         src = g.get("src")
         if src not in SRCS:
             problems.append(f"{g.get('id')} 的 src 不合法：{src!r}（要是 {', '.join(sorted(SRCS))} 之一）")
@@ -195,10 +346,10 @@ def check(path, min_updated):
                 problems.append(f"{g.get('id')} 的 genres 要是字符串数组，每个 id 都要在 genres 字典里")
             else:
                 tagged += 1
-        for problem in (signal_problem(g), community_problem(g)):
+        for problem in (signal_problem(g), community_problem(g), godvote_problem(g), raw_problem(g) if src == "dlsite" else None):
             if problem:
                 problems.append(f"{g.get('id')} {problem}")
-        for key in list(SIGNALS) + ["community"]:
+        for key in list(SIGNALS) + ["community", "godvote"]:
             if g.get(key) is not None:
                 signals[key] = signals.get(key, 0) + 1
 
@@ -232,6 +383,12 @@ def check(path, min_updated):
                 elif it["rj"] in id_set:
                     rk_hit += 1
 
+    scoring, canon = cat.get("scoring"), cat.get("canon")
+    if scoring is not None:
+        problems.extend(scoring_problems(scoring))
+    if canon is not None:
+        problems.extend(canon_problems(canon, id_set))
+
     srcs = {}
     for g in games:
         if isinstance(g, dict):
@@ -242,7 +399,18 @@ def check(path, min_updated):
     notes.insert(2, f"题材标签 {len(genres)} 个，带题材的作品 {tagged} 部（DLsite 作品 {srcs.get('dlsite', 0)} 部）")
     notes.insert(3, "分数信号：" + "，".join(f"{key} {signals.get(key, 0)} 部（{src} 作品 {srcs.get(src, 0)} 部）"
                                           for key, src in SIGNALS.items()))
-    notes.insert(4, f"社区评分 community {signals.get('community', 0)} 部")
+    notes.insert(4, f"社区评分 community {signals.get('community', 0)} 部，神作复议票 godvote {signals.get('godvote', 0)} 部")
+    recipe = f"{scoring.get('name')} version {scoring.get('version')}" if isinstance(scoring, dict) else "没有（用软件自带的）"
+    notes.insert(5, f"综合榜配方：{recipe}；神作名单 {len(canon) if isinstance(canon, dict) else 0} 部")
+    undated = 0
+    for g in games:  # 发售日不可用的已发售作品：有人气数也不给新作补偿（见 README「综合榜配方」）
+        if isinstance(g, dict) and g.get("state") != "dev" and g.get("src") in SCORED:
+            try:
+                ok = datetime.date.fromisoformat(g.get("date") or "") <= datetime.date.fromisoformat(updated)
+            except (TypeError, ValueError):
+                ok = False
+            undated += not ok
+    notes.append(f"发售日缺失 / 不合法 / 晚于资料日期的已发售作品 {undated} 部（不给新作补偿）")
     if len(cover_files) > len(covers):
         notes.append(f"有 {len(cover_files) - len(covers)} 张图片没有作品用到")
     return problems, notes

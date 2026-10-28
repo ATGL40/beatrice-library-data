@@ -15,14 +15,15 @@ import sys
 import zipfile
 from pathlib import Path
 
+from check_pack import canon_problems, community_problem, godvote_problem, raw_problem, scoring_problems, signal_problem
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 CATS = ["f-rpg", "m-rpg", "adv", "slg", "act", "other"]
 URL_SRCS = ("dlsite", "cien", "fanbox")  # 只有这几个来源写链接：DLsite 商店页、赞助站的支持页
 SRCS = ["dlsite", "fanza", "commercial", "steam", "cien", "fanbox"]
-SIGNALS = {"egs": "commercial", "steam": "steam", "followers": "cien"}  # 分数信号字段 → 写它的来源
 SRC_BY_PREFIX = {"RJ": "dlsite", "fanza-": "fanza", "vndb-": "commercial", "steam-": "steam", "cien-": "cien", "fanbox-": "fanbox"}
-OTHER_FILES = {"meta.json", "rankings.json", "scoring.json", "genres.json"}
+OTHER_FILES = {"meta.json", "rankings.json", "scoring.json", "genres.json", "canon.json"}
 LANGS = ("ja", "zh", "en")
 EXTS = [".jpg", ".jpeg", ".png", ".webp"]
 NAME_OK = re.compile(r"[A-Za-z0-9._-]+")
@@ -37,37 +38,6 @@ def safe_name(name):
 
 def is_int(v):
     return isinstance(v, int) and not isinstance(v, bool)
-
-
-def signal_problem(g):
-    """egs / steam / followers：只有对应来源的作品写，可以没有或 null；有就查类型和范围，返回问题说明或 None"""
-    for key, src in SIGNALS.items():
-        v = g.get(key)
-        if v is None:
-            continue
-        if g.get("src") != src:
-            return f"的来源是 {g.get('src')}，只有 {src} 的作品写 {key}"
-        if key == "egs" and not (isinstance(v, dict) and set(v) == {"median", "count"} and is_int(v["median"])
-                                 and 0 <= v["median"] <= 100 and is_int(v["count"]) and v["count"] >= 0):
-            return "的 egs 要是 {\"median\": 0–100 的整数, \"count\": 非负整数}"
-        if key == "steam" and not (isinstance(v, dict) and set(v) == {"positive", "reviews"} and is_int(v["positive"])
-                                   and 0 <= v["positive"] <= 100 and is_int(v["reviews"]) and v["reviews"] >= 0):
-            return "的 steam 要是 {\"positive\": 0–100 的整数, \"reviews\": 非负整数}"
-        if key == "followers" and not (is_int(v) and v >= 0):
-            return "的 followers 要是非负整数"
-    return None
-
-
-def community_problem(g):
-    """community（社区评分汇总，tools/community.py 写的）：任何来源都可以有，可以没有或 null；
-    有就要是 {"avg": 1–5 的数, "count": 正整数}，返回问题说明或 None"""
-    v = g.get("community")
-    if v is None:
-        return None
-    if not (isinstance(v, dict) and set(v) == {"avg", "count"} and isinstance(v["avg"], (int, float))
-            and not isinstance(v["avg"], bool) and 1 <= v["avg"] <= 5 and is_int(v["count"]) and v["count"] >= 1):
-        return "的 community 要是 {\"avg\": 1–5 的数, \"count\": 正整数}"
-    return None
 
 
 def load(path):
@@ -110,7 +80,8 @@ def build_catalog(extras=()):
             bad = [x for x in g["genres"] if x not in genres]
             if bad:
                 raise ValueError(f"{gid} 的题材 {bad} 不在 data/genres.json 里")
-        problem = signal_problem(g) or community_problem(g)
+        problem = (signal_problem(g) or community_problem(g) or godvote_problem(g)
+                   or (raw_problem(g) if g["src"] == "dlsite" else None))
         if problem:
             raise ValueError(f"{gid} {problem}")
         seen.add(gid)
@@ -127,7 +98,7 @@ def build_catalog(extras=()):
     rankings = load(DATA / "rankings.json") if (DATA / "rankings.json").exists() else []
     for extra in extras:
         merge_extra(load(extra), extra.name, add, rankings)
-    catalog = {k: v for k, v in meta.items() if k not in ("games", "rankings", "scoring", "genres")}
+    catalog = {k: v for k, v in meta.items() if k not in ("games", "rankings", "scoring", "genres", "canon")}
     if genres:
         catalog["genres"] = genres
     catalog["games"] = [g for c in CATS for g in sorted(by_cat[c], key=lambda g: g["id"])]
@@ -135,6 +106,14 @@ def build_catalog(extras=()):
         catalog["rankings"] = rankings
     if (DATA / "scoring.json").exists():
         catalog["scoring"] = load(DATA / "scoring.json")
+        problems = scoring_problems(catalog["scoring"])
+        if problems:
+            raise ValueError("data/scoring.json：" + "；".join(problems))
+    if (DATA / "canon.json").exists():  # 神作名单：作品 id → {by, since, note}
+        catalog["canon"] = load(DATA / "canon.json")
+        problems = canon_problems(catalog["canon"], seen)
+        if problems:
+            raise ValueError("data/canon.json：" + "；".join(problems))
     return catalog
 
 

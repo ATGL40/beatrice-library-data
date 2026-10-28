@@ -1,32 +1,36 @@
 name: 提交评分 / Submit ratings
-description: 把你在碧翠子禁书库里打的星级交给社区评分 / Add your star ratings to the community average
+description: 把你在碧翠子禁书库里打的星级和神作复议票交给社区 / Add your star ratings and 神作 review votes to the community data
 title: "提交评分 / Submit ratings"
 labels: ["ratings"]
 body:
   - type: markdown
     attributes:
       value: |
-        **收什么：**只收每部作品的星级（作品 id → 1–5 星），没有名字、评论、想玩 / 玩过这些标记。
-        汇总后作为社区评分（平均星级和人数）随数据包公开发布，授权是 [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/)；仓库里只放汇总结果，不放单份提交。
-        **一个 GitHub 账号算一份：**再提交一次，新的会顶掉旧的。
+        **收什么：**每部作品的星级（作品 id → 1–5 星），以及你对神作提名 / 神作投的复议票（支持或反对，可以不投）；没有名字、评论、想玩 / 玩过这些标记。
+        星级汇总成社区评分（平均星级和人数），复议票只汇总成支持 / 反对票数，随数据包公开发布，授权是 [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/)；仓库里只放汇总结果，不放单份提交。
+        反对票必须写理由（至少 20 个字），支持票可写可不写。**这个 issue 是公开的：贴在这里的理由所有人都看得到。**想让理由只给维护者看，只能用邮件发文件。
+        **一个 GitHub 账号算一个投票人：**再提交一次，新的整份顶掉旧的，每部作品每人一条有效意见。投票在发布新资料时结算，公开每部作品的支持 / 反对票数和结算日期。
 
-        **怎么交：**在软件里导出「提交用的评分」文件（`kind` 是 `beatrice-ratings-submission`），用记事本打开，把全部内容粘贴到下面的框里。
-        这里只能粘贴，不能拖文件进来。软件普通导出的评分文件也能用，但里面有你的名字和评论，贴在这里会公开，所以请用提交用的文件。
+        **怎么交：**导出提交文件 → GitHub 表单粘贴，或作为附件发到 beatrice2library@gmail.com。
+        在软件里导出「提交用的评分」文件（`kind` 是 `beatrice-ratings-submission`），用记事本打开，把全部内容粘贴到下面的框里。
+        这里只能粘贴，不能拖文件进来。软件普通导出的评分文件也能用（没有投票），但里面有你的名字和评论，贴在这里会公开，所以请用提交用的文件。
 
         ---
 
-        **What is collected:** only your star rating per work (work id → 1–5 stars). No name, no notes, no want / played marks.
-        Ratings are aggregated into a public community score (average stars and number of raters) that ships in the data packs under [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/). Only the aggregate is published in this repository, never individual submissions.
-        **One submission per GitHub account:** if you submit again, the newer one replaces the older one.
+        **What is collected:** your star rating per work (work id → 1–5 stars) and, optionally, your review votes on 神作 nominees / 神作 (support or oppose). No name, no notes, no want / played marks.
+        Ratings are aggregated into a public community score (average stars and number of raters) and votes into support / oppose counts, shipped in the data packs under [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/). Only aggregates are published in this repository, never individual submissions.
+        An oppose vote needs a reason of at least 20 characters; a support vote may have one. **This issue is public: any reason pasted here can be read by everyone.** For a private reason, send the file by e-mail only.
+        **One voter per GitHub account:** if you submit again, the newer one replaces the older one as a whole (one valid opinion per work per person). Votes are settled at data releases; per-work support / oppose counts and the settlement date are published.
 
-        **How:** export the ratings-submission file from the app (`kind` is `beatrice-ratings-submission`), open it in a text editor and paste all of it into the box below.
-        This box takes pasted text only, not file uploads. A normal ratings export also works, but it contains your name and notes, which would become public here, so please use the submission file.
+        **How:** export the submission file, then paste it into this GitHub form, or send it as an attachment to beatrice2library@gmail.com.
+        Export the ratings-submission file from the app (`kind` is `beatrice-ratings-submission`), open it in a text editor and paste all of it into the box below.
+        This box takes pasted text only, not file uploads. A normal ratings export also works (without votes), but it contains your name and notes, which would become public here, so please use the submission file.
   - type: textarea
     id: ratings
     attributes:
       label: 评分文件内容 / Ratings file contents
       description: 粘贴整个文件，不要改。/ Paste the whole file, unchanged.
-      placeholder: '{"kind": "beatrice-ratings-submission", "version": 1, "app": "…", "catalog": "…", "ratings": {"RJ01004084": 5}}'
+      placeholder: '{"kind": "beatrice-ratings-submission", "version": 1, "app": "…", "catalog": "…", "ratings": {"RJ01004084": 5}, "votes": {"RJ297120": {"vote": "support"}}}'
       render: json
     validations:
       required: true
@@ -35,5 +39,5 @@ body:
     attributes:
       label: 同意 / Consent
       options:
-        - label: 我同意把这些星级按 ODbL 1.0 汇总成公开的社区评分。/ I agree that these star ratings are aggregated into public community scores under ODbL 1.0.
+        - label: 我同意把这些星级和投票按 ODbL 1.0 汇总成公开的社区评分和票数。/ I agree that these star ratings and votes are aggregated into public community scores and vote counts under ODbL 1.0.
           required: true
