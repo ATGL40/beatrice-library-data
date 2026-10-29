@@ -178,7 +178,8 @@ def scoring_problems(sc, ids=None):
     lists = pr.get("lists") if isinstance(pr, dict) else None
     applies = pr.get("appliesTo") if isinstance(pr, dict) else None
     by_src = pr.get("anchorsBySource", {}) if isinstance(pr, dict) else {}  # 可以没有
-    need(isinstance(pr, dict) and obj({k: v for k, v in pr.items() if k != "anchorsBySource"},
+    sec = pr.get("secondary") if isinstance(pr, dict) else None  # 可以没有
+    need(isinstance(pr, dict) and obj({k: v for k, v in pr.items() if k not in ("anchorsBySource", "secondary")},
                                       ("k", "kUp", "minN", "anchors", "appliesTo", "clamp", "lists")) and set(SCORED) <= set(srcs) <= set(RATING_SRCS)
          and isinstance(applies, dict) and set(applies) <= set(srcs)
          and all(isinstance(v, list) and len(set(v)) == len(v) and set(v) <= set(SCORED) for v in applies.values())
@@ -194,6 +195,11 @@ def scoring_problems(sc, ids=None):
          and all(isinstance(v, dict) and set(v) <= set(SCORED) and all(map(span, v.values())) for v in by_src.values()),
          "的 praise.anchorsBySource（可以没有）要是 {社区: {来源: [低, 高]}}，社区要在 anchors 里，来源是 "
          f"{' / '.join(SCORED)}（没写的来源用 anchors[社区]）")
+    need(sec is None or (obj(sec, ("sources", "maxShareOfNative")) and isinstance(sec["sources"], list)
+                         and len(set(sec["sources"])) == len(sec["sources"]) and set(sec["sources"]) <= set(srcs) - set(SCORED)
+                         and is_num(sec["maxShareOfNative"]) and sec["maxShareOfNative"] >= 0),
+         "的 praise.secondary（可以没有）要是 {sources: [社区…], maxShareOfNative: ≥0}，社区要在 anchors 里、不是 "
+         f"{' / '.join(SCORED)} 这几个本平台评分（本平台的评分算进来时，这些社区合起来的证据量最多是它的 maxShareOfNative 倍）")
     h = sc.get("heat")
     age = h.get("age") if isinstance(h, dict) else None
     need(obj(h, ("method", "weight", "window", "minGroup", "scale", "missing", "age")) and h["method"] == "era-median"
