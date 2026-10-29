@@ -23,7 +23,7 @@ ratings 是作品 id → 1–5 的整数星级。votes 可以没有：作品 id 
 blacklist 可以没有：作品 id → {"reason": 理由（可以没有）}，提交人的黑榜（version 还是 1；旧版软件的提交没有这个字段）。
 recognition 可以没有：识别报告（软件把游戏文件夹认错、猜错时用户记下的），每条只认这些字段：folder 文件夹（相对游戏文件夹的路径，
 不能是带盘符、网络路径的完整路径）、exes 启动程序文件名、titles 引擎标题、names 名字候选、rjs 编号（都是文字列表，各最多 20 个）、
-matched 软件认成 / 猜成的作品 id、rule 凭什么（rj / title / folder / manual / guess / unknown）、reason「可能是」的原因、
+matched 软件认成 / 猜成的作品 id、rule 凭什么（rj / title / folder / exe / manual / guess / unknown）、reason「可能是」的原因、
 correct 用户选的正确作品 id、date 日期；别的字段不看，每份最多 100 条。识别报告不进数据、不发布，只写进本地报告给维护者改识别规则。
 没有名字、评论、状态，别的字段也不看。只有投票、只有黑榜或只有识别报告、没有评分的提交也收。
 也收软件普通导出的评分文件（kind 是 beatrice-marks，或改名前的 galshelf-marks；.json 或 .html），只用里面 1–5 的 score，没有投票。
@@ -72,7 +72,7 @@ from build_pack import CATS, DATA, ROOT, build_catalog, is_int, load
 from scoring import score
 
 SUB_KIND = "beatrice-ratings-submission"
-RECOG_RULES = ("rj", "title", "folder", "manual", "guess", "unknown")
+RECOG_RULES = ("rj", "title", "folder", "exe", "manual", "guess", "unknown")
 RECOG_MAX, RECOG_TEXT, RECOG_ITEMS = 100, 200, 20
 FULL_PATH_RE = re.compile(r"(^|[^A-Za-z0-9])[A-Za-z]:[\\/]|^[\\/]|\\\\")
 MARK_KINDS = ("beatrice-marks", "galshelf-marks")

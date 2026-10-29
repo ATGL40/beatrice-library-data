@@ -139,7 +139,7 @@ py tools/check_pack.py dist/碧翠子禁书库数据包-<日期>.zip
     "blacklist": {"RJ123456": {"reason": "可以不写的理由"}, "RJ234567": {}}}
    ```
    `vote` 是 `support`（支持）或 `oppose`（反对）；现在反对必须写 `reason`（至少 20 个字），支持的理由可写可不写（规则在配方的 `canon.reasonRequired` / `reasonMinChars`）。`blacklist` 是你的黑榜（不推荐的作品），`reason` 可以不写；旧版软件的提交没有这个字段，`version` 还是 1。
-   还可以带 `recognition`：识别报告（软件把游戏文件夹认错、猜错时你点「认错了 / 报告」或「不是」记下的），每条只有 `folder`（相对你加进软件的游戏文件夹的路径，不含盘符和用户名）、`exes`（启动程序文件名）、`titles`（读到的引擎标题）、`names`（名字候选）、`rjs`（编号）、`matched`（软件认成 / 猜成的作品）、`rule`（凭什么：`rj` / `title` / `folder` / `manual` / `guess` / `unknown`）、`reason`（「可能是」的原因）、`correct`（你选的正确作品）、`date`。提交窗口里可以一条条取消。
+   还可以带 `recognition`：识别报告（软件把游戏文件夹认错、猜错时你点「认错了 / 报告」或「不是」记下的），每条只有 `folder`（相对你加进软件的游戏文件夹的路径，不含盘符和用户名）、`exes`（启动程序文件名）、`titles`（读到的引擎标题）、`names`（名字候选）、`rjs`（编号）、`matched`（软件认成 / 猜成的作品）、`rule`（凭什么：`rj` / `title` / `folder` / `exe` / `manual` / `guess` / `unknown`）、`reason`（「可能是」的原因）、`correct`（你选的正确作品）、`date`。提交窗口里可以一条条取消。
 2. 导出提交文件 → GitHub 表单粘贴，或作为附件发到 beatrice2library@gmail.com。GitHub：在本仓库[新建 issue](https://github.com/ATGL40/beatrice-library-data/issues/new/choose)，选「提交评分 / Submit ratings」，把文件内容整个粘贴进去，勾上同意，提交。
 
 - **公开的只有汇总：**每部作品的平均星级和人数（`community`）、支持 / 反对票数和结算日期（`godvote`）、拉黑的人数和有没有「多人拉黑」标注（`blacklist`），随数据包发布，授权同其他资料（ODbL 1.0）。单份提交不进仓库。
