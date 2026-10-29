@@ -515,35 +515,6 @@
     ]
   },
   {
-    "id": "RJ01365516",
-    "cat": "other",
-    "src": "dlsite",
-    "state": "released",
-    "title": "アイドルLIVE☆あんだーいちご Love me babe!!! in TOKYO SUPER ARENA 2025",
-    "names": {
-      "ja": "アイドルLIVE☆あんだーいちご Love me babe!!! in TOKYO SUPER ARENA 2025",
-      "zh": "偶像 LIVE☆Under Ichigo Love me babe!!! in TOKYO SUPER ARENA 2025",
-      "en": "Under Ichigo Love me babe!!! in TOKYO SUPER ARENA 2025"
-    },
-    "mt": [
-      "zh"
-    ],
-    "circle": "幻想ラボ",
-    "date": "2025-03-30",
-    "rate": 4.32,
-    "dl": 16620,
-    "rc": 626,
-    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01365516.html",
-    "note": "偶像题材的 3D 节奏动作游戏，重现整场演唱会",
-    "genres": [
-      "509",
-      "051",
-      "409",
-      "178",
-      "174"
-    ]
-  },
-  {
     "id": "RJ01365745",
     "cat": "other",
     "src": "dlsite",
@@ -1084,32 +1055,6 @@
     ]
   },
   {
-    "id": "RJ01655815",
-    "cat": "other",
-    "src": "dlsite",
-    "state": "released",
-    "title": "妖怪ドックで体の不安を解消したい鍵山雛たち！！",
-    "names": {
-      "ja": "妖怪ドックで体の不安を解消したい鍵山雛たち！！",
-      "zh": "想用妖怪体检消除身体不安的键山雏们！！",
-      "en": "Hina Kagiyama and Friends Want to Ease Their Health Worries at the Youkai Checkup!!"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "ISY",
-    "date": "2026-07-04",
-    "rate": 4.78,
-    "dl": 2280,
-    "rc": 254,
-    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01655815.html",
-    "note": "东方 Project 同人互动作品，公布体检结果的小品",
-    "genres": [
-      "512"
-    ]
-  },
-  {
     "id": "RJ01663252",
     "cat": "other",
     "src": "dlsite",
@@ -1369,36 +1314,6 @@
     ]
   },
   {
-    "id": "RJ217271",
-    "cat": "other",
-    "src": "dlsite",
-    "state": "released",
-    "title": "電車でD LightningStage",
-    "names": {
-      "ja": "電車でD LightningStage",
-      "zh": "电车D LightningStage",
-      "en": "Initial Train D LightningStage"
-    },
-    "mt": [
-      "zh"
-    ],
-    "circle": "地主一派",
-    "date": "2018-01-15",
-    "rate": 4.83,
-    "dl": 2093,
-    "rc": 406,
-    "bgm": {
-      "id": 302861,
-      "score": 6,
-      "votes": 1
-    },
-    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ217271.html",
-    "note": "「头文字D」风格的 3D 电车竞速同人游戏",
-    "genres": [
-      "509"
-    ]
-  },
-  {
     "id": "RJ222075",
     "cat": "other",
     "src": "dlsite",
@@ -1453,31 +1368,6 @@
       "164",
       "190",
       "161"
-    ]
-  },
-  {
-    "id": "RJ227913",
-    "cat": "other",
-    "src": "dlsite",
-    "state": "released",
-    "title": "電車でD BurningStage",
-    "names": {
-      "ja": "電車でD BurningStage",
-      "zh": "电车D BurningStage",
-      "en": "Densha de D - Burning Stage"
-    },
-    "mt": [
-      "zh"
-    ],
-    "circle": "地主一派",
-    "date": "2018-06-20",
-    "rate": 4.88,
-    "dl": 1550,
-    "rc": 293,
-    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ227913.html",
-    "note": "「电车D」续作，舞台从京阪本线开始",
-    "genres": [
-      "509"
     ]
   },
   {

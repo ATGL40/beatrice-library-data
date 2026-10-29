@@ -187,37 +187,6 @@
     ]
   },
   {
-    "id": "RJ01038533",
-    "cat": "f-rpg",
-    "pov": "both",
-    "src": "dlsite",
-    "state": "released",
-    "title": "異世界の創造者",
-    "names": {
-      "ja": "異世界の創造者",
-      "zh": "异世界创造者",
-      "en": "Creator of Another World"
-    },
-    "mt": [],
-    "circle": "くえたろう",
-    "date": "2023-07-08",
-    "rate": 4.65,
-    "dl": 32678,
-    "rc": 7512,
-    "bgm": {
-      "id": 580260,
-      "score": 5.5,
-      "votes": 2
-    },
-    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01038533.html",
-    "note": "",
-    "genres": [
-      "502",
-      "432",
-      "016"
-    ]
-  },
-  {
     "id": "RJ01041481",
     "cat": "f-rpg",
     "pov": "female",
@@ -7725,37 +7694,6 @@
     ]
   },
   {
-    "id": "RJ290851",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "dlsite",
-    "state": "released",
-    "title": "AbsentedAge:アブセンテッドエイジ ～亡霊少女のローグライクアクションSRPG -幽玄の章-",
-    "names": {
-      "ja": "AbsentedAge:アブセンテッドエイジ ～亡霊少女のローグライクアクションSRPG -幽玄の章-",
-      "zh": "AbsentedAge:缺失世纪~亡灵少女的Roguelike动作类SRPG -幽玄之章-",
-      "en": "Absented Age: Squarebound"
-    },
-    "mt": [],
-    "circle": "terunon's Lab",
-    "date": "2020-10-14",
-    "rate": 4.7,
-    "dl": 2895,
-    "rc": 1336,
-    "bgm": {
-      "id": 342920,
-      "score": 7.3,
-      "votes": 4
-    },
-    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ290851.html",
-    "note": "角色扮演游戏（按 DLsite 作品形式 RPG 归类，复核放回时补的条目，玩法未逐一核对）",
-    "genres": [
-      "432",
-      "312",
-      "016"
-    ]
-  },
-  {
     "id": "RJ291174",
     "cat": "f-rpg",
     "pov": "female",
@@ -8894,32 +8832,6 @@
       "446",
       "129",
       "113"
-    ]
-  },
-  {
-    "id": "RJ333501",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "dlsite",
-    "state": "released",
-    "title": "巡り廻る。",
-    "names": {
-      "ja": "巡り廻る。",
-      "zh": "轮回往复。",
-      "en": "Wandering"
-    },
-    "mt": [
-      "zh"
-    ],
-    "circle": "ゲ製うんかん。",
-    "date": "2021-12-09",
-    "rate": 4.52,
-    "dl": 49729,
-    "rc": 7833,
-    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ333501.html",
-    "note": "",
-    "genres": [
-      "016"
     ]
   },
   {

@@ -3884,31 +3884,6 @@
     ]
   },
   {
-    "id": "RJ195345",
-    "cat": "slg",
-    "src": "dlsite",
-    "state": "released",
-    "title": "幻想少女大戦永",
-    "names": {
-      "ja": "幻想少女大戦永",
-      "zh": "幻想少女大战永",
-      "en": "Fantasy Maiden Wars Eternity"
-    },
-    "mt": [
-      "zh"
-    ],
-    "circle": "さんぼん堂",
-    "date": "2017-02-26",
-    "rate": 4.75,
-    "dl": 1369,
-    "rc": 673,
-    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ195345.html",
-    "note": "东方Project 同人战略 SRPG，可用角色 50 名以上",
-    "genres": [
-      "512"
-    ]
-  },
-  {
     "id": "RJ198014",
     "cat": "slg",
     "src": "dlsite",
@@ -3971,31 +3946,6 @@
       "151",
       "140",
       "134"
-    ]
-  },
-  {
-    "id": "RJ199139",
-    "cat": "slg",
-    "src": "dlsite",
-    "state": "released",
-    "title": "王国のソウルスミス",
-    "names": {
-      "ja": "王国のソウルスミス",
-      "zh": "王国的灵魂铁匠",
-      "en": "Soul Smith of the Kingdom"
-    },
-    "mt": [
-      "zh"
-    ],
-    "circle": "犬と猫",
-    "date": "2017-05-01",
-    "rate": 4.54,
-    "dl": 2541,
-    "rc": 973,
-    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ199139.html",
-    "note": "不断打铁卖武器的铁匠铺经营模拟",
-    "genres": [
-      "206"
     ]
   },
   {
@@ -4567,32 +4517,6 @@
       "146",
       "128",
       "193"
-    ]
-  },
-  {
-    "id": "RJ224494",
-    "cat": "slg",
-    "src": "dlsite",
-    "state": "released",
-    "title": "ノノの魔法雑貨店",
-    "names": {
-      "ja": "ノノの魔法雑貨店",
-      "zh": "诺诺的魔法杂货店",
-      "en": "Nono's Magic General Store"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "犬と猫",
-    "date": "2018-05-04",
-    "rate": 4.47,
-    "dl": 2290,
-    "rc": 852,
-    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ224494.html",
-    "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
-    "genres": [
-      "206"
     ]
   },
   {

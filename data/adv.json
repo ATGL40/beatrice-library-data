@@ -4099,37 +4099,6 @@
     ]
   },
   {
-    "id": "RJ225551",
-    "cat": "adv",
-    "src": "dlsite",
-    "state": "released",
-    "title": "シルエットノート",
-    "names": {
-      "ja": "シルエットノート",
-      "zh": "剪影笔记",
-      "en": "Silhouette Note"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "Silver Second",
-    "date": "2018-05-18",
-    "rate": 4.8,
-    "dl": 1945,
-    "rc": 656,
-    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ225551.html",
-    "note": "冒险游戏 / 视觉小说（按 DLsite 作品形式 ADV 归类，复核放回时补的条目，玩法未逐一核对）",
-    "genres": [
-      "240",
-      "001",
-      "005",
-      "007",
-      "022",
-      "175"
-    ]
-  },
-  {
     "id": "RJ227099",
     "cat": "adv",
     "src": "dlsite",
@@ -8358,42 +8327,6 @@
       "votes": 1
     },
     "note": "与狼族女孩们交流的英文原创视觉小说"
-  },
-  {
-    "id": "steam-844930",
-    "cat": "adv",
-    "pov": "male",
-    "src": "steam",
-    "state": "released",
-    "title": "Fox Hime Zero",
-    "names": {
-      "ja": "Fox Hime Zero",
-      "zh": "狐姬零",
-      "en": "Fox Hime Zero"
-    },
-    "mt": [
-      "zh"
-    ],
-    "circle": "AsicxArt",
-    "date": "2018-05-23",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "steam": {
-      "positive": 97,
-      "reviews": 5639
-    },
-    "vndb": {
-      "id": "v23060",
-      "rating": 63.8,
-      "votes": 452
-    },
-    "bgm": {
-      "id": 247785,
-      "score": 6.1,
-      "votes": 393
-    },
-    "note": "与狐妖女孩们交流的视觉小说"
   },
   {
     "id": "steam-852480",

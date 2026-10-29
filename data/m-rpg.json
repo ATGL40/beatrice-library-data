@@ -4159,40 +4159,6 @@
     ]
   },
   {
-    "id": "RJ180292",
-    "cat": "m-rpg",
-    "pov": "both",
-    "src": "dlsite",
-    "state": "released",
-    "title": "クトゥルフ神話RPG 血塗られた天女伝説",
-    "names": {
-      "ja": "クトゥルフ神話RPG 血塗られた天女伝説",
-      "zh": "克苏鲁神话RPG 染血的天女传说",
-      "en": "Cthulhu Mythos RPG: The Blood-Stained Celestial Maiden Legend"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "AlchemyBlue",
-    "date": "2017-04-27",
-    "rate": 4.63,
-    "dl": 6920,
-    "rc": 3010,
-    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ180292.html",
-    "note": "复古风克苏鲁恐怖 RPG 系列第二作，寻找失踪的妹妹",
-    "genres": [
-      "502",
-      "432",
-      "296",
-      "431",
-      "212",
-      "026",
-      "019",
-      "205"
-    ]
-  },
-  {
     "id": "RJ181931",
     "cat": "m-rpg",
     "pov": "male",
@@ -5365,32 +5331,6 @@
       "115",
       "156",
       "179"
-    ]
-  },
-  {
-    "id": "RJ222174",
-    "cat": "m-rpg",
-    "pov": "male",
-    "src": "dlsite",
-    "state": "released",
-    "title": "マッドプリンセス-華麗なる闘士たち-",
-    "names": {
-      "ja": "マッドプリンセス-華麗なる闘士たち-",
-      "zh": "狂乱公主-华丽的斗士们",
-      "en": "Mad Princess: The Great Gladiators"
-    },
-    "mt": [],
-    "circle": "あとらそふと",
-    "date": "2018-04-29",
-    "rate": 4.62,
-    "dl": 14279,
-    "rc": 5334,
-    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ222174.html",
-    "note": "作为剑奴在斗技场求生的自由剧本斗士养成 RPG",
-    "genres": [
-      "431",
-      "233",
-      "016"
     ]
   },
   {
