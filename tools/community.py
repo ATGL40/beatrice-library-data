@@ -14,12 +14,18 @@ r"""社区评分、神作复议和黑榜：把大家提交的星级、投票和�
      "ratings": {"RJ01004084": 5, "vndb-v12345": 3},
      "votes": {"RJ201109": {"vote": "support"},
                "vndb-v20802": {"vote": "oppose", "reason": "至少 20 个字的理由……"}},
-     "blacklist": {"RJ123456": {"reason": "可以不写的理由"}, "RJ234567": {}}}
+     "blacklist": {"RJ123456": {"reason": "可以不写的理由"}, "RJ234567": {}},
+     "recognition": [{"folder": "汉化\\某游戏 v1.2", "exes": ["Game.exe"], "titles": ["某ゲーム"], "names": ["某游戏 v1.2", "Game"],
+                      "rjs": ["RJ123456"], "matched": "RJ123456", "rule": "folder", "reason": "", "correct": "RJ234567", "date": "2026-10-29"}]}
 
 ratings 是作品 id → 1–5 的整数星级。votes 可以没有：作品 id → {"vote": "support" 或 "oppose", "reason": 理由}；
 哪种票必须写理由、至少几个字，看配方 data/scoring.json 的 canon.reasonRequired（oppose / all / none）和 reasonMinChars。
 blacklist 可以没有：作品 id → {"reason": 理由（可以没有）}，提交人的黑榜（version 还是 1；旧版软件的提交没有这个字段）。
-没有名字、评论、状态，别的字段也不看。只有投票或只有黑榜、没有评分的提交也收。
+recognition 可以没有：识别报告（软件把游戏文件夹认错、猜错时用户记下的），每条只认这些字段：folder 文件夹（相对游戏文件夹的路径，
+不能是带盘符、网络路径的完整路径）、exes 启动程序文件名、titles 引擎标题、names 名字候选、rjs 编号（都是文字列表，各最多 20 个）、
+matched 软件认成 / 猜成的作品 id、rule 凭什么（rj / title / folder / manual / guess / unknown）、reason「可能是」的原因、
+correct 用户选的正确作品 id、date 日期；别的字段不看，每份最多 100 条。识别报告不进数据、不发布，只写进本地报告给维护者改识别规则。
+没有名字、评论、状态，别的字段也不看。只有投票、只有黑榜或只有识别报告、没有评分的提交也收。
 也收软件普通导出的评分文件（kind 是 beatrice-marks，或改名前的 galshelf-marks；.json 或 .html），只用里面 1–5 的 score，没有投票。
 
 投票人：一个投票人一份，新的整份顶掉旧的，所以每人每部作品只有一条有效意见（评分同样只算一次）。
@@ -47,6 +53,7 @@ blacklist 可以没有：作品 id → {"reason": 理由（可以没有）}，�
   标注变化后 canon.cooldownDays 天内不再变（没人拉黑了的除外，马上去掉标注）。配方没有 blacklist 就只公布人数、不标注。
   黑榜不改分数、档和神作资格。
 - 理由不发布：全部理由（作品、票或黑榜、日期、投票人、渠道）只写进本地报告 --reasons，不进仓库、不进数据包。
+  识别报告也一样，只写进同一份本地报告的「识别报告」一节。
   GitHub issue 本身是公开的，想不公开理由只能用邮件。
 原始提交不进仓库（submissions/ 在 .gitignore 里）。
 """
@@ -65,6 +72,9 @@ from build_pack import CATS, DATA, ROOT, build_catalog, is_int, load
 from scoring import score
 
 SUB_KIND = "beatrice-ratings-submission"
+RECOG_RULES = ("rj", "title", "folder", "manual", "guess", "unknown")
+RECOG_MAX, RECOG_TEXT, RECOG_ITEMS = 100, 200, 20
+FULL_PATH_RE = re.compile(r"(^|[^A-Za-z0-9])[A-Za-z]:[\\/]|^[\\/]|\\\\")
 MARK_KINDS = ("beatrice-marks", "galshelf-marks")
 MAX_RATINGS = 2000
 SPAM_MIN, SPAM_SHARE = 30, 0.95
@@ -171,6 +181,32 @@ def extract(obj, ids, rules):
     return ratings, votes, black, unknown, bad, vote_drops
 
 
+def extract_recognition(obj, ids):
+    """识别报告：返回 (报告列表, 丢掉的说明)。只留白名单字段；文件夹是完整路径的、不是对象的整条丢掉"""
+    raw = obj.get("recognition", []) if isinstance(obj, dict) and obj.get("kind") == SUB_KIND else []
+    if not isinstance(raw, list):
+        raise ValueError("recognition 不是列表")
+    out, drops = [], []
+    text = lambda v: " ".join(v.split())[:RECOG_TEXT] if isinstance(v, str) else ""  # noqa: E731
+    items = lambda v: [t for t in (text(x) for x in v[:RECOG_ITEMS]) if t] if isinstance(v, list) else []  # noqa: E731
+    for i, r in enumerate(raw[:RECOG_MAX]):
+        folder = text(r.get("folder")) if isinstance(r, dict) else ""
+        why = "不是对象" if not isinstance(r, dict) else "没有 folder" if not folder else "folder 像是完整路径" if FULL_PATH_RE.search(folder) else None
+        if why:
+            drops.append(f"识别报告第 {i + 1} 条：{why}")
+            continue
+        rep = {"folder": folder, "exes": items(r.get("exes")), "titles": items(r.get("titles")), "names": items(r.get("names")),
+               "rjs": items(r.get("rjs")), "rule": r.get("rule") if r.get("rule") in RECOG_RULES else "unknown",
+               "reason": text(r.get("reason")), "date": r.get("date") if isinstance(r.get("date"), str) and re.fullmatch(r"\d{4}-\d{2}-\d{2}", r["date"]) else ""}
+        for k in ("matched", "correct"):
+            if isinstance(r.get(k), str) and r[k] in ids:
+                rep[k] = r[k]
+        out.append(rep)
+    if len(raw) > RECOG_MAX:
+        drops.append(f"识别报告超过 {RECOG_MAX} 条，后面的 {len(raw) - RECOG_MAX} 条不看")
+    return out, drops
+
+
 def spam_reason(ratings, black=()):
     if len(black) > MAX_RATINGS:
         return f"黑榜 {len(black)} 部，超过 {MAX_RATINGS} 部"
@@ -256,12 +292,14 @@ def aggregate(sources, ids, voters, rules):
         try:
             if s.error:
                 raise ValueError(s.error)
-            ratings, votes, black, unknown, bad, vote_drops = extract(parse_text(s.text), ids, rules)
+            obj = parse_text(s.text)
+            ratings, votes, black, unknown, bad, vote_drops = extract(obj, ids, rules)
+            recog, recog_drops = extract_recognition(obj, ids)
             reason = spam_reason(ratings, black)
             if reason:
                 raise ValueError(f"像刷分：{reason}")
-            if not ratings and not votes and not black:
-                raise ValueError("没有对得上作品的 1–5 星评分，也没有合格的投票和黑榜")
+            if not ratings and not votes and not black and not recog:
+                raise ValueError("没有对得上作品的 1–5 星评分，也没有合格的投票、黑榜和识别报告")
         except ValueError as e:
             dropped.append((s.label, str(e)))
             continue
@@ -270,6 +308,8 @@ def aggregate(sources, ids, voters, rules):
             notes.append(f"{s.label}：丢掉 {unknown} 条资料里没有的作品、{bad} 条不合格的分数")
         for why in vote_drops:
             notes.append(f"{s.label}：丢掉投票 {why}")
+        for why in recog_drops:
+            notes.append(f"{s.label}：丢掉{why}")
         for wid, v in ratings.items():
             t = totals.setdefault(wid, [0, 0])
             t[0] += v
@@ -285,6 +325,8 @@ def aggregate(sources, ids, voters, rules):
                 reasons.append((wid, "black", day, who, s.channel, why))
         for wid in set(ratings) | set(votes) | set(black):
             people[wid].add(who)
+        for rep in recog:  # 识别报告：和理由一起只进本地报告
+            reasons.append((rep.get("matched", ""), "recog", day, who, s.channel, rep))
     community = {wid: {"avg": float((Decimal(s) / Decimal(n)).quantize(Decimal("0.01"), ROUND_HALF_UP)), "count": n}
                  for wid, (s, n) in totals.items()}
     black_tally = {wid: (len(ws), len(people[wid])) for wid, ws in blackers.items()}  # 作品 → (拉黑人数, 参与人数)
@@ -408,8 +450,9 @@ def write_reasons(path, reasons, godvote, titles, date, blacklist=None):
     lines = ["# 神作复议理由（本地，不发布）", "",
              f"由 tools/community.py 在 {datetime.datetime.now():%Y-%m-%d %H:%M} 生成（结算日期 {date}），每次结算整份重写。"
              "这里的理由不进仓库、不进数据包；但走 GitHub 的那些本来就公开在 issue 里。", ""]
-    votes = [r for r in reasons if r[1] != "black"]
+    votes = [r for r in reasons if r[1] not in ("black", "recog")]
     blacks = [r for r in reasons if r[1] == "black"]
+    recogs = [r for r in reasons if r[1] == "recog"]
     if not votes:
         lines.append("（现在没有写了理由的投票）")
     by_work = collections.defaultdict(list)
@@ -433,6 +476,23 @@ def write_reasons(path, reasons, godvote, titles, date, blacklist=None):
                   + ("，标注多人拉黑" if b.get("flagged") else ""), ""]
         for _, _, day, who, channel, why in sorted(by_work[wid], key=lambda r: (r[2], r[3])):
             lines.append(f"- {day} · {who} · {channel}：{' '.join(why.split())}")
+        lines.append("")
+    lines += ["", "# 识别报告（本地，不发布）", "",
+              "软件把游戏文件夹认错、猜错时用户记下的，给改识别规则用。按软件当时认成 / 猜成的作品分组。", ""]
+    if not recogs:
+        lines.append("（现在没有识别报告）")
+    by_work = collections.defaultdict(list)
+    for r in recogs:
+        by_work[r[0]].append(r)
+    show = lambda xs: "、".join(f"`{x}`" for x in xs) or "（无）"  # noqa: E731
+    for wid in sorted(by_work):
+        lines += [f"## 认成 {titles.get(wid, wid)}（{wid}）" if wid else "## 没认出", ""]
+        for _, _, day, who, channel, rep in sorted(by_work[wid], key=lambda r: (r[2], r[3], r[5]["folder"])):
+            right = f"，应该是 {titles.get(rep['correct'], rep['correct'])}（{rep['correct']}）" if rep.get("correct") else "，用户不知道是哪部"
+            lines.append(f"- {day} · {who} · {channel}：文件夹 `{rep['folder']}` · 凭 {rep['rule']}"
+                         + (f"（{rep['reason']}）" if rep["reason"] else "") + right)
+            lines.append(f"  - 启动程序 {show(rep['exes'])} · 标题 {show(rep['titles'])} · 名字候选 {show(rep['names'])}"
+                         + (f" · 编号 {show(rep['rjs'])}" if rep["rjs"] else ""))
         lines.append("")
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("\n".join(lines).rstrip("\n") + "\n", encoding="utf-8")
@@ -493,7 +553,8 @@ def main():
           + (f"（≥ {bl_rule['minVoters']} 人且占参与的人 ≥ {bl_rule['minShare']:.0%}）" if bl_rule else "（配方没有 blacklist，不标注）"))
     for m in black_moves:
         print(f"  {m}")
-    print(f"理由 {len(reasons)} 条" + ("（只是预览，没有写报告）" if args.dry_run else f"，写进本地报告 {reasons_path}"))
+    n_recog = sum(1 for r in reasons if r[1] == "recog")
+    print(f"理由 {len(reasons) - n_recog} 条、识别报告 {n_recog} 条" + ("（只是预览，没有写报告）" if args.dry_run else f"，写进本地报告 {reasons_path}"))
     if canon_changed:
         print("data/canon.json：" + ("会改（预览）" if args.dry_run else "已改"))
     if changes:

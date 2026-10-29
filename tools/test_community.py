@@ -9,19 +9,21 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from build_pack import build_catalog  # noqa: E402
 from check_pack import blacklist_problem, scoring_problems  # noqa: E402
-from community import Source, aggregate, extract, place, settle_blacklist, spam_reason  # noqa: E402
+from community import Source, aggregate, extract, extract_recognition, place, settle_blacklist, spam_reason, write_reasons  # noqa: E402
 
 RULES = {"reasonRequired": "oppose", "reasonMinChars": 20}
 IDS = {"RJ1", "RJ2", "RJ3"}
 DAY = datetime.date(2026, 11, 1)
 
 
-def sub(ratings=None, votes=None, blacklist=None, kind="beatrice-ratings-submission"):
+def sub(ratings=None, votes=None, blacklist=None, kind="beatrice-ratings-submission", recognition=None):
     obj = {"kind": kind, "version": 1, "app": "x", "catalog": "2026-10-29", "ratings": ratings or {}}
     if votes is not None:
         obj["votes"] = votes
     if blacklist is not None:
         obj["blacklist"] = blacklist
+    if recognition is not None:
+        obj["recognition"] = recognition
     return obj
 
 
@@ -85,6 +87,39 @@ class Aggregate(unittest.TestCase):
     def test_empty_submission_dropped(self):
         *_, dropped, _, _ = aggregate([src("a", 1, sub(blacklist={"RJ9": {}}))], IDS, {}, RULES)
         self.assertEqual(len(dropped), 1)
+
+
+class Recognition(unittest.TestCase):
+    REP = {"folder": "汉化\\Velmorin v1.2", "exes": ["Game.exe", 3], "titles": ["Velmorin"], "names": ["Velmorin v1.2"], "rjs": [],
+           "matched": "RJ1", "rule": "folder", "reason": "", "correct": "RJ2", "date": "2026-10-29", "path": "C:\\x", "user": "alice"}
+
+    def test_whitelist_and_paths(self):
+        bad = [{"folder": "C:\\Users\\alice\\Games\\x"}, {"folder": "\\\\nas\\share"}, {"folder": "/home/a"}, "坏", {"exes": []}]
+        reps, drops = extract_recognition(sub(recognition=[self.REP, {**self.REP, "matched": "RJ9", "rule": "?", "date": "x"}] + bad), IDS)
+        self.assertEqual(reps[0], {"folder": "汉化\\Velmorin v1.2", "exes": ["Game.exe"], "titles": ["Velmorin"], "names": ["Velmorin v1.2"],
+                                   "rjs": [], "rule": "folder", "reason": "", "date": "2026-10-29", "matched": "RJ1", "correct": "RJ2"})
+        self.assertNotIn("matched", reps[1])  # 资料里没有的作品 id 不留
+        self.assertEqual((reps[1]["rule"], reps[1]["date"]), ("unknown", ""))
+        self.assertEqual(len(reps), 2)
+        self.assertEqual(len(drops), 5)
+        self.assertEqual(extract_recognition({"kind": "beatrice-marks", "recognition": [self.REP]}, IDS), ([], []))
+        with self.assertRaises(ValueError):
+            extract_recognition(sub(recognition={"folder": "x"}), IDS)
+
+    def test_only_reports_accepted_and_written_locally(self):
+        community, tally, black, reasons, used, dropped, notes, replaced = aggregate(
+            [src("a", 1, sub(recognition=[self.REP]))], IDS, {}, RULES)
+        self.assertEqual((dropped, community), ([], {}))
+        self.assertEqual([r[1] for r in reasons], ["recog"])
+        out = Path(__file__).resolve().parent.parent / "submissions" / "_test_reasons.md"
+        try:
+            write_reasons(out, reasons, {}, {"RJ1": "维尔莫林", "RJ2": "另一部"}, DAY)
+            text = out.read_text(encoding="utf-8")
+        finally:
+            out.unlink(missing_ok=True)
+        self.assertIn("# 识别报告（本地，不发布）", text)
+        self.assertIn("## 认成 维尔莫林（RJ1）", text)
+        self.assertIn("文件夹 `汉化\\Velmorin v1.2` · 凭 folder，应该是 另一部（RJ2）", text)
 
 
 class Settle(unittest.TestCase):
