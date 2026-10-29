@@ -88,8 +88,25 @@ def counted(g, sc):
             if s in pr["anchors"] and (s not in pr["appliesTo"] or g.get("src") in pr["appliesTo"][s])]
 
 
+def anchor(sc, s, src):
+    """社区 s 对来源 src 的作品用的锚点：anchorsBySource[s][src] 写了就用它（Bangumi 按来源分开校准），不然用 anchors[s]"""
+    pr = sc["praise"]
+    return (pr.get("anchorsBySource") or {}).get(s, {}).get(src) or pr["anchors"][s]
+
+
+def top_line(sc, s, src):
+    """社区 s 对来源 src 的作品的口★线 (评分线, 人数线)：gates.praiseTopBySource[s] 写了这个来源就用它，不然用 gates.praiseTop；
+    都没有返回 None"""
+    gt = sc["gates"]
+    by = (gt.get("praiseTopBySource") or {}).get(s, {})
+    if src in by.get("rating", {}) and src in by.get("raters", {}):
+        return by["rating"][src], by["raters"][src]
+    top = gt["praiseTop"]
+    return (top["rating"][s], top["raters"][s]) if s in top["rating"] and s in top["raters"] else None
+
+
 def praise(g, sc, hits=0):
-    """口碑 P = 50 + Σe(R − 50) ÷ (1 + Σe)。每个社区（counted 认的）：评分按锚点换成 R（截到 clamp），证据量 e = 人数 ÷ k
+    """口碑 P = 50 + Σe(R − 50) ÷ (1 + Σe)。每个社区（counted 认的）：评分按锚点（anchor：可以按作品来源分开）换成 R（截到 clamp），证据量 e = 人数 ÷ k
     （R > 50 用 kUp、不然用 k：样本少只许虚高不许虚低）；人数不到 minN 的社区不算；民间榜单每上一次是一份 R = lists.R 的证据。
     返回 {P, E, per: [(来源, x, n, R, e)]}；没有一个社区够人数（评价不足）返回 None"""
     pr = sc["praise"]
@@ -98,7 +115,7 @@ def praise(g, sc, hits=0):
     for s, x, n in counted(g, sc):
         if n < pr["minN"][s]:
             continue
-        lo, hi = pr["anchors"][s]
+        lo, hi = anchor(sc, s, g.get("src"))
         R = min(hi_c, max(lo_c, (x - lo) / (hi - lo) * 100))
         per.append((s, x, n, R, n / (pr["kUp"][s] if R > 50 else pr["k"][s])))
     if not per:
@@ -205,7 +222,6 @@ def score(catalog):
     listed = listed_ids(catalog)
     games = {g["id"]: g for g in catalog["games"]}
     nm, gt = sc["nominee"], sc["gates"]
-    top = gt["praiseTop"]
     rows = composite(catalog)
     bench = rows.get(nm["benchmark"])
     for u, r in rows.items():
@@ -213,8 +229,8 @@ def score(catalog):
         cm = g.get("community") if isinstance(g.get("community"), dict) else {}
         strong = [s for s, x, n, R, e in r["per"] if R >= nm["second"]["R"] and e >= nm["second"]["e"]]
         dims = {
-            "praiseTop": any(s in nm["praiseSources"] and s in top["rating"] and s in top["raters"]
-                             and x >= top["rating"][s] and n >= top["raters"][s] for s, x, n, R, e in r["per"]),
+            "praiseTop": any(s in nm["praiseSources"] and (line := top_line(sc, s, g["src"])) is not None
+                             and x >= line[0] and n >= line[1] for s, x, n, R, e in r["per"]),
             "lists": u in listed,
             "community": (num(cm.get("avg")) or 0) >= gt["community"]["minAvg"]
                          and (num(cm.get("count")) or 0) >= gt["community"]["minCount"],

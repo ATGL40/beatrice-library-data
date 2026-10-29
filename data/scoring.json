@@ -6,6 +6,7 @@
     "kUp": {"dlsite": 50, "commercial": 10, "steam": 10000, "vndb": 10, "bgm": 10, "community": 10},
     "minN": {"dlsite": 20, "commercial": 10, "steam": 30, "vndb": 10, "bgm": 10, "community": 5},
     "anchors": {"dlsite": [4.15, 4.90], "commercial": [70, 90], "steam": [79, 101], "vndb": [60.45, 89.75], "bgm": [3.77, 8.43], "community": [3, 5]},
+    "anchorsBySource": {"bgm": {"dlsite": [3.67, 8.33], "commercial": [4.87, 8.73], "steam": [2.91, 9.39]}},
     "appliesTo": {"vndb": ["commercial"], "steam": []},
     "clamp": [0, 100],
     "lists": {"R": 90, "e": 1, "max": 2}
@@ -15,14 +16,14 @@
     "weight": 0.15,
     "window": 1,
     "minGroup": 10,
-    "scale": {"dlsite": 0.440256, "commercial": 0.444702, "steam": 0.617585},
+    "scale": {"dlsite": 0.434227, "commercial": 0.444702, "steam": 0.617585},
     "missing": 0,
     "age": {"min": 0.25, "max": 1, "exp": 0.5}
   },
   "players": {"neutral": 3, "prior": 3, "cap": 10},
   "curve": {
     "on": "composite",
-    "points": [[10.320602, 40], [38.620195, 60], [53.580281, 70], [66.590943, 80], [77.764514, 90], [88.193499, 95], [90.977808, 97], [96.165733, 99]]
+    "points": [[10.296389, 40], [37.959266, 60], [51.881321, 70], [65.792028, 80], [77.701895, 90], [86.82293, 95], [89.931659, 97], [95.795851, 99]]
   },
   "bands": [["神作", 96], ["神作提名", 95], ["超大杯", 85], ["大杯", 70], ["中杯", 0]],
   "cap": {"max": 94},
@@ -40,6 +41,7 @@
       "rating": {"dlsite": 4.84, "commercial": 92, "vndb": 90.7, "bgm": 9.0},
       "raters": {"dlsite": 10683, "commercial": 876, "vndb": 1054, "bgm": 218}
     },
+    "praiseTopBySource": {"bgm": {"rating": {"dlsite": 9.0, "commercial": 9.3, "steam": 8.7}, "raters": {"dlsite": 71, "commercial": 2081, "steam": 66}}},
     "community": {"minAvg": 4.5, "minCount": 20}
   },
   "canon": {

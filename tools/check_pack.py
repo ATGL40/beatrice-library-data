@@ -177,7 +177,9 @@ def scoring_problems(sc, ids=None):
     srcs = list(anchors) if isinstance(anchors, dict) else []  # 口碑认的社区：anchors 里写了的
     lists = pr.get("lists") if isinstance(pr, dict) else None
     applies = pr.get("appliesTo") if isinstance(pr, dict) else None
-    need(obj(pr, ("k", "kUp", "minN", "anchors", "appliesTo", "clamp", "lists")) and set(SCORED) <= set(srcs) <= set(RATING_SRCS)
+    by_src = pr.get("anchorsBySource", {}) if isinstance(pr, dict) else {}  # 可以没有
+    need(isinstance(pr, dict) and obj({k: v for k, v in pr.items() if k != "anchorsBySource"},
+                                      ("k", "kUp", "minN", "anchors", "appliesTo", "clamp", "lists")) and set(SCORED) <= set(srcs) <= set(RATING_SRCS)
          and isinstance(applies, dict) and set(applies) <= set(srcs)
          and all(isinstance(v, list) and len(set(v)) == len(v) and set(v) <= set(SCORED) for v in applies.values())
          and table(anchors, srcs, span) and table(pr["k"], srcs, lambda v: is_num(v) and v > 0)
@@ -188,6 +190,10 @@ def scoring_problems(sc, ids=None):
          "appliesTo: {社区: [只对这些来源的作品算…]}（没写的社区对所有作品都算，空数组是不参与打分）, clamp: [低, 高], "
          f"lists: {{R: 数, e: ≥0, max: 非负整数}}}}，四张表的社区一样，至少有 {' / '.join(SCORED)}，"
          f"只认 {' / '.join(RATING_SRCS)}")
+    need(isinstance(by_src, dict) and set(by_src) <= set(srcs)
+         and all(isinstance(v, dict) and set(v) <= set(SCORED) and all(map(span, v.values())) for v in by_src.values()),
+         "的 praise.anchorsBySource（可以没有）要是 {社区: {来源: [低, 高]}}，社区要在 anchors 里，来源是 "
+         f"{' / '.join(SCORED)}（没写的来源用 anchors[社区]）")
     h = sc.get("heat")
     age = h.get("age") if isinstance(h, dict) else None
     need(obj(h, ("method", "weight", "window", "minGroup", "scale", "missing", "age")) and h["method"] == "era-median"
@@ -231,8 +237,16 @@ def scoring_problems(sc, ids=None):
             "second: {R: 数, e: ≥0}, benchmark: 基准作品 id, benchmarkPct: 0–1}"):
         need(ids is None or nm["benchmark"] in ids, f"的 nominee.benchmark（{nm['benchmark']}）不在作品资料里")
     gt = sc.get("gates")
-    if need(obj(gt, ("praiseTop", "community")), "的 gates 要是 {praiseTop, community}"):
-        top = gt["praiseTop"]
+    if need(isinstance(gt, dict) and obj({k: v for k, v in gt.items() if k != "praiseTopBySource"}, ("praiseTop", "community")),
+            "的 gates 要是 {praiseTop, community, praiseTopBySource（可以没有）}"):
+        top, tb = gt["praiseTop"], gt.get("praiseTopBySource", {})
+        need(isinstance(tb, dict) and set(tb) <= set(RATING_SRCS)
+             and all(obj(v, ("rating", "raters")) and isinstance(v["rating"], dict) and isinstance(v["raters"], dict)
+                     and set(v["rating"]) == set(v["raters"]) and set(v["rating"]) <= set(SCORED)
+                     and all(is_num(x) for x in v["rating"].values()) and all(is_int(n) and n >= 1 for n in v["raters"].values())
+                     for v in tb.values()),
+             "的 gates.praiseTopBySource（可以没有）要是 {社区: {rating: {来源: 数}, raters: {来源: 正整数}}}，两张表的来源一样，"
+             f"来源是 {' / '.join(SCORED)}（没写的来源用 gates.praiseTop）")
         need(obj(top, ("rating", "raters")) and isinstance(top["rating"], dict) and isinstance(top["raters"], dict)
              and set(top["rating"]) == set(top["raters"]) and set(top["rating"]) <= set(RATING_SRCS)
              and all(is_num(v) for v in top["rating"].values()) and all(is_int(n) and n >= 1 for n in top["raters"].values()),
