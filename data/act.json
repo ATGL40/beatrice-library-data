@@ -2915,32 +2915,6 @@
     ]
   },
   {
-    "id": "RJ172028",
-    "cat": "act",
-    "src": "dlsite",
-    "state": "released",
-    "title": "BLUE GUARDIAN: Margaret",
-    "names": {
-      "ja": "BLUE GUARDIAN: Margaret",
-      "zh": "蓝色守护者：玛格丽特",
-      "en": "BLUE GUARDIAN: Margaret"
-    },
-    "mt": [
-      "zh"
-    ],
-    "circle": "FoxEye",
-    "date": "2016-02-27",
-    "rate": 4.5,
-    "dl": 2844,
-    "rc": 1336,
-    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ172028.html",
-    "note": "圣职者玛格丽特在水中探索的 2D 动作游戏",
-    "genres": [
-      "179",
-      "313"
-    ]
-  },
-  {
     "id": "RJ173699",
     "cat": "act",
     "src": "dlsite",

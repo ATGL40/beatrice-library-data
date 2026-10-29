@@ -9595,42 +9595,6 @@
     "note": "卡牌构筑 Roguelike 策略游戏，深入地下城唤醒大魔王"
   },
   {
-    "id": "steam-849740",
-    "cat": "slg",
-    "pov": "male",
-    "src": "steam",
-    "state": "released",
-    "title": "Love Esquire - RPG/Dating Sim/Visual Novel",
-    "names": {
-      "ja": "Love Esquire - RPG/Dating Sim/Visual Novel",
-      "zh": "爱情侍从",
-      "en": "Love Esquire"
-    },
-    "mt": [
-      "zh"
-    ],
-    "circle": "Yangyang Mobile",
-    "date": "2019-10-08",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "steam": {
-      "positive": 89,
-      "reviews": 997
-    },
-    "vndb": {
-      "id": "v24315",
-      "rating": 72.7,
-      "votes": 310
-    },
-    "bgm": {
-      "id": 334035,
-      "score": 5.8,
-      "votes": 12
-    },
-    "note": "扮演见习侍从、在有限时间内追求心上人的 RPG 加恋爱模拟游戏"
-  },
-  {
     "id": "vndb-v18683",
     "cat": "slg",
     "pov": "both",
