@@ -7175,6 +7175,29 @@
     ]
   },
   {
+    "id": "RJ370402",
+    "cat": "adv",
+    "state": "released",
+    "title": "なつのさがしもの",
+    "names": {
+      "ja": "なつのさがしもの",
+      "zh": "夏日寻物",
+      "en": "Summer Searching"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ぺこげーすたじお",
+    "date": "2023-10-01",
+    "rate": 4.67,
+    "dl": 35257,
+    "rc": 9540,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ370402.html",
+    "note": "点阵画面全动态的夏日假期 ADV",
+    "src": "dlsite"
+  },
+  {
     "id": "RJ373560",
     "cat": "adv",
     "pov": "male",
