@@ -20,6 +20,7 @@ MAX_TOTAL = 1 << 30
 CATS = {"f-rpg", "m-rpg", "adv", "slg", "act", "other"}
 SRCS = {"dlsite", "fanza", "commercial", "steam", "cien", "fanbox"}
 SIGNALS = {"egs": "commercial", "steam": "steam", "followers": "cien"}  # 分数信号字段 → 写它的来源
+POVS = ("female", "male", "both", "multi", "none")  # 主角视角：女主 / 男主 / 男女双视角 / 多视角 / 无固定主角
 LANGS = ("ja", "zh", "en")
 EXTS = {"jpg", "jpeg", "png", "webp"}
 NAME_OK = re.compile(r"[A-Za-z0-9._-]+")
@@ -70,6 +71,13 @@ def signal_problem(g):
             return "的 steam 要是 {\"positive\": 0–100 的整数, \"reviews\": 正整数}"
         if key == "followers" and not (is_int(v) and v >= 0):
             return "的 followers 要是非负整数"
+    return None
+
+
+def pov_problem(g):
+    """pov（主角视角）：可以不写（不知道）；有就要是 POVS 之一，返回问题说明或 None"""
+    if "pov" in g and g["pov"] not in POVS:
+        return f"的 pov 是 {g['pov']!r}，要是 {' / '.join(POVS)} 之一（不知道就不写）"
     return None
 
 
@@ -332,7 +340,7 @@ def check(path, min_updated, min_revision=0):
     for gid, names in genres.items():
         if not (gid.isdigit() and isinstance(names, dict) and all(isinstance(names.get(k), str) and names[k] for k in LANGS)):
             problems.append(f"题材 {gid!r} 格式不对：要有 {', '.join(LANGS)} 三个名称")
-    tagged, signals = 0, {}
+    tagged, signals, povs = 0, {}, {}
     for g in games:
         if not isinstance(g, dict) or not g.get("id"):
             continue
@@ -358,9 +366,12 @@ def check(path, min_updated, min_revision=0):
                 problems.append(f"{g.get('id')} 的 genres 要是字符串数组，每个 id 都要在 genres 字典里")
             else:
                 tagged += 1
-        for problem in (signal_problem(g), community_problem(g), godvote_problem(g), raw_problem(g) if src == "dlsite" else None):
+        for problem in (signal_problem(g), pov_problem(g), community_problem(g), godvote_problem(g),
+                        raw_problem(g) if src == "dlsite" else None):
             if problem:
                 problems.append(f"{g.get('id')} {problem}")
+        if g.get("pov") in POVS:
+            povs[g["pov"]] = povs.get(g["pov"], 0) + 1
         for key in list(SIGNALS) + ["community", "godvote"]:
             if g.get(key) is not None:
                 signals[key] = signals.get(key, 0) + 1
@@ -411,7 +422,8 @@ def check(path, min_updated, min_revision=0):
     notes.insert(2, f"题材标签 {len(genres)} 个，带题材的作品 {tagged} 部（DLsite 作品 {srcs.get('dlsite', 0)} 部）")
     notes.insert(3, "分数信号：" + "，".join(f"{key} {signals.get(key, 0)} 部（{src} 作品 {srcs.get(src, 0)} 部）"
                                           for key, src in SIGNALS.items()))
-    notes.insert(4, f"社区评分 community {signals.get('community', 0)} 部，神作复议票 godvote {signals.get('godvote', 0)} 部")
+    notes.insert(4, f"社区评分 community {signals.get('community', 0)} 部，神作复议票 godvote {signals.get('godvote', 0)} 部；"
+                    f"主角视角 pov {sum(povs.values())} 部（{'，'.join(f'{k} {povs.get(k, 0)}' for k in POVS)}）")
     recipe = f"{scoring.get('name')} version {scoring.get('version')}" if isinstance(scoring, dict) else "没有（用软件自带的）"
     notes.insert(5, f"综合榜配方：{recipe}；神作名单 {len(canon) if isinstance(canon, dict) else 0} 部")
     undated = 0
