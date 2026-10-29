@@ -4,14 +4,19 @@ r"""把 data/ 拼成 catalog.json，打成数据包。
     py tools/build_pack.py --covers 封面文件夹      # 含封面的完整包（只在本地用，不要上传）
     py tools/build_pack.py --out 输出文件夹         # 换输出位置（默认 dist/）
     py tools/build_pack.py --extra 文件.json        # 合并本地另加的条目（格式见 merge_extra），可以给多个 --extra
+    py tools/build_pack.py --covers 封面文件夹 --thumbs 缩略图文件夹   # 同时给封面做缩略图放进包（只在 Windows 上能用）
 
 封面文件夹里按「作品 id + .jpg/.jpeg/.png/.webp」找图，比如 RJ124341.jpg；找到的才写进包，并给作品写上 cover 字段。
+--thumbs：用 tools/make_thumbs.ps1 把这些封面做成 300×225 的缩略图（缓存在给的文件夹里，下次只做新的），
+放进包的 thumbs/<封面文件名去掉扩展名>.jpg，并给作品写上 thumb 字段；图鉴卡片和排行榜用它，详情页仍用原图。
 """
 import argparse
 import datetime
 import json
 import re
+import subprocess
 import sys
+import tempfile
 import zipfile
 from pathlib import Path
 
@@ -65,8 +70,8 @@ def build_catalog(extras=()):
             raise ValueError(f"id 重复：{gid}")
         if g.get("cat") not in CATS or (cat and g["cat"] != cat):
             raise ValueError(f"{gid} 的 cat 是 {g.get('cat')!r}，和 {where} 对不上")
-        if "cover" in g:
-            raise ValueError(f"{gid} 写了 cover：封面字段由打包脚本生成，{where} 里不要写")
+        if "cover" in g or "thumb" in g:
+            raise ValueError(f"{gid} 写了 cover / thumb：封面字段由打包脚本生成，{where} 里不要写")
         if "src" not in g:  # 旧格式 / 本地另加的条目：按 id 前缀补来源
             g["src"] = next((s for p, s in SRC_BY_PREFIX.items() if gid.startswith(p)), None)
         if g["src"] not in SRCS:
@@ -163,10 +168,35 @@ def find_covers(catalog, cover_dir):
     return files
 
 
+def make_thumbs(catalog, covers, thumb_dir):
+    """给包里的封面做缩略图（make_thumbs.ps1，只用 Windows 自带的 System.Drawing），返回 {包里的路径: 本地文件}"""
+    with tempfile.NamedTemporaryFile("w", encoding="utf-8", suffix=".txt", delete=False) as f:
+        f.write("\n".join(path.name for path in covers.values()))
+    try:
+        r = subprocess.run(["powershell", "-NoProfile", "-ExecutionPolicy", "Bypass", "-File", str(Path(__file__).with_name("make_thumbs.ps1")),
+                            "-Src", str(next(iter(covers.values())).parent), "-Dst", str(thumb_dir), "-Names", f.name],
+                           capture_output=True, text=True, encoding="utf-8", errors="replace")
+    finally:
+        Path(f.name).unlink()
+    print(r.stdout.strip())
+    if r.returncode:
+        raise ValueError(f"做缩略图失败：{r.stderr.strip()[-300:]}")
+    files = {}
+    for g in catalog["games"]:
+        if "cover" in g:
+            name = Path(g["cover"]).stem + ".jpg"
+            path = thumb_dir / name
+            if safe_name(name) and path.is_file():
+                g["thumb"] = f"thumbs/{name}"
+                files[g["thumb"]] = path
+    return files
+
+
 def main():
     ap = argparse.ArgumentParser(description="把 data/ 打成碧翠子禁书库数据包")
     ap.add_argument("--covers", type=Path, help="封面文件夹；不给就只打文字包")
     ap.add_argument("--extra", type=Path, action="append", default=[], help="合并本地另加的作品和榜单条目，可以给多个")
+    ap.add_argument("--thumbs", type=Path, help="缩略图文件夹（缓存）：给 --covers 的封面做缩略图一起打进包")
     ap.add_argument("--out", type=Path, default=ROOT / "dist", help="输出文件夹，默认 dist/")
     args = ap.parse_args()
     try:
@@ -176,6 +206,11 @@ def main():
             if not args.covers.is_dir():
                 raise ValueError(f"封面文件夹不存在：{args.covers}")
             covers = find_covers(catalog, args.covers)
+        thumbs = {}
+        if args.thumbs:
+            if not args.covers:
+                raise ValueError("--thumbs 要和 --covers 一起用")
+            thumbs = make_thumbs(catalog, covers, args.thumbs) if covers else {}
         updated = catalog["updated"]
         name = f"碧翠子禁书库数据包-{updated}{'-含封面' if args.covers else ''}.zip"
         args.out.mkdir(parents=True, exist_ok=True)
@@ -184,10 +219,10 @@ def main():
         text = json.dumps(catalog, ensure_ascii=False, indent=2) + "\n"
         with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as z:
             z.writestr(zipfile.ZipInfo("catalog.json", stamp), text.encode("utf-8"), zipfile.ZIP_DEFLATED)
-            for arc, path in sorted(covers.items()):
+            for arc, path in sorted({**covers, **thumbs}.items()):
                 z.write(path, arc)
         print(f"输出：{out}")
-        print(f"作品 {len(catalog['games'])} 部，榜单 {len(catalog.get('rankings', []))} 个，封面 {len(covers)} 张，"
+        print(f"作品 {len(catalog['games'])} 部，榜单 {len(catalog.get('rankings', []))} 个，封面 {len(covers)} 张，缩略图 {len(thumbs)} 张，"
               f"{out.stat().st_size / 1024 / 1024:.2f} MiB")
         return 0
     except (OSError, ValueError) as e:

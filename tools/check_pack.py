@@ -33,15 +33,15 @@ def safe_name(name):
 
 
 def entry_target(name):
-    """和软件一样：只认根目录的 catalog.json 和 covers/ 下一层的图片，别的返回 None（导入时跳过）"""
+    """和软件一样：只认根目录的 catalog.json 和 covers/、thumbs/（缩略图）下一层的图片，别的返回 None（导入时跳过）"""
     name = name.replace("\\", "/")
     if name == "catalog.json":
         return name
-    if not name.startswith("covers/"):
+    folder, _, file = name.partition("/")
+    if folder not in ("covers", "thumbs"):
         return None
-    file = name[len("covers/"):]
     ext = file.rsplit(".", 1)[-1].lower() if "." in file else ""
-    return f"covers/{file}" if safe_name(file) and ext in EXTS else None
+    return f"{folder}/{file}" if safe_name(file) and ext in EXTS else None
 
 
 def read_limited(z, info, limit):
@@ -307,15 +307,16 @@ def check(path, min_updated, min_revision=0):
         if not isinstance(gid, str) or not gid.strip():
             problems.append(f"games[{n}] 缺少 id")
             continue
-        cover = g.get("cover")
-        if cover is None or cover == "":
-            continue
-        if not isinstance(cover, str) or entry_target(cover) != cover or cover == "catalog.json":
-            problems.append(f"{gid} 的 cover 不合规：{cover!r}")
-        elif cover not in cover_files:
-            problems.append(f"{gid} 的封面 {cover} 不在包里")
-        else:
-            covers.add(cover)
+        for key, folder in (("cover", "covers/"), ("thumb", "thumbs/")):  # thumb 是卡片用的缩略图
+            cover = g.get(key)
+            if cover is None or cover == "":
+                continue
+            if not isinstance(cover, str) or entry_target(cover) != cover or not cover.startswith(folder):
+                problems.append(f"{gid} 的 {key} 不合规：{cover!r}")
+            elif cover not in cover_files:
+                problems.append(f"{gid} 的{'封面' if key == 'cover' else '缩略图'} {cover} 不在包里")
+            else:
+                covers.add(cover)
     version = cat.get("version")
     if not is_int(version) or version > CATALOG_VERSION:
         problems.append(f"version 是 {version!r}，软件只认到 {CATALOG_VERSION}")
@@ -417,7 +418,7 @@ def check(path, min_updated, min_revision=0):
         if isinstance(g, dict):
             srcs[g.get("src")] = srcs.get(g.get("src"), 0) + 1
     notes.insert(0, f"资料日期 {updated}（revision {revision}），作品 {len(games)} 部（{', '.join(f'{k} {v}' for k, v in sorted(srcs.items(), key=lambda kv: -kv[1]))}），"
-                    f"封面 {len(covers)} 张（包里图片 {len(cover_files)} 张）")
+                    f"封面 {sum(c.startswith('covers/') for c in covers)} 张、缩略图 {sum(c.startswith('thumbs/') for c in covers)} 张（包里图片 {len(cover_files)} 张）")
     notes.insert(1, f"榜单 {len(rankings)} 个、{rk_items} 条，带 rj 的 {rk_rj} 条，对得上作品的 {rk_hit} 条")
     notes.insert(2, f"题材标签 {len(genres)} 个，带题材的作品 {tagged} 部（DLsite 作品 {srcs.get('dlsite', 0)} 部）")
     notes.insert(3, "分数信号：" + "，".join(f"{key} {signals.get(key, 0)} 部（{src} 作品 {srcs.get(src, 0)} 部）"
