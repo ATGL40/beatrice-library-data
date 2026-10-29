@@ -2,39 +2,44 @@
   "name": "图鉴综合榜",
   "version": 2,
   "praise": {
-    "k": {"dlsite": 100, "commercial": 30, "steam": 200},
-    "anchors": {"dlsite": [4.15, 4.90], "commercial": [70, 89], "steam": [79, 101]}
+    "k": {"dlsite": 1000, "commercial": 50, "steam": 3000, "vndb": 50, "bgm": 50, "community": 20},
+    "kUp": {"dlsite": 50, "commercial": 10, "steam": 3000, "vndb": 10, "bgm": 10, "community": 10},
+    "minN": {"dlsite": 20, "commercial": 10, "steam": 30, "vndb": 10, "bgm": 10, "community": 5},
+    "anchors": {"dlsite": [4.15, 4.90], "commercial": [70, 90], "steam": [79, 101], "vndb": [60, 85], "bgm": [6.0, 8.5], "community": [3, 5]},
+    "clamp": [0, 100],
+    "lists": {"R": 90, "e": 1, "max": 2}
   },
   "heat": {
-    "method": "abs-log",
-    "weight": 0.25,
-    "anchors": {"dlsite": [3.55, 4.80], "commercial": [1.70, 3.30], "steam": [2.05, 4.10]},
+    "method": "era-median",
+    "weight": 0.15,
+    "window": 1,
+    "minGroup": 10,
+    "scale": {"dlsite": 0.440256, "commercial": 0.444702, "steam": 0.617585},
+    "missing": 0,
     "age": {"min": 0.25, "max": 1, "exp": 0.5}
   },
   "players": {"neutral": 3, "prior": 3, "cap": 10},
-  "community": {"minCount": 20, "prior": 20, "weight": 0.25},
   "curve": {
     "on": "composite",
-    "points": [[-41.648331, 40], [33.495033, 60], [50.227019, 70], [65.292801, 80], [78.436517, 90], [90.222694, 95], [93.144961, 97], [133.860303, 99]]
+    "points": [[10.164654, 40], [38.469627, 60], [51.392461, 70], [65.580906, 80], [77.754923, 90], [89.055112, 95], [92.680809, 97], [99.583041, 99]]
   },
-  "bands": [["神作", 96], ["神作提名", 95], ["杰作", 90], ["优秀", 80], ["良好", 70], ["一般", 60], ["平平", 0]],
+  "bands": [["神作", 96], ["神作提名", 95], ["超大杯", 85], ["大杯", 70], ["中杯", 0]],
   "cap": {"max": 94},
-  "nominee": {"score": 95, "minF0": 95, "praise": "praiseTop", "others": 1},
+  "nominee": {
+    "score": 95,
+    "minF0": 95,
+    "praiseSources": ["dlsite", "commercial", "vndb", "bgm", "community"],
+    "others": 1,
+    "second": {"R": 80, "e": 1},
+    "benchmark": "vndb-v20802",
+    "benchmarkPct": 0.90
+  },
   "gates": {
-    "praise": {
-      "rating": {"dlsite": 4.75, "commercial": 85, "steam": 94},
-      "raters": {"dlsite": 1000, "commercial": 300, "steam": 2000}
-    },
     "praiseTop": {
-      "rating": {"dlsite": 4.84, "commercial": 92, "steam": 97},
-      "raters": {"dlsite": 10683, "commercial": 876, "steam": 4108}
+      "rating": {"dlsite": 4.84, "commercial": 92},
+      "raters": {"dlsite": 10683, "commercial": 876}
     },
-    "heat": {"min": 85},
-    "lists": {"also": false},
-    "community": {"minAvg": 4.5, "minCount": 20},
-    "tiers": [
-      {"band": "杰作", "praise": "praise", "others": 1, "capTo": 89}
-    ]
+    "community": {"minAvg": 4.5, "minCount": 20}
   },
   "canon": {
     "rulesVersion": 1,

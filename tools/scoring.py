@@ -1,46 +1,60 @@
-r"""按 data/scoring.json（version 2）给作品打分，是配方的参考实现：软件、tools/community.py（神作结算）
+r"""按 data/scoring.json（version 2）给作品打分，是配方的参考实现：软件（scoring2.ts）、tools/community.py（神作结算）
 和 tools/calibrate.py 都按这里的规则算。规则的文字说明见 README「综合榜配方」。
 
-    py tools/scoring.py                 # 按 data/ 打分，列出神作、神作提名、各档作品数
-    py tools/scoring.py --top 30        # 再列出前 30 名
+    py tools/scoring.py                   # 按 data/ 打分，列出神作、神作提名、各档作品数、评价不足的作品
+    py tools/scoring.py --top 30          # 再列出前 30 名
+    py tools/scoring.py --dump 文件.json   # 把每部的分、档、名次写成 JSON（软件的对照测试用）
 
-社区评分按 community.minCount / prior / weight 并进口碑（和软件的 scoring2.ts 一样）；玩家修正（players）只在软件里
-影响个人排序，这里不算：公共分档和神作资格只看公共资料和已结算的投票。
+玩家修正（players）只在软件里影响个人排序，这里不算：公共分档和神作资格只看公共资料和已结算的投票。
 """
 import argparse
+import collections
 import datetime
+import json
 import math
+import statistics
 import sys
 
 EPS = 1e-9  # 显示分 = floor(F + EPS)
+SCORED = ("dlsite", "commercial", "steam")  # 只给这三个来源的已发售作品打分；热度也只在这三个来源里比
+# 社区评分从哪读：(来源, 字段, 评分, 人数)；DLsite 只读 DLsite 作品的 rate / rc。顺序固定（加起来的先后和软件一样）
+RATINGS = (("commercial", "egs", "median", "count"), ("steam", "steam", "positive", "reviews"),
+           ("vndb", "vndb", "rating", "votes"), ("bgm", "bgm", "score", "votes"), ("community", "community", "avg", "count"))
 
 
 def num(v):
     return v if isinstance(v, (int, float)) and not isinstance(v, bool) and math.isfinite(v) else None
 
 
-def raw_inputs(g):
-    """(评分 x, 评价人数 n, 人气数 h)；没有评分或人数的返回 None"""
+def ratings(g):
+    """作品上每个社区的评分 [(来源, 评分 x, 人数 n)]，人数要 > 0"""
+    out = []
+
+    def add(s, x, n):
+        x, n = num(x), num(n)
+        if x is not None and n is not None and n > 0:
+            out.append((s, x, n))
+
+    if g.get("src") == "dlsite":
+        add("dlsite", g.get("rate"), g.get("rc"))
+    for s, key, xk, nk in RATINGS:
+        v = g.get(key) if isinstance(g.get(key), dict) else {}
+        add(s, v.get(xk), v.get(nk))
+    return out
+
+
+def heat_count(g):
+    """热度用的人气数：DLsite 销量 dl、商业 egs.count、Steam steam.reviews；没有是 None"""
     s = g.get("src")
     if s == "dlsite":
-        x, n, h = num(g.get("rate")), num(g.get("rc")), num(g.get("dl"))
-    elif s == "commercial":
-        e = g.get("egs") or {}
-        x, n = num(e.get("median")), num(e.get("count"))
-        h = n
-    elif s == "steam":
-        e = g.get("steam") or {}
-        x, n = num(e.get("positive")), num(e.get("reviews"))
-        h = n
-    else:
-        return None
-    if x is None or n is None or n <= 0:
-        return None
-    return x, n, h
+        return num(g.get("dl"))
+    key, field = {"commercial": ("egs", "count"), "steam": ("steam", "reviews")}.get(s, ("", ""))
+    v = g.get(key) if key else None
+    return num(v.get(field)) if isinstance(v, dict) else None
 
 
 def release_date(g, updated):
-    """合法、且不晚于资料日期的发售日；不然 None（不给新作补偿，作品标上 date）"""
+    """合法、且不晚于资料日期的发售日；不然 None（不给新作补偿，也不算进哪一年）"""
     try:
         d = datetime.date.fromisoformat(g.get("date") or "")
     except (TypeError, ValueError):
@@ -57,112 +71,188 @@ def curve(points, c):
     return points[-1][1]
 
 
-def composite(g, sc, updated):
-    """返回 {x, n, Q, H, hot_ok, C, flags}；不打分的作品返回 None"""
-    if g.get("state") == "dev" or g.get("src") not in sc["praise"]["k"]:
-        return None
-    raw = raw_inputs(g)
-    if raw is None:
-        return None
-    x, n, h = raw
-    s = g["src"]
-    lo, hi = sc["praise"]["anchors"][s]
-    k = sc["praise"]["k"][s]
-    Q = 50 + n / (n + k) * ((x - lo) / (hi - lo) * 100 - 50)
-    hp, flags = sc["heat"], []
-    if h is None:  # 没有人气数：H 按 50 算，拿不到「热」
-        H, hot_ok = 50.0, False
-        flags.append("no-heat")
-    else:
-        d = release_date(g, updated)
-        if d is None:  # 有人气数但发售日缺失 / 不合法 / 晚于资料日期：不给新作补偿
-            div = 1.0
-            flags.append("date")
-        else:
-            age = min(max((updated - d).days / 365.25, hp["age"]["min"]), hp["age"]["max"])
-            div = age ** hp["age"]["exp"]
-        a, b = hp["anchors"][s]
-        H = min(100.0, max(0.0, (math.log10(max(h, 1) / div) - a) / (b - a) * 100))
-        hot_ok = True
-    cm, cr = g.get("community") if isinstance(g.get("community"), dict) else {}, sc["community"]
-    avg, cnt = num(cm.get("avg")), num(cm.get("count"))
-    P = Q  # 口碑；社区评分人数够 minCount 时和社区分混合（和软件一样）
-    if avg is not None and cnt is not None and cnt >= cr["minCount"]:
-        S = 50 + cnt / (cnt + cr["prior"]) * ((avg - 1) * 25 - 50)
-        P = (1 - cr["weight"]) * Q + cr["weight"] * S
-    C = (1 - hp["weight"]) * P + hp["weight"] * H
-    return {"x": x, "n": n, "Q": Q, "P": P, "H": H, "hot_ok": hot_ok, "C": C, "flags": flags}
+def list_hits(catalog):
+    """作品 id → 上过几次民间榜单（条目的 rj 对上作品）"""
+    return collections.Counter(it["rj"] for r in catalog.get("rankings") or [] for it in r.get("items") or []
+                               if isinstance(it, dict) and isinstance(it.get("rj"), str) and it["rj"])
 
 
 def listed_ids(catalog):
-    return {it["rj"] for r in catalog.get("rankings") or [] for it in r.get("items") or []
-            if isinstance(it, dict) and isinstance(it.get("rj"), str) and it["rj"]}
+    return set(list_hits(catalog))
 
 
-def score(catalog):
-    """返回 {作品 id: 结果}；结果有 F0（曲线分）、F（最终分）、shown（显示分）、band、dims、C、Q、H、flags"""
-    sc = catalog["scoring"]
-    updated = datetime.date.fromisoformat(catalog["updated"])
-    canon = catalog.get("canon") or {}
-    listed = listed_ids(catalog)
-    G = sc["gates"]
-    out = {}
-    for g in catalog["games"]:
-        r = composite(g, sc, updated)
-        if r is None:
+def praise(g, sc, hits=0):
+    """口碑 P = 50 + Σe(R − 50) ÷ (1 + Σe)。每个社区：评分按锚点换成 R（截到 clamp），证据量 e = 人数 ÷ k
+    （R > 50 用 kUp、不然用 k：样本少只许虚高不许虚低）；人数不到 minN 的社区不算；民间榜单每上一次是一份 R = lists.R 的证据。
+    返回 {P, E, per: [(来源, x, n, R, e)]}；没有一个社区够人数（评价不足）返回 None"""
+    pr = sc["praise"]
+    lo_c, hi_c = pr["clamp"]
+    per = []
+    for s, x, n in ratings(g):
+        if s not in pr["anchors"] or n < pr["minN"][s]:
             continue
-        s, x, n = g["src"], r["x"], r["n"]
-        cm = g.get("community") if isinstance(g.get("community"), dict) else {}
-        dims = {
-            "praise": x >= G["praise"]["rating"][s] and n >= G["praise"]["raters"][s],
-            "praiseTop": x >= G["praiseTop"]["rating"][s] and n >= G["praiseTop"]["raters"][s],
-            "heat": r["hot_ok"] and r["H"] >= G["heat"]["min"],
-            "lists": g["id"] in listed or (G["lists"]["also"] and bool(g.get("also"))),
-            "community": (num(cm.get("avg")) or 0) >= G["community"]["minAvg"]
-                         and (num(cm.get("count")) or 0) >= G["community"]["minCount"],
-        }
-        others = dims["heat"] + dims["lists"] + dims["community"]
-        tiers_ok = [dims[t["praise"]] and others >= t["others"] for t in G["tiers"]]
-        nm = sc["nominee"]
-        F0 = curve(sc["curve"]["points"], r["C"])
-        if g["id"] in canon:  # 神作：不封顶，至少 canon.minScore
-            F = max(F0, sc["canon"]["minScore"])
-        elif F0 >= nm["minF0"] and all(tiers_ok) and dims[nm["praise"]] and others >= nm["others"]:  # 神作提名：固定 nominee.score
-            F = nm["score"]
-        else:  # 其他：没过的档硬封顶在 capTo，再整体封顶在 cap.max
-            F = F0
-            for t, ok in zip(G["tiers"], tiers_ok):
-                if not ok:
-                    F = min(F, t["capTo"])
-            F = min(F, sc["cap"]["max"])
-        shown = math.floor(F + EPS)
-        band = next(lbl for lbl, lo in sc["bands"] if shown >= lo)
-        out[g["id"]] = dict(r, F0=F0, F=F, shown=shown, band=band, dims=dims, date=g.get("date") or "")
+        lo, hi = pr["anchors"][s]
+        R = min(hi_c, max(lo_c, (x - lo) / (hi - lo) * 100))
+        per.append((s, x, n, R, n / (pr["kUp"][s] if R > 50 else pr["k"][s])))
+    if not per:
+        return None
+    total, E = 0.0, 0.0
+    for *_, R, e in per:
+        total += e * (R - 50)
+        E += e
+    L = pr["lists"]
+    if hits:
+        c = min(hits, L["max"])
+        total += c * L["e"] * (L["R"] - 50)
+        E += c * L["e"]
+    return {"P": 50 + total / (1 + E), "E": E, "per": per}
+
+
+def adjusted_count(g, sc, updated):
+    """年龄补偿后的人气数：发售不到一年的 ÷ t^exp（t 是年数，夹在 age.min～age.max）；发售日不可用的不补偿"""
+    h = heat_count(g)
+    if h is None:
+        return None
+    d, age = release_date(g, updated), sc["heat"]["age"]
+    if d is None:
+        return max(h, 1.0)
+    t = (updated - d).days / 365.25
+    return max(h, 1.0) / (min(max(t, age["min"]), age["max"]) ** age["exp"] if t < 1 else 1.0)
+
+
+def heat_offsets(games, sc, updated):
+    """时代基准：d = log10(补偿后的人气数) − 同来源、发售年前后 window 年作品的中位数（log10）。
+    这几年不到 minGroup 部就每次多放宽一年，直到全部年份。返回 {作品 id: d}"""
+    hp = sc["heat"]
+    logs, years = {}, collections.defaultdict(list)
+    for g in games:
+        v = adjusted_count(g, sc, updated)
+        if v is None:
+            continue
+        d = release_date(g, updated)
+        logs[g["id"]] = (g["src"], d.year if d else None, math.log10(v))
+    for src, y, x in logs.values():
+        if y is not None:
+            years[src].append((y, x))
+    cache = {}
+
+    def baseline(src, y):
+        if (src, y) not in cache:
+            ys, w = years[src], hp["window"]
+            far = max(abs(yy - y) for yy, _ in ys)
+            vals = [x for _, x in ys]
+            while w < far:
+                near = [x for yy, x in ys if abs(yy - y) <= w]
+                if len(near) >= hp["minGroup"]:
+                    vals = near
+                    break
+                w += 1
+            cache[(src, y)] = statistics.median(vals)
+        return cache[(src, y)]
+
+    out = {}
+    for u, (src, y, x) in logs.items():
+        if y is not None:
+            out[u] = x - baseline(src, y)
+        else:  # 发售日不可用：和同来源有发售日的全部作品比（都没有发售日就和同来源全部比）
+            pool = [v for _, v in years[src]] or [v for s, _, v in logs.values() if s == src]
+            out[u] = x - statistics.median(pool)
     return out
 
 
+def heat(d, src, sc):
+    """H = 50 + 35·d ÷ scale[来源]，截到 0–100；没有人气数的按 heat.missing 算"""
+    hp = sc["heat"]
+    if d is None:
+        return hp["missing"]
+    return min(100.0, max(0.0, 50 + 35 * d / hp["scale"][src]))
+
+
+def scoped(catalog):
+    """参与打分的作品：已发售的 DLsite / 商业 / Steam 作品"""
+    return [g for g in catalog["games"] if g.get("state") != "dev" and g.get("src") in SCORED]
+
+
+def composite(catalog):
+    """每部参与打分的作品的口碑和热度：{作品 id: {P, E, per, H, C}}，评价不足的不在里面"""
+    sc = catalog["scoring"]
+    updated = datetime.date.fromisoformat(catalog["updated"])
+    works = scoped(catalog)
+    hits = list_hits(catalog)
+    offsets = heat_offsets(works, sc, updated)
+    w = sc["heat"]["weight"]
+    out = {}
+    for g in works:
+        p = praise(g, sc, hits.get(g["id"], 0))
+        if p is None:
+            continue
+        H = heat(offsets.get(g["id"]), g["src"], sc)
+        out[g["id"]] = dict(p, H=H, C=(1 - w) * p["P"] + w * H)
+    return out
+
+
+def score(catalog):
+    """返回 {作品 id: 结果}（评价不足的不在里面）；结果有 P、H、C、F0（曲线分）、F（最终分）、shown（显示分）、band、dims、nominee"""
+    sc = catalog["scoring"]
+    canon = catalog.get("canon") or {}
+    listed = listed_ids(catalog)
+    games = {g["id"]: g for g in catalog["games"]}
+    nm, gt = sc["nominee"], sc["gates"]
+    top = gt["praiseTop"]
+    rows = composite(catalog)
+    bench = rows.get(nm["benchmark"])
+    for u, r in rows.items():
+        g = games[u]
+        cm = g.get("community") if isinstance(g.get("community"), dict) else {}
+        strong = [s for s, x, n, R, e in r["per"] if R >= nm["second"]["R"] and e >= nm["second"]["e"]]
+        dims = {
+            "praiseTop": any(s in nm["praiseSources"] and s in top["rating"] and s in top["raters"]
+                             and x >= top["rating"][s] and n >= top["raters"][s] for s, x, n, R, e in r["per"]),
+            "lists": u in listed,
+            "community": (num(cm.get("avg")) or 0) >= gt["community"]["minAvg"]
+                         and (num(cm.get("count")) or 0) >= gt["community"]["minCount"],
+            "second": len(strong) >= 2,
+        }
+        others = dims["lists"] + dims["community"] + dims["second"]
+        F0 = curve(sc["curve"]["points"], r["C"])
+        nominee = (u not in canon and F0 >= nm["minF0"] and dims["praiseTop"] and others >= nm["others"]
+                   and (bench is None or r["P"] >= nm["benchmarkPct"] * bench["P"]))
+        if u in canon:  # 神作：不封顶，至少 canon.minScore
+            F = max(F0, sc["canon"]["minScore"])
+        elif nominee:  # 神作提名：固定 nominee.score
+            F = nm["score"]
+        else:
+            F = min(F0, sc["cap"]["max"])
+        shown = math.floor(F + EPS)
+        band = next(lbl for lbl, lo in sc["bands"] if shown >= lo)
+        r.update(F0=F0, F=F, shown=shown, band=band, dims=dims, nominee=nominee, date=g.get("date") or "")
+    return rows
+
+
+def insufficient(catalog, res):
+    """评价不足的作品 id：参与打分、但没有一个社区的评价人数够下限（不打分、不分档，列表里单独一组）"""
+    return [g["id"] for g in scoped(catalog) if g["id"] not in res]
+
+
 def ranking(res):
-    """名次：最终分高的在前；同分按未封顶的综合分（F0 由它算出）排，再同分按发售日新的在前"""
+    """名次：最终分高的在前；同分按综合分 C（F0 由它算出）排，再同分按发售日新的在前"""
     ids = sorted(res, key=lambda u: res[u]["date"], reverse=True)
     ids.sort(key=lambda u: (res[u]["F"], res[u]["C"]), reverse=True)
     return ids
 
 
-BADGES = (("praiseTop", "口★"), ("praise", "口"), ("heat", "热"), ("lists", "榜"), ("community", "玩"))
+BADGES = (("praiseTop", "口★"), ("lists", "榜"), ("community", "玩"), ("second", "多"))
 
 
 def badges(dims):
-    out = []
-    for key, label in BADGES:
-        if dims[key] and not (key == "praise" and dims["praiseTop"]):
-            out.append(label)
-    return out
+    return [label for key, label in BADGES if dims[key]]
 
 
 def main():
     from build_pack import build_catalog
     ap = argparse.ArgumentParser(description="按 data/scoring.json 给作品打分")
     ap.add_argument("--top", type=int, default=0, help="列出前 N 名")
+    ap.add_argument("--dump", help="把每部的分、档、名次写成 JSON（软件的对照测试用）")
     args = ap.parse_args()
     try:
         catalog = build_catalog()
@@ -170,23 +260,32 @@ def main():
         print(f"读资料失败：{e}", file=sys.stderr)
         return 1
     res = score(catalog)
+    thin = insufficient(catalog, res)
     names = {g["id"]: (g.get("names") or {}).get("zh") or g.get("title") or g["id"] for g in catalog["games"]}
     order = ranking(res)
     counts = {lbl: 0 for lbl, _ in catalog["scoring"]["bands"]}
     for r in res.values():
         counts[r["band"]] += 1
-    print(f"打分作品 {len(res)} 部：" + "，".join(f"{k} {v}" for k, v in counts.items()))
+    print(f"打分作品 {len(res)} 部：" + "，".join(f"{k} {v}" for k, v in counts.items()) + f"；评价不足 {len(thin)} 部")
     for lbl in ("神作", "神作提名"):
         for u in (u for u in order if res[u]["band"] == lbl):
             r = res[u]
-            print(f"  {lbl} {r['shown']}（F0 {r['F0']:.2f}）{names[u]}（{u}）评分 {r['x']}、{r['n']:,} 人，"
-                  f"H {r['H']:.1f}，{' '.join(badges(r['dims'])) or '无徽章'}")
-    flagged = sorted(u for u, r in res.items() if "date" in r["flags"])
-    if flagged:
-        print(f"发售日不可用、没给新作补偿的作品 {len(flagged)} 部：{flagged[:10]}{' …' if len(flagged) > 10 else ''}")
+            print(f"  {lbl} {r['shown']}（F0 {r['F0']:.2f}）{names[u]}（{u}）口碑 {r['P']:.1f}，热度 {r['H']:.1f}，"
+                  f"{' '.join(badges(r['dims'])) or '无徽章'}")
+    if thin:
+        print(f"评价不足：{thin[:10]}{' …' if len(thin) > 10 else ''}")
     for i, u in enumerate(order[:args.top], 1):
         r = res[u]
-        print(f"{i:4} {r['shown']:3} {r['band']:4} F0 {r['F0']:6.2f} {names[u]}（{u}）{' '.join(badges(r['dims']))}")
+        print(f"{i:4} {r['shown']:3} {r['band']:4} F0 {r['F0']:6.2f} P {r['P']:5.1f} H {r['H']:5.1f} {names[u]}（{u}）"
+              f"{' '.join(badges(r['dims']))}")
+    if args.dump:
+        out = {"updated": catalog["updated"], "revision": catalog.get("revision", 0),
+               "ranked": [[u, round(res[u]["F"], 6), res[u]["band"], round(res[u]["P"], 6), round(res[u]["H"], 6)] for u in order],
+               "insufficient": thin}
+        with open(args.dump, "w", encoding="utf-8", newline="\n") as f:
+            json.dump(out, f, ensure_ascii=False, separators=(",", ":"))
+            f.write("\n")
+        print(f"写好 {args.dump}")
     return 0
 
 

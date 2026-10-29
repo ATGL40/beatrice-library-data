@@ -1,31 +1,34 @@
-r"""重新校准综合榜配方：按 data/ 现在的作品，算出建议的分数线、热度刻度和提名线，打印和 data/scoring.json 的差别。
-只打印，不写文件：要不要改、改多少，由维护者决定后手动改 data/scoring.json（资料大版本更新时才做）。
+r"""重新校准综合榜配方：按 data/ 现在的作品，算出热度刻度和分数线，打印和 data/scoring.json 的差别。
 
-    py tools/calibrate.py
+    py tools/calibrate.py           # 只打印
+    py tools/calibrate.py --write   # 把算出的 heat.scale 和 curve.points 写进 data/scoring.json（别的不动）
 
-校准规则（下面的常量）：
-- 热度刻度 heat.anchors：每个来源按配方的年龄修正算 L = log10(人气数 / 年龄修正)，让中位数对上 H 50、
-  第 90 百分位对上 H 85，两端取到 0.05。
-- 分数线 curve.points：用（建议的）热度刻度算全部已打分作品的综合分，取 KNOTS 里各百分位的综合分对上最终分，
+资料大版本更新、或者新加了一种评分（比如 VNDB / Bangumi）以后跑一次。校准规则（下面的常量）：
+- 热度刻度 heat.scale：每个来源的 d（见 scoring.py 的 heat_offsets）从小到大排，取第 SCALE_PCT 百分位
+  （下标 int(0.9 × (个数 − 1))，不插值），保留 6 位小数。这个值让同时期第 90 百分位的作品热度约 85。
+- 分数线 curve.points：用（新的）热度刻度算全部已打分作品的综合分，取 KNOTS 里各百分位的综合分对上最终分，
   向下截到 6 位小数（卡在分数线上的作品不会因为截位掉档）。
-- 提名线 gates.praiseTop：评分线 = 同来源已打分作品里百分位（同分取平均名次）≥ 100 − TOP_PCT 的最低评分，
-  没有作品够得上就保留现在的线；人数线 = 同来源评价人数的第 RATERS_PCT 百分位，向上取整。
-- 口碑刻度 praise.anchors 不自动建议，只打印各来源口碑分 R 的中位数和第 90 百分位（定刻度时的目标约 52 / 75）。
+下面两项只打印参考值，要不要改由维护者人工决定：
+- 口碑锚点 praise.anchors：每个社区换算后 R 的中位数和第 95 百分位（目标约 50 / 80），以及按这个目标建议的锚点。
+- 神作提名的口碑线 gates.praiseTop：同来源评分前 TOP_PCT% 的最低评分（同分取平均名次），人数第 RATERS_PCT 百分位（向上取整）。
 """
+import argparse
 import bisect
 import copy
 import datetime
 import json
 import math
+import re
 import statistics
 import sys
 
-from build_pack import build_catalog
-from scoring import composite, raw_inputs, release_date
+from build_pack import DATA, build_catalog
+from scoring import SCORED, composite, heat_offsets, ratings, scoped
 
 KNOTS = [(0, 40), (20, 60), (50, 70), (80, 80), (95, 90), (99, 95), (99.5, 97), (100, 99)]
+SCALE_PCT = 90
 TOP_PCT, RATERS_PCT = 0.5, 85
-HEAT_MED, HEAT_P90, HEAT_STEP = 50, 85, 0.05
+R_MED, R_P95 = 50, 80
 DECIMALS = 6
 
 
@@ -44,76 +47,102 @@ def floor_to(v, d=DECIMALS):
     return math.floor(v * 10 ** d) / 10 ** d
 
 
+def at(sv, p):
+    """升序 sv 的第 p 百分位（线性插值）"""
+    pos = p / 100 * (len(sv) - 1)
+    i = int(pos)
+    return sv[i] if i + 1 >= len(sv) else sv[i] + (pos - i) * (sv[i + 1] - sv[i])
+
+
+def calibrate(catalog):
+    """返回新的配方（只改 heat.scale 和 curve.points）"""
+    sc = copy.deepcopy(catalog["scoring"])
+    updated = datetime.date.fromisoformat(catalog["updated"])
+    works = scoped(catalog)
+    src = {g["id"]: g["src"] for g in works}
+    d = heat_offsets(works, sc, updated)
+    for s in SCORED:
+        ds = sorted(v for u, v in d.items() if src[u] == s)
+        if ds:
+            sc["heat"]["scale"][s] = round(ds[int(SCALE_PCT / 100 * (len(ds) - 1))], DECIMALS)
+    cs = sorted(r["C"] for r in composite(dict(catalog, scoring=sc)).values())
+    sc["curve"]["points"] = [[floor_to(at(cs, p)), f] for p, f in KNOTS]
+    return sc
+
+
+def write(new):
+    """只换 scoring.json 里 scale 和 points 两行，别的格式不动"""
+    path = DATA / "scoring.json"
+    text = path.read_text(encoding="utf-8")
+    for key, value in (("scale", new["heat"]["scale"]), ("points", new["curve"]["points"])):
+        text, n = re.subn(rf'("{key}": )(\{{[^\n]*\}}|\[[^\n]*\])', lambda m: m.group(1) + json.dumps(value, ensure_ascii=False), text, count=1)
+        if n != 1:
+            raise ValueError(f"scoring.json 里找不到一行写完的 \"{key}\"")
+    path.write_text(text, encoding="utf-8", newline="\n")
+
+
 def main():
+    ap = argparse.ArgumentParser(description="重新校准综合榜配方")
+    ap.add_argument("--write", action="store_true", help="把 heat.scale 和 curve.points 写进 data/scoring.json")
+    args = ap.parse_args()
     try:
         catalog = build_catalog()
     except (OSError, ValueError) as e:
         print(f"读资料失败：{e}", file=sys.stderr)
         return 1
     sc = catalog["scoring"]
-    updated = datetime.date.fromisoformat(catalog["updated"])
-    srcs = list(sc["praise"]["k"])
-    works = [g for g in catalog["games"] if composite(g, sc, updated) is not None]
-    by_src = {s: [g for g in works if g["src"] == s] for s in srcs}
-    new = copy.deepcopy(sc)
-
-    # 热度刻度
-    hp = sc["heat"]
-    for s, gs in by_src.items():
-        L = []
-        for g in gs:
-            h = raw_inputs(g)[2]
-            if h is None:
-                continue
-            d = release_date(g, updated)
-            age = 1.0 if d is None else min(max((updated - d).days / 365.25, hp["age"]["min"]), hp["age"]["max"])
-            L.append(math.log10(max(h, 1) / age ** hp["age"]["exp"]))
-        med, p90 = statistics.median(L), q(L, 90)
-        slope = (HEAT_P90 - HEAT_MED) / (p90 - med)
-        lo = med - HEAT_MED / slope
-        new["heat"]["anchors"][s] = [round(round(lo / HEAT_STEP) * HEAT_STEP, 2), round(round((lo + 100 / slope) / HEAT_STEP) * HEAT_STEP, 2)]
-
-    # 分数线（用建议的热度刻度）
-    cs = sorted(composite(g, new, updated)["C"] for g in works)
-
-    def at(p):
-        pos = p / 100 * (len(cs) - 1)
-        i = int(pos)
-        return cs[i] if i + 1 >= len(cs) else cs[i] + (pos - i) * (cs[i + 1] - cs[i])
-
-    new["curve"]["points"] = [[floor_to(at(p)), f] for p, f in KNOTS]
-
-    # 提名线
-    notes = []
-    for s, gs in by_src.items():
-        xs = sorted(raw_inputs(g)[0] for g in gs)
-        ok = [x for x in sorted(set(xs)) if pct(x, xs) >= 100 - TOP_PCT]
-        if ok:
-            new["gates"]["praiseTop"]["rating"][s] = ok[0]
-        else:
-            notes.append(f"{s}：没有评分在前 {TOP_PCT}%（最高分 {xs[-1]} 有 {xs.count(xs[-1])} 部并列，百分位 {pct(xs[-1], xs):.3f}），评分线保留现在的值")
-        new["gates"]["praiseTop"]["raters"][s] = math.ceil(q([raw_inputs(g)[1] for g in gs], RATERS_PCT))
-
-    print(f"按 {len(works)} 部已打分作品（资料日期 {catalog['updated']}）校准；只是建议，不会写文件。\n")
+    new = calibrate(catalog)
+    rows = composite(dict(catalog, scoring=new))
+    print(f"按 {len(rows)} 部已打分作品（资料日期 {catalog['updated']}）校准。\n")
     changed = False
-    for path in (("heat", "anchors"), ("curve", "points"), ("gates", "praiseTop", "rating"), ("gates", "praiseTop", "raters")):
-        a, b = sc, new
-        for k in path:
-            a, b = a[k], b[k]
+    for path in (("heat", "scale"), ("curve", "points")):
+        a, b = sc[path[0]][path[1]], new[path[0]][path[1]]
         name = ".".join(path)
         if a == b:
             print(f"{name}：不变")
         else:
             changed = True
-            print(f"{name}：\n  现在 {json.dumps(a, ensure_ascii=False)}\n  建议 {json.dumps(b, ensure_ascii=False)}")
-    for n in notes:
-        print("  注意：" + n)
-    print("\n口碑分 R 的分布（现在的 praise.anchors；定刻度时的目标是中位数约 52、第 90 百分位约 75）：")
-    for s, gs in by_src.items():
+            print(f"{name}：\n  现在 {json.dumps(a, ensure_ascii=False)}\n  新的 {json.dumps(b, ensure_ascii=False)}")
+
+    # 参考值：各社区的 R 和口碑线（只打印）
+    games = {g["id"]: g for g in scoped(catalog)}
+    per = {}
+    for u in rows:
+        for s, x, n in ratings(games[u]):
+            per.setdefault(s, []).append((x, n))
+    print("\n口碑锚点（参考，不自动改）：各社区换算后 R 的中位数 / 第 95 百分位，目标约 "
+          f"{R_MED} / {R_P95}；括号里是按目标建议的锚点")
+    for s, xn in per.items():
+        if s not in sc["praise"]["anchors"] or len(xn) < 2:
+            continue
         lo, hi = sc["praise"]["anchors"][s]
-        R = [(raw_inputs(g)[0] - lo) / (hi - lo) * 100 for g in gs]
-        print(f"  {s}：{len(R)} 部，中位数 {statistics.median(R):.1f}，第 90 百分位 {q(R, 90):.1f}")
-    print("\n要采用的话，手动改 data/scoring.json，再跑 build_pack.py / check_pack.py。" if changed else "\n配方和现在的资料一致，不用改。")
+        xs = sorted(x for x, _ in xn)
+        med, p95 = statistics.median(xs), q(xs, 95)
+        r = lambda x: (x - lo) / (hi - lo) * 100
+        span = (p95 - med) * 100 / (R_P95 - R_MED) if p95 > med else hi - lo
+        print(f"  {s}：{len(xs)} 部，R 中位数 {r(med):.1f}，第 95 百分位 {r(p95):.1f}"
+              f"（建议 [{med - span * R_MED / 100:.2f}, {med + span * (100 - R_MED) / 100:.2f}]）")
+    print(f"\n神作提名的口碑线（参考，不自动改）：评分前 {TOP_PCT}% 的最低评分、人数第 {RATERS_PCT} 百分位")
+    top = sc["gates"]["praiseTop"]
+    for s in sc["nominee"]["praiseSources"]:
+        xn = per.get(s, [])
+        if len(xn) < 2:
+            print(f"  {s}：评分不到 2 部，没有参考值")
+            continue
+        xs = sorted(x for x, _ in xn)
+        ok = [x for x in sorted(set(xs)) if pct(x, xs) >= 100 - TOP_PCT]
+        line = ok[0] if ok else xs[-1]
+        raters = math.ceil(q([n for _, n in xn], RATERS_PCT))
+        now = f"现在 {top['rating'].get(s, '无')} / {top['raters'].get(s, '无')}"
+        print(f"  {s}：参考 {line} / {raters:,} 人（{now}）")
+
+    if args.write and changed:
+        write(new)
+        print("\n已写进 data/scoring.json。再跑 py tools/scoring.py 看结果，然后 build_pack.py / check_pack.py。")
+    elif changed:
+        print("\n要采用的话：py tools/calibrate.py --write")
+    else:
+        print("\n热度刻度和分数线和现在的资料一致，不用改。")
     return 0
 
 

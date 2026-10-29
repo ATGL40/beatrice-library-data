@@ -114,7 +114,7 @@ def build_catalog(extras=()):
         catalog["rankings"] = rankings
     if (DATA / "scoring.json").exists():
         catalog["scoring"] = load(DATA / "scoring.json")
-        problems = scoring_problems(catalog["scoring"])
+        problems = scoring_problems(catalog["scoring"], seen)
         if problems:
             raise ValueError("data/scoring.json：" + "；".join(problems))
     if (DATA / "canon.json").exists():  # 神作名单：作品 id → {by, since, note}

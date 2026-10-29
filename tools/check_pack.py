@@ -20,6 +20,7 @@ MAX_TOTAL = 1 << 30
 CATS = {"f-rpg", "m-rpg", "adv", "slg", "act", "other"}
 SRCS = {"dlsite", "fanza", "commercial", "steam", "cien", "fanbox"}
 SIGNALS = {"egs": "commercial", "steam": "steam", "followers": "cien"}  # 分数信号字段 → 写它的来源
+RATED = {"vndb": ("rating", 10, 100), "bgm": ("score", 1, 10)}  # VNDB / Bangumi 的评分：任何来源的作品都可以有
 POVS = ("female", "male", "both", "multi", "none")  # 主角视角：女主 / 男主 / 男女双视角 / 多视角 / 无固定主角
 LANGS = ("ja", "zh", "en")
 EXTS = {"jpg", "jpeg", "png", "webp"}
@@ -56,7 +57,7 @@ def is_int(v):
 
 
 def signal_problem(g):
-    """egs / steam / followers：只有对应来源的作品写，可以没有或 null；有就查类型和范围，返回问题说明或 None"""
+    """egs / steam / followers：只有对应来源的作品写；vndb / bgm：任何来源都可以写。都可以没有或 null；有就查类型和范围，返回问题说明或 None"""
     for key, src in SIGNALS.items():
         v = g.get(key)
         if v is None:
@@ -71,6 +72,14 @@ def signal_problem(g):
             return "的 steam 要是 {\"positive\": 0–100 的整数, \"reviews\": 正整数}"
         if key == "followers" and not (is_int(v) and v >= 0):
             return "的 followers 要是非负整数"
+    for key, (field, lo, hi) in RATED.items():
+        v = g.get(key)
+        if v is None:
+            continue
+        if not (isinstance(v, dict) and set(v) == {"id", field, "votes"} and isinstance(v["id"], (str, int)) and not isinstance(v["id"], bool)
+                and str(v["id"]).strip() != "" and (v[field] is None or is_num(v[field]) and lo <= v[field] <= hi)
+                and is_int(v["votes"]) and v["votes"] >= 0):
+            return f"的 {key} 要是 {{\"id\": 编号, \"{field}\": {lo}–{hi} 的数或 null, \"votes\": 非负整数}}"
     return None
 
 
@@ -131,14 +140,15 @@ def is_date(v):
 
 DATE_RE = re.compile(r"\d{4}-\d{2}-\d{2}")
 SCORED = ("dlsite", "commercial", "steam")  # 综合榜只给这三个来源的已发售作品打分
-SCORING_KEYS = {"name", "version", "praise", "heat", "players", "community", "curve", "bands", "cap", "nominee", "gates",
+SCORING_KEYS = {"name", "version", "praise", "heat", "players", "curve", "bands", "cap", "nominee", "gates",
                 "canon", "development", "hiddenGems"}
+RATING_SRCS = ("dlsite", "commercial", "steam", "vndb", "bgm", "community")  # 口碑能合并的社区评分
 REASON_RULES = ("oppose", "all", "none")
-GEM_SORTS = ("praise",)  # 冷门佳作榜的排序依据：praise = 口碑分 Q
+GEM_SORTS = ("praise",)  # 冷门佳作榜的排序依据：praise = 口碑分 P
 
 
-def scoring_problems(sc):
-    """综合榜配方（version 2，见 README「综合榜配方」），返回问题列表"""
+def scoring_problems(sc, ids=None):
+    """综合榜配方（version 2，见 README「综合榜配方」），返回问题列表；给了 ids（作品 id 集合）时再查基准作品在不在"""
     if not isinstance(sc, dict):
         return ["scoring 不是对象"]
     out = []
@@ -151,14 +161,11 @@ def scoring_problems(sc):
     def obj(v, keys):
         return isinstance(v, dict) and set(v) == set(keys)
 
-    def per_src(v, test):
-        return obj(v, SCORED) and all(test(v[s]) for s in SCORED)
+    def table(v, keys, test):  # 按来源的表：正好是这些来源，值都过 test
+        return obj(v, keys) and all(test(v[s]) for s in keys)
 
     def span(v):
         return isinstance(v, list) and len(v) == 2 and all(map(is_num, v)) and v[0] < v[1]
-
-    def line(v):  # 口碑线：{rating: {来源: 数}, raters: {来源: 正整数}}
-        return obj(v, ("rating", "raters")) and per_src(v["rating"], is_num) and per_src(v["raters"], lambda n: is_int(n) and n >= 1)
 
     extra = sorted(set(sc) - SCORING_KEYS)
     need(not extra, f"有不认识的字段：{extra}")
@@ -166,30 +173,38 @@ def scoring_problems(sc):
     if not need(is_int(sc.get("version")) and sc["version"] == 2, f"的 version 要是 2：{sc.get('version')!r}"):
         return out
     pr = sc.get("praise")
-    need(obj(pr, ("k", "anchors")) and per_src(pr["k"], lambda v: is_num(v) and v > 0) and per_src(pr["anchors"], span),
-         "的 praise 要是 {k: {来源: 正数}, anchors: {来源: [低, 高]}}，来源是 dlsite / commercial / steam")
+    anchors = pr.get("anchors") if isinstance(pr, dict) else None
+    srcs = list(anchors) if isinstance(anchors, dict) else []  # 口碑认的社区：anchors 里写了的
+    lists = pr.get("lists") if isinstance(pr, dict) else None
+    need(obj(pr, ("k", "kUp", "minN", "anchors", "clamp", "lists")) and set(SCORED) <= set(srcs) <= set(RATING_SRCS)
+         and table(anchors, srcs, span) and table(pr["k"], srcs, lambda v: is_num(v) and v > 0)
+         and table(pr["kUp"], srcs, lambda v: is_num(v) and v > 0) and table(pr["minN"], srcs, lambda v: is_int(v) and v >= 1)
+         and span(pr["clamp"]) and obj(lists, ("R", "e", "max")) and is_num(lists["R"])
+         and is_num(lists["e"]) and lists["e"] >= 0 and is_int(lists["max"]) and lists["max"] >= 0,
+         "的 praise 要是 {k, kUp: {社区: 正数}, minN: {社区: 正整数}, anchors: {社区: [低, 高]}, clamp: [低, 高], "
+         f"lists: {{R: 数, e: ≥0, max: 非负整数}}}}，四张表的社区一样，至少有 {' / '.join(SCORED)}，"
+         f"只认 {' / '.join(RATING_SRCS)}")
     h = sc.get("heat")
     age = h.get("age") if isinstance(h, dict) else None
-    need(obj(h, ("method", "weight", "anchors", "age")) and h["method"] == "abs-log"
-         and is_num(h["weight"]) and 0 <= h["weight"] <= 1 and per_src(h["anchors"], span)
+    need(obj(h, ("method", "weight", "window", "minGroup", "scale", "missing", "age")) and h["method"] == "era-median"
+         and is_num(h["weight"]) and 0 <= h["weight"] <= 1 and is_int(h["window"]) and h["window"] >= 0
+         and is_int(h["minGroup"]) and h["minGroup"] >= 1 and table(h["scale"], SCORED, lambda v: is_num(v) and v > 0)
+         and is_num(h["missing"]) and 0 <= h["missing"] <= 100
          and obj(age, ("min", "max", "exp")) and all(is_num(age[k]) for k in age)
          and 0 < age["min"] <= age["max"] and age["exp"] >= 0,
-         "的 heat 要是 {method: \"abs-log\", weight: 0–1, anchors: {来源: [低, 高]}, age: {min: >0, max: ≥min, exp: ≥0}}")
+         "的 heat 要是 {method: \"era-median\", weight: 0–1, window: 非负整数, minGroup: 正整数, scale: {来源: 正数}, "
+         "missing: 0–100, age: {min: >0, max: ≥min, exp: ≥0}}")
     pl = sc.get("players")
     need(obj(pl, ("neutral", "prior", "cap")) and is_num(pl["neutral"]) and 1 <= pl["neutral"] <= 5
          and is_num(pl["prior"]) and pl["prior"] >= 0 and is_num(pl["cap"]) and pl["cap"] >= 0,
          "的 players 要是 {neutral: 1–5, prior: ≥0, cap: ≥0}")
-    cm = sc.get("community")
-    need(obj(cm, ("minCount", "prior", "weight")) and is_int(cm["minCount"]) and cm["minCount"] >= 1
-         and is_num(cm["prior"]) and cm["prior"] >= 0 and is_num(cm["weight"]) and 0 <= cm["weight"] <= 1,
-         "的 community 要是 {minCount: 正整数, prior: ≥0, weight: 0–1}")
     cv = sc.get("curve")
     pts = cv.get("points") if obj(cv, ("on", "points")) and cv["on"] == "composite" else None
     need(isinstance(pts, list) and len(pts) >= 2 and all(isinstance(q, list) and len(q) == 2 and all(map(is_num, q)) for q in pts)
          and all(a[0] < b[0] and a[1] <= b[1] for a, b in zip(pts, pts[1:])) and 0 <= pts[0][1] and pts[-1][1] <= 100,
          "的 curve 要是 {on: \"composite\", points: [[综合分, 最终分]…]}，综合分严格递增、最终分不减、在 0–100")
     bands = sc.get("bands")
-    labels, band_min = [], {}
+    band_min = {}
     if need(isinstance(bands, list) and len(bands) >= 3
             and all(isinstance(b, list) and len(b) == 2 and isinstance(b[0], str) and b[0] and is_num(b[1]) for b in bands),
             "的 bands 要是 [[档名, 最低分]…]"):
@@ -200,24 +215,27 @@ def scoring_problems(sc):
     cap, nm, cn = sc.get("cap"), sc.get("nominee"), sc.get("canon")
     need(obj(cap, ("max",)) and is_num(cap["max"]) and 0 < cap["max"] < band_min.get("神作提名", 100),
          "的 cap 要是 {max: 分}，比神作提名的最低分小（神作和神作提名以外的作品都封顶在 max）")
-    need(obj(nm, ("score", "minF0", "praise", "others")) and nm["praise"] in ("praise", "praiseTop") and is_int(nm["others"])
-         and 0 <= nm["others"] <= 3 and nm["score"] == band_min.get("神作提名") and is_num(nm["minF0"]) and 0 <= nm["minF0"] <= 100,
-         "的 nominee 要是 {score: 神作提名档的最低分, minF0: 0–100, praise: \"praise\" 或 \"praiseTop\", others: 0–3}")
+    ps = nm.get("praiseSources") if isinstance(nm, dict) else None
+    if need(obj(nm, ("score", "minF0", "praiseSources", "others", "second", "benchmark", "benchmarkPct"))
+            and nm["score"] == band_min.get("神作提名") and is_num(nm["minF0"]) and 0 <= nm["minF0"] <= 100
+            and isinstance(ps, list) and ps and len(set(ps)) == len(ps) and all(s in RATING_SRCS for s in ps)
+            and is_int(nm["others"]) and 0 <= nm["others"] <= 3
+            and obj(nm["second"], ("R", "e")) and is_num(nm["second"]["R"]) and is_num(nm["second"]["e"]) and nm["second"]["e"] >= 0
+            and isinstance(nm["benchmark"], str) and nm["benchmark"] != ""
+            and is_num(nm["benchmarkPct"]) and 0 <= nm["benchmarkPct"] <= 1,
+            "的 nominee 要是 {score: 神作提名档的最低分, minF0: 0–100, praiseSources: [社区…], others: 0–3, "
+            "second: {R: 数, e: ≥0}, benchmark: 基准作品 id, benchmarkPct: 0–1}"):
+        need(ids is None or nm["benchmark"] in ids, f"的 nominee.benchmark（{nm['benchmark']}）不在作品资料里")
     gt = sc.get("gates")
-    if need(obj(gt, ("praise", "praiseTop", "heat", "lists", "community", "tiers")),
-            "的 gates 要有 praise / praiseTop / heat / lists / community / tiers"):
-        need(line(gt["praise"]), "的 gates.praise 要是 {rating: {来源: 数}, raters: {来源: 正整数}}")
-        need(line(gt["praiseTop"]), "的 gates.praiseTop 要是 {rating: {来源: 数}, raters: {来源: 正整数}}（固定的原始评分线和人数线）")
-        need(obj(gt["heat"], ("min",)) and is_num(gt["heat"]["min"]) and 0 <= gt["heat"]["min"] <= 100, "的 gates.heat 要是 {min: 0–100}")
-        need(obj(gt["lists"], ("also",)) and isinstance(gt["lists"]["also"], bool), "的 gates.lists 要是 {also: true/false}")
+    if need(obj(gt, ("praiseTop", "community")), "的 gates 要是 {praiseTop, community}"):
+        top = gt["praiseTop"]
+        need(obj(top, ("rating", "raters")) and isinstance(top["rating"], dict) and isinstance(top["raters"], dict)
+             and set(top["rating"]) == set(top["raters"]) and set(top["rating"]) <= set(RATING_SRCS)
+             and all(is_num(v) for v in top["rating"].values()) and all(is_int(n) and n >= 1 for n in top["raters"].values()),
+             "的 gates.praiseTop 要是 {rating: {社区: 数}, raters: {社区: 正整数}}，两张表的社区一样（神作提名的原始评分线和人数线）")
         c = gt["community"]
         need(obj(c, ("minAvg", "minCount")) and is_num(c["minAvg"]) and 1 <= c["minAvg"] <= 5
              and is_int(c["minCount"]) and c["minCount"] >= 1, "的 gates.community 要是 {minAvg: 1–5, minCount: 正整数}")
-        tiers = gt["tiers"]
-        need(isinstance(tiers, list) and all(
-            obj(x, ("band", "praise", "others", "capTo")) and x["band"] in labels[2:] and x["praise"] in ("praise", "praiseTop")
-            and is_int(x["others"]) and 0 <= x["others"] <= 3 and is_num(x["capTo"]) and x["capTo"] < band_min[x["band"]]
-            for x in tiers), "的 gates.tiers 要是 [{band: 档名（神作、神作提名以外）, praise: \"praise\" 或 \"praiseTop\", others: 0–3, capTo: 比这一档最低分小}…]")
     need(obj(cn, ("rulesVersion", "minScore", "promote", "demote", "cooldownDays", "reasonRequired", "reasonMinChars"))
          and is_int(cn["rulesVersion"]) and cn["rulesVersion"] >= 1 and cn["minScore"] == band_min.get("神作")
          and obj(cn["promote"], ("minVoters", "support")) and obj(cn["demote"], ("minVoters", "oppose"))
@@ -233,8 +251,8 @@ def scoring_problems(sc):
     hg = sc.get("hiddenGems")  # 冷门佳作榜（可以没有）
     if hg is not None:
         need(obj(hg, ("name", "rating", "raters", "sortBy", "limit")) and isinstance(hg["name"], str) and hg["name"].strip() != ""
-             and per_src(hg["rating"], is_num)
-             and per_src(hg["raters"], lambda v: span(v) and all(is_int(n) and n >= 1 for n in v))
+             and table(hg["rating"], SCORED, is_num)
+             and table(hg["raters"], SCORED, lambda v: span(v) and all(is_int(n) and n >= 1 for n in v))
              and hg["sortBy"] in GEM_SORTS and is_int(hg["limit"]) and hg["limit"] >= 1,
              "的 hiddenGems 要是 {name: 榜名, rating: {来源: 数}, raters: {来源: [下限, 上限]（正整数，下限 < 上限）}, "
              f"sortBy: {' / '.join(GEM_SORTS)}, limit: 正整数}}")
@@ -373,7 +391,7 @@ def check(path, min_updated, min_revision=0):
                 problems.append(f"{g.get('id')} {problem}")
         if g.get("pov") in POVS:
             povs[g["pov"]] = povs.get(g["pov"], 0) + 1
-        for key in list(SIGNALS) + ["community", "godvote"]:
+        for key in list(SIGNALS) + list(RATED) + ["community", "godvote"]:
             if g.get(key) is not None:
                 signals[key] = signals.get(key, 0) + 1
 
@@ -409,7 +427,7 @@ def check(path, min_updated, min_revision=0):
 
     scoring, canon = cat.get("scoring"), cat.get("canon")
     if scoring is not None:
-        problems.extend(scoring_problems(scoring))
+        problems.extend(scoring_problems(scoring, id_set))
     if canon is not None:
         problems.extend(canon_problems(canon, id_set))
 
@@ -423,7 +441,8 @@ def check(path, min_updated, min_revision=0):
     notes.insert(2, f"题材标签 {len(genres)} 个，带题材的作品 {tagged} 部（DLsite 作品 {srcs.get('dlsite', 0)} 部）")
     notes.insert(3, "分数信号：" + "，".join(f"{key} {signals.get(key, 0)} 部（{src} 作品 {srcs.get(src, 0)} 部）"
                                           for key, src in SIGNALS.items()))
-    notes.insert(4, f"社区评分 community {signals.get('community', 0)} 部，神作复议票 godvote {signals.get('godvote', 0)} 部；"
+    notes.insert(4, f"VNDB 评分 vndb {signals.get('vndb', 0)} 部，Bangumi 评分 bgm {signals.get('bgm', 0)} 部，"
+                    f"社区评分 community {signals.get('community', 0)} 部，神作复议票 godvote {signals.get('godvote', 0)} 部；"
                     f"主角视角 pov {sum(povs.values())} 部（{'，'.join(f'{k} {povs.get(k, 0)}' for k in POVS)}）")
     recipe = f"{scoring.get('name')} version {scoring.get('version')}" if isinstance(scoring, dict) else "没有（用软件自带的）"
     notes.insert(5, f"综合榜配方：{recipe}；神作名单 {len(canon) if isinstance(canon, dict) else 0} 部")
