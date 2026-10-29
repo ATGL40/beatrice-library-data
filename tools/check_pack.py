@@ -62,6 +62,11 @@ def aliases_ok(v):
             and len(set(v)) == len(v))
 
 
+def aka_ok(v):
+    """aka（俗称，只显示和搜索，不用来识别文件夹）：规则和 aliases 一样"""
+    return aliases_ok(v)
+
+
 def signal_problem(g):
     """egs / steam / followers：只有对应来源的作品写；vndb / bgm：任何来源都可以写。都可以没有或 null；有就查类型和范围，返回问题说明或 None"""
     for key, src in SIGNALS.items():
@@ -457,6 +462,8 @@ def check(path, min_updated, min_revision=0):
                 aliased += 1
             else:
                 problems.append(f"{g.get('id')} 的 aliases 要是非空字符串的数组（不重复）")
+        if "aka" in g and not aka_ok(g["aka"]):
+            problems.append(f"{g.get('id')} 的 aka 要是非空字符串的数组（不重复）")
         if "genres" in g:
             if src != "dlsite":
                 problems.append(f"{g.get('id')} 的来源是 {src}，只有 DLsite 的作品写 genres")
