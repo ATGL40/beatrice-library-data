@@ -323,6 +323,29 @@ def canon_problems(canon, ids):
             out.append(f"canon 的 {wid} 要是 {{\"by\": \"manual\" 或 \"vote\", \"since\": \"YYYY-MM-DD\", \"note\": 说明（可选）}}")
     return out
 
+CHANGELOG_NOTE_MAX = 300  # 一条说明最多几个字
+
+
+def changelog_problems(log):
+    """更新记录 changelog：[{"updated": "YYYY-MM-DD", "revision": 0 或正整数, "notes": ["…", …]}, …]，新的在前，同一个版本只写一次"""
+    if not isinstance(log, list):
+        return ["changelog 要是数组：[{updated, revision, notes}]，新的在前"]
+    out, prev = [], None
+    for n, e in enumerate(log):
+        ok = (isinstance(e, dict) and set(e) == {"updated", "revision", "notes"} and is_date(e["updated"])
+              and is_int(e["revision"]) and e["revision"] >= 0 and isinstance(e["notes"], list) and e["notes"]
+              and all(isinstance(s, str) and s.strip() and len(s) <= CHANGELOG_NOTE_MAX for s in e["notes"]))
+        if not ok:
+            out.append(f"changelog[{n}] 要是 {{\"updated\": \"YYYY-MM-DD\", \"revision\": 0 或正整数, \"notes\": [说明…]}}"
+                       f"（说明不能是空的，每条最多 {CHANGELOG_NOTE_MAX} 字）")
+            continue
+        key = (e["updated"], e["revision"])
+        if prev is not None and key >= prev:
+            out.append(f"changelog[{n}] 的 {key[0]} revision {key[1]} 要比前一条旧（新的在前，不重复）")
+        prev = key
+    return out
+
+
 def check(path, min_updated, min_revision=0):
     problems, notes = [], []
     try:
@@ -488,6 +511,13 @@ def check(path, min_updated, min_revision=0):
         problems.extend(scoring_problems(scoring, id_set))
     if canon is not None:
         problems.extend(canon_problems(canon, id_set))
+    changelog = cat.get("changelog")  # 更新记录（可以没有）；最新一条要是这份资料的版本
+    if changelog is not None:
+        log_problems = changelog_problems(changelog)
+        problems.extend(log_problems)
+        if not log_problems and changelog and (changelog[0]["updated"], changelog[0]["revision"]) != (updated, revision):
+            problems.append(f"changelog 最新一条是 {changelog[0]['updated']} revision {changelog[0]['revision']}，"
+                            f"不是这份资料的 {updated} revision {revision}")
 
     srcs = {}
     for g in games:
@@ -504,7 +534,8 @@ def check(path, min_updated, min_revision=0):
                     f"社区黑榜 blacklist {signals.get('blacklist', 0)} 部（标注多人拉黑 {flagged} 部）；"
                     f"主角视角 pov {sum(povs.values())} 部（{'，'.join(f'{k} {povs.get(k, 0)}' for k in POVS)}）；别名 aliases {aliased} 部")
     recipe = f"{scoring.get('name')} version {scoring.get('version')}" if isinstance(scoring, dict) else "没有（用软件自带的）"
-    notes.insert(5, f"综合榜配方：{recipe}；神作名单 {len(canon) if isinstance(canon, dict) else 0} 部")
+    notes.insert(5, f"综合榜配方：{recipe}；神作名单 {len(canon) if isinstance(canon, dict) else 0} 部；"
+                    f"更新记录 {len(changelog) if isinstance(changelog, list) else 0} 个版本")
     undated = 0
     for g in games:  # 发售日不可用的已发售作品：有人气数也不给新作补偿（见 README「综合榜配方」）
         if isinstance(g, dict) and g.get("state") != "dev" and g.get("src") in SCORED:

@@ -20,8 +20,8 @@ import tempfile
 import zipfile
 from pathlib import Path
 
-from check_pack import (aliases_ok, blacklist_problem, canon_problems, community_problem, godvote_problem, pov_problem, raw_problem,
-                        scoring_problems, signal_problem)
+from check_pack import (aliases_ok, blacklist_problem, canon_problems, changelog_problems, community_problem, godvote_problem, pov_problem,
+                        raw_problem, scoring_problems, signal_problem)
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -59,6 +59,13 @@ def build_catalog(extras=()):
         raise ValueError("data/meta.json 的 updated 要写成 YYYY-MM-DD")
     if "revision" in meta and not (is_int(meta["revision"]) and meta["revision"] >= 0):  # 同一天改资料时加一；没有就是 0
         raise ValueError("data/meta.json 的 revision 要是 0 或正整数")
+    if "changelog" in meta:  # 更新记录：新的在前，最新一条就是这次的版本（改了 updated / revision 就要写一条）
+        problems = changelog_problems(meta["changelog"])
+        if problems:
+            raise ValueError("data/meta.json：" + "；".join(problems))
+        top = meta["changelog"][0] if meta["changelog"] else None
+        if not top or (top["updated"], top["revision"]) != (meta["updated"], meta.get("revision", 0)):
+            raise ValueError(f"data/meta.json 的 changelog 最新一条要是这次的版本 {meta['updated']} revision {meta.get('revision', 0)}，写上这次改了什么")
     genres = load_genres()
     by_cat, seen = {c: [] for c in CATS}, set()
 
