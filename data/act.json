@@ -17,6 +17,11 @@
     "rate": 4.54,
     "dl": 38707,
     "rc": 10153,
+    "bgm": {
+      "id": 428577,
+      "score": 3.9,
+      "votes": 20
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01003844.html",
     "note": "操作点阵角色探索洞窟的动作游戏",
     "genres": [
@@ -51,6 +56,11 @@
     "rate": 4.61,
     "dl": 18518,
     "rc": 4326,
+    "bgm": {
+      "id": 498848,
+      "score": 7.2,
+      "votes": 9
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01004086.html",
     "note": "点阵动画流畅的高速横版动作，舞台是近未来",
     "genres": [
@@ -81,6 +91,11 @@
     "rate": 4.46,
     "dl": 6710,
     "rc": 1711,
+    "bgm": {
+      "id": 431063,
+      "score": 4.7,
+      "votes": 6
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01004403.html",
     "note": "点阵风横版动作游戏，与魅魔战斗",
     "genres": [
@@ -144,6 +159,11 @@
     "rate": 4.6,
     "dl": 20954,
     "rc": 5480,
+    "bgm": {
+      "id": 431059,
+      "score": 5,
+      "votes": 1
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01031777.html",
     "note": "点阵风横版动作游戏，与魅魔等敌人战斗",
     "genres": [
@@ -178,6 +198,11 @@
     "rate": 4.76,
     "dl": 48830,
     "rc": 11296,
+    "bgm": {
+      "id": 473261,
+      "score": 6.3,
+      "votes": 228
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01035443.html",
     "note": "点阵画风的探索型动作 RPG",
     "genres": [
@@ -209,6 +234,11 @@
     "rate": 4.71,
     "dl": 26321,
     "rc": 7264,
+    "bgm": {
+      "id": 427075,
+      "score": 7,
+      "votes": 15
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01042384.html",
     "note": "扶她题材的 2D 动作",
     "genres": [
@@ -238,6 +268,11 @@
     "rate": 4.5,
     "dl": 5645,
     "rc": 1743,
+    "bgm": {
+      "id": 464442,
+      "score": 5,
+      "votes": 6
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01054351.html",
     "note": "女主角对抗异形的横版动作射击游戏",
     "genres": [
@@ -270,6 +305,11 @@
     "rate": 4.67,
     "dl": 29386,
     "rc": 6259,
+    "bgm": {
+      "id": 450973,
+      "score": 6.2,
+      "votes": 93
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01062825.html",
     "note": "3D 潜行露出动作游戏",
     "genres": [
@@ -300,6 +340,11 @@
     "rate": 4.57,
     "dl": 15459,
     "rc": 4835,
+    "bgm": {
+      "id": 443853,
+      "score": 6.1,
+      "votes": 15
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01064183.html",
     "note": "巫女主角讨伐妖怪的横版动作游戏",
     "genres": [
@@ -333,6 +378,11 @@
     "rate": 4.55,
     "dl": 6332,
     "rc": 1875,
+    "bgm": {
+      "id": 458654,
+      "score": 6,
+      "votes": 2
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01064928.html",
     "note": "动作游戏（按 DLsite 作品形式 ACN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
@@ -366,6 +416,11 @@
     "rate": 4.51,
     "dl": 13552,
     "rc": 2389,
+    "bgm": {
+      "id": 483908,
+      "score": 5.8,
+      "votes": 10
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01083328.html",
     "note": "被囚禁的女主人公探索地下城、设法逃脱的点阵动作游戏",
     "genres": [
@@ -400,6 +455,11 @@
     "rate": 4.58,
     "dl": 6073,
     "rc": 1179,
+    "bgm": {
+      "id": 457367,
+      "score": 6.5,
+      "votes": 2
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01093374.html",
     "note": "在森林中躲避魔物娘的点阵风动作游戏",
     "genres": [
@@ -428,6 +488,11 @@
     "rate": 4.41,
     "dl": 8224,
     "rc": 2012,
+    "bgm": {
+      "id": 459716,
+      "score": 6.2,
+      "votes": 5
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01105350.html",
     "note": "点阵风横版动作游戏，系列第二作",
     "genres": [
@@ -491,6 +556,16 @@
     "rate": 4.67,
     "dl": 25289,
     "rc": 7111,
+    "vndb": {
+      "id": "v32170",
+      "rating": 67.4,
+      "votes": 58
+    },
+    "bgm": {
+      "id": 504622,
+      "score": 5.9,
+      "votes": 7
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01109096.html",
     "note": "「死亡之种」续作，新增偶像女主角",
     "genres": [
@@ -520,6 +595,11 @@
     "rate": 4.41,
     "dl": 9748,
     "rc": 2379,
+    "bgm": {
+      "id": 488906,
+      "score": 5.1,
+      "votes": 8
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01111827.html",
     "note": "探索神秘研究所、与怪物战斗的点阵 2D 动作游戏",
     "genres": [
@@ -553,6 +633,11 @@
     "rate": 4.69,
     "dl": 35080,
     "rc": 8540,
+    "bgm": {
+      "id": 473236,
+      "score": 6.4,
+      "votes": 117
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01129599.html",
     "note": "女孩战斗的成人向动作游戏",
     "genres": [
@@ -652,6 +737,11 @@
     "rate": 4.49,
     "dl": 6221,
     "rc": 1843,
+    "bgm": {
+      "id": 494643,
+      "score": 6.5,
+      "votes": 2
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01143093.html",
     "note": "在野外探索、收集物资、升级的 3D 动作游戏",
     "genres": [
@@ -711,6 +801,11 @@
     "rate": 4.48,
     "dl": 4797,
     "rc": 1052,
+    "bgm": {
+      "id": 491474,
+      "score": 5.4,
+      "votes": 10
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01159791.html",
     "note": "在黑暗地下城点燃火焰、设法逃脱的俯视角 3D 动作",
     "genres": [
@@ -742,6 +837,11 @@
     "rate": 4.83,
     "dl": 120741,
     "rc": 18934,
+    "bgm": {
+      "id": 493261,
+      "score": 7,
+      "votes": 424
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01169914.html",
     "note": "「SiNiSistar」续作，以诅咒之城为舞台的动作 RPG",
     "genres": [
@@ -774,6 +874,11 @@
     "rate": 4.36,
     "dl": 26574,
     "rc": 2762,
+    "bgm": {
+      "id": 633853,
+      "score": 4.5,
+      "votes": 13
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01177942.html",
     "note": "依主角状态分支H场景的 2D 动作",
     "genres": [
@@ -897,6 +1002,11 @@
     "rate": 4.41,
     "dl": 15312,
     "rc": 2973,
+    "bgm": {
+      "id": 499995,
+      "score": 4.9,
+      "votes": 20
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01210168.html",
     "note": "在宇宙飞船内探索、营救船员的射击动作游戏",
     "genres": [
@@ -925,6 +1035,11 @@
     "rate": 4.28,
     "dl": 24587,
     "rc": 4735,
+    "bgm": {
+      "id": 506008,
+      "score": 5.6,
+      "votes": 9
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01221390.html",
     "note": "一边逃离追兵一边解谜脱出迷宫的动作",
     "genres": [
@@ -957,6 +1072,11 @@
     "rate": 4.41,
     "dl": 2781,
     "rc": 506,
+    "bgm": {
+      "id": 631463,
+      "score": 3.5,
+      "votes": 4
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01228382.html",
     "note": "点阵风横版动作游戏，巫女为夺回被占领的忍者之里而战",
     "genres": [
@@ -988,6 +1108,11 @@
     "rate": 4.42,
     "dl": 19361,
     "rc": 3584,
+    "bgm": {
+      "id": 510365,
+      "score": 4.8,
+      "votes": 13
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01236357.html",
     "note": "末日题材的横版动作，从丧尸手中拯救人类",
     "genres": [
@@ -1019,6 +1144,11 @@
     "rate": 4.39,
     "dl": 19985,
     "rc": 3517,
+    "bgm": {
+      "id": 549220,
+      "score": 4.6,
+      "votes": 22
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01245153.html",
     "note": "全方位射击＋Roguelite 的割草动作游戏，主人公外观随能力成长变化",
     "genres": [
@@ -1051,6 +1181,11 @@
     "rate": 4.36,
     "dl": 10349,
     "rc": 1835,
+    "bgm": {
+      "id": 535441,
+      "score": 3.4,
+      "votes": 7
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01267193.html",
     "note": "点阵风横版动作游戏，操作女孩躲避并击退魔兽",
     "genres": [
@@ -1084,6 +1219,11 @@
     "rate": 4.42,
     "dl": 24189,
     "rc": 4699,
+    "bgm": {
+      "id": 544769,
+      "score": 6.3,
+      "votes": 3
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01267758.html",
     "note": "穿过陷阱打倒敌人的动作游戏",
     "genres": [
@@ -1113,6 +1253,11 @@
     "rate": 4.53,
     "dl": 8308,
     "rc": 1714,
+    "bgm": {
+      "id": 533289,
+      "score": 5.6,
+      "votes": 7
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01284435.html",
     "note": "找出异变、前往“八丁目”的横版恐怖找不同游戏",
     "genres": [
@@ -1203,6 +1348,11 @@
     "rate": 4.19,
     "dl": 9825,
     "rc": 1126,
+    "bgm": {
+      "id": 551047,
+      "score": 5.4,
+      "votes": 5
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01340907.html",
     "note": "3D 潜行动作游戏，在夜晚街道上躲开路人回到家",
     "genres": [
@@ -1232,6 +1382,11 @@
     "rate": 4.27,
     "dl": 10942,
     "rc": 2147,
+    "bgm": {
+      "id": 560991,
+      "score": 3.5,
+      "votes": 4
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01351733.html",
     "note": "变身女英雄的 3D 格斗动作游戏，推荐使用手柄",
     "genres": [
@@ -1266,6 +1421,11 @@
     "rate": 4.47,
     "dl": 13580,
     "rc": 2703,
+    "bgm": {
+      "id": 562524,
+      "score": 6.2,
+      "votes": 16
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01383313.html",
     "note": "女冒险者在小镇接任务讨伐魔物、在酒馆打工的动作 RPG",
     "genres": [
@@ -1296,6 +1456,11 @@
     "rate": 4.82,
     "dl": 80230,
     "rc": 10876,
+    "bgm": {
+      "id": 564355,
+      "score": 7.1,
+      "votes": 283
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01389782.html",
     "note": "不被发现地完成露出任务的潜行动作，约 8～12 小时",
     "genres": [
@@ -1330,6 +1495,11 @@
     "rate": 4.37,
     "dl": 9734,
     "rc": 1373,
+    "bgm": {
+      "id": 581057,
+      "score": 3.7,
+      "votes": 9
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01394379.html",
     "note": "搞笑向动作游戏，在禁止饮食的地铁里设法喝完奶茶",
     "genres": [
@@ -1361,6 +1531,11 @@
     "rate": 4.58,
     "dl": 11088,
     "rc": 2351,
+    "bgm": {
+      "id": 567281,
+      "score": 6,
+      "votes": 6
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01399063.html",
     "note": "开放世界 3D 动作 RPG，探索海岛、拜访村庄，含射击要素",
     "genres": [
@@ -1391,6 +1566,11 @@
     "rate": 4.45,
     "dl": 22361,
     "rc": 2730,
+    "bgm": {
+      "id": 713037,
+      "score": 7,
+      "votes": 1
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01405281.html",
     "note": "点阵风横版恐怖动作游戏，在怪异的医院中求生",
     "genres": [
@@ -1420,6 +1600,11 @@
     "rate": 4.52,
     "dl": 40746,
     "rc": 5437,
+    "bgm": {
+      "id": 508972,
+      "score": 5.7,
+      "votes": 100
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01405813.html",
     "note": "在巨大废墟都市中战斗的动作游戏",
     "genres": [
@@ -1454,6 +1639,11 @@
     "rate": 4.4,
     "dl": 12118,
     "rc": 2093,
+    "bgm": {
+      "id": 574676,
+      "score": 5,
+      "votes": 3
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01410771.html",
     "note": "俯视角科幻射击动作游戏，在反乌托邦设施里与怪物战斗",
     "genres": [
@@ -1486,6 +1676,11 @@
     "rate": 4.5,
     "dl": 8359,
     "rc": 1750,
+    "bgm": {
+      "id": 613188,
+      "score": 6,
+      "votes": 2
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01416845.html",
     "note": "3D 角斗场育成动作游戏，训练少女角斗士参加大赛",
     "genres": [
@@ -1516,6 +1711,11 @@
     "rate": 4.05,
     "dl": 12326,
     "rc": 1057,
+    "bgm": {
+      "id": 614930,
+      "score": 4.3,
+      "votes": 11
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01432892.html",
     "note": "暗黑风格的迷宫探索动作游戏系列第二作",
     "genres": [
@@ -1545,6 +1745,11 @@
     "rate": 4.58,
     "dl": 10833,
     "rc": 1686,
+    "bgm": {
+      "id": 592783,
+      "score": 6.4,
+      "votes": 14
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01458340.html",
     "note": "3D 动作冒险，少女猎人一路闯过怪物与陷阱",
     "genres": [
@@ -1578,6 +1783,11 @@
     "rate": 4.47,
     "dl": 30866,
     "rc": 3068,
+    "bgm": {
+      "id": 603170,
+      "score": 6,
+      "votes": 4
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01463643.html",
     "note": "探索迷宫、收集魔法戒指的第一人称动作",
     "genres": [
@@ -1611,6 +1821,11 @@
     "rate": 4.57,
     "dl": 12012,
     "rc": 2215,
+    "bgm": {
+      "id": 614999,
+      "score": 5,
+      "votes": 1
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01464462.html",
     "note": "3D 动作游戏，在魔女的世界中捕捉女孩组建后宫",
     "genres": [
@@ -1644,6 +1859,11 @@
     "rate": 4.37,
     "dl": 15342,
     "rc": 1989,
+    "bgm": {
+      "id": 616280,
+      "score": 5.6,
+      "votes": 5
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01497368.html",
     "note": "3D 动作＋Roguelite，随机获得武器道具，坚持 20 天等待救援",
     "genres": [
@@ -1705,6 +1925,11 @@
     "rate": 4.43,
     "dl": 20121,
     "rc": 1924,
+    "bgm": {
+      "id": 617561,
+      "score": 6.3,
+      "votes": 23
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01502625.html",
     "note": "点阵风迷宫探索动作游戏，攀爬、钻洞，躲避陷阱逃出迷宫",
     "genres": [
@@ -1732,6 +1957,11 @@
     "rate": 4.61,
     "dl": 24839,
     "rc": 3153,
+    "bgm": {
+      "id": 622906,
+      "score": 6.2,
+      "votes": 29
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01519187.html",
     "note": "从地下脱出的横版射击动作",
     "genres": [
@@ -1829,6 +2059,11 @@
     "rate": 4.42,
     "dl": 9157,
     "rc": 827,
+    "bgm": {
+      "id": 660537,
+      "score": 5.9,
+      "votes": 56
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01569452.html",
     "note": "点阵动画射击动作游戏，与被囚少女一起逃出地牢",
     "genres": [
@@ -1895,6 +2130,11 @@
     "rate": 4.52,
     "dl": 2956,
     "rc": 495,
+    "bgm": {
+      "id": 636119,
+      "score": 6,
+      "votes": 1
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01582983.html",
     "note": "2D 横版动作游戏，约 2～3 小时通关",
     "genres": [
@@ -1920,6 +2160,11 @@
     "rate": 4.66,
     "dl": 12118,
     "rc": 1521,
+    "bgm": {
+      "id": 638217,
+      "score": 6.6,
+      "votes": 9
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01593277.html",
     "note": "男娘主人公的横版动作游戏，以异常状态为主题",
     "genres": [
@@ -1985,6 +2230,11 @@
     "rate": 4.58,
     "dl": 10729,
     "rc": 932,
+    "bgm": {
+      "id": 700899,
+      "score": 5.5,
+      "votes": 13
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01617096.html",
     "note": "鼠标瞄准的枪械射击动作游戏，可切换多种枪械",
     "genres": [
@@ -2019,6 +2269,11 @@
     "rate": 4.09,
     "dl": 13829,
     "rc": 1395,
+    "bgm": {
+      "id": 647908,
+      "score": 4.8,
+      "votes": 8
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01619075.html",
     "note": "爽快的横版射击动作游戏，格斗＋加特林压制，可强化装备",
     "genres": [
@@ -2052,6 +2307,11 @@
     "rate": 4.51,
     "dl": 13294,
     "rc": 1246,
+    "bgm": {
+      "id": 663495,
+      "score": 5.3,
+      "votes": 35
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01624458.html",
     "note": "2D 横版动作射击，使用枪械与近战武器击退感染者",
     "genres": [
@@ -2083,6 +2343,11 @@
     "rate": 4.44,
     "dl": 3485,
     "rc": 447,
+    "bgm": {
+      "id": 658404,
+      "score": 6,
+      "votes": 1
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01627444.html",
     "note": "横版生存射击＋Roguelite，坚守大楼天台",
     "genres": [
@@ -2117,6 +2382,11 @@
     "rate": 4.59,
     "dl": 8277,
     "rc": 772,
+    "bgm": {
+      "id": 680595,
+      "score": 5,
+      "votes": 2
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01629166.html",
     "note": "俯视角动作游戏，用攻击、防御、翻滚对抗魅魔的诱惑",
     "genres": [
@@ -2150,6 +2420,11 @@
     "rate": 4.44,
     "dl": 8016,
     "rc": 678,
+    "bgm": {
+      "id": 685172,
+      "score": 6,
+      "votes": 2
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01648342.html",
     "note": "以「绝对不会输」的反派女主为主角的点阵风搞笑动作游戏",
     "genres": [
@@ -2180,6 +2455,11 @@
     "rate": 4.21,
     "dl": 10604,
     "rc": 992,
+    "bgm": {
+      "id": 665707,
+      "score": 5.2,
+      "votes": 16
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01661359.html",
     "note": "与迷信的女孩反复猜拳的小游戏，立绘随进度变化",
     "genres": [
@@ -2213,6 +2493,11 @@
     "rate": 4.55,
     "dl": 2583,
     "rc": 263,
+    "bgm": {
+      "id": 671388,
+      "score": 6,
+      "votes": 1
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01663529.html",
     "note": "点阵风横版动作游戏，大小姐为夺取公主之位寻找魔石",
     "genres": [
@@ -2274,6 +2559,11 @@
     "rate": 4.55,
     "dl": 35735,
     "rc": 13432,
+    "bgm": {
+      "id": 58253,
+      "score": 7.3,
+      "votes": 12
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ087520.html",
     "note": "盗贼艾莉丝收集道具的动作游戏",
     "genres": [
@@ -2305,6 +2595,11 @@
     "rate": 4.57,
     "dl": 24788,
     "rc": 12438,
+    "bgm": {
+      "id": 228058,
+      "score": 6,
+      "votes": 2
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ098950.html",
     "note": "点阵动作 RPG，约 1 小时",
     "genres": [
@@ -2334,6 +2629,11 @@
     "rate": 4.57,
     "dl": 26458,
     "rc": 12600,
+    "bgm": {
+      "id": 265833,
+      "score": 7,
+      "votes": 43
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ102967.html",
     "note": "男孩主角与女主角协力探索迷宫的点阵动作",
     "genres": [
@@ -2395,6 +2695,11 @@
     "rate": 4.67,
     "dl": 27790,
     "rc": 12718,
+    "bgm": {
+      "id": 137886,
+      "score": 7.1,
+      "votes": 25
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ154397.html",
     "note": "和魔物生下的孩子一起战斗的动作解谜 RPG",
     "genres": [
@@ -2425,6 +2730,11 @@
     "rate": 4.33,
     "dl": 3846,
     "rc": 1498,
+    "bgm": {
+      "id": 302012,
+      "score": 5,
+      "votes": 2
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ157957.html",
     "note": "变身女英雄战斗的横版动作游戏",
     "genres": [
@@ -2546,6 +2856,11 @@
     "rate": 4.21,
     "dl": 7649,
     "rc": 3629,
+    "bgm": {
+      "id": 469758,
+      "score": 10,
+      "votes": 1
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ171467.html",
     "note": "骑士伊格尼斯执行女王任务的 3D 动作游戏",
     "genres": [
@@ -2578,6 +2893,16 @@
     "rate": 4.58,
     "dl": 11805,
     "rc": 5928,
+    "vndb": {
+      "id": "v28966",
+      "rating": 65.1,
+      "votes": 22
+    },
+    "bgm": {
+      "id": 197708,
+      "score": 6.4,
+      "votes": 32
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ171858.html",
     "note": "正统清版动作游戏，有任务模式与角色强化模式",
     "genres": [
@@ -2694,6 +3019,11 @@
     "rate": 4.32,
     "dl": 6190,
     "rc": 2911,
+    "bgm": {
+      "id": 227332,
+      "score": 6.3,
+      "votes": 3
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ175605.html",
     "note": "负债的精灵少女在危险遗迹中探险的横版动作游戏",
     "genres": [
@@ -2756,6 +3086,11 @@
     "rate": 4.45,
     "dl": 4848,
     "rc": 2872,
+    "bgm": {
+      "id": 227380,
+      "score": 7.3,
+      "votes": 4
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ175995.html",
     "note": "转生成触手生物的主角对战各路女战士的动作射击游戏",
     "genres": [
@@ -2847,6 +3182,11 @@
     "rate": 4.49,
     "dl": 8735,
     "rc": 4299,
+    "bgm": {
+      "id": 211557,
+      "score": 7.2,
+      "votes": 5
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ180492.html",
     "note": "兽耳姐妹以枪械与体术逃出洞窟的横版动作游戏",
     "genres": [
@@ -2907,6 +3247,11 @@
     "rate": 4.49,
     "dl": 4616,
     "rc": 2194,
+    "bgm": {
+      "id": 227319,
+      "score": 5.5,
+      "votes": 2
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ185016.html",
     "note": "用手术刀和球棒击退僵尸、逃出医院的探索型横版动作游戏",
     "genres": [
@@ -2968,6 +3313,11 @@
     "rate": 4.68,
     "dl": 19485,
     "rc": 5068,
+    "bgm": {
+      "id": 297978,
+      "score": 6.6,
+      "votes": 10
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ187640.html",
     "note": "可切换四名角色的关卡制横版动作游戏，全程点阵动画",
     "genres": [
@@ -2995,6 +3345,11 @@
     "rate": 4.59,
     "dl": 15082,
     "rc": 6364,
+    "bgm": {
+      "id": 268360,
+      "score": 6.4,
+      "votes": 5
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ192796.html",
     "note": "点阵动画的探索型横版动作游戏第二作",
     "genres": [
@@ -3024,6 +3379,11 @@
     "rate": 4.36,
     "dl": 5552,
     "rc": 2977,
+    "bgm": {
+      "id": 227265,
+      "score": 7,
+      "votes": 1
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ194316.html",
     "note": "操作女战士探索巨大都市与未开之地的 2D 动作游戏",
     "genres": [
@@ -3197,6 +3557,11 @@
     "rate": 4.67,
     "dl": 59895,
     "rc": 21595,
+    "bgm": {
+      "id": 220338,
+      "score": 6.5,
+      "votes": 265
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ201837.html",
     "note": "引导女孩走出森林的动作游戏",
     "genres": [
@@ -3226,6 +3591,11 @@
     "rate": 4.54,
     "dl": 7338,
     "rc": 3428,
+    "bgm": {
+      "id": 498838,
+      "score": 6,
+      "votes": 1
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ201866.html",
     "note": "点阵风横版探索动作游戏",
     "genres": [
@@ -3256,6 +3626,11 @@
     "rate": 4.35,
     "dl": 9662,
     "rc": 3636,
+    "bgm": {
+      "id": 481698,
+      "score": 4,
+      "votes": 2
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ201957.html",
     "note": "躲避陷阱与怪物突破地牢的 2D 横版动作游戏",
     "genres": [
@@ -3313,6 +3688,16 @@
     "rate": 4.41,
     "dl": 11182,
     "rc": 4862,
+    "vndb": {
+      "id": "v29939",
+      "rating": 53.7,
+      "votes": 34
+    },
+    "bgm": {
+      "id": 316587,
+      "score": 4.9,
+      "votes": 36
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ202858.html",
     "note": "与三名女主角一起在丧尸横行的地带求生的 FPS",
     "genres": [
@@ -3345,6 +3730,11 @@
     "rate": 4.68,
     "dl": 13413,
     "rc": 6597,
+    "bgm": {
+      "id": 274166,
+      "score": 6.3,
+      "votes": 3
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ204720.html",
     "note": "女主角探索行星的点阵动作",
     "genres": [
@@ -3401,6 +3791,11 @@
     "rate": 4.44,
     "dl": 3930,
     "rc": 1800,
+    "bgm": {
+      "id": 439003,
+      "score": 5.1,
+      "votes": 7
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ205608.html",
     "note": "操纵两名主角用枪械等武器探索宅邸的恐怖动作游戏",
     "genres": [
@@ -3429,6 +3824,11 @@
     "rate": 4.42,
     "dl": 20709,
     "rc": 9163,
+    "bgm": {
+      "id": 408439,
+      "score": 4.7,
+      "votes": 6
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ208752.html",
     "note": "鼠标操作的格斗动作游戏",
     "genres": [
@@ -3486,6 +3886,11 @@
     "rate": 4.54,
     "dl": 45993,
     "rc": 15287,
+    "bgm": {
+      "id": 297175,
+      "score": 6.1,
+      "votes": 21
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ209760.html",
     "note": "第三人称射击游戏（TPS）",
     "genres": [
@@ -3548,6 +3953,11 @@
     "rate": 4.49,
     "dl": 25183,
     "rc": 7917,
+    "bgm": {
+      "id": 317555,
+      "score": 5,
+      "votes": 7
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ212641.html",
     "note": "扮演哥布林的 2D 清版动作",
     "genres": [
@@ -3577,6 +3987,11 @@
     "rate": 4.34,
     "dl": 25749,
     "rc": 9722,
+    "bgm": {
+      "id": 381682,
+      "score": 5,
+      "votes": 2
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ212899.html",
     "note": "少女独自挑战魔城的横版动作 RPG",
     "genres": [
@@ -3637,6 +4052,11 @@
     "rate": 4.24,
     "dl": 6094,
     "rc": 2547,
+    "vndb": {
+      "id": "v23314",
+      "rating": 64.4,
+      "votes": 17
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ214107.html",
     "note": "动作游戏（按 DLsite 作品形式 ACN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
@@ -3694,6 +4114,11 @@
     "rate": 4.42,
     "dl": 3722,
     "rc": 1374,
+    "bgm": {
+      "id": 494425,
+      "score": 4.7,
+      "votes": 3
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ216046.html",
     "note": "动作游戏（按 DLsite 作品形式 ACN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
@@ -3756,6 +4181,11 @@
     "rate": 4.43,
     "dl": 2759,
     "rc": 1348,
+    "bgm": {
+      "id": 458483,
+      "score": 10,
+      "votes": 1
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ219484.html",
     "note": "俯视角刷宝动作 RPG，点阵动画",
     "genres": [
@@ -3787,6 +4217,16 @@
     "rate": 4.69,
     "dl": 32250,
     "rc": 16570,
+    "vndb": {
+      "id": "v37921",
+      "rating": 70.1,
+      "votes": 96
+    },
+    "bgm": {
+      "id": 268337,
+      "score": 7,
+      "votes": 339
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ219681.html",
     "note": "复兴衰落国家的游戏，靠经营与掠夺聚集人和钱",
     "genres": [
@@ -3817,6 +4257,11 @@
     "rate": 4.6,
     "dl": 13404,
     "rc": 3786,
+    "bgm": {
+      "id": 280093,
+      "score": 6.9,
+      "votes": 28
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ219794.html",
     "note": "操作天使与地狱恶魔战斗的硬派横版动作，含猎奇表现",
     "genres": [
@@ -3908,6 +4353,11 @@
     "rate": 4.31,
     "dl": 16294,
     "rc": 6568,
+    "bgm": {
+      "id": 254944,
+      "score": 5.5,
+      "votes": 24
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ222557.html",
     "note": "修女阻止神秘仪式的探索型动作",
     "genres": [
@@ -3966,6 +4416,11 @@
     "rate": 4.66,
     "dl": 32124,
     "rc": 13960,
+    "bgm": {
+      "id": 294935,
+      "score": 6.6,
+      "votes": 56
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ223394.html",
     "note": "守护精灵之国的动作加防线防守游戏",
     "genres": [
@@ -3994,6 +4449,11 @@
     "rate": 4.16,
     "dl": 12873,
     "rc": 6037,
+    "bgm": {
+      "id": 536669,
+      "score": 4,
+      "votes": 1
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ223514.html",
     "note": "守护女性之城的塔防动作",
     "genres": [
@@ -4057,6 +4517,11 @@
     "rate": 4.14,
     "dl": 3763,
     "rc": 1946,
+    "bgm": {
+      "id": 469756,
+      "score": 6,
+      "votes": 1
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ225459.html",
     "note": "采集、制作、求生的漂流生存动作",
     "genres": [
@@ -4087,6 +4552,16 @@
     "rate": 4.62,
     "dl": 12283,
     "rc": 6095,
+    "vndb": {
+      "id": "v23064",
+      "rating": 66.2,
+      "votes": 27
+    },
+    "bgm": {
+      "id": 250543,
+      "score": 6.7,
+      "votes": 25
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ226108.html",
     "note": "变身女英雄的正统清版动作",
     "genres": [
@@ -4116,6 +4591,11 @@
     "rate": 4.74,
     "dl": 44509,
     "rc": 20015,
+    "bgm": {
+      "id": 393245,
+      "score": 6.7,
+      "votes": 12
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ228815.html",
     "note": "战斗中会遭遇H攻击的动作游戏",
     "genres": [
@@ -4147,6 +4627,11 @@
     "rate": 4.38,
     "dl": 13326,
     "rc": 5386,
+    "bgm": {
+      "id": 381999,
+      "score": 5.5,
+      "votes": 15
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ233726.html",
     "note": "寻找同伴并设法脱出的修女动作游戏",
     "genres": [
@@ -4207,6 +4692,11 @@
     "rate": 4.44,
     "dl": 7431,
     "rc": 3412,
+    "bgm": {
+      "id": 325950,
+      "score": 5.2,
+      "votes": 5
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ234689.html",
     "note": "俯视角的洗脑题材动作游戏",
     "genres": [
@@ -4329,6 +4819,11 @@
     "rate": 4.69,
     "dl": 35490,
     "rc": 15268,
+    "bgm": {
+      "id": 289478,
+      "score": 6.8,
+      "votes": 47
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ241993.html",
     "note": "冒险少女挑战未踏地下城的奇幻动作 RPG",
     "genres": [
@@ -4388,6 +4883,11 @@
     "rate": 4.39,
     "dl": 9574,
     "rc": 4442,
+    "bgm": {
+      "id": 350658,
+      "score": 5,
+      "votes": 16
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ246202.html",
     "note": "培养伙伴、强化装备，与魔物作战守护结界的动作游戏",
     "genres": [
@@ -4479,6 +4979,11 @@
     "rate": 4.24,
     "dl": 2749,
     "rc": 1099,
+    "bgm": {
+      "id": 321184,
+      "score": 6.2,
+      "votes": 5
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ247391.html",
     "note": "动作游戏（按 DLsite 作品形式 ACN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
@@ -4507,6 +5012,11 @@
     "rate": 4.65,
     "dl": 134512,
     "rc": 29004,
+    "bgm": {
+      "id": 290219,
+      "score": 6.5,
+      "votes": 371
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ247641.html",
     "note": "简洁的点阵 2D 动作游戏",
     "genres": [
@@ -4566,6 +5076,11 @@
     "rate": 4.33,
     "dl": 7589,
     "rc": 3439,
+    "bgm": {
+      "id": 323817,
+      "score": 6,
+      "votes": 5
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ249106.html",
     "note": "兵器少女向人类国度旅行的 2D 横版动作游戏",
     "genres": [
@@ -4597,6 +5112,11 @@
     "rate": 4.67,
     "dl": 22201,
     "rc": 8034,
+    "bgm": {
+      "id": 347686,
+      "score": 6,
+      "votes": 9
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ252357.html",
     "note": "Flash 制横版卷轴动作，用攻击和回避突破敌阵，系列第三作",
     "genres": [
@@ -4629,6 +5149,11 @@
     "rate": 4.62,
     "dl": 18225,
     "rc": 6422,
+    "bgm": {
+      "id": 404565,
+      "score": 6,
+      "votes": 4
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ253103.html",
     "note": "高解像度点阵的 Unity 横版动作，有攻击、回避与精确格挡",
     "genres": [
@@ -4661,6 +5186,11 @@
     "rate": 4.64,
     "dl": 4854,
     "rc": 2766,
+    "bgm": {
+      "id": 321318,
+      "score": 5.5,
+      "votes": 2
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ253712.html",
     "note": "灵魂与肉体分离的冒险者在古城中战斗的点阵动作 RPG",
     "genres": [
@@ -4690,6 +5220,11 @@
     "rate": 4.48,
     "dl": 8486,
     "rc": 2832,
+    "bgm": {
+      "id": 320596,
+      "score": 5.8,
+      "votes": 4
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ254303.html",
     "note": "新魔王率领魔族征服世界的点阵风动作游戏",
     "genres": [
@@ -4815,6 +5350,11 @@
     "rate": 4.49,
     "dl": 17112,
     "rc": 7118,
+    "bgm": {
+      "id": 296848,
+      "score": 5.3,
+      "votes": 23
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ264392.html",
     "note": "用鼠标操作的动作 RPG，在奇妙的地牢中冒险",
     "genres": [
@@ -4908,6 +5448,11 @@
     "rate": 4.77,
     "dl": 48053,
     "rc": 20101,
+    "bgm": {
+      "id": 311487,
+      "score": 6.1,
+      "votes": 47
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ268920.html",
     "note": "紧身变身女英雄的动作游戏",
     "genres": [
@@ -4971,6 +5516,11 @@
     "rate": 4.28,
     "dl": 9787,
     "rc": 4083,
+    "bgm": {
+      "id": 388501,
+      "score": 5,
+      "votes": 2
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ273459.html",
     "note": "精灵女主角闯关的动画动作游戏",
     "genres": [
@@ -5002,6 +5552,11 @@
     "rate": 4.58,
     "dl": 13048,
     "rc": 5524,
+    "bgm": {
+      "id": 393443,
+      "score": 5.9,
+      "votes": 16
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ274044.html",
     "note": "格斗游戏手感的 3D 横版动作游戏",
     "genres": [
@@ -5065,6 +5620,11 @@
     "rate": 4.81,
     "dl": 27207,
     "rc": 11493,
+    "bgm": {
+      "id": 310646,
+      "score": 6.9,
+      "votes": 50
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ277631.html",
     "note": "点阵画风的动作 RPG",
     "genres": [
@@ -5095,6 +5655,11 @@
     "rate": 4.48,
     "dl": 50064,
     "rc": 17936,
+    "bgm": {
+      "id": 330103,
+      "score": 5.8,
+      "votes": 20
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ278044.html",
     "note": "横版动作，城镇中也有事件",
     "genres": [
@@ -5128,6 +5693,11 @@
     "rate": 4.51,
     "dl": 11690,
     "rc": 3926,
+    "bgm": {
+      "id": 430997,
+      "score": 4.3,
+      "votes": 11
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ281198.html",
     "note": "变身女英雄迎击怪兽集团的横版动作",
     "genres": [
@@ -5160,6 +5730,11 @@
     "rate": 4.74,
     "dl": 7794,
     "rc": 4112,
+    "bgm": {
+      "id": 558123,
+      "score": 5,
+      "votes": 2
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ282669.html",
     "note": "扮演魔王与精灵女骑士对战的指令格斗游戏",
     "genres": [
@@ -5220,6 +5795,11 @@
     "rate": 4.58,
     "dl": 17746,
     "rc": 7289,
+    "bgm": {
+      "id": 381881,
+      "score": 4.2,
+      "votes": 6
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ284978.html",
     "note": "挑战被瘴气侵蚀的地下城的 3D 类 Rogue 动作",
     "genres": [
@@ -5253,6 +5833,11 @@
     "rate": 4.5,
     "dl": 46257,
     "rc": 12333,
+    "bgm": {
+      "id": 350675,
+      "score": 5.9,
+      "votes": 17
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ295827.html",
     "note": "与步枪魅魔一起战斗的弹幕射击动作",
     "genres": [
@@ -5286,6 +5871,16 @@
     "rate": 4.78,
     "dl": 82196,
     "rc": 29369,
+    "vndb": {
+      "id": "v33911",
+      "rating": 81.6,
+      "votes": 330
+    },
+    "bgm": {
+      "id": 321956,
+      "score": 7.7,
+      "votes": 1112
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ297937.html",
     "note": "3D 横版动作，被选为神之骑士的少女战斗",
     "genres": [
@@ -5348,6 +5943,11 @@
     "rate": 4.62,
     "dl": 10733,
     "rc": 2900,
+    "bgm": {
+      "id": 393244,
+      "score": 5.7,
+      "votes": 25
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ300845.html",
     "note": "操作守墓人女主角救出五位公主的硬核横版动作游戏，含猎奇内容",
     "genres": [
@@ -5380,6 +5980,11 @@
     "rate": 4.45,
     "dl": 5387,
     "rc": 2339,
+    "bgm": {
+      "id": 332130,
+      "score": 7,
+      "votes": 1
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ301403.html",
     "note": "修女在地下城寻找挚友的 2D 塔防加动作游戏",
     "genres": [
@@ -5409,6 +6014,11 @@
     "rate": 4.73,
     "dl": 9281,
     "rc": 4382,
+    "bgm": {
+      "id": 557591,
+      "score": 4.3,
+      "votes": 3
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ302205.html",
     "note": "在地下擂台与\"冰之女王\"对战的指令格斗游戏",
     "genres": [
@@ -5442,6 +6052,11 @@
     "rate": 4.69,
     "dl": 15991,
     "rc": 8057,
+    "bgm": {
+      "id": 334816,
+      "score": 7.2,
+      "votes": 85
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ304663.html",
     "note": "带正统动作战斗的冒险 RPG",
     "genres": [
@@ -5505,6 +6120,11 @@
     "rate": 4.43,
     "dl": 11459,
     "rc": 4214,
+    "bgm": {
+      "id": 454760,
+      "score": 8,
+      "votes": 1
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ309365.html",
     "note": "女僧侣探索遗迹、挑战 Boss 的点阵动作游戏，系列第二作",
     "genres": [
@@ -5593,6 +6213,11 @@
     "rate": 4.45,
     "dl": 37809,
     "rc": 10243,
+    "bgm": {
+      "id": 326797,
+      "score": 5.5,
+      "votes": 99
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ312493.html",
     "note": "从丧尸占据的研究所脱出的横版动作",
     "genres": [
@@ -5625,6 +6250,11 @@
     "rate": 4.26,
     "dl": 15982,
     "rc": 5314,
+    "bgm": {
+      "id": 336938,
+      "score": 6.4,
+      "votes": 5
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ313648.html",
     "note": "动作游戏（按 DLsite 作品形式 ACN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
@@ -5656,6 +6286,11 @@
     "rate": 4.1,
     "dl": 17769,
     "rc": 5453,
+    "bgm": {
+      "id": 381766,
+      "score": 4.7,
+      "votes": 3
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ314547.html",
     "note": "手绘动画演出的潜行动作游戏",
     "genres": [
@@ -5688,6 +6323,11 @@
     "rate": 4.46,
     "dl": 12637,
     "rc": 5874,
+    "bgm": {
+      "id": 382050,
+      "score": 5,
+      "votes": 20
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ317202.html",
     "note": "金发修女主角的横版动作游戏",
     "genres": [
@@ -5785,6 +6425,11 @@
     "rate": 4.53,
     "dl": 6901,
     "rc": 3202,
+    "bgm": {
+      "id": 361196,
+      "score": 7,
+      "votes": 2
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ323716.html",
     "note": "含小游戏、换装和养成要素的探索型 2D 动作 RPG",
     "genres": [
@@ -5818,6 +6463,11 @@
     "rate": 4.71,
     "dl": 24175,
     "rc": 9461,
+    "bgm": {
+      "id": 334009,
+      "score": 6.2,
+      "votes": 13
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ323773.html",
     "note": "扶她退魔士穿越异界的 2D 横版动作",
     "genres": [
@@ -5876,6 +6526,11 @@
     "rate": 4.31,
     "dl": 9294,
     "rc": 3410,
+    "bgm": {
+      "id": 421552,
+      "score": 6,
+      "votes": 1
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ324587.html",
     "note": "见习骑士成长为正式骑士的正统横版点阵动作 RPG",
     "genres": [
@@ -5905,6 +6560,11 @@
     "rate": 4.59,
     "dl": 11779,
     "rc": 4176,
+    "bgm": {
+      "id": 466958,
+      "score": 5.5,
+      "votes": 2
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ325583.html",
     "note": "自由度很高的开放式动作 RPG",
     "genres": [
@@ -5936,6 +6596,16 @@
     "rate": 4.68,
     "dl": 49367,
     "rc": 17391,
+    "vndb": {
+      "id": "v32170",
+      "rating": 67.4,
+      "votes": 58
+    },
+    "bgm": {
+      "id": 316590,
+      "score": 5.8,
+      "votes": 86
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ330023.html",
     "note": "僵尸世界中守护女孩的射击动作，约 15～30 小时",
     "genres": [
@@ -6129,6 +6799,11 @@
     "rate": 4.24,
     "dl": 6348,
     "rc": 2176,
+    "bgm": {
+      "id": 410345,
+      "score": 5,
+      "votes": 2
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ354943.html",
     "note": "动作游戏（按 DLsite 作品形式 ACN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
@@ -6159,6 +6834,11 @@
     "rate": 4.7,
     "dl": 38617,
     "rc": 11493,
+    "bgm": {
+      "id": 388500,
+      "score": 5.8,
+      "votes": 12
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ357197.html",
     "note": "与 50 种以上魔物娘和触手交手的点阵动作，附合同志",
     "genres": [
@@ -6188,6 +6868,11 @@
     "rate": 4.27,
     "dl": 27843,
     "rc": 6481,
+    "bgm": {
+      "id": 382001,
+      "score": 4.4,
+      "votes": 43
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ358346.html",
     "note": "被召唤到异世界的少女当上圣女讨伐邪教",
     "genres": [
@@ -6219,6 +6904,11 @@
     "rate": 4.44,
     "dl": 7585,
     "rc": 3055,
+    "bgm": {
+      "id": 450252,
+      "score": 6,
+      "votes": 2
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ359093.html",
     "note": "冒险者女主角挑战迷宫的复古风 2D 动作 RPG",
     "genres": [
@@ -6251,6 +6941,11 @@
     "rate": 4.67,
     "dl": 15838,
     "rc": 4458,
+    "bgm": {
+      "id": 363188,
+      "score": 6.2,
+      "votes": 5
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ363355.html",
     "note": "指令输入式的 M 向格斗动作游戏",
     "genres": [
@@ -6340,6 +7035,11 @@
     "rate": 4.29,
     "dl": 11684,
     "rc": 3368,
+    "bgm": {
+      "id": 395448,
+      "score": 4.8,
+      "votes": 13
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ370711.html",
     "note": "点阵与 Live2D 结合的横版射击游戏",
     "genres": [
@@ -6399,6 +7099,11 @@
     "rate": 4.74,
     "dl": 37100,
     "rc": 12603,
+    "bgm": {
+      "id": 401343,
+      "score": 6.9,
+      "votes": 84
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ376981.html",
     "note": "扶她冒险者从陷阱地下城脱出的动作游戏",
     "genres": [
@@ -6430,6 +7135,11 @@
     "rate": 4.49,
     "dl": 14014,
     "rc": 4263,
+    "bgm": {
+      "id": 380132,
+      "score": 6.5,
+      "votes": 4
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ378647.html",
     "note": "与各种特殊首领战斗、带状态变化要素的动作游戏",
     "genres": [
@@ -6459,6 +7169,11 @@
     "rate": 4.64,
     "dl": 20477,
     "rc": 7619,
+    "bgm": {
+      "id": 366342,
+      "score": 6.8,
+      "votes": 40
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ379826.html",
     "note": "操作两名风格不同的变身女英雄的清版动作游戏",
     "genres": [
@@ -6492,6 +7207,11 @@
     "rate": 4.51,
     "dl": 8953,
     "rc": 2181,
+    "bgm": {
+      "id": 583371,
+      "score": 6,
+      "votes": 1
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ380742.html",
     "note": "东方 Project 同人，芙兰朵露切换 10 种服装闯地下城的动作游戏",
     "genres": [
@@ -6520,6 +7240,11 @@
     "rate": 4.64,
     "dl": 28789,
     "rc": 5552,
+    "bgm": {
+      "id": 492113,
+      "score": 6.5,
+      "votes": 32
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ382297.html",
     "note": "女性上位题材的点阵成人游戏",
     "genres": [
@@ -6553,6 +7278,11 @@
     "rate": 4.61,
     "dl": 16390,
     "rc": 5317,
+    "bgm": {
+      "id": 380952,
+      "score": 7.2,
+      "votes": 72
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ388692.html",
     "note": "探索阶层都市、强化角色并击败首领的探索型动作",
     "genres": [
@@ -6583,6 +7313,11 @@
     "rate": 4.75,
     "dl": 58599,
     "rc": 20887,
+    "bgm": {
+      "id": 389617,
+      "score": 6.7,
+      "votes": 55
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ392624.html",
     "note": "战斗中会遭遇H攻击的动作游戏",
     "genres": [
@@ -6616,6 +7351,11 @@
     "rate": 4.33,
     "dl": 9408,
     "rc": 2865,
+    "bgm": {
+      "id": 437580,
+      "score": 5.3,
+      "votes": 3
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ394990.html",
     "note": "点阵风横版动作游戏，女主角对抗洗脑邪眼",
     "genres": [
@@ -6677,6 +7417,11 @@
     "rate": 4.79,
     "dl": 90719,
     "rc": 23483,
+    "bgm": {
+      "id": 402036,
+      "score": 7,
+      "votes": 296
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ405582.html",
     "note": "类魂 2D 动作 RPG，含探索与成长",
     "genres": [
@@ -6707,6 +7452,11 @@
     "rate": 4.65,
     "dl": 49840,
     "rc": 12062,
+    "bgm": {
+      "id": 385402,
+      "score": 6.5,
+      "votes": 310
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ406835.html",
     "note": "近未来 SF 高速 3D 动作",
     "genres": [
@@ -6739,6 +7489,11 @@
     "rate": 4.68,
     "dl": 25752,
     "rc": 9590,
+    "bgm": {
+      "id": 426155,
+      "score": 5.8,
+      "votes": 20
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ407819.html",
     "note": "女主角们击退来袭敌人的无双动作",
     "genres": [
@@ -6770,6 +7525,11 @@
     "rate": 4.45,
     "dl": 10780,
     "rc": 3440,
+    "bgm": {
+      "id": 411586,
+      "score": 6.2,
+      "votes": 10
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ415256.html",
     "note": "兽耳女主角的 2D 动作游戏",
     "genres": [
@@ -6802,6 +7562,11 @@
     "rate": 4.18,
     "dl": 18020,
     "rc": 4987,
+    "bgm": {
+      "id": 409408,
+      "score": 4.8,
+      "votes": 9
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ420680.html",
     "note": "退魔巫女执行生存任务的射击游戏",
     "genres": [
@@ -6836,6 +7601,11 @@
     "rate": 4.35,
     "dl": 9135,
     "rc": 1781,
+    "bgm": {
+      "id": 698423,
+      "score": 4,
+      "votes": 1
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ421087.html",
     "note": "在公司里完成各种挑战的 3D 动作游戏",
     "genres": [
@@ -6868,6 +7638,11 @@
     "rate": 4.4,
     "dl": 8113,
     "rc": 2047,
+    "bgm": {
+      "id": 578960,
+      "score": 5,
+      "votes": 1
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ427289.html",
     "note": "点阵风科幻实验室探索动作游戏",
     "genres": [
@@ -6902,6 +7677,11 @@
     "rate": 4.27,
     "dl": 10415,
     "rc": 3203,
+    "bgm": {
+      "id": 411842,
+      "score": 4.8,
+      "votes": 12
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ429880.html",
     "note": "3D 画面的奇幻动作 RPG",
     "genres": [
@@ -6932,6 +7712,11 @@
     "rate": 4.73,
     "dl": 59459,
     "rc": 16517,
+    "bgm": {
+      "id": 458502,
+      "score": 5.8,
+      "votes": 64
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ431925.html",
     "note": "穿和服的少女在异常状态中战斗的动作游戏",
     "genres": [
@@ -6966,6 +7751,11 @@
     "rate": 4.35,
     "dl": 14585,
     "rc": 3772,
+    "bgm": {
+      "id": 431683,
+      "score": 5.2,
+      "votes": 69
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ437596.html",
     "note": "3D 场景中避人耳目移动的潜行动作游戏",
     "genres": [
@@ -6998,6 +7788,11 @@
     "rate": 4.69,
     "dl": 15228,
     "rc": 4496,
+    "bgm": {
+      "id": 412705,
+      "score": 6.4,
+      "votes": 5
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ439205.html",
     "note": "第一人称射击，还能驾驶战车和直升机",
     "genres": [
@@ -7473,6 +8268,11 @@
       "positive": 92,
       "reviews": 1120
     },
+    "bgm": {
+      "id": 530097,
+      "score": 5,
+      "votes": 1
+    },
     "note": "用丘比特之箭作战的简单射击（STG）游戏"
   },
   {
@@ -7525,6 +8325,11 @@
       "positive": 86,
       "reviews": 17165
     },
+    "bgm": {
+      "id": 340390,
+      "score": 5.4,
+      "votes": 26
+    },
     "note": "可自定义魅魔外观的暗黑奇幻动作 RPG，与同伴一起挑战 Boss，抢先体验阶段"
   },
   {
@@ -7575,6 +8380,11 @@
     "steam": {
       "positive": 91,
       "reviews": 1020
+    },
+    "bgm": {
+      "id": 504994,
+      "score": 5.4,
+      "votes": 5
     },
     "note": "赏金猎人女主角探索大地图的复古点阵银河恶魔城式动作游戏"
   },
@@ -7628,6 +8438,11 @@
       "positive": 85,
       "reviews": 823
     },
+    "bgm": {
+      "id": 539236,
+      "score": 5,
+      "votes": 1
+    },
     "note": "收录两款复古风横版动作游戏的合集，带解谜要素（Libra Heart 作品）"
   },
   {
@@ -7652,6 +8467,11 @@
       "positive": 86,
       "reviews": 238
     },
+    "bgm": {
+      "id": 430389,
+      "score": 7,
+      "votes": 2
+    },
     "note": "2D 横版探索动作游戏，猫娘挑战地下城"
   },
   {
@@ -7674,6 +8494,11 @@
     "steam": {
       "positive": 88,
       "reviews": 856
+    },
+    "bgm": {
+      "id": 490407,
+      "score": 6,
+      "votes": 1
     },
     "note": "躲避\"黑暗海妖\"追捕、寻找线索逃脱的动作冒险"
   },
@@ -7750,6 +8575,11 @@
       "positive": 83,
       "reviews": 1033
     },
+    "bgm": {
+      "id": 652529,
+      "score": 2,
+      "votes": 1
+    },
     "note": "成人向 2D 像素横版平台动作"
   },
   {
@@ -7774,6 +8604,11 @@
     "steam": {
       "positive": 93,
       "reviews": 3364
+    },
+    "bgm": {
+      "id": 579391,
+      "score": 4,
+      "votes": 2
     },
     "note": "守夜生存类动作游戏，用监控和门锁撑过每一晚，抢先体验版"
   },
@@ -7927,6 +8762,11 @@
       "positive": 91,
       "reviews": 1321
     },
+    "bgm": {
+      "id": 558010,
+      "score": 6.6,
+      "votes": 19
+    },
     "note": "复古风格的射击动作游戏，拯救少女、讨伐怪物"
   },
   {
@@ -7976,6 +8816,11 @@
     "steam": {
       "positive": 90,
       "reviews": 977
+    },
+    "bgm": {
+      "id": 663329,
+      "score": 6.5,
+      "votes": 49
     },
     "note": "银河恶魔城式动作冒险，魅魔主人公可魅惑敌人"
   },
@@ -8099,6 +8944,11 @@
       "positive": 87,
       "reviews": 441
     },
+    "bgm": {
+      "id": 696098,
+      "score": 6.3,
+      "votes": 10
+    },
     "note": "像素风防守射击游戏，切换武器、部署炮塔抵御外星虫潮"
   },
   {
@@ -8173,6 +9023,16 @@
       "median": 85,
       "count": 476
     },
+    "vndb": {
+      "id": "v18783",
+      "rating": 78.7,
+      "votes": 277
+    },
+    "bgm": {
+      "id": 162783,
+      "score": 7.7,
+      "votes": 667
+    },
     "note": "高速机甲动作战斗与剧情 ADV 结合的赛博朋克作品"
   },
   {
@@ -8195,6 +9055,16 @@
     "egs": {
       "median": 75,
       "count": 167
+    },
+    "vndb": {
+      "id": "v21517",
+      "rating": 61.5,
+      "votes": 72
+    },
+    "bgm": {
+      "id": 220165,
+      "score": 6,
+      "votes": 103
     },
     "note": "BALDR 系列的赛博朋克高速动作 ADV"
   }

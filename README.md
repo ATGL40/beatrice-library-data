@@ -29,6 +29,7 @@ tools/
   build_pack.py    把 data/ 打成数据包
   check_pack.py    按软件导入时的规则检查数据包
   community.py     结算社区评分和神作复议票（见「参与评分」）
+  merge_ratings.py 把 VNDB / Bangumi 的评分并进作品资料（vndb / bgm 字段，可以重复跑）
   scoring.py       综合榜配方的参考实现：按 data/ 打分，列出神作、神作提名、各档作品数和评价不足的作品
   calibrate.py     重新校准配方：算热度刻度和分数线（--write 写进 scoring.json），打印锚点和提名线的参考值
 ```
@@ -43,7 +44,7 @@ tools/
 
 `egs` / `steam` / `followers` 是非 DLsite 作品的分数信号，查不到就不写或填 `null`：商业作品写 `egs`（`{"median": 中央值 0–100, "count": 数据数}`，取自 [ErogameScape](https://erogamescape.dyndns.org/)，经 VNDB 的外链对上作品），Steam 作品写 `steam`（`{"positive": 好评率 %, "reviews": 全语言评测数}`，取自 Steam 商店的评测汇总），Ci-en 作品写 `followers`（创作者在 Ci-en 的关注者数）；FANBOX 不公开数字，不写。
 
-`vndb` / `bgm` 是 VNDB 和 Bangumi 的评分，任何来源的作品都可以有，查不到就不写：`vndb` 是 `{"id": VNDB 编号, "rating": 10–100, "votes": 票数}`，`bgm` 是 `{"id": Bangumi 条目编号, "score": 1–10, "votes": 票数}`。综合榜的口碑会把它们和其他社区的评分合起来算。
+`vndb` / `bgm` 是 VNDB 和 Bangumi 的评分，任何来源的作品都可以有，查不到就不写：`vndb` 是 `{"id": VNDB 编号, "rating": 10–100, "votes": 票数}`，`bgm` 是 `{"id": Bangumi 条目编号, "score": 1–10, "votes": 票数}`。综合榜的口碑会把它们和其他社区的评分合起来算。由 `tools/merge_ratings.py 评分文件.json` 写入（只写确认对上的条目；几部作品共用一个条目时各自照写）。
 
 `community` 是社区评分：`{"avg": 平均星级 1–5（两位小数）, "count": 评分人数}`，任何来源的作品都可以有，由 `tools/community.py` 根据大家提交的评分生成，没人评分的作品不写。请不要手改。
 
@@ -81,7 +82,7 @@ tools/
   1. 神作（`data/canon.json` 里的，或投票升上来、没被撤下的）：F = max(F0, `canon.minScore`)，不封顶。
   2. 神作提名 `nominee`：不是神作，并且全部满足——
      - 曲线分 F0 ≥ `minF0`（95）；
-     - 在 `praiseSources` 里的某个社区过了原始评分线和人数线 `gates.praiseTop`（口★，DLsite 4.84 星 / 10,683 人，批评空间 92 / 876 人；VNDB / Bangumi 的线等资料到了再定；Steam 不算）。这两条线是参考「同来源评分前 0.5%」和「人数第 85 百分位」人工定的，小样本的作品永远提不了名；
+     - 在 `praiseSources` 里的某个社区过了原始评分线和人数线 `gates.praiseTop`（口★，DLsite 4.84 星 / 10,683 人，批评空间 92 / 876 人，VNDB 89.6 / 717 票，Bangumi 9.0 / 218 票；Steam 不算）。这两条线是参考「同来源评分前 0.5%」和「人数第 85 百分位」人工定的，小样本的作品永远提不了名；
      - 榜（上过民间榜单）、玩（社区评分 `avg` ≥ `gates.community.minAvg` 且 `count` ≥ `minCount`）、多（至少两个社区 R ≥ `second.R` 且 e ≥ `second.e`）至少 `others` 项；
      - 口碑 P 达到基准作品口碑的 `benchmarkPct`（90%）。基准作品是 `benchmark`，只是内部参数，软件里不显示。
 
