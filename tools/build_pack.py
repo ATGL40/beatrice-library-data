@@ -20,7 +20,7 @@ import tempfile
 import zipfile
 from pathlib import Path
 
-from check_pack import (canon_problems, community_problem, godvote_problem, pov_problem, raw_problem, scoring_problems,
+from check_pack import (aliases_ok, canon_problems, community_problem, godvote_problem, pov_problem, raw_problem, scoring_problems,
                         signal_problem)
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -80,6 +80,8 @@ def build_catalog(extras=()):
             raise ValueError(f"{gid} 的来源是 {g['src']}，只有 DLsite 和 Ci-en / FANBOX 的作品写 url")
         if "also" in g and not (isinstance(g["also"], list) and all(s in SRCS for s in g["also"])):
             raise ValueError(f"{gid} 的 also 要是来源数组，取值和 src 一样")
+        if "aliases" in g and not aliases_ok(g["aliases"]):
+            raise ValueError(f"{gid} 的 aliases 要是非空字符串的数组（不重复）")
         if "genres" in g:
             if g["src"] != "dlsite":
                 raise ValueError(f"{gid} 的来源是 {g['src']}，只有 DLsite 的作品写 genres")

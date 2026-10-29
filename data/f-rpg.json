@@ -198,6 +198,9 @@
       "zh": "战令姬拉西亚与失落要塞",
       "en": "Battle Princess Lacia and the Fallen Fortress"
     },
+    "aliases": [
+      "战令公主雷西亚与失落要塞"
+    ],
     "mt": [],
     "circle": "くろと雑貨",
     "date": "2023-09-23",
@@ -273,6 +276,10 @@
       "zh": "催眠之姬骑士",
       "en": "Hypnotized Princess Knight"
     },
+    "aliases": [
+      "催眠の姫騎士",
+      "催眠骑士"
+    ],
     "mt": [
       "zh",
       "en"
@@ -592,6 +599,10 @@
       "zh": "快订阅救救我！魔法蕾梵缇娅频道！～靠观众数变强的魔法少女～",
       "en": "Subscribe and Save Me! Magical Levantia Channel! ~The Magical Girl Who Grows Stronger with Viewers~"
     },
+    "aliases": [
+      "Please Subscribe! Magical Revantia Channel",
+      "求订阅！魔法少女莱万提亚频道"
+    ],
     "mt": [
       "zh",
       "en"
@@ -1581,6 +1592,9 @@
       "zh": "风纪委员会梦见女淫魔吗？",
       "en": "Do Disciplinary Committee Members Dream of Succubi?"
     },
+    "aliases": [
+      "风纪委员会梦见女淫魔吗？"
+    ],
     "mt": [
       "zh",
       "en"
@@ -6164,6 +6178,10 @@
       "zh": "艾米莉亚娜 -魔契圣女-",
       "en": "Emiliana: Holy Lady's Demonic Covenant"
     },
+    "aliases": [
+      "Saint Emiliana 魔契少女",
+      "魔契圣女埃米莉亚娜"
+    ],
     "mt": [
       "zh"
     ],
@@ -6576,6 +6594,9 @@
       "zh": "巫女神大人",
       "en": "Shrine Maiden Goddess"
     },
+    "aliases": [
+      "御神巫女"
+    ],
     "mt": [
       "zh"
     ],
@@ -7288,6 +7309,9 @@
       "zh": "魔导士蒂娅与不可思议的大图书馆～以H鉴定与耻疗拯救世界的淫乱魔导士～",
       "en": "Sorceress Tia and the Great Library of Wonder ~Save the World with H Appraisals & Healing~"
     },
+    "aliases": [
+      "魔导士蒂亚与不可思议的大图书馆"
+    ],
     "mt": [
       "zh"
     ],
@@ -7900,6 +7924,10 @@
       "zh": "魔法少女天穹法妮雅",
       "en": "Magical Girl Celesphonia"
     },
+    "aliases": [
+      "魔法少女苍蓝星",
+      "Celesphonia"
+    ],
     "mt": [],
     "circle": "しもばしら工房",
     "date": "2020-12-11",
@@ -8155,6 +8183,9 @@
       "zh": "迷宫街的格蕾丝",
       "en": "Grace of the Labyrinth Town"
     },
+    "aliases": [
+      "迷宮街的格蕾絲"
+    ],
     "mt": [
       "zh"
     ],
@@ -8232,6 +8263,9 @@
       "zh": "雪莉尔～金色之龙与遗迹之岛～",
       "en": "Sheryl ~Golden Dragon and The Ancient Island~"
     },
+    "aliases": [
+      "雪莉尔的大冒险～金色巨龙与遗迹之岛～"
+    ],
     "mt": [
       "zh"
     ],
@@ -9820,6 +9854,9 @@
       "zh": "人偶师的梦与觉醒",
       "en": "The Dreaming and Arousal of Puppeteers"
     },
+    "aliases": [
+      "人形使梦醒之时"
+    ],
     "mt": [
       "zh"
     ],

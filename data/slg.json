@@ -158,6 +158,9 @@
       "zh": "满车率300% 贰",
       "en": "Train Capacity 300% 2"
     },
+    "aliases": [
+      "Mansha300_2"
+    ],
     "mt": [
       "zh"
     ],
@@ -667,6 +670,9 @@
       "zh": "侵蚀的催眠",
       "en": "Hypnosis of Erosion"
     },
+    "aliases": [
+      "侵蚀的催眠"
+    ],
     "mt": [
       "zh",
       "en"
@@ -1227,6 +1233,9 @@
       "zh": "夏色课程～the last summer time",
       "en": "Summer-Colored Lessons ~the last summer time"
     },
+    "aliases": [
+      "NatsuiroLesson"
+    ],
     "mt": [
       "zh",
       "en"
@@ -2062,6 +2071,10 @@
       "zh": "极道无赖EX：女警鲇川光",
       "en": "Yakuza Rogue EX: Hikari Ayukawa [PC Ver.]"
     },
+    "aliases": [
+      "极道无赖EX女警・鮎川光",
+      "Yakuzarogue"
+    ],
     "mt": [],
     "circle": "WAKUWAKU",
     "date": "2026-06-05",
@@ -2423,6 +2436,9 @@
       "zh": "清洁工传说",
       "en": "Legend of Temporary Cleaner"
     },
+    "aliases": [
+      "Cleaner Densetsu"
+    ],
     "mt": [],
     "circle": "三しょく工房",
     "date": "2025-10-03",
@@ -5821,6 +5837,9 @@
       "zh": "优艳之花 续 淫缚之馆",
       "en": "Graceful Flower II: The Mansion of Lewd Bondage"
     },
+    "aliases": [
+      "Yuen-Zoku"
+    ],
     "mt": [
       "zh",
       "en"

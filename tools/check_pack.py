@@ -56,6 +56,12 @@ def is_int(v):
     return isinstance(v, int) and not isinstance(v, bool)
 
 
+def aliases_ok(v):
+    """aliases（核实过的别名，识别游戏文件夹用）：非空字符串的数组，不重复"""
+    return (isinstance(v, list) and len(v) > 0 and all(isinstance(a, str) and a.strip() for a in v)
+            and len(set(v)) == len(v))
+
+
 def signal_problem(g):
     """egs / steam / followers：只有对应来源的作品写；vndb / bgm：任何来源都可以写。都可以没有或 null；有就查类型和范围，返回问题说明或 None"""
     for key, src in SIGNALS.items():
@@ -383,7 +389,7 @@ def check(path, min_updated, min_revision=0):
     for gid, names in genres.items():
         if not (gid.isdigit() and isinstance(names, dict) and all(isinstance(names.get(k), str) and names[k] for k in LANGS)):
             problems.append(f"题材 {gid!r} 格式不对：要有 {', '.join(LANGS)} 三个名称")
-    tagged, signals, povs = 0, {}, {}
+    tagged, signals, povs, aliased = 0, {}, {}, 0
     for g in games:
         if not isinstance(g, dict) or not g.get("id"):
             continue
@@ -402,6 +408,11 @@ def check(path, min_updated, min_revision=0):
             problems.append(f"{g.get('id')} 的来源是 {src}，不该有 url")
         if "also" in g and not (isinstance(g["also"], list) and all(s in SRCS for s in g["also"])):
             problems.append(f"{g.get('id')} 的 also 要是来源数组")
+        if "aliases" in g:
+            if aliases_ok(g["aliases"]):
+                aliased += 1
+            else:
+                problems.append(f"{g.get('id')} 的 aliases 要是非空字符串的数组（不重复）")
         if "genres" in g:
             if src != "dlsite":
                 problems.append(f"{g.get('id')} 的来源是 {src}，只有 DLsite 的作品写 genres")
@@ -467,7 +478,7 @@ def check(path, min_updated, min_revision=0):
                                           for key, src in SIGNALS.items()))
     notes.insert(4, f"VNDB 评分 vndb {signals.get('vndb', 0)} 部，Bangumi 评分 bgm {signals.get('bgm', 0)} 部，"
                     f"社区评分 community {signals.get('community', 0)} 部，神作复议票 godvote {signals.get('godvote', 0)} 部；"
-                    f"主角视角 pov {sum(povs.values())} 部（{'，'.join(f'{k} {povs.get(k, 0)}' for k in POVS)}）")
+                    f"主角视角 pov {sum(povs.values())} 部（{'，'.join(f'{k} {povs.get(k, 0)}' for k in POVS)}）；别名 aliases {aliased} 部")
     recipe = f"{scoring.get('name')} version {scoring.get('version')}" if isinstance(scoring, dict) else "没有（用软件自带的）"
     notes.insert(5, f"综合榜配方：{recipe}；神作名单 {len(canon) if isinstance(canon, dict) else 0} 部")
     undated = 0

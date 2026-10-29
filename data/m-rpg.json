@@ -1455,6 +1455,10 @@
       "zh": "不知为何总是一个人的玛蒂尔达小姐！",
       "en": "Why Is Matilda Always Alone!"
     },
+    "aliases": [
+      "BocchiMatilda",
+      "孤独的玛蒂尔达小姐"
+    ],
     "mt": [
       "zh",
       "en"
@@ -2012,6 +2016,10 @@
       "zh": "梅尔菲亚斯 苍红的少女",
       "en": "Melfias: The Azure and Crimson Maidens"
     },
+    "aliases": [
+      "MELFIAS－苍红界域",
+      "Melfias"
+    ],
     "mt": [
       "zh",
       "en"
@@ -7050,6 +7058,9 @@
       "zh": "塔纳托斯",
       "en": "Thanatos"
     },
+    "aliases": [
+      "塔纳托斯"
+    ],
     "mt": [
       "zh"
     ],
@@ -8507,6 +8518,9 @@
       "zh": "与少女同行的地下城",
       "en": "Dungeon with Girl"
     },
+    "aliases": [
+      "Dungeon with Girl"
+    ],
     "mt": [
       "zh",
       "en"
