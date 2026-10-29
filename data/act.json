@@ -1,5 +1,411 @@
 [
   {
+    "id": "cien-1030",
+    "cat": "act",
+    "src": "cien",
+    "state": "dev",
+    "title": "シロノヤカタ",
+    "names": {
+      "ja": "シロノヤカタ",
+      "zh": "白之馆",
+      "en": "Shiro no Yakata"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "さきゅばすの日記",
+    "date": "2026-09-30",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 43952,
+    "url": "https://ci-en.dlsite.com/creator/1030",
+    "note": "点阵风探索型动作 RPG"
+  },
+  {
+    "id": "cien-12611",
+    "cat": "act",
+    "src": "cien",
+    "state": "dev",
+    "title": "Alice in Cradle",
+    "names": {
+      "ja": "Alice in Cradle",
+      "zh": "摇篮中的爱丽丝",
+      "en": "Alice in Cradle"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "ななめはっちゃー",
+    "date": "2026-09-30",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 80927,
+    "url": "https://ci-en.dlsite.com/creator/12611",
+    "note": "点阵风 2D 横版动作游戏，以体验版形式持续更新"
+  },
+  {
+    "id": "cien-13060",
+    "cat": "act",
+    "src": "cien",
+    "state": "dev",
+    "title": "TUNNEL ESCAPE 2",
+    "names": {
+      "ja": "TUNNEL ESCAPE 2",
+      "zh": "隧道逃脱2",
+      "en": "TUNNEL ESCAPE 2"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Elzee",
+    "date": "2026-10-12",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 36858,
+    "url": "https://ci-en.dlsite.com/creator/13060",
+    "note": "战斗探索游戏「TUNNEL ESCAPE」的续作，2026 年 10 月宣布开发"
+  },
+  {
+    "id": "cien-1756",
+    "cat": "act",
+    "src": "cien",
+    "state": "dev",
+    "title": "ロストグローリー 黄昏の継承者",
+    "names": {
+      "ja": "ロストグローリー 黄昏の継承者",
+      "zh": "失落荣光 黄昏的继承者",
+      "en": "Lost Glory: Heir of Twilight"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "猫ラボ",
+    "date": "2026-10-20",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 37012,
+    "url": "https://ci-en.dlsite.com/creator/1756",
+    "note": "动作加卡组构筑的游戏，每月更新版本"
+  },
+  {
+    "id": "cien-17888",
+    "cat": "act",
+    "src": "cien",
+    "state": "dev",
+    "title": "赤蓮忍法帖",
+    "names": {
+      "ja": "赤蓮忍法帖",
+      "zh": "赤莲忍法帖",
+      "en": "Akaren Ninpocho"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "曼珠沙華",
+    "date": "2026-10-01",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 128327,
+    "url": "https://ci-en.dlsite.com/creator/17888",
+    "note": "忍者题材的点阵风 2D 动作游戏"
+  },
+  {
+    "id": "cien-186",
+    "cat": "act",
+    "src": "cien",
+    "state": "dev",
+    "title": "UnHolY PraYeR",
+    "names": {
+      "ja": "UnHolY PraYeR",
+      "zh": "不洁祈祷",
+      "en": "UnHolY PraYeR"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "UnholY CreatioN",
+    "date": "2026-10-21",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 35774,
+    "url": "https://ci-en.dlsite.com/creator/186",
+    "note": "Spine 动画的横版动作游戏"
+  },
+  {
+    "id": "cien-18693",
+    "cat": "act",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "治癒使と呪われたダンジョン",
+    "names": {
+      "ja": "治癒使と呪われたダンジョン",
+      "zh": "治愈师与被诅咒的迷宫",
+      "en": "The Healer and the Cursed Dungeon"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "B-flat",
+    "date": "2026-10-10",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 25179,
+    "url": "https://ci-en.dlsite.com/creator/18693",
+    "note": "女主人公的迷宫动作游戏，Beta 版按月更新"
+  },
+  {
+    "id": "cien-2130",
+    "cat": "act",
+    "src": "cien",
+    "state": "dev",
+    "title": "カナデループ",
+    "names": {
+      "ja": "カナデループ",
+      "zh": "奏之循环",
+      "en": "Kanade Loop"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "tozicode.com",
+    "date": "2026-10-28",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 29098,
+    "url": "https://ci-en.dlsite.com/creator/2130",
+    "note": "猎奇向的动作游戏，按月发表制作报告"
+  },
+  {
+    "id": "cien-227",
+    "cat": "act",
+    "src": "cien",
+    "state": "dev",
+    "title": "Activate Melty",
+    "names": {
+      "ja": "Activate Melty",
+      "zh": "激活梅尔蒂",
+      "en": "Activate Melty"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "TeamKRAMA",
+    "date": "2026-10-23",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 72921,
+    "url": "https://ci-en.dlsite.com/creator/227",
+    "note": "3D 动作游戏，C108 时公开了体验版"
+  },
+  {
+    "id": "cien-23364",
+    "cat": "act",
+    "src": "cien",
+    "state": "dev",
+    "title": "CYAN BRAIN – 2nd World",
+    "names": {
+      "ja": "CYAN BRAIN – 2nd World",
+      "zh": "青色大脑 第二世界",
+      "en": "CYAN BRAIN – 2nd World"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "NEKOUJI",
+    "date": "2026-10-08",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 63538,
+    "url": "https://ci-en.dlsite.com/creator/23364",
+    "note": "动作游戏续作，2026 年 7 月起公开体验版"
+  },
+  {
+    "id": "cien-51",
+    "cat": "act",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "サキュバスレイル（仮）",
+    "names": {
+      "ja": "サキュバスレイル（仮）",
+      "zh": "魅魔轨道（暂定）",
+      "en": "Succubus Rail (working title)"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "Chaos Gate",
+    "date": "2026-10-05",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 22090,
+    "url": "https://ci-en.dlsite.com/creator/51",
+    "note": "女性视角的动作游戏新作"
+  },
+  {
+    "id": "cien-5170",
+    "cat": "act",
+    "src": "cien",
+    "state": "dev",
+    "title": "転生したら服だけ溶かすスライムだった件",
+    "names": {
+      "ja": "転生したら服だけ溶かすスライムだった件",
+      "zh": "关于我转生成只会溶解衣服的史莱姆这档事",
+      "en": "That Time I Got Reincarnated as a Clothes-Melting Slime"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "Riez-ON",
+    "date": "2026-10-27",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 86073,
+    "url": "https://ci-en.dlsite.com/creator/5170",
+    "note": "扮演史莱姆的动作新作，目前公开了验证版"
+  },
+  {
+    "id": "cien-5332",
+    "cat": "act",
+    "src": "cien",
+    "state": "dev",
+    "title": "アヤメルキシエ",
+    "names": {
+      "ja": "アヤメルキシエ",
+      "zh": "绫梅露琪希耶",
+      "en": "Ayame Lucisie"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ふろねずみ",
+    "date": "2026-10-26",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 22584,
+    "url": "https://ci-en.dlsite.com/creator/5332",
+    "note": "2D 加 3D 的动作游戏，α 体验版已到 Ver0.070"
+  },
+  {
+    "id": "cien-5355",
+    "cat": "act",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "落日の姫騎士ウェペリト〜どの種族の精子でも受精する呪いの淫紋〜",
+    "names": {
+      "ja": "落日の姫騎士ウェペリト〜どの種族の精子でも受精する呪いの淫紋〜",
+      "zh": "落日的姬骑士维佩丽特",
+      "en": "Weperit the Fallen Princess Knight"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "幻想ラボ",
+    "date": "2026-10-23",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 26457,
+    "url": "https://ci-en.dlsite.com/creator/5355",
+    "note": "在孤岛上探索、收集七颗宝石的动作游戏"
+  },
+  {
+    "id": "cien-6141",
+    "cat": "act",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "レズバト！",
+    "names": {
+      "ja": "レズバト！",
+      "zh": "百合格斗！",
+      "en": "Lez Battle!"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "でぃれ。",
+    "date": "2026-10-26",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 19563,
+    "url": "https://ci-en.dlsite.com/creator/6141",
+    "note": "女性之间格斗对战的游戏，Ci-en 公开 a0.55 版（相当于抢先体验）"
+  },
+  {
+    "id": "cien-8186",
+    "cat": "act",
+    "src": "cien",
+    "state": "dev",
+    "title": "御色気忍者爽快アクション（仮）",
+    "names": {
+      "ja": "御色気忍者爽快アクション（仮）",
+      "zh": "色气忍者爽快动作（暂定）",
+      "en": "Sexy Ninja Action (working title)"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "dobuworks",
+    "date": "2026-09-30",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 46350,
+    "url": "https://ci-en.dlsite.com/creator/8186",
+    "note": "忍者题材的横版动作游戏，2026 年 6 月发表"
+  },
+  {
+    "id": "fanbox-celesgame",
+    "cat": "act",
+    "src": "fanbox",
+    "state": "dev",
+    "title": "魔紋試煉",
+    "names": {
+      "ja": "魔紋試煉",
+      "zh": "魔纹试炼",
+      "en": "Trial of the Magic Crest"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "CelesGame",
+    "date": "2026-09-13",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "url": "https://celesgame.fanbox.cc/",
+    "note": "第三人称 3D 动作游戏，被俘的冒险者在地牢中与魔物战斗"
+  },
+  {
     "id": "RJ01003844",
     "cat": "act",
     "pov": "female",
@@ -178,6 +584,24 @@
     ]
   },
   {
+    "id": "RJ01032344",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "メガ姉ちゃん～おねショタモン娘探索アクションRPG～",
+    "names": {
+      "ja": "メガ姉ちゃん～おねショタモン娘探索アクションRPG～"
+    },
+    "mt": [],
+    "circle": "Pinkie Games",
+    "date": "2023-02-25",
+    "rate": 4.62,
+    "dl": 9382,
+    "rc": 2789,
+    "note": "おねショタ好きの方やドットエロ好き、探索アクションRPG好きの方にオススメ! 探索アクションRPGとしてのゲーム性とドットエロにこだわった にぎやかキュートなフ",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01032344.html"
+  },
+  {
     "id": "RJ01035443",
     "cat": "act",
     "pov": "male",
@@ -249,6 +673,26 @@
       "323",
       "190"
     ]
+  },
+  {
+    "id": "RJ01052720",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "変化と無様のフロンティア -侮挫魔2-",
+    "names": {
+      "ja": "変化と無様のフロンティア -侮挫魔2-",
+      "en": "BUZAMA 2: Humiliating New Frontiers"
+    },
+    "mt": [],
+    "circle": "エンデアア",
+    "date": "2023-04-26",
+    "rate": 4.4,
+    "dl": 23450,
+    "rc": 5487,
+    "note": "状態変化・無様エロ ボスバトルアクションゲーム 第二弾!!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01052720.html",
+    "pov": "male"
   },
   {
     "id": "RJ01054351",
@@ -435,6 +879,26 @@
     ]
   },
   {
+    "id": "RJ01085236",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "冒険者のモンスター娘の旅",
+    "names": {
+      "ja": "冒険者のモンスター娘の旅",
+      "en": "The Adventurer's Monster Girl Journey"
+    },
+    "mt": [],
+    "circle": "異世界",
+    "date": "2023-08-26",
+    "rate": 4.06,
+    "dl": 3529,
+    "rc": 624,
+    "note": "あなたは冒険者として、魔物娘のいる世界で冒険をすることになります。あなたは村に現れ、村の周りに徐々に魔物が現れるでしょう。村の長から様々な任務を受け取り、それら",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01085236.html",
+    "pov": "male"
+  },
+  {
     "id": "RJ01093374",
     "cat": "act",
     "pov": "male",
@@ -468,6 +932,61 @@
       "146",
       "156"
     ]
+  },
+  {
+    "id": "RJ01099295",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ミライ♂エスケープ ～ノアのどきどきミッション!?～",
+    "names": {
+      "ja": "ミライ♂エスケープ ～ノアのどきどきミッション!?～"
+    },
+    "mt": [],
+    "circle": "くしもとハウス",
+    "date": "2023-11-24",
+    "rate": 4.58,
+    "dl": 2442,
+    "rc": 678,
+    "note": "本番なし!ソフトなのにしっかりえっちな簡単避けアクション!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01099295.html"
+  },
+  {
+    "id": "RJ01102326",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "スーパーパンチボーイ",
+    "names": {
+      "ja": "スーパーパンチボーイ"
+    },
+    "mt": [],
+    "circle": "excess m",
+    "date": "2023-11-11",
+    "rate": 4.55,
+    "dl": 18183,
+    "rc": 4706,
+    "note": "おねショタ×逆リョナ×色仕掛け!! ちょっぴりエッチで、ちょっぴりズルくて、ちょっぴりむちむちなおねえさんたちと戦うボクシング風拳闘アクションゲーム!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01102326.html",
+    "pov": "male"
+  },
+  {
+    "id": "RJ01102919",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "女怪人VS女装戦士君2",
+    "names": {
+      "ja": "女怪人VS女装戦士君2"
+    },
+    "mt": [],
+    "circle": "78",
+    "date": "2024-08-31",
+    "rate": 4.51,
+    "dl": 7977,
+    "rc": 1760,
+    "note": "女装ショタヒーローが悪の組織に立ち向かう、レトロ風2Dドットアクションゲーム!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01102919.html"
   },
   {
     "id": "RJ01105350",
@@ -649,6 +1168,24 @@
     ]
   },
   {
+    "id": "RJ01131669",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "恐怖の宴 〜美女達に狩られて逝く夜〜",
+    "names": {
+      "ja": "恐怖の宴 〜美女達に狩られて逝く夜〜"
+    },
+    "mt": [],
+    "circle": "ドミホラー開発室",
+    "date": "2023-12-29",
+    "rate": 4.06,
+    "dl": 1473,
+    "rc": 295,
+    "note": "女の子から暗闇の中を無力に逃げ回り、捕まると屈服するまで××される。逆転一切なし。ドミネーション(支配)×ホラー(恐怖)=ドミホラーという新ジャンル。あなたは館",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01131669.html"
+  },
+  {
     "id": "RJ01134665",
     "cat": "act",
     "pov": "male",
@@ -752,6 +1289,28 @@
     ]
   },
   {
+    "cat": "act",
+    "state": "released",
+    "title": "Life with the tribe",
+    "circle": "ChimeraZak",
+    "date": "2024-02-16",
+    "rate": 4.37,
+    "dl": 40409,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01150693.html",
+    "note": "落海生还的少年与全是女性的部落一起生活",
+    "id": "RJ01150693",
+    "names": {
+      "ja": "Life with the tribe",
+      "zh": "与部落一起的生活",
+      "en": "Life with the tribe"
+    },
+    "mt": [
+      "zh"
+    ],
+    "rc": 7054,
+    "src": "dlsite"
+  },
+  {
     "id": "RJ01156587",
     "cat": "act",
     "pov": "female",
@@ -820,6 +1379,25 @@
     ]
   },
   {
+    "id": "RJ01164597",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "おねショタARPG モン娘アルカナ",
+    "names": {
+      "ja": "おねショタARPG モン娘アルカナ"
+    },
+    "mt": [],
+    "circle": "常に2位狙い",
+    "date": "2024-09-27",
+    "rate": 4.4,
+    "dl": 1870,
+    "rc": 415,
+    "note": "【アクションRPG】【おねショタ】【モンスター娘】【ライトマゾ向け】記憶を失った少年がモンスター娘とえっちなことするおねショタARPG",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01164597.html",
+    "pov": "male"
+  },
+  {
     "id": "RJ01169914",
     "cat": "act",
     "pov": "female",
@@ -854,6 +1432,24 @@
       "182",
       "313"
     ]
+  },
+  {
+    "id": "RJ01175927",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "狂気の宴 ～禁断の誘惑に溺れる夜～",
+    "names": {
+      "ja": "狂気の宴 ～禁断の誘惑に溺れる夜～"
+    },
+    "mt": [],
+    "circle": "ドミホラー開発室",
+    "date": "2024-05-12",
+    "rate": 4.04,
+    "dl": 2005,
+    "rc": 402,
+    "note": "ホラーなのにエロい!女達から逃げて捕まり犯される、一人称の3Dゲーム続編!エロ要素、ストーリー性、アクション等、全て大きくパワーアップ。新たに圧倒的な力「魔法」",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01175927.html"
   },
   {
     "id": "RJ01177942",
@@ -955,6 +1551,26 @@
       "149",
       "134"
     ]
+  },
+  {
+    "id": "RJ01200621",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ReturnAtis",
+    "names": {
+      "ja": "ReturnAtis",
+      "zh": "【日文版】ReturnAtis"
+    },
+    "mt": [],
+    "circle": "Teのジジ",
+    "date": "2024-06-29",
+    "rate": 4.49,
+    "dl": 8843,
+    "rc": 1591,
+    "note": "M向けACT、Hシーンが50個以上、フルHシーンはアニメーション、ボイス付き、逆転なし",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01200621.html",
+    "pov": "male"
   },
   {
     "id": "RJ01205281",
@@ -1127,6 +1743,25 @@
     ]
   },
   {
+    "id": "RJ01237479",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "スペース性癖破壊ンベーダー",
+    "names": {
+      "ja": "スペース性癖破壊ンベーダー"
+    },
+    "mt": [],
+    "circle": "Cold Rod",
+    "date": "2024-08-20",
+    "rate": 4.33,
+    "dl": 1089,
+    "rc": 229,
+    "note": "上空から来る敵を倒しウェーブごとに自身を強化する少し特殊な性癖のシチュエーション満載のお手軽ローグライトシューティング!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01237479.html",
+    "pov": "female"
+  },
+  {
     "id": "RJ01245153",
     "cat": "act",
     "pov": "female",
@@ -1270,6 +1905,26 @@
       "128",
       "190"
     ]
+  },
+  {
+    "id": "RJ01292340",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "夢魔世界の迷い人",
+    "names": {
+      "ja": "夢魔世界の迷い人",
+      "zh": "【中英日】Lost in the World of Succubi",
+      "en": "Lost in the World of Succubi"
+    },
+    "mt": [],
+    "circle": "しもふみ屋",
+    "date": "2025-01-09",
+    "rate": 4.67,
+    "dl": 20375,
+    "rc": 3552,
+    "note": "えっちな夢魔たちにドットアニメで搾られる!おねショタ2D探索アクション",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01292340.html"
   },
   {
     "id": "RJ01298588",
@@ -1656,6 +2311,24 @@
     ]
   },
   {
+    "id": "RJ01414102",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "おかしな刑務所と淫欲の地下迷宮 ～隙だらけな七奈のエッチなプリズンブレイク～",
+    "names": {
+      "ja": "おかしな刑務所と淫欲の地下迷宮 ～隙だらけな七奈のエッチなプリズンブレイク～"
+    },
+    "mt": [],
+    "circle": "FUJIYAMA SOFT",
+    "date": "2026-04-25",
+    "rate": 4.14,
+    "dl": 14749,
+    "rc": 1441,
+    "note": "色々と隙だらけな女の子「七奈」と、弟の「ショータ」が、刑務所で看守や囚人、触手やスライムなどの怪異にドットHアニメで襲われるホラーゲームです。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01414102.html"
+  },
+  {
     "id": "RJ01416845",
     "cat": "act",
     "pov": "female",
@@ -1728,6 +2401,25 @@
     ]
   },
   {
+    "id": "RJ01442557",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "おねショタ育成ACT ちょうえつゆうぎ",
+    "names": {
+      "ja": "おねショタ育成ACT ちょうえつゆうぎ"
+    },
+    "mt": [],
+    "circle": "excess m",
+    "date": "2025-11-08",
+    "rate": 4.67,
+    "dl": 13158,
+    "rc": 2503,
+    "note": "◆色仕掛け x ◆おねショタ x ◆育成ACT ！！おねショタACTシリーズの最新作は育成要素を絡めた男性受け作品！がんばって育てた主人公がエッチな誘惑で崩れる",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01442557.html",
+    "pov": "male"
+  },
+  {
     "id": "RJ01458340",
     "cat": "act",
     "pov": "female",
@@ -1762,6 +2454,26 @@
       "114",
       "162"
     ]
+  },
+  {
+    "id": "RJ01460421",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "Monster Girl Town",
+    "names": {
+      "ja": "Monster Girl Town",
+      "en": "onster Girl Town"
+    },
+    "mt": [],
+    "circle": "開発室404",
+    "date": "2025-09-12",
+    "rate": 4.1,
+    "dl": 6368,
+    "rc": 657,
+    "note": "不気味な街で、魅惑のモン娘たちから逃げ隠れ！ 全13種のセクシーシーンとスリル満点の追走劇を楽しめる、ドキドキのステルスホラー。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01460421.html",
+    "pov": "male"
   },
   {
     "id": "RJ01463643",
@@ -1838,6 +2550,24 @@
       "113",
       "193"
     ]
+  },
+  {
+    "id": "RJ01492779",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "8階洋館",
+    "names": {
+      "ja": "8階洋館"
+    },
+    "mt": [],
+    "circle": "レモンミルク",
+    "date": "2026-01-14",
+    "rate": 3.83,
+    "dl": 2819,
+    "rc": 229,
+    "note": "「異変を見逃せば、永遠に抜け出せない──“8階建て洋館”",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01492779.html"
   },
   {
     "id": "RJ01497368",
@@ -2401,6 +3131,25 @@
     ]
   },
   {
+    "id": "RJ01646704",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "Succubus Raid",
+    "names": {
+      "ja": "Succubus Raid"
+    },
+    "mt": [],
+    "circle": "DHM",
+    "date": "2026-08-09",
+    "rate": 4.52,
+    "dl": 6111,
+    "rc": 680,
+    "note": "魔物娘逆レイプ2D見下ろしサバイバー風アクション",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01646704.html",
+    "pov": "male"
+  },
+  {
     "id": "RJ01648342",
     "cat": "act",
     "pov": "female",
@@ -2539,6 +3288,24 @@
       "011",
       "125"
     ]
+  },
+  {
+    "id": "RJ01717951",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "風魔伝 リリスの塔",
+    "names": {
+      "ja": "風魔伝 リリスの塔"
+    },
+    "mt": [],
+    "circle": "",
+    "date": "2026-10-03",
+    "rate": 4.73,
+    "dl": 2501,
+    "rc": 286,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01717951.html",
+    "note": ""
   },
   {
     "id": "RJ087520",
@@ -2710,6 +3477,25 @@
       "016",
       "129"
     ]
+  },
+  {
+    "id": "RJ156210",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ツナガルドリーム ショタがエッチな目にあうアクションゲーム",
+    "names": {
+      "ja": "ツナガルドリーム ショタがエッチな目にあうアクションゲーム",
+      "en": "TSUNAGARU DREAM"
+    },
+    "mt": [],
+    "circle": "青色ハッキョウダイオード",
+    "date": "2016-01-30",
+    "rate": 4.4,
+    "dl": 6257,
+    "rc": 2907,
+    "note": "小さな少年ハルが、大人のお姉さん達のエッチな夢の中でエッチな目にあう横スクロールアクションゲーム。夢の世界に閉じ込められ、モンスター娘になってしまったお姉さん達",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ156210.html"
   },
   {
     "id": "RJ157957",
@@ -3105,6 +3891,46 @@
       "183",
       "173"
     ]
+  },
+  {
+    "cat": "act",
+    "state": "released",
+    "title": "おねショタ剣戟ACT パレードバスター",
+    "circle": "excess m",
+    "date": "2016-10-01",
+    "rate": 4.62,
+    "dl": 27074,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ176518.html",
+    "note": "第一人称剑戟动作，男孩主角对抗大姐姐军团",
+    "id": "RJ176518",
+    "names": {
+      "ja": "おねショタ剣戟ACT パレードバスター",
+      "zh": "姐正太剑戟ACT 游行破坏者",
+      "en": "Parade Buster"
+    },
+    "mt": [
+      "zh"
+    ],
+    "rc": 12735,
+    "src": "dlsite"
+  },
+  {
+    "id": "RJ178117",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "体格差おねショタバトル! 女ミュータント vs C級エージェント",
+    "names": {
+      "ja": "体格差おねショタバトル! 女ミュータント vs C級エージェント"
+    },
+    "mt": [],
+    "circle": "78",
+    "date": "2016-07-23",
+    "rate": 4.01,
+    "dl": 4063,
+    "rc": 1734,
+    "note": "体格差のある女敵キャラを犯す、\r\nあるいは犯される2Dドットエロ格闘アクションゲームです。\r\nストーリー【攻めルート〈男→女〉、受けルート〈女→男〉】選択方式で",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ178117.html"
   },
   {
     "id": "RJ180171",
@@ -4104,6 +4930,24 @@
     ]
   },
   {
+    "id": "RJ219132",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ショタファイト!～女の子たちとバトルファック～",
+    "names": {
+      "ja": "ショタファイト!～女の子たちとバトルファック～"
+    },
+    "mt": [],
+    "circle": "東海堂",
+    "date": "2018-02-16",
+    "rate": 4.5,
+    "dl": 5332,
+    "rc": 2121,
+    "note": "ショタ君が女の子たちと戦う2Dアクションバトルファックゲームです。ロリ、お姉さん、魔物娘と戦おう!(負けたら犯されます)",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ219132.html"
+  },
+  {
     "id": "RJ219221",
     "cat": "act",
     "pov": "female",
@@ -4473,6 +5317,26 @@
     ]
   },
   {
+    "id": "RJ225414",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "おねショタACT スマッシュボーイ [フル]",
+    "names": {
+      "ja": "おねショタACT スマッシュボーイ [フル]",
+      "zh": "御姐正太ACT 粉碎男孩【完整版】",
+      "en": "One x Shota ACT: SMASH BOY [Full]"
+    },
+    "mt": [],
+    "circle": "excess m",
+    "date": "2018-08-04",
+    "rate": 4.58,
+    "dl": 18504,
+    "rc": 7525,
+    "note": "敵は卑劣なおねえさん軍団なACTゲーム再び!マウスだけでできるM男性向けおねショタ格闘アクションです",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ225414.html"
+  },
+  {
     "id": "RJ225459",
     "cat": "act",
     "src": "dlsite",
@@ -4583,6 +5447,24 @@
     ]
   },
   {
+    "id": "RJ230642",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "体格差おねショタバトル2 女怪人vs女装戦士君",
+    "names": {
+      "ja": "体格差おねショタバトル2 女怪人vs女装戦士君"
+    },
+    "mt": [],
+    "circle": "78",
+    "date": "2018-08-18",
+    "rate": 4.31,
+    "dl": 5585,
+    "rc": 2168,
+    "note": "女怪人の攻撃や誘惑を振り切り、月の戦士を救出しよう!\r\n2Dドットエロ格闘アクションゲーム!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ230642.html"
+  },
+  {
     "id": "RJ233726",
     "cat": "act",
     "src": "dlsite",
@@ -4683,6 +5565,24 @@
     ]
   },
   {
+    "id": "RJ235085",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "潜入捜査官・五十嵐レナ～違法闇プロレスに潜入するも、観衆の前で凄惨な凌辱され、泣き叫びました～",
+    "names": {
+      "ja": "潜入捜査官・五十嵐レナ～違法闇プロレスに潜入するも、観衆の前で凄惨な凌辱され、泣き叫びました～"
+    },
+    "mt": [],
+    "circle": "アーモンドと巨牛乳",
+    "date": "2018-09-23",
+    "rate": 3.94,
+    "dl": 3757,
+    "rc": 1798,
+    "note": "【ベルトスクロール2Dアクション】違法闇プロレス撲滅のために潜入捜査を決行。女子校生捜査官の五十嵐レナが潜入する!!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ235085.html"
+  },
+  {
     "id": "RJ235123",
     "cat": "act",
     "src": "dlsite",
@@ -4773,6 +5673,24 @@
       "121",
       "113"
     ]
+  },
+  {
+    "id": "RJ241981",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "魁!おねしょたFight!",
+    "names": {
+      "ja": "魁!おねしょたFight!"
+    },
+    "mt": [],
+    "circle": "あんかけプリン",
+    "date": "2018-12-29",
+    "rate": 4.28,
+    "dl": 6035,
+    "rc": 2439,
+    "note": "さらわれた母を取り戻すために向かう少年「ゆう」。しかし襲い掛かってくる肉食系のお姉さんたちは想像以上にエッチだった…。欲望むき出しで立ちはだかるお姉さんたちに勝",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ241981.html"
   },
   {
     "id": "RJ241993",
@@ -4929,6 +5847,25 @@
       "118",
       "190"
     ]
+  },
+  {
+    "id": "RJ247261",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "Daydreamer デイドリーマー 淫魔と天使と勇者の(バニーの)思い出",
+    "names": {
+      "ja": "Daydreamer デイドリーマー 淫魔と天使と勇者の(バニーの)思い出",
+      "en": "Daydreamer - Memories of a Succubus & Angel & Hero/Bunny"
+    },
+    "mt": [],
+    "circle": "さんとり",
+    "date": "2019-03-01",
+    "rate": 4.47,
+    "dl": 11042,
+    "rc": 4391,
+    "note": "負けたらエッチな淫魔に搾られる!\r\n思い出の女の子たちの誘惑をふりきりながら淫魔たちの野望を砕け!\r\n敵キャラ全て女の子のツクール製アクション",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ247261.html"
   },
   {
     "id": "RJ247391",
@@ -5242,6 +6179,26 @@
     ]
   },
   {
+    "id": "RJ256667",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "スーパーまものシスターズ",
+    "names": {
+      "ja": "スーパーまものシスターズ",
+      "zh": "SUPER MAMONO SISTERS",
+      "en": "Super Mamono Sisters"
+    },
+    "mt": [],
+    "circle": "しもふみ屋",
+    "date": "2019-10-13",
+    "rate": 4.59,
+    "dl": 17148,
+    "rc": 5760,
+    "note": "魔物娘に誘惑・逆レイプされちゃう、爽快2Dドットアクション!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ256667.html"
+  },
+  {
     "id": "RJ260188",
     "cat": "act",
     "src": "dlsite",
@@ -5339,6 +6296,25 @@
       "134",
       "121"
     ]
+  },
+  {
+    "id": "RJ264906",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "おねショタA-RPG 夢から醒めた亡者",
+    "names": {
+      "ja": "おねショタA-RPG 夢から醒めた亡者",
+      "en": "YUME-SAME"
+    },
+    "mt": [],
+    "circle": "excess m",
+    "date": "2019-10-19",
+    "rate": 4.65,
+    "dl": 22122,
+    "rc": 9954,
+    "note": "■男主人公・男性受け型シチュ主体の横スクロールA-RPG ■敵は全て女性型・全41種類■ザコ・ボス全キャラに主人公が敗北するバッドエンドエロイベントあり",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ264906.html"
   },
   {
     "id": "RJ266184",
@@ -5439,6 +6415,25 @@
       "146",
       "157"
     ]
+  },
+  {
+    "id": "RJ269588",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "けもみみトレジャーハンターズ!",
+    "names": {
+      "ja": "けもみみトレジャーハンターズ!",
+      "en": "KEMOMIMI TREASURE HUNTERS!"
+    },
+    "mt": [],
+    "circle": "酸遁",
+    "date": "2019-11-16",
+    "rate": 4.68,
+    "dl": 11621,
+    "rc": 4942,
+    "note": "トップビューACTSTG。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ269588.html"
   },
   {
     "id": "RJ273197",
@@ -5648,6 +6643,25 @@
     ]
   },
   {
+    "id": "RJ279794",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "少年退魔伝アシタ～最終決戦!天竺の段～",
+    "names": {
+      "ja": "少年退魔伝アシタ～最終決戦!天竺の段～",
+      "en": "Monster Fighter Boy Ashita ~Final Battle - Tenjiku Level~"
+    },
+    "mt": [],
+    "circle": "マルメワークス",
+    "date": "2020-05-02",
+    "rate": 4.49,
+    "dl": 2188,
+    "rc": 756,
+    "note": "少年勇者が犯される本格的ベルトスクロールアクションゲームの最終章!! 登場敵モンスター新規27+18=45体 Hドットアニメ36シーン HCG基本24差分54枚",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ279794.html"
+  },
+  {
     "id": "RJ281198",
     "cat": "act",
     "pov": "female",
@@ -5788,6 +6802,44 @@
     ]
   },
   {
+    "id": "RJ291913",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "逃げてどっぴゅん☆サキュバスでピンチ!",
+    "names": {
+      "ja": "逃げてどっぴゅん☆サキュバスでピンチ!",
+      "en": "Escaping the Succubus! I'm in a Pinch!"
+    },
+    "mt": [],
+    "circle": "ぽみみ子宅",
+    "date": "2020-06-25",
+    "rate": 4.27,
+    "dl": 6341,
+    "rc": 2645,
+    "note": "とびきりえっちな爆乳サキュバスちゃんがボクを狙ってる!? ボクくんは無事に逃げ切れきれるかな☆ キュートなドットが動く! かわいくてえっちな鬼ごっこアクションゲ",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ291913.html"
+  },
+  {
+    "id": "RJ295153",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "Daydreamer ～淫魔と天使ともんすた～娘の思い出～ 前編",
+    "names": {
+      "ja": "Daydreamer ～淫魔と天使ともんすた～娘の思い出～ 前編",
+      "en": "Daydreamer - Memories of Monster, Angel, and Succubus Girls 1"
+    },
+    "mt": [],
+    "circle": "さんとり",
+    "date": "2020-09-18",
+    "rate": 4.61,
+    "dl": 6362,
+    "rc": 2714,
+    "note": "淫魔と戦い、自分の思い出を取り戻せ!負ければヌルヌル動くHシーンで快楽の虜必至の受け身主人公系アクションRPG",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ295153.html"
+  },
+  {
     "id": "RJ295827",
     "cat": "act",
     "pov": "male",
@@ -5824,6 +6876,24 @@
       "144",
       "156"
     ]
+  },
+  {
+    "id": "RJ297128",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "NoTearsAction～アル姉ぇの忍法帖～",
+    "names": {
+      "ja": "NoTearsAction～アル姉ぇの忍法帖～"
+    },
+    "mt": [],
+    "circle": "NoTears",
+    "date": "2020-09-01",
+    "rate": 4.31,
+    "dl": 4374,
+    "rc": 1958,
+    "note": "くノ一アル姉ぇがさらわれたケンジくんを助けるために盗賊団と戦うお話。ゴブリン、オーク、オオカミなど多彩なモンスターや相手の盗賊団に負けてしまうとそのまま陵辱の限",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ297128.html"
   },
   {
     "id": "RJ297937",
@@ -5901,6 +6971,25 @@
     ]
   },
   {
+    "id": "RJ300168",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "カボプリ!-完熟- カボチ王国の交尾姫",
+    "names": {
+      "ja": "カボプリ!-完熟- カボチ王国の交尾姫",
+      "en": "Kabopuri!! Fully Mature ~ The Kabochi Kingdom's Fucking Princess"
+    },
+    "mt": [],
+    "circle": "ナップルミル",
+    "date": "2020-11-22",
+    "rate": 4.56,
+    "dl": 7839,
+    "rc": 3497,
+    "note": "シンプルなエロドットアクションです。  爆乳未亡人を操って50種以上のモンスターと交尾! 孕ませよう!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ300168.html"
+  },
+  {
     "id": "RJ300845",
     "cat": "act",
     "src": "dlsite",
@@ -5968,6 +7057,25 @@
       "128",
       "182"
     ]
+  },
+  {
+    "id": "RJ302128",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "JKが冒険者を目指すが異世界はレイプ合法だった",
+    "names": {
+      "ja": "JKが冒険者を目指すが異世界はレイプ合法だった",
+      "en": "Aiming to be an adventurer, but rape is legal in another world."
+    },
+    "mt": [],
+    "circle": "托卵JP",
+    "date": "2020-10-09",
+    "rate": 3.79,
+    "dl": 2886,
+    "rc": 797,
+    "note": "リアルタイム3D+TPSゲーム!ゲームの勝敗によってストーリーが分岐するマルチエンディングゲーム",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ302128.html"
   },
   {
     "id": "RJ302205",
@@ -6380,6 +7488,25 @@
     ]
   },
   {
+    "id": "RJ323291",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "Super Monsters'n Girls",
+    "names": {
+      "ja": "Super Monsters'n Girls"
+    },
+    "mt": [],
+    "circle": "DHM",
+    "date": "2021-05-02",
+    "rate": 4.64,
+    "dl": 13356,
+    "rc": 4407,
+    "note": "青年が人類の尊厳を守るために戦う魔物娘逆レイプ2D横スクロールアクション",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ323291.html",
+    "pov": "male"
+  },
+  {
     "id": "RJ323716",
     "cat": "act",
     "pov": "female",
@@ -6518,6 +7645,26 @@
     ]
   },
   {
+    "id": "RJ325142",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "おねショタ剣戟ACT 廻るハゴコロ",
+    "names": {
+      "ja": "おねショタ剣戟ACT 廻るハゴコロ",
+      "en": "Oneshota Swordplay ACT: Hagokoro"
+    },
+    "mt": [],
+    "circle": "excess m",
+    "date": "2021-06-19",
+    "rate": 4.58,
+    "dl": 23249,
+    "rc": 8963,
+    "note": "敵は全員エッチで卑怯なおねえさん・再び!男主人公の簡単操作のおねショタ剣戟ゲームの新作です",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ325142.html",
+    "pov": "male"
+  },
+  {
     "id": "RJ325583",
     "cat": "act",
     "src": "dlsite",
@@ -6551,6 +7698,24 @@
       "113",
       "123"
     ]
+  },
+  {
+    "id": "RJ329482",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "Daydreamer 天使と淫魔と踊り子の思い出",
+    "names": {
+      "ja": "Daydreamer 天使と淫魔と踊り子の思い出"
+    },
+    "mt": [],
+    "circle": "さんとり",
+    "date": "2024-02-02",
+    "rate": 4.44,
+    "dl": 10159,
+    "rc": 2652,
+    "note": "前作「Daydreamerもんすたー娘(前編)」に続く物語・・・どことも知らない町に辿り着いた主人公は、二人の踊り子に出会う。彼女たちと襲い来る淫魔を倒し、町を",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ329482.html"
   },
   {
     "id": "RJ330023",
@@ -6897,6 +8062,24 @@
     ]
   },
   {
+    "id": "RJ361619",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "逃げてどっぴゅん☆くノ一のいたずら忍法!",
+    "names": {
+      "ja": "逃げてどっぴゅん☆くノ一のいたずら忍法!"
+    },
+    "mt": [],
+    "circle": "ぽみみ子宅",
+    "date": "2021-12-11",
+    "rate": 4.32,
+    "dl": 7879,
+    "rc": 2716,
+    "note": "とびきりえっちなくノ一がボクを狙ってる!? ボクくんは無事に逃げ切れきれるかな☆  新要素も追加!パワーアップしたキュートでえっちな鬼ごっこアクションゲーム♪",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ361619.html"
+  },
+  {
     "id": "RJ363355",
     "cat": "act",
     "src": "dlsite",
@@ -7231,6 +8414,25 @@
       "115",
       "156"
     ]
+  },
+  {
+    "id": "RJ387951",
+    "cat": "act",
+    "src": "dlsite",
+    "state": "released",
+    "title": "メカ技師リスタの大冒険",
+    "names": {
+      "ja": "メカ技師リスタの大冒険",
+      "zh": "机械技师莉丝塔的大冒险【日文版】"
+    },
+    "mt": [],
+    "circle": "Resta!",
+    "date": "2022-05-19",
+    "rate": 4.42,
+    "dl": 13413,
+    "rc": 4586,
+    "note": "フルアニメーション&ボイスで興奮必至のHシーン! HENTAI攻撃にめげずに奮闘し街を救う横スクロールアクションゲーム!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ387951.html"
   },
   {
     "id": "RJ388692",
@@ -7812,412 +9014,6 @@
       "183",
       "186"
     ]
-  },
-  {
-    "id": "cien-1030",
-    "cat": "act",
-    "src": "cien",
-    "state": "dev",
-    "title": "シロノヤカタ",
-    "names": {
-      "ja": "シロノヤカタ",
-      "zh": "白之馆",
-      "en": "Shiro no Yakata"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "さきゅばすの日記",
-    "date": "2026-09-30",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 43952,
-    "url": "https://ci-en.dlsite.com/creator/1030",
-    "note": "点阵风探索型动作 RPG"
-  },
-  {
-    "id": "cien-12611",
-    "cat": "act",
-    "src": "cien",
-    "state": "dev",
-    "title": "Alice in Cradle",
-    "names": {
-      "ja": "Alice in Cradle",
-      "zh": "摇篮中的爱丽丝",
-      "en": "Alice in Cradle"
-    },
-    "mt": [
-      "zh"
-    ],
-    "circle": "ななめはっちゃー",
-    "date": "2026-09-30",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 80927,
-    "url": "https://ci-en.dlsite.com/creator/12611",
-    "note": "点阵风 2D 横版动作游戏，以体验版形式持续更新"
-  },
-  {
-    "id": "cien-13060",
-    "cat": "act",
-    "src": "cien",
-    "state": "dev",
-    "title": "TUNNEL ESCAPE 2",
-    "names": {
-      "ja": "TUNNEL ESCAPE 2",
-      "zh": "隧道逃脱2",
-      "en": "TUNNEL ESCAPE 2"
-    },
-    "mt": [
-      "zh"
-    ],
-    "circle": "Elzee",
-    "date": "2026-10-12",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 36858,
-    "url": "https://ci-en.dlsite.com/creator/13060",
-    "note": "战斗探索游戏「TUNNEL ESCAPE」的续作，2026 年 10 月宣布开发"
-  },
-  {
-    "id": "cien-1756",
-    "cat": "act",
-    "src": "cien",
-    "state": "dev",
-    "title": "ロストグローリー 黄昏の継承者",
-    "names": {
-      "ja": "ロストグローリー 黄昏の継承者",
-      "zh": "失落荣光 黄昏的继承者",
-      "en": "Lost Glory: Heir of Twilight"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "猫ラボ",
-    "date": "2026-10-20",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 37012,
-    "url": "https://ci-en.dlsite.com/creator/1756",
-    "note": "动作加卡组构筑的游戏，每月更新版本"
-  },
-  {
-    "id": "cien-17888",
-    "cat": "act",
-    "src": "cien",
-    "state": "dev",
-    "title": "赤蓮忍法帖",
-    "names": {
-      "ja": "赤蓮忍法帖",
-      "zh": "赤莲忍法帖",
-      "en": "Akaren Ninpocho"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "曼珠沙華",
-    "date": "2026-10-01",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 128327,
-    "url": "https://ci-en.dlsite.com/creator/17888",
-    "note": "忍者题材的点阵风 2D 动作游戏"
-  },
-  {
-    "id": "cien-186",
-    "cat": "act",
-    "src": "cien",
-    "state": "dev",
-    "title": "UnHolY PraYeR",
-    "names": {
-      "ja": "UnHolY PraYeR",
-      "zh": "不洁祈祷",
-      "en": "UnHolY PraYeR"
-    },
-    "mt": [
-      "zh"
-    ],
-    "circle": "UnholY CreatioN",
-    "date": "2026-10-21",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 35774,
-    "url": "https://ci-en.dlsite.com/creator/186",
-    "note": "Spine 动画的横版动作游戏"
-  },
-  {
-    "id": "cien-18693",
-    "cat": "act",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "治癒使と呪われたダンジョン",
-    "names": {
-      "ja": "治癒使と呪われたダンジョン",
-      "zh": "治愈师与被诅咒的迷宫",
-      "en": "The Healer and the Cursed Dungeon"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "B-flat",
-    "date": "2026-10-10",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 25179,
-    "url": "https://ci-en.dlsite.com/creator/18693",
-    "note": "女主人公的迷宫动作游戏，Beta 版按月更新"
-  },
-  {
-    "id": "cien-2130",
-    "cat": "act",
-    "src": "cien",
-    "state": "dev",
-    "title": "カナデループ",
-    "names": {
-      "ja": "カナデループ",
-      "zh": "奏之循环",
-      "en": "Kanade Loop"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "tozicode.com",
-    "date": "2026-10-28",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 29098,
-    "url": "https://ci-en.dlsite.com/creator/2130",
-    "note": "猎奇向的动作游戏，按月发表制作报告"
-  },
-  {
-    "id": "cien-227",
-    "cat": "act",
-    "src": "cien",
-    "state": "dev",
-    "title": "Activate Melty",
-    "names": {
-      "ja": "Activate Melty",
-      "zh": "激活梅尔蒂",
-      "en": "Activate Melty"
-    },
-    "mt": [
-      "zh"
-    ],
-    "circle": "TeamKRAMA",
-    "date": "2026-10-23",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 72921,
-    "url": "https://ci-en.dlsite.com/creator/227",
-    "note": "3D 动作游戏，C108 时公开了体验版"
-  },
-  {
-    "id": "cien-23364",
-    "cat": "act",
-    "src": "cien",
-    "state": "dev",
-    "title": "CYAN BRAIN – 2nd World",
-    "names": {
-      "ja": "CYAN BRAIN – 2nd World",
-      "zh": "青色大脑 第二世界",
-      "en": "CYAN BRAIN – 2nd World"
-    },
-    "mt": [
-      "zh"
-    ],
-    "circle": "NEKOUJI",
-    "date": "2026-10-08",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 63538,
-    "url": "https://ci-en.dlsite.com/creator/23364",
-    "note": "动作游戏续作，2026 年 7 月起公开体验版"
-  },
-  {
-    "id": "cien-51",
-    "cat": "act",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "サキュバスレイル（仮）",
-    "names": {
-      "ja": "サキュバスレイル（仮）",
-      "zh": "魅魔轨道（暂定）",
-      "en": "Succubus Rail (working title)"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "Chaos Gate",
-    "date": "2026-10-05",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 22090,
-    "url": "https://ci-en.dlsite.com/creator/51",
-    "note": "女性视角的动作游戏新作"
-  },
-  {
-    "id": "cien-5170",
-    "cat": "act",
-    "src": "cien",
-    "state": "dev",
-    "title": "転生したら服だけ溶かすスライムだった件",
-    "names": {
-      "ja": "転生したら服だけ溶かすスライムだった件",
-      "zh": "关于我转生成只会溶解衣服的史莱姆这档事",
-      "en": "That Time I Got Reincarnated as a Clothes-Melting Slime"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "Riez-ON",
-    "date": "2026-10-27",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 86073,
-    "url": "https://ci-en.dlsite.com/creator/5170",
-    "note": "扮演史莱姆的动作新作，目前公开了验证版"
-  },
-  {
-    "id": "cien-5332",
-    "cat": "act",
-    "src": "cien",
-    "state": "dev",
-    "title": "アヤメルキシエ",
-    "names": {
-      "ja": "アヤメルキシエ",
-      "zh": "绫梅露琪希耶",
-      "en": "Ayame Lucisie"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "ふろねずみ",
-    "date": "2026-10-26",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 22584,
-    "url": "https://ci-en.dlsite.com/creator/5332",
-    "note": "2D 加 3D 的动作游戏，α 体验版已到 Ver0.070"
-  },
-  {
-    "id": "cien-5355",
-    "cat": "act",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "落日の姫騎士ウェペリト〜どの種族の精子でも受精する呪いの淫紋〜",
-    "names": {
-      "ja": "落日の姫騎士ウェペリト〜どの種族の精子でも受精する呪いの淫紋〜",
-      "zh": "落日的姬骑士维佩丽特",
-      "en": "Weperit the Fallen Princess Knight"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "幻想ラボ",
-    "date": "2026-10-23",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 26457,
-    "url": "https://ci-en.dlsite.com/creator/5355",
-    "note": "在孤岛上探索、收集七颗宝石的动作游戏"
-  },
-  {
-    "id": "cien-6141",
-    "cat": "act",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "レズバト！",
-    "names": {
-      "ja": "レズバト！",
-      "zh": "百合格斗！",
-      "en": "Lez Battle!"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "でぃれ。",
-    "date": "2026-10-26",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 19563,
-    "url": "https://ci-en.dlsite.com/creator/6141",
-    "note": "女性之间格斗对战的游戏，Ci-en 公开 a0.55 版（相当于抢先体验）"
-  },
-  {
-    "id": "cien-8186",
-    "cat": "act",
-    "src": "cien",
-    "state": "dev",
-    "title": "御色気忍者爽快アクション（仮）",
-    "names": {
-      "ja": "御色気忍者爽快アクション（仮）",
-      "zh": "色气忍者爽快动作（暂定）",
-      "en": "Sexy Ninja Action (working title)"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "dobuworks",
-    "date": "2026-09-30",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 46350,
-    "url": "https://ci-en.dlsite.com/creator/8186",
-    "note": "忍者题材的横版动作游戏，2026 年 6 月发表"
-  },
-  {
-    "id": "fanbox-celesgame",
-    "cat": "act",
-    "src": "fanbox",
-    "state": "dev",
-    "title": "魔紋試煉",
-    "names": {
-      "ja": "魔紋試煉",
-      "zh": "魔纹试炼",
-      "en": "Trial of the Magic Crest"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "CelesGame",
-    "date": "2026-09-13",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "url": "https://celesgame.fanbox.cc/",
-    "note": "第三人称 3D 动作游戏，被俘的冒险者在地牢中与魔物战斗"
   },
   {
     "id": "steam-1012630",

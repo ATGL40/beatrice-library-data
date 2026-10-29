@@ -1,9 +1,16 @@
 {
   "version": 2,
   "updated": "2026-10-29",
-  "revision": 1,
+  "revision": 2,
   "source": "DLsite 销量榜（女主人公×RPG、男主人公×RPG、ADV（含数字小说）、SLG、动作，2016–2026）；商业作品（エロゲー批評空間 / VNDB）；Steam 成人向；Ci-en · FANBOX 开发中作品；民间榜单：エロゲー批評空間、VNDB（2016–2025 年前 20）；另补评分高、评价人数少的冷门佳作（DLsite、Steam）",
   "changelog": [
+    {
+      "updated": "2026-10-29",
+      "revision": 2,
+      "notes": [
+        "加回之前整理时没列入的 356 部作品（候选整理的 339 部、冷门佳作门槛内的 17 部）"
+      ]
+    },
     {
       "updated": "2026-10-29",
       "revision": 1,

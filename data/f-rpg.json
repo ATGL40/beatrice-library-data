@@ -1,5 +1,880 @@
 [
   {
+    "id": "cien-11070",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "メメリスちゃんのえっちなRPG2",
+    "names": {
+      "ja": "メメリスちゃんのえっちなRPG2",
+      "zh": "梅梅莉丝的色色RPG2",
+      "en": "Memelis's Naughty RPG 2"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ナツ",
+    "date": "2026-10-27",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 49829,
+    "url": "https://ci-en.dlsite.com/creator/11070",
+    "note": "前作的续篇，女主人公执行潜入任务的 RPG，先行体验版持续更新"
+  },
+  {
+    "id": "cien-11642",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "隷従都市のフウラ",
+    "names": {
+      "ja": "隷従都市のフウラ",
+      "zh": "隶从都市的芙拉",
+      "en": "Fura of the Servitude City"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "オルズパインツ",
+    "date": "2026-10-24",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 41061,
+    "url": "https://ci-en.dlsite.com/creator/11642",
+    "note": "用 RPG 制作大师制作的女主人公 RPG，测试版已到 ver1.50"
+  },
+  {
+    "id": "cien-1183",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "性盾姫クオレヴィータ",
+    "names": {
+      "ja": "性盾姫クオレヴィータ",
+      "zh": "性盾姬柯蕾维塔",
+      "en": "Cuore Vita the Shield Princess"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "U-ROOM",
+    "date": "2026-09-30",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 61979,
+    "url": "https://ci-en.dlsite.com/creator/1183",
+    "note": "女主人公 RPG，有盾、调查、斗技场等多条路线，可单手操作战斗"
+  },
+  {
+    "id": "cien-1301",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "愛と欲望のウィザリング",
+    "names": {
+      "ja": "愛と欲望のウィザリング",
+      "zh": "爱与欲望的凋零",
+      "en": "Withering of Love and Desire"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "瞬間フローライター",
+    "date": "2026-08-23",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 30068,
+    "url": "https://ci-en.dlsite.com/creator/1301",
+    "note": "女性视角的 RPG，正在制作商店和换装系统"
+  },
+  {
+    "id": "cien-13296",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "レディオブオーダー",
+    "names": {
+      "ja": "レディオブオーダー",
+      "zh": "秩序淑女",
+      "en": "Lady of Order"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "BanameiR",
+    "date": "2026-10-01",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 21589,
+    "url": "https://ci-en.dlsite.com/creator/13296",
+    "note": "用 RPG 制作大师制作的女主人公 RPG，每月发表进度"
+  },
+  {
+    "id": "cien-148",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "淫呪の迷宮 ～ミラと遊蕩の主～",
+    "names": {
+      "ja": "淫呪の迷宮 ～ミラと遊蕩の主～",
+      "zh": "淫咒迷宫 ～米拉与放荡之主～",
+      "en": "Labyrinth of Lewd Curses: Mira and the Lord of Debauchery"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "GrayGreed",
+    "date": "2026-10-16",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 24618,
+    "url": "https://ci-en.dlsite.com/creator/148",
+    "note": "刷稀有装备、无限合成装备来攻略迷宫的女主人公 RPG"
+  },
+  {
+    "id": "cien-1511",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "アイリス☆クロニクル 第2話（仮）",
+    "names": {
+      "ja": "アイリス☆クロニクル 第2話（仮）",
+      "zh": "艾莉丝☆编年史 第2话（暂定）",
+      "en": "Iris Chronicle Episode 2"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "おいらん一味",
+    "date": "2026-10-13",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 40697,
+    "url": "https://ci-en.dlsite.com/creator/1511",
+    "note": "分话发布的女主人公 RPG，正在制作第 2 话"
+  },
+  {
+    "id": "cien-16017",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "Project Dungeon（仮）",
+    "names": {
+      "ja": "Project Dungeon（仮）",
+      "zh": "Project Dungeon（暂定）",
+      "en": "Project Dungeon"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "HUuuUGe",
+    "date": "2026-10-16",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 28624,
+    "url": "https://ci-en.dlsite.com/creator/16017",
+    "note": "回合制迷宫 RPG，可操作女骑士、女神官等多名女性角色，按月公开构建版"
+  },
+  {
+    "id": "cien-16256",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "操滅の巫女メイナ",
+    "names": {
+      "ja": "操滅の巫女メイナ",
+      "zh": "操灭巫女梅娜",
+      "en": "Meina the Shrine Maiden of Control"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "TWORL",
+    "date": "2026-10-16",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 21400,
+    "url": "https://ci-en.dlsite.com/creator/16256",
+    "note": "以催眠、洗脑为主题的巫女主人公 RPG，已公开体验版"
+  },
+  {
+    "id": "cien-16373",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "稼げ！野外露出ステルス配信",
+    "names": {
+      "ja": "稼げ！野外露出ステルス配信",
+      "zh": "赚钱吧！野外露出潜行直播",
+      "en": "Earn It! Outdoor Exposure Stealth Stream"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ガオン堂",
+    "date": "2026-10-27",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 28407,
+    "url": "https://ci-en.dlsite.com/creator/16373",
+    "note": "怕生的家里蹲女主人公靠直播、打工等方式赚钱自立的 RPG"
+  },
+  {
+    "id": "cien-1810",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "紅獄の剣士ティーナⅡ",
+    "names": {
+      "ja": "紅獄の剣士ティーナⅡ",
+      "zh": "红狱剑士蒂娜Ⅱ",
+      "en": "Tina the Swordswoman of the Crimson Prison II"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "しなちくかすてぃーら",
+    "date": "2026-10-27",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 120959,
+    "url": "https://ci-en.dlsite.com/creator/1810",
+    "note": "女剑士主人公的 RPG 续作，可在城中各区域探索"
+  },
+  {
+    "id": "cien-1888",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "穢れゆく蒼銀",
+    "names": {
+      "ja": "穢れゆく蒼銀",
+      "zh": "渐被玷污的苍银",
+      "en": "Tainted Azure Silver"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ぬこ魔神",
+    "date": "2026-10-18",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 60819,
+    "url": "https://ci-en.dlsite.com/creator/1888",
+    "note": "银发女主人公的 RPG，事件随时间实时推进"
+  },
+  {
+    "id": "cien-208",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "シスタークロニクル",
+    "names": {
+      "ja": "シスタークロニクル",
+      "zh": "修女编年史",
+      "en": "Sister Chronicle"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ONEONE1",
+    "date": "2026-10-26",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 173346,
+    "url": "https://ci-en.dlsite.com/creator/208",
+    "note": "以修女为主人公的 RPG，制作中的动画和草图按周公开"
+  },
+  {
+    "id": "cien-2082",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "囮痴○捜査官アイリ（仮）",
+    "names": {
+      "ja": "囮痴○捜査官アイリ（仮）",
+      "zh": "诱饵搜查官艾莉（暂定）",
+      "en": "Decoy Investigator Airi (working title)"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "メタモルフォーゼ",
+    "date": "2026-10-15",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 45166,
+    "url": "https://ci-en.dlsite.com/creator/2082",
+    "note": "用 Unity 制作的女主人公 RPG，前作「リナ」的系列新作"
+  },
+  {
+    "id": "cien-25095",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "双月の流戦姫",
+    "names": {
+      "ja": "双月の流戦姫",
+      "zh": "双月的流战姬",
+      "en": "Twin-Moon Battle Princess"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "一歩も下がるな！！！",
+    "date": "2026-09-28",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 24632,
+    "url": "https://ci-en.dlsite.com/creator/25095",
+    "note": "有战斗中事件系统的女主人公 RPG，2026 年 8 月发表"
+  },
+  {
+    "id": "cien-2530",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "魔女を継ぐもの -Gathering & Crafting-",
+    "names": {
+      "ja": "魔女を継ぐもの -Gathering & Crafting-",
+      "zh": "继承魔女之人",
+      "en": "Inheritor of the Witch -Gathering & Crafting-"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ルナソフト",
+    "date": "2026-10-23",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 27824,
+    "url": "https://ci-en.dlsite.com/creator/2530",
+    "note": "2.5D 画面、以收集和制作为核心的女主人公 RPG"
+  },
+  {
+    "id": "cien-2635",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "ホワイトメイデン",
+    "names": {
+      "ja": "ホワイトメイデン",
+      "zh": "白之战姬",
+      "en": "White Maiden"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "黒猫ぐり",
+    "date": "2026-09-28",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 43381,
+    "url": "https://ci-en.dlsite.com/creator/2635",
+    "note": "战斗中会发生事件的女主人公 RPG，讲几位战斗女孩的羁绊"
+  },
+  {
+    "id": "cien-30809",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "淫肉聖女～シスターの雌穴に刻む孕み印～",
+    "names": {
+      "ja": "淫肉聖女～シスターの雌穴に刻む孕み印～",
+      "zh": "淫肉圣女",
+      "en": "Lewd Flesh Saint"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ぬるぬる計画",
+    "date": "2026-10-24",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 32221,
+    "url": "https://ci-en.dlsite.com/creator/30809",
+    "note": "横版动作和剧情结合的修女主人公 RPG"
+  },
+  {
+    "id": "cien-3239",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "快盗閃姫セイントアリス",
+    "names": {
+      "ja": "快盗閃姫セイントアリス",
+      "zh": "快盗闪姬圣爱丽丝",
+      "en": "Phantom Thief Flash Princess Saint Alice"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "スキヤキング",
+    "date": "2026-10-27",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 25286,
+    "url": "https://ci-en.dlsite.com/creator/3239",
+    "note": "变身女怪盗潜入企业偷宝物、揭发恶行的 RPG"
+  },
+  {
+    "id": "cien-3262",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "マグノリアの鎧姫",
+    "names": {
+      "ja": "マグノリアの鎧姫",
+      "zh": "木兰的铠姬",
+      "en": "The Armored Princess of Magnolia"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "やさぐれ喫煙所",
+    "date": "2026-09-30",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 56019,
+    "url": "https://ci-en.dlsite.com/creator/3262",
+    "note": "用 RPG 制作大师制作的女主人公动作 RPG"
+  },
+  {
+    "id": "cien-3422",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "紅蓮再翔ロストエレメンツ",
+    "names": {
+      "ja": "紅蓮再翔ロストエレメンツ",
+      "zh": "红莲再翔 失落元素",
+      "en": "Guren Saisho: Lost Elements"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "NoTears",
+    "date": "2026-10-23",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 23384,
+    "url": "https://ci-en.dlsite.com/creator/3422",
+    "note": "「紅蓮四奏ピュアエレメンツ」的续作，变身女主角 RPG"
+  },
+  {
+    "id": "cien-3534",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "守護戦姫スズネ",
+    "names": {
+      "ja": "守護戦姫スズネ",
+      "zh": "守护战姬铃音",
+      "en": "Guardian Battle Princess Suzune"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "モフ屋",
+    "date": "2026-10-22",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 23606,
+    "url": "https://ci-en.dlsite.com/creator/3534",
+    "note": "女战士主人公的 RPG，已公布发售日"
+  },
+  {
+    "id": "cien-3569",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "戦乙女アリア&エヴリン -淫欲に堕ちるＷヒロイン-",
+    "names": {
+      "ja": "戦乙女アリア&エヴリン -淫欲に堕ちるＷヒロイン-",
+      "zh": "战乙女阿莉娅&伊芙琳",
+      "en": "Valkyries Aria & Evelyn"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ちぇすとぼっくす＆わんコイン",
+    "date": "2026-08-23",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 28056,
+    "url": "https://ci-en.dlsite.com/creator/3569",
+    "note": "两位女战士主人公的迷宫探索 RPG"
+  },
+  {
+    "id": "cien-3578",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "MonstersAbyss",
+    "names": {
+      "ja": "MonstersAbyss",
+      "zh": "怪物深渊",
+      "en": "Monsters Abyss"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "長井わたる/魔窟亭",
+    "date": "2026-10-07",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 67418,
+    "url": "https://ci-en.dlsite.com/creator/3578",
+    "note": "全动画演出的女主人公 RPG，按关卡推进"
+  },
+  {
+    "id": "cien-3790",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "ヘレナと暗蝕の塔",
+    "names": {
+      "ja": "ヘレナと暗蝕の塔",
+      "zh": "海伦娜与暗蚀之塔",
+      "en": "Helena and the Tower of Dark Erosion"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "おふろワークス",
+    "date": "2026-10-21",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 30174,
+    "url": "https://ci-en.dlsite.com/creator/3790",
+    "note": "战斗事件全动画化的女主人公 RPG，攀登高塔"
+  },
+  {
+    "id": "cien-4034",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "EXウィルトワール 侵食された電脳少女",
+    "names": {
+      "ja": "EXウィルトワール 侵食された電脳少女",
+      "zh": "EX威尔托瓦尔 被侵蚀的电脑少女",
+      "en": "EX Wiltoire: The Corrupted Cyber Girl"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "サキミノル",
+    "date": "2026-10-07",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 23920,
+    "url": "https://ci-en.dlsite.com/creator/4034",
+    "note": "战斗中和城镇里都会发生事件的女主人公 RPG，有堕落路线"
+  },
+  {
+    "id": "cien-4551",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "魔装影姫セレノクシア",
+    "names": {
+      "ja": "魔装影姫セレノクシア",
+      "zh": "魔装影姬塞雷诺克西亚",
+      "en": "Shadow Princess Selenoxia"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "しもばしら工房",
+    "date": "2026-10-16",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 117551,
+    "url": "https://ci-en.dlsite.com/creator/4551",
+    "note": "用 RPG 制作大师制作的女主人公 RPG，有分阶段变化的状态画面"
+  },
+  {
+    "id": "cien-5261",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "姫騎士シルヴィア",
+    "names": {
+      "ja": "姫騎士シルヴィア",
+      "zh": "姬骑士西尔维娅",
+      "en": "Princess Knight Sylvia"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ドリルさきいか",
+    "date": "2026-10-24",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 24798,
+    "url": "https://ci-en.dlsite.com/creator/5261",
+    "note": "拯救王国的公主骑士主人公 RPG"
+  },
+  {
+    "id": "cien-5868",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "リルスティア2（仮）",
+    "names": {
+      "ja": "リルスティア2（仮）",
+      "zh": "莉尔丝缇亚2（暂定）",
+      "en": "Lilstia 2"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ShiBoo!",
+    "date": "2026-10-23",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 47159,
+    "url": "https://ci-en.dlsite.com/creator/5868",
+    "note": "变身女主角 RPG 系列的新作"
+  },
+  {
+    "id": "cien-627",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "魔術師エレナと見世物島",
+    "names": {
+      "ja": "魔術師エレナと見世物島",
+      "zh": "魔术师艾莲娜与见世物岛",
+      "en": "Elena the Sorceress and the Spectacle Island"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "みるきーうぇい",
+    "date": "2026-10-14",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 49729,
+    "url": "https://ci-en.dlsite.com/creator/627",
+    "note": "女魔术师主人公在岛上探索的 RPG"
+  },
+  {
+    "id": "cien-7133",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "魔胎迷宮",
+    "names": {
+      "ja": "魔胎迷宮",
+      "zh": "魔胎迷宫",
+      "en": "Demon Womb Labyrinth"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "黒綿菓子",
+    "date": "2026-10-24",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 21928,
+    "url": "https://ci-en.dlsite.com/creator/7133",
+    "note": "女主人公的 Roguelike 迷宫游戏，同伴会被敌人带走"
+  },
+  {
+    "id": "cien-734",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "穢レ斬 マガツダチ",
+    "names": {
+      "ja": "穢レ斬 マガツダチ",
+      "zh": "秽斩 祸津太刀",
+      "en": "Kegarezan Magatsudachi"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "gre/GapTax",
+    "date": "2026-10-27",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 30234,
+    "url": "https://ci-en.dlsite.com/creator/734",
+    "note": "和风女主人公 RPG"
+  },
+  {
+    "id": "cien-763",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "世間知らずの元お嬢様ソニアの借金返済物語",
+    "names": {
+      "ja": "世間知らずの元お嬢様ソニアの借金返済物語",
+      "zh": "不谙世事的前大小姐索妮娅的还债物语",
+      "en": "Sonia's Debt Repayment Story"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "azucat",
+    "date": "2026-10-24",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 24536,
+    "url": "https://ci-en.dlsite.com/creator/763",
+    "note": "3D 战斗 RPG，前大小姐主人公为还债闯荡"
+  },
+  {
+    "id": "cien-7743",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "夜桜姫譚",
+    "names": {
+      "ja": "夜桜姫譚",
+      "zh": "夜樱姬谭",
+      "en": "Tale of the Night Cherry Princess"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "花御神楽",
+    "date": "2026-09-30",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 64710,
+    "url": "https://ci-en.dlsite.com/creator/7743",
+    "note": "和风女主人公 RPG，战败时有事件，主角不会堕落"
+  },
+  {
+    "id": "cien-976",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "シエル･センセーショナル（仮）",
+    "names": {
+      "ja": "シエル･センセーショナル（仮）",
+      "zh": "希艾尔·轰动（暂定）",
+      "en": "Ciel Sensational (working title)"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "アトリエちょいす",
+    "date": "2026-10-18",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 81739,
+    "url": "https://ci-en.dlsite.com/creator/976",
+    "note": "以意外走光和露出事件为主的女主人公 RPG"
+  },
+  {
     "id": "RJ01002988",
     "cat": "f-rpg",
     "pov": "female",
@@ -185,6 +1060,24 @@
       "143",
       "182"
     ]
+  },
+  {
+    "id": "RJ01037655",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ぼくは人妻ンションの管理人2",
+    "names": {
+      "ja": "ぼくは人妻ンションの管理人2"
+    },
+    "mt": [],
+    "circle": "ダイニホケンシツ",
+    "date": "2023-04-01",
+    "rate": 4.48,
+    "dl": 5458,
+    "rc": 1757,
+    "note": "人妻寝取り孕ませメインの人妻×ショタRPG。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01037655.html"
   },
   {
     "id": "RJ01041481",
@@ -373,6 +1266,42 @@
     ]
   },
   {
+    "id": "RJ01051748",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "We're HOP ～おっぱいプレスでハッピーにされちゃう!?～",
+    "names": {
+      "ja": "We're HOP ～おっぱいプレスでハッピーにされちゃう!?～"
+    },
+    "mt": [],
+    "circle": "むに工房",
+    "date": "2023-06-18",
+    "rate": 4.68,
+    "dl": 10375,
+    "rc": 3347,
+    "note": "怪しいおっぱい教団から脱出せよ!!主人公を狙うのはおっぱいの大きな教団員淫魔たち。彼女たちのおっぱいで顔をぱふぱふされてしまうと、心も身体もふにゃふにゃになって",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01051748.html"
+  },
+  {
+    "id": "RJ01055361",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "僕らの肉便器先生 -the GAME- ヤンママ教師の変態生活",
+    "names": {
+      "ja": "僕らの肉便器先生 -the GAME- ヤンママ教師の変態生活"
+    },
+    "mt": [],
+    "circle": "汚電せんせい",
+    "date": "2023-11-29",
+    "rate": 4.51,
+    "dl": 9512,
+    "rc": 1811,
+    "note": "「学校中から犯される」生意気な教え子たちに犯される女教師凌辱RPG!! 息子とのイチャラブ近親相姦もあるよ!!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01055361.html"
+  },
+  {
     "id": "RJ01058687",
     "cat": "f-rpg",
     "pov": "female",
@@ -550,6 +1479,43 @@
     ]
   },
   {
+    "id": "RJ01065704",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "男の娘風俗 おちんちんパブへようこそ!",
+    "names": {
+      "ja": "男の娘風俗 おちんちんパブへようこそ!"
+    },
+    "mt": [],
+    "circle": "さびいろねこ",
+    "date": "2024-04-11",
+    "rate": 4.56,
+    "dl": 3800,
+    "rc": 966,
+    "note": "男の娘が主人公の超特大ボリュームRPG。一生遊べる男の娘エロゲー!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01065704.html"
+  },
+  {
+    "id": "RJ01070430",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "聖女エルナと堕淫の書  〜爆乳シスターのHなお務め〜",
+    "names": {
+      "ja": "聖女エルナと堕淫の書  〜爆乳シスターのHなお務め〜"
+    },
+    "mt": [],
+    "circle": "はちからビスケット",
+    "date": "2023-10-22",
+    "rate": 4.54,
+    "dl": 15118,
+    "rc": 4228,
+    "note": "田舎村に住む心優しいシスター、エルナ。 遠く離れた村での任務にあたっていた最中、淫魔「レニス」の封印が解けてしまい、体内に入り込んでしまう。 そして、レニスから",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01070430.html",
+    "pov": "female"
+  },
+  {
     "id": "RJ01072476",
     "cat": "f-rpg",
     "pov": "female",
@@ -670,6 +1636,24 @@
     ]
   },
   {
+    "id": "RJ01088447",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "白銀の弾丸 -SILVER BULLET- ～淫欲に堕ちる女保安官と女聖騎士～",
+    "names": {
+      "ja": "白銀の弾丸 -SILVER BULLET- ～淫欲に堕ちる女保安官と女聖騎士～"
+    },
+    "mt": [],
+    "circle": "非情口行き",
+    "date": "2024-05-23",
+    "rate": 4.59,
+    "dl": 6216,
+    "rc": 1940,
+    "note": "無法の荒野を舞台に保安官と聖騎士、二人のヒロインが活躍する寝取られ・BSSアクションRPG!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01088447.html"
+  },
+  {
     "id": "RJ01097254",
     "cat": "f-rpg",
     "pov": "female",
@@ -787,6 +1771,24 @@
     ]
   },
   {
+    "id": "RJ01103383",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "孫-Rebirth-Part5",
+    "names": {
+      "ja": "孫-Rebirth-Part5"
+    },
+    "mt": [],
+    "circle": "",
+    "date": "2023-09-27",
+    "rate": 4.71,
+    "dl": 933,
+    "rc": 178,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01103383.html",
+    "note": ""
+  },
+  {
     "id": "RJ01104336",
     "cat": "f-rpg",
     "pov": "female",
@@ -823,6 +1825,24 @@
       "170",
       "193"
     ]
+  },
+  {
+    "id": "RJ01106652",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "奴隷姫騎士レイラ",
+    "names": {
+      "ja": "奴隷姫騎士レイラ"
+    },
+    "mt": [],
+    "circle": "ルさんちまん",
+    "date": "2023-12-08",
+    "rate": 4.57,
+    "dl": 17075,
+    "rc": 4837,
+    "note": "強く気高い女の子たちがクズどもの子供を産まされる、 凌辱&ボテ腹メインのHRPG!!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01106652.html"
   },
   {
     "id": "RJ01108683",
@@ -902,6 +1922,43 @@
     ]
   },
   {
+    "id": "RJ01112545",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ロリキョニュー星人に攫われて逆レされるお話",
+    "names": {
+      "ja": "ロリキョニュー星人に攫われて逆レされるお話",
+      "en": "Abducted & Reverse Raped By Busty Loli Aliens"
+    },
+    "mt": [],
+    "circle": "ディーゼルマイン",
+    "date": "2023-11-27",
+    "rate": 4.54,
+    "dl": 15424,
+    "rc": 3765,
+    "note": "あなたはある日突然UFOに攫われ、ロリ巨乳な宇宙人に搾精されてしまう",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01112545.html"
+  },
+  {
+    "id": "RJ01113668",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "少年と夢魔",
+    "names": {
+      "ja": "少年と夢魔"
+    },
+    "mt": [],
+    "circle": "rin",
+    "date": "2024-10-18",
+    "rate": 4.42,
+    "dl": 4228,
+    "rc": 919,
+    "note": "抗う餌の被食抵抗ADV",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01113668.html"
+  },
+  {
     "id": "RJ01113955",
     "cat": "f-rpg",
     "pov": "female",
@@ -937,6 +1994,24 @@
       "193",
       "313"
     ]
+  },
+  {
+    "id": "RJ01115110",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "【逆レイプバトルファックRPG】ぼくとサキュバス",
+    "names": {
+      "ja": "【逆レイプバトルファックRPG】ぼくとサキュバス"
+    },
+    "mt": [],
+    "circle": "sugar*plum",
+    "date": "2026-05-09",
+    "rate": 4.51,
+    "dl": 10403,
+    "rc": 1254,
+    "note": "大ボリューム逆レイプバトルファックRPG! 2代目勇者となりサキュバスまみれになった世界を救え!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01115110.html"
   },
   {
     "id": "RJ01117269",
@@ -1046,6 +2121,42 @@
       "122",
       "182"
     ]
+  },
+  {
+    "id": "RJ01124242",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ハニートラップ・エスケープ〜悪役一家と囚われのお屋敷〜",
+    "names": {
+      "ja": "ハニートラップ・エスケープ〜悪役一家と囚われのお屋敷〜"
+    },
+    "mt": [],
+    "circle": "セイヘキマスター",
+    "date": "2024-01-10",
+    "rate": 4.44,
+    "dl": 6368,
+    "rc": 1659,
+    "note": "【全編女性上位・逆転なし!】悪役一家からの脱走計画を阻むのは、長身女執事にショタコン保母ヤ、ンデレ継母にメスガキ妹…。屋敷中を追いかけてくる大勢の爆乳メイドのお",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01124242.html"
+  },
+  {
+    "id": "RJ01125213",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "夏休みに堕ちたツバサ",
+    "names": {
+      "ja": "夏休みに堕ちたツバサ"
+    },
+    "mt": [],
+    "circle": "ネコノホシ",
+    "date": "2024-01-20",
+    "rate": 4.31,
+    "dl": 4659,
+    "rc": 1255,
+    "note": "陸上部に所属している、ガサツで勝ち気なムチムチ幼馴染ツバサが、男達に言い寄られ、堕ちていくネトラレ探索型RPG!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01125213.html"
   },
   {
     "id": "RJ01130999",
@@ -1393,6 +2504,44 @@
     ]
   },
   {
+    "id": "RJ01160412",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "裏垢JKは露出でバズりたい",
+    "names": {
+      "ja": "裏垢JKは露出でバズりたい"
+    },
+    "mt": [],
+    "circle": "スマンコフ",
+    "date": "2024-03-16",
+    "rate": 4.28,
+    "dl": 9486,
+    "rc": 2239,
+    "note": "ふとしたことで露出に目覚めた裏垢JKが、自己顕示欲を満たすためにえっちな自撮りしまくる徘徊系露出RPG。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01160412.html",
+    "pov": "female"
+  },
+  {
+    "id": "RJ01168385",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "[ENG TL Patch] Sister Elna and the Book of Befoulment: The Busty Nun's Debased Burden",
+    "names": {
+      "ja": "[ENG TL Patch] Sister Elna and the Book of Befoulment: The Busty Nun's Debased Burden"
+    },
+    "mt": [],
+    "circle": "はちからビスケット",
+    "date": "2024-03-15",
+    "rate": 4.11,
+    "dl": 8935,
+    "rc": 271,
+    "note": "Sister Elna is a gentle nun whose kindness is as bountiful as her chest. One day",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01168385.html",
+    "pov": "female"
+  },
+  {
     "id": "RJ01171084",
     "cat": "f-rpg",
     "pov": "female",
@@ -1507,6 +2656,26 @@
     ]
   },
   {
+    "id": "RJ01187378",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "あの夏-美涵の夏休み",
+    "names": {
+      "ja": "あの夏-美涵の夏休み",
+      "en": "That Summer - Mihan's Summer Vacation"
+    },
+    "mt": [],
+    "circle": "七十七",
+    "date": "2024-04-26",
+    "rate": 4.07,
+    "dl": 5085,
+    "rc": 962,
+    "note": "夏休みに起こった巨乳の女子高生の出来事と、それに続くさまざまな未来(マルチエンディングの探索型RPG)。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01187378.html",
+    "pov": "female"
+  },
+  {
     "id": "RJ01201737",
     "cat": "f-rpg",
     "pov": "female",
@@ -1541,6 +2710,24 @@
       "201",
       "313"
     ]
+  },
+  {
+    "id": "RJ01212120",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "[ENG TL Patch] Our Cumdump Teacher: The Game ~A Delinquent Mother's Deviant Life~",
+    "names": {
+      "ja": "[ENG TL Patch] Our Cumdump Teacher: The Game ~A Delinquent Mother's Deviant Life~"
+    },
+    "mt": [],
+    "circle": "汚電せんせい",
+    "date": "2024-06-21",
+    "rate": 4.53,
+    "dl": 4990,
+    "rc": 70,
+    "note": "A teacher gets screwed by her cheeky students in this RPG!! \r\nShe also gets into",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01212120.html"
   },
   {
     "id": "RJ01224555",
@@ -1579,6 +2766,80 @@
       "326",
       "140"
     ]
+  },
+  {
+    "id": "RJ01233580",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "深淵のプリティエール",
+    "names": {
+      "ja": "深淵のプリティエール"
+    },
+    "mt": [],
+    "circle": "あんみつや",
+    "date": "2024-08-15",
+    "rate": 4.46,
+    "dl": 3894,
+    "rc": 1138,
+    "note": "海辺の街、ティンクルタウンとその周辺で異星人による地球侵略が始まった。 謎の生物?と出会い宇宙最強の変身ヒロイン「プリティエール」となった夏空ひなた。 戦闘エロ",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01233580.html",
+    "pov": "female"
+  },
+  {
+    "id": "RJ01233768",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ギャルに貢ぐボクの夏休み。",
+    "names": {
+      "ja": "ギャルに貢ぐボクの夏休み。"
+    },
+    "mt": [],
+    "circle": "クレイジー二厘",
+    "date": "2024-08-23",
+    "rate": 4.58,
+    "dl": 13697,
+    "rc": 2695,
+    "note": "ギャルのお姉ちゃんに大事なカードを貢ぐ夏休みを過ごす、探索RPG",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01233768.html"
+  },
+  {
+    "id": "RJ01240899",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "勇者に寛容すぎるファンタジー世界RPG",
+    "names": {
+      "ja": "勇者に寛容すぎるファンタジー世界RPG"
+    },
+    "mt": [],
+    "circle": "いなずまそふと",
+    "date": "2024-12-13",
+    "rate": 4.65,
+    "dl": 11688,
+    "rc": 2805,
+    "note": "あの勇者に寛容すぎるファンタジー世界がRPGになりました!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01240899.html"
+  },
+  {
+    "id": "RJ01241449",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "村のムチムチなエロい女たちとエッチエッチ",
+    "names": {
+      "ja": "村のムチムチなエロい女たちとエッチエッチ",
+      "en": "Sex with the Hot Village MILFs"
+    },
+    "mt": [],
+    "circle": "Hoi Hoi Hoi",
+    "date": "2024-08-27",
+    "rate": 4.13,
+    "dl": 4027,
+    "rc": 641,
+    "note": "村のムチムチなエロい女たちとエッチするRPG",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01241449.html"
   },
   {
     "id": "RJ01241743",
@@ -1621,6 +2882,42 @@
       "149",
       "143"
     ]
+  },
+  {
+    "id": "RJ01264927",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "鏡の淫魔と悪魔のタネ",
+    "names": {
+      "ja": "鏡の淫魔と悪魔のタネ"
+    },
+    "mt": [],
+    "circle": "むに工房",
+    "date": "2024-12-31",
+    "rate": 4.78,
+    "dl": 13224,
+    "rc": 3123,
+    "note": "おっぱいプレイが大好きな爆乳淫魔たちが生息する『鏡の世界』。どうやらこの世界から脱出するには『淫魔と仲良くなり、街を発展させる』必要があるようで……?主人公と、",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01264927.html"
+  },
+  {
+    "id": "RJ01267734",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "おなかに淫紋がついちゃった女騎士",
+    "names": {
+      "ja": "おなかに淫紋がついちゃった女騎士"
+    },
+    "mt": [],
+    "circle": "高温注意",
+    "date": "2024-10-12",
+    "rate": 4.06,
+    "dl": 5661,
+    "rc": 1039,
+    "note": "お腹に淫紋がついちゃって発情しっぱなしの女騎士が露出したり売春したりショタに我慢できなくなったりしちゃうゲームです。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01267734.html"
   },
   {
     "id": "RJ01274594",
@@ -1778,6 +3075,24 @@
     ]
   },
   {
+    "id": "RJ01295398",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ボクガキえちえち戦争",
+    "names": {
+      "ja": "ボクガキえちえち戦争"
+    },
+    "mt": [],
+    "circle": "静かな北国",
+    "date": "2024-11-29",
+    "rate": 4.46,
+    "dl": 3868,
+    "rc": 760,
+    "note": "田舎で新生活を始める男の子のエッチなお話。主人公は学校で、2人の同級生ができるが、2人は性欲モンスターのエロガキだった…。大好きなママと先生、2人の爆乳美女を求",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01295398.html"
+  },
+  {
     "id": "RJ01302125",
     "cat": "f-rpg",
     "pov": "female",
@@ -1803,6 +3118,24 @@
     "genres": [
       "161"
     ]
+  },
+  {
+    "id": "RJ01315022",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ウェッターズ物語 リーフェの宿の冒険者",
+    "names": {
+      "ja": "ウェッターズ物語 リーフェの宿の冒険者"
+    },
+    "mt": [],
+    "circle": "",
+    "date": "2025-01-29",
+    "rate": 4.71,
+    "dl": 1294,
+    "rc": 173,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01315022.html",
+    "note": ""
   },
   {
     "id": "RJ01315765",
@@ -1872,6 +3205,24 @@
       "182",
       "179"
     ]
+  },
+  {
+    "id": "RJ01317573",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "魔法の里の繁栄事情 -天才魔法少女マリーと孕ませの儀式-",
+    "names": {
+      "ja": "魔法の里の繁栄事情 -天才魔法少女マリーと孕ませの儀式-"
+    },
+    "mt": [],
+    "circle": "非情口行き",
+    "date": "2025-11-13",
+    "rate": 4.6,
+    "dl": 7379,
+    "rc": 1578,
+    "note": "天才魔法少女のマリーが妊娠・出産!?里の繁栄のため、愛する人が他の男に孕まされる!魔法の里を舞台に恋人を守りきることができるのか!? 戦闘なしのNTR RPG!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01317573.html"
   },
   {
     "id": "RJ01322235",
@@ -1950,6 +3301,24 @@
       "143",
       "182"
     ]
+  },
+  {
+    "id": "RJ01352205",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "XOXOwitches~キス魔サキュバスと迷いの森~",
+    "names": {
+      "ja": "XOXOwitches~キス魔サキュバスと迷いの森~"
+    },
+    "mt": [],
+    "circle": "セイヘキマスター",
+    "date": "2025-09-23",
+    "rate": 4.55,
+    "dl": 7813,
+    "rc": 1225,
+    "note": "不治の病に犯された彼女を救う唯一の治療法は、サキュバスが巣食う迷いの森に眠る魔女の秘薬を取りに行くことでー…?森の中のサキュバスたちは常に発情中♪オスであるあな",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01352205.html"
   },
   {
     "id": "RJ01355493",
@@ -2837,6 +4206,24 @@
     ]
   },
   {
+    "id": "RJ01562166",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "逆NTR退魔士母娘と僕",
+    "names": {
+      "ja": "逆NTR退魔士母娘と僕"
+    },
+    "mt": [],
+    "circle": "クレイジー二厘",
+    "date": "2026-02-27",
+    "rate": 4.4,
+    "dl": 5005,
+    "rc": 670,
+    "note": "想い人がいるのにドスケベ退魔士母娘に誘惑され逆NTRなRPG",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01562166.html"
+  },
+  {
     "id": "RJ01570008",
     "cat": "f-rpg",
     "pov": "female",
@@ -3259,6 +4646,24 @@
     ]
   },
   {
+    "id": "RJ01634420",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ママの奥にとどく",
+    "names": {
+      "ja": "ママの奥にとどく"
+    },
+    "mt": [],
+    "circle": "Hoi Hoi Hoi",
+    "date": "2026-05-29",
+    "rate": 4.33,
+    "dl": 4288,
+    "rc": 316,
+    "note": "ママの奥にとどくRPG",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01634420.html"
+  },
+  {
     "id": "RJ01652728",
     "cat": "f-rpg",
     "pov": "female",
@@ -3296,6 +4701,24 @@
       "138",
       "182"
     ]
+  },
+  {
+    "id": "RJ01670083",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "WhichSwitch",
+    "names": {
+      "ja": "WhichSwitch"
+    },
+    "mt": [],
+    "circle": "ロケット☆ペンギン",
+    "date": "2026-09-25",
+    "rate": 3.89,
+    "dl": 3496,
+    "rc": 247,
+    "note": "無限に遊べて、無限に寝取られる！? NTR×デッキ構築型カードゲーム！",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01670083.html"
   },
   {
     "id": "RJ01673489",
@@ -3775,6 +5198,25 @@
     ]
   },
   {
+    "id": "RJ170571",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "江戸ファンタジー",
+    "names": {
+      "ja": "江戸ファンタジー",
+      "en": "Edo Fantasy"
+    },
+    "mt": [],
+    "circle": "ダイニホケンシツ",
+    "date": "2016-01-23",
+    "rate": 4.38,
+    "dl": 3997,
+    "rc": 2216,
+    "note": "おねショタ時代劇ハーレム型RPG。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ170571.html"
+  },
+  {
     "id": "RJ171205",
     "cat": "f-rpg",
     "pov": "female",
@@ -3808,6 +5250,24 @@
       "122",
       "182"
     ]
+  },
+  {
+    "id": "RJ171614",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ショタ退行記～エリウスの犯され冒険記～",
+    "names": {
+      "ja": "ショタ退行記～エリウスの犯され冒険記～"
+    },
+    "mt": [],
+    "circle": "ぬるはちぽんぽん",
+    "date": "2016-02-07",
+    "rate": 3.88,
+    "dl": 2908,
+    "rc": 1418,
+    "note": "ショタRPG!アマゾネス王宮に売られた少年エリウス。そこは男に飢えた女達の国だった。徹底的にセックスに付き合わされ、監禁されたりしながらも脱出を試みる。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ171614.html"
   },
   {
     "id": "RJ173356",
@@ -3949,6 +5409,25 @@
     ]
   },
   {
+    "id": "RJ175655",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "★渚ママとボクのヌキヌキなつやすみ～ママシ○タRPG★",
+    "names": {
+      "ja": "★渚ママとボクのヌキヌキなつやすみ～ママシ○タRPG★",
+      "en": "Beach Mama and My Nuki Nuki Summer Vacation ~ Mamashota RPG"
+    },
+    "mt": [],
+    "circle": "俺的嗜好",
+    "date": "2016-07-22",
+    "rate": 4.39,
+    "dl": 3786,
+    "rc": 1863,
+    "note": "夏の島で息子と開放的なラブラブセックス…そして妊娠しちゃう渚ママ\r\nでも、時々別のオチン○ンに浮気しちゃうの…なRPGです - Ver1.04 -",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ175655.html"
+  },
+  {
     "id": "RJ177244",
     "cat": "f-rpg",
     "pov": "female",
@@ -4049,6 +5528,25 @@
     ]
   },
   {
+    "id": "RJ180002",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ぼくとママとしょうたくん",
+    "names": {
+      "ja": "ぼくとママとしょうたくん",
+      "en": "Me and Milf and Shota"
+    },
+    "mt": [],
+    "circle": "乳マフィア",
+    "date": "2016-06-27",
+    "rate": 4.44,
+    "dl": 3183,
+    "rc": 1627,
+    "note": "ぼくとママとしょうたくんで冒険するエロRPG",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ180002.html"
+  },
+  {
     "id": "RJ180724",
     "cat": "f-rpg",
     "pov": "female",
@@ -4124,6 +5622,25 @@
       "016",
       "134"
     ]
+  },
+  {
+    "id": "RJ183462",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ロマンディックミスティリオン",
+    "names": {
+      "ja": "ロマンディックミスティリオン",
+      "en": "Romandick Mysterion"
+    },
+    "mt": [],
+    "circle": "大人の道楽",
+    "date": "2016-12-10",
+    "rate": 4.6,
+    "dl": 3244,
+    "rc": 1862,
+    "note": "男主人公と女装少年が旅する中編エロRPGです",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ183462.html"
   },
   {
     "id": "RJ183797",
@@ -4267,6 +5784,24 @@
     ]
   },
   {
+    "id": "RJ186829",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "タカシの夏休み",
+    "names": {
+      "ja": "タカシの夏休み"
+    },
+    "mt": [],
+    "circle": "フリーズワールド",
+    "date": "2017-01-13",
+    "rate": 4.33,
+    "dl": 9340,
+    "rc": 3843,
+    "note": "タカシ「オレのエッチ夏休みの一部始終だぜ!」",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ186829.html"
+  },
+  {
     "id": "RJ187670",
     "cat": "f-rpg",
     "pov": "female",
@@ -4370,6 +5905,25 @@
     ]
   },
   {
+    "id": "RJ189145",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ロリ巨乳の里にて",
+    "names": {
+      "ja": "ロリ巨乳の里にて",
+      "en": "In the Hamlet of Loli Bigtits"
+    },
+    "mt": [],
+    "circle": "喘葉の森",
+    "date": "2017-01-09",
+    "rate": 4.62,
+    "dl": 18012,
+    "rc": 7715,
+    "note": "パイズリセックスRPG",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ189145.html"
+  },
+  {
     "id": "RJ190251",
     "cat": "f-rpg",
     "pov": "female",
@@ -4406,6 +5960,25 @@
       "147",
       "134"
     ]
+  },
+  {
+    "id": "RJ191272",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "約束のロザリオ",
+    "names": {
+      "ja": "約束のロザリオ",
+      "en": "The Promised Rosary "
+    },
+    "mt": [],
+    "circle": "X-TOYS",
+    "date": "2017-03-08",
+    "rate": 4.24,
+    "dl": 2207,
+    "rc": 1018,
+    "note": "海難事故で見知らぬ島に流れ着いたシスターと男の子の物語。魔物や賊が闊歩する島で2人は港町を目指し歩き続ける。主人公の選択が可能なNTR&恥辱RPG。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ191272.html"
   },
   {
     "id": "RJ193425",
@@ -4550,6 +6123,25 @@
     ]
   },
   {
+    "id": "RJ197160",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "主人公に負けた女魔族がリベンジでレベルドレインしてくる超短編RPG(+α)",
+    "names": {
+      "ja": "主人公に負けた女魔族がリベンジでレベルドレインしてくる超短編RPG(+α)",
+      "en": "Demon Girl's Level Drain Revenge + extra"
+    },
+    "mt": [],
+    "circle": "FLOAT Arrow",
+    "date": "2017-03-31",
+    "rate": 4.16,
+    "dl": 2315,
+    "rc": 1329,
+    "note": "【短編1作追加!】勇者に負けた女魔族のリベンジは…エッチでレベルドレイン!? 勇者は為す術無くレベルを奪われただけでなく、レベル搾取のために連れ去られ、更にドレ",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ197160.html"
+  },
+  {
     "id": "RJ197619",
     "cat": "f-rpg",
     "pov": "female",
@@ -4656,6 +6248,44 @@
       "118",
       "190"
     ]
+  },
+  {
+    "id": "RJ197923",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "年下アブダクター ～つまみぐいお姉ちゃんズ～",
+    "names": {
+      "ja": "年下アブダクター ～つまみぐいお姉ちゃんズ～",
+      "en": "Abductress ~Elder Girls Snatch Young Prey~"
+    },
+    "mt": [],
+    "circle": "メックメイズ",
+    "date": "2017-04-28",
+    "rate": 4.3,
+    "dl": 2817,
+    "rc": 1014,
+    "note": "ワケありのエッチなお姉ちゃん2人が様々なショタっ子を求めて、「名も無き島」で珍道中を繰り広げるハイスピードコメディなRPGです。\r\nテンポを重視した戦闘システム",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ197923.html"
+  },
+  {
+    "id": "RJ198900",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "Lust Grimm",
+    "names": {
+      "ja": "Lust Grimm",
+      "en": "Lust Grimm (Japanese ver.)"
+    },
+    "mt": [],
+    "circle": "むに工房",
+    "date": "2017-10-01",
+    "rate": 4.59,
+    "dl": 20591,
+    "rc": 9784,
+    "note": "迷い込んだ世界はどこかで見たような不思議な世界…巨乳淫魔によるショタ主人公責められBFRPG!おっぱいプレイ多め、40以上のキャラクター全てに敗北Hシーン有り!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ198900.html"
   },
   {
     "id": "RJ201363",
@@ -4852,6 +6482,25 @@
     ]
   },
   {
+    "id": "RJ206962",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "SUCCUBUS DREAMER -夢を守りし小さな守護者-",
+    "names": {
+      "ja": "SUCCUBUS DREAMER -夢を守りし小さな守護者-",
+      "en": "SUCCUBUS DREAMER: The Small Guardian of Dreams"
+    },
+    "mt": [],
+    "circle": "スウィートラズベリー",
+    "date": "2017-09-09",
+    "rate": 4.43,
+    "dl": 8521,
+    "rc": 3928,
+    "note": "夢に忍び込む変態夢魔たちをバトルファックで追い払い、人々の命を救うおねショタRPG",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ206962.html"
+  },
+  {
     "id": "RJ207427",
     "cat": "f-rpg",
     "pov": "female",
@@ -4920,6 +6569,43 @@
       "048",
       "016"
     ]
+  },
+  {
+    "id": "RJ208185",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "おねショタなつやすみ",
+    "names": {
+      "ja": "おねショタなつやすみ"
+    },
+    "mt": [],
+    "circle": "茶色いうさぎの",
+    "date": "2017-09-25",
+    "rate": 4.58,
+    "dl": 4447,
+    "rc": 2155,
+    "note": "おねショタとママショタオンリーRPGです",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ208185.html"
+  },
+  {
+    "id": "RJ208246",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ボクのHな夏休み～田舎で過ごすひと夏の想い出～",
+    "names": {
+      "ja": "ボクのHな夏休み～田舎で過ごすひと夏の想い出～",
+      "en": "My Erotic Summer Vacation ~Memories of a Rural Summer~"
+    },
+    "mt": [],
+    "circle": "ディーゼルマイン",
+    "date": "2017-10-25",
+    "rate": 4.45,
+    "dl": 9158,
+    "rc": 4350,
+    "note": "田舎に帰った主人公が、遊んだり、Hなことをしたり、色々なことをして夏休みを満喫しつつ、ひと夏の甘酸っぱい想い出を作る3DRPG",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ208246.html"
   },
   {
     "id": "RJ210055",
@@ -5100,6 +6786,26 @@
       "146",
       "157"
     ]
+  },
+  {
+    "id": "RJ213210",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "魔王城のベルリーナー",
+    "names": {
+      "ja": "魔王城のベルリーナー",
+      "en": "Berliner in the Demon Lord's Castle"
+    },
+    "mt": [],
+    "circle": "大人の道楽",
+    "date": "2018-01-30",
+    "rate": 4.51,
+    "dl": 5841,
+    "rc": 3179,
+    "note": "聖職者の姉弟が一緒に脱出したり、シスターが悪魔に堕落したりする女主人公超短編RPG",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ213210.html",
+    "pov": "female"
   },
   {
     "id": "RJ213313",
@@ -5285,6 +6991,25 @@
     ]
   },
   {
+    "id": "RJ217057",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "淫魔の贄 ～魅了されたら即逆レイプ～",
+    "names": {
+      "ja": "淫魔の贄 ～魅了されたら即逆レイプ～",
+      "en": "Tribute to the Lewd Devil ~Instant Reverse R*pe Bewitchery~"
+    },
+    "mt": [],
+    "circle": "絵の無いゲーム",
+    "date": "2018-06-22",
+    "rate": 4.61,
+    "dl": 6174,
+    "rc": 2344,
+    "note": "誘惑・魅了・快楽堕ちをメインとした、\r\nMっ気強めの逃走RPG!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ217057.html"
+  },
+  {
     "id": "RJ217199",
     "cat": "f-rpg",
     "pov": "female",
@@ -5459,6 +7184,24 @@
     ]
   },
   {
+    "id": "RJ221727",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ショタ補完計画",
+    "names": {
+      "ja": "ショタ補完計画"
+    },
+    "mt": [],
+    "circle": "なぎや本舗",
+    "date": "2018-03-24",
+    "rate": 4.07,
+    "dl": 4510,
+    "rc": 2096,
+    "note": "【アニメーションショタRPG】男がいなくなった世界に自分一人の男の子・・・女が襲ってくる!バトルファックを回避して、元の世界を取り戻せ!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ221727.html"
+  },
+  {
     "id": "RJ222686",
     "cat": "f-rpg",
     "pov": "female",
@@ -5529,6 +7272,25 @@
       "149",
       "143"
     ]
+  },
+  {
+    "id": "RJ223443",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "★王妃様の浮気子作りダイアリー～浮気が国事行為になっちゃうRPG～★",
+    "names": {
+      "ja": "★王妃様の浮気子作りダイアリー～浮気が国事行為になっちゃうRPG～★",
+      "en": "Queen's Diary of Adulterous Mating ~RPG In Which Love Affair Is National Affair~"
+    },
+    "mt": [],
+    "circle": "俺的嗜好",
+    "date": "2018-07-28",
+    "rate": 4.45,
+    "dl": 4287,
+    "rc": 1918,
+    "note": "王妃が種無し国王の代わりになる男性の子種を求め\r\n子作りをお願いするうちに浮気にハマっちゃうRPGです\r\n浮気可能な男性は10人以上、浮気相手別妊娠機能実装! ",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ223443.html"
   },
   {
     "id": "RJ224571",
@@ -5603,6 +7365,25 @@
       "121",
       "174"
     ]
+  },
+  {
+    "id": "RJ225757",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "エルミア剣闘物語-少年剣士VS戦う乙女たち-",
+    "names": {
+      "ja": "エルミア剣闘物語-少年剣士VS戦う乙女たち-",
+      "en": "Gladiators of Elmia: Boy Swordsman VS Fighting Maidens"
+    },
+    "mt": [],
+    "circle": "神倉流同好会",
+    "date": "2018-10-09",
+    "rate": 4.55,
+    "dl": 6718,
+    "rc": 3150,
+    "note": "女性キャラに負けると逆陵辱されてしまう! Mシチュ満載、男主人公エロRPG。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ225757.html"
   },
   {
     "id": "RJ226355",
@@ -5716,6 +7497,25 @@
     ]
   },
   {
+    "id": "RJ227638",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ボクのHな夏の思い出～お姉ちゃん達と過ごした八月～",
+    "names": {
+      "ja": "ボクのHな夏の思い出～お姉ちゃん達と過ごした八月～",
+      "en": "My Erotic Summer Memories ~Spending August with Elder Girls~"
+    },
+    "mt": [],
+    "circle": "ディーゼルマイン",
+    "date": "2018-09-21",
+    "rate": 4.5,
+    "dl": 11493,
+    "rc": 4816,
+    "note": "ちょっと背伸びをして、甘酸っぱくエッチなひと夏を送る3DRPG。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ227638.html"
+  },
+  {
     "id": "RJ227939",
     "cat": "f-rpg",
     "pov": "female",
@@ -5816,6 +7616,37 @@
     ]
   },
   {
+    "id": "RJ228892",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "紅獄の剣士ティーナ",
+    "names": {
+      "ja": "紅獄の剣士ティーナ",
+      "zh": "红狱剑士蒂娜",
+      "en": "Tina, Swordswoman of the Crimson Prison"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "しなちくかすてぃーら",
+    "date": "2018-07-20",
+    "rate": 4.63,
+    "dl": 49615,
+    "rc": 20670,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ228892.html",
+    "note": "",
+    "genres": [
+      "432",
+      "211",
+      "048",
+      "016",
+      "138",
+      "182"
+    ]
+  },
+  {
     "id": "RJ231296",
     "cat": "f-rpg",
     "pov": "female",
@@ -5849,6 +7680,25 @@
       "325",
       "140"
     ]
+  },
+  {
+    "id": "RJ232131",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ドラゴン・ハーネスト～人妻だらけの勇者達",
+    "names": {
+      "ja": "ドラゴン・ハーネスト～人妻だらけの勇者達",
+      "en": "Dragon * Harem Nest - Heroes Among MILFs"
+    },
+    "mt": [],
+    "circle": "ダイニホケンシツ",
+    "date": "2018-09-01",
+    "rate": 4.38,
+    "dl": 3934,
+    "rc": 2137,
+    "note": "熟女や人妻やお姉さんに愛でられるハーレム型おねショタ・熟女ショタRPG!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ232131.html"
   },
   {
     "id": "RJ232953",
@@ -5991,6 +7841,24 @@
     ]
   },
   {
+    "id": "RJ234434",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "Lust Friend",
+    "names": {
+      "ja": "Lust Friend"
+    },
+    "mt": [],
+    "circle": "むに工房",
+    "date": "2019-04-21",
+    "rate": 4.7,
+    "dl": 13452,
+    "rc": 6586,
+    "note": "淫魔と戦う?…それとも友達になる?巨乳淫魔によるショタ主人公責められBFRPG第2弾!おっぱいプレイ多め、40以上のキャラクター全てに敗北Hシーン有り!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ234434.html"
+  },
+  {
     "id": "RJ234524",
     "cat": "f-rpg",
     "pov": "female",
@@ -6020,6 +7888,25 @@
       "128",
       "170"
     ]
+  },
+  {
+    "id": "RJ234574",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "今日から私が悪の首領!?",
+    "names": {
+      "ja": "今日から私が悪の首領!?",
+      "en": "From Today Onward I'm the Boss of an Evil Organization!?"
+    },
+    "mt": [],
+    "circle": "eChime",
+    "date": "2019-03-09",
+    "rate": 4.49,
+    "dl": 7934,
+    "rc": 4134,
+    "note": "ある日突然、秘密結社の首領になった女子校生「闇子」が\r\n正義の味方と戦いながら秘密結社の運営をしていく、18禁アニメーションRPGです。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ234574.html"
   },
   {
     "id": "RJ234720",
@@ -6308,6 +8195,25 @@
     ]
   },
   {
+    "id": "RJ237413",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ショタコン魔女に襲われるっ!～館の魔女とエッチなことをするRPG～",
+    "names": {
+      "ja": "ショタコン魔女に襲われるっ!～館の魔女とエッチなことをするRPG～",
+      "en": "Assailed by a Shotacon Witch! ~Erotic RPG in the Witch's Mansion~"
+    },
+    "mt": [],
+    "circle": "クレイジー二厘",
+    "date": "2018-10-22",
+    "rate": 4.44,
+    "dl": 10656,
+    "rc": 4525,
+    "note": "館のショタ大好きな魔女に襲われるRPG",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ237413.html"
+  },
+  {
     "id": "RJ237817",
     "cat": "f-rpg",
     "pov": "female",
@@ -6441,6 +8347,25 @@
     ]
   },
   {
+    "id": "RJ241013",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ショタコンクエスト～僕のおち〇ちんが狙われている!～",
+    "names": {
+      "ja": "ショタコンクエスト～僕のおち〇ちんが狙われている!～",
+      "en": "ShotaConQuest ~They're After My Dick!~"
+    },
+    "mt": [],
+    "circle": "ハリケーンドットコム",
+    "date": "2019-02-09",
+    "rate": 4.39,
+    "dl": 16665,
+    "rc": 7255,
+    "note": "【ドットアニメーション作品】主人公に襲い掛かる女モンスター達。仲間の女すらも主人公を性的な目でしか見てない状況で、世界を平和にすることが出来るのか…?",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ241013.html"
+  },
+  {
     "id": "RJ241553",
     "cat": "f-rpg",
     "pov": "female",
@@ -6473,6 +8398,25 @@
       "114",
       "149"
     ]
+  },
+  {
+    "id": "RJ244355",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "牛娘エンド",
+    "names": {
+      "ja": "牛娘エンド",
+      "en": "Cow Girl Ending"
+    },
+    "mt": [],
+    "circle": "むに工房",
+    "date": "2019-01-23",
+    "rate": 4.55,
+    "dl": 10608,
+    "rc": 5013,
+    "note": "淫魔の快楽攻撃に耐えられなかった主人公の一つのエンディング…。巨乳淫魔『牛娘』によるショタ主人公責められミニCG集付きミニゲーム!4種類(+1種類)のシチュエー",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ244355.html"
   },
   {
     "id": "RJ245843",
@@ -6545,6 +8489,25 @@
       "325",
       "143"
     ]
+  },
+  {
+    "id": "RJ246792",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "Curse Errant ver1.12",
+    "names": {
+      "ja": "Curse Errant ver1.12",
+      "en": "Curse Errant ver1.11"
+    },
+    "mt": [],
+    "circle": "く～るシスター",
+    "date": "2019-03-30",
+    "rate": 4.67,
+    "dl": 10103,
+    "rc": 5879,
+    "note": "若き女の傭兵騎士と小さな従士が旅するRPG",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ246792.html"
   },
   {
     "id": "RJ247298",
@@ -6624,6 +8587,25 @@
     ]
   },
   {
+    "id": "RJ249418",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "アナスティーマティーパーティ ～ある薬師の大いなる悩み～",
+    "names": {
+      "ja": "アナスティーマティーパーティ ～ある薬師の大いなる悩み～",
+      "en": "Anasteema Tea Party "
+    },
+    "mt": [],
+    "circle": "トキノコギリ",
+    "date": "2019-05-30",
+    "rate": 4.72,
+    "dl": 8548,
+    "rc": 3723,
+    "note": "薬師の少年「アル」と巨大化してしまった姉妹や長身のメイド達による、身長差えっちやおねショタがテーマのあまあまRPG。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ249418.html"
+  },
+  {
     "id": "RJ250686",
     "cat": "f-rpg",
     "pov": "female",
@@ -6687,6 +8669,25 @@
       "325",
       "156"
     ]
+  },
+  {
+    "id": "RJ252291",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "おねしょたくえすと",
+    "names": {
+      "ja": "おねしょたくえすと",
+      "en": "Oneshota Quest"
+    },
+    "mt": [],
+    "circle": "askot",
+    "date": "2020-11-12",
+    "rate": 4.54,
+    "dl": 4975,
+    "rc": 2397,
+    "note": "はじめてなのになつかしい、そんなぼうけんしませんか?■おねえさんとHなことするRPG!■その朝、X才の誕生日を迎えたあなたは、王様の許しを得て今旅立つ!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ252291.html"
   },
   {
     "id": "RJ252479",
@@ -6860,6 +8861,25 @@
       "016",
       "193"
     ]
+  },
+  {
+    "id": "RJ261180",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ぼくは人妻ンションの管理人",
+    "names": {
+      "ja": "ぼくは人妻ンションの管理人",
+      "en": "I'm the Building Manager at Married Woman Condo"
+    },
+    "mt": [],
+    "circle": "ダイニホケンシツ",
+    "date": "2019-09-07",
+    "rate": 4.37,
+    "dl": 7921,
+    "rc": 3367,
+    "note": "人妻寝取り孕ませメインの人妻×ショタRPG。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ261180.html"
   },
   {
     "id": "RJ262921",
@@ -7337,6 +9357,101 @@
     ]
   },
   {
+    "id": "RJ275700",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "お願い!召喚!!使い魔ン",
+    "names": {
+      "ja": "お願い!召喚!!使い魔ン"
+    },
+    "mt": [],
+    "circle": "銘菓!エンゼルまんじゅう",
+    "date": "2020-02-16",
+    "rate": 4.59,
+    "dl": 3000,
+    "rc": 1601,
+    "note": "貼って貼られて貼り返せ!シールを集めて最強パーティーを目指せ!コスト編成系ファンタジーRPG!!!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ275700.html",
+    "pov": "female"
+  },
+  {
+    "id": "RJ275792",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "少年勇者ケン ～幽霊屋敷を調査せよ!の巻き～",
+    "names": {
+      "ja": "少年勇者ケン ～幽霊屋敷を調査せよ!の巻き～",
+      "en": "Boy Hero Ken ~Haunted House Investigation~"
+    },
+    "mt": [],
+    "circle": "第六花壇",
+    "date": "2020-09-26",
+    "rate": 4.58,
+    "dl": 15212,
+    "rc": 6456,
+    "note": "少年勇者ケンシリーズ最新作!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ275792.html"
+  },
+  {
+    "id": "RJ275997",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "軋轢のイデオローグAppend",
+    "names": {
+      "ja": "軋轢のイデオローグAppend",
+      "en": "Ideology in Friction Append"
+    },
+    "mt": [],
+    "circle": "ONEONE1",
+    "date": "2020-02-29",
+    "rate": 4.64,
+    "dl": 44055,
+    "rc": 15432,
+    "note": "新規で描き下ろした基本CG枚数81枚(HCG43枚)とHシナリオ多数&新キャラを追加できるパッチです。基本枚数15枚のCG集が1本「おまけ」でついてきます!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ275997.html"
+  },
+  {
+    "id": "RJ277943",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "SHOTAorDIE",
+    "names": {
+      "ja": "SHOTAorDIE"
+    },
+    "mt": [],
+    "circle": "ながとうい",
+    "date": "2020-02-27",
+    "rate": 4.02,
+    "dl": 3363,
+    "rc": 967,
+    "note": "ショタ主人公が女の子とHしながら魔王討伐へ向かうお話。最初っからフリーシナリオ!  善悪ゲージもあって自由度が高いRPGです。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ277943.html"
+  },
+  {
+    "id": "RJ278637",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "アコスクエスト",
+    "names": {
+      "ja": "アコスクエスト",
+      "en": "Akos Quest"
+    },
+    "mt": [],
+    "circle": "2990",
+    "date": "2020-04-30",
+    "rate": 4.49,
+    "dl": 3178,
+    "rc": 1806,
+    "note": "アコスの新たな物語が今、始まる!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ278637.html",
+    "pov": "female"
+  },
+  {
     "id": "RJ278858",
     "cat": "f-rpg",
     "pov": "female",
@@ -7373,6 +9488,25 @@
       "143",
       "161"
     ]
+  },
+  {
+    "id": "RJ279226",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ショタコンサキュバスとパイズリ痴女達",
+    "names": {
+      "ja": "ショタコンサキュバスとパイズリ痴女達",
+      "en": "Shota-loving Succubus and the Breast-fucking Perv Women"
+    },
+    "mt": [],
+    "circle": "クレイジー二厘",
+    "date": "2020-02-24",
+    "rate": 4.51,
+    "dl": 3896,
+    "rc": 1719,
+    "note": "パイズリオンリーのエロRPGです",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ279226.html"
   },
   {
     "id": "RJ279649",
@@ -7414,6 +9548,25 @@
     ]
   },
   {
+    "id": "RJ280274",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "おねショタドラゴン 巨乳のお姉さんだらけの世界",
+    "names": {
+      "ja": "おねショタドラゴン 巨乳のお姉さんだらけの世界",
+      "en": "OneShota Dragon: A World Full of Busty Girls!"
+    },
+    "mt": [],
+    "circle": "吉井テック社",
+    "date": "2020-05-16",
+    "rate": 4.54,
+    "dl": 2957,
+    "rc": 1201,
+    "note": "男の娘が巨乳のお姉さんしかいない世界でヌチョヌチョにHな事をされながら双子のお姉ちゃんを探す冒険をするエロアニメ付きRPGです。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ280274.html"
+  },
+  {
     "id": "RJ280540",
     "cat": "f-rpg",
     "pov": "female",
@@ -7450,6 +9603,25 @@
       "152",
       "140"
     ]
+  },
+  {
+    "id": "RJ282549",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ラーシェと生贄の村",
+    "names": {
+      "ja": "ラーシェと生贄の村"
+    },
+    "mt": [],
+    "circle": "プラスカゼット",
+    "date": "2020-05-15",
+    "rate": 4.75,
+    "dl": 6975,
+    "rc": 3691,
+    "note": "おねショタ(逆転有)の探索ホラー&白黒もどきRPG",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ282549.html",
+    "pov": "female"
   },
   {
     "id": "RJ283271",
@@ -7528,6 +9700,25 @@
     ]
   },
   {
+    "id": "RJ284911",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "★ママショタRPG 浮気なママとボクのヌキヌキエロ同人ライフ! エロ同人誌のネタはママの浮気ザーメン!? ★",
+    "names": {
+      "ja": "★ママショタRPG 浮気なママとボクのヌキヌキエロ同人ライフ! エロ同人誌のネタはママの浮気ザーメン!? ★",
+      "en": "MamaShota RPG - Cheating Mom & My Erotic Doujin Life"
+    },
+    "mt": [],
+    "circle": "俺的嗜好",
+    "date": "2020-07-31",
+    "rate": 4.45,
+    "dl": 3344,
+    "rc": 1356,
+    "note": "コスプレママの浮気経験からエロ同人誌を制作するRPG!恋人のママが同人御殿購入のため浮気しながら中出し妊娠!浮気出産の相手は10人以上、ママショタメイン! -v",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ284911.html"
+  },
+  {
     "id": "RJ287373",
     "cat": "f-rpg",
     "pov": "female",
@@ -7564,6 +9755,45 @@
       "121",
       "143"
     ]
+  },
+  {
+    "id": "RJ287739",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "甲賀異聞陰陽帖-ママは殺しがお好き-",
+    "names": {
+      "ja": "甲賀異聞陰陽帖-ママは殺しがお好き-",
+      "en": "Koga Tale of Yin & Yang  - The Murderous Mother -"
+    },
+    "mt": [],
+    "circle": "ダイニホケンシツ",
+    "date": "2020-05-29",
+    "rate": 4.41,
+    "dl": 3941,
+    "rc": 1699,
+    "note": "おねショタ近未来忍者活劇RPG!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ287739.html"
+  },
+  {
+    "id": "RJ287775",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "月紅神姫コーネリア",
+    "names": {
+      "ja": "月紅神姫コーネリア",
+      "zh": "【日文版】月红神姬康妮莉亚"
+    },
+    "mt": [],
+    "circle": "HONEYSOFT",
+    "date": "2025-01-10",
+    "rate": 4.54,
+    "dl": 25245,
+    "rc": 6171,
+    "note": "制作期間4年の超大作!!戦闘エロ搭載の学校生活×魔法少女変身エロRPG! 町中の人間を催淫電波でセックスさせ、力の復活を企む魔王の野望を阻止すべく、爆乳JK梨歩",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ287775.html",
+    "pov": "female"
   },
   {
     "id": "RJ287794",
@@ -7639,6 +9869,25 @@
       "162",
       "134"
     ]
+  },
+  {
+    "id": "RJ288251",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "★アルケミストの姉がザーメンを集めるワケ～浮気SEXで赤ちゃん錬成!おねシ〇タRPG～★【中国語版】",
+    "names": {
+      "ja": "★アルケミストの姉がザーメンを集めるワケ～浮気SEXで赤ちゃん錬成!おねシ〇タRPG～★【中国語版】",
+      "zh": "炼金术师姐姐收集精液的缘由～出轨来炼成小宝宝！姐姐〇太RPG~★【中英文同捆版】"
+    },
+    "mt": [],
+    "circle": "俺的嗜好",
+    "date": "2020-06-25",
+    "rate": 4.5,
+    "dl": 3879,
+    "rc": 482,
+    "note": "姉弟で恋愛!?究極のおねシ〇タRPG! 浮気相手のチ〇ポでも腰を振り、下品に喘いで孕む! んほんほアクメをキメながら近親SEX、浮気SEX、孕ませSEXに ハマ",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ288251.html"
   },
   {
     "id": "RJ289724",
@@ -7792,6 +10041,25 @@
       "190",
       "200"
     ]
+  },
+  {
+    "id": "RJ292496",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "色仕掛け学園～思春期男子誘惑作戦～",
+    "names": {
+      "ja": "色仕掛け学園～思春期男子誘惑作戦～",
+      "en": "Seduction Academy ~Horny Male Temptation Plan~"
+    },
+    "mt": [],
+    "circle": "おもちだいふく",
+    "date": "2020-06-29",
+    "rate": 4.46,
+    "dl": 5083,
+    "rc": 2052,
+    "note": "女の子たちが勉強を妨害♪",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ292496.html"
   },
   {
     "id": "RJ293429",
@@ -7952,6 +10220,25 @@
     ]
   },
   {
+    "id": "RJ299096",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "僕がお姉ちゃんのお世話係",
+    "names": {
+      "ja": "僕がお姉ちゃんのお世話係",
+      "en": "I Am My Sister's Keeper"
+    },
+    "mt": [],
+    "circle": "ねむみえぶりでー",
+    "date": "2020-09-26",
+    "rate": 4.31,
+    "dl": 8548,
+    "rc": 3051,
+    "note": "100円で大ボリューム!サクサク進んでどんどんシコれ!!!お姉ちゃんの身体を管理する純愛おねショタお世話型RPG!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ299096.html"
+  },
+  {
     "id": "RJ299496",
     "cat": "f-rpg",
     "pov": "female",
@@ -8019,6 +10306,25 @@
       "134",
       "182"
     ]
+  },
+  {
+    "id": "RJ300466",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "NPC姦～AV男優がRPG世界にショタ転生してNPCを犯すヤツ～",
+    "names": {
+      "ja": "NPC姦～AV男優がRPG世界にショタ転生してNPCを犯すヤツ～",
+      "en": "NPC Sex ~Porn Star Reincarnates as a Shota, and Violates All the NPCS~"
+    },
+    "mt": [],
+    "circle": "シュガーボックス",
+    "date": "2020-10-31",
+    "rate": 4.26,
+    "dl": 3874,
+    "rc": 1165,
+    "note": "ショタに転生して様々なNPCを犯しまくるRPG!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ300466.html"
   },
   {
     "id": "RJ301992",
@@ -8096,6 +10402,44 @@
     ]
   },
   {
+    "id": "RJ302540",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "レベルドレイン教会",
+    "names": {
+      "ja": "レベルドレイン教会",
+      "en": "The Church of Level Drain"
+    },
+    "mt": [],
+    "circle": "わからせ屋",
+    "date": "2021-08-27",
+    "rate": 4.49,
+    "dl": 3120,
+    "rc": 1329,
+    "note": "シスターさんに経験値を貢ぐRPG!エッチシーンは全て女性上位♪モン娘もいます!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ302540.html"
+  },
+  {
+    "id": "RJ304947",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "少年と痴女おねえさん達の幸せHなアパート暮らし リメイクお試し版",
+    "names": {
+      "ja": "少年と痴女おねえさん達の幸せHなアパート暮らし リメイクお試し版",
+      "en": "The Happy Ecchi Roommate Life of a Shonen and Pervy Onesans ~Remake Trial Ver.~"
+    },
+    "mt": [],
+    "circle": "青水庵",
+    "date": "2020-10-22",
+    "rate": 4.35,
+    "dl": 229641,
+    "rc": 17495,
+    "note": "「少年と痴女おねえさん達の幸せHなアパート暮らし」をリメイクしました！逆転なし！少年が痴女お姉さん達に最初から最後までしぼられまくる、戦闘なしのエロだけRPG",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ304947.html"
+  },
+  {
     "id": "RJ305687",
     "cat": "f-rpg",
     "pov": "female",
@@ -8132,6 +10476,24 @@
       "182",
       "183"
     ]
+  },
+  {
+    "id": "RJ306146",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "夜陰のあやめver1.12",
+    "names": {
+      "ja": "夜陰のあやめver1.12"
+    },
+    "mt": [],
+    "circle": "く～るシスター",
+    "date": "2020-12-29",
+    "rate": 4.65,
+    "dl": 10348,
+    "rc": 5421,
+    "note": "主人公のあやめが\"幽鬼祓い\"として幽鬼を退治したり、色んなところでえっちな目に遭うRPG",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ306146.html"
   },
   {
     "id": "RJ307268",
@@ -8326,6 +10688,45 @@
     ]
   },
   {
+    "id": "RJ311636",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ライブラとショタE.T.D.(エロトラップダンジョン)",
+    "names": {
+      "ja": "ライブラとショタE.T.D.(エロトラップダンジョン)",
+      "en": "\"Libra and Littleboy's Erotic Trap Dungeon\""
+    },
+    "mt": [],
+    "circle": "グーテンベルグの娘",
+    "date": "2020-12-26",
+    "rate": 4.61,
+    "dl": 8223,
+    "rc": 3863,
+    "note": "ショタ主人公がエロトラップと女の子モンスターに負けまくるエロRPG",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ311636.html"
+  },
+  {
+    "id": "RJ312642",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "体育教師なつは 異世界で生徒に犯される!",
+    "names": {
+      "ja": "体育教師なつは 異世界で生徒に犯される!",
+      "en": "PE Teacher Natsuha Gets Violated By Her Students In Another World"
+    },
+    "mt": [],
+    "circle": "クレイジー二厘",
+    "date": "2021-03-06",
+    "rate": 4.49,
+    "dl": 10830,
+    "rc": 4632,
+    "note": "勝気な女体育教師が、異世界で信頼していた生徒や教師とセックスしてしまうRPG",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ312642.html",
+    "pov": "female"
+  },
+  {
     "id": "RJ313210",
     "cat": "f-rpg",
     "pov": "female",
@@ -8363,6 +10764,45 @@
       "149",
       "129"
     ]
+  },
+  {
+    "id": "RJ313918",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ルカとアレン～2人の赤ずきんとオオカミ男たち～",
+    "names": {
+      "ja": "ルカとアレン～2人の赤ずきんとオオカミ男たち～"
+    },
+    "mt": [],
+    "circle": "ユラリボン",
+    "date": "2021-02-06",
+    "rate": 4.54,
+    "dl": 14619,
+    "rc": 5982,
+    "note": "魔法使いの少女ルカと、治療士の少年アレンは祖母の家へと向かうため2人で旅に出るが、道中でケダモノのような男達に狙われてしまい...!?  ユラリボン初作品、おね",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ313918.html",
+    "pov": "female"
+  },
+  {
+    "id": "RJ314482",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "新生 むっち無知 田舎性活 ～過ぎ去った時を求めて～",
+    "names": {
+      "ja": "新生 むっち無知 田舎性活 ～過ぎ去った時を求めて～",
+      "en": "MUCCHIMUCHI ~Busty Bumpkin's Bumpin' and Humpin'~"
+    },
+    "mt": [],
+    "circle": "愚痴ヲタ畑",
+    "date": "2021-04-30",
+    "rate": 4.62,
+    "dl": 20717,
+    "rc": 8191,
+    "note": "えっちな知識に疎い、少年のような性格の巨乳の女の子が繰り広げる無知シチュ探索RPG!!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ314482.html",
+    "pov": "female"
   },
   {
     "id": "RJ315231",
@@ -8502,6 +10942,116 @@
     ]
   },
   {
+    "id": "RJ317168",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "罠にハメられた鬼巫女ちゃん～トラップ&タワーディフェンス～",
+    "names": {
+      "ja": "罠にハメられた鬼巫女ちゃん～トラップ&タワーディフェンス～"
+    },
+    "mt": [],
+    "circle": "sugar*plum",
+    "date": "2021-03-13",
+    "rate": 4.14,
+    "dl": 2065,
+    "rc": 560,
+    "note": "鬼巫女にエロトラップをしかけろ!  おさわりエロトラップ×タワーディフェンスRPG&SLG!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ317168.html"
+  },
+  {
+    "id": "RJ317430",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "女装聖騎士ラスカル -異世界メス堕ち男の娘冒険記-",
+    "names": {
+      "ja": "女装聖騎士ラスカル -異世界メス堕ち男の娘冒険記-",
+      "en": "Cross Dressing Paladin Laskul ~Parallel World Corruption Diary~"
+    },
+    "mt": [],
+    "circle": "ヤン豚",
+    "date": "2021-02-27",
+    "rate": 4.22,
+    "dl": 2488,
+    "rc": 908,
+    "note": "大好きな恋人の為に戦う事を決めた、いたいけな乙女男の娘聖騎士のエッチな大冒険が、今始まるっ!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ317430.html"
+  },
+  {
+    "id": "RJ317497",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "僕とお姉ちゃんの世界を観よ!",
+    "names": {
+      "ja": "僕とお姉ちゃんの世界を観よ!"
+    },
+    "mt": [],
+    "circle": "ねむみえぶりでー",
+    "date": "2021-03-06",
+    "rate": 4.31,
+    "dl": 853,
+    "rc": 320,
+    "note": "おねショタでサクサク!視点自由に変更可能!抜き特化のおねショタ探索型RPG!!!戦闘・レベル上げ面倒なのナシ!!!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ317497.html"
+  },
+  {
+    "id": "RJ317690",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "淫界人柱アラカ～JK退魔師ホラー探索RPG～",
+    "names": {
+      "ja": "淫界人柱アラカ～JK退魔師ホラー探索RPG～",
+      "en": "Lewd Realm Sacrifice Araka ~A JK Exorcist Horror RPG~"
+    },
+    "mt": [],
+    "circle": "I'm moralist",
+    "date": "2021-06-11",
+    "rate": 4.61,
+    "dl": 48005,
+    "rc": 17236,
+    "note": "対魔少女の牝肉は淫界を支える人柱となる――  卑猥なる亡霊たちの手が、対魔少女の柔肌に伸びる。『ヒト』の尊厳を少しずつ奪われ、徹底的な調教・改造によって、その牝",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ317690.html"
+  },
+  {
+    "id": "RJ318033",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "『異世界ショタコン』~召喚されたら男の娘ハーレムだった~",
+    "names": {
+      "ja": "『異世界ショタコン』~召喚されたら男の娘ハーレムだった~"
+    },
+    "mt": [],
+    "circle": "モノカゲクラブ",
+    "date": "2021-08-15",
+    "rate": 4.61,
+    "dl": 2807,
+    "rc": 973,
+    "note": "ある日ショタコンが異世界召喚されたら、男の娘だらけの世界だった!全30キャラの男の娘とBF(Battle Fuck)!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ318033.html"
+  },
+  {
+    "id": "RJ318381",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "淫魔の気に惑う町",
+    "names": {
+      "ja": "淫魔の気に惑う町"
+    },
+    "mt": [],
+    "circle": "ダイコン武者修行",
+    "date": "2021-04-25",
+    "rate": 4.31,
+    "dl": 743,
+    "rc": 333,
+    "note": "淫魔の魔力によって町中でトラブルが起こりヒロインがセクハラされていくゲームです。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ318381.html"
+  },
+  {
     "id": "RJ318643",
     "cat": "f-rpg",
     "pov": "female",
@@ -8536,6 +11086,25 @@
       "122",
       "182"
     ]
+  },
+  {
+    "id": "RJ319176",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ママンズクエスト2 ～ノアとリリアの母親ネトラセ記～",
+    "names": {
+      "ja": "ママンズクエスト2 ～ノアとリリアの母親ネトラセ記～",
+      "en": "Maman's Quest 2 ~Mom-cucking Chronicle of Noa and Lillia~"
+    },
+    "mt": [],
+    "circle": "Autonoe",
+    "date": "2021-03-26",
+    "rate": 4.38,
+    "dl": 1511,
+    "rc": 619,
+    "note": "母親を寝取らせて強くする!母親寝取らせRPG!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ319176.html"
   },
   {
     "id": "RJ319669",
@@ -8574,6 +11143,25 @@
       "162",
       "165"
     ]
+  },
+  {
+    "id": "RJ320300",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ショタ×おねバケーション -種付け村の夏休み-",
+    "names": {
+      "ja": "ショタ×おねバケーション -種付け村の夏休み-",
+      "en": "ShotaOne Vacation! ~Summer in Fuck Village~"
+    },
+    "mt": [],
+    "circle": "ナップルミル",
+    "date": "2021-05-02",
+    "rate": 4.48,
+    "dl": 9855,
+    "rc": 4330,
+    "note": "帰省先は女ばかりの田舎村! ヤりたい盛りの悪ガキを操作して、お姉さん達とのイタズラ種付けライフを満喫しよう!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ320300.html"
   },
   {
     "id": "RJ322248",
@@ -8619,6 +11207,63 @@
     ]
   },
   {
+    "id": "RJ324269",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "最弱ゆうしゃと最強ニート騎士",
+    "names": {
+      "ja": "最弱ゆうしゃと最強ニート騎士"
+    },
+    "mt": [],
+    "circle": "きょうりゅうらんど",
+    "date": "2021-09-30",
+    "rate": 4.23,
+    "dl": 1253,
+    "rc": 432,
+    "note": "ポンコツ女騎士と最弱ショタ勇者がHな目にあう簡単アクションRPG。Live2Dでイベントシーンがヌルヌル動く!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ324269.html"
+  },
+  {
+    "id": "RJ324679",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "とある主婦の秘密のお金稼ぎ",
+    "names": {
+      "ja": "とある主婦の秘密のお金稼ぎ",
+      "en": "A Certain Housewife's Secret Side-job"
+    },
+    "mt": [],
+    "circle": "Gyroton",
+    "date": "2021-05-08",
+    "rate": 4.25,
+    "dl": 5043,
+    "rc": 2107,
+    "note": "夫に内緒で日々エッチなことに巻き込まれていく人妻の日常系アニメーションRPG。登場男性すべてとどこでもエッチできる。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ324679.html",
+    "pov": "female"
+  },
+  {
+    "id": "RJ324700",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "蒼天のステラ",
+    "names": {
+      "ja": "蒼天のステラ"
+    },
+    "mt": [],
+    "circle": "大人の道楽",
+    "date": "2023-11-20",
+    "rate": 4.66,
+    "dl": 5910,
+    "rc": 2344,
+    "note": "女主人公がえっちな目にあったり和姦もできたりする中編RPG",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ324700.html",
+    "pov": "female"
+  },
+  {
     "id": "RJ324709",
     "cat": "f-rpg",
     "pov": "female",
@@ -8655,6 +11300,44 @@
       "143",
       "182"
     ]
+  },
+  {
+    "id": "RJ325871",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ちょいブス地味子だってエッチがしたい!",
+    "names": {
+      "ja": "ちょいブス地味子だってエッチがしたい!"
+    },
+    "mt": [],
+    "circle": "ネコノホシ",
+    "date": "2021-07-17",
+    "rate": 4.32,
+    "dl": 2201,
+    "rc": 944,
+    "note": "借金を返すため、ちょいブス地味子がバイトや売春でお金を稼ぐ、戦闘無しのエッチイベント重視RPG!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ325871.html",
+    "pov": "female"
+  },
+  {
+    "id": "RJ325990",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "JKボクサー凛香と復讐の地下リング【英語版同梱】",
+    "names": {
+      "ja": "JKボクサー凛香と復讐の地下リング【英語版同梱】",
+      "en": "JK Boxer Rinka Seeks Revenge in the Underground Ring"
+    },
+    "mt": [],
+    "circle": "ナッツが主食",
+    "date": "2021-08-11",
+    "rate": 4.46,
+    "dl": 1786,
+    "rc": 488,
+    "note": "Live2D動画搭載の格闘リョナ特化地下女子ボクサー育成ゲーム!!妹のかたきを討つ為、主人公である凛香はJK限定の地下女子ボクシングリーグへの参戦を決意するが・",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ325990.html"
   },
   {
     "id": "RJ326939",
@@ -8725,6 +11408,42 @@
     ]
   },
   {
+    "id": "RJ328919",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "Holy Mother Of God",
+    "names": {
+      "ja": "Holy Mother Of God"
+    },
+    "mt": [],
+    "circle": "スタジオシロッコ",
+    "date": "2021-05-30",
+    "rate": 4.43,
+    "dl": 4521,
+    "rc": 1497,
+    "note": "初作Bewitching swordの前の話です。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ328919.html"
+  },
+  {
+    "id": "RJ329550",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ゲスショタ勇者と導かれし人妻達",
+    "names": {
+      "ja": "ゲスショタ勇者と導かれし人妻達"
+    },
+    "mt": [],
+    "circle": "レーゲ連合王国",
+    "date": "2021-12-22",
+    "rate": 4.44,
+    "dl": 6070,
+    "rc": 2021,
+    "note": "愛する人を持つ人妻達が、デカチンショタ勇者の性欲に振り回されて、ドスケベ浮気セックスにドハマりしていく!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ329550.html"
+  },
+  {
     "id": "RJ329637",
     "cat": "f-rpg",
     "pov": "female",
@@ -8757,6 +11476,24 @@
       "183",
       "184"
     ]
+  },
+  {
+    "id": "RJ329705",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ようこそ! 相姦パラダイス",
+    "names": {
+      "ja": "ようこそ! 相姦パラダイス"
+    },
+    "mt": [],
+    "circle": "一年生草本企画",
+    "date": "2021-08-07",
+    "rate": 4.5,
+    "dl": 1037,
+    "rc": 312,
+    "note": "母子が訪れたのは、近親相姦愛好者が集う島だった!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ329705.html"
   },
   {
     "id": "RJ331538",
@@ -8867,6 +11604,63 @@
       "129",
       "113"
     ]
+  },
+  {
+    "id": "RJ333290",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ボクが魔王の息子だからってパイズリで退治しないで下さい!",
+    "names": {
+      "ja": "ボクが魔王の息子だからってパイズリで退治しないで下さい!",
+      "en": "The Demon Lord's Son Faces Titjob Extermination!"
+    },
+    "mt": [],
+    "circle": "クレイジー二厘",
+    "date": "2021-09-18",
+    "rate": 4.55,
+    "dl": 2957,
+    "rc": 1088,
+    "note": "魔王の血を継いでいた少年がパイズリで退治されるのを必死に拒もうとするけどやっぱ無理なRPG",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ333290.html"
+  },
+  {
+    "id": "RJ333557",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "～異世界で自分探しのRPG～ そうですよ?姉は伝説級の勇者でも、僕は一般人なんですが…なにか?",
+    "names": {
+      "ja": "～異世界で自分探しのRPG～ そうですよ?姉は伝説級の勇者でも、僕は一般人なんですが…なにか?"
+    },
+    "mt": [],
+    "circle": "Are!",
+    "date": "2021-07-03",
+    "rate": 3.66,
+    "dl": 1262,
+    "rc": 503,
+    "note": "姉が超有名な勇者様でいつも比較される弟 姉とは違う生き方で自分なりの人生を満喫しようと思う!自分探しのRPG",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ333557.html"
+  },
+  {
+    "id": "RJ333870",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "淫乱堕ち勇者カレン",
+    "names": {
+      "ja": "淫乱堕ち勇者カレン",
+      "en": "Lewdly Corrupted Heroine Karen"
+    },
+    "mt": [],
+    "circle": "ルさんちまん",
+    "date": "2021-07-30",
+    "rate": 4.57,
+    "dl": 15820,
+    "rc": 7073,
+    "note": "光の力を極めし勇者カレン。だが、彼女の力をもっても魔王には勝てなかった。 さらなる力を求め、彼女は闇属性へクラスチェンジ。 淫行で闇の力を得て魔王を倒すことを目",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ333870.html",
+    "pov": "female"
   },
   {
     "id": "RJ334677",
@@ -8987,6 +11781,25 @@
       "129",
       "134"
     ]
+  },
+  {
+    "id": "RJ337435",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "【体格差おねショタRPG】八尺様と夏の思い出【逆レイプ】",
+    "names": {
+      "ja": "【体格差おねショタRPG】八尺様と夏の思い出【逆レイプ】",
+      "en": "Summer Memory With Yasaka [Oneshota Reverse Rape RPG]"
+    },
+    "mt": [],
+    "circle": "sugar*plum",
+    "date": "2021-08-14",
+    "rate": 4.4,
+    "dl": 10128,
+    "rc": 3284,
+    "note": "故郷での最後の夏休み。巨大な女性、八尺様に「ぼく」がエッチないたずらをされてしまう、いちゃラブおねショタRPG!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ337435.html"
   },
   {
     "id": "RJ338982",
@@ -9177,6 +11990,24 @@
     ]
   },
   {
+    "id": "RJ341947",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "【体格差おねショタRPG】聖騎士様とサキュバス従者【逆レイプBF】",
+    "names": {
+      "ja": "【体格差おねショタRPG】聖騎士様とサキュバス従者【逆レイプBF】"
+    },
+    "mt": [],
+    "circle": "sugar*plum",
+    "date": "2022-01-22",
+    "rate": 4.52,
+    "dl": 10976,
+    "rc": 3661,
+    "note": "清楚なフリしたサキュバス従者に襲われる!!バトルファック×レベルドレイン×逆レイプ!愛が強すぎるサキュバス従者にひたすら搾られるおねショタRPG!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ341947.html"
+  },
+  {
     "id": "RJ341967",
     "cat": "f-rpg",
     "pov": "female",
@@ -9216,6 +12047,25 @@
     ]
   },
   {
+    "id": "RJ342911",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "リコシェ～無能力JKがオークと絶頂バトル～",
+    "names": {
+      "ja": "リコシェ～無能力JKがオークと絶頂バトル～",
+      "en": "Ricoche ~A Weak JK's Climactic Battle with Orcs~"
+    },
+    "mt": [],
+    "circle": "雪陽炎",
+    "date": "2021-10-12",
+    "rate": 4.58,
+    "dl": 18239,
+    "rc": 6952,
+    "note": "異世界でオークと戦うことになってしまった主人公JK。オナニーが好きなだけの普通の少女が身体ひとつでオークの巨根に立ち向かう…!!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ342911.html"
+  },
+  {
     "id": "RJ343083",
     "cat": "f-rpg",
     "pov": "female",
@@ -9249,6 +12099,43 @@
     ]
   },
   {
+    "id": "RJ343349",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "メスガキ吸血鬼とオホ声の森",
+    "names": {
+      "ja": "メスガキ吸血鬼とオホ声の森",
+      "en": "Loli Vampire and the Forest of Moaning"
+    },
+    "mt": [],
+    "circle": "まろん☆まろん",
+    "date": "2021-09-18",
+    "rate": 4.53,
+    "dl": 35410,
+    "rc": 13816,
+    "note": "生意気なメスガキ吸血鬼をオホらせるっ!!!マスを選んでイベントに遭遇!サクサク進むお気軽ゲーム!エッチな森からあなたは脱出できるのか…!?",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ343349.html"
+  },
+  {
+    "id": "RJ343441",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "変態の村と不死身の村長くん",
+    "names": {
+      "ja": "変態の村と不死身の村長くん"
+    },
+    "mt": [],
+    "circle": "楼月神楽",
+    "date": "2021-10-12",
+    "rate": 4.33,
+    "dl": 1846,
+    "rc": 569,
+    "note": "おねショタ逆レイプゲーです ほとんどADVのようなRPGとなっております",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ343441.html"
+  },
+  {
     "id": "RJ343891",
     "cat": "f-rpg",
     "pov": "female",
@@ -9280,6 +12167,24 @@
       "190",
       "179"
     ]
+  },
+  {
+    "id": "RJ344563",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "A Nursery Tale Story",
+    "names": {
+      "ja": "A Nursery Tale Story"
+    },
+    "mt": [],
+    "circle": "スタジオシロッコ",
+    "date": "2021-09-28",
+    "rate": 4.35,
+    "dl": 6976,
+    "rc": 2090,
+    "note": "人妻やムチムチ女性を自分専用のオナホママにするRPG",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ344563.html"
   },
   {
     "id": "RJ349517",
@@ -9318,6 +12223,44 @@
       "149",
       "140"
     ]
+  },
+  {
+    "id": "RJ351869",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "NTRメスガキ 魔法少女フラン",
+    "names": {
+      "ja": "NTRメスガキ 魔法少女フラン",
+      "en": "The NTR of Slutty Magical Girl Flan"
+    },
+    "mt": [],
+    "circle": "OreNo小屋",
+    "date": "2021-10-22",
+    "rate": 4.56,
+    "dl": 6678,
+    "rc": 2673,
+    "note": "催眠キモおじさんなんかに負けるわけないでしょー♪ とか言ってた彼氏持ちの魔法メスガキが催眠キモおじさんにわからされて寝取られるRPG",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ351869.html"
+  },
+  {
+    "id": "RJ352832",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "母が土下座した日 -the GAME-  夏休み☆母さん調教大作戦!",
+    "names": {
+      "ja": "母が土下座した日 -the GAME-  夏休み☆母さん調教大作戦!",
+      "en": "The Day a Mother Made an Apology on All Fours THE GAME"
+    },
+    "mt": [],
+    "circle": "汚電せんせい",
+    "date": "2021-11-13",
+    "rate": 4.45,
+    "dl": 11900,
+    "rc": 3403,
+    "note": "禁断の母親調教RPG誕生!!「母が土下座した日」の完全新作がゲームになって帰ってきた!!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ352832.html"
   },
   {
     "id": "RJ353002",
@@ -9397,6 +12340,24 @@
     ]
   },
   {
+    "id": "RJ354571",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "おねショタInfection!",
+    "names": {
+      "ja": "おねショタInfection!"
+    },
+    "mt": [],
+    "circle": "ぴーちパレット",
+    "date": "2021-11-06",
+    "rate": 3.92,
+    "dl": 2516,
+    "rc": 930,
+    "note": "【M男向け逆レイプRPG】宇宙船内にて女性を発情させるウイルスに感染してしまったショタが犯される、逃げ場のない逆レイプRPGです。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ354571.html"
+  },
+  {
     "id": "RJ356908",
     "cat": "f-rpg",
     "pov": "female",
@@ -9433,6 +12394,42 @@
       "134",
       "182"
     ]
+  },
+  {
+    "id": "RJ360429",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "『堕落勇者』-魔王と全く関係ないお姉さんだらけの市場でゲームオーバー-",
+    "names": {
+      "ja": "『堕落勇者』-魔王と全く関係ないお姉さんだらけの市場でゲームオーバー-"
+    },
+    "mt": [],
+    "circle": "モノク廊",
+    "date": "2021-12-22",
+    "rate": 4.44,
+    "dl": 3551,
+    "rc": 1572,
+    "note": "旅の途中に寄った市場でエッチなお姉さんたちに誘惑されちゃう系RPG。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ360429.html"
+  },
+  {
+    "id": "RJ362019",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "この町では男の娘には人権はありません ふたなりお姉さん達のおもちゃです",
+    "names": {
+      "ja": "この町では男の娘には人権はありません ふたなりお姉さん達のおもちゃです"
+    },
+    "mt": [],
+    "circle": "クルエルミィ",
+    "date": "2021-12-13",
+    "rate": 4.35,
+    "dl": 1989,
+    "rc": 561,
+    "note": "借金を作った最低男の肩代わりで男の娘がふたなりお姉さん達に集団レイプされる……!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ362019.html"
   },
   {
     "id": "RJ364256",
@@ -9510,6 +12507,25 @@
       "134",
       "113"
     ]
+  },
+  {
+    "id": "RJ365531",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "魔法少女ピュアアリス～怪人に堕ちる女子高生～",
+    "names": {
+      "ja": "魔法少女ピュアアリス～怪人に堕ちる女子高生～"
+    },
+    "mt": [],
+    "circle": "Carnivora Canidae",
+    "date": "2021-12-25",
+    "rate": 4.35,
+    "dl": 4201,
+    "rc": 1526,
+    "note": "ピュアアリスは街を守る正義の魔法少女。しかし嫌らしい手段を使う邪悪な怪人たちが次々と彼女の街へ襲い来る…。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ365531.html",
+    "pov": "female"
   },
   {
     "id": "RJ368530",
@@ -9733,6 +12749,24 @@
     ]
   },
   {
+    "id": "RJ389593",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "【体格差おねショタ】小さなロキとユグドラシルの迷宮【バトルファックRPG】",
+    "names": {
+      "ja": "【体格差おねショタ】小さなロキとユグドラシルの迷宮【バトルファックRPG】"
+    },
+    "mt": [],
+    "circle": "sugar*plum",
+    "date": "2023-03-11",
+    "rate": 4.51,
+    "dl": 10431,
+    "rc": 3144,
+    "note": "Hなお姉さんたちから逃げながら、ダンジョンを探索しよう! おねショタ×バトルファックRPG!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ389593.html"
+  },
+  {
     "id": "RJ392137",
     "cat": "f-rpg",
     "pov": "female",
@@ -9808,6 +12842,24 @@
       "134",
       "121"
     ]
+  },
+  {
+    "id": "RJ394727",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "メスガキさん、催眠のお時間です。",
+    "names": {
+      "ja": "メスガキさん、催眠のお時間です。"
+    },
+    "mt": [],
+    "circle": "砂時計と鉛筆",
+    "date": "2022-06-04",
+    "rate": 4.26,
+    "dl": 13323,
+    "rc": 4380,
+    "note": "催眠の師匠から教わった催眠術で、生意気メスガキに復讐とエッチなイタズラをするRPG。催眠中の悪戯要素を集めて、おさわりできる機能搭載!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ394727.html"
   },
   {
     "id": "RJ400230",
@@ -10000,6 +13052,25 @@
     ]
   },
   {
+    "id": "RJ406483",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "八重頭異聞奇譚 -影山倫子の終わらない夏-",
+    "names": {
+      "ja": "八重頭異聞奇譚 -影山倫子の終わらない夏-"
+    },
+    "mt": [],
+    "circle": "Azure Azurite",
+    "date": "2023-01-10",
+    "rate": 4.67,
+    "dl": 13638,
+    "rc": 4447,
+    "note": "エリート爆乳女教師 影山倫子。久しぶりに帰ってきた故郷の島で送る一夏。オラッオラッ凌辱&アヘんほ成分多め。イベント探索型 ADVRPG。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ406483.html",
+    "pov": "female"
+  },
+  {
     "id": "RJ408810",
     "cat": "f-rpg",
     "pov": "female",
@@ -10113,6 +13184,29 @@
       "113",
       "182"
     ]
+  },
+  {
+    "cat": "f-rpg",
+    "state": "released",
+    "title": "灼炎の巫女 静音 〜爆乳母娘のHなおっぱい浄化物語〜",
+    "circle": "ユラリボン",
+    "date": "2022-11-24",
+    "rate": 4.55,
+    "dl": 33045,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ419237.html",
+    "note": "",
+    "id": "RJ419237",
+    "names": {
+      "ja": "灼炎の巫女 静音 〜爆乳母娘のHなおっぱい浄化物語〜",
+      "zh": "灼炎巫女 静音～爆乳母女的H胸部净化物语～",
+      "en": "Shizune, Maiden of Scorching Flame ~A Busty Mother and Daughter's Lewd Breast Purification Story~"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "rc": 10493,
+    "src": "dlsite"
   },
   {
     "id": "RJ420798",
@@ -10268,6 +13362,24 @@
     ]
   },
   {
+    "id": "RJ434093",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "夢魔の迷宮 〜Maze of Succubus〜",
+    "names": {
+      "ja": "夢魔の迷宮 〜Maze of Succubus〜"
+    },
+    "mt": [],
+    "circle": "OCTET SOFT",
+    "date": "2024-04-08",
+    "rate": 4.03,
+    "dl": 4004,
+    "rc": 938,
+    "note": "絶対もっと売れるべきとレヴューされた、「量より質」で勝負のやり込み系ダンジョンR18RPG! SFC&FC風で彩られたダンジョンを探索し、漫画家もくふう先生が描",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ434093.html"
+  },
+  {
     "id": "RJ435322",
     "cat": "f-rpg",
     "pov": "female",
@@ -10344,881 +13456,6 @@
       "128",
       "134"
     ]
-  },
-  {
-    "id": "cien-11070",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "メメリスちゃんのえっちなRPG2",
-    "names": {
-      "ja": "メメリスちゃんのえっちなRPG2",
-      "zh": "梅梅莉丝的色色RPG2",
-      "en": "Memelis's Naughty RPG 2"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "ナツ",
-    "date": "2026-10-27",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 49829,
-    "url": "https://ci-en.dlsite.com/creator/11070",
-    "note": "前作的续篇，女主人公执行潜入任务的 RPG，先行体验版持续更新"
-  },
-  {
-    "id": "cien-11642",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "隷従都市のフウラ",
-    "names": {
-      "ja": "隷従都市のフウラ",
-      "zh": "隶从都市的芙拉",
-      "en": "Fura of the Servitude City"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "オルズパインツ",
-    "date": "2026-10-24",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 41061,
-    "url": "https://ci-en.dlsite.com/creator/11642",
-    "note": "用 RPG 制作大师制作的女主人公 RPG，测试版已到 ver1.50"
-  },
-  {
-    "id": "cien-1183",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "性盾姫クオレヴィータ",
-    "names": {
-      "ja": "性盾姫クオレヴィータ",
-      "zh": "性盾姬柯蕾维塔",
-      "en": "Cuore Vita the Shield Princess"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "U-ROOM",
-    "date": "2026-09-30",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 61979,
-    "url": "https://ci-en.dlsite.com/creator/1183",
-    "note": "女主人公 RPG，有盾、调查、斗技场等多条路线，可单手操作战斗"
-  },
-  {
-    "id": "cien-1301",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "愛と欲望のウィザリング",
-    "names": {
-      "ja": "愛と欲望のウィザリング",
-      "zh": "爱与欲望的凋零",
-      "en": "Withering of Love and Desire"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "瞬間フローライター",
-    "date": "2026-08-23",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 30068,
-    "url": "https://ci-en.dlsite.com/creator/1301",
-    "note": "女性视角的 RPG，正在制作商店和换装系统"
-  },
-  {
-    "id": "cien-13296",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "レディオブオーダー",
-    "names": {
-      "ja": "レディオブオーダー",
-      "zh": "秩序淑女",
-      "en": "Lady of Order"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "BanameiR",
-    "date": "2026-10-01",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 21589,
-    "url": "https://ci-en.dlsite.com/creator/13296",
-    "note": "用 RPG 制作大师制作的女主人公 RPG，每月发表进度"
-  },
-  {
-    "id": "cien-148",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "淫呪の迷宮 ～ミラと遊蕩の主～",
-    "names": {
-      "ja": "淫呪の迷宮 ～ミラと遊蕩の主～",
-      "zh": "淫咒迷宫 ～米拉与放荡之主～",
-      "en": "Labyrinth of Lewd Curses: Mira and the Lord of Debauchery"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "GrayGreed",
-    "date": "2026-10-16",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 24618,
-    "url": "https://ci-en.dlsite.com/creator/148",
-    "note": "刷稀有装备、无限合成装备来攻略迷宫的女主人公 RPG"
-  },
-  {
-    "id": "cien-1511",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "アイリス☆クロニクル 第2話（仮）",
-    "names": {
-      "ja": "アイリス☆クロニクル 第2話（仮）",
-      "zh": "艾莉丝☆编年史 第2话（暂定）",
-      "en": "Iris Chronicle Episode 2"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "おいらん一味",
-    "date": "2026-10-13",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 40697,
-    "url": "https://ci-en.dlsite.com/creator/1511",
-    "note": "分话发布的女主人公 RPG，正在制作第 2 话"
-  },
-  {
-    "id": "cien-16017",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "Project Dungeon（仮）",
-    "names": {
-      "ja": "Project Dungeon（仮）",
-      "zh": "Project Dungeon（暂定）",
-      "en": "Project Dungeon"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "HUuuUGe",
-    "date": "2026-10-16",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 28624,
-    "url": "https://ci-en.dlsite.com/creator/16017",
-    "note": "回合制迷宫 RPG，可操作女骑士、女神官等多名女性角色，按月公开构建版"
-  },
-  {
-    "id": "cien-16256",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "操滅の巫女メイナ",
-    "names": {
-      "ja": "操滅の巫女メイナ",
-      "zh": "操灭巫女梅娜",
-      "en": "Meina the Shrine Maiden of Control"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "TWORL",
-    "date": "2026-10-16",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 21400,
-    "url": "https://ci-en.dlsite.com/creator/16256",
-    "note": "以催眠、洗脑为主题的巫女主人公 RPG，已公开体验版"
-  },
-  {
-    "id": "cien-16373",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "稼げ！野外露出ステルス配信",
-    "names": {
-      "ja": "稼げ！野外露出ステルス配信",
-      "zh": "赚钱吧！野外露出潜行直播",
-      "en": "Earn It! Outdoor Exposure Stealth Stream"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "ガオン堂",
-    "date": "2026-10-27",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 28407,
-    "url": "https://ci-en.dlsite.com/creator/16373",
-    "note": "怕生的家里蹲女主人公靠直播、打工等方式赚钱自立的 RPG"
-  },
-  {
-    "id": "cien-1810",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "紅獄の剣士ティーナⅡ",
-    "names": {
-      "ja": "紅獄の剣士ティーナⅡ",
-      "zh": "红狱剑士蒂娜Ⅱ",
-      "en": "Tina the Swordswoman of the Crimson Prison II"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "しなちくかすてぃーら",
-    "date": "2026-10-27",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 120959,
-    "url": "https://ci-en.dlsite.com/creator/1810",
-    "note": "女剑士主人公的 RPG 续作，可在城中各区域探索"
-  },
-  {
-    "id": "cien-1888",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "穢れゆく蒼銀",
-    "names": {
-      "ja": "穢れゆく蒼銀",
-      "zh": "渐被玷污的苍银",
-      "en": "Tainted Azure Silver"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "ぬこ魔神",
-    "date": "2026-10-18",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 60819,
-    "url": "https://ci-en.dlsite.com/creator/1888",
-    "note": "银发女主人公的 RPG，事件随时间实时推进"
-  },
-  {
-    "id": "cien-208",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "シスタークロニクル",
-    "names": {
-      "ja": "シスタークロニクル",
-      "zh": "修女编年史",
-      "en": "Sister Chronicle"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "ONEONE1",
-    "date": "2026-10-26",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 173346,
-    "url": "https://ci-en.dlsite.com/creator/208",
-    "note": "以修女为主人公的 RPG，制作中的动画和草图按周公开"
-  },
-  {
-    "id": "cien-2082",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "囮痴○捜査官アイリ（仮）",
-    "names": {
-      "ja": "囮痴○捜査官アイリ（仮）",
-      "zh": "诱饵搜查官艾莉（暂定）",
-      "en": "Decoy Investigator Airi (working title)"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "メタモルフォーゼ",
-    "date": "2026-10-15",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 45166,
-    "url": "https://ci-en.dlsite.com/creator/2082",
-    "note": "用 Unity 制作的女主人公 RPG，前作「リナ」的系列新作"
-  },
-  {
-    "id": "cien-25095",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "双月の流戦姫",
-    "names": {
-      "ja": "双月の流戦姫",
-      "zh": "双月的流战姬",
-      "en": "Twin-Moon Battle Princess"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "一歩も下がるな！！！",
-    "date": "2026-09-28",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 24632,
-    "url": "https://ci-en.dlsite.com/creator/25095",
-    "note": "有战斗中事件系统的女主人公 RPG，2026 年 8 月发表"
-  },
-  {
-    "id": "cien-2530",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "魔女を継ぐもの -Gathering & Crafting-",
-    "names": {
-      "ja": "魔女を継ぐもの -Gathering & Crafting-",
-      "zh": "继承魔女之人",
-      "en": "Inheritor of the Witch -Gathering & Crafting-"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "ルナソフト",
-    "date": "2026-10-23",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 27824,
-    "url": "https://ci-en.dlsite.com/creator/2530",
-    "note": "2.5D 画面、以收集和制作为核心的女主人公 RPG"
-  },
-  {
-    "id": "cien-2635",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "ホワイトメイデン",
-    "names": {
-      "ja": "ホワイトメイデン",
-      "zh": "白之战姬",
-      "en": "White Maiden"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "黒猫ぐり",
-    "date": "2026-09-28",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 43381,
-    "url": "https://ci-en.dlsite.com/creator/2635",
-    "note": "战斗中会发生事件的女主人公 RPG，讲几位战斗女孩的羁绊"
-  },
-  {
-    "id": "cien-30809",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "淫肉聖女～シスターの雌穴に刻む孕み印～",
-    "names": {
-      "ja": "淫肉聖女～シスターの雌穴に刻む孕み印～",
-      "zh": "淫肉圣女",
-      "en": "Lewd Flesh Saint"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "ぬるぬる計画",
-    "date": "2026-10-24",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 32221,
-    "url": "https://ci-en.dlsite.com/creator/30809",
-    "note": "横版动作和剧情结合的修女主人公 RPG"
-  },
-  {
-    "id": "cien-3239",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "快盗閃姫セイントアリス",
-    "names": {
-      "ja": "快盗閃姫セイントアリス",
-      "zh": "快盗闪姬圣爱丽丝",
-      "en": "Phantom Thief Flash Princess Saint Alice"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "スキヤキング",
-    "date": "2026-10-27",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 25286,
-    "url": "https://ci-en.dlsite.com/creator/3239",
-    "note": "变身女怪盗潜入企业偷宝物、揭发恶行的 RPG"
-  },
-  {
-    "id": "cien-3262",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "マグノリアの鎧姫",
-    "names": {
-      "ja": "マグノリアの鎧姫",
-      "zh": "木兰的铠姬",
-      "en": "The Armored Princess of Magnolia"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "やさぐれ喫煙所",
-    "date": "2026-09-30",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 56019,
-    "url": "https://ci-en.dlsite.com/creator/3262",
-    "note": "用 RPG 制作大师制作的女主人公动作 RPG"
-  },
-  {
-    "id": "cien-3422",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "紅蓮再翔ロストエレメンツ",
-    "names": {
-      "ja": "紅蓮再翔ロストエレメンツ",
-      "zh": "红莲再翔 失落元素",
-      "en": "Guren Saisho: Lost Elements"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "NoTears",
-    "date": "2026-10-23",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 23384,
-    "url": "https://ci-en.dlsite.com/creator/3422",
-    "note": "「紅蓮四奏ピュアエレメンツ」的续作，变身女主角 RPG"
-  },
-  {
-    "id": "cien-3534",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "守護戦姫スズネ",
-    "names": {
-      "ja": "守護戦姫スズネ",
-      "zh": "守护战姬铃音",
-      "en": "Guardian Battle Princess Suzune"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "モフ屋",
-    "date": "2026-10-22",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 23606,
-    "url": "https://ci-en.dlsite.com/creator/3534",
-    "note": "女战士主人公的 RPG，已公布发售日"
-  },
-  {
-    "id": "cien-3569",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "戦乙女アリア&エヴリン -淫欲に堕ちるＷヒロイン-",
-    "names": {
-      "ja": "戦乙女アリア&エヴリン -淫欲に堕ちるＷヒロイン-",
-      "zh": "战乙女阿莉娅&伊芙琳",
-      "en": "Valkyries Aria & Evelyn"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "ちぇすとぼっくす＆わんコイン",
-    "date": "2026-08-23",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 28056,
-    "url": "https://ci-en.dlsite.com/creator/3569",
-    "note": "两位女战士主人公的迷宫探索 RPG"
-  },
-  {
-    "id": "cien-3578",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "MonstersAbyss",
-    "names": {
-      "ja": "MonstersAbyss",
-      "zh": "怪物深渊",
-      "en": "Monsters Abyss"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "長井わたる/魔窟亭",
-    "date": "2026-10-07",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 67418,
-    "url": "https://ci-en.dlsite.com/creator/3578",
-    "note": "全动画演出的女主人公 RPG，按关卡推进"
-  },
-  {
-    "id": "cien-3790",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "ヘレナと暗蝕の塔",
-    "names": {
-      "ja": "ヘレナと暗蝕の塔",
-      "zh": "海伦娜与暗蚀之塔",
-      "en": "Helena and the Tower of Dark Erosion"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "おふろワークス",
-    "date": "2026-10-21",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 30174,
-    "url": "https://ci-en.dlsite.com/creator/3790",
-    "note": "战斗事件全动画化的女主人公 RPG，攀登高塔"
-  },
-  {
-    "id": "cien-4034",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "EXウィルトワール 侵食された電脳少女",
-    "names": {
-      "ja": "EXウィルトワール 侵食された電脳少女",
-      "zh": "EX威尔托瓦尔 被侵蚀的电脑少女",
-      "en": "EX Wiltoire: The Corrupted Cyber Girl"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "サキミノル",
-    "date": "2026-10-07",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 23920,
-    "url": "https://ci-en.dlsite.com/creator/4034",
-    "note": "战斗中和城镇里都会发生事件的女主人公 RPG，有堕落路线"
-  },
-  {
-    "id": "cien-4551",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "魔装影姫セレノクシア",
-    "names": {
-      "ja": "魔装影姫セレノクシア",
-      "zh": "魔装影姬塞雷诺克西亚",
-      "en": "Shadow Princess Selenoxia"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "しもばしら工房",
-    "date": "2026-10-16",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 117551,
-    "url": "https://ci-en.dlsite.com/creator/4551",
-    "note": "用 RPG 制作大师制作的女主人公 RPG，有分阶段变化的状态画面"
-  },
-  {
-    "id": "cien-5261",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "姫騎士シルヴィア",
-    "names": {
-      "ja": "姫騎士シルヴィア",
-      "zh": "姬骑士西尔维娅",
-      "en": "Princess Knight Sylvia"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "ドリルさきいか",
-    "date": "2026-10-24",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 24798,
-    "url": "https://ci-en.dlsite.com/creator/5261",
-    "note": "拯救王国的公主骑士主人公 RPG"
-  },
-  {
-    "id": "cien-5868",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "リルスティア2（仮）",
-    "names": {
-      "ja": "リルスティア2（仮）",
-      "zh": "莉尔丝缇亚2（暂定）",
-      "en": "Lilstia 2"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "ShiBoo!",
-    "date": "2026-10-23",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 47159,
-    "url": "https://ci-en.dlsite.com/creator/5868",
-    "note": "变身女主角 RPG 系列的新作"
-  },
-  {
-    "id": "cien-627",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "魔術師エレナと見世物島",
-    "names": {
-      "ja": "魔術師エレナと見世物島",
-      "zh": "魔术师艾莲娜与见世物岛",
-      "en": "Elena the Sorceress and the Spectacle Island"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "みるきーうぇい",
-    "date": "2026-10-14",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 49729,
-    "url": "https://ci-en.dlsite.com/creator/627",
-    "note": "女魔术师主人公在岛上探索的 RPG"
-  },
-  {
-    "id": "cien-7133",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "魔胎迷宮",
-    "names": {
-      "ja": "魔胎迷宮",
-      "zh": "魔胎迷宫",
-      "en": "Demon Womb Labyrinth"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "黒綿菓子",
-    "date": "2026-10-24",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 21928,
-    "url": "https://ci-en.dlsite.com/creator/7133",
-    "note": "女主人公的 Roguelike 迷宫游戏，同伴会被敌人带走"
-  },
-  {
-    "id": "cien-734",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "穢レ斬 マガツダチ",
-    "names": {
-      "ja": "穢レ斬 マガツダチ",
-      "zh": "秽斩 祸津太刀",
-      "en": "Kegarezan Magatsudachi"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "gre/GapTax",
-    "date": "2026-10-27",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 30234,
-    "url": "https://ci-en.dlsite.com/creator/734",
-    "note": "和风女主人公 RPG"
-  },
-  {
-    "id": "cien-763",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "世間知らずの元お嬢様ソニアの借金返済物語",
-    "names": {
-      "ja": "世間知らずの元お嬢様ソニアの借金返済物語",
-      "zh": "不谙世事的前大小姐索妮娅的还债物语",
-      "en": "Sonia's Debt Repayment Story"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "azucat",
-    "date": "2026-10-24",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 24536,
-    "url": "https://ci-en.dlsite.com/creator/763",
-    "note": "3D 战斗 RPG，前大小姐主人公为还债闯荡"
-  },
-  {
-    "id": "cien-7743",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "夜桜姫譚",
-    "names": {
-      "ja": "夜桜姫譚",
-      "zh": "夜樱姬谭",
-      "en": "Tale of the Night Cherry Princess"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "花御神楽",
-    "date": "2026-09-30",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 64710,
-    "url": "https://ci-en.dlsite.com/creator/7743",
-    "note": "和风女主人公 RPG，战败时有事件，主角不会堕落"
-  },
-  {
-    "id": "cien-976",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "シエル･センセーショナル（仮）",
-    "names": {
-      "ja": "シエル･センセーショナル（仮）",
-      "zh": "希艾尔·轰动（暂定）",
-      "en": "Ciel Sensational (working title)"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "アトリエちょいす",
-    "date": "2026-10-18",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 81739,
-    "url": "https://ci-en.dlsite.com/creator/976",
-    "note": "以意外走光和露出事件为主的女主人公 RPG"
   },
   {
     "id": "steam-1260820",

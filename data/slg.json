@@ -1,5 +1,150 @@
 [
   {
+    "id": "cien-2013",
+    "cat": "slg",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "聖国のミルベリア",
+    "names": {
+      "ja": "聖国のミルベリア",
+      "zh": "圣国的米尔贝莉娅",
+      "en": "Milberia of the Holy Kingdom"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "Laboratory",
+    "date": "2026-10-08",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 22489,
+    "url": "https://ci-en.dlsite.com/creator/2013",
+    "note": "以圣女为主人公的模拟游戏，已向付费支援者发放先行体验版"
+  },
+  {
+    "id": "cien-27405",
+    "cat": "slg",
+    "src": "cien",
+    "state": "dev",
+    "title": "カスタムロマンスシティ3D3",
+    "names": {
+      "ja": "カスタムロマンスシティ3D3",
+      "zh": "定制浪漫都市3D3",
+      "en": "Custom Romance City 3D3"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "KISS",
+    "date": "2026-10-27",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 3968,
+    "url": "https://ci-en.dlsite.com/creator/27405",
+    "note": "可以自定义角色的 3D 模拟游戏"
+  },
+  {
+    "id": "cien-322",
+    "cat": "slg",
+    "src": "cien",
+    "state": "dev",
+    "title": "宿かせぎ（仮）",
+    "names": {
+      "ja": "宿かせぎ（仮）",
+      "zh": "旅店打工（暂定）",
+      "en": "Inn Earnings (working title)"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "テングステン",
+    "date": "2026-10-15",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 37142,
+    "url": "https://ci-en.dlsite.com/creator/322",
+    "note": "用 WOLF RPG 编辑器制作、以旅店为舞台的事件型游戏"
+  },
+  {
+    "id": "cien-4398",
+    "cat": "slg",
+    "src": "cien",
+    "state": "dev",
+    "title": "ヒカゲモノ（仮）",
+    "names": {
+      "ja": "ヒカゲモノ（仮）",
+      "zh": "日陰者（暂定）",
+      "en": "Hikagemono (working title)"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "中尉（野良）",
+    "date": "2026-09-20",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 35812,
+    "url": "https://ci-en.dlsite.com/creator/4398",
+    "note": "催眠题材模拟游戏的下一作，可攻略多位女主角"
+  },
+  {
+    "id": "cien-7854",
+    "cat": "slg",
+    "src": "cien",
+    "state": "dev",
+    "title": "204号室（仮）",
+    "names": {
+      "ja": "204号室（仮）",
+      "zh": "204号室（暂定）",
+      "en": "Room 204"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "やさにき",
+    "date": "2026-09-26",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 39962,
+    "url": "https://ci-en.dlsite.com/creator/7854",
+    "note": "和地缚灵同居的恐怖题材模拟游戏"
+  },
+  {
+    "id": "cien-8791",
+    "cat": "slg",
+    "src": "cien",
+    "state": "dev",
+    "title": "ProjectR（仮）",
+    "names": {
+      "ja": "ProjectR（仮）",
+      "zh": "ProjectR（暂定）",
+      "en": "Project R"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "[チーム]アップルパイ",
+    "date": "2026-10-23",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 58486,
+    "url": "https://ci-en.dlsite.com/creator/8791",
+    "note": "建设经营模拟游戏，有怪物培育、侵略和委托系统"
+  },
+  {
     "id": "RJ01004084",
     "cat": "slg",
     "pov": "male",
@@ -188,6 +333,24 @@
     ]
   },
   {
+    "id": "RJ01030286",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "[ENG Ver.] Countryside Life",
+    "names": {
+      "ja": "[ENG Ver.] Countryside Life"
+    },
+    "mt": [],
+    "circle": "ピクトルサーカス",
+    "date": "2023-02-22",
+    "rate": 4.37,
+    "dl": 5008,
+    "rc": 348,
+    "note": "A summer memory in the countryside.",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01030286.html"
+  },
+  {
     "id": "RJ01031172",
     "cat": "slg",
     "pov": "male",
@@ -218,6 +381,29 @@
       "016",
       "128"
     ]
+  },
+  {
+    "cat": "slg",
+    "state": "released",
+    "title": "あまえんぼ冬",
+    "circle": "ドージンオトメ",
+    "date": "2023-07-14",
+    "rate": 4.86,
+    "dl": 101574,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01043101.html",
+    "note": "「撒娇鬼」半年后的冬假篇，完全新作",
+    "id": "RJ01043101",
+    "names": {
+      "ja": "あまえんぼ冬",
+      "zh": "撒娇鬼 冬",
+      "en": "AMAENBO Winter"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "rc": 26221,
+    "src": "dlsite"
   },
   {
     "id": "RJ01043407",
@@ -558,6 +744,24 @@
     ]
   },
   {
+    "id": "RJ01072177",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "【Live2D】J● LIVE HAX!! ～清楚で真面目な生徒会長が裏アカ使ってオナニー配信～",
+    "names": {
+      "ja": "【Live2D】J● LIVE HAX!! ～清楚で真面目な生徒会長が裏アカ使ってオナニー配信～"
+    },
+    "mt": [],
+    "circle": "へるめす",
+    "date": "2023-07-19",
+    "rate": 4.34,
+    "dl": 9697,
+    "rc": 2730,
+    "note": "清楚で真面目な生徒会長が裏アカでエロ配信!  配信に参加&ハッキングして思い通りにしちゃうシミュレーションゲーム",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01072177.html"
+  },
+  {
     "id": "RJ01073609",
     "cat": "slg",
     "src": "dlsite",
@@ -885,6 +1089,24 @@
     ]
   },
   {
+    "id": "RJ01100898",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "おさわりJKちゃん2",
+    "names": {
+      "ja": "おさわりJKちゃん2"
+    },
+    "mt": [],
+    "circle": "オクタゴン!",
+    "date": "2023-11-25",
+    "rate": 4.47,
+    "dl": 11191,
+    "rc": 3393,
+    "note": "マウスのみのお手軽操作。女の子にいろいろできちゃう、おさわりシミュレーション",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01100898.html"
+  },
+  {
     "id": "RJ01103194",
     "cat": "slg",
     "src": "dlsite",
@@ -914,6 +1136,26 @@
       "142",
       "501"
     ]
+  },
+  {
+    "id": "RJ01111622",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "スク水少女快楽拷問シミュレーション【放課後の体育倉庫で止まない絶頂地獄】",
+    "names": {
+      "ja": "スク水少女快楽拷問シミュレーション【放課後の体育倉庫で止まない絶頂地獄】",
+      "zh": "【中日英】学校泳装少女快乐拷问模拟游戏【放学后的体育仓库的无尽高潮地狱】",
+      "en": "Swimsuit Girl Pleasure Torture Simulation [Never-ending Orgasmic Hell in the Gym Storeroom]"
+    },
+    "mt": [],
+    "circle": "紺色くらぶ",
+    "date": "2023-11-26",
+    "rate": 4.62,
+    "dl": 18607,
+    "rc": 3887,
+    "note": "体育倉庫で無理やりイカせ続ける!強制絶頂Live2Dフルアニメーション&フルボイス!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01111622.html"
   },
   {
     "id": "RJ01116084",
@@ -1074,6 +1316,24 @@
     ]
   },
   {
+    "id": "RJ01135649",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "おねショタ村の淫習～お清楚双子巫女と孕ませ3PエッチするおさわりアニメーションSLG～",
+    "names": {
+      "ja": "おねショタ村の淫習～お清楚双子巫女と孕ませ3PエッチするおさわりアニメーションSLG～"
+    },
+    "mt": [],
+    "circle": "GoatmanBB",
+    "date": "2024-10-31",
+    "rate": 4.49,
+    "dl": 6000,
+    "rc": 1241,
+    "note": "因習村で行われる巨乳双子巫女とのラブラブおねショタ姉妹丼。エロシーンは全てアニメーション&フルボイスのリアルタイムおさわりSLG",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01135649.html"
+  },
+  {
     "id": "RJ01137528",
     "cat": "slg",
     "src": "dlsite",
@@ -1108,6 +1368,24 @@
       "182",
       "183"
     ]
+  },
+  {
+    "id": "RJ01137909",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "世界でいちばん歪(ぴゅあ)な凌辱(こい)",
+    "names": {
+      "ja": "世界でいちばん歪(ぴゅあ)な凌辱(こい)"
+    },
+    "mt": [],
+    "circle": "dark.ryona.x15",
+    "date": "2024-01-06",
+    "rate": 4,
+    "dl": 3688,
+    "rc": 774,
+    "note": "女子高生を監禁してあらゆる淫らなスキルを使って精神を完膚なきまでに破壊し、洗脳し、主人公のことを好きにさせる純愛凌辱サイコホラーゲームです。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01137909.html"
   },
   {
     "id": "RJ01144461",
@@ -1258,6 +1536,62 @@
       "032",
       "004"
     ]
+  },
+  {
+    "id": "RJ01162152",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "JKにお仕置きシミュレーター",
+    "names": {
+      "ja": "JKにお仕置きシミュレーター"
+    },
+    "mt": [],
+    "circle": "Uzura Studio",
+    "date": "2024-02-29",
+    "rate": 3.76,
+    "dl": 2712,
+    "rc": 519,
+    "note": "万引きをしたと思われるJKにお仕置きと言う名のエッチなお触りなどをする昔のFLASHのようなお触りゲームです。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01162152.html"
+  },
+  {
+    "id": "RJ01164204",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "借金地獄の俺が言いなり家出JKを拾った",
+    "names": {
+      "ja": "借金地獄の俺が言いなり家出JKを拾った",
+      "zh": "【中日】债务地狱的我捡到了一个任我差遣的离家出走JK",
+      "en": "Debt Ridden Me Picked Up An Obedient Runaway JK"
+    },
+    "mt": [],
+    "circle": "ケバブレヴェリー",
+    "date": "2024-05-12",
+    "rate": 4.2,
+    "dl": 36315,
+    "rc": 5383,
+    "note": "ドットアニメーションで拾った家出少女とたくさんHしよう!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01164204.html"
+  },
+  {
+    "id": "RJ01165257",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "はだかのおつかい～変態おねえさんばかりの街で～",
+    "names": {
+      "ja": "はだかのおつかい～変態おねえさんばかりの街で～"
+    },
+    "mt": [],
+    "circle": "やみぐみ",
+    "date": "2024-03-22",
+    "rate": 3.89,
+    "dl": 7351,
+    "rc": 980,
+    "note": "シンプル・カジュアルで、えっちなおつかいシミュレーションゲーム",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01165257.html"
   },
   {
     "id": "RJ01166703",
@@ -1553,6 +1887,81 @@
     ]
   },
   {
+    "id": "RJ01179787",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "メイドイン!～新人メイドと坊ちゃまの、エッチなお屋敷箱庭性活～",
+    "names": {
+      "ja": "メイドイン!～新人メイドと坊ちゃまの、エッチなお屋敷箱庭性活～"
+    },
+    "mt": [],
+    "circle": "なぎや本舗",
+    "date": "2024-04-13",
+    "rate": 4.21,
+    "dl": 2247,
+    "rc": 527,
+    "note": "ダイスで判定!?SDアニメ満載な、新人教育メイドのエッチなお屋敷箱庭性活!!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01179787.html",
+    "pov": "female"
+  },
+  {
+    "id": "RJ01193650",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "いんまぐらし",
+    "names": {
+      "ja": "いんまぐらし"
+    },
+    "mt": [],
+    "circle": "大人の道楽",
+    "date": "2024-08-09",
+    "rate": 4.71,
+    "dl": 3105,
+    "rc": 965,
+    "note": "女主人公のショタおね同棲シミュレーション!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01193650.html",
+    "pov": "female"
+  },
+  {
+    "id": "RJ01204507",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ギンギン公園☆巨乳ギャルx童貞ボーイズ～過激!露出で逆ナンパ指令～リアルタイム3Dゲーム",
+    "names": {
+      "ja": "ギンギン公園☆巨乳ギャルx童貞ボーイズ～過激!露出で逆ナンパ指令～リアルタイム3Dゲーム",
+      "zh": "【日文版】性奋公园☆巨乳辣妹x小处男～过激！露出逆搭讪指令～实时3D游戏"
+    },
+    "mt": [],
+    "circle": "DOUJIN3ARIES",
+    "date": "2024-08-20",
+    "rate": 4.36,
+    "dl": 16348,
+    "rc": 3019,
+    "note": "おねショタxショタおねの進化系露出SLG! 逆ラッキースケベ露出指令リアルタイムSLG! ボリューミーなヌキゲーがアナタのリビドーを刺激する!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01204507.html"
+  },
+  {
+    "id": "RJ01205846",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "【戦姫絶頂シンフォギアGAME】",
+    "names": {
+      "ja": "【戦姫絶頂シンフォギアGAME】"
+    },
+    "mt": [],
+    "circle": "ファンタスティック☆猫侍",
+    "date": "2024-06-08",
+    "rate": 4.41,
+    "dl": 4697,
+    "rc": 964,
+    "note": "貴方は英雄的科学者の弟子…現在は組織に務めるドクターとして、 立〇響ちゃんや雪〇クリスちゃんのような装者や、 あの錬金術師を相手にイチャイチャできるのか!!常識",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01205846.html"
+  },
+  {
     "id": "RJ01212921",
     "cat": "slg",
     "src": "dlsite",
@@ -1625,6 +2034,24 @@
     ]
   },
   {
+    "id": "RJ01224649",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "JKと同棲して色々するゲーム",
+    "names": {
+      "ja": "JKと同棲して色々するゲーム"
+    },
+    "mt": [],
+    "circle": "エルゲさくせい部",
+    "date": "2024-11-02",
+    "rate": 4.03,
+    "dl": 3587,
+    "rc": 776,
+    "note": "家でJKにHなことをするゲーム。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01224649.html"
+  },
+  {
     "id": "RJ01226398",
     "cat": "slg",
     "src": "dlsite",
@@ -1659,6 +2086,44 @@
       "182",
       "179"
     ]
+  },
+  {
+    "id": "RJ01227609",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "口淫風俗店～巨乳お姉さんのフェラチオ搾精",
+    "names": {
+      "ja": "口淫風俗店～巨乳お姉さんのフェラチオ搾精",
+      "en": "Oral Sex Shop ~Busty Lady's Cum-squeezing Blowjob~"
+    },
+    "mt": [],
+    "circle": "A86GJ3",
+    "date": "2024-07-22",
+    "rate": 4.48,
+    "dl": 14888,
+    "rc": 2037,
+    "note": "口淫風俗店～巨乳お姉さんのフェラチオ搾精",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01227609.html"
+  },
+  {
+    "id": "RJ01237060",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "早漏改善トレーニング～ナースお姉さんの強制射精手袋コキ",
+    "names": {
+      "ja": "早漏改善トレーニング～ナースお姉さんの強制射精手袋コキ",
+      "en": "Medicine for Minutemen: The Nurse's Glove Handjob"
+    },
+    "mt": [],
+    "circle": "A86GJ3",
+    "date": "2024-08-08",
+    "rate": 4.51,
+    "dl": 14079,
+    "rc": 1796,
+    "note": "ナースお姉さんの早漏改善トレーニング ～ 手袋コキ、強制連続射精、男の潮吹き ～ 自由度の高いアニメーションミニゲーム",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01237060.html"
   },
   {
     "id": "RJ01244412",
@@ -1727,6 +2192,61 @@
     ]
   },
   {
+    "id": "RJ01255617",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "3D痴◯体験 おさわりホーダイ!通学電車編",
+    "names": {
+      "ja": "3D痴◯体験 おさわりホーダイ!通学電車編"
+    },
+    "mt": [],
+    "circle": "しこたまそふと",
+    "date": "2024-09-27",
+    "rate": 4.12,
+    "dl": 16527,
+    "rc": 2989,
+    "note": "本作は、簡単な操作性でリッチな痴漢体験を楽しめるシミュレーションゲームです。 通学時間を過ごす女子高生に他の人の視線を避けながらイタズラをしたり、服を脱がせたり",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01255617.html"
+  },
+  {
+    "id": "RJ01259734",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "エンコウカノジョ!〜金髪JKとの絶頂快楽落ち〜",
+    "names": {
+      "ja": "エンコウカノジョ!〜金髪JKとの絶頂快楽落ち〜"
+    },
+    "mt": [],
+    "circle": "ほーる・いん",
+    "date": "2024-09-20",
+    "rate": 4.31,
+    "dl": 2326,
+    "rc": 402,
+    "note": "とある日、あなたは援助交際を行う。相手は学校で有名なビッチで金髪JK。お金を払えば誰とでもヤってくれる。生意気であなたのことを舐めたそぶりを見せる彼女だが、徐々",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01259734.html"
+  },
+  {
+    "id": "RJ01261702",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ショタが巨乳エルフお姉さんにパイズリで捕まっちゃった!",
+    "names": {
+      "ja": "ショタが巨乳エルフお姉さんにパイズリで捕まっちゃった!",
+      "en": "Busty Elven Babe Traps You in Her Tits!"
+    },
+    "mt": [],
+    "circle": "A86GJ3",
+    "date": "2024-09-25",
+    "rate": 4.51,
+    "dl": 13833,
+    "rc": 1910,
+    "note": "おねショタ系のパイズリシミュレーションゲーム ～ 本作の特徴は巨乳と乳内射精です ～ 自由度の高いアニメーションミニゲーム",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01261702.html"
+  },
+  {
     "id": "RJ01261731",
     "cat": "slg",
     "pov": "female",
@@ -1766,6 +2286,56 @@
     ]
   },
   {
+    "id": "RJ01271506",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "フォレスティア～ちいさな町の牧場ライフ～",
+    "names": {
+      "ja": "フォレスティア～ちいさな町の牧場ライフ～",
+      "zh": "佛蕾斯缇亚～小镇的牧场生活～",
+      "en": "Forestia ~Ranch Life in a Little Town~"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "いなずまそふと",
+    "date": "2025-05-16",
+    "rate": 4.79,
+    "dl": 41945,
+    "rc": 8985,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01271506.html",
+    "note": "种田、养动物、钓鱼的慢生活模拟",
+    "genres": [
+      "502",
+      "504",
+      "032",
+      "008",
+      "013",
+      "004"
+    ]
+  },
+  {
+    "id": "RJ01272019",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "激しいフェラで巨乳サキュバスお姉さんに食べられちゃう!",
+    "names": {
+      "ja": "激しいフェラで巨乳サキュバスお姉さんに食べられちゃう!",
+      "en": "Gobbled Up by a Big-titty Succubus' Hardcore Blowjob!"
+    },
+    "mt": [],
+    "circle": "A86GJ3",
+    "date": "2024-10-19",
+    "rate": 4.54,
+    "dl": 9710,
+    "rc": 1296,
+    "note": "おねショタ系のフェラアニメゲーム～本作の特徴はひょっとこフェラとエロかつ激しい口内射精アニメ ～",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01272019.html"
+  },
+  {
     "id": "RJ01274276",
     "cat": "slg",
     "src": "dlsite",
@@ -1802,6 +2372,67 @@
       "182",
       "193"
     ]
+  },
+  {
+    "cat": "slg",
+    "state": "released",
+    "title": "不登校妹との30日間",
+    "circle": "エロフラ部",
+    "date": "2024-11-14",
+    "rate": 4.73,
+    "dl": 62583,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01274558.html",
+    "note": "白天正常生活、晚上开发妹妹的 30 天模拟，约 3 小时",
+    "id": "RJ01274558",
+    "names": {
+      "ja": "不登校妹との30日間",
+      "zh": "和不去上学的妹妹的30天",
+      "en": "30 Days with My Shut-in Sister"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "rc": 10799,
+    "src": "dlsite"
+  },
+  {
+    "id": "RJ01277821",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "引きこもり少女と連れ子の少年",
+    "names": {
+      "ja": "引きこもり少女と連れ子の少年"
+    },
+    "mt": [],
+    "circle": "みかん畑",
+    "date": "2024-12-09",
+    "rate": 4.61,
+    "dl": 3293,
+    "rc": 613,
+    "note": "ショタな僕とお姉ちゃんとお母さんのあまーい性活シミュレーション",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01277821.html",
+    "pov": "male"
+  },
+  {
+    "id": "RJ01285169",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "優しい巨乳シスターお姉さんに逆レイプされちゃった",
+    "names": {
+      "ja": "優しい巨乳シスターお姉さんに逆レイプされちゃった",
+      "en": "Ravaged by a Naughty but Nice Nun"
+    },
+    "mt": [],
+    "circle": "A86GJ3",
+    "date": "2024-11-20",
+    "rate": 4.39,
+    "dl": 19533,
+    "rc": 2437,
+    "note": "おねショタ系の逆レイプアニメゲーム、本作の特徴は下品な騎乗位生ハメセックスアニメ、いつでもどこでも生中出し",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01285169.html"
   },
   {
     "id": "RJ01293869",
@@ -1878,6 +2509,25 @@
       "128",
       "143"
     ]
+  },
+  {
+    "id": "RJ01301534",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "デカ乳バニーお姉さんの本気搾精交尾",
+    "names": {
+      "ja": "デカ乳バニーお姉さんの本気搾精交尾",
+      "en": "Busty Bunny Lady's Cum-squeezing Copulation"
+    },
+    "mt": [],
+    "circle": "A86GJ3",
+    "date": "2024-12-11",
+    "rate": 4.39,
+    "dl": 16504,
+    "rc": 1974,
+    "note": "おねショタ系の逆レイプアニメゲーム、本作の特徴は下品な生ハメセックスアニメ、いつでもどこでも生中出し",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01301534.html"
   },
   {
     "id": "RJ01305765",
@@ -2880,6 +3530,78 @@
     ]
   },
   {
+    "id": "RJ01501349",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "【Live2D】口淫風俗店2～童貞ショタをフェラで逆レイプするお姉さんたち♡",
+    "names": {
+      "ja": "【Live2D】口淫風俗店2～童貞ショタをフェラで逆レイプするお姉さんたち♡"
+    },
+    "mt": [],
+    "circle": "A86GJ3",
+    "date": "2026-03-16",
+    "rate": 4.59,
+    "dl": 9135,
+    "rc": 570,
+    "note": "おねショタ×逆レのLive2Dアニメゲーム！完全フェラ特化ゲーム、累計1万本突破の「口淫風俗店」シリーズ最新作！可愛いショタがフェラ上手な三人のお姉さんたちに、",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01501349.html"
+  },
+  {
+    "id": "RJ01503167",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "[ENG Ver.] Forestia ~Farm Life in the Country~",
+    "names": {
+      "ja": "[ENG Ver.] Forestia ~Farm Life in the Country~"
+    },
+    "mt": [],
+    "circle": "",
+    "date": "2025-11-07",
+    "rate": 4.73,
+    "dl": 1255,
+    "rc": 63,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01503167.html",
+    "note": ""
+  },
+  {
+    "id": "RJ01503183",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "[繁體中文版] Forestia～小鎮的牧場生活～",
+    "names": {
+      "ja": "[繁體中文版] Forestia～小鎮的牧場生活～"
+    },
+    "mt": [],
+    "circle": "",
+    "date": "2025-11-07",
+    "rate": 4.75,
+    "dl": 2719,
+    "rc": 232,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01503183.html",
+    "note": ""
+  },
+  {
+    "id": "RJ01509750",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "なつねえ ～僕が恋した30日～",
+    "names": {
+      "ja": "なつねえ ～僕が恋した30日～"
+    },
+    "mt": [],
+    "circle": "シン・ギュラリティー",
+    "date": "2025-12-21",
+    "rate": 4.42,
+    "dl": 18491,
+    "rc": 2331,
+    "note": "田舎のお姉ちゃんと共同生活3Dゲーム！「おちんちんおっきくなってるよ。えへへ。男の子だもんね?」お触りして、引き連れて、いろんなところでエッチ！",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01509750.html"
+  },
+  {
     "id": "RJ01521464",
     "cat": "slg",
     "src": "dlsite",
@@ -3207,6 +3929,24 @@
     ]
   },
   {
+    "id": "RJ01623763",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "フォレスティア～ボイス追加DLC～",
+    "names": {
+      "ja": "フォレスティア～ボイス追加DLC～"
+    },
+    "mt": [],
+    "circle": "いなずまそふと",
+    "date": "2026-05-22",
+    "rate": 4.79,
+    "dl": 17001,
+    "rc": 1729,
+    "note": "フォレスティア～ちいさな町の牧場ライフ～にボイスを追加するDLCです",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01623763.html"
+  },
+  {
     "id": "RJ01635155",
     "cat": "slg",
     "src": "dlsite",
@@ -3417,6 +4157,26 @@
     ]
   },
   {
+    "cat": "slg",
+    "state": "released",
+    "title": "Teaching Feeling -傷肌少女との生活-",
+    "circle": "FreakilyCharming",
+    "date": "2015-10-27",
+    "rate": 4.83,
+    "dl": 133998,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ162718.html",
+    "note": "收养前奴隶少女、通过交流增进感情的模拟",
+    "id": "RJ162718",
+    "names": {
+      "ja": "Teaching Feeling -傷肌少女との生活-",
+      "zh": "Teaching Feeling 〜和瘢痕少女在一起的生活〜",
+      "en": "Life With A Sl*ve: Teaching Feeling"
+    },
+    "mt": [],
+    "rc": 48013,
+    "src": "dlsite"
+  },
+  {
     "id": "RJ170963",
     "cat": "slg",
     "src": "dlsite",
@@ -3516,6 +4276,25 @@
       "149",
       "140"
     ]
+  },
+  {
+    "id": "RJ172018",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "お姉ちゃんとボクの夏休み",
+    "names": {
+      "ja": "お姉ちゃんとボクの夏休み",
+      "en": "Me and Big Sister's Summer Vacation"
+    },
+    "mt": [],
+    "circle": "BouSoft",
+    "date": "2016-07-17",
+    "rate": 4.43,
+    "dl": 8588,
+    "rc": 4229,
+    "note": "お姉ちゃんと過ごす甘酸っぱい夏休みを描いた、インタラクティブ2.5Dおさわりゲーム。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ172018.html"
   },
   {
     "id": "RJ172648",
@@ -4722,6 +5501,25 @@
     ]
   },
   {
+    "id": "RJ233622",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ママなつ ～ボクたちのママこうかん～",
+    "names": {
+      "ja": "ママなつ ～ボクたちのママこうかん～",
+      "en": "Mother Summer ~Our Mother-Swapping~"
+    },
+    "mt": [],
+    "circle": "Autonoe",
+    "date": "2018-09-03",
+    "rate": 4.15,
+    "dl": 1979,
+    "rc": 721,
+    "note": "明るく、エッチな\r\n母子交換シミュレーションゲームです",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ233622.html"
+  },
+  {
     "id": "RJ235158",
     "cat": "slg",
     "src": "dlsite",
@@ -5258,6 +6056,28 @@
     ]
   },
   {
+    "cat": "slg",
+    "state": "released",
+    "title": "あまえんぼ",
+    "circle": "ドージンオトメ",
+    "date": "2019-09-10",
+    "rate": 4.78,
+    "dl": 138207,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ258362.html",
+    "note": "在表姐妹家度过暑假的箱庭点阵 H 模拟",
+    "id": "RJ258362",
+    "names": {
+      "ja": "あまえんぼ",
+      "zh": "撒娇鬼",
+      "en": "AMAENBO - pampered boy -"
+    },
+    "mt": [
+      "zh"
+    ],
+    "rc": 47940,
+    "src": "dlsite"
+  },
+  {
     "id": "RJ258698",
     "cat": "slg",
     "src": "dlsite",
@@ -5620,6 +6440,24 @@
     ]
   },
   {
+    "id": "RJ275092",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "引きこもり姉とまいにちHライフ",
+    "names": {
+      "ja": "引きこもり姉とまいにちHライフ"
+    },
+    "mt": [],
+    "circle": "噂のエロレディオヘッド",
+    "date": "2020-02-14",
+    "rate": 3.96,
+    "dl": 6151,
+    "rc": 1768,
+    "note": "エロドットアニメゲーム(おねショタ)です\r\n引きこもりの姉にエッチさせてあげてください!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ275092.html"
+  },
+  {
     "id": "RJ278273",
     "cat": "slg",
     "src": "dlsite",
@@ -5950,6 +6788,25 @@
     ]
   },
   {
+    "id": "RJ286688",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "あまえんぼ+(Append)",
+    "names": {
+      "ja": "あまえんぼ+(Append)",
+      "en": "AMAENBO+ (Append)"
+    },
+    "mt": [],
+    "circle": "ドージンオトメ",
+    "date": "2020-07-25",
+    "rate": 4.79,
+    "dl": 114119,
+    "rc": 38217,
+    "note": "もっと、思い出に残る夏―――本編「あまえんぼ」が更に進化する追加パッチ!もっとエロエロな夏休みを満喫しよう!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ286688.html"
+  },
+  {
     "id": "RJ286695",
     "cat": "slg",
     "src": "dlsite",
@@ -6057,6 +6914,25 @@
       "126",
       "191"
     ]
+  },
+  {
+    "id": "RJ289658",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "姦状痴漢電車JK",
+    "names": {
+      "ja": "姦状痴漢電車JK",
+      "en": "Next Stop: Schoolgirl Molestation"
+    },
+    "mt": [],
+    "circle": "ヴィンセント",
+    "date": "2020-05-30",
+    "rate": 4.01,
+    "dl": 4777,
+    "rc": 1642,
+    "note": "そこは背徳の凌辱車両ー。夜の電車内でJKに悪戯をするインタラクティブ痴漢SLG第2弾。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ289658.html"
   },
   {
     "id": "RJ289780",
@@ -6279,6 +7155,26 @@
       "121",
       "182"
     ]
+  },
+  {
+    "id": "RJ295803",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "少女組長リリカの娼館経営記",
+    "names": {
+      "ja": "少女組長リリカの娼館経営記",
+      "en": "Young Yakuza Boss Ririka's Brothel Management"
+    },
+    "mt": [],
+    "circle": "ルさんちまん",
+    "date": "2020-08-29",
+    "rate": 4.58,
+    "dl": 22569,
+    "rc": 9132,
+    "note": "舞台は裏世界での売春宿。不幸な女性たちの弱みをたてに、AV撮影&売春で稼げ!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ295803.html",
+    "pov": "female"
   },
   {
     "id": "RJ296365",
@@ -6558,6 +7454,25 @@
     ]
   },
   {
+    "id": "RJ306017",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "誤って女性専用車廂に乗り込んだ",
+    "names": {
+      "ja": "誤って女性専用車廂に乗り込んだ",
+      "en": "I strayed into the women-only carriages"
+    },
+    "mt": [],
+    "circle": "pH Studio",
+    "date": "2020-11-02",
+    "rate": 3.88,
+    "dl": 2244,
+    "rc": 405,
+    "note": "やっと電車に乗ったけど、お姉さん達で一杯だった……  学校に遅刻したけど明日もこの電車に乗りたい・・・",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ306017.html"
+  },
+  {
     "id": "RJ307505",
     "cat": "slg",
     "src": "dlsite",
@@ -6586,6 +7501,26 @@
       "129",
       "123"
     ]
+  },
+  {
+    "id": "RJ307917",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ネジ込みシミュレーターVol2 -三編みロリちゃんのおまんこキックチャレンジ!!超動くバーチャルオナホアプリ-【拡張・オナホ化・石化・時間停止】",
+    "names": {
+      "ja": "ネジ込みシミュレーターVol2 -三編みロリちゃんのおまんこキックチャレンジ!!超動くバーチャルオナホアプリ-【拡張・オナホ化・石化・時間停止】",
+      "zh": "强行塞入模拟器Vol2 -踢踹麻花辫小萝莉的小穴挑战!!超会动的虚拟飞机杯App-【扩张・飞机杯化・石化・时间停止】",
+      "en": "NejicomiSimulator Vol.2 (Expansion, Onaholification, Petrify, Time Stop)"
+    },
+    "mt": [],
+    "circle": "やぶから堂",
+    "date": "2020-11-25",
+    "rate": 4.59,
+    "dl": 5645,
+    "rc": 1756,
+    "note": "Live2Dでぬるぬる動く三編みロリちゃんに極太ディルドーをゴリゴリねじ込むオナホシミュレーター。多彩なパーツ切り替えによりお好みの姿でずぽずぽ可能。搾乳、性器",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ307917.html"
   },
   {
     "id": "RJ309639",
@@ -6701,6 +7636,24 @@
     ]
   },
   {
+    "id": "RJ313465",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "おさわりFLASH&CG集総集編(エヴァ関連12作品セット)",
+    "names": {
+      "ja": "おさわりFLASH&CG集総集編(エヴァ関連12作品セット)"
+    },
+    "mt": [],
+    "circle": "噂のエロレディオヘッド",
+    "date": "2021-01-06",
+    "rate": 4.28,
+    "dl": 1817,
+    "rc": 603,
+    "note": "当サークルが過去に発売したエヴァン○リオン関連作品12作をまとめて約75%オフにしました。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ313465.html"
+  },
+  {
     "id": "RJ314702",
     "cat": "slg",
     "src": "dlsite",
@@ -6736,6 +7689,44 @@
       "115",
       "156"
     ]
+  },
+  {
+    "id": "RJ318349",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ショタ×サポ",
+    "names": {
+      "ja": "ショタ×サポ",
+      "en": "Shota x Support"
+    },
+    "mt": [],
+    "circle": "あんかけプリン",
+    "date": "2021-02-21",
+    "rate": 4.22,
+    "dl": 3543,
+    "rc": 1469,
+    "note": "【おねしょたシミュレーション】ショータにエッチなことをするおさわりゲームです。お姉ちゃんのお友達を呼んで、色々とエッチをさせましょう。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ318349.html"
+  },
+  {
+    "id": "RJ320362",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "母ショタ～息子の友達をエッチに教育～",
+    "names": {
+      "ja": "母ショタ～息子の友達をエッチに教育～",
+      "en": "Mama Shota ~Teaching My Son's Friend About Sex~"
+    },
+    "mt": [],
+    "circle": "アーモンドと巨牛乳",
+    "date": "2021-03-11",
+    "rate": 4.15,
+    "dl": 981,
+    "rc": 321,
+    "note": "【アニメーション+おねショタ】友達のお母さんがすごく変態で、ボクに変なことをしてくるんだ…。ボクのおちんちんがどんどん大きくなって、お母さんの目が少し怖いよ…",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ320362.html"
   },
   {
     "id": "RJ322272",
@@ -7090,6 +8081,25 @@
     ]
   },
   {
+    "id": "RJ329202",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "サマー・クリッカー～お姉さんとあまあまえっちな夏休み～",
+    "names": {
+      "ja": "サマー・クリッカー～お姉さんとあまあまえっちな夏休み～",
+      "en": "Summer Clicker ~Sweet Summer Vacation With Oneesan~"
+    },
+    "mt": [],
+    "circle": "あんかけプリン",
+    "date": "2021-05-29",
+    "rate": 4.49,
+    "dl": 12266,
+    "rc": 4878,
+    "note": "【王道おねショタ×アニメーション×クリッカーゲーム】優しい巨乳なお姉さんと大人しいショタくんのエッチな夏休み。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ329202.html"
+  },
+  {
     "id": "RJ331142",
     "cat": "slg",
     "src": "dlsite",
@@ -7197,6 +8207,24 @@
       "162",
       "326"
     ]
+  },
+  {
+    "id": "RJ338230",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ボクのセクハラは大体許してくれる従姉を孕ませる夏休みSLG",
+    "names": {
+      "ja": "ボクのセクハラは大体許してくれる従姉を孕ませる夏休みSLG"
+    },
+    "mt": [],
+    "circle": "GoatmanBB",
+    "date": "2021-08-07",
+    "rate": 4.03,
+    "dl": 7329,
+    "rc": 2530,
+    "note": "従姉のお姉ちゃんの寝込みを襲うLive2DアニメーションおさわりSLG",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ338230.html"
   },
   {
     "id": "RJ341761",
@@ -7311,6 +8339,25 @@
     ]
   },
   {
+    "id": "RJ343468",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "おさわりJKちゃん",
+    "names": {
+      "ja": "おさわりJKちゃん",
+      "en": "Feeling Up a Schoolgirl"
+    },
+    "mt": [],
+    "circle": "オクタゴン!",
+    "date": "2021-10-26",
+    "rate": 4.28,
+    "dl": 2034,
+    "rc": 736,
+    "note": "手書きアニメによる簡単おさわりゲーム",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ343468.html"
+  },
+  {
     "id": "RJ344628",
     "cat": "slg",
     "src": "dlsite",
@@ -7411,6 +8458,25 @@
       "124",
       "138"
     ]
+  },
+  {
+    "id": "RJ352330",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ショタは電車で予感する",
+    "names": {
+      "ja": "ショタは電車で予感する",
+      "en": "Shota Gets a Bad Feeling on the Train..."
+    },
+    "mt": [],
+    "circle": "なぎや本舗",
+    "date": "2021-11-06",
+    "rate": 4.33,
+    "dl": 5516,
+    "rc": 1874,
+    "note": "【僕が襲われる!逆痴漢シミュレーション】黒ギャルの愛羅と白ギャルの聖華は今日も他愛もないチャットをしていた。今日はいつも電車で乗り合わすショタっこを食うため聖華",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ352330.html"
   },
   {
     "id": "RJ354496",
@@ -7828,6 +8894,33 @@
     ]
   },
   {
+    "id": "RJ385039",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "放課後の鬼ごっこ",
+    "names": {
+      "ja": "放課後の鬼ごっこ",
+      "zh": "放课后捉迷藏",
+      "en": "Afterschool Tag"
+    },
+    "mt": [],
+    "circle": "DOTTORU GAMES",
+    "date": "2022-05-12",
+    "rate": 4.53,
+    "dl": 56737,
+    "rc": 9865,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ385039.html",
+    "note": "在废校中躲避幽灵、存活下来的游戏",
+    "genres": [
+      "502",
+      "431",
+      "504",
+      "019",
+      "115"
+    ]
+  },
+  {
     "id": "RJ385087",
     "cat": "slg",
     "src": "dlsite",
@@ -7886,6 +8979,39 @@
       "122",
       "130",
       "123",
+      "182"
+    ]
+  },
+  {
+    "id": "RJ390522",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "田舎ライフ",
+    "names": {
+      "ja": "田舎ライフ",
+      "zh": "乡村生活",
+      "en": "Country Life"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ピクトルサーカス",
+    "date": "2022-05-11",
+    "rate": 4.33,
+    "dl": 47270,
+    "rc": 12154,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ390522.html",
+    "note": "在乡下度过一个夏天的点阵动画 SLG",
+    "genres": [
+      "073",
+      "431",
+      "211",
+      "504",
+      "008",
+      "115",
+      "128",
       "182"
     ]
   },
@@ -8244,6 +9370,26 @@
     ]
   },
   {
+    "id": "RJ419396",
+    "cat": "slg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "叔母さんと一緒 ～僕と叔母さんのあまあまドスケベ寝取り同棲生活～",
+    "names": {
+      "ja": "叔母さんと一緒 ～僕と叔母さんのあまあまドスケベ寝取り同棲生活～",
+      "en": "Living With My Aunt ~Getting Smutty with a Voluptuous Auntie~"
+    },
+    "mt": [],
+    "circle": "レーゲ連合王国",
+    "date": "2022-11-21",
+    "rate": 4.55,
+    "dl": 11914,
+    "rc": 3749,
+    "note": "ムチムチで人妻な叔母さんと一緒に同棲していき、あまあまでドスケベな関係になっていく寝取り同棲シミュレーション",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ419396.html",
+    "pov": "male"
+  },
+  {
     "id": "RJ432234",
     "cat": "slg",
     "src": "dlsite",
@@ -8350,151 +9496,6 @@
       "128",
       "143"
     ]
-  },
-  {
-    "id": "cien-2013",
-    "cat": "slg",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "聖国のミルベリア",
-    "names": {
-      "ja": "聖国のミルベリア",
-      "zh": "圣国的米尔贝莉娅",
-      "en": "Milberia of the Holy Kingdom"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "Laboratory",
-    "date": "2026-10-08",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 22489,
-    "url": "https://ci-en.dlsite.com/creator/2013",
-    "note": "以圣女为主人公的模拟游戏，已向付费支援者发放先行体验版"
-  },
-  {
-    "id": "cien-27405",
-    "cat": "slg",
-    "src": "cien",
-    "state": "dev",
-    "title": "カスタムロマンスシティ3D3",
-    "names": {
-      "ja": "カスタムロマンスシティ3D3",
-      "zh": "定制浪漫都市3D3",
-      "en": "Custom Romance City 3D3"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "KISS",
-    "date": "2026-10-27",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 3968,
-    "url": "https://ci-en.dlsite.com/creator/27405",
-    "note": "可以自定义角色的 3D 模拟游戏"
-  },
-  {
-    "id": "cien-322",
-    "cat": "slg",
-    "src": "cien",
-    "state": "dev",
-    "title": "宿かせぎ（仮）",
-    "names": {
-      "ja": "宿かせぎ（仮）",
-      "zh": "旅店打工（暂定）",
-      "en": "Inn Earnings (working title)"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "テングステン",
-    "date": "2026-10-15",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 37142,
-    "url": "https://ci-en.dlsite.com/creator/322",
-    "note": "用 WOLF RPG 编辑器制作、以旅店为舞台的事件型游戏"
-  },
-  {
-    "id": "cien-4398",
-    "cat": "slg",
-    "src": "cien",
-    "state": "dev",
-    "title": "ヒカゲモノ（仮）",
-    "names": {
-      "ja": "ヒカゲモノ（仮）",
-      "zh": "日陰者（暂定）",
-      "en": "Hikagemono (working title)"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "中尉（野良）",
-    "date": "2026-09-20",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 35812,
-    "url": "https://ci-en.dlsite.com/creator/4398",
-    "note": "催眠题材模拟游戏的下一作，可攻略多位女主角"
-  },
-  {
-    "id": "cien-7854",
-    "cat": "slg",
-    "src": "cien",
-    "state": "dev",
-    "title": "204号室（仮）",
-    "names": {
-      "ja": "204号室（仮）",
-      "zh": "204号室（暂定）",
-      "en": "Room 204"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "やさにき",
-    "date": "2026-09-26",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 39962,
-    "url": "https://ci-en.dlsite.com/creator/7854",
-    "note": "和地缚灵同居的恐怖题材模拟游戏"
-  },
-  {
-    "id": "cien-8791",
-    "cat": "slg",
-    "src": "cien",
-    "state": "dev",
-    "title": "ProjectR（仮）",
-    "names": {
-      "ja": "ProjectR（仮）",
-      "zh": "ProjectR（暂定）",
-      "en": "Project R"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "[チーム]アップルパイ",
-    "date": "2026-10-23",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 58486,
-    "url": "https://ci-en.dlsite.com/creator/8791",
-    "note": "建设经营模拟游戏，有怪物培育、侵略和委托系统"
   },
   {
     "id": "steam-1034140",

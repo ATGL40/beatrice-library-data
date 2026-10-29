@@ -1,5 +1,54 @@
 [
   {
+    "id": "cien-28931",
+    "cat": "adv",
+    "src": "cien",
+    "state": "dev",
+    "title": "ゴア・スクリーミング・ショウ リニューアル版（仮）",
+    "names": {
+      "ja": "ゴア・スクリーミング・ショウ リニューアル版（仮）",
+      "zh": "血腥尖叫秀 重制版（暂定）",
+      "en": "Gore Screaming Show Renewal"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "BLACK Cyc",
+    "date": "2026-09-28",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 5257,
+    "url": "https://ci-en.dlsite.com/creator/28931",
+    "note": "商业品牌 BLACK Cyc 的旧作重制版 ADV"
+  },
+  {
+    "id": "cien-4576",
+    "cat": "adv",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "特務捜査官レナ 屈辱の娼館奉仕",
+    "names": {
+      "ja": "特務捜査官レナ 屈辱の娼館奉仕",
+      "zh": "特务搜查官蕾娜 屈辱的娼馆奉仕",
+      "en": "Special Agent Rena: Humiliating Brothel Service"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "No Future",
+    "date": "2026-10-24",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 49324,
+    "url": "https://ci-en.dlsite.com/creator/4576",
+    "note": "被抓住的女搜查官设法从组织的娼馆脱出的 ADV"
+  },
+  {
     "id": "RJ01043173",
     "cat": "adv",
     "src": "dlsite",
@@ -179,6 +228,43 @@
     ]
   },
   {
+    "id": "RJ01073589",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "永遠の呪い",
+    "names": {
+      "ja": "永遠の呪い"
+    },
+    "mt": [],
+    "circle": "JOY",
+    "date": "2023-07-02",
+    "rate": 4.29,
+    "dl": 4416,
+    "rc": 1073,
+    "note": "呪われた家から脱出するゲームです。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01073589.html",
+    "pov": "male"
+  },
+  {
+    "id": "RJ01082711",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "競泳水着と日焼け跡と先生とボク",
+    "names": {
+      "ja": "競泳水着と日焼け跡と先生とボク"
+    },
+    "mt": [],
+    "circle": "PinkPetBottle",
+    "date": "2023-07-31",
+    "rate": 4.65,
+    "dl": 5458,
+    "rc": 828,
+    "note": "おねショタと競泳水着がテーマの、ぬるぬる動くアニメーションを多用したショートノベルゲーム",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01082711.html"
+  },
+  {
     "id": "RJ01098750",
     "cat": "adv",
     "src": "dlsite",
@@ -337,6 +423,24 @@
       "134",
       "182"
     ]
+  },
+  {
+    "id": "RJ01156735",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "刻印館からの脱出",
+    "names": {
+      "ja": "刻印館からの脱出"
+    },
+    "mt": [],
+    "circle": "uno",
+    "date": "2024-03-09",
+    "rate": 4.18,
+    "dl": 6604,
+    "rc": 1479,
+    "note": "記憶を失いながら館からの脱出を目指す。道中何か大切なものが失われていくような・・・?",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01156735.html"
   },
   {
     "id": "RJ01173579",
@@ -510,6 +614,43 @@
     ]
   },
   {
+    "id": "RJ01200640",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "幽冥倶楽部",
+    "names": {
+      "ja": "幽冥倶楽部"
+    },
+    "mt": [],
+    "circle": "しもふるにく",
+    "date": "2024-05-29",
+    "rate": 4.5,
+    "dl": 4299,
+    "rc": 996,
+    "note": "幽霊の証拠を集めて特定するだけのゲーム",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01200640.html",
+    "pov": "female"
+  },
+  {
+    "id": "RJ01213004",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "淫界探偵アラカ ～JK退魔師ミステリ風ADV～",
+    "names": {
+      "ja": "淫界探偵アラカ ～JK退魔師ミステリ風ADV～"
+    },
+    "mt": [],
+    "circle": "ケンシスキー広場",
+    "date": "2024-11-17",
+    "rate": 4.57,
+    "dl": 7444,
+    "rc": 1790,
+    "note": "史上最『凶』のエロ同人ゲーム「淫界◯柱アラカ」の完全二次創作ゲーム、爆誕! 健気で一途で凛々しくてかわいくて、散々えっちで酷い目にあいまくったヒロインをもう一度",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01213004.html"
+  },
+  {
     "id": "RJ01214934",
     "cat": "adv",
     "src": "dlsite",
@@ -553,6 +694,39 @@
     ]
   },
   {
+    "id": "RJ01232290",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ORGY DICE 美人母娘とサイの目のゆくえ",
+    "names": {
+      "ja": "ORGY DICE 美人母娘とサイの目のゆくえ",
+      "zh": "ORGY DICE 美人母女与骰子的去向",
+      "en": "ORGY DICE: A Beautiful Mother, Her Daughter, and the Roll of the Dice"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "まふ茶",
+    "date": "2026-02-27",
+    "rate": 4.62,
+    "dl": 27535,
+    "rc": 3636,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01232290.html",
+    "note": "点阵画风的街道里掷骰前进的派对H模拟",
+    "genres": [
+      "431",
+      "209",
+      "504",
+      "048",
+      "046",
+      "004",
+      "128",
+      "182"
+    ]
+  },
+  {
     "id": "RJ01242234",
     "cat": "adv",
     "pov": "female",
@@ -584,6 +758,25 @@
       "126",
       "183"
     ]
+  },
+  {
+    "id": "RJ01252415",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "裏取避忌",
+    "names": {
+      "ja": "裏取避忌"
+    },
+    "mt": [],
+    "circle": "しもふるにく",
+    "date": "2024-12-09",
+    "rate": 4.62,
+    "dl": 7203,
+    "rc": 1671,
+    "note": "情報収集して霊ノ物を特定するゲームです。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01252415.html",
+    "pov": "female"
   },
   {
     "id": "RJ01252561",
@@ -622,6 +815,24 @@
       "162",
       "190"
     ]
+  },
+  {
+    "id": "RJ01276894",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ー淫遁ーモンスターハウス",
+    "names": {
+      "ja": "ー淫遁ーモンスターハウス"
+    },
+    "mt": [],
+    "circle": "おーぷん痴たいep",
+    "date": "2024-11-25",
+    "rate": 4.07,
+    "dl": 2381,
+    "rc": 345,
+    "note": "危険なサキュバスの砦を護りにきた 勇者殿の逗留探索アドベンチャーノベル  貴族に狙われる か弱い?淫魔達を守るべく  魔族の領地で城に入る為のショタに擬態し彼女",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01276894.html"
   },
   {
     "id": "RJ01279330",
@@ -859,6 +1070,24 @@
     ]
   },
   {
+    "id": "RJ01315279",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "懐いてきた放置子の腰使いが激しすぎました",
+    "names": {
+      "ja": "懐いてきた放置子の腰使いが激しすぎました"
+    },
+    "mt": [],
+    "circle": "液魂研究会",
+    "date": "2025-01-01",
+    "rate": 4.27,
+    "dl": 2831,
+    "rc": 488,
+    "note": "UnityとLive2Dでぬるぬるアニメーション! 日焼け娘との恥ずかしいお医者さんごっこで堪らずドックン!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01315279.html"
+  },
+  {
     "id": "RJ01320589",
     "cat": "adv",
     "pov": "female",
@@ -1004,6 +1233,24 @@
     ]
   },
   {
+    "id": "RJ01337072",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "レヴィアの謀女【悪～い敵国女性に負けちゃうADV】",
+    "names": {
+      "ja": "レヴィアの謀女【悪～い敵国女性に負けちゃうADV】"
+    },
+    "mt": [],
+    "circle": "メルティホールド",
+    "date": "2025-02-21",
+    "rate": 4.58,
+    "dl": 8164,
+    "rc": 1621,
+    "note": "『悪～い敵国女性に負けちゃうADV』勝利国の王である主人公は、支配宣言のために敵国へ出向く。なんとそこで出迎えるのは、美しき王女たち…敵国の悪い女性たちの色仕掛",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01337072.html"
+  },
+  {
     "id": "RJ01337485",
     "cat": "adv",
     "pov": "male",
@@ -1082,6 +1329,42 @@
       "152",
       "156"
     ]
+  },
+  {
+    "id": "RJ01341908",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "廃コロニーからの脱出",
+    "names": {
+      "ja": "廃コロニーからの脱出"
+    },
+    "mt": [],
+    "circle": "uno",
+    "date": "2025-03-01",
+    "rate": 4.48,
+    "dl": 7251,
+    "rc": 1446,
+    "note": "謎のコロニーに迷い込んだ主人公は、一緒にいた母親、友達との合流を目指しながら脱出を目指す",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01341908.html"
+  },
+  {
+    "id": "RJ01343718",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "[逆レ〇プ×ホラー探索アドベンチャー]無音-Muon-",
+    "names": {
+      "ja": "[逆レ〇プ×ホラー探索アドベンチャー]無音-Muon-"
+    },
+    "mt": [],
+    "circle": "ぎゃくれびより",
+    "date": "2025-10-25",
+    "rate": 4.41,
+    "dl": 4618,
+    "rc": 551,
+    "note": "入るたびに形の変わる暗闇の迷宮、恐ろしい”搾精者”から逃げつつ脱出を目指せ。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01343718.html"
   },
   {
     "id": "RJ01356756",
@@ -1194,6 +1477,24 @@
       "200",
       "161"
     ]
+  },
+  {
+    "id": "RJ01377829",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "プリンセスシャーロット【中編】 ～ぼくとお姫さまの秘密の旅～",
+    "names": {
+      "ja": "プリンセスシャーロット【中編】 ～ぼくとお姫さまの秘密の旅～"
+    },
+    "mt": [],
+    "circle": "",
+    "date": "2025-07-12",
+    "rate": 4.74,
+    "dl": 1916,
+    "rc": 311,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01377829.html",
+    "note": ""
   },
   {
     "id": "RJ01394012",
@@ -1477,6 +1778,24 @@
     ]
   },
   {
+    "id": "RJ01479601",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "透走中 ～ド下品露出ローグライク～",
+    "names": {
+      "ja": "透走中 ～ド下品露出ローグライク～"
+    },
+    "mt": [],
+    "circle": "にゃんにゃんたまき",
+    "date": "2025-09-30",
+    "rate": 4.37,
+    "dl": 7437,
+    "rc": 864,
+    "note": "透明になり街中を白昼堂々 全裸徘徊！！一歩進む度に100円、ミッションをこなせば大金獲得、目標は百万円！！",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01479601.html"
+  },
+  {
     "id": "RJ01489257",
     "cat": "adv",
     "src": "dlsite",
@@ -1588,6 +1907,24 @@
       "123",
       "193"
     ]
+  },
+  {
+    "id": "RJ01525427",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "【Live2D】田舎で謎のお姉さんとエッチ三昧!! ～童貞ショタと犬系獣人のお話～",
+    "names": {
+      "ja": "【Live2D】田舎で謎のお姉さんとエッチ三昧!! ～童貞ショタと犬系獣人のお話～"
+    },
+    "mt": [],
+    "circle": "June",
+    "date": "2026-02-04",
+    "rate": 4.36,
+    "dl": 1669,
+    "rc": 100,
+    "note": "フル Live2D アニメーションで展開する“オナサポ”。 童貞ショタと犬系獣人のお姉さんが織りなす田舎での物語。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01525427.html"
   },
   {
     "id": "RJ01531293",
@@ -2061,6 +2398,24 @@
     ]
   },
   {
+    "id": "RJ01591041",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "思春期の僕とやさしいお母さん",
+    "names": {
+      "ja": "思春期の僕とやさしいお母さん"
+    },
+    "mt": [],
+    "circle": "わかめピンク",
+    "date": "2026-03-31",
+    "rate": 4.61,
+    "dl": 4388,
+    "rc": 578,
+    "note": "母と息子の物語",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01591041.html"
+  },
+  {
     "id": "RJ01599178",
     "cat": "adv",
     "pov": "female",
@@ -2169,6 +2524,42 @@
       "143",
       "182"
     ]
+  },
+  {
+    "id": "RJ01610787",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ミッドナイトガールズR アーカイブ版",
+    "names": {
+      "ja": "ミッドナイトガールズR アーカイブ版"
+    },
+    "mt": [],
+    "circle": "",
+    "date": "2026-05-15",
+    "rate": 4.8,
+    "dl": 1260,
+    "rc": 185,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01610787.html",
+    "note": ""
+  },
+  {
+    "id": "RJ01613615",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "感覚遮断メス化トラップ！",
+    "names": {
+      "ja": "感覚遮断メス化トラップ！"
+    },
+    "mt": [],
+    "circle": "日曜の夕暮れ時",
+    "date": "2026-04-23",
+    "rate": 4.33,
+    "dl": 2902,
+    "rc": 319,
+    "note": "感覚遮断落とし穴に落ちた男の子の身体を改造しまくるゲームです！胸を大きくしたり、乳首やアナルを開発したり、性別や体格を変更してTS化することができます。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01613615.html"
   },
   {
     "id": "RJ01617031",
@@ -3058,6 +3449,44 @@
     ]
   },
   {
+    "id": "RJ171098",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "【ゲーム】ハメ得★おりこうJ○ペット綾音&優菜 ～学校で性春!～",
+    "names": {
+      "ja": "【ゲーム】ハメ得★おりこうJ○ペット綾音&優菜 ～学校で性春!～",
+      "en": "Hamedoku * Oriko JK Pets Ayane & Yuuna"
+    },
+    "mt": [],
+    "circle": "ピンポイント / キングピン / ピンポイントクイック",
+    "date": "2016-02-26",
+    "rate": 4.47,
+    "dl": 8118,
+    "rc": 3602,
+    "note": "吹奏楽部のおりこう美少女二人が不良たちにハメまわされて、淫語連発、アヘ顔をさらしてマゾ雌の本性に目覚めてゆく……!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ171098.html"
+  },
+  {
+    "id": "RJ174339",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "黒髪巨乳委員長と草汰くんのなつやすみ",
+    "names": {
+      "ja": "黒髪巨乳委員長と草汰くんのなつやすみ",
+      "en": "Yuri & Shiori & Souta's Summer Vacation"
+    },
+    "mt": [],
+    "circle": "4H",
+    "date": "2016-04-03",
+    "rate": 4.46,
+    "dl": 3754,
+    "rc": 1337,
+    "note": "■いとこの草汰くんを預かることになった優璃。流されやすい性格に付け込まれ、年下の男の子にその身体を好き放題にされてしまい…",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ174339.html"
+  },
+  {
     "id": "RJ175039",
     "cat": "adv",
     "src": "dlsite",
@@ -3125,6 +3554,44 @@
       "128",
       "134"
     ]
+  },
+  {
+    "id": "RJ175431",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "強制AVデビュー 上木愛莉1X歳 ～自慰盗撮から始まった、恥辱と背信の日々～",
+    "names": {
+      "ja": "強制AVデビュー 上木愛莉1X歳 ～自慰盗撮から始まった、恥辱と背信の日々～",
+      "en": "Forced AV Debut - Airi Kamiki"
+    },
+    "mt": [],
+    "circle": "スレイブニール",
+    "date": "2016-06-24",
+    "rate": 4.44,
+    "dl": 5024,
+    "rc": 2322,
+    "note": "たった一度の過ち、それを撮影されただけで彼女の日常は一変した。\r\n恋する少女は、淫らな被写体へと造り変えられてゆく……。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ175431.html"
+  },
+  {
+    "id": "RJ178594",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "【ゲーム】電車えっちパラダイス",
+    "names": {
+      "ja": "【ゲーム】電車えっちパラダイス",
+      "en": "Train Sex Paradise"
+    },
+    "mt": [],
+    "circle": "ピンポイント / キングピン / ピンポイントクイック",
+    "date": "2016-06-24",
+    "rate": 4.47,
+    "dl": 7245,
+    "rc": 3183,
+    "note": "痴漢しても、生ハメしても、怒られないどころか電車内でパコパコ三昧☆ 美少女JKとのラブラブドスケベ天国!!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ178594.html"
   },
   {
     "id": "RJ179471",
@@ -3229,6 +3696,25 @@
     ]
   },
   {
+    "id": "RJ180354",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "【ゲーム】ハメ得!おりこうJKペット葉月&綾音～学校で性春!～",
+    "names": {
+      "ja": "【ゲーム】ハメ得!おりこうJKペット葉月&綾音～学校で性春!～",
+      "en": "Hamedoku * Oriko JK Pets Haduki & Ayane"
+    },
+    "mt": [],
+    "circle": "ピンポイント / キングピン / ピンポイントクイック",
+    "date": "2016-08-14",
+    "rate": 4.5,
+    "dl": 5219,
+    "rc": 2015,
+    "note": "クール系とおっとり系のJK2人は、男に罵られて興奮、チ○ポに夢中になっちゃうマゾ奴隷体質だった!?いじめられるのがたまらないド変態巨乳JKの痴態がたっぷり★",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ180354.html"
+  },
+  {
     "id": "RJ180894",
     "cat": "adv",
     "src": "dlsite",
@@ -3268,6 +3754,25 @@
     ]
   },
   {
+    "id": "RJ181268",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "お姉ちゃんハンターズ! 僕達を興奮させるお姉ちゃんが悪いんだ～常夏ビーチ編～",
+    "names": {
+      "ja": "お姉ちゃんハンターズ! 僕達を興奮させるお姉ちゃんが悪いんだ～常夏ビーチ編～",
+      "en": "Big Sis Hunters - Everlasting Summer Beach Edition"
+    },
+    "mt": [],
+    "circle": "ソーラレイ",
+    "date": "2016-08-05",
+    "rate": 4.37,
+    "dl": 3445,
+    "rc": 1738,
+    "note": "エロくていやらしい身体をした悪いお姉ちゃんは僕たちがオシオキだ!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ181268.html"
+  },
+  {
     "id": "RJ183212",
     "cat": "adv",
     "src": "dlsite",
@@ -3295,6 +3800,25 @@
       "128",
       "193"
     ]
+  },
+  {
+    "id": "RJ186032",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "【ゲーム】純真で人の頼みを断れない結衣ちゃんに僕だけの中出しオナホになってもらった",
+    "names": {
+      "ja": "【ゲーム】純真で人の頼みを断れない結衣ちゃんに僕だけの中出しオナホになってもらった",
+      "en": "Yui-Chan's Too Nice (To Say No) And That's Why She's My Cum Sponge"
+    },
+    "mt": [],
+    "circle": "ピンポイント / キングピン / ピンポイントクイック",
+    "date": "2016-10-28",
+    "rate": 4.48,
+    "dl": 9646,
+    "rc": 4140,
+    "note": "中出し、アナル調教、チンカス掃除、オモチャで連続アクメ責め……どんなHなお願いも断らないっ! 優しい美少女JKにHなおねだりし放題AVG!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ186032.html"
   },
   {
     "id": "RJ187017",
@@ -3375,6 +3899,25 @@
       "144",
       "157"
     ]
+  },
+  {
+    "id": "RJ188734",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "とある母親の過ち～縁篇～",
+    "names": {
+      "ja": "とある母親の過ち～縁篇～",
+      "en": "Indiscreet Mother: Yukari"
+    },
+    "mt": [],
+    "circle": "らすこう",
+    "date": "2016-11-19",
+    "rate": 4.51,
+    "dl": 3658,
+    "rc": 1447,
+    "note": "『最近、母親の様子がおかしい…』。友達?の言動と母親の様子に何か違和感を感じる息子『賢人』…。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ188734.html"
   },
   {
     "id": "RJ188985",
@@ -3511,6 +4054,63 @@
     ]
   },
   {
+    "id": "RJ193932",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "【ゲーム】援交JKアヘらせサプリv(゜ロ゜)v☆アヘ",
+    "names": {
+      "ja": "【ゲーム】援交JKアヘらせサプリv(゜ロ゜)v☆アヘ",
+      "en": "Paid Date JK Gapeface Supplement * AHE"
+    },
+    "mt": [],
+    "circle": "ピンポイント / キングピン / ピンポイントクイック",
+    "date": "2017-02-24",
+    "rate": 4.49,
+    "dl": 4482,
+    "rc": 2115,
+    "note": "黒ギャル、清楚ビッチな尻軽援交JKをサプリの力でアヘらせまくりっ!中年チ○ポの虜にし、自分だけのドスケベペットに……!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ193932.html"
+  },
+  {
+    "id": "RJ194743",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "処女×痴漢列車～美少女姉妹・車内レイプ～",
+    "names": {
+      "ja": "処女×痴漢列車～美少女姉妹・車内レイプ～",
+      "en": "Virgin x Molester ~beautiful sister's r*ped on the train~"
+    },
+    "mt": [],
+    "circle": "Studio+7",
+    "date": "2017-02-19",
+    "rate": 4.27,
+    "dl": 1568,
+    "rc": 662,
+    "note": "爆乳JKと愛らしい●学生の美少女姉妹を、おさわり痴漢レイプで墜とせ!!おさわり痴漢はなんと6回!1600以上のCG差分と1400ボイスが痴漢シーンを大いに盛り上",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ194743.html"
+  },
+  {
+    "id": "RJ195088",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "動く!少年責めmini",
+    "names": {
+      "ja": "動く!少年責めmini",
+      "en": "Animated! Young Boy Torment - mini"
+    },
+    "mt": [],
+    "circle": "美遊穂堂",
+    "date": "2017-02-22",
+    "rate": 4.21,
+    "dl": 7032,
+    "rc": 1367,
+    "note": "お姉さんに逆アナルされる少年のアニメーション",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ195088.html"
+  },
+  {
     "id": "RJ195414",
     "cat": "adv",
     "pov": "male",
@@ -3549,6 +4149,25 @@
       "017",
       "193"
     ]
+  },
+  {
+    "id": "RJ197471",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "監禁少女3D【Re:birthing】",
+    "names": {
+      "ja": "監禁少女3D【Re:birthing】",
+      "en": "Kankin Shoujo 3D [Re:birthing]"
+    },
+    "mt": [],
+    "circle": "ディーゼルマイン",
+    "date": "2017-04-27",
+    "rate": 3.98,
+    "dl": 6253,
+    "rc": 2309,
+    "note": "リアルタイム3D作品!　動く女子校生をマウスで自由に弄り回せる!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ197471.html"
   },
   {
     "id": "RJ198010",
@@ -3698,6 +4317,25 @@
     ]
   },
   {
+    "id": "RJ202661",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "りくじょぶ☆ズコバコ夏合宿",
+    "names": {
+      "ja": "りくじょぶ☆ズコバコ夏合宿",
+      "en": "Track & Fella Club * Wham Bam Summer Training Camp"
+    },
+    "mt": [],
+    "circle": "ソフトさーくるクレージュ",
+    "date": "2017-07-06",
+    "rate": 4.37,
+    "dl": 6979,
+    "rc": 3353,
+    "note": "陸上部に所属する女子校生、千秋、沙希、早苗。夏合宿を利用して顧問の先生とエッチしちゃおうと計画を立てる。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ202661.html"
+  },
+  {
     "id": "RJ204332",
     "cat": "adv",
     "src": "dlsite",
@@ -3736,6 +4374,43 @@
       "326",
       "128"
     ]
+  },
+  {
+    "id": "RJ204338",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "カナエ",
+    "names": {
+      "ja": "カナエ"
+    },
+    "mt": [],
+    "circle": "・工房",
+    "date": "2017-10-05",
+    "rate": 4.3,
+    "dl": 1438,
+    "rc": 765,
+    "note": "夫を亡くした専業主婦の佳苗は、夫の元上司の会社で働き始めるが…",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ204338.html"
+  },
+  {
+    "id": "RJ204925",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "女体化したらショータなおとうとが発情しすぎてヤバい!～ひたむきに求められまくる同居性活がよすぎて心までおねえちゃんになっちゃう!?～",
+    "names": {
+      "ja": "女体化したらショータなおとうとが発情しすぎてヤバい!～ひたむきに求められまくる同居性活がよすぎて心までおねえちゃんになっちゃう!?～",
+      "en": "When I TSFed my Little Shota Brother got so Horny it's Crazy!"
+    },
+    "mt": [],
+    "circle": "Norn/Miel/Cybele",
+    "date": "2017-08-25",
+    "rate": 4.4,
+    "dl": 1169,
+    "rc": 487,
+    "note": "巨乳なおねえちゃんに女体化!?おとうとに甘え&ひたむきに求められちゃうイチャエロふたり暮らし!?体化定番シチュ&おねショタ定番シチュ満載♪♪",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ204925.html"
   },
   {
     "id": "RJ204938",
@@ -3810,6 +4485,42 @@
       "144",
       "156"
     ]
+  },
+  {
+    "id": "RJ211278",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "JKフリーホール",
+    "names": {
+      "ja": "JKフリーホール"
+    },
+    "mt": [],
+    "circle": "voguish",
+    "date": "2017-11-03",
+    "rate": 4.51,
+    "dl": 1237,
+    "rc": 654,
+    "note": "フェラ&ザーメン大好きなJK2人組、りりあとせりかによる、共通の趣味のための活動記録。無料でフェラチオをする代わりに、報酬として精液をもらっちゃいます。ちゅぱ音",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ211278.html"
+  },
+  {
+    "id": "RJ212109",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "カリンの素潜り日記帳!plus",
+    "names": {
+      "ja": "カリンの素潜り日記帳!plus"
+    },
+    "mt": [],
+    "circle": "FoxEye",
+    "date": "2017-11-10",
+    "rate": 4.63,
+    "dl": 1237,
+    "rc": 345,
+    "note": "潜水が得意な少女カリンと共に島を旅する水中クリックアドベンチャーゲーム!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ212109.html"
   },
   {
     "id": "RJ212553",
@@ -3965,6 +4676,66 @@
       "115",
       "144"
     ]
+  },
+  {
+    "cat": "adv",
+    "state": "released",
+    "title": "巨乳JKがプチ援交のヤリ方教えます!",
+    "circle": "スクール・ラブ",
+    "date": "2017-12-28",
+    "rate": 4.52,
+    "dl": 16164,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ214895.html",
+    "note": "HTML5 制作的 2.5D 动画 ADV",
+    "id": "RJ214895",
+    "names": {
+      "ja": "巨乳JKがプチ援交のヤリ方教えます!",
+      "zh": "巨乳JK教你小援交的做法！",
+      "en": "A Busty JK Teaches How To Do Petit Compensated Dating"
+    },
+    "mt": [
+      "zh"
+    ],
+    "rc": 5694,
+    "src": "dlsite"
+  },
+  {
+    "id": "RJ216930",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "とある母親の過ち～縁その後篇～",
+    "names": {
+      "ja": "とある母親の過ち～縁その後篇～",
+      "en": "Indiscreet Mother: Yukari's After Story"
+    },
+    "mt": [],
+    "circle": "らすこう",
+    "date": "2018-01-10",
+    "rate": 4.68,
+    "dl": 3040,
+    "rc": 1139,
+    "note": "『最近、母親の様子がおかしい…』。そう思ってからしばらく経ったある夏の出来事…。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ216930.html"
+  },
+  {
+    "id": "RJ218378",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ヤンデレなお姉ちゃんに愛し尽される監禁性活",
+    "names": {
+      "ja": "ヤンデレなお姉ちゃんに愛し尽される監禁性活",
+      "en": "Sexual Life in Confinement: Persistently Loved by a Psycho Sister"
+    },
+    "mt": [],
+    "circle": "Norn/Miel/Cybele",
+    "date": "2018-02-16",
+    "rate": 4.43,
+    "dl": 1701,
+    "rc": 661,
+    "note": "ふたりっきりの空間でお姉ちゃんの山より重く海より深い愛に溺れてね……?お姉ちゃんにただただ愛し尽くされるだけの究極のヤンデレ愛生活をお楽しみください♪",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ218378.html"
   },
   {
     "id": "RJ221783",
@@ -4363,6 +5134,25 @@
     ]
   },
   {
+    "id": "RJ236148",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "続・黒髪巨乳委員長と草汰くんのなつやすみ",
+    "names": {
+      "ja": "続・黒髪巨乳委員長と草汰くんのなつやすみ",
+      "en": "Yuri & Shiori & Souta's Summer Vacation 2"
+    },
+    "mt": [],
+    "circle": "4H",
+    "date": "2018-10-21",
+    "rate": 4.6,
+    "dl": 3455,
+    "rc": 1161,
+    "note": "■年下のいとこ、草汰くんの田舎に行くことになった姉妹。今度こそ流されないと誓う優璃だったが、やっぱり恥ずかしい目に遭う羽目に……",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ236148.html"
+  },
+  {
     "id": "RJ237209",
     "cat": "adv",
     "src": "dlsite",
@@ -4443,6 +5233,25 @@
     ]
   },
   {
+    "id": "RJ238471",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "男の子のための触手図鑑Vol.1",
+    "names": {
+      "ja": "男の子のための触手図鑑Vol.1",
+      "en": "The Encyclopedia of Tentacles for Boys Vol.1"
+    },
+    "mt": [],
+    "circle": "とろとろレジスタンス",
+    "date": "2018-11-10",
+    "rate": 4.5,
+    "dl": 4782,
+    "rc": 1869,
+    "note": "男の精液を餌とする搾精生物が、少年の精を搾り尽くす! \r\n登場する搾精生物の数は28種類、それぞれにHシーンを完備!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ238471.html"
+  },
+  {
     "id": "RJ238792",
     "cat": "adv",
     "src": "dlsite",
@@ -4516,6 +5325,25 @@
       "139",
       "134"
     ]
+  },
+  {
+    "id": "RJ241477",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "男の子のための触手図鑑Vol.2",
+    "names": {
+      "ja": "男の子のための触手図鑑Vol.2",
+      "en": "The Encyclopedia of Tentacles for Boys Vol.2"
+    },
+    "mt": [],
+    "circle": "とろとろレジスタンス",
+    "date": "2018-12-23",
+    "rate": 4.61,
+    "dl": 3418,
+    "rc": 1282,
+    "note": "男の精液を餌とする搾精生物が、少年の精を搾り尽くす! \r\n登場する搾精生物の数は28種類、それぞれにHシーンを完備!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ241477.html"
   },
   {
     "id": "RJ245808",
@@ -4593,6 +5421,25 @@
     ]
   },
   {
+    "id": "RJ247617",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "男の子のための触手図鑑Vol.3",
+    "names": {
+      "ja": "男の子のための触手図鑑Vol.3",
+      "en": "The Encyclopedia of Tentacles for Boys Vol.3"
+    },
+    "mt": [],
+    "circle": "とろとろレジスタンス",
+    "date": "2019-03-08",
+    "rate": 4.62,
+    "dl": 3019,
+    "rc": 1042,
+    "note": "男の精液を餌とする搾精生物が、少年の精を搾り尽くす! \r\n登場する搾精生物の数は28種類、それぞれにHシーンを完備!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ247617.html"
+  },
+  {
     "id": "RJ247829",
     "cat": "adv",
     "src": "dlsite",
@@ -4631,6 +5478,25 @@
       "138",
       "182"
     ]
+  },
+  {
+    "id": "RJ250595",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ママは対魔忍",
+    "names": {
+      "ja": "ママは対魔忍",
+      "en": "Mama Wa Taimanin"
+    },
+    "mt": [],
+    "circle": "Lilith [リリス]",
+    "date": "2019-04-19",
+    "rate": 4.48,
+    "dl": 5322,
+    "rc": 2488,
+    "note": "ママが近未来くノ一だったアドベンチャー",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ250595.html"
   },
   {
     "id": "RJ251378",
@@ -4931,6 +5797,25 @@
     ]
   },
   {
+    "id": "RJ262190",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "精液貢ぎのマゾ性奴隷 ～バニーガール編～",
+    "names": {
+      "ja": "精液貢ぎのマゾ性奴隷 ～バニーガール編～",
+      "en": "Semen Tributing Masochist Sex Slave ~Bunny Girl Chapter~"
+    },
+    "mt": [],
+    "circle": "スウィートラズベリー",
+    "date": "2019-08-31",
+    "rate": 4.39,
+    "dl": 4222,
+    "rc": 1363,
+    "note": "マゾにとって超お得なM男向け短編フェムドムゲームをサービス!HCG10種類",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ262190.html"
+  },
+  {
     "id": "RJ264036",
     "cat": "adv",
     "src": "dlsite",
@@ -5018,6 +5903,24 @@
     ]
   },
   {
+    "id": "RJ272990",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "性奴隷「ミサト」 ～女子〇学生監禁レイプ～",
+    "names": {
+      "ja": "性奴隷「ミサト」 ～女子〇学生監禁レイプ～"
+    },
+    "mt": [],
+    "circle": "GIRL SCORE",
+    "date": "2020-01-25",
+    "rate": 4.36,
+    "dl": 8711,
+    "rc": 2603,
+    "note": "×2歳の可愛いロリ巨乳○学生を 誘拐・監禁して、無理やりセックスします。リアルな拉致監禁レイプを疑似体験できるADVゲームです。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ272990.html"
+  },
+  {
     "id": "RJ277012",
     "cat": "adv",
     "src": "dlsite",
@@ -5046,6 +5949,25 @@
       "016",
       "128"
     ]
+  },
+  {
+    "id": "RJ279436",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "もんむす・でりしゃす!Full course!",
+    "names": {
+      "ja": "もんむす・でりしゃす!Full course!",
+      "en": "Monmusu Delicious! Full course!"
+    },
+    "mt": [],
+    "circle": "トキノコギリ",
+    "date": "2020-03-14",
+    "rate": 4.65,
+    "dl": 4435,
+    "rc": 1213,
+    "note": "大人気人外娘逆レイプゲーのキャラ達による、捕食、丸呑みオンリーノベルゲーム総集編! 少年の主人公等がモンスター娘達に敗北し、捕食、消化されるまでをCG、文章、効",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ279436.html"
   },
   {
     "id": "RJ281045",
@@ -5084,6 +6006,25 @@
       "128",
       "134"
     ]
+  },
+  {
+    "id": "RJ282454",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ショタおねアイランド! -お姉ちゃんのオッパイはボクのもの!-",
+    "names": {
+      "ja": "ショタおねアイランド! -お姉ちゃんのオッパイはボクのもの!-",
+      "en": "ShotaOne Island! ~This Girl's Breasts are Mine!~"
+    },
+    "mt": [],
+    "circle": "ナップルミル",
+    "date": "2020-05-23",
+    "rate": 4.46,
+    "dl": 7164,
+    "rc": 3363,
+    "note": "イタズラ小僧が漂流し、流れ着いた島で始まるHなセクハラ生活!  小さな体を武器に、グラマーなお姉ちゃん達にイタズラ種付けヤリ放題♪",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ282454.html"
   },
   {
     "id": "RJ289767",
@@ -5307,6 +6248,25 @@
     ]
   },
   {
+    "id": "RJ299487",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "【ゲーム】底辺用務員復讐洗脳～ナマイキ令嬢催眠～",
+    "names": {
+      "ja": "【ゲーム】底辺用務員復讐洗脳～ナマイキ令嬢催眠～",
+      "en": "Janitor's Brainwashing Revenge ~Saucy Proper Ladies Get Hypnotized~"
+    },
+    "mt": [],
+    "circle": "ピンポイント / キングピン / ピンポイントクイック",
+    "date": "2020-10-23",
+    "rate": 4.57,
+    "dl": 6219,
+    "rc": 2172,
+    "note": "底辺人生を歩み続けた用務員が自分を見下すメスガキたちに催眠アプリで復讐を…! 常識を改変し徹底的に辱め、好き放題に犯しまくる…!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ299487.html"
+  },
+  {
     "id": "RJ299836",
     "cat": "adv",
     "pov": "both",
@@ -5379,6 +6339,25 @@
       "126",
       "179"
     ]
+  },
+  {
+    "id": "RJ302288",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ヒーラーさんはママしたい!",
+    "names": {
+      "ja": "ヒーラーさんはママしたい!",
+      "en": "The Healer Wants to Be My Mother"
+    },
+    "mt": [],
+    "circle": "はちのこ商店",
+    "date": "2020-10-24",
+    "rate": 4.55,
+    "dl": 2566,
+    "rc": 1003,
+    "note": "少年勇者と世話焼きヒーラーのイチャラブ短編",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ302288.html"
   },
   {
     "id": "RJ304857",
@@ -5456,6 +6435,25 @@
       "004",
       "175"
     ]
+  },
+  {
+    "id": "RJ308502",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "女子校生肝だめし5(DLC4-留学生)",
+    "names": {
+      "ja": "女子校生肝だめし5(DLC4-留学生)",
+      "en": "School Girl Courage Test 5 (DLC4 - Exchange Students)"
+    },
+    "mt": [],
+    "circle": "ティー・エンタ・ぴー",
+    "date": "2020-11-27",
+    "rate": 4.6,
+    "dl": 3527,
+    "rc": 1158,
+    "note": "DLC第四弾、今回の新たな犠牲者は海外からの留学生3人! 女子校生の身体を目当てに、肝だめしでビビらせる! 失神まで追い込めば、その身体を欲望の赴くままにやりた",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ308502.html"
   },
   {
     "id": "RJ308877",
@@ -5646,6 +6644,62 @@
     ]
   },
   {
+    "id": "RJ314403",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "援交爆乳JKと射精我慢ゲーム 我慢できたら生エッチ、できなかったら限界搾精!!",
+    "names": {
+      "ja": "援交爆乳JKと射精我慢ゲーム 我慢できたら生エッチ、できなかったら限界搾精!!",
+      "en": "Paid Dating Busty JK Girls Edging Game ~If you endure, we'll fuck you raw!~"
+    },
+    "mt": [],
+    "circle": "かぐら堂",
+    "date": "2021-01-22",
+    "rate": 4.56,
+    "dl": 932,
+    "rc": 445,
+    "note": "爆乳援交JK二人に責められながら搾精されちゃうデジタルノベル。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ314403.html"
+  },
+  {
+    "id": "RJ316911",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "男の娘2人夏休みアオハル日記。",
+    "names": {
+      "ja": "男の娘2人夏休みアオハル日記。",
+      "en": "Otoko no Ko Couple's Summer of Fucking"
+    },
+    "mt": [],
+    "circle": "もっこり娘。",
+    "date": "2021-08-22",
+    "rate": 4.38,
+    "dl": 1777,
+    "rc": 471,
+    "note": "〇校生の東雲翠は、男なのに「姫」と呼ばれる男の娘。  そんな翠だったが、夏休み、田舎町の法事に参列した際に偶然見かけた美しい男の娘、ルイス莉緒に目を奪われる。 ",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ316911.html"
+  },
+  {
+    "id": "RJ319355",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ぼくは勇気を出してエッチなお店に電話してみた。",
+    "names": {
+      "ja": "ぼくは勇気を出してエッチなお店に電話してみた。"
+    },
+    "mt": [],
+    "circle": "eChime",
+    "date": "2021-03-05",
+    "rate": 4.41,
+    "dl": 1321,
+    "rc": 447,
+    "note": "エッチな事をしたくてたまらない少年が、思いあまってデリヘルの広告に電話をしてみる、おねショタLive2DアニメーションADVです。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ319355.html"
+  },
+  {
     "id": "RJ319875",
     "cat": "adv",
     "src": "dlsite",
@@ -5686,6 +6740,25 @@
       "129",
       "138"
     ]
+  },
+  {
+    "id": "RJ320259",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "魔女と猫の隠れ里",
+    "names": {
+      "ja": "魔女と猫の隠れ里",
+      "en": "The Hidden Village of Witches and Catgirls"
+    },
+    "mt": [],
+    "circle": "ディーゼルマイン",
+    "date": "2021-05-11",
+    "rate": 4.64,
+    "dl": 7959,
+    "rc": 3372,
+    "note": "魔女と猫耳族のお姉さんたちがひっそりと暮らす隠れ里。そんな、不思議な世界に迷い込んでしまうお話。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ320259.html"
   },
   {
     "id": "RJ321839",
@@ -5756,6 +6829,25 @@
     ]
   },
   {
+    "id": "RJ325255",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "僕らが拾ったエッチな人形",
+    "names": {
+      "ja": "僕らが拾ったエッチな人形",
+      "en": "The Sexy Doll I Found"
+    },
+    "mt": [],
+    "circle": "eChime",
+    "date": "2021-05-28",
+    "rate": 4.35,
+    "dl": 4410,
+    "rc": 1408,
+    "note": "二人の少年が女の人にそっくりな人形を拾って秘密基地に持ち帰ってエッチなことをする、Live2DアニメーションADVです。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ325255.html"
+  },
+  {
     "id": "RJ325681",
     "cat": "adv",
     "pov": "male",
@@ -5796,6 +6888,25 @@
       "156",
       "192"
     ]
+  },
+  {
+    "id": "RJ326922",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "僕とお姉さん達との夏休みの思い出SP",
+    "names": {
+      "ja": "僕とお姉さん達との夏休みの思い出SP",
+      "en": "Summer Holiday Memories with the Ladies Special"
+    },
+    "mt": [],
+    "circle": "AΩ-COMPANY",
+    "date": "2021-05-19",
+    "rate": 4.38,
+    "dl": 2123,
+    "rc": 697,
+    "note": "僕とお姉さんとの夏休みの思い出シリーズのゲーム化です!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ326922.html"
   },
   {
     "id": "RJ327542",
@@ -5946,6 +7057,44 @@
       "118",
       "171"
     ]
+  },
+  {
+    "id": "RJ340907",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "家出少年ほころくん",
+    "names": {
+      "ja": "家出少年ほころくん",
+      "en": "Hokoro the Runaway"
+    },
+    "mt": [],
+    "circle": "cream△",
+    "date": "2021-12-09",
+    "rate": 4.32,
+    "dl": 23868,
+    "rc": 1491,
+    "note": "怪しいおねぇちゃんと過ごす【7日間】の物語。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ340907.html"
+  },
+  {
+    "id": "RJ341164",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "七尺さん",
+    "names": {
+      "ja": "七尺さん"
+    },
+    "mt": [],
+    "circle": "bba",
+    "date": "2021-08-28",
+    "rate": 4.43,
+    "dl": 1921,
+    "rc": 709,
+    "note": "短編おねしょた探索ホラー",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ341164.html",
+    "pov": "male"
   },
   {
     "id": "RJ345152",
@@ -6233,6 +7382,25 @@
       "138",
       "182"
     ]
+  },
+  {
+    "id": "RJ402762",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "インプの国盗り大作戦",
+    "names": {
+      "ja": "インプの国盗り大作戦",
+      "en": "The Imp's Grand Usurpation Operation"
+    },
+    "mt": [],
+    "circle": "アトリエマゾ",
+    "date": "2022-07-26",
+    "rate": 4.64,
+    "dl": 7061,
+    "rc": 2412,
+    "note": "最弱のポンコツインプが人間の王城攻略に挑む!立ちはばかる兵士や最強の四天王たちを前に、インプちゃんのとった行動とは……",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ402762.html"
   },
   {
     "id": "RJ406616",
@@ -6560,55 +7728,6 @@
       "189",
       "179"
     ]
-  },
-  {
-    "id": "cien-28931",
-    "cat": "adv",
-    "src": "cien",
-    "state": "dev",
-    "title": "ゴア・スクリーミング・ショウ リニューアル版（仮）",
-    "names": {
-      "ja": "ゴア・スクリーミング・ショウ リニューアル版（仮）",
-      "zh": "血腥尖叫秀 重制版（暂定）",
-      "en": "Gore Screaming Show Renewal"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "BLACK Cyc",
-    "date": "2026-09-28",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 5257,
-    "url": "https://ci-en.dlsite.com/creator/28931",
-    "note": "商业品牌 BLACK Cyc 的旧作重制版 ADV"
-  },
-  {
-    "id": "cien-4576",
-    "cat": "adv",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "特務捜査官レナ 屈辱の娼館奉仕",
-    "names": {
-      "ja": "特務捜査官レナ 屈辱の娼館奉仕",
-      "zh": "特务搜查官蕾娜 屈辱的娼馆奉仕",
-      "en": "Special Agent Rena: Humiliating Brothel Service"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "No Future",
-    "date": "2026-10-24",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 49324,
-    "url": "https://ci-en.dlsite.com/creator/4576",
-    "note": "被抓住的女搜查官设法从组织的娼馆脱出的 ADV"
   },
   {
     "id": "steam-1008020",

@@ -1,5 +1,228 @@
 [
   {
+    "id": "cien-16156",
+    "cat": "other",
+    "src": "cien",
+    "state": "released",
+    "title": "くるみぷりんと",
+    "names": {
+      "ja": "くるみぷりんと"
+    },
+    "mt": [],
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": ""
+  },
+  {
+    "id": "cien-20718",
+    "cat": "other",
+    "src": "cien",
+    "state": "released",
+    "title": "PinkPetBottle",
+    "names": {
+      "ja": "PinkPetBottle"
+    },
+    "mt": [],
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": ""
+  },
+  {
+    "id": "cien-2419",
+    "cat": "other",
+    "src": "cien",
+    "state": "released",
+    "title": "kei/山田工房",
+    "names": {
+      "ja": "kei/山田工房"
+    },
+    "mt": [],
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": ""
+  },
+  {
+    "id": "cien-2713",
+    "cat": "other",
+    "src": "cien",
+    "state": "released",
+    "title": "いなずまそふと",
+    "names": {
+      "ja": "いなずまそふと"
+    },
+    "mt": [],
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": ""
+  },
+  {
+    "id": "cien-276",
+    "cat": "other",
+    "src": "cien",
+    "state": "released",
+    "title": "ルさんちまん",
+    "names": {
+      "ja": "ルさんちまん"
+    },
+    "mt": [],
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": ""
+  },
+  {
+    "id": "cien-3343",
+    "cat": "other",
+    "src": "cien",
+    "state": "released",
+    "title": "サークル☆フェアリーフラワー",
+    "names": {
+      "ja": "サークル☆フェアリーフラワー"
+    },
+    "mt": [],
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": ""
+  },
+  {
+    "id": "cien-4941",
+    "cat": "other",
+    "src": "cien",
+    "state": "dev",
+    "title": "淫魔再誕",
+    "names": {
+      "ja": "淫魔再誕",
+      "zh": "淫魔再诞",
+      "en": "Succubus Reborn"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "超次元覚醒研究所",
+    "date": "2026-10-22",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 42374,
+    "url": "https://ci-en.dlsite.com/creator/4941",
+    "note": "TCG 风格的卡牌对战游戏，事件用 Live2D 动画表现"
+  },
+  {
+    "id": "cien-8288",
+    "cat": "other",
+    "src": "cien",
+    "state": "released",
+    "title": "庵田屋",
+    "names": {
+      "ja": "庵田屋"
+    },
+    "mt": [],
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": ""
+  },
+  {
+    "id": "cien-8964",
+    "cat": "other",
+    "src": "cien",
+    "state": "released",
+    "title": "同人サークル『I’m moralist』",
+    "names": {
+      "ja": "同人サークル『I’m moralist』"
+    },
+    "mt": [],
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": ""
+  },
+  {
+    "id": "cien-996",
+    "cat": "other",
+    "pov": "female",
+    "src": "cien",
+    "state": "dev",
+    "title": "卵の殻は破られる",
+    "names": {
+      "ja": "卵の殻は破られる",
+      "zh": "蛋壳被打破",
+      "en": "The Eggshell Is Broken"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ハソユア",
+    "date": "2026-10-10",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "followers": 36437,
+    "url": "https://ci-en.dlsite.com/creator/996",
+    "note": "女主人公被困的触手题材游戏，先行体验版已到 v2.70"
+  },
+  {
+    "id": "egs-25508",
+    "cat": "other",
+    "src": "commercial",
+    "state": "released",
+    "title": "魔立ロリサキュバス妖魔園",
+    "names": {
+      "ja": "魔立ロリサキュバス妖魔園"
+    },
+    "mt": [],
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": ""
+  },
+  {
+    "id": "egs-25680",
+    "cat": "other",
+    "src": "commercial",
+    "state": "released",
+    "title": "円交少女２～ＪＫアイドル真鈴の場合～",
+    "names": {
+      "ja": "円交少女２～ＪＫアイドル真鈴の場合～",
+      "en": "Enkou Shoujo 2 ~JK Idol Marin no Baai~"
+    },
+    "mt": [],
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": ""
+  },
+  {
+    "id": "fanbox-mugendaraku",
+    "cat": "other",
+    "src": "fanbox",
+    "state": "dev",
+    "title": "感染街（仮）",
+    "names": {
+      "ja": "感染街（仮）",
+      "zh": "感染街（暂定）",
+      "en": "Infected Town (working title)"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "無限堕落（黒い染み）",
+    "date": "2026-10-14",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "url": "https://mugendaraku.fanbox.cc/",
+    "note": "恐怖游戏社团的 R-18 新作，以感染者为题材"
+  },
+  {
     "id": "RJ01005841",
     "cat": "other",
     "pov": "female",
@@ -38,6 +261,25 @@
     ]
   },
   {
+    "id": "RJ01010873",
+    "cat": "other",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ショタ僧侶とお姉ちゃんとモン娘のピン抜きダンジョン~A shorty priest and A big sister and Monster girl's PULL PINS DUNGEONS ~",
+    "names": {
+      "ja": "ショタ僧侶とお姉ちゃんとモン娘のピン抜きダンジョン~A shorty priest and A big sister and Monster girl's PULL PINS DUNGEONS ~",
+      "en": "The Young Priest, His Sister, and Monster Girls in the Pin-Pulling Dungeon"
+    },
+    "mt": [],
+    "circle": "KuroCat",
+    "date": "2023-04-15",
+    "rate": 4.3,
+    "dl": 5102,
+    "rc": 1259,
+    "note": "ピンを抜くドット絵オネショタモン娘リョナエロパズルゲーム",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01010873.html"
+  },
+  {
     "id": "RJ01014404",
     "cat": "other",
     "src": "dlsite",
@@ -70,6 +312,24 @@
     ]
   },
   {
+    "id": "RJ01019735",
+    "cat": "other",
+    "src": "dlsite",
+    "state": "released",
+    "title": "集え仲間とショタ勇者",
+    "names": {
+      "ja": "集え仲間とショタ勇者"
+    },
+    "mt": [],
+    "circle": "らびっとだっしゅ",
+    "date": "2023-01-22",
+    "rate": 4.46,
+    "dl": 622,
+    "rc": 232,
+    "note": "ゲーム性と実用性を兼ね備えたぷにぷに可愛いお姉さん救出型パズルゲーム!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01019735.html"
+  },
+  {
     "id": "RJ01023407",
     "cat": "other",
     "pov": "female",
@@ -100,6 +360,24 @@
       "182",
       "490"
     ]
+  },
+  {
+    "id": "RJ01034641",
+    "cat": "other",
+    "src": "dlsite",
+    "state": "released",
+    "title": "【AI翻译补丁】淫魔契约性爱魅魔",
+    "names": {
+      "ja": "【AI翻译补丁】淫魔契约性爱魅魔"
+    },
+    "mt": [],
+    "circle": "",
+    "date": "2023-03-01",
+    "rate": 4.8,
+    "dl": 4688,
+    "rc": 86,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01034641.html",
+    "note": ""
   },
   {
     "id": "RJ01041845",
@@ -138,6 +416,96 @@
       "113",
       "183"
     ]
+  },
+  {
+    "id": "RJ01053629",
+    "cat": "other",
+    "src": "dlsite",
+    "state": "released",
+    "title": "せっかんこ",
+    "names": {
+      "ja": "せっかんこ"
+    },
+    "mt": [],
+    "circle": "ping",
+    "date": "2023-04-28",
+    "rate": 4.42,
+    "dl": 1388,
+    "rc": 153,
+    "note": "スパンキングオンリーの音声アニメーションゲーです。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01053629.html"
+  },
+  {
+    "id": "RJ01069569",
+    "cat": "other",
+    "src": "dlsite",
+    "state": "released",
+    "title": "女体迷路",
+    "names": {
+      "ja": "女体迷路"
+    },
+    "mt": [],
+    "circle": "うぉたさば",
+    "date": "2023-06-20",
+    "rate": 4.13,
+    "dl": 1196,
+    "rc": 301,
+    "note": "女体だらけの迷路に迷い込んだ少年は、脱出を目指して奥へ奥へと進んでいく…",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01069569.html"
+  },
+  {
+    "id": "RJ01075532",
+    "cat": "other",
+    "src": "dlsite",
+    "state": "released",
+    "title": "寝取られ|可愛い弟(あなた)の為にエロガキのオモチャになってくれる優しいお姉ちゃん～オナニー専用ゲーム",
+    "names": {
+      "ja": "寝取られ|可愛い弟(あなた)の為にエロガキのオモチャになってくれる優しいお姉ちゃん～オナニー専用ゲーム"
+    },
+    "mt": [],
+    "circle": "Hentai Girls",
+    "date": "2023-07-14",
+    "rate": 3.34,
+    "dl": 535,
+    "rc": 122,
+    "note": "皆大好きNTR!優しいお姉ちゃんが、愛する弟の為にエロガキの性処理相手に!～Hシーン変態ゲーム",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01075532.html"
+  },
+  {
+    "id": "RJ01082819",
+    "cat": "other",
+    "src": "dlsite",
+    "state": "released",
+    "title": "SHOTAxMONSTERS 2",
+    "names": {
+      "ja": "SHOTAxMONSTERS 2"
+    },
+    "mt": [],
+    "circle": "",
+    "date": "2023-10-29",
+    "rate": 4.76,
+    "dl": 2537,
+    "rc": 292,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01082819.html",
+    "note": ""
+  },
+  {
+    "id": "RJ01085038",
+    "cat": "other",
+    "src": "dlsite",
+    "state": "released",
+    "title": "羊王国物語",
+    "names": {
+      "ja": "羊王国物語"
+    },
+    "mt": [],
+    "circle": "デホリメワークス",
+    "date": "2023-08-06",
+    "rate": 4.59,
+    "dl": 468,
+    "rc": 151,
+    "note": "ロリショタ+おねショタ+マイルドリョナ×絵本風ボードゲームADV",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01085038.html"
   },
   {
     "id": "RJ01088503",
@@ -308,6 +676,42 @@
     "note": "移动棋子的简单桌面游戏"
   },
   {
+    "id": "RJ01168746",
+    "cat": "other",
+    "src": "dlsite",
+    "state": "released",
+    "title": "【AI翻译补丁】圣女艾尔娜与堕落淫荡之书  〜爆乳修女的色色使命〜",
+    "names": {
+      "ja": "【AI翻译补丁】圣女艾尔娜与堕落淫荡之书  〜爆乳修女的色色使命〜"
+    },
+    "mt": [],
+    "circle": "",
+    "date": "2024-03-15",
+    "rate": 4.8,
+    "dl": 3373,
+    "rc": 65,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01168746.html",
+    "note": ""
+  },
+  {
+    "id": "RJ01189185",
+    "cat": "other",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ぬぎぬぎじゃんけん",
+    "names": {
+      "ja": "ぬぎぬぎじゃんけん"
+    },
+    "mt": [],
+    "circle": "",
+    "date": "2024-12-08",
+    "rate": 4.72,
+    "dl": 623,
+    "rc": 176,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01189185.html",
+    "note": ""
+  },
+  {
     "id": "RJ01195085",
     "cat": "other",
     "pov": "female",
@@ -345,6 +749,42 @@
       "178",
       "183"
     ]
+  },
+  {
+    "id": "RJ01197579",
+    "cat": "other",
+    "src": "dlsite",
+    "state": "released",
+    "title": "JKタイトルマッチ",
+    "names": {
+      "ja": "JKタイトルマッチ"
+    },
+    "mt": [],
+    "circle": "",
+    "date": "2024-06-15",
+    "rate": 4.71,
+    "dl": 626,
+    "rc": 135,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01197579.html",
+    "note": ""
+  },
+  {
+    "id": "RJ01212168",
+    "cat": "other",
+    "src": "dlsite",
+    "state": "released",
+    "title": "【AI翻譯更新檔】我們的肉便器老師 -the GAME- 年輕媽媽教師的變態生活",
+    "names": {
+      "ja": "【AI翻譯更新檔】我們的肉便器老師 -the GAME- 年輕媽媽教師的變態生活"
+    },
+    "mt": [],
+    "circle": "",
+    "date": "2024-06-21",
+    "rate": 4.75,
+    "dl": 2761,
+    "rc": 69,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01212168.html",
+    "note": ""
   },
   {
     "id": "RJ01215519",
@@ -450,6 +890,24 @@
       "302",
       "182"
     ]
+  },
+  {
+    "id": "RJ01306584",
+    "cat": "other",
+    "src": "dlsite",
+    "state": "released",
+    "title": "サキュバス監獄 新米冒険者が捕まった淫魔の巣で永久に無限搾精を受けるお話",
+    "names": {
+      "ja": "サキュバス監獄 新米冒険者が捕まった淫魔の巣で永久に無限搾精を受けるお話"
+    },
+    "mt": [],
+    "circle": "びおらんて",
+    "date": "2024-12-28",
+    "rate": 4.07,
+    "dl": 9998,
+    "rc": 1435,
+    "note": "サキュバス姉妹の冒険者調教ゲーム!全てのプレイが60fpsの高画質アニメーション&ダミーヘッドバイノーラル録音!両手放しでもHから射精シーンまでの動画が自動で再",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01306584.html"
   },
   {
     "id": "RJ01341681",
@@ -1026,6 +1484,24 @@
     ]
   },
   {
+    "id": "RJ01654810",
+    "cat": "other",
+    "src": "dlsite",
+    "state": "released",
+    "title": "サキュバス・ショーダウン！",
+    "names": {
+      "ja": "サキュバス・ショーダウン！"
+    },
+    "mt": [],
+    "circle": "おっぱい工房",
+    "date": "2026-06-26",
+    "rate": 4.43,
+    "dl": 14556,
+    "rc": 1232,
+    "note": "サキュバスたちによる架空のエロ番組の中、デカい乳とデカい尻が襲い掛かる！",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01654810.html"
+  },
+  {
     "id": "RJ01663252",
     "cat": "other",
     "src": "dlsite",
@@ -1159,6 +1635,60 @@
     ]
   },
   {
+    "id": "RJ01720541",
+    "cat": "other",
+    "src": "dlsite",
+    "state": "released",
+    "title": "【おさわりシミュ】マッサージ当番で先生が本気出すわけないよねっ?",
+    "names": {
+      "ja": "【おさわりシミュ】マッサージ当番で先生が本気出すわけないよねっ?"
+    },
+    "mt": [],
+    "circle": "",
+    "date": "2026-09-15",
+    "rate": 4.7,
+    "dl": 1480,
+    "rc": 97,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01720541.html",
+    "note": ""
+  },
+  {
+    "id": "RJ158298",
+    "cat": "other",
+    "src": "dlsite",
+    "state": "released",
+    "title": "空想性犯計画「リョウコ」 ～女子高生下校中ストーカーレ○プ事件～",
+    "names": {
+      "ja": "空想性犯計画「リョウコ」 ～女子高生下校中ストーカーレ○プ事件～"
+    },
+    "mt": [],
+    "circle": "GIRL SCORE",
+    "date": "",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ158298.html"
+  },
+  {
+    "id": "RJ181679",
+    "cat": "other",
+    "src": "dlsite",
+    "state": "released",
+    "title": "相思相愛ロリータの生活",
+    "names": {
+      "ja": "相思相愛ロリータの生活"
+    },
+    "mt": [],
+    "circle": "夜のひつじ",
+    "date": "",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ181679.html"
+  },
+  {
     "id": "RJ182179",
     "cat": "other",
     "src": "dlsite",
@@ -1225,6 +1755,24 @@
       "118",
       "190"
     ]
+  },
+  {
+    "id": "RJ192524",
+    "cat": "other",
+    "src": "dlsite",
+    "state": "released",
+    "title": "お泊まり恋人ロリータ",
+    "names": {
+      "ja": "お泊まり恋人ロリータ"
+    },
+    "mt": [],
+    "circle": "夜のひつじ",
+    "date": "",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ192524.html"
   },
   {
     "id": "RJ208324",
@@ -1445,6 +1993,43 @@
     ]
   },
   {
+    "id": "RJ229384",
+    "cat": "other",
+    "src": "dlsite",
+    "state": "released",
+    "title": "SHOTAxMONSTERS L2D vol.1",
+    "names": {
+      "ja": "SHOTAxMONSTERS L2D vol.1"
+    },
+    "mt": [],
+    "circle": "",
+    "date": "2018-08-01",
+    "rate": 4.7,
+    "dl": 1124,
+    "rc": 192,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ229384.html",
+    "note": ""
+  },
+  {
+    "id": "RJ246951",
+    "cat": "other",
+    "src": "dlsite",
+    "state": "released",
+    "title": "魔ん娘.dot",
+    "names": {
+      "ja": "魔ん娘.dot",
+      "en": "Manko.dot"
+    },
+    "mt": [],
+    "circle": "世界樹のめばえ。",
+    "date": "2019-02-23",
+    "rate": 3.8,
+    "dl": 698,
+    "rc": 273,
+    "note": "異常体位、強制∞搾精‥‥へびま○こ!\r\nモンスター娘たちによるドットフルアニメ逆レイプビューワ。",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ246951.html"
+  },
+  {
     "id": "RJ247971",
     "cat": "other",
     "src": "dlsite",
@@ -1512,6 +2097,24 @@
       "114",
       "128"
     ]
+  },
+  {
+    "id": "RJ260726",
+    "cat": "other",
+    "src": "dlsite",
+    "state": "released",
+    "title": "SHOTAxMONSTERS L2D vol.2",
+    "names": {
+      "ja": "SHOTAxMONSTERS L2D vol.2"
+    },
+    "mt": [],
+    "circle": "",
+    "date": "2019-08-26",
+    "rate": 4.79,
+    "dl": 953,
+    "rc": 150,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ260726.html",
+    "note": ""
   },
   {
     "id": "RJ263423",
@@ -1695,6 +2298,24 @@
     ]
   },
   {
+    "id": "RJ304435",
+    "cat": "other",
+    "src": "dlsite",
+    "state": "released",
+    "title": "SHOTAxMONSTERS(English/Chinese)",
+    "names": {
+      "ja": "SHOTAxMONSTERS(English/Chinese)"
+    },
+    "mt": [],
+    "circle": "",
+    "date": "2017-01-18",
+    "rate": 4.79,
+    "dl": 1571,
+    "rc": 112,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ304435.html",
+    "note": ""
+  },
+  {
     "id": "RJ306041",
     "cat": "other",
     "src": "dlsite",
@@ -1853,6 +2474,24 @@
       "124",
       "167"
     ]
+  },
+  {
+    "id": "RJ356869",
+    "cat": "other",
+    "src": "dlsite",
+    "state": "released",
+    "title": "蟲壺ドット2～路地裏J〇麻痺毒強制交尾～",
+    "names": {
+      "ja": "蟲壺ドット2～路地裏J〇麻痺毒強制交尾～"
+    },
+    "mt": [],
+    "circle": "Evolution",
+    "date": "2021-11-14",
+    "rate": 4.2,
+    "dl": 3226,
+    "rc": 812,
+    "note": "蟲姦ドットアニメに続編登場!",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ356869.html"
   },
   {
     "id": "RJ360036",
@@ -2015,6 +2654,25 @@
       "149",
       "143"
     ]
+  },
+  {
+    "id": "RJ397150",
+    "cat": "other",
+    "src": "dlsite",
+    "state": "released",
+    "title": "色仕掛け型テーブルゲーム マインズカナリア",
+    "names": {
+      "ja": "色仕掛け型テーブルゲーム マインズカナリア",
+      "en": "Seductive Tabletop Game ~MINES CANARIA~"
+    },
+    "mt": [],
+    "circle": "excess m",
+    "date": "2022-07-23",
+    "rate": 4.56,
+    "dl": 20678,
+    "rc": 7336,
+    "note": "色仕掛け×ギャンブルゲーム! 一見四人対戦だけど、相手のおねえさんはエッチに結託♪男主人公敗北必至の絶望バトルが始まる!!麻雀ライクな1人用テーブルゲームです",
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ397150.html"
   },
   {
     "id": "RJ406339",
@@ -2185,78 +2843,6 @@
       "142",
       "129"
     ]
-  },
-  {
-    "id": "cien-4941",
-    "cat": "other",
-    "src": "cien",
-    "state": "dev",
-    "title": "淫魔再誕",
-    "names": {
-      "ja": "淫魔再誕",
-      "zh": "淫魔再诞",
-      "en": "Succubus Reborn"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "超次元覚醒研究所",
-    "date": "2026-10-22",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 42374,
-    "url": "https://ci-en.dlsite.com/creator/4941",
-    "note": "TCG 风格的卡牌对战游戏，事件用 Live2D 动画表现"
-  },
-  {
-    "id": "cien-996",
-    "cat": "other",
-    "pov": "female",
-    "src": "cien",
-    "state": "dev",
-    "title": "卵の殻は破られる",
-    "names": {
-      "ja": "卵の殻は破られる",
-      "zh": "蛋壳被打破",
-      "en": "The Eggshell Is Broken"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "ハソユア",
-    "date": "2026-10-10",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "followers": 36437,
-    "url": "https://ci-en.dlsite.com/creator/996",
-    "note": "女主人公被困的触手题材游戏，先行体验版已到 v2.70"
-  },
-  {
-    "id": "fanbox-mugendaraku",
-    "cat": "other",
-    "src": "fanbox",
-    "state": "dev",
-    "title": "感染街（仮）",
-    "names": {
-      "ja": "感染街（仮）",
-      "zh": "感染街（暂定）",
-      "en": "Infected Town (working title)"
-    },
-    "mt": [
-      "zh",
-      "en"
-    ],
-    "circle": "無限堕落（黒い染み）",
-    "date": "2026-10-14",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "url": "https://mugendaraku.fanbox.cc/",
-    "note": "恐怖游戏社团的 R-18 新作，以感染者为题材"
   },
   {
     "id": "steam-2157680",
@@ -2472,6 +3058,25 @@
     "note": "结合三消解谜与回合战斗的魔幻题材游戏"
   },
   {
+    "id": "steam-714800",
+    "cat": "other",
+    "src": "steam",
+    "state": "released",
+    "title": "まいてつ",
+    "names": {
+      "ja": "まいてつ",
+      "zh": "Maitetsu",
+      "en": "Maitetsu"
+    },
+    "mt": [],
+    "circle": "Lose",
+    "date": "2018年6月29日",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "Humanoid modules that control all aspects of the railway cars called “Raillords”"
+  },
+  {
     "id": "steam-811890",
     "cat": "other",
     "pov": "none",
@@ -2534,6 +3139,25 @@
     "note": "带剧情的解谜冒险游戏，新人冒险者追击哥布林深入地下"
   },
   {
+    "id": "steam-880950",
+    "cat": "other",
+    "src": "steam",
+    "state": "released",
+    "title": "まいてつ -Pure Station-",
+    "names": {
+      "ja": "まいてつ -Pure Station-",
+      "zh": "爱上火车-Pure Station-",
+      "en": "Maitetsu:Pure Station"
+    },
+    "mt": [],
+    "circle": "Lose",
+    "date": "2018年9月21日",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "美少女游戏品牌Lose在2016年推出的《爱上火车》获得萌系游戏大赏2016的准大奖和剧本奖金奖。另外在Getchu举办的“美少女游戏大赏2016”中获得综合部"
+  },
+  {
     "id": "steam-930210",
     "cat": "other",
     "src": "steam",
@@ -2562,5 +3186,347 @@
       "votes": 6
     },
     "note": "三消解谜与恋爱模拟结合的游戏"
+  },
+  {
+    "id": "vndb-v17088",
+    "cat": "other",
+    "src": "commercial",
+    "state": "released",
+    "title": "ちっちゃくないもんっ！～スクールバスでおむかえちゅっちゅ♥～",
+    "names": {
+      "ja": "ちっちゃくないもんっ！～スクールバスでおむかえちゅっちゅ♥～",
+      "en": "Chicchakunai Mon! ~School Bus de Omukae Chu Chu♥~"
+    },
+    "mt": [],
+    "circle": "Iris",
+    "date": "2016-10-28",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "On the orders of his grandmother Kikuchiyo, Hajime worked as the janitor at a de"
+  },
+  {
+    "id": "vndb-v18131",
+    "cat": "other",
+    "src": "commercial",
+    "state": "released",
+    "title": "まいてつ",
+    "names": {
+      "ja": "まいてつ",
+      "en": "Maitetsu"
+    },
+    "mt": [],
+    "circle": "Lose",
+    "date": "2016-03-25",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "Set in Hinomoto, a fictional version of Japan, where railway travel served as th"
+  },
+  {
+    "id": "vndb-v18875",
+    "cat": "other",
+    "src": "commercial",
+    "state": "released",
+    "title": "Lowすぺっく!?～オレと年下妹（カノジョ）とせいきょーいく！～",
+    "names": {
+      "ja": "Lowすぺっく!?～オレと年下妹（カノジョ）とせいきょーいく！～",
+      "en": "Low Spec!? ~Ore to Toshishita Kanojo to Seikyouiku!~"
+    },
+    "mt": [],
+    "circle": "はむはむソフト",
+    "date": "2016-11-25",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "Reiji is the acting manager of the Shidou cram school and also acts as the guard"
+  },
+  {
+    "id": "vndb-v19515",
+    "cat": "other",
+    "src": "commercial",
+    "state": "released",
+    "title": "空想性犯計画「リョウコ」 ～女子高生下校中ストーカーレイプ事件～",
+    "names": {
+      "ja": "空想性犯計画「リョウコ」 ～女子高生下校中ストーカーレイプ事件～",
+      "en": "Kuusou Seihan Keikaku “Ryouko” ~Joshikousei Gekouchuu Stalker Rape Jiken~"
+    },
+    "mt": [],
+    "circle": "GIRL SCORE",
+    "date": "2016-05-29",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "No job. No wealth. Still a virgin. The world stacks up against a man.\nEventually"
+  },
+  {
+    "id": "vndb-v19771",
+    "cat": "other",
+    "src": "commercial",
+    "state": "released",
+    "title": "相思相愛ロリータの生活",
+    "names": {
+      "ja": "相思相愛ロリータの生活",
+      "en": "Soushisouai Lolita no Seikatsu"
+    },
+    "mt": [],
+    "circle": "夜のひつじ",
+    "date": "2016-08-04",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "Ever since she came, Life is dyed in vivid color.\n\nA loli utopia of love. From h"
+  },
+  {
+    "id": "vndb-v20073",
+    "cat": "other",
+    "src": "commercial",
+    "state": "released",
+    "title": "幼すぎる家庭教師",
+    "names": {
+      "ja": "幼すぎる家庭教師",
+      "en": "Osanasugiru Katei Kyoushi"
+    },
+    "mt": [],
+    "circle": "ピーキー",
+    "date": "2016-09-30",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "When our protagonist failed his most recent exam he was forced to get a tutor by"
+  },
+  {
+    "id": "vndb-v20624",
+    "cat": "other",
+    "src": "commercial",
+    "state": "released",
+    "title": "お泊まり恋人ロリータ",
+    "names": {
+      "ja": "お泊まり恋人ロリータ",
+      "en": "Otomari Koibito Lolita"
+    },
+    "mt": [],
+    "circle": "夜のひつじ",
+    "date": "2016-12-31",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "Do you love little girl?\nComb her hair and understand each other.\nHold her hand "
+  },
+  {
+    "id": "vndb-v22345",
+    "cat": "other",
+    "src": "commercial",
+    "state": "released",
+    "title": "お兄ちゃん、朝までずっとギュッてして！",
+    "names": {
+      "ja": "お兄ちゃん、朝までずっとギュッてして！",
+      "en": "Onii-chan, Asa made Zutto Gyutte Shite!"
+    },
+    "mt": [],
+    "circle": "Tinkle Position",
+    "date": "2018-05-25",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "The Onami girls' endlessly affectionate brother developed asthma at a young age,"
+  },
+  {
+    "id": "vndb-v23377",
+    "cat": "other",
+    "src": "commercial",
+    "state": "released",
+    "title": "ネムれる園の少女たち",
+    "names": {
+      "ja": "ネムれる園の少女たち",
+      "en": "Nemureru Sono no Shoujo-tachi"
+    },
+    "mt": [],
+    "circle": "かえるそふと",
+    "date": "2018-12-21",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "This title is the debut work for Kaeru Soft. \n\nTakashi is your typical guy who l"
+  },
+  {
+    "id": "vndb-v26382",
+    "cat": "other",
+    "src": "commercial",
+    "state": "released",
+    "title": "JK妹。",
+    "names": {
+      "ja": "JK妹。",
+      "en": "JK Imouto."
+    },
+    "mt": [],
+    "circle": "アトリエかぐや Honky-Tonk Pumpkin",
+    "date": "2019-10-25",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "The protagonist, Tonomiya Masashi, wakes up one morning and realizes that he has"
+  },
+  {
+    "id": "vndb-v26448",
+    "cat": "other",
+    "src": "commercial",
+    "state": "released",
+    "title": "現実が見えてきたので少女を愛するのを辞めました。",
+    "names": {
+      "ja": "現実が見えてきたので少女を愛するのを辞めました。",
+      "en": "Genjitsu ga Mietekita node Shoujo o Aisuru no o Yamemashita."
+    },
+    "mt": [],
+    "circle": "かえるそふと",
+    "date": "2020-07-31",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "Tanaka has hit a breaking point.\n\nHis life-long obsession with younger girls, bo"
+  },
+  {
+    "id": "vndb-v29025",
+    "cat": "other",
+    "src": "commercial",
+    "state": "released",
+    "title": "神隠し しょぅじょ贄",
+    "names": {
+      "ja": "神隠し しょぅじょ贄",
+      "en": "Kamikakushi - Shoujo Nie"
+    },
+    "mt": [],
+    "circle": "ベェーカリィー",
+    "date": "2020-05-21",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "The setting is a village in the countryside. Summertime.\nGirls are enjoying thei"
+  },
+  {
+    "id": "vndb-v30458",
+    "cat": "other",
+    "src": "commercial",
+    "state": "released",
+    "title": "ガマンができない童貞兄キと、スナオになれない反抗妹",
+    "names": {
+      "ja": "ガマンができない童貞兄キと、スナオになれない反抗妹",
+      "en": "Gaman ga Dekinai Doutei Aniki to, Sunao ni Narenai Hankou Imouto"
+    },
+    "mt": [],
+    "circle": "Sister Position",
+    "date": "2022-07-24",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "A tale of saucy erotic incest that begins with siblings at each other's throats."
+  },
+  {
+    "id": "vndb-v30461",
+    "cat": "other",
+    "src": "commercial",
+    "state": "released",
+    "title": "毎日キスしてロリータ",
+    "names": {
+      "ja": "毎日キスしてロリータ",
+      "en": "Mainichi Kiss Shite Lolita"
+    },
+    "mt": [],
+    "circle": "夜のひつじ",
+    "date": "2022-05-20",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "With each kiss you lose more.\nYou love them because you're weak. You love them b"
+  },
+  {
+    "id": "vndb-v32132",
+    "cat": "other",
+    "src": "commercial",
+    "state": "released",
+    "title": "アイキス３",
+    "names": {
+      "ja": "アイキス３",
+      "en": "Ai Kiss 3"
+    },
+    "mt": [],
+    "circle": "戯画",
+    "date": "2022-03-25",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": ""
+  },
+  {
+    "id": "vndb-v33099",
+    "cat": "other",
+    "src": "commercial",
+    "state": "released",
+    "title": "保健室のセンセーとゴスロリの校医",
+    "names": {
+      "ja": "保健室のセンセーとゴスロリの校医",
+      "en": "Hokenshitsu no Sensei to Gothloli no Koui"
+    },
+    "mt": [],
+    "circle": "Citrus",
+    "date": "2022-03-25",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "\"Perhaps I've been searching for a fresh start.\"\n\"Or maybe, just maybe, I've bee"
+  },
+  {
+    "id": "vndb-v33206",
+    "cat": "other",
+    "src": "commercial",
+    "state": "released",
+    "title": "いもおか",
+    "names": {
+      "ja": "いもおか",
+      "en": "Imooka"
+    },
+    "mt": [],
+    "circle": "最果てスタジオ",
+    "date": "2022-06-24",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "Imooka is a maternal, loli and harem erotic game.\n\nA healing bubbly harem where "
+  },
+  {
+    "id": "vndb-v33995",
+    "cat": "other",
+    "src": "commercial",
+    "state": "released",
+    "title": "ナマイキJKライブラリー",
+    "names": {
+      "ja": "ナマイキJKライブラリー",
+      "en": "Namaiki JK Library"
+    },
+    "mt": [],
+    "circle": "DESSERT Soft",
+    "date": "2022-05-27",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "The protagonist, Kiritani Haruto, a 35-year-old socially awkward virgin, works a"
+  },
+  {
+    "id": "vndb-v49274",
+    "cat": "other",
+    "src": "commercial",
+    "state": "released",
+    "title": "死に逝く騎士、異世界に響く断末魔",
+    "names": {
+      "ja": "死に逝く騎士、異世界に響く断末魔",
+      "en": "Shiniyuku Kishi, Isekai ni Hibiku Danmatsuma"
+    },
+    "mt": [],
+    "circle": "バグシステム",
+    "date": "2024-04-26",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "note": "The long-standing battle between humans and the demons was finally reaching its "
   }
 ]
