@@ -82,7 +82,7 @@ def listed_ids(catalog):
 
 
 def counted(g, sc):
-    """口碑认的评分：配方 anchors 里有这个社区，并且 appliesTo 没限制、或者作品来源在限制里（比如 VNDB 只看商业作）"""
+    """口碑认的评分：配方 anchors 里有这个社区，并且 appliesTo 没限制、或者作品来源在限制里（VNDB 只看商业作；Steam 是空数组，不参与打分）"""
     pr = sc["praise"]
     return [(s, x, n) for s, x, n in ratings(g)
             if s in pr["anchors"] and (s not in pr["appliesTo"] or g.get("src") in pr["appliesTo"][s])]
