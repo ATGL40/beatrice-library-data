@@ -11184,29 +11184,6 @@
     "note": "以意外走光和露出事件为主的女主人公 RPG"
   },
   {
-    "id": "mazou-eiki",
-    "cat": "f-rpg",
-    "pov": "female",
-    "src": "dlsite",
-    "state": "dev",
-    "title": "魔装影姫",
-    "names": {
-      "ja": "魔装影姫",
-      "zh": "魔装影姬",
-      "en": "Magic-Armored Shadow Princess"
-    },
-    "mt": [
-      "en"
-    ],
-    "circle": "しもばしら工房",
-    "date": "",
-    "rate": null,
-    "dl": null,
-    "rc": null,
-    "url": "https://www.bilibili.com/video/BV13omSB5Erj/",
-    "note": "鲨鱼社新作，有体验版，还没正式发售"
-  },
-  {
     "id": "steam-1260820",
     "cat": "f-rpg",
     "pov": "female",
