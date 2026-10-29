@@ -7565,6 +7565,56 @@
     "note": "躲避\"黑暗海妖\"追捕、寻找线索逃脱的动作冒险"
   },
   {
+    "id": "steam-1860760",
+    "cat": "act",
+    "src": "steam",
+    "state": "released",
+    "title": "SUKEBE BLOCKS",
+    "names": {
+      "ja": "SUKEBE BLOCKS",
+      "zh": "SUKEBE 打砖块",
+      "en": "SUKEBE BLOCKS"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "SUKEBE NINJIN",
+    "date": "2022-03-03",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 95,
+      "reviews": 167
+    },
+    "note": "模仿早年网页 Flash 脱衣打砖块的快节奏小游戏，只用鼠标操作"
+  },
+  {
+    "id": "steam-1863290",
+    "cat": "act",
+    "src": "steam",
+    "state": "released",
+    "title": "SpunkStock: Music Festival",
+    "names": {
+      "ja": "SpunkStock: Music Festival",
+      "zh": "SpunkStock：音乐节",
+      "en": "SpunkStock: Music Festival"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "RegulusNSFW",
+    "date": "2023-01-26",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 95,
+      "reviews": 409
+    },
+    "note": "潜入音乐节后台、用多种节奏玩法和艺人增进关系的节奏游戏，带卡组构筑"
+  },
+  {
     "id": "steam-1960920",
     "cat": "act",
     "src": "steam",
@@ -7713,6 +7763,29 @@
     "note": "半妖忍者少女为主角的横版动作游戏，日版名《MANARI ～半妖の忍少女～》"
   },
   {
+    "id": "steam-2694020",
+    "cat": "act",
+    "src": "steam",
+    "state": "released",
+    "title": "Starbreed",
+    "names": {
+      "ja": "Starbreed",
+      "zh": "星际播种王",
+      "en": "Starbreed"
+    },
+    "mt": [],
+    "circle": "RegulusNSFW",
+    "date": "2026-07-31",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 96,
+      "reviews": 322
+    },
+    "note": "致敬经典 3D 轨道射击、带约会要素的弹幕射击游戏"
+  },
+  {
     "id": "steam-2772820",
     "cat": "act",
     "src": "steam",
@@ -7736,6 +7809,31 @@
       "reviews": 1321
     },
     "note": "复古风格的射击动作游戏，拯救少女、讨伐怪物"
+  },
+  {
+    "id": "steam-3233390",
+    "cat": "act",
+    "src": "steam",
+    "state": "released",
+    "title": "Lilith's Lair",
+    "names": {
+      "ja": "Lilith's Lair",
+      "zh": "莉莉丝的巢穴",
+      "en": "Lilith's Lair"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Burger Kurger",
+    "date": "2024-11-18",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 97,
+      "reviews": 253
+    },
+    "note": "女蛮族战士一路向上闯关的点击式横版冒险"
   },
   {
     "id": "steam-3628950",
@@ -7809,6 +7907,56 @@
     "note": "割草类幸存者游戏，收集装备不断变强"
   },
   {
+    "id": "steam-4198720",
+    "cat": "act",
+    "src": "steam",
+    "state": "released",
+    "title": "SUKEBE ORB",
+    "names": {
+      "ja": "SUKEBE ORB",
+      "zh": "SUKEBE 宝珠",
+      "en": "SUKEBE ORB"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "SUKEBE NINJIN",
+    "date": "2026-02-12",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 100,
+      "reviews": 122
+    },
+    "note": "用鼠标射击、寻找隐藏宝珠的复古风脱衣射击小游戏"
+  },
+  {
+    "id": "steam-4286610",
+    "cat": "act",
+    "src": "steam",
+    "state": "released",
+    "title": "Miami Paradise 2",
+    "names": {
+      "ja": "Miami Paradise 2",
+      "zh": "迈阿密天堂 2",
+      "en": "Miami Paradise 2"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Entropy Digital Entertainment",
+    "date": "2026-03-13",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 94,
+      "reviews": 131
+    },
+    "note": "霓虹风格的开放世界动作 RPG 续作"
+  },
+  {
     "id": "steam-4403260",
     "cat": "act",
     "src": "steam",
@@ -7855,6 +8003,31 @@
       "reviews": 680
     },
     "note": "被困在自己电脑里的动作冒险游戏"
+  },
+  {
+    "id": "steam-4956940",
+    "cat": "act",
+    "src": "steam",
+    "state": "released",
+    "title": "Thicc Magic. Perky Prelude",
+    "names": {
+      "ja": "Thicc Magic. Perky Prelude",
+      "zh": "丰腴魔法：活泼的序章",
+      "en": "Thicc Magic. Perky Prelude"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "PixelGreeds",
+    "date": "2026-10-19",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 96,
+      "reviews": 105
+    },
+    "note": "讲述女王前传的喜剧横版弹幕射击 Roguelike"
   },
   {
     "id": "vndb-v18783",

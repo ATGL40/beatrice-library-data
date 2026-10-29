@@ -1,5 +1,31 @@
 [
   {
+    "id": "RJ01043173",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "カルデア異文録 レクイエム",
+    "names": {
+      "ja": "カルデア異文録 レクイエム",
+      "zh": "迦勒底异闻录 安魂曲",
+      "en": "Chaldea Ibunroku: Requiem"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "DDD産業",
+    "date": "2023-03-27",
+    "rate": 4.78,
+    "dl": 341,
+    "rc": 98,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01043173.html",
+    "note": "以「Fate」系列为题材、挠痒主题的同人视觉小说第三作",
+    "genres": [
+      "153"
+    ]
+  },
+  {
     "id": "RJ01047318",
     "cat": "adv",
     "src": "dlsite",
@@ -338,6 +364,38 @@
       "156",
       "122",
       "138"
+    ]
+  },
+  {
+    "id": "RJ01189124",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "げんかいっえすけーぷ!",
+    "names": {
+      "ja": "げんかいっえすけーぷ!",
+      "zh": "极限大逃脱！",
+      "en": "Genkai Escape!"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "わたからし工房",
+    "date": "2024-05-01",
+    "rate": 4.76,
+    "dl": 1503,
+    "rc": 231,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01189124.html",
+    "note": "与尿意赛跑的短篇解谜脱出游戏",
+    "genres": [
+      "502",
+      "510",
+      "035",
+      "149",
+      "159",
+      "528",
+      "173"
     ]
   },
   {
@@ -1042,6 +1100,37 @@
       "004",
       "116",
       "175"
+    ]
+  },
+  {
+    "id": "RJ01409301",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ビッチなオトコの娘とアオカンせっくす",
+    "names": {
+      "ja": "ビッチなオトコの娘とアオカンせっくす",
+      "zh": "和放荡的伪娘在野外",
+      "en": "Outdoors with Slutty Crossdressing Boys"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "candy paddle",
+    "date": "2025-06-13",
+    "rate": 4.77,
+    "dl": 375,
+    "rc": 69,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01409301.html",
+    "note": "主人公在公园结识两位伪娘的 3D 动画短篇视觉小说",
+    "genres": [
+      "509",
+      "073",
+      "303",
+      "111",
+      "539",
+      "145"
     ]
   },
   {
@@ -1908,6 +1997,32 @@
     ]
   },
   {
+    "id": "RJ01681790",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "車の中でうん〇我慢する話",
+    "names": {
+      "ja": "車の中でうん〇我慢する話",
+      "zh": "在车里忍住大号的故事",
+      "en": "Holding It In the Car"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "うのると",
+    "date": "2026-08-01",
+    "rate": 4.83,
+    "dl": 1500,
+    "rc": 72,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01681790.html",
+    "note": "开车回家途中，副驾驶的兽耳娘靠心算转移注意、忍耐便意的短篇游戏",
+    "genres": [
+      "161"
+    ]
+  },
+  {
     "id": "RJ01695762",
     "cat": "adv",
     "src": "dlsite",
@@ -2636,6 +2751,35 @@
     ]
   },
   {
+    "id": "RJ183212",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "雨衣カノジョ -A面-",
+    "names": {
+      "ja": "雨衣カノジョ -A面-",
+      "zh": "雨衣女友 -A面-",
+      "en": "Amaginu Kanojo: side A"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "はとのす式製作所",
+    "date": "2016-08-20",
+    "rate": 4.82,
+    "dl": 1258,
+    "rc": 426,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ183212.html",
+    "note": "夏日回乡的青年在废弃车站遇见能唤雨的少女的恋爱 ADV，Live2D 立绘",
+    "genres": [
+      "032",
+      "008",
+      "013",
+      "128",
+      "193"
+    ]
+  },
+  {
     "id": "RJ187017",
     "cat": "adv",
     "src": "dlsite",
@@ -2751,6 +2895,31 @@
       "438",
       "008",
       "048"
+    ]
+  },
+  {
+    "id": "RJ191758",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "雨衣カノジョ -B面-",
+    "names": {
+      "ja": "雨衣カノジョ -B面-",
+      "zh": "雨衣女友 -B面-",
+      "en": "Amaginu Kanojo: side B"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "はとのす式製作所",
+    "date": "2017-01-08",
+    "rate": 4.84,
+    "dl": 1000,
+    "rc": 339,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ191758.html",
+    "note": "《雨衣女友》的后篇，讲述雨停之后两人的故事的恋爱 ADV",
+    "genres": [
+      "032"
     ]
   },
   {
@@ -3196,6 +3365,62 @@
       "122",
       "138",
       "182"
+    ]
+  },
+  {
+    "id": "RJ222062",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ゾンビのあふれた世界で俺だけが襲われない Vol.2",
+    "names": {
+      "ja": "ゾンビのあふれた世界で俺だけが襲われない Vol.2",
+      "zh": "丧尸横行的世界里只有我不被袭击 Vol.2",
+      "en": "In a World Overrun by Zombies, Only I Am Not Attacked Vol.2"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "スペルメーション",
+    "date": "2018-03-30",
+    "rate": 4.72,
+    "dl": 1914,
+    "rc": 934,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ222062.html",
+    "note": "改编自网络小说的丧尸末日题材视觉小说第二卷",
+    "genres": [
+      "225",
+      "022",
+      "019"
+    ]
+  },
+  {
+    "id": "RJ222970",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ゾンビのあふれた世界で俺だけが襲われない Vol.3",
+    "names": {
+      "ja": "ゾンビのあふれた世界で俺だけが襲われない Vol.3",
+      "zh": "丧尸横行的世界里只有我不被袭击 Vol.3",
+      "en": "In a World Overrun by Zombies, Only I Am Not Attacked Vol.3"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "スペルメーション",
+    "date": "2018-04-13",
+    "rate": 4.72,
+    "dl": 1644,
+    "rc": 779,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ222970.html",
+    "note": "改编自网络小说的丧尸末日题材视觉小说第三卷",
+    "genres": [
+      "414",
+      "022",
+      "019"
     ]
   },
   {
@@ -3878,6 +4103,29 @@
     ]
   },
   {
+    "id": "RJ264036",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "Female Desperate Vol.6",
+    "names": {
+      "ja": "Female Desperate Vol.6",
+      "zh": "Female Desperate Vol.6",
+      "en": "Female Desperate Vol.6"
+    },
+    "mt": [],
+    "circle": "Vida Loca",
+    "date": "2019-09-02",
+    "rate": 4.71,
+    "dl": 154,
+    "rc": 51,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ264036.html",
+    "note": "系列首次加入尿意系统、剧情会随之分支的短篇视觉小说集",
+    "genres": [
+      "159"
+    ]
+  },
+  {
     "id": "RJ269883",
     "cat": "adv",
     "src": "dlsite",
@@ -3933,6 +4181,36 @@
       "008",
       "139",
       "113"
+    ]
+  },
+  {
+    "id": "RJ277012",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "サードホーネット",
+    "names": {
+      "ja": "サードホーネット",
+      "zh": "第三黄蜂",
+      "en": "Third Hornet"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "NormalNEET_Complex!",
+    "date": "2020-01-31",
+    "rate": 4.78,
+    "dl": 157,
+    "rc": 80,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ277012.html",
+    "note": "悬疑气氛浓厚的传奇 ADV",
+    "genres": [
+      "022",
+      "015",
+      "006",
+      "016",
+      "128"
     ]
   },
   {
@@ -4064,6 +4342,37 @@
     ]
   },
   {
+    "id": "RJ296665",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "大便が我慢できない女たち/花火大会編～明日夏の場合～",
+    "names": {
+      "ja": "大便が我慢できない女たち/花火大会編～明日夏の場合～",
+      "zh": "忍不住大便的女人们／烟花大会篇～明日夏的情况～",
+      "en": "Female's Desperation Poop Story -case of Asuka-"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "少女の失敗販売店",
+    "date": "2020-08-11",
+    "rate": 4.74,
+    "dl": 814,
+    "rc": 205,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ296665.html",
+    "note": "以烟花大会为舞台、描写女主角忍耐便意的视觉小说系列第三作",
+    "genres": [
+      "064",
+      "415",
+      "035",
+      "321",
+      "170",
+      "173",
+      "161"
+    ]
+  },
+  {
     "id": "RJ298352",
     "cat": "adv",
     "src": "dlsite",
@@ -4092,6 +4401,38 @@
       "488",
       "128",
       "129"
+    ]
+  },
+  {
+    "id": "RJ299177",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ハグとも! 隣の優しいギャル娘は初めての・・・",
+    "names": {
+      "ja": "ハグとも! 隣の優しいギャル娘は初めての・・・",
+      "zh": "拥抱之友！邻座温柔的辣妹第一次……",
+      "en": "Hug Friend! The Kind Gal Next Door's First..."
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "rainhills",
+    "date": "2020-09-12",
+    "rate": 4.71,
+    "dl": 618,
+    "rc": 238,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ299177.html",
+    "note": "和邻座温柔又爱捉弄人的褐肤辣妹从「只拥抱的关系」开始的恋爱视觉小说",
+    "genres": [
+      "058",
+      "415",
+      "004",
+      "124",
+      "122",
+      "138",
+      "321",
+      "182"
     ]
   },
   {
@@ -4276,6 +4617,39 @@
       "143",
       "182",
       "186"
+    ]
+  },
+  {
+    "id": "RJ311958",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "おっぱい人馬娘の日常",
+    "names": {
+      "ja": "おっぱい人馬娘の日常",
+      "zh": "巨乳人马娘的日常",
+      "en": "The Daily Life of a Busty Centaur Girl"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "イマアニGAMES",
+    "date": "2020-12-25",
+    "rate": 4.72,
+    "dl": 1081,
+    "rc": 421,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ311958.html",
+    "note": "人马娘在变了样的家里探索、寻找主人的手绘动画冒险游戏",
+    "genres": [
+      "073",
+      "065",
+      "070",
+      "317",
+      "004",
+      "122",
+      "182",
+      "173"
     ]
   },
   {
@@ -4592,6 +4966,39 @@
     ]
   },
   {
+    "id": "RJ340120",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ザ・ガンハザード 2 -Honeycome Fire-",
+    "names": {
+      "ja": "ザ・ガンハザード 2 -Honeycome Fire-",
+      "zh": "枪之危机 2 -Honeycome Fire-",
+      "en": "The Gun Hazard 2 -Honeycome Fire-"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "Project Essence",
+    "date": "2021-10-10",
+    "rate": 4.78,
+    "dl": 238,
+    "rc": 58,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ340120.html",
+    "note": "以气枪为题材的 SM 视觉小说续作，女主角视角",
+    "genres": [
+      "432",
+      "066",
+      "257",
+      "099",
+      "006",
+      "116",
+      "118",
+      "171"
+    ]
+  },
+  {
     "id": "RJ345152",
     "cat": "adv",
     "src": "dlsite",
@@ -4744,6 +5151,69 @@
     ]
   },
   {
+    "id": "RJ394802",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "【特典版】女神狩り～世界を救ったのに封印されかけたので女神たちに復讐!孕ませオナホにしてハーレム楽園を作る!～",
+    "names": {
+      "ja": "【特典版】女神狩り～世界を救ったのに封印されかけたので女神たちに復讐!孕ませオナホにしてハーレム楽園を作る!～",
+      "zh": "【特典版】狩猎女神～拯救了世界却差点被封印，于是向女神们复仇，建立后宫乐园！～",
+      "en": "[Bonus Edition] Goddess Hunt ~Nearly Sealed Away After Saving the World, I Take Revenge on the Goddesses and Build a Harem Paradise!~"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "Norn/Miel/Cybele",
+    "date": "2022-06-24",
+    "rate": 4.72,
+    "dl": 357,
+    "rc": 137,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ394802.html",
+    "note": "拯救世界后遭女神背叛的勇者展开复仇的后宫 ADV",
+    "genres": [
+      "063",
+      "065",
+      "128",
+      "122",
+      "138",
+      "143",
+      "182",
+      "193"
+    ]
+  },
+  {
+    "id": "RJ395199",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ウチのペット事情 Vol.1 (成人向けVer)",
+    "names": {
+      "ja": "ウチのペット事情 Vol.1 (成人向けVer)",
+      "zh": "家喵二三事 Vol. 1",
+      "en": "My Pet Situation Vol. 1 (Adult Ver.)"
+    },
+    "mt": [],
+    "circle": "あにまるハーブ",
+    "date": "2022-06-10",
+    "rate": 4.7,
+    "dl": 712,
+    "rc": 171,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ395199.html",
+    "note": "收留落难的半兽天使后开始同居生活的恋爱 ADV 第一卷",
+    "genres": [
+      "051",
+      "268",
+      "237",
+      "031",
+      "004",
+      "197",
+      "176",
+      "175"
+    ]
+  },
+  {
     "id": "RJ399143",
     "cat": "adv",
     "src": "dlsite",
@@ -4810,6 +5280,39 @@
     ]
   },
   {
+    "id": "RJ408337",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "【特典版】町丸ごと俺の孕ませオナホハーレム!",
+    "names": {
+      "ja": "【特典版】町丸ごと俺の孕ませオナホハーレム!",
+      "zh": "【特典版】整座城镇都是我的后宫！",
+      "en": "[Bonus Edition] The Whole Town Is My Harem!"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "Norn/Miel/Cybele",
+    "date": "2022-08-26",
+    "rate": 4.72,
+    "dl": 385,
+    "rc": 128,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ408337.html",
+    "note": "获得特殊能力的主人公在城镇里建立后宫的 ADV",
+    "genres": [
+      "065",
+      "046",
+      "128",
+      "129",
+      "138",
+      "143",
+      "182",
+      "193"
+    ]
+  },
+  {
     "id": "RJ410262",
     "cat": "adv",
     "src": "dlsite",
@@ -4865,6 +5368,39 @@
       "115",
       "128",
       "182"
+    ]
+  },
+  {
+    "id": "RJ419937",
+    "cat": "adv",
+    "src": "dlsite",
+    "state": "released",
+    "title": "【特典版】キモメンでも巨根ならギャルたちをコスプレ孕ませオナホにできる!",
+    "names": {
+      "ja": "【特典版】キモメンでも巨根ならギャルたちをコスプレ孕ませオナホにできる!",
+      "zh": "【特典版】就算是丑男，只要够大也能让辣妹们为我 Cosplay！",
+      "en": "[Bonus Edition] Even an Ugly Guy Can Make Gals Cosplay for Him If He's Big Enough!"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "Norn/Miel/Cybele",
+    "date": "2022-09-30",
+    "rate": 4.7,
+    "dl": 173,
+    "rc": 66,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ419937.html",
+    "note": "宅男主人公与爱 Cosplay 的辣妹们的后宫 ADV",
+    "genres": [
+      "065",
+      "415",
+      "086",
+      "128",
+      "129",
+      "143",
+      "182",
+      "193"
     ]
   },
   {
@@ -5213,6 +5749,31 @@
     "note": "以大学生活为背景、选择驱动的成人视觉小说第二季"
   },
   {
+    "id": "steam-1232870",
+    "cat": "adv",
+    "src": "steam",
+    "state": "released",
+    "title": "Changeling Tale",
+    "names": {
+      "ja": "Changeling Tale",
+      "zh": "换生灵传说",
+      "en": "Changeling Tale"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Helmet Fox",
+    "date": "2023-12-27",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 98,
+      "reviews": 218
+    },
+    "note": "1919 年的苏格兰，退伍青年回到农场重建生活、带变身元素的视觉小说"
+  },
+  {
     "id": "steam-1299370",
     "cat": "adv",
     "src": "steam",
@@ -5334,6 +5895,31 @@
     "note": "美国大学校园生活题材、由选择推动剧情的视觉小说"
   },
   {
+    "id": "steam-1577420",
+    "cat": "adv",
+    "src": "steam",
+    "state": "released",
+    "title": "Love Sucks: Night One",
+    "names": {
+      "ja": "Love Sucks: Night One",
+      "zh": "爱情真要命：第一夜",
+      "en": "Love Sucks: Night One"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Art Witch Studios",
+    "date": "2021-04-09",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 94,
+      "reviews": 1112
+    },
+    "note": "万圣夜被吸血鬼和魅魔两位怪物娘约会、要设法活下来的视觉小说"
+  },
+  {
     "id": "steam-1630080",
     "cat": "adv",
     "src": "steam",
@@ -5357,6 +5943,31 @@
       "reviews": 4022
     },
     "note": "以赴巴黎交换留学为题材的选择式视觉小说"
+  },
+  {
+    "id": "steam-1719310",
+    "cat": "adv",
+    "src": "steam",
+    "state": "released",
+    "title": "Love Sucks: Night Two",
+    "names": {
+      "ja": "Love Sucks: Night Two",
+      "zh": "爱情真要命：第二夜",
+      "en": "Love Sucks: Night Two"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Art Witch Studios",
+    "date": "2024-04-26",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 97,
+      "reviews": 332
+    },
+    "note": "《爱情真要命》第二部，继续在怪物们的约会中求生的视觉小说"
   },
   {
     "id": "steam-1724190",
@@ -5484,6 +6095,56 @@
     "note": "多选项多结局的西方视觉小说"
   },
   {
+    "id": "steam-1985680",
+    "cat": "adv",
+    "src": "steam",
+    "state": "released",
+    "title": "CHARMING HEART",
+    "names": {
+      "ja": "CHARMING HEART",
+      "zh": "魅惑之心",
+      "en": "CHARMING HEART"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Jungle House",
+    "date": "2023-07-13",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 96,
+      "reviews": 215
+    },
+    "note": "被谣言陷害的大学生向散布谣言的女生们复仇的视觉小说"
+  },
+  {
+    "id": "steam-2108950",
+    "cat": "adv",
+    "src": "steam",
+    "state": "released",
+    "title": "Mice Tea",
+    "names": {
+      "ja": "Mice Tea",
+      "zh": "老鼠茶",
+      "en": "Mice Tea"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Cinnamon Switch LLC",
+    "date": "2023-04-28",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 98,
+      "reviews": 255
+    },
+    "note": "书店店员发现能把人变成兽人的魔法茶后人生被改变的视觉小说，多结局"
+  },
+  {
     "id": "steam-2240150",
     "cat": "adv",
     "src": "steam",
@@ -5560,6 +6221,31 @@
       "reviews": 9242
     },
     "note": "夏日乡村的 Live2D 恋爱冒险，批评空间中央值 81；日版《夏色クローバー》2025 年上架 DLsite"
+  },
+  {
+    "id": "steam-2568390",
+    "cat": "adv",
+    "src": "steam",
+    "state": "released",
+    "title": "Survivor Strain - Season 1",
+    "names": {
+      "ja": "Survivor Strain - Season 1",
+      "zh": "幸存者毒株 第一季",
+      "en": "Survivor Strain - Season 1"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Mr. Baker",
+    "date": "2026-02-20",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 95,
+      "reviews": 386
+    },
+    "note": "丧尸末日中建立并保护幸存者派系的 3D 视觉小说"
   },
   {
     "id": "steam-2570850",
@@ -5687,6 +6373,31 @@
     "note": "RPG Maker 风格的剧情冒险，围绕邻居人妻展开多结局故事"
   },
   {
+    "id": "steam-2738670",
+    "cat": "adv",
+    "src": "steam",
+    "state": "released",
+    "title": "PMC Promiscuity",
+    "names": {
+      "ja": "PMC Promiscuity",
+      "zh": "PMC 放纵",
+      "en": "PMC Promiscuity"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Shuuko",
+    "date": "2024-05-19",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 94,
+      "reviews": 344
+    },
+    "note": "新兵加入全员魔物娘的私营军事公司的喜剧视觉小说"
+  },
+  {
     "id": "steam-2863160",
     "cat": "adv",
     "src": "steam",
@@ -5785,6 +6496,31 @@
     "note": "西方 3D 视觉小说，主人公突然成为一家之主"
   },
   {
+    "id": "steam-3089450",
+    "cat": "adv",
+    "src": "steam",
+    "state": "released",
+    "title": "Malcatras' Maiden",
+    "names": {
+      "ja": "Malcatras' Maiden",
+      "zh": "马尔卡特拉斯的女仆",
+      "en": "Malcatras' Maiden"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Nadia Nova",
+    "date": "2024-08-03",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 95,
+      "reviews": 294
+    },
+    "note": "偏僻庄园里被收养为女仆的少女们的黑暗百合心理惊悚视觉小说"
+  },
+  {
     "id": "steam-3116500",
     "cat": "adv",
     "src": "steam",
@@ -5856,6 +6592,56 @@
       "reviews": 791
     },
     "note": "西方 3D 视觉小说，法学院学生的校园生活，含小游戏"
+  },
+  {
+    "id": "steam-3487540",
+    "cat": "adv",
+    "src": "steam",
+    "state": "released",
+    "title": "Milf Hunter No.1",
+    "names": {
+      "ja": "Milf Hunter No.1",
+      "zh": "熟女猎人 No.1",
+      "en": "Milf Hunter No.1"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Jungle House",
+    "date": "2026-04-10",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 94,
+      "reviews": 113
+    },
+    "note": "痴迷熟女的青年进入儿时偶像经营的公司工作的喜剧视觉小说"
+  },
+  {
+    "id": "steam-3854420",
+    "cat": "adv",
+    "src": "steam",
+    "state": "released",
+    "title": "My Lovable Demon",
+    "names": {
+      "ja": "My Lovable Demon",
+      "zh": "我可爱的恶魔",
+      "en": "My Lovable Demon"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Pink Tea",
+    "date": "2026-08-24",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 94,
+      "reviews": 118
+    },
+    "note": "召唤出恶魔少女后约会、培养感情并一起战斗的视觉小说，带时间管理"
   },
   {
     "id": "steam-3886870",
@@ -6029,6 +6815,56 @@
     "note": "变成猫的女忍者住进主角家的短篇恋爱 ADV（Steam 版 R18 内容需另装补丁）"
   },
   {
+    "id": "steam-4232760",
+    "cat": "adv",
+    "src": "steam",
+    "state": "released",
+    "title": "PASSENGER x PRINCESS: NO HOPE // MUST DIE",
+    "names": {
+      "ja": "PASSENGER x PRINCESS: NO HOPE // MUST DIE",
+      "zh": "乘客×公主：毫无希望 // 必须去死",
+      "en": "PASSENGER x PRINCESS: NO HOPE // MUST DIE"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "Lunaticker",
+    "date": "2026-01-16",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 99,
+      "reviews": 219
+    },
+    "note": "两个走投无路的人踏上前往异常地带的公路之旅的心理恐怖视觉小说"
+  },
+  {
+    "id": "steam-4783540",
+    "cat": "adv",
+    "src": "steam",
+    "state": "released",
+    "title": "Intertwined - Season 1",
+    "names": {
+      "ja": "Intertwined - Season 1",
+      "zh": "纠缠 第一季",
+      "en": "Intertwined - Season 1"
+    },
+    "mt": [
+      "zh"
+    ],
+    "circle": "ValeriaNyx",
+    "date": "2026-07-13",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 95,
+      "reviews": 224
+    },
+    "note": "离家多年的青年回到故乡、与旧友重逢的日常恋爱视觉小说"
+  },
+  {
     "id": "steam-552280",
     "cat": "adv",
     "src": "steam",
@@ -6152,6 +6988,29 @@
       "reviews": 1690
     },
     "note": "为救被魔女变成女性的青梅竹马，与魔女进行三次约会的视觉小说（抢先体验）"
+  },
+  {
+    "id": "steam-955400",
+    "cat": "adv",
+    "src": "steam",
+    "state": "released",
+    "title": "Bonds",
+    "names": {
+      "ja": "Bonds",
+      "zh": "束缚之契",
+      "en": "Bonds"
+    },
+    "mt": [],
+    "circle": "DID Games",
+    "date": "2018-11-01",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 95,
+      "reviews": 119
+    },
+    "note": "大学生罗宾和室友兼青梅竹马艾莉西亚尝试捆绑的百合短篇视觉小说"
   },
   {
     "id": "vndb-v13666",

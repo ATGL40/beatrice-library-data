@@ -124,8 +124,9 @@ def is_date(v):
 DATE_RE = re.compile(r"\d{4}-\d{2}-\d{2}")
 SCORED = ("dlsite", "commercial", "steam")  # 综合榜只给这三个来源的已发售作品打分
 SCORING_KEYS = {"name", "version", "praise", "heat", "players", "community", "curve", "bands", "cap", "nominee", "gates",
-                "canon", "development"}
+                "canon", "development", "hiddenGems"}
 REASON_RULES = ("oppose", "all", "none")
+GEM_SORTS = ("praise",)  # 冷门佳作榜的排序依据：praise = 口碑分 Q
 
 
 def scoring_problems(sc):
@@ -221,6 +222,14 @@ def scoring_problems(sc):
     dv = sc.get("development")
     need(obj(dv, ("name", "field")) and all(isinstance(dv[k], str) and dv[k] for k in ("name", "field")),
          "的 development 要是 {name: 榜名, field: 字段名}")
+    hg = sc.get("hiddenGems")  # 冷门佳作榜（可以没有）
+    if hg is not None:
+        need(obj(hg, ("name", "rating", "raters", "sortBy", "limit")) and isinstance(hg["name"], str) and hg["name"].strip() != ""
+             and per_src(hg["rating"], is_num)
+             and per_src(hg["raters"], lambda v: span(v) and all(is_int(n) and n >= 1 for n in v))
+             and hg["sortBy"] in GEM_SORTS and is_int(hg["limit"]) and hg["limit"] >= 1,
+             "的 hiddenGems 要是 {name: 榜名, rating: {来源: 数}, raters: {来源: [下限, 上限]（正整数，下限 < 上限）}, "
+             f"sortBy: {' / '.join(GEM_SORTS)}, limit: 正整数}}")
     return out
 
 

@@ -45,5 +45,6 @@
     "reasonRequired": "oppose",
     "reasonMinChars": 20
   },
-  "development": {"name": "开发中关注榜", "field": "followers"}
+  "development": {"name": "开发中关注榜", "field": "followers"},
+  "hiddenGems": {"name": "冷门佳作榜", "rating": {"dlsite": 4.70, "commercial": 85, "steam": 94}, "raters": {"dlsite": [50, 1000], "commercial": [30, 300], "steam": [100, 2000]}, "sortBy": "praise", "limit": 100}
 }

@@ -406,6 +406,36 @@
     ]
   },
   {
+    "id": "RJ01061811",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "ぎりぎりダンジョンR おしがましてでもおもらしが見たい!",
+    "names": {
+      "ja": "ぎりぎりダンジョンR おしがましてでもおもらしが見たい!",
+      "zh": "极限地下城R 就算憋着也想看漏尿！",
+      "en": "Giri-Giri Dungeon R: I Want to See an Accident Even If I Have to Hold It!"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ぎりダン開発室",
+    "date": "2023-06-12",
+    "rate": 4.78,
+    "dl": 532,
+    "rc": 125,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01061811.html",
+    "note": "爱好特殊的女冒险者一边忍耐尿意一边和同伴攻略地下城的 RPG",
+    "genres": [
+      "432",
+      "035",
+      "016",
+      "159",
+      "528"
+    ]
+  },
+  {
     "id": "RJ01062555",
     "cat": "f-rpg",
     "src": "dlsite",
@@ -436,6 +466,35 @@
       "325",
       "142",
       "522"
+    ]
+  },
+  {
+    "id": "RJ01063572",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "魔女が生きる世界 ～魔女が走ったりお金を稼いだり別の魔女と追いかけっこしたりするお話～",
+    "names": {
+      "ja": "魔女が生きる世界 ～魔女が走ったりお金を稼いだり別の魔女と追いかけっこしたりするお話～",
+      "zh": "魔女生存的世界 ～魔女奔跑、赚钱、和别的魔女追逐的故事～",
+      "en": "A World Where Witches Live ~A Story of a Witch Running, Earning Money, and Chasing Another Witch~"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "灯穂庭園",
+    "date": "2023-06-09",
+    "rate": 4.7,
+    "dl": 115,
+    "rc": 53,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01063572.html",
+    "note": "魔女讨伐魔兽、四处赚钱的动作型短篇 RPG",
+    "genres": [
+      "241",
+      "446",
+      "134",
+      "123"
     ]
   },
   {
@@ -793,6 +852,38 @@
       "140",
       "143",
       "182"
+    ]
+  },
+  {
+    "id": "RJ01121837",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "黑巢姐妹",
+    "names": {
+      "ja": "黑巢姐妹",
+      "zh": "黑巢姐妹",
+      "en": "Black Nest Sisters"
+    },
+    "mt": [
+      "en"
+    ],
+    "circle": "Stellarxiela",
+    "date": "2023-11-30",
+    "rate": 4.72,
+    "dl": 707,
+    "rc": 76,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01121837.html",
+    "note": "刚踏入社会的姐妹在治安糟糕的乡下小镇打工生活的 RPG，可换装",
+    "genres": [
+      "516",
+      "432",
+      "312",
+      "533",
+      "256",
+      "146",
+      "113",
+      "190"
     ]
   },
   {
@@ -1441,6 +1532,32 @@
     ]
   },
   {
+    "id": "RJ01302125",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "メスケモちゃんはうん〇がしたい!",
+    "names": {
+      "ja": "メスケモちゃんはうん〇がしたい!",
+      "zh": "兽娘酱想上大号！",
+      "en": "Kemono Girl Needs to Poop!"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "うのると",
+    "date": "2024-12-02",
+    "rate": 4.87,
+    "dl": 1174,
+    "rc": 162,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01302125.html",
+    "note": "在公园散步时突然内急的兽娘寻找厕所的短篇 RPG，有多种结局",
+    "genres": [
+      "161"
+    ]
+  },
+  {
     "id": "RJ01315765",
     "cat": "f-rpg",
     "src": "dlsite",
@@ -1761,6 +1878,39 @@
       "536",
       "115",
       "182"
+    ]
+  },
+  {
+    "id": "RJ01385267",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "【同人誌付き】コレットループ",
+    "names": {
+      "ja": "【同人誌付き】コレットループ",
+      "zh": "【附同人志】柯莱特循环",
+      "en": "[With Doujinshi] Colette Loop"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "えすぱすポスト",
+    "date": "2025-08-09",
+    "rate": 4.7,
+    "dl": 2222,
+    "rc": 378,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01385267.html",
+    "note": "魔术师柯莱特和精灵莉缪埃尔在无尽循环的旅途中闯关的 RPG",
+    "genres": [
+      "432",
+      "035",
+      "158",
+      "153",
+      "146",
+      "162",
+      "528",
+      "118"
     ]
   },
   {
@@ -2318,6 +2468,39 @@
       "146",
       "157",
       "149"
+    ]
+  },
+  {
+    "id": "RJ01574331",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "レピテーション！",
+    "names": {
+      "ja": "レピテーション！",
+      "zh": "Repitation!",
+      "en": "Repitation!"
+    },
+    "mt": [
+      "zh",
+      "en"
+    ],
+    "circle": "ミューテーション",
+    "date": "2026-06-27",
+    "rate": 4.73,
+    "dl": 7390,
+    "rc": 984,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01574331.html",
+    "note": "战斗中带有丰富异常状态的女主人公 RPG",
+    "genres": [
+      "432",
+      "069",
+      "533",
+      "016",
+      "300",
+      "158",
+      "157",
+      "162"
     ]
   },
   {
@@ -4686,6 +4869,32 @@
       "159",
       "134",
       "174"
+    ]
+  },
+  {
+    "id": "RJ227939",
+    "cat": "f-rpg",
+    "src": "dlsite",
+    "state": "released",
+    "title": "Divirtual!",
+    "names": {
+      "ja": "Divirtual!",
+      "zh": "Divirtual!",
+      "en": "Divirtual!"
+    },
+    "mt": [],
+    "circle": "ノワール城エントランス",
+    "date": "2018-06-21",
+    "rate": 4.77,
+    "dl": 2599,
+    "rc": 977,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ227939.html",
+    "note": "两名同学进入游戏世界、与怪物战斗的挠痒主题 RPG",
+    "genres": [
+      "432",
+      "035",
+      "153",
+      "146"
     ]
   },
   {
