@@ -176,12 +176,16 @@ def scoring_problems(sc, ids=None):
     anchors = pr.get("anchors") if isinstance(pr, dict) else None
     srcs = list(anchors) if isinstance(anchors, dict) else []  # 口碑认的社区：anchors 里写了的
     lists = pr.get("lists") if isinstance(pr, dict) else None
-    need(obj(pr, ("k", "kUp", "minN", "anchors", "clamp", "lists")) and set(SCORED) <= set(srcs) <= set(RATING_SRCS)
+    applies = pr.get("appliesTo") if isinstance(pr, dict) else None
+    need(obj(pr, ("k", "kUp", "minN", "anchors", "appliesTo", "clamp", "lists")) and set(SCORED) <= set(srcs) <= set(RATING_SRCS)
+         and isinstance(applies, dict) and set(applies) <= set(srcs)
+         and all(isinstance(v, list) and v and len(set(v)) == len(v) and set(v) <= set(SCORED) for v in applies.values())
          and table(anchors, srcs, span) and table(pr["k"], srcs, lambda v: is_num(v) and v > 0)
          and table(pr["kUp"], srcs, lambda v: is_num(v) and v > 0) and table(pr["minN"], srcs, lambda v: is_int(v) and v >= 1)
          and span(pr["clamp"]) and obj(lists, ("R", "e", "max")) and is_num(lists["R"])
          and is_num(lists["e"]) and lists["e"] >= 0 and is_int(lists["max"]) and lists["max"] >= 0,
-         "的 praise 要是 {k, kUp: {社区: 正数}, minN: {社区: 正整数}, anchors: {社区: [低, 高]}, clamp: [低, 高], "
+         "的 praise 要是 {k, kUp: {社区: 正数}, minN: {社区: 正整数}, anchors: {社区: [低, 高]}, "
+         "appliesTo: {社区: [只对这些来源的作品算…]}（没写的社区对所有作品都算）, clamp: [低, 高], "
          f"lists: {{R: 数, e: ≥0, max: 非负整数}}}}，四张表的社区一样，至少有 {' / '.join(SCORED)}，"
          f"只认 {' / '.join(RATING_SRCS)}")
     h = sc.get("heat")

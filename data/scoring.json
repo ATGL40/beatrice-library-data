@@ -2,10 +2,11 @@
   "name": "图鉴综合榜",
   "version": 2,
   "praise": {
-    "k": {"dlsite": 1000, "commercial": 50, "steam": 3000, "vndb": 50, "bgm": 50, "community": 20},
-    "kUp": {"dlsite": 50, "commercial": 10, "steam": 3000, "vndb": 10, "bgm": 10, "community": 10},
+    "k": {"dlsite": 1000, "commercial": 50, "steam": 10000, "vndb": 50, "bgm": 50, "community": 20},
+    "kUp": {"dlsite": 50, "commercial": 10, "steam": 10000, "vndb": 10, "bgm": 10, "community": 10},
     "minN": {"dlsite": 20, "commercial": 10, "steam": 30, "vndb": 10, "bgm": 10, "community": 5},
-    "anchors": {"dlsite": [4.15, 4.90], "commercial": [70, 90], "steam": [79, 101], "vndb": [56.02, 88.58], "bgm": [3.77, 8.43], "community": [3, 5]},
+    "anchors": {"dlsite": [4.15, 4.90], "commercial": [70, 90], "steam": [79, 101], "vndb": [60.45, 89.75], "bgm": [3.77, 8.43], "community": [3, 5]},
+    "appliesTo": {"vndb": ["commercial"]},
     "clamp": [0, 100],
     "lists": {"R": 90, "e": 1, "max": 2}
   },
@@ -21,7 +22,7 @@
   "players": {"neutral": 3, "prior": 3, "cap": 10},
   "curve": {
     "on": "composite",
-    "points": [[10.749797, 40], [39.155919, 60], [52.629135, 70], [66.200488, 80], [77.570378, 90], [87.559923, 95], [91.825533, 97], [97.279382, 99]]
+    "points": [[10.320602, 40], [39.482519, 60], [52.538369, 70], [65.934578, 80], [77.555524, 90], [87.621384, 95], [90.759529, 97], [96.165733, 99]]
   },
   "bands": [["神作", 96], ["神作提名", 95], ["超大杯", 85], ["大杯", 70], ["中杯", 0]],
   "cap": {"max": 94},
@@ -36,8 +37,8 @@
   },
   "gates": {
     "praiseTop": {
-      "rating": {"dlsite": 4.84, "commercial": 92, "vndb": 89.6, "bgm": 9.0},
-      "raters": {"dlsite": 10683, "commercial": 876, "vndb": 717, "bgm": 218}
+      "rating": {"dlsite": 4.84, "commercial": 92, "vndb": 90.7, "bgm": 9.0},
+      "raters": {"dlsite": 10683, "commercial": 876, "vndb": 1054, "bgm": 218}
     },
     "community": {"minAvg": 4.5, "minCount": 20}
   },

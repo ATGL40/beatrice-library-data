@@ -81,15 +81,22 @@ def listed_ids(catalog):
     return set(list_hits(catalog))
 
 
+def counted(g, sc):
+    """口碑认的评分：配方 anchors 里有这个社区，并且 appliesTo 没限制、或者作品来源在限制里（比如 VNDB 只看商业作）"""
+    pr = sc["praise"]
+    return [(s, x, n) for s, x, n in ratings(g)
+            if s in pr["anchors"] and (s not in pr["appliesTo"] or g.get("src") in pr["appliesTo"][s])]
+
+
 def praise(g, sc, hits=0):
-    """口碑 P = 50 + Σe(R − 50) ÷ (1 + Σe)。每个社区：评分按锚点换成 R（截到 clamp），证据量 e = 人数 ÷ k
+    """口碑 P = 50 + Σe(R − 50) ÷ (1 + Σe)。每个社区（counted 认的）：评分按锚点换成 R（截到 clamp），证据量 e = 人数 ÷ k
     （R > 50 用 kUp、不然用 k：样本少只许虚高不许虚低）；人数不到 minN 的社区不算；民间榜单每上一次是一份 R = lists.R 的证据。
     返回 {P, E, per: [(来源, x, n, R, e)]}；没有一个社区够人数（评价不足）返回 None"""
     pr = sc["praise"]
     lo_c, hi_c = pr["clamp"]
     per = []
-    for s, x, n in ratings(g):
-        if s not in pr["anchors"] or n < pr["minN"][s]:
+    for s, x, n in counted(g, sc):
+        if n < pr["minN"][s]:
             continue
         lo, hi = pr["anchors"][s]
         R = min(hi_c, max(lo_c, (x - lo) / (hi - lo) * 100))

@@ -10,7 +10,7 @@ r"""重新校准综合榜配方：按 data/ 现在的作品，算出热度刻度
 - 分数线 curve.points：用（新的）热度刻度算全部已打分作品的综合分，取 KNOTS 里各百分位的综合分对上最终分，
   向下截到 6 位小数（卡在分数线上的作品不会因为截位掉档）。
 - 口碑锚点 praise.anchors（只改 --anchors 点名的社区）：让这个社区评分的中位数换成 R 50、第 95 百分位换成 R 80
-  （百分位线性插值，参与打分、有这个评分的作品都算，不管人数），锚点保留 2 位小数。先定锚点，再算分数线。
+  （百分位线性插值，口碑认这个评分的作品都算——appliesTo 限制了来源的只看那些来源——不管人数），锚点保留 2 位小数。先定锚点，再算分数线。
 下面两项只打印参考值，要不要改由维护者人工决定：
 - 口碑锚点：每个社区换算后 R 的中位数和第 95 百分位（目标约 50 / 80），以及按这个目标建议的锚点。
 - 神作提名的口碑线 gates.praiseTop：同来源评分前 TOP_PCT% 的最低评分（同分取平均名次），人数第 RATERS_PCT 百分位（向上取整）。
@@ -26,7 +26,7 @@ import statistics
 import sys
 
 from build_pack import DATA, build_catalog
-from scoring import SCORED, composite, heat_offsets, ratings, scoped
+from scoring import SCORED, composite, counted, heat_offsets, scoped
 
 KNOTS = [(0, 40), (20, 60), (50, 70), (80, 80), (95, 90), (99, 95), (99.5, 97), (100, 99)]
 SCALE_PCT = 90
@@ -64,11 +64,11 @@ def suggest_anchor(xs):
     return [round(med - span * R_MED / 100, 2), round(med + span * (100 - R_MED) / 100, 2)]
 
 
-def source_ratings(works):
-    """社区 → 有这个评分的作品的评分（人数 > 0 就算）"""
+def source_ratings(works, sc):
+    """社区 → 口碑认这个评分的作品的评分（人数 > 0 就算；appliesTo 限制了来源的只看那些来源）"""
     out = {}
     for g in works:
-        for s, x, n in ratings(g):
+        for s, x, n in counted(g, sc):
             out.setdefault(s, []).append(x)
     return out
 
@@ -78,7 +78,7 @@ def calibrate(catalog, anchor_srcs=()):
     sc = copy.deepcopy(catalog["scoring"])
     updated = datetime.date.fromisoformat(catalog["updated"])
     works = scoped(catalog)
-    xs = source_ratings(works)
+    xs = source_ratings(works, sc)
     for s in anchor_srcs:
         if len(xs.get(s, [])) < 2:
             raise ValueError(f"{s} 的评分不到 2 部，定不了锚点")
@@ -94,14 +94,16 @@ def calibrate(catalog, anchor_srcs=()):
     return sc
 
 
-def write(new):
-    """只换 scoring.json 里 anchors、scale 和 points 三行，别的格式不动"""
+def write(new, anchor_srcs=()):
+    """只换 scoring.json 里 scale 和 points 两行、anchors 里点名社区的那一项，别的格式不动"""
     path = DATA / "scoring.json"
     text = path.read_text(encoding="utf-8")
-    for key, value in (("anchors", new["praise"]["anchors"]), ("scale", new["heat"]["scale"]), ("points", new["curve"]["points"])):
-        text, n = re.subn(rf'("{key}": )(\{{[^\n]*\}}|\[[^\n]*\])', lambda m: m.group(1) + json.dumps(value, ensure_ascii=False), text, count=1)
+    subs = [(rf'("scale": )(\{{[^\n]*\}})', new["heat"]["scale"]), (rf'("points": )(\[[^\n]*\])', new["curve"]["points"])]
+    subs += [(rf'("anchors": \{{[^\n]*?"{re.escape(s)}": )(\[[^\]]*\])', new["praise"]["anchors"][s]) for s in anchor_srcs]
+    for pattern, value in subs:
+        text, n = re.subn(pattern, lambda m: m.group(1) + json.dumps(value, ensure_ascii=False), text, count=1)
         if n != 1:
-            raise ValueError(f"scoring.json 里找不到一行写完的 \"{key}\"")
+            raise ValueError(f"scoring.json 里找不到：{pattern}")
     path.write_text(text, encoding="utf-8", newline="\n")
 
 
@@ -140,7 +142,7 @@ def main():
     # 参考值：各社区的 R 和口碑线（只打印）
     per = {}
     for g in scoped(catalog):
-        for s, x, n in ratings(g):
+        for s, x, n in counted(g, sc):
             per.setdefault(s, []).append((x, n))
     print("\n口碑锚点（参考；--anchors 点名的已经按建议改了）：各社区换算后 R 的中位数 / 第 95 百分位，目标约 "
           f"{R_MED} / {R_P95}；括号里是按目标建议的锚点")
@@ -167,7 +169,7 @@ def main():
         print(f"  {s}：参考 {line} / {raters:,} 人（{now}）")
 
     if args.write and changed:
-        write(new)
+        write(new, args.anchors)
         print("\n已写进 data/scoring.json。再跑 py tools/scoring.py 看结果，然后 build_pack.py / check_pack.py。")
     elif changed:
         print("\n要采用的话：py tools/calibrate.py --write")
