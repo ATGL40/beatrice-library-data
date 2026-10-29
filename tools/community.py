@@ -92,7 +92,7 @@ Source = collections.namedtuple("Source", "key when label text error channel")
 
 def default_reasons():
     """维护者本机放整理资料的文件夹在就写那里，不然写进 submissions/（不进仓库）"""
-    local = ROOT.parent / "GalShelf" / "数据整理"
+    local = ROOT.parent / "beatrice-library" / "private" / "数据整理"
     return (local if local.is_dir() else ROOT / "submissions") / "复议理由.md"
 
 
