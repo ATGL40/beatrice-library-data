@@ -105,13 +105,14 @@ def top_line(sc, s, src):
     return (top["rating"][s], top["raters"][s]) if s in top["rating"] and s in top["raters"] else None
 
 
-def cap_secondary(per, sec, src):
-    """本平台（社区名和作品来源相同的那项）算进来时，sec["sources"] 里的社区证据量合计不超过本平台的 sec["maxShareOfNative"] 倍：
-    超了就每项乘同一个系数 f = 上限 ÷ 合计。没有本平台评分的作品（Steam 作品、只有 Bangumi 的作品等）不限。sec 是 None 时不限"""
-    native = next((e for s, x, n, R, e in per if s == src), None)
+def cap_secondary(per, sec, src, kup):
+    """本平台（社区名和作品来源相同的那项）算进来时，sec["sources"] 里的社区证据量合计不超过
+    上限 = sec["maxShareOfNative"] × 本平台人数 ÷ kup[本平台]（和本平台评分高低无关）：超了就每项乘同一个系数 f = 上限 ÷ 合计。
+    没有本平台评分的作品（Steam 作品、本平台人数不够的等）不限。sec 是 None 时不限"""
+    native = next((n for s, x, n, R, e in per if s == src), None)
     if not sec or native is None:
         return per
-    cap = sec["maxShareOfNative"] * native
+    cap = sec["maxShareOfNative"] * (native / kup[src])
     total = sum(e for s, x, n, R, e in per if s in sec["sources"])
     if total <= cap:
         return per
@@ -123,7 +124,8 @@ def praise(g, sc, hits=0):
     """口碑 P = 50 + Σe(R − 50) ÷ (1 + Σe)。每个社区（counted 认的）：评分按锚点（anchor：可以按作品来源分开）换成 R（截到 clamp），证据量 e = 人数 ÷ k
     （R > 50 用 kUp、不然用 k：样本少只许虚高不许虚低）；人数不到 minN 的社区不算；民间榜单每上一次是一份 R = lists.R 的证据。
     本平台的评分算进来时（DLsite 作品的 DLsite、商业作的批评空间），secondary.sources 里的社区（VNDB、Bangumi）合起来的证据量
-    最多是本平台的 maxShareOfNative 倍，超了就按同一个比例缩小（本平台至少占一半的话语权）。
+    最多是 maxShareOfNative × 本平台人数 ÷ kUp[本平台]，超了就按同一个比例缩小（本平台至少占一半的话语权；
+    量的是本平台有多少人，不看它打得高还是低）。
     返回 {P, E, per: [(来源, x, n, R, e)]}（e 是缩小后的）；没有一个社区够人数（评价不足）返回 None"""
     pr = sc["praise"]
     lo_c, hi_c = pr["clamp"]
@@ -136,7 +138,7 @@ def praise(g, sc, hits=0):
         per.append((s, x, n, R, n / (pr["kUp"][s] if R > 50 else pr["k"][s])))
     if not per:
         return None
-    per = cap_secondary(per, pr.get("secondary"), g.get("src"))
+    per = cap_secondary(per, pr.get("secondary"), g.get("src"), pr["kUp"])
     total, E = 0.0, 0.0
     for *_, R, e in per:
         total += e * (R - 50)

@@ -199,7 +199,7 @@ def scoring_problems(sc, ids=None):
                          and len(set(sec["sources"])) == len(sec["sources"]) and set(sec["sources"]) <= set(srcs) - set(SCORED)
                          and is_num(sec["maxShareOfNative"]) and sec["maxShareOfNative"] >= 0),
          "的 praise.secondary（可以没有）要是 {sources: [社区…], maxShareOfNative: ≥0}，社区要在 anchors 里、不是 "
-         f"{' / '.join(SCORED)} 这几个本平台评分（本平台的评分算进来时，这些社区合起来的证据量最多是它的 maxShareOfNative 倍）")
+         f"{' / '.join(SCORED)} 这几个本平台评分（本平台的评分算进来时，这些社区合起来的证据量最多是 maxShareOfNative × 本平台人数 ÷ kUp[本平台]）")
     h = sc.get("heat")
     age = h.get("age") if isinstance(h, dict) else None
     need(obj(h, ("method", "weight", "window", "minGroup", "scale", "missing", "age")) and h["method"] == "era-median"
