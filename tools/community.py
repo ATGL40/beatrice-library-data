@@ -1,4 +1,5 @@
-r"""社区评分和神作复议：把大家提交的星级和投票汇总成作品的 community / godvote 字段，并在发布资料时结算神作升降。
+r"""社区评分、神作复议和黑榜：把大家提交的星级、投票和黑榜汇总成作品的 community / godvote / blacklist 字段，
+并在发布资料时结算神作升降和「多人拉黑」标注。
 
     py tools/community.py --dry-run            # 只打印统计和结算结果，不写文件
     py tools/community.py                      # 结算：写 data/*.json 和 data/canon.json，理由写进本地报告
@@ -12,11 +13,13 @@ r"""社区评分和神作复议：把大家提交的星级和投票汇总成作�
     {"kind": "beatrice-ratings-submission", "version": 1, "app": "0.5.0", "catalog": "2026-10-28",
      "ratings": {"RJ01004084": 5, "vndb-v12345": 3},
      "votes": {"RJ201109": {"vote": "support"},
-               "vndb-v20802": {"vote": "oppose", "reason": "至少 20 个字的理由……"}}}
+               "vndb-v20802": {"vote": "oppose", "reason": "至少 20 个字的理由……"}},
+     "blacklist": {"RJ123456": {"reason": "可以不写的理由"}, "RJ234567": {}}}
 
 ratings 是作品 id → 1–5 的整数星级。votes 可以没有：作品 id → {"vote": "support" 或 "oppose", "reason": 理由}；
 哪种票必须写理由、至少几个字，看配方 data/scoring.json 的 canon.reasonRequired（oppose / all / none）和 reasonMinChars。
-没有名字、评论、状态，别的字段也不看。只有投票、没有评分的提交也收。
+blacklist 可以没有：作品 id → {"reason": 理由（可以没有）}，提交人的黑榜（version 还是 1；旧版软件的提交没有这个字段）。
+没有名字、评论、状态，别的字段也不看。只有投票或只有黑榜、没有评分的提交也收。
 也收软件普通导出的评分文件（kind 是 beatrice-marks，或改名前的 galshelf-marks；.json 或 .html），只用里面 1–5 的 score，没有投票。
 
 投票人：一个投票人一份，新的整份顶掉旧的，所以每人每部作品只有一条有效意见（评分同样只算一次）。
@@ -28,9 +31,9 @@ ratings 是作品 id → 1–5 的整数星级。votes 可以没有：作品 id 
   比如 {"alice": "p1", "someone@example.com": "p1"}；没写的 key 自己算一个投票人。同一个投票人取最新的一份
   （文件按修改时间，issue 按开的时间）。
 
-检查：kind / version 不对、votes 不是对象的整份不要；data/ 里没有的作品 id、不是 1–5 整数的分数、
-不合格的投票（vote 不对、理由不是文字或不够长）逐条丢掉；超过 2,000 条评分、或 30 条以上且 95% 以上是同一个星级的，
-当成刷分整份不要。丢掉的都会列出来。
+检查：kind / version 不对、votes / blacklist 不是对象的整份不要；data/ 里没有的作品 id、不是 1–5 整数的分数、
+不合格的投票（vote 不对、理由不是文字或不够长）、不合格的黑榜条目（不是对象、理由不是文字）逐条丢掉；
+超过 2,000 条评分、或 30 条以上且 95% 以上是同一个星级的、或黑榜超过 2,000 部的，当成刷分整份不要。丢掉的都会列出来。
 
 结算（不加 --dry-run 时，就是这次发布的结算）：
 - community = {"avg": 平均星级（四舍五入到两位小数）, "count": 人数}，放在 rc 和 egs / steam / followers 后面。
@@ -38,7 +41,12 @@ ratings 是作品 id → 1–5 的整数星级。votes 可以没有：作品 id 
   分母是有效的支持 + 反对。上次因投票升降的日期写在 "changed"。
 - 升降按配方 canon：神作提名（按 tools/scoring.py 算）支持够了升为神作，写进 data/canon.json（"by": "vote"）；
   神作（名单里的或投票升上来的）反对够了，从 data/canon.json 去掉。上次升降不到 cooldownDays 天的作品这次只公布票数、不升降。
-- 理由不发布：全部理由（作品、票、日期、投票人、渠道）只写进本地报告 --reasons，不进仓库、不进数据包。
+- 有人拉黑的作品写 blacklist = {"count": 拉黑的人数, "flagged": 是否标注「多人拉黑」, "settled": 结算日期}，紧跟在 godvote 后面；
+  上次标注变化的日期写在 "changed"（这时人数降到 0 也留着这个字段）。按配方 blacklist：拉黑的人数 ≥ minVoters，
+  并且占这部作品参与的人（评了星、投了票或拉黑了它的投票人，一人只算一次）≥ minShare，才标注；
+  标注变化后 canon.cooldownDays 天内不再变（没人拉黑了的除外，马上去掉标注）。配方没有 blacklist 就只公布人数、不标注。
+  黑榜不改分数、档和神作资格。
+- 理由不发布：全部理由（作品、票或黑榜、日期、投票人、渠道）只写进本地报告 --reasons，不进仓库、不进数据包。
   GitHub issue 本身是公开的，想不公开理由只能用邮件。
 原始提交不进仓库（submissions/ 在 .gitignore 里）。
 """
@@ -102,8 +110,8 @@ def reason_problem(vote, reason, rules):
 
 
 def extract(obj, ids, rules):
-    """返回 (评分 {id: 1–5}, 投票 {id: (vote, 理由)}, 对不上作品的条数, 分数不合格的条数, 投票丢掉的说明)；
-    整份不收时抛 ValueError"""
+    """返回 (评分 {id: 1–5}, 投票 {id: (vote, 理由)}, 黑榜 {id: 理由（没写是 ""）}, 对不上作品的条数, 分数不合格的条数,
+    投票和黑榜丢掉的说明)；整份不收时抛 ValueError"""
     if not isinstance(obj, dict):
         raise ValueError("不是评分文件")
     kind, version = obj.get("kind"), obj.get("version")
@@ -117,6 +125,9 @@ def extract(obj, ids, rules):
     raw_votes = obj.get("votes", {}) if kind == SUB_KIND else {}
     if not isinstance(raw_votes, dict):
         raise ValueError("votes 不是对象（作品 id → {vote, reason}）")
+    raw_black = obj.get("blacklist", {}) if kind == SUB_KIND else {}
+    if not isinstance(raw_black, dict):
+        raise ValueError("blacklist 不是对象（作品 id → {reason}）")
     ratings, unknown, bad = {}, 0, 0
     for wid, v in raw.items():
         if kind != SUB_KIND:  # 普通评分文件：只看 score，0 是没评，其他字段一概不看
@@ -148,10 +159,21 @@ def extract(obj, ids, rules):
             vote_drops.append(f"{wid}：{why}")
         else:
             votes[wid] = (vote, reason)
-    return ratings, votes, unknown, bad, vote_drops
+    black = {}
+    for wid, v in raw_black.items():  # 黑榜：只看 reason，别的字段不看；理由可以不写
+        reason = v.get("reason", "") if isinstance(v, dict) else None
+        why = ("资料里没有这部作品" if wid not in ids else "不是对象" if not isinstance(v, dict)
+               else "reason 不是文字" if not isinstance(reason, str) else None)
+        if why:
+            vote_drops.append(f"黑榜 {wid}：{why}")
+        else:
+            black[wid] = reason.strip()
+    return ratings, votes, black, unknown, bad, vote_drops
 
 
-def spam_reason(ratings):
+def spam_reason(ratings, black=()):
+    if len(black) > MAX_RATINGS:
+        return f"黑榜 {len(black)} 部，超过 {MAX_RATINGS} 部"
     n = len(ratings)
     if n > MAX_RATINGS:
         return f"{n} 条评分，超过 {MAX_RATINGS} 条"
@@ -228,17 +250,18 @@ def aggregate(sources, ids, voters, rules):
         if who not in latest or (s.when, s.label) > (latest[who].when, latest[who].label):
             latest[who] = s
     used, dropped, notes, totals, tally, reasons = [], [], [], {}, {}, []
+    blackers, people = collections.defaultdict(set), collections.defaultdict(set)  # 作品 → 拉黑的投票人 / 参与的投票人
     for who in sorted(latest):
         s = latest[who]
         try:
             if s.error:
                 raise ValueError(s.error)
-            ratings, votes, unknown, bad, vote_drops = extract(parse_text(s.text), ids, rules)
-            reason = spam_reason(ratings)
+            ratings, votes, black, unknown, bad, vote_drops = extract(parse_text(s.text), ids, rules)
+            reason = spam_reason(ratings, black)
             if reason:
                 raise ValueError(f"像刷分：{reason}")
-            if not ratings and not votes:
-                raise ValueError("没有对得上作品的 1–5 星评分，也没有合格的投票")
+            if not ratings and not votes and not black:
+                raise ValueError("没有对得上作品的 1–5 星评分，也没有合格的投票和黑榜")
         except ValueError as e:
             dropped.append((s.label, str(e)))
             continue
@@ -256,10 +279,17 @@ def aggregate(sources, ids, voters, rules):
             tally.setdefault(wid, {"support": 0, "oppose": 0})[vote] += 1
             if why:
                 reasons.append((wid, vote, day, who, s.channel, why))
+        for wid, why in black.items():
+            blackers[wid].add(who)
+            if why:
+                reasons.append((wid, "black", day, who, s.channel, why))
+        for wid in set(ratings) | set(votes) | set(black):
+            people[wid].add(who)
     community = {wid: {"avg": float((Decimal(s) / Decimal(n)).quantize(Decimal("0.01"), ROUND_HALF_UP)), "count": n}
                  for wid, (s, n) in totals.items()}
+    black_tally = {wid: (len(ws), len(people[wid])) for wid, ws in blackers.items()}  # 作品 → (拉黑人数, 参与人数)
     replaced = len(sources) - len(latest)
-    return community, tally, reasons, used, dropped, notes, replaced
+    return community, tally, black_tally, reasons, used, dropped, notes, replaced
 
 
 def settle(catalog, community, tally, date):
@@ -297,20 +327,50 @@ def settle(catalog, community, tally, date):
     return godvote, canon, moves
 
 
-def place(g, community, godvote):
-    """去掉旧的 community / godvote；有值的放在 rc / 分数信号后面（没有这些字段就放在 url / note 前面），
-    顺序是 community、godvote"""
-    items = [(k, v) for k, v in g.items() if k not in ("community", "godvote")]
+def settle_blacklist(catalog, black_tally, date):
+    """黑榜结算：返回 (blacklist {id: {count, flagged, settled, changed?}}, 标注变化说明列表)。
+    black_tally 是 aggregate 给的 {id: (拉黑人数, 参与人数)}；配方没有 blacklist 时只公布人数、不标注"""
+    sc = catalog["scoring"]
+    rule, cooldown = sc.get("blacklist"), sc["canon"]["cooldownDays"]
+    old = {g["id"]: g.get("blacklist") or {} for g in catalog["games"]}
+    out, moves = {}, []
+    for wid in sorted(set(black_tally) | {w for w, v in old.items() if v}):
+        count, people = black_tally.get(wid, (0, 0))
+        was = old.get(wid, {})
+        bl = {"count": count, "flagged": bool(was.get("flagged")), "settled": date.isoformat()}
+        if "changed" in was:
+            bl["changed"] = was["changed"]
+        want = bool(rule) and count >= rule["minVoters"] and count / people >= rule["minShare"]
+        cooling = "changed" in bl and (date - datetime.date.fromisoformat(bl["changed"])).days < cooldown
+        if want != bl["flagged"] and (not cooling or not count):  # 没人拉黑了：冷却中也马上去掉标注
+            moves.append(f"{'标注' if want else '去掉标注'}多人拉黑：{wid}（{count} 人拉黑，参与 {people} 人）")
+            bl["flagged"] = want
+            bl["changed"] = date.isoformat()
+        elif want != bl["flagged"]:
+            moves.append(f"黑榜冷却中、这次不改标注：{wid}（上次 {bl['changed']}）")
+        if count or "changed" in bl:
+            out[wid] = bl
+    return out, moves
+
+
+FIELDS = ("community", "godvote", "blacklist")  # community.py 写的字段，按这个顺序放
+
+
+def place(g, community, godvote, blacklist=None):
+    """去掉旧的 community / godvote / blacklist；有值的放在 rc / 分数信号后面（没有这些字段就放在 url / note 前面），
+    顺序是 community、godvote、blacklist"""
+    items = [(k, v) for k, v in g.items() if k not in FIELDS]
     keys = [k for k, _ in items]
     after = [keys.index(k) + 1 for k in ANCHORS if k in keys]
     before = [keys.index(k) for k in ("url", "note") if k in keys]
     at = max(after) if after else min(before, default=len(items))
-    new = [(k, v) for k, v in (("community", community), ("godvote", godvote)) if v is not None]
+    new = [(k, v) for k, v in zip(FIELDS, (community, godvote, blacklist)) if v is not None]
     return dict(items[:at] + new + items[at:])
 
 
-def apply(community, godvote, dry_run):
+def apply(community, godvote, dry_run, blacklist=None):
     """返回 {文件名: {字段: (新增, 改动, 去掉)}}；不是 dry_run 时把有变化的文件写回去（LF、2 空格缩进，键的顺序不变）"""
+    blacklist = blacklist or {}
     changes = {}
     for c in CATS:
         path = DATA / f"{c}.json"
@@ -318,16 +378,16 @@ def apply(community, godvote, dry_run):
             continue
         old_text = path.read_bytes().decode("utf-8")
         games = load(path)
-        count = {"community": [0, 0, 0], "godvote": [0, 0, 0]}
+        count = {f: [0, 0, 0] for f in FIELDS}
         new = []
         for g in games:
-            after = {"community": community.get(g["id"]), "godvote": godvote.get(g["id"])}
+            after = {"community": community.get(g["id"]), "godvote": godvote.get(g["id"]), "blacklist": blacklist.get(g["id"])}
             for field, cnt in count.items():
                 b, a = g.get(field), after[field]
                 cnt[0] += b is None and a is not None
                 cnt[1] += b is not None and a is not None and b != a
                 cnt[2] += b is not None and a is None
-            new.append(place(g, after["community"], after["godvote"]))
+            new.append(place(g, after["community"], after["godvote"], after["blacklist"]))
         text = json.dumps(new, ensure_ascii=False, indent=2) + "\n"
         if text != old_text:
             changes[path.name] = count
@@ -344,20 +404,35 @@ def check_reasons_path(path):
     return path
 
 
-def write_reasons(path, reasons, godvote, titles, date):
+def write_reasons(path, reasons, godvote, titles, date, blacklist=None):
     lines = ["# 神作复议理由（本地，不发布）", "",
              f"由 tools/community.py 在 {datetime.datetime.now():%Y-%m-%d %H:%M} 生成（结算日期 {date}），每次结算整份重写。"
              "这里的理由不进仓库、不进数据包；但走 GitHub 的那些本来就公开在 issue 里。", ""]
-    if not reasons:
+    votes = [r for r in reasons if r[1] != "black"]
+    blacks = [r for r in reasons if r[1] == "black"]
+    if not votes:
         lines.append("（现在没有写了理由的投票）")
     by_work = collections.defaultdict(list)
-    for r in reasons:
+    for r in votes:
         by_work[r[0]].append(r)
     for wid in sorted(by_work):
         t = godvote.get(wid, {"support": 0, "oppose": 0})
         lines += [f"## {titles.get(wid, wid)}（{wid}）· 支持 {t['support']} / 反对 {t['oppose']}", ""]
         for _, vote, day, who, channel, why in sorted(by_work[wid], key=lambda r: (r[1], r[2], r[3])):
             lines.append(f"- {'反对' if vote == 'oppose' else '支持'} · {day} · {who} · {channel}：{' '.join(why.split())}")
+        lines.append("")
+    lines += ["", "# 黑榜理由（本地，不发布）", ""]
+    if not blacks:
+        lines.append("（现在没有写了理由的黑榜）")
+    by_work = collections.defaultdict(list)
+    for r in blacks:
+        by_work[r[0]].append(r)
+    for wid in sorted(by_work):
+        b = (blacklist or {}).get(wid, {})
+        lines += [f"## {titles.get(wid, wid)}（{wid}）· {b.get('count', len(by_work[wid]))} 人拉黑"
+                  + ("，标注多人拉黑" if b.get("flagged") else ""), ""]
+        for _, _, day, who, channel, why in sorted(by_work[wid], key=lambda r: (r[2], r[3])):
+            lines.append(f"- {day} · {who} · {channel}：{' '.join(why.split())}")
         lines.append("")
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("\n".join(lines).rstrip("\n") + "\n", encoding="utf-8")
@@ -383,14 +458,15 @@ def main():
         sources = from_folder(args.dir)
         if args.from_github:
             sources += from_github(args.gh)
-        community, tally, reasons, used, dropped, notes, replaced = aggregate(sources, set(titles), voters, rules)
+        community, tally, black_tally, reasons, used, dropped, notes, replaced = aggregate(sources, set(titles), voters, rules)
         godvote, canon, moves = settle(catalog, community, tally, date)
-        changes = apply(community, godvote, args.dry_run)
+        blacklist, black_moves = settle_blacklist(catalog, black_tally, date)
+        changes = apply(community, godvote, args.dry_run, blacklist)
         canon_changed = canon != (catalog.get("canon") or {})
         if not args.dry_run:
             if canon_changed:
                 (DATA / "canon.json").write_text(json.dumps(canon, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
-            write_reasons(reasons_path, reasons, godvote, titles, date)
+            write_reasons(reasons_path, reasons, godvote, titles, date, blacklist)
     except (OSError, ValueError) as e:
         print(f"汇总失败：{e}", file=sys.stderr)
         return 1
@@ -410,6 +486,12 @@ def main():
     print(f"神作复议票 {sum(t['support'] + t['oppose'] for t in godvote.values())} 张，涉及作品 {len(godvote)} 部"
           + "".join(f"\n  {titles.get(w, w)}（{w}）：支持 {t['support']}、反对 {t['oppose']}" for w, t in sorted(godvote.items())))
     for m in moves:
+        print(f"  {m}")
+    bl_rule = catalog["scoring"].get("blacklist")
+    print(f"黑榜 {sum(b['count'] for b in blacklist.values())} 条，涉及作品 {sum(1 for b in blacklist.values() if b['count'])} 部，"
+          f"标注多人拉黑 {sum(1 for b in blacklist.values() if b['flagged'])} 部"
+          + (f"（≥ {bl_rule['minVoters']} 人且占参与的人 ≥ {bl_rule['minShare']:.0%}）" if bl_rule else "（配方没有 blacklist，不标注）"))
+    for m in black_moves:
         print(f"  {m}")
     print(f"理由 {len(reasons)} 条" + ("（只是预览，没有写报告）" if args.dry_run else f"，写进本地报告 {reasons_path}"))
     if canon_changed:

@@ -136,6 +136,22 @@ def godvote_problem(g):
     return None
 
 
+def blacklist_problem(g):
+    """blacklist（社区黑榜的结算结果，tools/community.py 写的）：可以没有；有就要是
+    {"count": 非负整数, "flagged": true / false, "settled": 结算日期, "changed": 上次标注变化的日期（可以没有）}；
+    没有 changed 时至少 1 人，标上了的（flagged）也至少 1 人；返回问题说明或 None"""
+    v = g.get("blacklist")
+    if v is None:
+        return None
+    if not (isinstance(v, dict) and {"count", "flagged", "settled"} <= set(v) <= {"count", "flagged", "settled", "changed"}
+            and is_int(v["count"]) and v["count"] >= 0 and isinstance(v["flagged"], bool)
+            and is_date(v["settled"]) and ("changed" not in v or is_date(v["changed"]))
+            and (v["count"] >= 1 or ("changed" in v and not v["flagged"]))):
+        return ("的 blacklist 要是 {\"count\": 非负整数, \"flagged\": true 或 false, \"settled\": \"YYYY-MM-DD\"}"
+                "（可以再有 \"changed\": \"YYYY-MM-DD\"），没有 changed 或 flagged 是 true 时至少 1 人")
+    return None
+
+
 def is_num(v):
     return isinstance(v, (int, float)) and not isinstance(v, bool)
 
@@ -147,7 +163,7 @@ def is_date(v):
 DATE_RE = re.compile(r"\d{4}-\d{2}-\d{2}")
 SCORED = ("dlsite", "commercial", "steam")  # 综合榜只给这三个来源的已发售作品打分
 SCORING_KEYS = {"name", "version", "praise", "heat", "players", "curve", "bands", "cap", "nominee", "gates",
-                "canon", "development", "hiddenGems"}
+                "canon", "development", "hiddenGems", "blacklist"}
 RATING_SRCS = ("dlsite", "commercial", "steam", "vndb", "bgm", "community")  # 口碑能合并的社区评分
 REASON_RULES = ("oppose", "all", "none")
 GEM_SORTS = ("praise",)  # 冷门佳作榜的排序依据：praise = 口碑分 P
@@ -286,6 +302,11 @@ def scoring_problems(sc, ids=None):
              and hg["sortBy"] in GEM_SORTS and is_int(hg["limit"]) and hg["limit"] >= 1,
              "的 hiddenGems 要是 {name: 榜名, rating: {来源: 数}, raters: {来源: [下限, 上限]（正整数，下限 < 上限）}, "
              f"sortBy: {' / '.join(GEM_SORTS)}, limit: 正整数}}")
+    bl = sc.get("blacklist")  # 社区黑榜的标注线（可以没有：不标注）
+    if bl is not None:
+        need(obj(bl, ("minVoters", "minShare")) and is_int(bl["minVoters"]) and bl["minVoters"] >= 1
+             and is_num(bl["minShare"]) and 0 < bl["minShare"] <= 1,
+             "的 blacklist 要是 {minVoters: 正整数, minShare: 0–1}")
     return out
 
 
@@ -389,7 +410,7 @@ def check(path, min_updated, min_revision=0):
     for gid, names in genres.items():
         if not (gid.isdigit() and isinstance(names, dict) and all(isinstance(names.get(k), str) and names[k] for k in LANGS)):
             problems.append(f"题材 {gid!r} 格式不对：要有 {', '.join(LANGS)} 三个名称")
-    tagged, signals, povs, aliased = 0, {}, {}, 0
+    tagged, signals, povs, aliased, flagged = 0, {}, {}, 0, 0
     for g in games:
         if not isinstance(g, dict) or not g.get("id"):
             continue
@@ -420,15 +441,17 @@ def check(path, min_updated, min_revision=0):
                 problems.append(f"{g.get('id')} 的 genres 要是字符串数组，每个 id 都要在 genres 字典里")
             else:
                 tagged += 1
-        for problem in (signal_problem(g), pov_problem(g), community_problem(g), godvote_problem(g),
+        for problem in (signal_problem(g), pov_problem(g), community_problem(g), godvote_problem(g), blacklist_problem(g),
                         raw_problem(g) if src == "dlsite" else None):
             if problem:
                 problems.append(f"{g.get('id')} {problem}")
         if g.get("pov") in POVS:
             povs[g["pov"]] = povs.get(g["pov"], 0) + 1
-        for key in list(SIGNALS) + list(RATED) + ["community", "godvote"]:
+        for key in list(SIGNALS) + list(RATED) + ["community", "godvote", "blacklist"]:
             if g.get(key) is not None:
                 signals[key] = signals.get(key, 0) + 1
+        if isinstance(g.get("blacklist"), dict) and g["blacklist"].get("flagged") is True:
+            flagged += 1
 
     rankings = cat.get("rankings", [])
     rk_items = rk_rj = rk_hit = 0
@@ -477,7 +500,8 @@ def check(path, min_updated, min_revision=0):
     notes.insert(3, "分数信号：" + "，".join(f"{key} {signals.get(key, 0)} 部（{src} 作品 {srcs.get(src, 0)} 部）"
                                           for key, src in SIGNALS.items()))
     notes.insert(4, f"VNDB 评分 vndb {signals.get('vndb', 0)} 部，Bangumi 评分 bgm {signals.get('bgm', 0)} 部，"
-                    f"社区评分 community {signals.get('community', 0)} 部，神作复议票 godvote {signals.get('godvote', 0)} 部；"
+                    f"社区评分 community {signals.get('community', 0)} 部，神作复议票 godvote {signals.get('godvote', 0)} 部，"
+                    f"社区黑榜 blacklist {signals.get('blacklist', 0)} 部（标注多人拉黑 {flagged} 部）；"
                     f"主角视角 pov {sum(povs.values())} 部（{'，'.join(f'{k} {povs.get(k, 0)}' for k in POVS)}）；别名 aliases {aliased} 部")
     recipe = f"{scoring.get('name')} version {scoring.get('version')}" if isinstance(scoring, dict) else "没有（用软件自带的）"
     notes.insert(5, f"综合榜配方：{recipe}；神作名单 {len(canon) if isinstance(canon, dict) else 0} 部")

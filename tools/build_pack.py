@@ -20,8 +20,8 @@ import tempfile
 import zipfile
 from pathlib import Path
 
-from check_pack import (aliases_ok, canon_problems, community_problem, godvote_problem, pov_problem, raw_problem, scoring_problems,
-                        signal_problem)
+from check_pack import (aliases_ok, blacklist_problem, canon_problems, community_problem, godvote_problem, pov_problem, raw_problem,
+                        scoring_problems, signal_problem)
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -90,7 +90,7 @@ def build_catalog(extras=()):
             bad = [x for x in g["genres"] if x not in genres]
             if bad:
                 raise ValueError(f"{gid} 的题材 {bad} 不在 data/genres.json 里")
-        problem = (signal_problem(g) or pov_problem(g) or community_problem(g) or godvote_problem(g)
+        problem = (signal_problem(g) or pov_problem(g) or community_problem(g) or godvote_problem(g) or blacklist_problem(g)
                    or (raw_problem(g) if g["src"] == "dlsite" else None))
         if problem:
             raise ValueError(f"{gid} {problem}")

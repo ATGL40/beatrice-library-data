@@ -1,13 +1,13 @@
 name: 提交评分 / Submit ratings
-description: 把你在碧翠子禁书库里打的星级和神作复议票交给社区 / Add your star ratings and 神作 review votes to the community data
+description: 把你在碧翠子禁书库里打的星级、神作复议票和黑榜交给社区 / Add your star ratings, 神作 review votes and avoid list to the community data
 title: "提交评分 / Submit ratings"
 labels: ["ratings"]
 body:
   - type: markdown
     attributes:
       value: |
-        **收什么：**每部作品的星级（作品 id → 1–5 星），以及你对神作提名 / 神作投的复议票（支持或反对，可以不投）；没有名字、评论、想玩 / 玩过这些标记。
-        星级汇总成社区评分（平均星级和人数），复议票只汇总成支持 / 反对票数，随数据包公开发布，授权是 [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/)；仓库里只放汇总结果，不放单份提交。
+        **收什么：**每部作品的星级（作品 id → 1–5 星），以及你对神作提名 / 神作投的复议票（支持或反对，可以不投）和你的黑榜（不推荐的作品，理由可以不写）；没有名字、评论、想玩 / 玩过这些标记。
+        星级汇总成社区评分（平均星级和人数），复议票只汇总成支持 / 反对票数，黑榜只汇总成每部的人数（人多的作品会标上「多人拉黑」），随数据包公开发布，授权是 [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/)；仓库里只放汇总结果，不放单份提交。
         反对票必须写理由（至少 20 个字），支持票可写可不写。**这个 issue 是公开的：贴在这里的理由所有人都看得到。**想让理由只给维护者看，只能用邮件发文件。
         **一个 GitHub 账号算一个投票人：**再提交一次，新的整份顶掉旧的，每部作品每人一条有效意见。投票在发布新资料时结算，公开每部作品的支持 / 反对票数和结算日期。
 
@@ -17,8 +17,8 @@ body:
 
         ---
 
-        **What is collected:** your star rating per work (work id → 1–5 stars) and, optionally, your review votes on 神作 nominees / 神作 (support or oppose). No name, no notes, no want / played marks.
-        Ratings are aggregated into a public community score (average stars and number of raters) and votes into support / oppose counts, shipped in the data packs under [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/). Only aggregates are published in this repository, never individual submissions.
+        **What is collected:** your star rating per work (work id → 1–5 stars) and, optionally, your review votes on 神作 nominees / 神作 (support or oppose) and your avoid list (黑榜, reasons optional). No name, no notes, no want / played marks.
+        Ratings are aggregated into a public community score (average stars and number of raters) votes into support / oppose counts and avoid lists into per-work counts (works on many lists get a 「多人拉黑」 label), shipped in the data packs under [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/). Only aggregates are published in this repository, never individual submissions.
         An oppose vote needs a reason of at least 20 characters; a support vote may have one. **This issue is public: any reason pasted here can be read by everyone.** For a private reason, send the file by e-mail only.
         **One voter per GitHub account:** if you submit again, the newer one replaces the older one as a whole (one valid opinion per work per person). Votes are settled at data releases; per-work support / oppose counts and the settlement date are published.
 
@@ -39,5 +39,5 @@ body:
     attributes:
       label: 同意 / Consent
       options:
-        - label: 我同意把这些星级和投票按 ODbL 1.0 汇总成公开的社区评分和票数。/ I agree that these star ratings and votes are aggregated into public community scores and vote counts under ODbL 1.0.
+        - label: 我同意把这些星级、投票和黑榜按 ODbL 1.0 汇总成公开的社区评分、票数和黑榜人数。/ I agree that these star ratings, votes and avoid list are aggregated into public community scores, vote counts and avoid-list counts under ODbL 1.0.
           required: true
