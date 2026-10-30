@@ -43,7 +43,7 @@ tools/
 
 `aka` 是俗称，写在 `aliases` 后面（没有 `aliases` 就写在 `names` 后面）：玩家们常用的叫法，比如把主角的名字当游戏的外号、老的民间译名，非空字符串的数组、不重复，没有就不写。详情页的「别名」一行会显示，主搜索也能搜到，但识别游戏文件夹时不用它。也要有证据：能指出一个玩家真的这样叫它的页面（论坛帖、评论、攻略等），猜的不写。
 
-`genres` 是题材标签：只有 DLsite 的作品写，值是 DLsite 题材 id（字符串）的数组，按 DLsite 作品页的顺序；id 对应的日 / 中 / 英名称在 `data/genres.json`（打包时作为顶层 `genres` 写进 catalog.json），名称都取自 DLsite 各语言页面。作品页已经下架、查不到题材的，不写这个字段。
+`genres` 是题材标签，值是 DLsite 题材 id（字符串）的数组；id 对应的日 / 中 / 英名称在 `data/genres.json`（打包时作为顶层 `genres` 写进 catalog.json），名称都取自 DLsite 各语言页面。DLsite 的作品只用 DLsite 作品页自己的标签，按作品页的顺序，只能少不能多（年龄类的不写，见下）。商业作品和 Steam 作品也用 DLsite 的标签词表，按 VNDB、ErogameScape、Steam 商店的公开资料整理（玩法 / 系统、视角、性癖大类、身材），证据不够就不打。Ci-en / FANBOX（开发中的作品）不写。年龄类题材（少女、少年、ショタ、お姉さん……）不写，也不在 `data/genres.json` 里；学生类一律用 `400` 学生。查不到题材的，不写这个字段。
 
 `pov` 是主角视角，写在 `cat` 后面：`female` 女主视角、`male` 男主视角、`both` 男女双视角（男女主角都有，或者能选主角性别）、`multi` 多视角（群像，几个主角轮流）、`none` 无固定主角（比如没有主角的经营、沙盒类）；不知道的不写。DLsite 作品看题材：有「女主人公」是 `female`，有「男主人公」是 `male`，两个都有是 `both`；没有这两个题材的，作品介绍里写明了才写。`f-rpg` / `m-rpg` 分类本身就是女主 / 男主。商业作品和在 VNDB 上对得上的 Steam 作品按 VNDB 的标签（Male / Female Protagonist、Multiple Protagonists 等），其他 Steam 作品看商店页介绍。
 

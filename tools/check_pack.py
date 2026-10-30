@@ -465,8 +465,8 @@ def check(path, min_updated, min_revision=0):
         if "aka" in g and not aka_ok(g["aka"]):
             problems.append(f"{g.get('id')} 的 aka 要是非空字符串的数组（不重复）")
         if "genres" in g:
-            if src != "dlsite":
-                problems.append(f"{g.get('id')} 的来源是 {src}，只有 DLsite 的作品写 genres")
+            if src in ("cien", "fanbox"):
+                problems.append(f"{g.get('id')} 的来源是 {src}，开发中的作品（Ci-en / FANBOX）不写 genres")
             if not (isinstance(g["genres"], list) and all(isinstance(x, str) and x in genres for x in g["genres"])):
                 problems.append(f"{g.get('id')} 的 genres 要是字符串数组，每个 id 都要在 genres 字典里")
             else:

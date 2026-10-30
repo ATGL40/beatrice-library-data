@@ -92,8 +92,8 @@ def build_catalog(extras=()):
         if "aka" in g and not aka_ok(g["aka"]):
             raise ValueError(f"{gid} 的 aka 要是非空字符串的数组（不重复）")
         if "genres" in g:
-            if g["src"] != "dlsite":
-                raise ValueError(f"{gid} 的来源是 {g['src']}，只有 DLsite 的作品写 genres")
+            if g["src"] in ("cien", "fanbox"):
+                raise ValueError(f"{gid} 的来源是 {g['src']}，开发中的作品（Ci-en / FANBOX）不写 genres")
             if not (isinstance(g["genres"], list) and all(isinstance(x, str) for x in g["genres"])):
                 raise ValueError(f"{gid} 的 genres 要是题材 id（字符串）数组")
             bad = [x for x in g["genres"] if x not in genres]
