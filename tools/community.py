@@ -16,7 +16,8 @@ r"""社区评分、神作复议和黑榜：把大家提交的星级、投票和�
                "vndb-v20802": {"vote": "oppose", "reason": "至少 20 个字的理由……"}},
      "blacklist": {"RJ123456": {"reason": "可以不写的理由"}, "RJ234567": {}},
      "recognition": [{"folder": "汉化\\某游戏 v1.2", "exes": ["Game.exe"], "titles": ["某ゲーム"], "names": ["某游戏 v1.2", "Game"],
-                      "rjs": ["RJ123456"], "matched": "RJ123456", "rule": "folder", "reason": "", "correct": "RJ234567", "date": "2026-10-29"}]}
+                      "rjs": ["RJ123456"], "matched": "RJ123456", "rule": "folder", "reason": "", "correct": "RJ234567", "date": "2026-10-29"}],
+     "tags": {"RJ01004084": {"wrong": ["070"], "missing": ["400"], "note": "可以不写的说明", "date": "2026-10-30"}}}
 
 ratings 是作品 id → 1–5 的整数星级。votes 可以没有：作品 id → {"vote": "support" 或 "oppose", "reason": 理由}；
 哪种票必须写理由、至少几个字，看配方 data/scoring.json 的 canon.reasonRequired（oppose / all / none）和 reasonMinChars。
@@ -25,7 +26,10 @@ recognition 可以没有：识别报告（软件把游戏文件夹认错、猜�
 不能是带盘符、网络路径的完整路径）、exes 启动程序文件名、titles 引擎标题、names 名字候选、rjs 编号（都是文字列表，各最多 20 个）、
 matched 软件认成 / 猜成的作品 id、rule 凭什么（rj / title / folder / exe / manual / guess / unknown）、reason「可能是」的原因、
 correct 用户选的正确作品 id、date 日期；别的字段不看，每份最多 100 条。识别报告不进数据、不发布，只写进本地报告给维护者改识别规则。
-没有名字、评论、状态，别的字段也不看。只有投票、只有黑榜或只有识别报告、没有评分的提交也收。
+tags 可以没有：标签报告（用户点「标签不对？」记下的），作品 id → {"wrong": 不对的题材 id, "missing": 少了的题材 id, "note": 说明（可以没有）,
+"date": 日期}；题材 id 要在 data/genres.json 里，年龄类（206 / 210 / 211 / 504 / 531）和字典里写了 hidden 的去掉，missing 里和 wrong
+重复的去掉，每个列表最多 50 个，说明最多 200 字。标签报告也不进数据、不发布，只写进本地报告给维护者下次改题材标签。
+没有名字、评论、状态，别的字段也不看。只有投票、只有黑榜、只有识别报告或只有标签报告、没有评分的提交也收。
 也收软件普通导出的评分文件（kind 是 beatrice-marks，或改名前的 galshelf-marks；.json 或 .html），只用里面 1–5 的 score，没有投票。
 
 投票人：一个投票人一份，新的整份顶掉旧的，所以每人每部作品只有一条有效意见（评分同样只算一次）。
@@ -37,8 +41,9 @@ correct 用户选的正确作品 id、date 日期；别的字段不看，每份�
   比如 {"alice": "p1", "someone@example.com": "p1"}；没写的 key 自己算一个投票人。同一个投票人取最新的一份
   （文件按修改时间，issue 按开的时间）。
 
-检查：kind / version 不对、votes / blacklist 不是对象的整份不要；data/ 里没有的作品 id、不是 1–5 整数的分数、
-不合格的投票（vote 不对、理由不是文字或不够长）、不合格的黑榜条目（不是对象、理由不是文字）逐条丢掉；
+检查：kind / version 不对、votes / blacklist / tags 不是对象、recognition 不是列表的整份不要；data/ 里没有的作品 id、不是 1–5 整数的分数、
+不合格的投票（vote 不对、理由不是文字或不够长）、不合格的黑榜条目（不是对象、理由不是文字）、
+不合格的标签报告（不是对象、去掉不认识的题材 id 以后什么都不剩）逐条丢掉；
 超过 2,000 条评分、或 30 条以上且 95% 以上是同一个星级的、或黑榜超过 2,000 部的，当成刷分整份不要。丢掉的都会列出来。
 
 结算（不加 --dry-run 时，就是这次发布的结算）：
@@ -53,7 +58,7 @@ correct 用户选的正确作品 id、date 日期；别的字段不看，每份�
   标注变化后 canon.cooldownDays 天内不再变（没人拉黑了的除外，马上去掉标注）。配方没有 blacklist 就只公布人数、不标注。
   黑榜不改分数、档和神作资格。
 - 理由不发布：全部理由（作品、票或黑榜、日期、投票人、渠道）只写进本地报告 --reasons，不进仓库、不进数据包。
-  识别报告也一样，只写进同一份本地报告的「识别报告」一节。
+  识别报告和标签报告也一样，只写进同一份本地报告的「识别报告」「标签报告」两节。
   GitHub issue 本身是公开的，想不公开理由只能用邮件。
 原始提交不进仓库（submissions/ 在 .gitignore 里）。
 """
@@ -74,6 +79,8 @@ from scoring import score
 SUB_KIND = "beatrice-ratings-submission"
 RECOG_RULES = ("rj", "title", "folder", "exe", "manual", "guess", "unknown")
 RECOG_MAX, RECOG_TEXT, RECOG_ITEMS = 100, 200, 20
+TAG_IDS, TAG_NOTE = 50, 200  # 标签报告：每个列表最多几个题材 id、说明最多几个字
+AGE_GENRES = frozenset(("206", "210", "211", "504", "531"))  # 不显示的年龄类题材（软件 genres.ts 的 HIDDEN_GENRES）
 FULL_PATH_RE = re.compile(r"(^|[^A-Za-z0-9])[A-Za-z]:[\\/]|^[\\/]|\\\\")
 MARK_KINDS = ("beatrice-marks", "galshelf-marks")
 MAX_RATINGS = 2000
@@ -207,6 +214,36 @@ def extract_recognition(obj, ids):
     return out, drops
 
 
+def extract_tags(obj, ids, genres):
+    """标签报告：返回 ({作品 id: {wrong, missing, note, date}}, 丢掉的说明)。genres 是 data/genres.json 的题材字典；
+    不认识的、年龄类的、写了 hidden 的题材 id 去掉，资料里没有的作品、不是对象的、去掉以后什么都不剩的整条丢掉"""
+    raw = obj.get("tags", {}) if isinstance(obj, dict) and obj.get("kind") == SUB_KIND else {}
+    if not isinstance(raw, dict):
+        raise ValueError("tags 不是对象（作品 id → {wrong, missing, note, date}）")
+    ok = lambda x: (isinstance(x, str) and x in genres and x not in AGE_GENRES  # noqa: E731
+                    and not (isinstance(genres[x], dict) and genres[x].get("hidden")))
+    out, drops = {}, []
+    for wid, r in list(raw.items())[:MAX_RATINGS]:
+        if wid not in ids or not isinstance(r, dict):
+            drops.append(f"标签报告 {wid}：{'资料里没有这部作品' if wid not in ids else '不是对象'}")
+            continue
+        lists = [r.get(k) if isinstance(r.get(k), list) else [] for k in ("wrong", "missing")]
+        wrong = list(dict.fromkeys(x for x in lists[0] if ok(x)))[:TAG_IDS]
+        missing = list(dict.fromkeys(x for x in lists[1] if ok(x) and x not in wrong))[:TAG_IDS]
+        note = " ".join(r["note"].split())[:TAG_NOTE] if isinstance(r.get("note"), str) else ""
+        if not wrong and not missing and not note:
+            drops.append(f"标签报告 {wid}：没有认识的题材 id，也没写说明")
+            continue
+        gone = sum(1 for xs in lists for x in xs if not ok(x))
+        if gone:
+            drops.append(f"标签报告 {wid} 里 {gone} 个不认识或不显示的题材 id")
+        date = r.get("date") if isinstance(r.get("date"), str) and re.fullmatch(r"\d{4}-\d{2}-\d{2}", r["date"]) else ""
+        out[wid] = {"wrong": wrong, "missing": missing, "note": note, "date": date}
+    if len(raw) > MAX_RATINGS:
+        drops.append(f"标签报告超过 {MAX_RATINGS} 部，后面的 {len(raw) - MAX_RATINGS} 部不看")
+    return out, drops
+
+
 def spam_reason(ratings, black=()):
     if len(black) > MAX_RATINGS:
         return f"黑榜 {len(black)} 部，超过 {MAX_RATINGS} 部"
@@ -279,7 +316,8 @@ def from_github(gh):
     return out
 
 
-def aggregate(sources, ids, voters, rules):
+def aggregate(sources, ids, voters, rules, genres=None):
+    """genres 是题材字典（data/genres.json），只用来查标签报告里的题材 id"""
     latest = {}
     for s in sources:
         who = voters.get(s.key, s.key)
@@ -295,11 +333,12 @@ def aggregate(sources, ids, voters, rules):
             obj = parse_text(s.text)
             ratings, votes, black, unknown, bad, vote_drops = extract(obj, ids, rules)
             recog, recog_drops = extract_recognition(obj, ids)
+            tags, tag_drops = extract_tags(obj, ids, genres or {})
             reason = spam_reason(ratings, black)
             if reason:
                 raise ValueError(f"像刷分：{reason}")
-            if not ratings and not votes and not black and not recog:
-                raise ValueError("没有对得上作品的 1–5 星评分，也没有合格的投票、黑榜和识别报告")
+            if not ratings and not votes and not black and not recog and not tags:
+                raise ValueError("没有对得上作品的 1–5 星评分，也没有合格的投票、黑榜、识别报告和标签报告")
         except ValueError as e:
             dropped.append((s.label, str(e)))
             continue
@@ -308,7 +347,7 @@ def aggregate(sources, ids, voters, rules):
             notes.append(f"{s.label}：丢掉 {unknown} 条资料里没有的作品、{bad} 条不合格的分数")
         for why in vote_drops:
             notes.append(f"{s.label}：丢掉投票 {why}")
-        for why in recog_drops:
+        for why in recog_drops + tag_drops:
             notes.append(f"{s.label}：丢掉{why}")
         for wid, v in ratings.items():
             t = totals.setdefault(wid, [0, 0])
@@ -327,6 +366,8 @@ def aggregate(sources, ids, voters, rules):
             people[wid].add(who)
         for rep in recog:  # 识别报告：和理由一起只进本地报告
             reasons.append((rep.get("matched", ""), "recog", day, who, s.channel, rep))
+        for wid, rep in tags.items():  # 标签报告：也只进本地报告
+            reasons.append((wid, "tags", day, who, s.channel, rep))
     community = {wid: {"avg": float((Decimal(s) / Decimal(n)).quantize(Decimal("0.01"), ROUND_HALF_UP)), "count": n}
                  for wid, (s, n) in totals.items()}
     black_tally = {wid: (len(ws), len(people[wid])) for wid, ws in blackers.items()}  # 作品 → (拉黑人数, 参与人数)
@@ -446,13 +487,14 @@ def check_reasons_path(path):
     return path
 
 
-def write_reasons(path, reasons, godvote, titles, date, blacklist=None):
+def write_reasons(path, reasons, godvote, titles, date, blacklist=None, genres=None):
     lines = ["# 神作复议理由（本地，不发布）", "",
              f"由 tools/community.py 在 {datetime.datetime.now():%Y-%m-%d %H:%M} 生成（结算日期 {date}），每次结算整份重写。"
              "这里的理由不进仓库、不进数据包；但走 GitHub 的那些本来就公开在 issue 里。", ""]
-    votes = [r for r in reasons if r[1] not in ("black", "recog")]
+    votes = [r for r in reasons if r[1] not in ("black", "recog", "tags")]
     blacks = [r for r in reasons if r[1] == "black"]
     recogs = [r for r in reasons if r[1] == "recog"]
+    tags = [r for r in reasons if r[1] == "tags"]
     if not votes:
         lines.append("（现在没有写了理由的投票）")
     by_work = collections.defaultdict(list)
@@ -494,6 +536,20 @@ def write_reasons(path, reasons, godvote, titles, date, blacklist=None):
             lines.append(f"  - 启动程序 {show(rep['exes'])} · 标题 {show(rep['titles'])} · 名字候选 {show(rep['names'])}"
                          + (f" · 编号 {show(rep['rjs'])}" if rep["rjs"] else ""))
         lines.append("")
+    lines += ["", "# 标签报告（本地，不发布）", "",
+              "用户点「标签不对？」记下的，给下次更新资料改题材标签（genres）用。按作品分组，一人一行，不写是谁。", ""]
+    if not tags:
+        lines.append("（现在没有标签报告）")
+    by_work = collections.defaultdict(list)
+    for r in tags:
+        by_work[r[0]].append(r[5] | {"date": r[5]["date"] or r[2]})  # 没写日期的用提交日期
+    names = lambda xs: "、".join(f"{((genres or {}).get(x) or {}).get('zh') or x}（{x}）" for x in xs)  # noqa: E731
+    for wid in sorted(by_work):
+        lines += [f"## {titles.get(wid, wid)}（{wid}）· {len(by_work[wid])} 人报告", ""]
+        for rep in sorted(by_work[wid], key=lambda t: (t["date"], t["wrong"], t["missing"], t["note"])):
+            parts = (("不对", names(rep["wrong"])), ("少了", names(rep["missing"])), ("说明", rep["note"]))
+            lines.append(f"- {rep['date']} · " + "；".join(f"{k}：{v}" for k, v in parts if v))
+        lines.append("")
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("\n".join(lines).rstrip("\n") + "\n", encoding="utf-8")
 
@@ -518,7 +574,8 @@ def main():
         sources = from_folder(args.dir)
         if args.from_github:
             sources += from_github(args.gh)
-        community, tally, black_tally, reasons, used, dropped, notes, replaced = aggregate(sources, set(titles), voters, rules)
+        genres = catalog.get("genres") or {}
+        community, tally, black_tally, reasons, used, dropped, notes, replaced = aggregate(sources, set(titles), voters, rules, genres)
         godvote, canon, moves = settle(catalog, community, tally, date)
         blacklist, black_moves = settle_blacklist(catalog, black_tally, date)
         changes = apply(community, godvote, args.dry_run, blacklist)
@@ -526,7 +583,7 @@ def main():
         if not args.dry_run:
             if canon_changed:
                 (DATA / "canon.json").write_text(json.dumps(canon, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
-            write_reasons(reasons_path, reasons, godvote, titles, date, blacklist)
+            write_reasons(reasons_path, reasons, godvote, titles, date, blacklist, genres)
     except (OSError, ValueError) as e:
         print(f"汇总失败：{e}", file=sys.stderr)
         return 1
@@ -553,8 +610,8 @@ def main():
           + (f"（≥ {bl_rule['minVoters']} 人且占参与的人 ≥ {bl_rule['minShare']:.0%}）" if bl_rule else "（配方没有 blacklist，不标注）"))
     for m in black_moves:
         print(f"  {m}")
-    n_recog = sum(1 for r in reasons if r[1] == "recog")
-    print(f"理由 {len(reasons) - n_recog} 条、识别报告 {n_recog} 条" + ("（只是预览，没有写报告）" if args.dry_run else f"，写进本地报告 {reasons_path}"))
+    n_recog, n_tags = (sum(1 for r in reasons if r[1] == k) for k in ("recog", "tags"))
+    print(f"理由 {len(reasons) - n_recog - n_tags} 条、识别报告 {n_recog} 条、标签报告 {n_tags} 条" + ("（只是预览，没有写报告）" if args.dry_run else f"，写进本地报告 {reasons_path}"))
     if canon_changed:
         print("data/canon.json：" + ("会改（预览）" if args.dry_run else "已改"))
     if changes:

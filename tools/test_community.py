@@ -1,4 +1,4 @@
-"""community.py 的黑榜部分和 check_pack.py 对应的检查：py -m unittest discover -s tools（不读写 data/ 以外的东西，不改 data/）"""
+"""community.py 的黑榜、识别报告、标签报告部分和 check_pack.py 对应的检查：py -m unittest discover -s tools（不读写 data/ 以外的东西，不改 data/）"""
 import datetime
 import json
 import sys
@@ -9,14 +9,14 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from build_pack import build_catalog  # noqa: E402
 from check_pack import blacklist_problem, scoring_problems  # noqa: E402
-from community import Source, aggregate, extract, extract_recognition, place, settle_blacklist, spam_reason, write_reasons  # noqa: E402
+from community import Source, aggregate, extract, extract_recognition, extract_tags, place, settle_blacklist, spam_reason, write_reasons  # noqa: E402
 
 RULES = {"reasonRequired": "oppose", "reasonMinChars": 20}
 IDS = {"RJ1", "RJ2", "RJ3"}
 DAY = datetime.date(2026, 11, 1)
 
 
-def sub(ratings=None, votes=None, blacklist=None, kind="beatrice-ratings-submission", recognition=None):
+def sub(ratings=None, votes=None, blacklist=None, kind="beatrice-ratings-submission", recognition=None, tags=None):
     obj = {"kind": kind, "version": 1, "app": "x", "catalog": "2026-10-29", "ratings": ratings or {}}
     if votes is not None:
         obj["votes"] = votes
@@ -24,6 +24,8 @@ def sub(ratings=None, votes=None, blacklist=None, kind="beatrice-ratings-submiss
         obj["blacklist"] = blacklist
     if recognition is not None:
         obj["recognition"] = recognition
+    if tags is not None:
+        obj["tags"] = tags
     return obj
 
 
@@ -120,6 +122,54 @@ class Recognition(unittest.TestCase):
         self.assertIn("# 识别报告（本地，不发布）", text)
         self.assertIn("## 认成 维尔莫林（RJ1）", text)
         self.assertIn("文件夹 `汉化\\Velmorin v1.2` · 凭 folder，应该是 另一部（RJ2）", text)
+
+
+class Tags(unittest.TestCase):
+    GENRES = {"070": {"ja": "触手", "zh": "触手", "en": "Tentacles"}, "400": {"ja": "学生", "zh": "学生", "en": "Student"},
+              "206": {"ja": "少女", "zh": "少女", "en": "Girl"}, "900": {"ja": "x", "zh": "x", "en": "x", "hidden": True}}
+
+    def test_cleaning(self):
+        reps, drops = extract_tags(sub(tags={
+            "RJ1": {"wrong": ["070", "070", "206", "999", 3], "missing": ["400", "070", "900"], "note": "  标签\n不对  " + "字" * 300,
+                    "date": "2026-10-30", "user": "alice"},
+            "RJ2": {"wrong": ["206"], "missing": [], "date": "x"},  # 只剩年龄类：整条丢掉
+            "RJ3": {"note": "只有说明也收"}, "RJ9": {"wrong": ["070"]}, "RJ4": "坏"}), IDS | {"RJ4"}, self.GENRES)
+        self.assertEqual(reps["RJ1"]["wrong"], ["070"])
+        self.assertEqual(reps["RJ1"]["missing"], ["400"])  # 和 wrong 重复的、hidden 的去掉
+        self.assertEqual(len(reps["RJ1"]["note"]), 200)
+        self.assertTrue(reps["RJ1"]["note"].startswith("标签 不对 字"))
+        self.assertEqual(set(reps["RJ1"]), {"wrong", "missing", "note", "date"})
+        self.assertEqual(reps["RJ3"], {"wrong": [], "missing": [], "note": "只有说明也收", "date": ""})
+        self.assertEqual(sorted(reps), ["RJ1", "RJ3"])
+        self.assertEqual(len(drops), 4)  # RJ1 去掉的题材 id、RJ2、RJ9、RJ4
+        self.assertTrue(all(d.startswith("标签报告") for d in drops))
+        self.assertEqual(extract_tags({"kind": "beatrice-marks", "tags": {"RJ1": {"wrong": ["070"]}}}, IDS, self.GENRES), ({}, []))
+        with self.assertRaises(ValueError):
+            extract_tags(sub(tags=[{"wrong": ["070"]}]), IDS, self.GENRES)
+
+    def test_bad_field_drops_submission_and_latest_wins(self):
+        sources = [src("a", 1, sub(tags={"RJ1": {"wrong": ["070"]}})), src("a", 2, sub(tags={"RJ2": {"missing": ["400"], "date": "2026-10-30"}})),
+                   src("b", 1, sub({"RJ1": 4}, tags="坏"))]
+        community, tally, black, reasons, used, dropped, notes, replaced = aggregate(sources, IDS, {}, RULES, self.GENRES)
+        self.assertEqual([r[0] for r in reasons if r[1] == "tags"], ["RJ2"])  # 只有标签报告也收；新的顶掉旧的
+        self.assertEqual([d[0] for d in dropped], ["b.json"])  # tags 不是对象：整份不要
+        self.assertEqual(community, {})
+
+    def test_written_locally(self):
+        sources = [src("a", 1, sub(tags={"RJ1": {"wrong": ["070"], "missing": ["400"], "note": "其实没有触手", "date": "2026-10-30"}})),
+                   src("b", 1, sub(tags={"RJ1": {"missing": ["400"], "date": "2026-10-29"}}))]
+        *_, reasons, _, _, _, _ = aggregate(sources, IDS, {}, RULES, self.GENRES)
+        out = Path(__file__).resolve().parent.parent / "submissions" / "_test_tags.md"
+        try:
+            write_reasons(out, reasons, {}, {"RJ1": "维尔莫林"}, DAY, genres=self.GENRES)
+            text = out.read_text(encoding="utf-8")
+        finally:
+            out.unlink(missing_ok=True)
+        self.assertIn("# 标签报告（本地，不发布）", text)
+        self.assertIn("## 维尔莫林（RJ1）· 2 人报告", text)
+        self.assertIn("- 2026-10-29 · 少了：学生（400）\n- 2026-10-30 · 不对：触手（070）；少了：学生（400）；说明：其实没有触手", text)
+        self.assertNotIn("· a ·", text)  # 不写是谁
+        self.assertIn("（现在没有写了理由的投票）", text)
 
 
 class Settle(unittest.TestCase):
