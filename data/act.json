@@ -5748,9 +5748,12 @@
     "state": "released",
     "title": "魁!おねしょたFight!",
     "names": {
-      "ja": "魁!おねしょたFight!"
+      "ja": "魁!おねしょたFight!",
+      "zh": "魁！姐正Fight！"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "あんかけプリン",
     "date": "2018-12-29",
     "rate": 4.28,
