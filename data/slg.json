@@ -128,11 +128,10 @@
     "title": "ProjectR（仮）",
     "names": {
       "ja": "ProjectR（仮）",
-      "zh": "ProjectR（暂定）",
+      "zh": "计划R",
       "en": "Project R"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "[チーム]アップルパイ",
@@ -156,6 +155,9 @@
       "zh": "八星帝",
       "en": "Hasseitei"
     },
+    "aka": [
+      "雷神8"
+    ],
     "mt": [
       "en"
     ],
@@ -190,11 +192,10 @@
     "title": "群青のオルファネージ ～淫欲に堕ちゆく無垢なる少女～",
     "names": {
       "ja": "群青のオルファネージ ～淫欲に堕ちゆく無垢なる少女～",
-      "zh": "群青孤儿院 ～堕入淫欲的无垢少女～",
+      "zh": "群青孤儿战记~堕落的无垢少女~",
       "en": "Ultramarine Orphanage ~An Innocent Girl Falling into Lust~"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "こみなみ",
@@ -228,9 +229,12 @@
     "title": "ROOM",
     "names": {
       "ja": "ROOM",
-      "zh": "ROOM",
+      "zh": "ROOM – 24小时无死角偷窥",
       "en": "ROOM"
     },
+    "aka": [
+      "ROOM – 24小時無死角偷窺"
+    ],
     "mt": [],
     "circle": "SORAREVO",
     "date": "2023-04-08",
@@ -263,11 +267,10 @@
     "title": "万引き女子の指導法",
     "names": {
       "ja": "万引き女子の指導法",
-      "zh": "偷窃女子的指导法",
+      "zh": "偷窃少女的教育方法",
       "en": "How to Discipline a Shoplifting Girl"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "JSK工房",
@@ -306,9 +309,7 @@
     "aliases": [
       "Mansha300_2"
     ],
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "ベルゼブブ",
     "date": "2023-04-18",
     "rate": 4.57,
@@ -339,7 +340,8 @@
     "state": "released",
     "title": "[ENG Ver.] Countryside Life",
     "names": {
-      "ja": "[ENG Ver.] Countryside Life"
+      "ja": "[ENG Ver.] Countryside Life",
+      "zh": "乡下生活"
     },
     "mt": [],
     "circle": "ピクトルサーカス",
@@ -359,11 +361,10 @@
     "title": "がちんこ傭兵団",
     "names": {
       "ja": "がちんこ傭兵団",
-      "zh": "硬派佣兵团",
+      "zh": "加钦哥佣兵团",
       "en": "Gachinko Mercenaries"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "ポン・デ・ウシ",
@@ -395,11 +396,10 @@
     "id": "RJ01043101",
     "names": {
       "ja": "あまえんぼ冬",
-      "zh": "撒娇鬼 冬",
+      "zh": "冬日狂想曲",
       "en": "AMAENBO Winter"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "rc": 26221,
@@ -413,11 +413,13 @@
     "title": "苗床クリッカー",
     "names": {
       "ja": "苗床クリッカー",
-      "zh": "苗床点击器",
+      "zh": "苗床点点乐",
       "en": "Breeding Ground Clicker"
     },
+    "aka": [
+      "苗床點點樂"
+    ],
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "I'm moralist",
@@ -451,11 +453,10 @@
     "title": "ハーレム島へようこそ!",
     "names": {
       "ja": "ハーレム島へようこそ!",
-      "zh": "欢迎来到后宫岛！",
+      "zh": "欢迎来到后宫岛",
       "en": "Welcome to Harem Island!"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "Resta!",
@@ -526,9 +527,12 @@
     "title": "忍堕とし",
     "names": {
       "ja": "忍堕とし",
-      "zh": "忍堕",
+      "zh": "忍堕－女忍调教",
       "en": "Ninja Disgrace"
     },
+    "aka": [
+      "忍墮－女忍調教"
+    ],
     "mt": [],
     "circle": "まろん☆まろん",
     "date": "2023-05-03",
@@ -871,14 +875,13 @@
     "title": "侵蝕のヒプノシス",
     "names": {
       "ja": "侵蝕のヒプノシス",
-      "zh": "侵蚀的催眠",
+      "zh": "催眠之蚀",
       "en": "Hypnosis of Erosion"
     },
     "aliases": [
       "侵蚀的催眠"
     ],
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "ALLDICE",
@@ -941,11 +944,10 @@
     "title": "孕ませ!子作りファーム",
     "names": {
       "ja": "孕ませ!子作りファーム",
-      "zh": "受孕！育子农场",
+      "zh": "奋斗吧！播种牧场",
       "en": "Breeding! Baby-Making Farm"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "XO_PROJECT",
@@ -980,12 +982,10 @@
     "title": "ラストハーレム～孕ませインフレーション～",
     "names": {
       "ja": "ラストハーレム～孕ませインフレーション～",
-      "zh": "最后的后宫～受孕膨胀～",
+      "zh": "最后的乐园",
       "en": "Last Harem ~Inpregflation~"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "穀雨堂",
     "date": "2023-10-26",
     "rate": 4.35,
@@ -1054,12 +1054,13 @@
     "title": "女子大生との同棲生活",
     "names": {
       "ja": "女子大生との同棲生活",
-      "zh": "与女大学生的同居生活",
+      "zh": "与女大生的同居生活",
       "en": "Life With a College Girl [PC Ver.]"
     },
-    "mt": [
-      "zh"
+    "aka": [
+      "與女大生的同居生活"
     ],
+    "mt": [],
     "circle": "Playmeow",
     "date": "2023-10-03",
     "rate": 4.13,
@@ -1165,7 +1166,7 @@
     "title": "催眠アイドル 女子大生ライバーと催眠アプリでエッチしちゃう話",
     "names": {
       "ja": "催眠アイドル 女子大生ライバーと催眠アプリでエッチしちゃう話",
-      "zh": "催○偶像 用催○APP和女大学生主播色色的故事",
+      "zh": "催眠偶像",
       "en": "Entranced Idol: Sway a college streamer girl into sexy fun with a trance app"
     },
     "mt": [],
@@ -1246,9 +1247,10 @@
       "zh": "水母生活",
       "en": "Kurage Life"
     },
-    "mt": [
-      "zh"
+    "aka": [
+      "栈妓"
     ],
+    "mt": [],
     "circle": "テイル・アキ",
     "date": "2024-02-25",
     "rate": 4.66,
@@ -1341,11 +1343,10 @@
     "title": "ホムンクルスとの性活 ~Life with a Homunculus~",
     "names": {
       "ja": "ホムンクルスとの性活 ~Life with a Homunculus~",
-      "zh": "与人造人的性活",
+      "zh": "我与人造少女的日常",
       "en": "Life with a Homunculus"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "へるめす",
@@ -1376,9 +1377,12 @@
     "state": "released",
     "title": "世界でいちばん歪(ぴゅあ)な凌辱(こい)",
     "names": {
-      "ja": "世界でいちばん歪(ぴゅあ)な凌辱(こい)"
+      "ja": "世界でいちばん歪(ぴゅあ)な凌辱(こい)",
+      "zh": "世界上最扭曲（纯洁）的凌辱（恋爱）"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "dark.ryona.x15",
     "date": "2024-01-06",
     "rate": 4,
@@ -1395,11 +1399,10 @@
     "title": "ぽんこつ生主ミライちゃん～えっちなコメント受付中～",
     "names": {
       "ja": "ぽんこつ生主ミライちゃん～えっちなコメント受付中～",
-      "zh": "废柴主播未来酱 ～欢迎色色评论～",
+      "zh": "No-good Streamer Mirai-chan! (Now accepting lewd comments)[zh Ver.]",
       "en": "Ponkotsu Streamer Mirai-chan"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "むねにくたべたい",
@@ -1437,11 +1440,10 @@
     "title": "オペレーションダークサイド:聖核戦姫壊滅作戦",
     "names": {
       "ja": "オペレーションダークサイド:聖核戦姫壊滅作戦",
-      "zh": "黑暗面作战：圣核战姬歼灭作战",
+      "zh": "黑暗行动：圣核战姬毁灭作战",
       "en": "Operation Dark Side: Annihilation of the Holy Core Battle Princesses"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "ダークネスLAB",
@@ -1508,14 +1510,13 @@
     "title": "なついろレッスン～the last summer time",
     "names": {
       "ja": "なついろレッスン～the last summer time",
-      "zh": "夏色课程～the last summer time",
+      "zh": "暑期课程~去年夏天",
       "en": "Summer-Colored Lessons ~the last summer time"
     },
     "aliases": [
       "NatsuiroLesson"
     ],
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "18番目の地下道",
@@ -1582,7 +1583,8 @@
     "state": "released",
     "title": "はだかのおつかい～変態おねえさんばかりの街で～",
     "names": {
-      "ja": "はだかのおつかい～変態おねえさんばかりの街で～"
+      "ja": "はだかのおつかい～変態おねえさんばかりの街で～",
+      "zh": "裸体差事"
     },
     "mt": [],
     "circle": "やみぐみ",
@@ -1643,7 +1645,9 @@
       "zh": "PIXEL CALL GIRLS -REI-",
       "en": "PIXEL CALL GIRLS -REI-"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "Milk Engine",
     "date": "2025-04-26",
     "rate": 4.6,
@@ -1675,11 +1679,13 @@
     "title": "サキュバスカジノ ~淫魔城サキュバス~",
     "names": {
       "ja": "サキュバスカジノ ~淫魔城サキュバス~",
-      "zh": "魅魔赌场 ～淫魔城～",
+      "zh": "老虎机魅魔赌场～淫魔城魅魔～",
       "en": "Succubus Casino"
     },
+    "aka": [
+      "魅魔賭場～淫魔城魅魔～"
+    ],
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "ユウガオ",
@@ -1711,11 +1717,14 @@
     "title": "すと～きんぐ! ~あの子に催眠→こっそりイタズラ→どこでもえっち~",
     "names": {
       "ja": "すと～きんぐ! ~あの子に催眠→こっそりイタズラ→どこでもえっち~",
-      "zh": "跟踪！～对那个女孩催眠→偷偷恶作剧→随处H～",
+      "zh": "stop king!催○那个女孩→悄悄捉弄她→随时随地都可以H~",
       "en": "Stalking! ~Hypnotize Her, Prank Her in Secret, Then Anywhere~"
     },
+    "aka": [
+      "跟~踪！~催○她→偷偷恶作剧→随处做爱~",
+      "跟～蹤！～催○她→偷偷捉弄她→隨時隨地做愛～"
+    ],
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "ビュルエール醸造所",
@@ -1821,11 +1830,13 @@
     "title": "異世界樹の巫女～魔法のチカラでおさわりHやりたい放題～",
     "names": {
       "ja": "異世界樹の巫女～魔法のチカラでおさわりHやりたい放題～",
-      "zh": "异世界树的巫女～用魔法之力尽情触摸H～",
+      "zh": "异世界树的巫女～用魔法触摸尽情做色色的事～",
       "en": "Shrine Maiden of the Otherworld Tree ~Touch All You Want with Magic~"
     },
+    "aka": [
+      "異世界樹的巫女～用魔法觸摸盡情做色色的事～"
+    ],
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "たわわデリバリー",
@@ -1862,6 +1873,9 @@
       "zh": "多丽丝公主与夜晚的奥兹托梅",
       "en": "Doris - Lady of the Night"
     },
+    "aka": [
+      "多莉丝公主的夜晚之约"
+    ],
     "mt": [],
     "circle": "MountBatten",
     "date": "2024-04-05",
@@ -1893,9 +1907,12 @@
     "state": "released",
     "title": "メイドイン!～新人メイドと坊ちゃまの、エッチなお屋敷箱庭性活～",
     "names": {
-      "ja": "メイドイン!～新人メイドと坊ちゃまの、エッチなお屋敷箱庭性活～"
+      "ja": "メイドイン!～新人メイドと坊ちゃまの、エッチなお屋敷箱庭性活～",
+      "zh": "女仆进门！～新人女仆与少爷的色色宅邸箱庭性活～"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "なぎや本舗",
     "date": "2024-04-13",
     "rate": 4.21,
@@ -1912,9 +1929,12 @@
     "state": "released",
     "title": "いんまぐらし",
     "names": {
-      "ja": "いんまぐらし"
+      "ja": "いんまぐらし",
+      "zh": "淫魔生活"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "大人の道楽",
     "date": "2024-08-09",
     "rate": 4.71,
@@ -1932,8 +1952,12 @@
     "title": "ギンギン公園☆巨乳ギャルx童貞ボーイズ～過激!露出で逆ナンパ指令～リアルタイム3Dゲーム",
     "names": {
       "ja": "ギンギン公園☆巨乳ギャルx童貞ボーイズ～過激!露出で逆ナンパ指令～リアルタイム3Dゲーム",
-      "zh": "【日文版】性奋公园☆巨乳辣妹x小处男～过激！露出逆搭讪指令～实时3D游戏"
+      "zh": "雞雞硬硬公園☆巨乳辣妹x童貞男孩～超激情!!野外露出的強制誘惑"
     },
+    "aka": [
+      "雞雞硬硬公園",
+      "银银公园☆巨乳辣妹x童贞男孩~过激！"
+    ],
     "mt": [],
     "circle": "DOUJIN3ARIES",
     "date": "2024-08-20",
@@ -2006,7 +2030,7 @@
     "title": "冒険者ちゃんを捕まえた!～Live2D触手シミュレーター～【エロステータス・産卵・スライム排泄・オホ声etc】",
     "names": {
       "ja": "冒険者ちゃんを捕まえた!～Live2D触手シミュレーター～【エロステータス・産卵・スライム排泄・オホ声etc】",
-      "zh": "冒险者酱被抓住了！～Live2D触手模拟器～【情色状态・产卵・黏液排泄・哦吼淫叫等】",
+      "zh": "抓到冒险者酱了！ ～Live2D触手模拟器～",
       "en": "Catch That Adventurer! ~Live2D Tentacle Simulation~"
     },
     "mt": [],
@@ -2062,7 +2086,7 @@
     "title": "WINTER-田舎の性活-",
     "names": {
       "ja": "WINTER-田舎の性活-",
-      "zh": "WINTER-乡村性活-",
+      "zh": "Winter~乡间性活~",
       "en": "Winter ~Life in the Countryside~"
     },
     "mt": [],
@@ -2095,9 +2119,12 @@
     "title": "口淫風俗店～巨乳お姉さんのフェラチオ搾精",
     "names": {
       "ja": "口淫風俗店～巨乳お姉さんのフェラチオ搾精",
-      "en": "Oral Sex Shop ~Busty Lady's Cum-squeezing Blowjob~"
+      "en": "Oral Sex Shop ~Busty Lady's Cum-squeezing Blowjob~",
+      "zh": "口交风俗店～巨乳大姐姐的口交榨精"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "A86GJ3",
     "date": "2024-07-22",
     "rate": 4.48,
@@ -2114,9 +2141,12 @@
     "title": "早漏改善トレーニング～ナースお姉さんの強制射精手袋コキ",
     "names": {
       "ja": "早漏改善トレーニング～ナースお姉さんの強制射精手袋コキ",
-      "en": "Medicine for Minutemen: The Nurse's Glove Handjob"
+      "en": "Medicine for Minutemen: The Nurse's Glove Handjob",
+      "zh": "早泄改善训练～护士大姐姐的强制射精手套撸"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "A86GJ3",
     "date": "2024-08-08",
     "rate": 4.51,
@@ -2255,11 +2285,10 @@
     "title": "さらけだせ!野外露出配信",
     "names": {
       "ja": "さらけだせ!野外露出配信",
-      "zh": "全部展现！野外露出直播",
+      "zh": "释放自我！户外直播体验",
       "en": "Expose It All! Outdoor Streaming"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "ガオン堂",
@@ -2293,11 +2322,14 @@
     "title": "フォレスティア～ちいさな町の牧場ライフ～",
     "names": {
       "ja": "フォレスティア～ちいさな町の牧場ライフ～",
-      "zh": "佛蕾斯缇亚～小镇的牧场生活～",
+      "zh": "Forestia～小镇的牧场生活～",
       "en": "Forestia ~Ranch Life in a Little Town~"
     },
+    "aka": [
+      "Forestia～小鎮的牧場生活～",
+      "小镇农场生活"
+    ],
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "いなずまそふと",
@@ -2324,9 +2356,12 @@
     "title": "激しいフェラで巨乳サキュバスお姉さんに食べられちゃう!",
     "names": {
       "ja": "激しいフェラで巨乳サキュバスお姉さんに食べられちゃう!",
-      "en": "Gobbled Up by a Big-titty Succubus' Hardcore Blowjob!"
+      "en": "Gobbled Up by a Big-titty Succubus' Hardcore Blowjob!",
+      "zh": "被巨乳魅魔大姐姐用激烈口交吃掉了！"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "A86GJ3",
     "date": "2024-10-19",
     "rate": 4.54,
@@ -2422,9 +2457,12 @@
     "title": "優しい巨乳シスターお姉さんに逆レイプされちゃった",
     "names": {
       "ja": "優しい巨乳シスターお姉さんに逆レイプされちゃった",
-      "en": "Ravaged by a Naughty but Nice Nun"
+      "en": "Ravaged by a Naughty but Nice Nun",
+      "zh": "被温柔的巨乳修女大姐姐逆推了"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "A86GJ3",
     "date": "2024-11-20",
     "rate": 4.39,
@@ -2446,6 +2484,7 @@
       "en": "Doomsday Shelter Sex Life"
     },
     "mt": [
+      "zh",
       "en"
     ],
     "circle": "7センチ",
@@ -2517,9 +2556,12 @@
     "title": "デカ乳バニーお姉さんの本気搾精交尾",
     "names": {
       "ja": "デカ乳バニーお姉さんの本気搾精交尾",
-      "en": "Busty Bunny Lady's Cum-squeezing Copulation"
+      "en": "Busty Bunny Lady's Cum-squeezing Copulation",
+      "zh": "大奶兔女郎大姐姐的认真榨精交尾"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "A86GJ3",
     "date": "2024-12-11",
     "rate": 4.39,
@@ -2569,11 +2611,10 @@
     "title": "シロウト家出娘と俺 Sweet Days",
     "names": {
       "ja": "シロウト家出娘と俺 Sweet Days",
-      "zh": "素人离家少女与我 Sweet Days",
+      "zh": "シロウト家出娘と俺 Sweet Days",
       "en": "The Amateur Runaway Girl and Me: Sweet Days"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "レベル1",
@@ -2607,7 +2648,7 @@
     "title": "奥様はNTR志望 純愛?復讐?",
     "names": {
       "ja": "奥様はNTR志望 純愛?復讐?",
-      "zh": "妻子是自愿NTR 纯爱？复仇？",
+      "zh": "人妻志在NTR",
       "en": "Wife Wants NTR - Pure Love or Revenge?"
     },
     "mt": [],
@@ -2717,7 +2758,7 @@
     "title": "極道無頼EX:女警・鮎川光--処女が変態に変わる分かれ道",
     "names": {
       "ja": "極道無頼EX:女警・鮎川光--処女が変態に変わる分かれ道",
-      "zh": "极道无赖EX：女警鲇川光",
+      "zh": "极道无赖EX：女警・鮎川光--从处女蜕变为变态的分岔路",
       "en": "Yakuza Rogue EX: Hikari Ayukawa [PC Ver.]"
     },
     "aliases": [
@@ -2753,11 +2794,10 @@
     "title": "廃墟でG ～ドスケベ変態露出サンドボックス～",
     "names": {
       "ja": "廃墟でG ～ドスケベ変態露出サンドボックス～",
-      "zh": "在废墟里 G ～变态露出沙盒～",
+      "zh": "废墟中的G",
       "en": "G in the Ruins ~Perverted Exhibitionist Sandbox~"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "阿能蟹工船Z",
@@ -2822,7 +2862,7 @@
     "title": "これでお前も性処理課！",
     "names": {
       "ja": "これでお前も性処理課！",
-      "zh": "这样一来你也是性处理科的一员了！",
+      "zh": "今日起你就进性处理科啦！",
       "en": "Now You're in the Sexual Handling Department!"
     },
     "mt": [],
@@ -2861,6 +2901,7 @@
       "en": "Shrine Maiden of the False World Tree ~Touch Freely Around Town & Catch Gals with Ero Traps~"
     },
     "mt": [
+      "zh",
       "en"
     ],
     "circle": "たわわデリバリー",
@@ -2895,11 +2936,10 @@
     "title": "SUMMER ~夏の14日~",
     "names": {
       "ja": "SUMMER ~夏の14日~",
-      "zh": "SUMMER ~夏日14天~",
+      "zh": "SUMMER ~夏日的14天~",
       "en": "SUMMER ~14 Days of Summer~"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "ディーゼルマイン",
@@ -2968,11 +3008,10 @@
     "title": "NTRサッカー",
     "names": {
       "ja": "NTRサッカー",
-      "zh": "NTR 足球",
+      "zh": "NTR足球",
       "en": "NTR Soccer"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "Hizure",
@@ -3004,11 +3043,10 @@
     "title": "生き残れ！無人島サバイバル性活♡",
     "names": {
       "ja": "生き残れ！無人島サバイバル性活♡",
-      "zh": "活下去！无人岛求生性活♡",
+      "zh": "活下去！无人岛生存性活♡",
       "en": "Survive! Desert Island Sex Life"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "ガオン堂",
@@ -3047,7 +3085,7 @@
     "title": "Re:Sister―妹とふたり、ひみつの同棲生活―",
     "names": {
       "ja": "Re:Sister―妹とふたり、ひみつの同棲生活―",
-      "zh": "Re:Sister―与妹妹两人，秘密的同居生活―",
+      "zh": "Re:Sister─與妹妹兩人，秘密的同居生活─",
       "en": "Re:Sister ~Two Siblings, One Secret Life~"
     },
     "mt": [],
@@ -3233,9 +3271,13 @@
     "title": "近所の人妻2-旦那の隣で我を忘れてる中出しSEX",
     "names": {
       "ja": "近所の人妻2-旦那の隣で我を忘れてる中出しSEX",
-      "zh": "邻家的人妻2-在丈夫身旁忘我地中出SEX",
+      "zh": "鄰家的人妻 - 在丈夫身旁忘我地中出SEX",
       "en": "The Married Woman Nextdoor 2 - Creampie SEX Beside Her Husband"
     },
+    "aka": [
+      "邻家的人妻2 - 在丈夫身旁忘我地中出SEX",
+      "鄰家的人妻2 - 在丈夫身旁忘我地中出SEX"
+    ],
     "mt": [],
     "circle": "AibanWork",
     "date": "2025-09-05",
@@ -3309,11 +3351,10 @@
     "title": "無人島社員旅行記 女たちの生存戦略",
     "names": {
       "ja": "無人島社員旅行記 女たちの生存戦略",
-      "zh": "无人岛员工旅行记 女人们的生存战略",
+      "zh": "無人島社員旅行記",
       "en": "Desert Island Company Trip: The Women's Survival Strategy"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "やさにき",
@@ -3383,11 +3424,10 @@
     "title": "イケない！ 同棲らいふ",
     "names": {
       "ja": "イケない！ 同棲らいふ",
-      "zh": "不可以！同居生活",
+      "zh": "不妙！突如其来的同居生活",
       "en": "Naughty! Living Together"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "らこりおソフト",
@@ -3420,9 +3460,15 @@
     "title": "PUBPET",
     "names": {
       "ja": "PUBPET",
-      "zh": "PUBPET",
+      "zh": "公共宠物",
       "en": "PUBPET"
     },
+    "aka": [
+      "酒馆宠物",
+      "酒馆萌宠",
+      "酒馆奴隶",
+      "酒吧宠物"
+    ],
     "mt": [],
     "circle": "NEKOUJI",
     "date": "2026-04-15",
@@ -3553,8 +3599,12 @@
     "state": "released",
     "title": "[ENG Ver.] Forestia ~Farm Life in the Country~",
     "names": {
-      "ja": "[ENG Ver.] Forestia ~Farm Life in the Country~"
+      "ja": "[ENG Ver.] Forestia ~Farm Life in the Country~",
+      "zh": "[简体中文版] Forestia～小镇的牧场生活～"
     },
+    "aka": [
+      "[繁體中文版] Forestia～小鎮的牧場生活～"
+    ],
     "mt": [],
     "circle": "",
     "date": "2025-11-07",
@@ -3571,7 +3621,8 @@
     "state": "released",
     "title": "[繁體中文版] Forestia～小鎮的牧場生活～",
     "names": {
-      "ja": "[繁體中文版] Forestia～小鎮的牧場生活～"
+      "ja": "[繁體中文版] Forestia～小鎮的牧場生活～",
+      "zh": "[简体中文版] Forestia～小镇的牧场生活～"
     },
     "mt": [],
     "circle": "",
@@ -3589,7 +3640,8 @@
     "state": "released",
     "title": "なつねえ ～僕が恋した30日～",
     "names": {
-      "ja": "なつねえ ～僕が恋した30日～"
+      "ja": "なつねえ ～僕が恋した30日～",
+      "zh": "夏穗 ~ 我陷入恋爱的30天 ~"
     },
     "mt": [],
     "circle": "シン・ギュラリティー",
@@ -3676,11 +3728,10 @@
     "title": "CIRCLEMATE サークルメイト",
     "names": {
       "ja": "CIRCLEMATE サークルメイト",
-      "zh": "CIRCLEMATE 社团伙伴",
+      "zh": "社团伙伴",
       "en": "CIRCLEMATE"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "スチールニャンコ",
@@ -3718,6 +3769,9 @@
       "zh": "常识改变模拟器 使用催○APP与心仪的她成为恋人吧",
       "en": "Common Sense Alteration Simulator ~become lovers with your desired woman using a special app~"
     },
+    "aka": [
+      "常识改变模拟器 使用心理暗示APP与心仪的她成为恋人吧"
+    ],
     "mt": [],
     "circle": "azucat",
     "date": "2026-02-12",
@@ -3751,12 +3805,10 @@
     "title": "流民娘と始める食堂繁盛記",
     "names": {
       "ja": "流民娘と始める食堂繁盛記",
-      "zh": "与流民娘一起经营的食堂繁盛记",
+      "zh": "与流民少女共谱的食堂繁荣记",
       "en": "Diner Management Chronicles with Displaced Maidens"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "XO_PROJECT",
     "date": "2026-02-07",
     "rate": 4.62,
@@ -3790,7 +3842,9 @@
       "zh": "HOME",
       "en": "HOME"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "SORAREVO",
     "date": "2026-08-29",
     "rate": 4.38,
@@ -3826,7 +3880,6 @@
       "en": "Training the White Knight"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "マイ結社",
@@ -3864,7 +3917,6 @@
       "en": "Restraint Club"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "SDT",
@@ -3902,7 +3954,6 @@
       "en": "The Witch's Legacy"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "ベスプチ",
@@ -3936,7 +3987,9 @@
     "names": {
       "ja": "フォレスティア～ボイス追加DLC～"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "いなずまそふと",
     "date": "2026-05-22",
     "rate": 4.79,
@@ -4168,9 +4221,12 @@
     "id": "RJ162718",
     "names": {
       "ja": "Teaching Feeling -傷肌少女との生活-",
-      "zh": "Teaching Feeling 〜和瘢痕少女在一起的生活〜",
+      "zh": "与奴隶的生活",
       "en": "Life With A Sl*ve: Teaching Feeling"
     },
+    "aka": [
+      "奴隶少女希尔薇"
+    ],
     "mt": [],
     "rc": 48013,
     "src": "dlsite"
@@ -4284,9 +4340,12 @@
     "title": "お姉ちゃんとボクの夏休み",
     "names": {
       "ja": "お姉ちゃんとボクの夏休み",
-      "en": "Me and Big Sister's Summer Vacation"
+      "en": "Me and Big Sister's Summer Vacation",
+      "zh": "姐姐和我的暑假"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "BouSoft",
     "date": "2016-07-17",
     "rate": 4.43,
@@ -4363,12 +4422,10 @@
     "title": "ビフレストの魔物娼館",
     "names": {
       "ja": "ビフレストの魔物娼館",
-      "zh": "比弗罗斯特的魔物娼馆",
+      "zh": "毕弗雷斯特的魔物娼馆",
       "en": "Bifrost's Brothel Of Mamono"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "ミッドナイトプレジャー",
     "date": "2016-11-23",
     "rate": 4.72,
@@ -4394,12 +4451,10 @@
     "title": "ウラレタウン",
     "names": {
       "ja": "ウラレタウン",
-      "zh": "被卖少女之城",
+      "zh": "诱拐城镇",
       "en": "SoldGirl Town"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "ゲームコロン",
     "date": "2017-02-17",
     "rate": 4.57,
@@ -4624,7 +4679,9 @@
       "zh": "Night Attack on Little Sis!",
       "en": "Night Attack on Little Sis!"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "Namida",
     "date": "2017-02-10",
     "rate": 4.15,
@@ -4645,12 +4702,10 @@
     "title": "魔剣士リーネ2",
     "names": {
       "ja": "魔剣士リーネ2",
-      "zh": "魔剑士莉涅2",
+      "zh": "魔剑士莉奈2",
       "en": "Leane of Legitimate Crown"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "まくらカバーソフト",
     "date": "2017-02-25",
     "rate": 4.56,
@@ -4685,12 +4740,10 @@
     "title": "バージン・ロード",
     "names": {
       "ja": "バージン・ロード",
-      "zh": "处女之路",
+      "zh": "少女之路",
       "en": "VIRGIN LODE"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "ぺぺろんちーの",
     "date": "2017-07-11",
     "rate": 4.36,
@@ -4784,7 +4837,9 @@
       "zh": "真·痴汉的极致",
       "en": "Shin Chikan no Kiwami: Groper of Glory"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "ベルゼブブ",
     "date": "2018-02-20",
     "rate": 4.41,
@@ -4843,7 +4898,9 @@
       "zh": "CENDRES",
       "en": "CENDRES"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "矢印キー",
     "date": "2017-09-18",
     "rate": 4.33,
@@ -4871,9 +4928,7 @@
       "zh": "龙王酱的野望",
       "en": "Dragonlord's Ambition"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "SPLUSH WAVE",
     "date": "2017-09-15",
     "rate": 4.42,
@@ -4901,12 +4956,13 @@
     "title": "四国志すぺしゃるDX ～酒池肉うどん戦記～",
     "names": {
       "ja": "四国志すぺしゃるDX ～酒池肉うどん戦記～",
-      "zh": "四国志特别DX～酒池肉乌冬战记～",
+      "zh": "四国志 ～酒池肉面战记～",
       "en": "Shikokushi ~food and sightseeing and beauties~"
     },
-    "mt": [
-      "zh"
+    "aka": [
+      "四國志 ～酒池肉麵戰記～"
     ],
+    "mt": [],
     "circle": "ふらいんぐパンジャンドラム",
     "date": "2017-12-09",
     "rate": 4.44,
@@ -5147,12 +5203,10 @@
     "title": "インサルトオーダー ～生イキにゃん娘の快堕メニュー～",
     "names": {
       "ja": "インサルトオーダー ～生イキにゃん娘の快堕メニュー～",
-      "zh": "侮辱订单 ～嚣张猫娘的快堕菜单～",
+      "zh": "Insult Order ~狂妄喵娘的快堕菜单~",
       "en": "INSULT ORDER ~Cocky Cat Girls' Pleasure Corruption is on the Menu~"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "みこにそみ",
     "date": "2018-09-28",
     "rate": 4.74,
@@ -5188,12 +5242,10 @@
     "title": "冒険者の宿へようこそ!",
     "names": {
       "ja": "冒険者の宿へようこそ!",
-      "zh": "欢迎来到冒险者旅店！",
+      "zh": "欢迎来到冒险者的旅店！",
       "en": "Welcome to the Adventurers' Inn!"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "ぺぺろんちーの",
     "date": "2018-05-22",
     "rate": 4.48,
@@ -5223,11 +5275,10 @@
     "title": "オークション",
     "names": {
       "ja": "オークション",
-      "zh": "拍卖会",
+      "zh": "拍卖会(中国語)",
       "en": "Auction"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "ハリケーンドットコム",
@@ -5284,12 +5335,10 @@
     "title": "拘束尋問 皇女イリーナ",
     "names": {
       "ja": "拘束尋問 皇女イリーナ",
-      "zh": "拘束审问 皇女伊莉娜",
+      "zh": "拘束寻问 皇女伊莉娜",
       "en": "Restraint and Interrogation - Princess Irene"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "JSK工房",
     "date": "2018-05-01",
     "rate": 4.62,
@@ -5361,9 +5410,7 @@
       "zh": "自宅警备员2",
       "en": "Homeguard (Jitaku Keibiin) 2"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "ベルゼブブ",
     "date": "2018-12-04",
     "rate": 4.56,
@@ -5467,12 +5514,10 @@
     "title": "ねこメイドひろいました!",
     "names": {
       "ja": "ねこメイドひろいました!",
-      "zh": "捡到猫女仆了！",
+      "zh": "捡到猫女仆！",
       "en": "NekoHiroiMasita"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "CatBellUnion",
     "date": "2018-08-30",
     "rate": 4.31,
@@ -5507,7 +5552,8 @@
     "title": "ママなつ ～ボクたちのママこうかん～",
     "names": {
       "ja": "ママなつ ～ボクたちのママこうかん～",
-      "en": "Mother Summer ~Our Mother-Swapping~"
+      "en": "Mother Summer ~Our Mother-Swapping~",
+      "zh": "Autonoe"
     },
     "mt": [],
     "circle": "Autonoe",
@@ -5526,12 +5572,10 @@
     "title": "Dissolute Daydream",
     "names": {
       "ja": "Dissolute Daydream",
-      "zh": "放纵白日梦",
+      "zh": "Dissolute Daydream【简体版】",
       "en": "Dissolute Daydream"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "すにぃる",
     "date": "2018-10-25",
     "rate": 4.33,
@@ -5693,12 +5737,10 @@
     "title": "痴○の衝動if",
     "names": {
       "ja": "痴○の衝動if",
-      "zh": "痴汉的冲动 if",
+      "zh": "痴汉的冲动if",
       "en": "Urge to Molest \"if\""
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "SOUTH TREE",
     "date": "2019-04-09",
     "rate": 4.57,
@@ -5766,12 +5808,10 @@
     "title": "魔王のハーレムは冒険者町にて",
     "names": {
       "ja": "魔王のハーレムは冒険者町にて",
-      "zh": "魔王的后宫在冒险者小镇",
+      "zh": "魔王的冒险者小镇",
       "en": "The Demon Lord's Harem in the Adventurer's Town"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "ダイジョビ研究所",
     "date": "2019-03-15",
     "rate": 4.59,
@@ -5868,11 +5908,10 @@
     "title": "薄暗い部屋の中で一人ぼっちの女の子とランデブー",
     "names": {
       "ja": "薄暗い部屋の中で一人ぼっちの女の子とランデブー",
-      "zh": "在昏暗的房间里与孤单女孩的幽会",
+      "zh": "在阴暗房间中和孤独的女孩子的物语",
       "en": "Rendezvous with a Lonely Girl in a Dim Room"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "ティッシュはこ",
@@ -5902,12 +5941,10 @@
     "title": "裏路地ノ事情-Back Alley Tales",
     "names": {
       "ja": "裏路地ノ事情-Back Alley Tales",
-      "zh": "后巷的事情-Back Alley Tales",
+      "zh": "小巷子里的秘密事情",
       "en": "Back Alley Tales"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "URAP",
     "date": "2019-07-21",
     "rate": 4.43,
@@ -5939,12 +5976,10 @@
     "title": "Little Life",
     "names": {
       "ja": "Little Life",
-      "zh": "小小生活",
+      "zh": "Little Life",
       "en": "Little Life"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "いーめいどぷらす",
     "date": "2019-07-07",
     "rate": 4.33,
@@ -6067,12 +6102,14 @@
     "id": "RJ258362",
     "names": {
       "ja": "あまえんぼ",
-      "zh": "撒娇鬼",
+      "zh": "夏日狂想曲：乡间的难忘回忆",
       "en": "AMAENBO - pampered boy -"
     },
-    "mt": [
-      "zh"
+    "aka": [
+      "夏日狂想曲：鄉間的難忘回憶",
+      "夏日狂想曲"
     ],
+    "mt": [],
     "rc": 47940,
     "src": "dlsite"
   },
@@ -6087,9 +6124,7 @@
       "zh": "邻人部的秘密活动",
       "en": "Nieghbor's Club Secret Activities"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "ジジ★インイン",
     "date": "2019-07-17",
     "rate": 4.32,
@@ -6341,12 +6376,10 @@
     "title": "バージン・ロード2",
     "names": {
       "ja": "バージン・ロード2",
-      "zh": "处女之路2",
+      "zh": "少女之路2",
       "en": "VIRGIN LODE 2"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "ぺぺろんちーの",
     "date": "2019-12-24",
     "rate": 4.47,
@@ -6379,6 +6412,9 @@
       "zh": "奈的调教日记",
       "en": "Nai's Training Diary"
     },
+    "aka": [
+      "奈的調教日記"
+    ],
     "mt": [
       "en"
     ],
@@ -6419,9 +6455,7 @@
       "zh": "龙王酱的野望 完全版",
       "en": "Dragonlord's Ambition [Complete Edition]"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "SPLUSH WAVE",
     "date": "2020-01-01",
     "rate": 4.49,
@@ -6445,9 +6479,12 @@
     "state": "released",
     "title": "引きこもり姉とまいにちHライフ",
     "names": {
-      "ja": "引きこもり姉とまいにちHライフ"
+      "ja": "引きこもり姉とまいにちHライフ",
+      "zh": "和家里蹲姐姐的每日H生活"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "噂のエロレディオヘッド",
     "date": "2020-02-14",
     "rate": 3.96,
@@ -6464,12 +6501,13 @@
     "title": "お姉ちゃんといっしょ。～唯奈のあまあま全肯定～",
     "names": {
       "ja": "お姉ちゃんといっしょ。～唯奈のあまあま全肯定～",
-      "zh": "和姐姐在一起。～唯奈的甜蜜全肯定～",
+      "zh": "和姐姐一起。～唯奈的甜蜜全肯定～",
       "en": "With an Older Girl ~Yuina's Sweet Encouragement~"
     },
-    "mt": [
-      "zh"
+    "aka": [
+      "姐姐大人同居中。～唯奈濃情密意的全肯定～"
     ],
+    "mt": [],
     "circle": "ボウサバG",
     "date": "2020-10-25",
     "rate": 4.67,
@@ -6538,9 +6576,11 @@
       "zh": "公主后宫",
       "en": "Princess Harem"
     },
-    "mt": [
-      "zh"
+    "aka": [
+      "公主聯姻計劃",
+      "公主联姻计划"
     ],
+    "mt": [],
     "circle": "らぷらす",
     "date": "2020-05-02",
     "rate": 4.42,
@@ -6613,9 +6653,7 @@
       "zh": "便利店少女Z",
       "en": "The Convenience Store Girl Z"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "ベルゼブブ",
     "date": "2020-04-14",
     "rate": 4.59,
@@ -6717,12 +6755,10 @@
     "title": "BLACK-MARKET",
     "names": {
       "ja": "BLACK-MARKET",
-      "zh": "黑市",
+      "zh": "Black Market",
       "en": "BLACK-MARKET"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "いーめいどぷらす",
     "date": "2020-05-08",
     "rate": 4.5,
@@ -6754,7 +6790,7 @@
     "title": "神具姫ヒーローアンチドミー",
     "names": {
       "ja": "神具姫ヒーローアンチドミー",
-      "zh": "神具姬英雄反抗者多米",
+      "zh": "神具英雄-涤罪者小队-",
       "en": "Heaven's Armament Heroines AntiDomi"
     },
     "mt": [],
@@ -6794,7 +6830,8 @@
     "title": "あまえんぼ+(Append)",
     "names": {
       "ja": "あまえんぼ+(Append)",
-      "en": "AMAENBO+ (Append)"
+      "en": "AMAENBO+ (Append)",
+      "zh": "夏日狂想曲+"
     },
     "mt": [],
     "circle": "ドージンオトメ",
@@ -6816,6 +6853,9 @@
       "zh": "帝国后宫",
       "en": "Imperial Harem ~Touchy Feely Corruption SLG~"
     },
+    "aka": [
+      "帝國后宮"
+    ],
     "mt": [],
     "circle": "らぷらす",
     "date": "2021-06-11",
@@ -6851,12 +6891,10 @@
     "title": "Hな酒場へようこそ",
     "names": {
       "ja": "Hな酒場へようこそ",
-      "zh": "欢迎光临 H 酒馆",
+      "zh": "欢迎来到超H酒馆",
       "en": "Welcome to the Sexy Bar!"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "毛ガニ研究室",
     "date": "2020-07-20",
     "rate": 4.44,
@@ -6886,12 +6924,10 @@
     "title": "コンビニ少女Z 万引無双ぱっち",
     "names": {
       "ja": "コンビニ少女Z 万引無双ぱっち",
-      "zh": "便利店少女Z 偷窃无双补丁",
+      "zh": "便利店少女Z 万引无双补丁",
       "en": "The Convenience Store Girl Z ~Invincible Shoplifter Patch~"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "ベルゼブブ",
     "date": "2020-06-02",
     "rate": 4.53,
@@ -6978,7 +7014,7 @@
     "title": "ゴブリンの巣穴",
     "names": {
       "ja": "ゴブリンの巣穴",
-      "zh": "哥布林的巢穴",
+      "zh": "哥布林巢穴",
       "en": "Goblin Burrow"
     },
     "mt": [],
@@ -7016,6 +7052,9 @@
       "zh": "地下城军团-向魔王献上的少女肢体",
       "en": "Dungeon's Legion ~Maiden's Bodies Offered to the Demon Lord~"
     },
+    "aka": [
+      "地下城军团-献予魔王的少女们-"
+    ],
     "mt": [],
     "circle": "ルナソフト",
     "date": "2020-08-15",
@@ -7126,6 +7165,9 @@
       "zh": "赫雷斯的角斗场",
       "en": "Jerez's Arena"
     },
+    "aka": [
+      "赫雷斯的角鬥場"
+    ],
     "mt": [],
     "circle": "永恒アリス工坊",
     "date": "2020-07-30",
@@ -7163,7 +7205,8 @@
     "title": "少女組長リリカの娼館経営記",
     "names": {
       "ja": "少女組長リリカの娼館経営記",
-      "en": "Young Yakuza Boss Ririka's Brothel Management"
+      "en": "Young Yakuza Boss Ririka's Brothel Management",
+      "zh": "少女组长凛凛花的经营记"
     },
     "mt": [],
     "circle": "ルさんちまん",
@@ -7186,7 +7229,9 @@
       "zh": "KAGUYA PLAYER",
       "en": "KAGUYA PLAYER"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "NGL FACTORY",
     "date": "2020-08-08",
     "rate": 4.67,
@@ -7207,12 +7252,10 @@
     "title": "クールなメイドさんと一緒っ!",
     "names": {
       "ja": "クールなメイドさんと一緒っ!",
-      "zh": "和冷酷女仆在一起！",
+      "zh": "和高冷女仆小姐的甜蜜生活",
       "en": "Together with a Cool Maid!"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "スタジオねこキック",
     "date": "2020-09-27",
     "rate": 4.44,
@@ -7244,12 +7287,10 @@
     "title": "メイドlife",
     "names": {
       "ja": "メイドlife",
-      "zh": "女仆生活",
+      "zh": "女仆life~与她同居的主仆生活",
       "en": "Maid life"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "高温注意",
     "date": "2020-11-22",
     "rate": 4.49,
@@ -7386,9 +7427,12 @@
     "title": "コン狐との日常+(ぷらす)",
     "names": {
       "ja": "コン狐との日常+(ぷらす)",
-      "zh": "与空狐的日常+（Plus）~完美版~",
+      "zh": "我与空狐的日常",
       "en": "Your Waifu Foxgirl Konko+ (plus) - Furfect Edition -"
     },
+    "aka": [
+      "與鈷狐的日常"
+    ],
     "mt": [],
     "circle": "めがみそふと",
     "date": "2020-12-04",
@@ -7422,11 +7466,10 @@
     "title": "ぞんびっ娘アイランド",
     "names": {
       "ja": "ぞんびっ娘アイランド",
-      "zh": "僵尸娘岛",
+      "zh": "与僵尸娘在荒岛生存",
       "en": "Zombie Girl Island"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "7センチ",
@@ -7460,9 +7503,12 @@
     "title": "誤って女性専用車廂に乗り込んだ",
     "names": {
       "ja": "誤って女性専用車廂に乗り込んだ",
-      "en": "I strayed into the women-only carriages"
+      "en": "I strayed into the women-only carriages",
+      "zh": "误上了女性专用车厢"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "pH Studio",
     "date": "2020-11-02",
     "rate": 3.88,
@@ -7479,12 +7525,10 @@
     "title": "咲夜と都合の良い催○法",
     "names": {
       "ja": "咲夜と都合の良い催○法",
-      "zh": "咲夜与方便的催眠法",
+      "zh": "咲夜与超方便的催眠术",
       "en": "Conveniently Hypnotizing Sakuya"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "ビタミンごはん",
     "date": "2020-11-20",
     "rate": 4.55,
@@ -7529,11 +7573,10 @@
     "title": "おとなりの奥様は今日も独り",
     "names": {
       "ja": "おとなりの奥様は今日も独り",
-      "zh": "隔壁的太太今天也一个人",
+      "zh": "隔壁太太今天也独自一人",
       "en": "The Wife Next Door Is Alone Again Today"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "やさにき",
@@ -7567,12 +7610,10 @@
     "title": "コンビニ少女Z クレマお仕置きぱっち",
     "names": {
       "ja": "コンビニ少女Z クレマお仕置きぱっち",
-      "zh": "便利店少女Z 投诉客惩罚补丁",
+      "zh": "便利店少女Z 奶油制作方法补丁",
       "en": "The Convenience Store Girl Z ~Complainer Punishment Patch~"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "ベルゼブブ",
     "date": "2020-12-22",
     "rate": 4.56,
@@ -7660,12 +7701,10 @@
     "title": "飼い犬勇者と魔王の城",
     "names": {
       "ja": "飼い犬勇者と魔王の城",
-      "zh": "家犬勇者与魔王城",
+      "zh": "家犬勇者与魔王之城",
       "en": "Pet Shota Hero and the Succubus Castle"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "ディーゼルマイン",
     "date": "2021-02-01",
     "rate": 4.58,
@@ -7769,12 +7808,10 @@
     "title": "ダンジョン∞クリエイト",
     "names": {
       "ja": "ダンジョン∞クリエイト",
-      "zh": "地牢∞创造",
+      "zh": "迷宫∞创造",
       "en": "Dungeon Create"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "nikukyu",
     "date": "2021-03-31",
     "rate": 3.86,
@@ -7804,12 +7841,10 @@
     "title": "蛮族レジェンド",
     "names": {
       "ja": "蛮族レジェンド",
-      "zh": "蛮族传说",
+      "zh": "蛮王传奇",
       "en": "Barbarian Legend"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "黒い豚",
     "date": "2021-05-20",
     "rate": 4.03,
@@ -7913,12 +7948,10 @@
     "title": "ゴブリンの巣穴 I'll borne",
     "names": {
       "ja": "ゴブリンの巣穴 I'll borne",
-      "zh": "哥布林的巢穴 I'll borne",
+      "zh": "哥布林巢穴2",
       "en": "Goblin Burrow: I'll Borne"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "ぺぺろんちーの",
     "date": "2021-07-20",
     "rate": 4.65,
@@ -7950,7 +7983,7 @@
     "title": "満車率300%",
     "names": {
       "ja": "満車率300%",
-      "zh": "满员率300%",
+      "zh": "满车率300%",
       "en": "Train Capacity 300%"
     },
     "mt": [],
@@ -8058,6 +8091,9 @@
       "zh": "与精灵的同居生活",
       "en": "Living with an Elf ~Life for Two in the Forest of Rest~"
     },
+    "aka": [
+      "與精靈的同居生活"
+    ],
     "mt": [
       "en"
     ],
@@ -8087,7 +8123,8 @@
     "title": "サマー・クリッカー～お姉さんとあまあまえっちな夏休み～",
     "names": {
       "ja": "サマー・クリッカー～お姉さんとあまあまえっちな夏休み～",
-      "en": "Summer Clicker ~Sweet Summer Vacation With Oneesan~"
+      "en": "Summer Clicker ~Sweet Summer Vacation With Oneesan~",
+      "zh": "夏日・点击～和姐姐的甜甜H暑假～"
     },
     "mt": [],
     "circle": "あんかけプリン",
@@ -8106,11 +8143,10 @@
     "title": "援交ファンタジー～愛と勇気と援交で世界を救う物語～",
     "names": {
       "ja": "援交ファンタジー～愛と勇気と援交で世界を救う物語～",
-      "zh": "援交幻想～用爱、勇气和援交拯救世界的故事～",
+      "zh": "援交幻想～用爱与勇气与援交拯救世界～",
       "en": "Paid Dating Fantasy: Saving the World with Love and Courage"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "らぷらす",
@@ -8236,9 +8272,7 @@
       "zh": "无人岛幸存者",
       "en": "Remote Island Survivors"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "NTR教団",
     "date": "2021-09-04",
     "rate": 4.35,
@@ -8275,12 +8309,10 @@
     "title": "淫魔回胴録～Succubus Slot～",
     "names": {
       "ja": "淫魔回胴録～Succubus Slot～",
-      "zh": "淫魔回转录～Succubus Slot～",
+      "zh": "淫魔柏青嫂",
       "en": "Succubus Slot"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "おやすみ開発所",
     "date": "2021-11-20",
     "rate": 4.48,
@@ -8313,7 +8345,9 @@
       "zh": "Jam packed line tale",
       "en": "Jam packed line tale"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "エロフラッシュの辺境",
     "date": "2021-09-26",
     "rate": 4.61,
@@ -8364,9 +8398,12 @@
     "title": "ロボライフ-アイノとの日々",
     "names": {
       "ja": "ロボライフ-アイノとの日々",
-      "zh": "Robolife——与爱诺的日常",
+      "zh": "AI爱诺-机娘育成方程式",
       "en": "Robolife-Days with Aino"
     },
+    "aka": [
+      "AI愛諾-機娘育成方程式"
+    ],
     "mt": [],
     "circle": "BaranceStudio",
     "date": "2021-09-28",
@@ -8407,9 +8444,7 @@
       "zh": "魔王的秘宝",
       "en": "The Demon Lord's Treasure"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "モンスター研",
     "date": "2021-10-29",
     "rate": 4.16,
@@ -8439,7 +8474,9 @@
       "zh": "HOUSHOU PLAYER",
       "en": "HOUSHOU PLAYER"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "NGL FACTORY",
     "date": "2021-09-30",
     "rate": 4.66,
@@ -8485,11 +8522,10 @@
     "title": "癒らし暮らし ～Relief Doll～",
     "names": {
       "ja": "癒らし暮らし ～Relief Doll～",
-      "zh": "治愈生活～Relief Doll～",
+      "zh": "疗愈日常～慰藉玩偶～",
       "en": "Healing Life ~Relief Doll~"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "SOUTH TREE",
@@ -8526,12 +8562,13 @@
     "title": "ケモミミ☆トレーニング ～狂暴けもみみ令嬢調教トライアル",
     "names": {
       "ja": "ケモミミ☆トレーニング ～狂暴けもみみ令嬢調教トライアル",
-      "zh": "兽耳☆训练～狂暴兽耳千金调教试炼～",
+      "zh": "兽耳☆训练 ～狂暴兽耳大小姐的养成～",
       "en": "Kemomimi Training ~The Sexual Trials of a Raging Kemomimi Mistress~"
     },
-    "mt": [
-      "zh"
+    "aka": [
+      "獸耳☆訓練 ～狂暴獸耳大小姐的養成～"
     ],
+    "mt": [],
     "circle": "サークル冥魅亭",
     "date": "2022-03-04",
     "rate": 4.63,
@@ -8572,9 +8609,7 @@
       "zh": "外行离家少女与我",
       "en": "The Runaway Girl and Me"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "レベル1",
     "date": "2021-12-23",
     "rate": 4.7,
@@ -8611,7 +8646,7 @@
     "title": "ネジ込みシミュレーターVol4 -強気クールお姉さんの極太野人ちんぽぐちょぐちょ挿れ放題!!-【性器拡張・ガチセックス】",
     "names": {
       "ja": "ネジ込みシミュレーターVol4 -強気クールお姉さんの極太野人ちんぽぐちょぐちょ挿れ放題!!-【性器拡張・ガチセックス】",
-      "zh": "自慰模拟器-Vol4-强势冷酷的大姐姐被野人极粗肉棒啪啪自助插入！！【性器扩张·激烈性爱】",
+      "zh": "自慰模拟器-Vol4-强势冷酷的大姐姐被野人极粗肉棒啪啪自助插入！！",
       "en": "NejicomiSimulator Vol.4: Iron-willed Warrioress Takes Thunderous Cock"
     },
     "mt": [],
@@ -8646,11 +8681,10 @@
     "title": "LOVE IS UNDEAD ラブ・イズ・アンデッド",
     "names": {
       "ja": "LOVE IS UNDEAD ラブ・イズ・アンデッド",
-      "zh": "爱是不死",
+      "zh": "爱不消亡",
       "en": "LOVE IS UNDEAD"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "Liquid Moon",
@@ -8681,9 +8715,12 @@
     "title": "怠け怪獣姫は働きたくない",
     "names": {
       "ja": "怠け怪獣姫は働きたくない",
-      "zh": "爱摸鱼的怪兽姬不想工作",
+      "zh": "怠惰的怪兽公主不想工作",
       "en": "Kaiju Princess"
     },
+    "aka": [
+      "怠惰的怪獸公主不想工作"
+    ],
     "mt": [],
     "circle": "PantyParrot",
     "date": "2022-08-31",
@@ -8720,12 +8757,10 @@
     "title": "家出物語～エッチな事なんて知らなかったのに～",
     "names": {
       "ja": "家出物語～エッチな事なんて知らなかったのに～",
-      "zh": "离家出走物语～明明什么色色的事都不知道～",
+      "zh": "家出物語～明明不知道什么是H～",
       "en": "Runaway Story ~From Virgin to Slut~"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "変態+tick",
     "date": "2022-03-05",
     "rate": 4.36,
@@ -8756,7 +8791,7 @@
     "title": "吊り下げシミュレーターVol2 -捕らわれ美女の機械姦-【性器拡張・膨乳・ピアス】",
     "names": {
       "ja": "吊り下げシミュレーターVol2 -捕らわれ美女の機械姦-【性器拡張・膨乳・ピアス】",
-      "zh": "吊挂模拟器Vol2 -被囚禁的美女机械奸-【性器扩张・膨乳・穿环】",
+      "zh": "吊挂模拟器Vol2 -被囚禁的美女机械奸-",
       "en": "Suspended Sex Simulator Vol. 2 ~Captured Royalty Machine Sex~"
     },
     "mt": [],
@@ -8828,9 +8863,12 @@
     "title": "ソフィアとの秘密【Live2D×癒し系ご奉仕生活シュミレーション】",
     "names": {
       "ja": "ソフィアとの秘密【Live2D×癒し系ご奉仕生活シュミレーション】",
-      "zh": "我与索菲娅的秘密【Live2D×治愈系侍奉生活模拟】",
+      "zh": "我与索菲娅的秘密",
       "en": "Secret with Sophia"
     },
+    "aka": [
+      "我與蘇菲亞的秘密"
+    ],
     "mt": [],
     "circle": "めがみそふと",
     "date": "2022-12-03",
@@ -8959,9 +8997,12 @@
     "title": "母乳少女～夏の甘い思い出【同棲SLG、オープンワールド型】",
     "names": {
       "ja": "母乳少女～夏の甘い思い出【同棲SLG、オープンワールド型】",
-      "zh": "【6/5为止折扣中】母乳少女～夏日的甜蜜回忆【同居SLG、开放世界】【日文版】",
+      "zh": "母乳少女",
       "en": "Milk Girl ~Sweet memories of summer~"
     },
+    "aka": [
+      "母乳少女～夏日的甜蜜回憶"
+    ],
     "mt": [],
     "circle": "azucat",
     "date": "2022-05-20",
@@ -8989,11 +9030,10 @@
     "title": "田舎ライフ",
     "names": {
       "ja": "田舎ライフ",
-      "zh": "乡村生活",
+      "zh": "乡下生活",
       "en": "Country Life"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "ピクトルサーカス",
@@ -9065,7 +9105,9 @@
       "zh": "被蛮族盯上的村庄～NTR整个村庄的模拟游戏～",
       "en": "The Village Targeted By Barbarians ~NTR of an entire village Simulation~"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "毛ガニ研究室",
     "date": "2022-09-09",
     "rate": 4.41,
@@ -9096,9 +9138,12 @@
     "title": "ゴブリンの巣穴 the Fable",
     "names": {
       "ja": "ゴブリンの巣穴 the Fable",
-      "zh": "哥布林的巢穴 the Fable",
+      "zh": "哥布林巢穴3",
       "en": "Goblin Burrow: the Fable"
     },
+    "aka": [
+      "哥布林巢穴第三部"
+    ],
     "mt": [],
     "circle": "ぺぺろんちーの",
     "date": "2022-08-02",
@@ -9131,7 +9176,7 @@
     "title": "モンスターブラックマーケット",
     "names": {
       "ja": "モンスターブラックマーケット",
-      "zh": "怪兽黑色市场",
+      "zh": "怪物黑市",
       "en": "Monster Black Market"
     },
     "mt": [],
@@ -9168,7 +9213,9 @@
       "zh": "路人娘捕获学园",
       "en": "NPC Capture Academy"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "おいなりソフト(肩引こ)",
     "date": "2022-08-20",
     "rate": 4.29,
@@ -9198,11 +9245,10 @@
     "title": "おとなりの奥様は今日も独り2 遅咲きの青い春",
     "names": {
       "ja": "おとなりの奥様は今日も独り2 遅咲きの青い春",
-      "zh": "隔壁的太太今天也独自一人2 迟开的青春",
+      "zh": "隔壁太太今天也独自一人2",
       "en": "The Lady Next Door Is Alone Again Today 2: A Late-Blooming Youth"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "やさにき",
@@ -9236,11 +9282,10 @@
     "title": "お帰りくださいませ勇者さま!",
     "names": {
       "ja": "お帰りくださいませ勇者さま!",
-      "zh": "欢迎回来，勇者大人！",
+      "zh": "欢迎回来勇者大人",
       "en": "Welcome Home, Hero!"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "とらいあんぐる！",
@@ -9274,11 +9319,10 @@
     "title": "好きな女の子達と好きなだけ中出しお触りえっちVR",
     "names": {
       "ja": "好きな女の子達と好きなだけ中出しお触りえっちVR",
-      "zh": "和喜欢的女孩子们尽情亲热 VR",
+      "zh": "和喜歡的女孩們盡情享受撫摸與中出的愛愛VR",
       "en": "Intimate VR with the Girls You Like"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "Eヤツのサークル",
@@ -9306,7 +9350,7 @@
     "title": "隠居軍師の救国ストラテジー",
     "names": {
       "ja": "隠居軍師の救国ストラテジー",
-      "zh": "【中日英韩】隐居军师的救国方针",
+      "zh": "隐居军师的救国战略",
       "en": "How a Retired Strategist Saved the Country (PC Ver.)"
     },
     "mt": [],
@@ -9376,8 +9420,12 @@
     "title": "叔母さんと一緒 ～僕と叔母さんのあまあまドスケベ寝取り同棲生活～",
     "names": {
       "ja": "叔母さんと一緒 ～僕と叔母さんのあまあまドスケベ寝取り同棲生活～",
-      "en": "Living With My Aunt ~Getting Smutty with a Voluptuous Auntie~"
+      "en": "Living With My Aunt ~Getting Smutty with a Voluptuous Auntie~",
+      "zh": "和阿姨在一起～我和阿姨的甜蜜蜜淫荡偷情同居生活～"
     },
+    "aka": [
+      "和阿姨在一起～我和阿姨的甜蜜蜜淫蕩偷情同居生活～"
+    ],
     "mt": [],
     "circle": "レーゲ連合王国",
     "date": "2022-11-21",
@@ -9439,7 +9487,9 @@
       "zh": "OURO PLAYER",
       "en": "OURO PLAYER"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "NGL FACTORY",
     "date": "2022-11-03",
     "rate": 4.64,
@@ -9467,11 +9517,10 @@
     "title": "種付委員のオシゴト",
     "names": {
       "ja": "種付委員のオシゴト",
-      "zh": "播种委员的工作",
+      "zh": "播种委员会",
       "en": "The Breeding Committee's Job"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "meteo.H",
@@ -9504,9 +9553,12 @@
     "title": "Subverse",
     "names": {
       "ja": "Subverse",
-      "zh": "Subverse",
+      "zh": "颠覆",
       "en": "Subverse"
     },
+    "aka": [
+      "顛覆"
+    ],
     "mt": [],
     "circle": "Studio FOW Interactive",
     "date": "2024-11-15",
@@ -9536,7 +9588,9 @@
       "zh": "KoboldKare",
       "en": "KoboldKare"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "Naelstrof",
     "date": "2022-12-15",
     "rate": null,
@@ -9556,12 +9610,14 @@
     "title": "Breeders of the Nephelym",
     "names": {
       "ja": "Breeders of the Nephelym",
-      "zh": "奈菲林培育者",
+      "zh": "魔物娘配种饲养员",
       "en": "Breeders of the Nephelym"
     },
-    "mt": [
-      "zh"
+    "aka": [
+      "魔物娘农场",
+      "魔物娘配種飼養員"
     ],
+    "mt": [],
     "circle": "DerelictHelmsman",
     "date": "2019-10-18",
     "rate": null,
@@ -9586,12 +9642,10 @@
     "title": "PerfectLover",
     "names": {
       "ja": "PerfectLover",
-      "zh": "完美恋人",
+      "zh": "PerfectLover 完美女友",
       "en": "PerfectLover"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "MIGI STUDIO",
     "date": "2019-11-21",
     "rate": null,
@@ -9611,12 +9665,10 @@
     "title": "Cloud Meadow",
     "names": {
       "ja": "Cloud Meadow",
-      "zh": "云之牧场",
+      "zh": "云端牧场",
       "en": "Cloud Meadow"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "Team Nimbus",
     "date": "2020-03-03",
     "rate": null,
@@ -9644,9 +9696,7 @@
       "zh": "她的新记忆",
       "en": "Her New Memory - Hentai Simulator"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "Zodiacus Games",
     "date": "2022-02-08",
     "rate": null,
@@ -9672,12 +9722,15 @@
     "title": "Quickie: A Love Hotel Story",
     "names": {
       "ja": "Quickie: A Love Hotel Story",
-      "zh": "速战速决：情人旅馆物语",
+      "zh": "快捷情趣酒店",
       "en": "Quickie: A Love Hotel Story"
     },
-    "mt": [
-      "zh"
+    "aka": [
+      "快捷：情趣酒店的故事",
+      "快捷酒店故事",
+      "快捷情趣酒店的故事"
     ],
+    "mt": [],
     "circle": "Oppai Games",
     "date": "2025-06-06",
     "rate": null,
@@ -9702,12 +9755,10 @@
     "title": "Succubus Cafe",
     "names": {
       "ja": "Succubus Cafe",
-      "zh": "魅魔咖啡馆",
+      "zh": "魅魔咖啡厅",
       "en": "Succubus Cafe"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "MIGI STUDIO",
     "date": "2021-05-13",
     "rate": null,
@@ -9763,7 +9814,9 @@
       "zh": "FarmD",
       "en": "FarmD"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "Softscale",
     "date": "2021-12-03",
     "rate": null,
@@ -9815,9 +9868,10 @@
       "zh": "黄昏酒馆",
       "en": "Dusk Pub - Adult Only"
     },
-    "mt": [
-      "zh"
+    "aka": [
+      "黃昏酒館"
     ],
+    "mt": [],
     "circle": "YellowDuckWorks",
     "date": "2024-04-12",
     "rate": null,
@@ -9846,12 +9900,10 @@
     "title": "X-Angels",
     "names": {
       "ja": "X-Angels",
-      "zh": "X-Angels ～以正义之名使其堕落！美少女英雄～",
+      "zh": "超能X天使",
       "en": "X-Angels"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "Barance Studio",
     "date": "2024-06-21",
     "rate": null,
@@ -9983,12 +10035,10 @@
     "title": "Corruption Town",
     "names": {
       "ja": "Corruption Town",
-      "zh": "堕落之城",
+      "zh": "腐败小镇",
       "en": "Corruption Town"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "BoredBasmati",
     "date": "2024-11-01",
     "rate": null,
@@ -10009,12 +10059,10 @@
     "title": "Mad Island",
     "names": {
       "ja": "Mad Island",
-      "zh": "疯狂岛",
+      "zh": "生存游戏",
       "en": "Mad Island"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "EmadePlus",
     "date": "2024-05-23",
     "rate": null,
@@ -10039,12 +10087,10 @@
     "title": "Komadori Inn",
     "names": {
       "ja": "Komadori Inn",
-      "zh": "知更鸟旅馆",
+      "zh": "歌鸲旅馆",
       "en": "Komadori Inn"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "Inlet Pipe Productions",
     "date": "2026-03-29",
     "rate": null,
@@ -10130,6 +10176,9 @@
       "zh": "请成为最能干的VTuber吧！",
       "en": "V-LOVER!"
     },
+    "aka": [
+      "請成為最能幹的VTuber吧！"
+    ],
     "mt": [],
     "circle": "Hentopia",
     "date": "2025-06-24",
@@ -10352,9 +10401,7 @@
       "zh": "哥布林巢穴",
       "en": "Goblin Nest"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "BadColor",
     "date": "2026-03-26",
     "rate": null,
@@ -10402,12 +10449,10 @@
     "title": "Lure Of Passion",
     "names": {
       "ja": "Lure Of Passion",
-      "zh": "激情诱饵",
+      "zh": "激情诱惑",
       "en": "Lure Of Passion"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "Snakerser's Games",
     "date": "2026-01-05",
     "rate": null,
@@ -10591,12 +10636,10 @@
     "title": "Last Evil",
     "names": {
       "ja": "Last Evil",
-      "zh": "最后的邪恶",
+      "zh": "最后的恶魔",
       "en": "Last Evil"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "Flametorch",
     "date": "2020-06-24",
     "rate": null,
@@ -10622,11 +10665,10 @@
     "title": "珊海王の円環",
     "names": {
       "ja": "珊海王の円環",
-      "zh": "珊海王之环",
+      "zh": "珊海王的圆环",
       "en": "Sankai Ou no Yubiwa"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "エウシュリー",
@@ -10659,9 +10701,12 @@
     "title": "VenusBlood -RAGNAROK-",
     "names": {
       "ja": "VenusBlood -RAGNAROK-",
-      "zh": "VenusBlood -RAGNAROK-",
+      "zh": "VenusBlood 诸神黄昏",
       "en": "VenusBlood -RAGNAROK-"
     },
+    "aka": [
+      "诸神黄昏"
+    ],
     "mt": [],
     "circle": "DualTail(DualMage)",
     "date": "2016-12-22",
@@ -10729,7 +10774,6 @@
       "en": "Amayui Castle Meister"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "エウシュリー",
@@ -10801,9 +10845,10 @@
       "zh": "筑巢华琳酱",
       "en": "Suzukuri Dungeon: Karin in the Mountain"
     },
-    "mt": [
-      "zh"
+    "aka": [
+      "築巢華琳醬"
     ],
+    "mt": [],
     "circle": "KarinProject",
     "date": "2019-12-20",
     "rate": null,
@@ -10837,6 +10882,9 @@
       "zh": "3D定制女仆2",
       "en": "CUSTOM ORDER MAID 3D2"
     },
+    "aka": [
+      "3D定製女僕2"
+    ],
     "mt": [],
     "circle": "KISS",
     "date": "2018-02-23",
@@ -10897,11 +10945,13 @@
     "title": "戦国†恋姫EX参 ～毛利家の絆編～",
     "names": {
       "ja": "戦国†恋姫EX参 ～毛利家の絆編～",
-      "zh": "战国†恋姬EX 参 ～毛利家之绊篇～",
+      "zh": "战国恋姬EX参 ～毛利家的羁绊篇～",
       "en": "Sengoku Koihime EX 3: Bonds of the Mouri Clan"
     },
+    "aka": [
+      "战国‡恋姬EX三～毛利家的羁绊篇～"
+    ],
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "BaseSon",
@@ -10934,9 +10984,12 @@
     "title": "VenusBlood VALKYRIE",
     "names": {
       "ja": "VenusBlood VALKYRIE",
-      "zh": "VenusBlood VALKYRIE",
+      "zh": "圣女之血：女武神",
       "en": "VenusBlood VALKYRIE"
     },
+    "aka": [
+      "圣女之血：VALKYRIE"
+    ],
     "mt": [],
     "circle": "DualTail(DualMage)",
     "date": "2025-07-25",
@@ -10968,11 +11021,10 @@
     "title": "極限痴漢特異点NEO",
     "names": {
       "ja": "極限痴漢特異点NEO",
-      "zh": "极限痴汉特异点 NEO",
+      "zh": "极限痴汉特异点NEO",
       "en": "Kyokugen Chikan Tokuiten NEO"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "アストロノーツ・シリウス",
@@ -11005,11 +11057,10 @@
     "title": "姫と艶欲のインペリウム",
     "names": {
       "ja": "姫と艶欲のインペリウム",
-      "zh": "公主与艳欲的帝国",
+      "zh": "公主与欲望帝国",
       "en": "Hime to En'yoku no Imperium (Princesses and the Empire of Lust)"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "Escu:de",

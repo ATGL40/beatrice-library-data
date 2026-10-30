@@ -7,11 +7,10 @@
     "title": "淫魔再誕",
     "names": {
       "ja": "淫魔再誕",
-      "zh": "淫魔再诞",
+      "zh": "淫魔再誕",
       "en": "Succubus Reborn"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "超次元覚醒研究所",
@@ -111,12 +110,10 @@
     "title": "裏の賭け麻雀 借金娘の敗北種付け生活",
     "names": {
       "ja": "裏の賭け麻雀 借金娘の敗北種付け生活",
-      "zh": "地下赌麻将 欠债女孩的败北生活",
+      "zh": "黑道麻将",
       "en": "Illegal Mahjong"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "AleCubicSoft",
     "date": "2023-02-28",
     "rate": 4.52,
@@ -250,7 +247,9 @@
     "names": {
       "ja": "【AI翻译补丁】淫魔契约性爱魅魔"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "",
     "date": "2023-03-01",
     "rate": 4.8,
@@ -267,11 +266,10 @@
     "title": "頑張れチカちゃん!!～板を200個割らないとお仕置きされちゃう!!～",
     "names": {
       "ja": "頑張れチカちゃん!!～板を200個割らないとお仕置きされちゃう!!～",
-      "zh": "加油千佳酱!!～不劈开200块板子就要被惩罚!!～",
+      "zh": "加油！千花酱",
       "en": "Go for It, Chika-chan!! ~Break 200 Boards or Get Punished!!~"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "I-Project",
@@ -306,7 +304,9 @@
     "names": {
       "ja": "せっかんこ"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "ping",
     "date": "2023-04-28",
     "rate": 4.42,
@@ -322,9 +322,12 @@
     "state": "released",
     "title": "女体迷路",
     "names": {
-      "ja": "女体迷路"
+      "ja": "女体迷路",
+      "zh": "女体迷宫"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "うぉたさば",
     "date": "2023-06-20",
     "rate": 4.13,
@@ -376,9 +379,12 @@
     "state": "released",
     "title": "羊王国物語",
     "names": {
-      "ja": "羊王国物語"
+      "ja": "羊王国物語",
+      "zh": "羊王国物语"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "デホリメワークス",
     "date": "2023-08-06",
     "rate": 4.59,
@@ -564,7 +570,9 @@
     "names": {
       "ja": "【AI翻译补丁】圣女艾尔娜与堕落淫荡之书  〜爆乳修女的色色使命〜"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "",
     "date": "2024-03-15",
     "rate": 4.8,
@@ -580,9 +588,12 @@
     "state": "released",
     "title": "ぬぎぬぎじゃんけん",
     "names": {
-      "ja": "ぬぎぬぎじゃんけん"
+      "ja": "ぬぎぬぎじゃんけん",
+      "zh": "脱脱猜拳"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "",
     "date": "2024-12-08",
     "rate": 4.72,
@@ -600,11 +611,10 @@
     "title": "バグと魔法使い",
     "names": {
       "ja": "バグと魔法使い",
-      "zh": "Bug 与魔法使",
+      "zh": "Bug与魔法使",
       "en": "Bugs and the Wizard"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "フォギミ",
@@ -657,7 +667,9 @@
     "names": {
       "ja": "【AI翻譯更新檔】我們的肉便器老師 -the GAME- 年輕媽媽教師的變態生活"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "",
     "date": "2024-06-21",
     "rate": 4.75,
@@ -674,11 +686,10 @@
     "title": "奉仕人形のいる日常",
     "names": {
       "ja": "奉仕人形のいる日常",
-      "zh": "有侍奉人偶的日常",
+      "zh": "服侍人偶的日常",
       "en": "Daily Life with a Service Doll"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "桃山プロダクション",
@@ -713,7 +724,7 @@
     "title": "ラボスイーパー～ドロシーの秘密研究記録～",
     "names": {
       "ja": "ラボスイーパー～ドロシーの秘密研究記録～",
-      "zh": "实验室扫雷~多萝西的秘密研究记录~",
+      "zh": "研究所清理官 -朵洛丝的秘密试验记录-",
       "en": "Lab Sweeper ~Dorothy's Secret Lab Log~"
     },
     "mt": [],
@@ -748,7 +759,7 @@
     "title": "IV?AV!! -2nd Girl-",
     "names": {
       "ja": "IV?AV!! -2nd Girl-",
-      "zh": "IV?AV!! -2nd Girl-",
+      "zh": "IV?AV!!-2nd Girl- 60帧超色情AV摄影模拟SLG",
       "en": "IV?AV!! -2nd Girl-"
     },
     "mt": [],
@@ -778,9 +789,12 @@
     "state": "released",
     "title": "サキュバス監獄 新米冒険者が捕まった淫魔の巣で永久に無限搾精を受けるお話",
     "names": {
-      "ja": "サキュバス監獄 新米冒険者が捕まった淫魔の巣で永久に無限搾精を受けるお話"
+      "ja": "サキュバス監獄 新米冒険者が捕まった淫魔の巣で永久に無限搾精を受けるお話",
+      "zh": "魅魔监狱 新手冒险者在被抓进的淫魔巢穴里永远接受无限榨精的故事"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "びおらんて",
     "date": "2024-12-28",
     "rate": 4.07,
@@ -928,11 +942,10 @@
     "title": "801号室",
     "names": {
       "ja": "801号室",
-      "zh": "801 号室",
+      "zh": "801号室",
       "en": "Room 801"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "アカナサハラ",
@@ -961,11 +974,10 @@
     "title": "エージェント・アクアVSエロトラップラボ",
     "names": {
       "ja": "エージェント・アクアVSエロトラップラボ",
-      "zh": "特工阿库娅 VS 色情陷阱实验室",
+      "zh": "特工Aqua VS 情色陷阱实验室",
       "en": "Agent Aqua VS Ero Trap Lab"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "半船半人",
@@ -1230,12 +1242,10 @@
     "title": "エルフTD- 淫欲の魔物襲来！森の村の大危機! (v1.2)",
     "names": {
       "ja": "エルフTD- 淫欲の魔物襲来！森の村の大危機! (v1.2)",
-      "zh": "精灵塔防 -淫欲魔物来袭！森林村庄的大危机！",
+      "zh": "艾露芙塔防 - 淫欲魔物来袭！森林村庄大危机！",
       "en": "Elf TD - Invasion of the Lustful Monsters! The Forest Village's Great Crisis!"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "Lemon dead dragon",
     "date": "2026-03-10",
     "rate": 4.47,
@@ -1370,9 +1380,12 @@
     "state": "released",
     "title": "サキュバス・ショーダウン！",
     "names": {
-      "ja": "サキュバス・ショーダウン！"
+      "ja": "サキュバス・ショーダウン！",
+      "zh": "魅魔对决！"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "おっぱい工房",
     "date": "2026-06-26",
     "rate": 4.43,
@@ -1389,12 +1402,10 @@
     "title": "Newnanka MINI-GAME Pack vol.1",
     "names": {
       "ja": "Newnanka MINI-GAME Pack vol.1",
-      "zh": "Newnanka 小游戏合集 vol.1",
+      "zh": "Newnanka 迷你游戏合集 第1卷",
       "en": "Newnanka MINI-GAME Pack vol.1"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "nounanka",
     "date": "2026-07-02",
     "rate": 4.4,
@@ -1460,11 +1471,10 @@
     "title": "アクメマンサー",
     "names": {
       "ja": "アクメマンサー",
-      "zh": "高潮术士",
+      "zh": "绝顶术士",
       "en": "Acmemancer"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "レイガン",
@@ -1521,7 +1531,8 @@
     "state": "released",
     "title": "【おさわりシミュ】マッサージ当番で先生が本気出すわけないよねっ?",
     "names": {
-      "ja": "【おさわりシミュ】マッサージ当番で先生が本気出すわけないよねっ?"
+      "ja": "【おさわりシミュ】マッサージ当番で先生が本気出すわけないよねっ?",
+      "zh": "轮到按摩值班,老师怎么可能认真起来嘛?"
     },
     "mt": [],
     "circle": "",
@@ -1690,12 +1701,13 @@
     "title": "Grand Order 麻雀",
     "names": {
       "ja": "Grand Order 麻雀",
-      "zh": "Grand Order 麻将",
+      "zh": "Grand Order 麻雀",
       "en": "Grand Order Mahjong"
     },
-    "mt": [
-      "zh"
+    "aka": [
+      "fgo麻将"
     ],
+    "mt": [],
     "circle": "SPLUSH WAVE",
     "date": "2018-01-01",
     "rate": 4.51,
@@ -1779,12 +1791,10 @@
     "title": "闘技女王レイミ",
     "names": {
       "ja": "闘技女王レイミ",
-      "zh": "斗技女王丽美",
+      "zh": "斗技女王蕾米",
       "en": "Reimi, The Queen Of Martial Arts"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "JSK工房",
     "date": "2018-06-30",
     "rate": 4.69,
@@ -1817,12 +1827,10 @@
     "title": "Rabbit Burn",
     "names": {
       "ja": "Rabbit Burn",
-      "zh": "兔女郎燃烧",
+      "zh": "燃燒兔子",
       "en": "Rabbit Burn"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "Bio Sapiens",
     "date": "2018-07-10",
     "rate": 4.56,
@@ -1900,9 +1908,12 @@
     "title": "魔ん娘.dot",
     "names": {
       "ja": "魔ん娘.dot",
-      "en": "Manko.dot"
+      "en": "Manko.dot",
+      "zh": "魔物娘.dot"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "世界樹のめばえ。",
     "date": "2019-02-23",
     "rate": 3.8,
@@ -1919,12 +1930,10 @@
     "title": "打倒!超魔王様",
     "names": {
       "ja": "打倒!超魔王様",
-      "zh": "打倒！超魔王大人",
+      "zh": "打倒超魔王",
       "en": "Overthrow The Great Demoness!"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "JSK工房",
     "date": "2019-03-08",
     "rate": 4.76,
@@ -1955,7 +1964,7 @@
     "title": "お客に勝てばボーナスが出るってホントですか?～バイトは楽して稼ぎたい～",
     "names": {
       "ja": "お客に勝てばボーナスが出るってホントですか?～バイトは楽して稼ぎたい～",
-      "zh": "听说只要赢了客人就有奖金是真的吗？~想要快乐地打工挣钱~",
+      "zh": "赢了客人就能拿到福利这种事是真的吗？～希望打工能快乐地赚钱～",
       "en": "I'll get a bonus paycheck if I beat the customers? ~The Urge to Earn Easy Money~"
     },
     "mt": [],
@@ -2062,7 +2071,9 @@
       "zh": "Hot MINE",
       "en": "Hot MINE"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "JERMANEELS",
     "date": "2020-02-15",
     "rate": 4.44,
@@ -2234,7 +2245,9 @@
       "zh": "古明地雷~ Killer Koishi",
       "en": "Komeiji Mine ~ Killer Koishi"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "第零研究院",
     "date": "2020-11-05",
     "rate": 4.19,
@@ -2293,12 +2306,10 @@
     "title": "夜の賭け麻雀 勝てばあの娘と一晩中",
     "names": {
       "ja": "夜の賭け麻雀 勝てばあの娘と一晩中",
-      "zh": "夜之赌局麻将 赢了就和她共度一夜",
+      "zh": "深夜麻将",
       "en": "Win at Mahjong, Win a Night With Her"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "AleCubicSoft",
     "date": "2020-12-19",
     "rate": 4.49,
@@ -2383,12 +2394,10 @@
     "title": "大魔王様R",
     "names": {
       "ja": "大魔王様R",
-      "zh": "大魔王大人 R",
+      "zh": "大魔王R",
       "en": "The Demon Queen R"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "JSK工房",
     "date": "2021-11-29",
     "rate": 4.78,
@@ -2420,12 +2429,10 @@
     "title": "摂氏509号室",
     "names": {
       "ja": "摂氏509号室",
-      "zh": "摄氏 509 号室",
+      "zh": "摄氏509号房间",
       "en": "Celsius Room 509"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "モヤシ技研",
     "date": "2021-12-12",
     "rate": 4.58,
@@ -2512,11 +2519,10 @@
     "title": "律動のぱらいぞ",
     "names": {
       "ja": "律動のぱらいぞ",
-      "zh": "律动乐园",
+      "zh": "律動天國",
       "en": "Rhythm Paradiso"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "ボマゴェ",
@@ -2545,9 +2551,12 @@
     "title": "色仕掛け型テーブルゲーム マインズカナリア",
     "names": {
       "ja": "色仕掛け型テーブルゲーム マインズカナリア",
-      "en": "Seductive Tabletop Game ~MINES CANARIA~"
+      "en": "Seductive Tabletop Game ~MINES CANARIA~",
+      "zh": "色诱型桌游 矿井金丝雀"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "excess m",
     "date": "2022-07-23",
     "rate": 4.56,
@@ -2631,11 +2640,10 @@
     "title": "淫魔化すごろく2",
     "names": {
       "ja": "淫魔化すごろく2",
-      "zh": "淫魔化双六2",
+      "zh": "淫魔化雙六二代",
       "en": "Succubification Sugoroku 2"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "コラプト",
@@ -2703,11 +2711,10 @@
     "title": "寝取らせ幼妻",
     "names": {
       "ja": "寝取らせ幼妻",
-      "zh": "被让人睡走的幼妻",
+      "zh": "被寝取的幼妻",
       "en": "Sharing My Young Wife"
     },
     "mt": [
-      "zh",
       "en"
     ],
     "circle": "oresam",
@@ -2735,12 +2742,10 @@
     "title": "Lunar Mirror:The Pavilion of Desire",
     "names": {
       "ja": "Lunar Mirror:The Pavilion of Desire",
-      "zh": "月镜：欲望之阁",
+      "zh": "月之镜：欲望之馆",
       "en": "Lunar Mirror: The Pavilion of Desire"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "TUTGame",
     "date": "2023-03-04",
     "rate": null,
@@ -2789,9 +2794,7 @@
       "zh": "魅魔轮盘",
       "en": "Succubus Roulette"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "PurpleCrit",
     "date": "2025-02-18",
     "rate": null,
@@ -2872,9 +2875,12 @@
     "title": "Sex-Pop Demon Hunters",
     "names": {
       "ja": "セクポップ・デーモンハンターズ Sex-Pop Demon Hunters",
-      "zh": "瑟瑟偶像退魔团 Sex-Pop Demon Hunters",
+      "zh": "瑟瑟偶像退魔团",
       "en": "Sex-Pop Demon Hunters"
     },
+    "aka": [
+      "瑟瑟偶像退魔團"
+    ],
     "mt": [],
     "circle": "Sweet Buns Games",
     "date": "2026-09-04",
@@ -2947,7 +2953,7 @@
     "title": "まいてつ",
     "names": {
       "ja": "まいてつ",
-      "zh": "Maitetsu",
+      "zh": "爱上火车",
       "en": "Maitetsu"
     },
     "mt": [],
@@ -2967,12 +2973,10 @@
     "title": "Perky Little Things",
     "names": {
       "ja": "Perky Little Things",
-      "zh": "俏皮小物",
+      "zh": "鲜活的世界",
       "en": "Perky Little Things"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "Ktulhu Solutions",
     "date": "2020-02-14",
     "rate": null,
@@ -3047,12 +3051,10 @@
     "title": "HuniePop 2: Double Date",
     "names": {
       "ja": "HuniePop 2: Double Date",
-      "zh": "HuniePop 2：双人约会",
+      "zh": "哈尼炮2",
       "en": "HuniePop 2: Double Date"
     },
-    "mt": [
-      "zh"
-    ],
+    "mt": [],
     "circle": "HuniePot",
     "date": "2021-02-08",
     "rate": null,
@@ -3095,8 +3097,13 @@
     "title": "まいてつ",
     "names": {
       "ja": "まいてつ",
-      "en": "Maitetsu"
+      "en": "Maitetsu",
+      "zh": "爱上火车"
     },
+    "aka": [
+      "铁道共舞",
+      "余铁"
+    ],
     "mt": [],
     "circle": "Lose",
     "date": "2016-03-25",
@@ -3206,8 +3213,13 @@
     "title": "お兄ちゃん、朝までずっとギュッてして！",
     "names": {
       "ja": "お兄ちゃん、朝までずっとギュッてして！",
-      "en": "Onii-chan, Asa made Zutto Gyutte Shite!"
+      "en": "Onii-chan, Asa made Zutto Gyutte Shite!",
+      "zh": "哥哥，早上起床之前都要抱紧我哦！"
     },
+    "aka": [
+      "妹抱",
+      "哥哥，早起前要一直抱紧我哦！"
+    ],
     "mt": [],
     "circle": "Tinkle Position",
     "date": "2018-05-25",
@@ -3224,9 +3236,12 @@
     "title": "ネムれる園の少女たち",
     "names": {
       "ja": "ネムれる園の少女たち",
-      "en": "Nemureru Sono no Shoujo-tachi"
+      "en": "Nemureru Sono no Shoujo-tachi",
+      "zh": "沉睡乐园的少女们"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "かえるそふと",
     "date": "2018-12-21",
     "rate": null,
@@ -3260,9 +3275,12 @@
     "title": "現実が見えてきたので少女を愛するのを辞めました。",
     "names": {
       "ja": "現実が見えてきたので少女を愛するのを辞めました。",
-      "en": "Genjitsu ga Mietekita node Shoujo o Aisuru no o Yamemashita."
+      "en": "Genjitsu ga Mietekita node Shoujo o Aisuru no o Yamemashita.",
+      "zh": "看清现实后我不再爱少女了。"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "かえるそふと",
     "date": "2020-07-31",
     "rate": null,
@@ -3278,9 +3296,12 @@
     "title": "神隠し しょぅじょ贄",
     "names": {
       "ja": "神隠し しょぅじょ贄",
-      "en": "Kamikakushi - Shoujo Nie"
+      "en": "Kamikakushi - Shoujo Nie",
+      "zh": "神隐 少女祭品"
     },
-    "mt": [],
+    "mt": [
+      "zh"
+    ],
     "circle": "ベェーカリィー",
     "date": "2020-05-21",
     "rate": null,
@@ -3296,8 +3317,13 @@
     "title": "ガマンができない童貞兄キと、スナオになれない反抗妹",
     "names": {
       "ja": "ガマンができない童貞兄キと、スナオになれない反抗妹",
-      "en": "Gaman ga Dekinai Doutei Aniki to, Sunao ni Narenai Hankou Imouto"
+      "en": "Gaman ga Dekinai Doutei Aniki to, Sunao ni Narenai Hankou Imouto",
+      "zh": "无法忍耐的处男哥哥和不直率的叛逆妹妹"
     },
+    "aka": [
+      "童贞兄妹",
+      "童貞兄妹"
+    ],
     "mt": [],
     "circle": "Sister Position",
     "date": "2022-07-24",
@@ -3333,7 +3359,8 @@
     "title": "アイキス３",
     "names": {
       "ja": "アイキス３",
-      "en": "Ai Kiss 3"
+      "en": "Ai Kiss 3",
+      "zh": "爱之吻3"
     },
     "mt": [],
     "circle": "戯画",
@@ -3351,8 +3378,12 @@
     "title": "保健室のセンセーとゴスロリの校医",
     "names": {
       "ja": "保健室のセンセーとゴスロリの校医",
-      "en": "Hokenshitsu no Sensei to Gothloli no Koui"
+      "en": "Hokenshitsu no Sensei to Gothloli no Koui",
+      "zh": "保健室的老师与哥特萝莉校医"
     },
+    "aka": [
+      "保健室老师与哥特萝莉校医"
+    ],
     "mt": [],
     "circle": "Citrus",
     "date": "2022-03-25",
@@ -3369,7 +3400,8 @@
     "title": "いもおか",
     "names": {
       "ja": "いもおか",
-      "en": "Imooka"
+      "en": "Imooka",
+      "zh": "妹妹母亲～母性萝莉"
     },
     "mt": [],
     "circle": "最果てスタジオ",
@@ -3405,8 +3437,14 @@
     "title": "死に逝く騎士、異世界に響く断末魔",
     "names": {
       "ja": "死に逝く騎士、異世界に響く断末魔",
-      "en": "Shiniyuku Kishi, Isekai ni Hibiku Danmatsuma"
+      "en": "Shiniyuku Kishi, Isekai ni Hibiku Danmatsuma",
+      "zh": "濒死的骑士、于异世界中响彻的绝唱"
     },
+    "aka": [
+      "死馆2",
+      "逝去的骑士，异世界中回响的断末魔",
+      "死去的骑士，响彻异世界的绝命魔"
+    ],
     "mt": [],
     "circle": "バグシステム",
     "date": "2024-04-26",
