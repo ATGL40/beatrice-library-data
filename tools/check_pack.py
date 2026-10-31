@@ -324,7 +324,7 @@ def scoring_problems(sc, ids=None):
     if dm is not None:
         pop = dm.get("popularity") if isinstance(dm, dict) else None
         need(obj(dm, ("name", "note", "popularity")) and isinstance(dm["name"], str) and dm["name"].strip() != ""
-             and isinstance(dm["note"], str) and isinstance(pop, dict) and pop
+             and isinstance(dm["note"], str) and dm["note"].strip() != "" and isinstance(pop, dict) and pop
              and all(isinstance(k, str) and k.strip() != "" and is_num(v) and v > 0 for k, v in pop.items()),
              "的 domestic 要是 {name: 榜名, note: 说明, popularity: {字段名: 正数系数}}（人气数 = 各字段 × 系数里大的那个）")
     return out
@@ -563,7 +563,7 @@ def check(path, min_updated, min_revision=0):
                     f"更新记录 {len(changelog) if isinstance(changelog, list) else 0} 个版本")
     undated = 0
     for g in games:  # 发售日不可用的已发售作品：有人气数也不给新作补偿（见 README「综合榜配方」）
-        if isinstance(g, dict) and g.get("state") != "dev" and g.get("src") in SCORED:
+        if isinstance(g, dict) and g.get("state") != "dev" and g.get("region") != "cn" and g.get("src") in SCORED:
             try:
                 ok = datetime.date.fromisoformat(g.get("date") or "") <= datetime.date.fromisoformat(updated)
             except (TypeError, ValueError):
