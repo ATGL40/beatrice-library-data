@@ -1,9 +1,18 @@
 {
   "version": 2,
   "updated": "2026-10-30",
-  "revision": 0,
+  "revision": 1,
   "source": "DLsite 销量榜（女主人公×RPG、男主人公×RPG、ADV（含数字小说）、SLG、动作，2016–2026）；商业作品（エロゲー批評空間 / VNDB）；Steam 成人向；Ci-en · FANBOX 开发中作品；民间榜单：エロゲー批評空間、VNDB（2016–2025 年前 20）；另补评分高、评价人数少的冷门佳作（DLsite、Steam）",
   "changelog": [
+    {
+      "updated": "2026-10-30",
+      "revision": 1,
+      "notes": [
+        "新增国产作品 147 部：DLsite 67 部、Steam 80 部",
+        "国产作品（大陆和港澳台都算）标了地区，共 183 部。它们不进综合榜，软件里另有「国产人气榜」：按人气排，不是评分，不代表好不好玩",
+        "国产人气榜的人气数：DLsite 销量 × 1 和 Steam 评测数 × 20 取大的那个"
+      ]
+    },
     {
       "updated": "2026-10-30",
       "revision": 0,

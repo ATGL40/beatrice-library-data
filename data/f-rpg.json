@@ -3931,6 +3931,38 @@
     ]
   },
   {
+    "id": "RJ01449418",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "dlsite",
+    "region": "cn",
+    "state": "released",
+    "title": "聖剣戦隊-戦闘員が潜入する洗脳の罠",
+    "names": {
+      "ja": "聖剣戦隊-戦闘員が潜入する洗脳の罠",
+      "zh": "聖剣戦隊-戦闘員が潜入する洗脳の罠",
+      "en": "Holy Swords: Combatant Factory ~The Brainwashing Trap For Infiltrators~"
+    },
+    "mt": [],
+    "circle": "Mango Party",
+    "date": "2026-01-16",
+    "rate": 3.54,
+    "dl": 2984,
+    "rc": 274,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01449418.html",
+    "note": "战队粉色队员潜入邪恶组织当杂兵战斗员，一边躲洗脑一边找母亲和妹妹的 RPG",
+    "genres": [
+      "256",
+      "094",
+      "325",
+      "125",
+      "324",
+      "151",
+      "137",
+      "162"
+    ]
+  },
+  {
     "id": "RJ01467184",
     "cat": "f-rpg",
     "pov": "female",
@@ -4720,6 +4752,38 @@
       "048",
       "323",
       "179"
+    ]
+  },
+  {
+    "id": "RJ01625321",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "dlsite",
+    "region": "cn",
+    "state": "released",
+    "title": "LUNA",
+    "names": {
+      "ja": "LUNA",
+      "zh": "LUNA",
+      "en": "LUNA"
+    },
+    "mt": [],
+    "circle": "WorkNite Games",
+    "date": "2026-07-31",
+    "rate": 4.39,
+    "dl": 6682,
+    "rc": 525,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01625321.html",
+    "note": "扮演新人警卫露娜的卡牌构筑超能力战斗 RPG，多结局，Live2D 动态 H",
+    "genres": [
+      "073",
+      "065",
+      "533",
+      "158",
+      "323",
+      "164",
+      "128",
+      "113"
     ]
   },
   {
@@ -8709,6 +8773,36 @@
       "134",
       "121",
       "113"
+    ]
+  },
+  {
+    "id": "RJ249278",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "dlsite",
+    "region": "cn",
+    "state": "released",
+    "title": "借金令嬢",
+    "names": {
+      "ja": "借金令嬢",
+      "zh": "借款大小姐",
+      "en": "借金令嬢"
+    },
+    "mt": [],
+    "circle": "Playmeow",
+    "date": "2019-04-26",
+    "rate": 3.93,
+    "dl": 4055,
+    "rc": 1510,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ249278.html",
+    "note": "一夜背上千万债务的大小姐打工还钱，从店员到卖身一步步沉沦的还债模拟游戏，六个结局",
+    "genres": [
+      "060",
+      "149",
+      "134",
+      "113",
+      "182",
+      "170"
     ]
   },
   {
@@ -13632,6 +13726,7 @@
     "cat": "f-rpg",
     "pov": "female",
     "src": "steam",
+    "region": "cn",
     "state": "released",
     "title": "Third Crisis",
     "names": {
@@ -13725,6 +13820,7 @@
     "cat": "f-rpg",
     "pov": "female",
     "src": "steam",
+    "region": "cn",
     "state": "released",
     "title": "Jerez's Arena Ⅲ",
     "names": {
@@ -13755,6 +13851,43 @@
       "432",
       "113",
       "446"
+    ]
+  },
+  {
+    "id": "steam-4048300",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "steam",
+    "region": "cn",
+    "state": "released",
+    "title": "緋月仙行錄",
+    "names": {
+      "ja": "緋月仙行錄",
+      "zh": "绯月仙行录",
+      "en": "緋月仙行錄"
+    },
+    "mt": [],
+    "circle": "月光草",
+    "date": "2026-04-30",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 55,
+      "reviews": 475
+    },
+    "note": "亡国公主踏上复仇修仙路的黑暗 RPG，身心一路被各方势力践踏，坚守道心还是沉沦看你选",
+    "genres": [
+      "432",
+      "113",
+      "121",
+      "129",
+      "146",
+      "162",
+      "324",
+      "446",
+      "136",
+      "526"
     ]
   }
 ]

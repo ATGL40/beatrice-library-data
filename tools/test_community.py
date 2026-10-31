@@ -8,7 +8,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from build_pack import build_catalog  # noqa: E402
-from check_pack import blacklist_problem, scoring_problems  # noqa: E402
+from check_pack import blacklist_problem, region_problem, scoring_problems  # noqa: E402
 from community import Source, aggregate, extract, extract_recognition, extract_tags, place, settle_blacklist, spam_reason, write_reasons  # noqa: E402
 
 RULES = {"reasonRequired": "oppose", "reasonMinChars": 20}
@@ -224,6 +224,12 @@ class Checks(unittest.TestCase):
         self.assertTrue(all(blacklist_problem({"blacklist": v}) for v in bad))
         self.assertIsNone(blacklist_problem({}))
 
+    def test_region_field(self):
+        self.assertIsNone(region_problem({}))  # 海外作品不写
+        self.assertIsNone(region_problem({"region": "cn"}))
+        for v in ("jp", "CN", "", None, ["cn"], True):
+            self.assertTrue(region_problem({"region": v}), v)
+
     def test_recipe_block(self):
         sc = build_catalog()["scoring"]  # data/scoring.json 带 blacklist，检查通过
         self.assertEqual(sc["blacklist"], RULE)
@@ -231,6 +237,16 @@ class Checks(unittest.TestCase):
         for b in ({"minVoters": 0, "minShare": 0.3}, {"minVoters": 5, "minShare": 0}, {"minVoters": 5, "minShare": 1.5}, {"minVoters": 5}):
             self.assertTrue(any("blacklist" in p for p in scoring_problems({**sc, "blacklist": b})), b)
         self.assertEqual(scoring_problems({k: v for k, v in sc.items() if k != "blacklist"}), [])  # 可以没有
+
+    def test_domestic_block(self):
+        sc = build_catalog()["scoring"]  # data/scoring.json 带 domestic（国产人气榜）
+        self.assertEqual(sc["domestic"]["popularity"], {"dl": 1, "steam.reviews": 20})
+        self.assertEqual(scoring_problems(sc), [])
+        for d in ({"name": "x", "note": "", "popularity": {}}, {"name": "", "note": "", "popularity": {"dl": 1}},
+                  {"name": "x", "note": "", "popularity": {"dl": 0}}, {"name": "x", "note": "", "popularity": {"dl": "1"}},
+                  {"name": "x", "popularity": {"dl": 1}}, {"name": "x", "note": 3, "popularity": {"dl": 1}}, ["x"]):
+            self.assertTrue(any("domestic" in p for p in scoring_problems({**sc, "domestic": d})), d)
+        self.assertEqual(scoring_problems({k: v for k, v in sc.items() if k != "domestic"}), [])  # 可以没有
 
 
 if __name__ == "__main__":

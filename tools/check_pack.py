@@ -22,6 +22,7 @@ SRCS = {"dlsite", "fanza", "commercial", "steam", "cien", "fanbox"}
 SIGNALS = {"egs": "commercial", "steam": "steam", "followers": "cien"}  # 分数信号字段 → 写它的来源
 RATED = {"vndb": ("rating", 10, 100), "bgm": ("score", 1, 10)}  # VNDB / Bangumi 的评分：任何来源的作品都可以有
 POVS = ("female", "male", "both", "multi", "none")  # 主角视角：女主 / 男主 / 男女双视角 / 多视角 / 无固定主角
+REGIONS = ("cn",)  # 地区：cn 国产（大陆和港澳台，不分）；海外作品不写
 LANGS = ("ja", "zh", "en")
 EXTS = {"jpg", "jpeg", "png", "webp"}
 NAME_OK = re.compile(r"[A-Za-z0-9._-]+")
@@ -101,6 +102,13 @@ def pov_problem(g):
     return None
 
 
+def region_problem(g):
+    """region（地区）：可以不写（海外作品）；有就要是 REGIONS 之一（现在只有 cn 国产），返回问题说明或 None"""
+    if "region" in g and g["region"] not in REGIONS:
+        return f"的 region 是 {g['region']!r}，要是 {' / '.join(REGIONS)}（海外作品不写）"
+    return None
+
+
 def community_problem(g):
     """community（社区评分汇总，tools/community.py 写的）：任何来源都可以有，可以没有或 null；
     有就要是 {"avg": 1–5 的数, "count": 正整数}，返回问题说明或 None"""
@@ -168,7 +176,7 @@ def is_date(v):
 DATE_RE = re.compile(r"\d{4}-\d{2}-\d{2}")
 SCORED = ("dlsite", "commercial", "steam")  # 综合榜只给这三个来源的已发售作品打分
 SCORING_KEYS = {"name", "version", "praise", "heat", "players", "curve", "bands", "cap", "nominee", "gates",
-                "canon", "development", "hiddenGems", "blacklist"}
+                "canon", "development", "hiddenGems", "blacklist", "domestic"}
 RATING_SRCS = ("dlsite", "commercial", "steam", "vndb", "bgm", "community")  # 口碑能合并的社区评分
 REASON_RULES = ("oppose", "all", "none")
 GEM_SORTS = ("praise",)  # 冷门佳作榜的排序依据：praise = 口碑分 P
@@ -312,6 +320,13 @@ def scoring_problems(sc, ids=None):
         need(obj(bl, ("minVoters", "minShare")) and is_int(bl["minVoters"]) and bl["minVoters"] >= 1
              and is_num(bl["minShare"]) and 0 < bl["minShare"] <= 1,
              "的 blacklist 要是 {minVoters: 正整数, minShare: 0–1}")
+    dm = sc.get("domestic")  # 国产人气榜（可以没有）：按人气排，人气数取 popularity 里各字段 × 系数的最大值
+    if dm is not None:
+        pop = dm.get("popularity") if isinstance(dm, dict) else None
+        need(obj(dm, ("name", "note", "popularity")) and isinstance(dm["name"], str) and dm["name"].strip() != ""
+             and isinstance(dm["note"], str) and isinstance(pop, dict) and pop
+             and all(isinstance(k, str) and k.strip() != "" and is_num(v) and v > 0 for k, v in pop.items()),
+             "的 domestic 要是 {name: 榜名, note: 说明, popularity: {字段名: 正数系数}}（人气数 = 各字段 × 系数里大的那个）")
     return out
 
 
@@ -438,7 +453,7 @@ def check(path, min_updated, min_revision=0):
     for gid, names in genres.items():
         if not (gid.isdigit() and isinstance(names, dict) and all(isinstance(names.get(k), str) and names[k] for k in LANGS)):
             problems.append(f"题材 {gid!r} 格式不对：要有 {', '.join(LANGS)} 三个名称")
-    tagged, signals, povs, aliased, flagged = 0, {}, {}, 0, 0
+    tagged, signals, povs, aliased, flagged, domestic = 0, {}, {}, 0, 0, 0
     for g in games:
         if not isinstance(g, dict) or not g.get("id"):
             continue
@@ -471,12 +486,14 @@ def check(path, min_updated, min_revision=0):
                 problems.append(f"{g.get('id')} 的 genres 要是字符串数组，每个 id 都要在 genres 字典里")
             else:
                 tagged += 1
-        for problem in (signal_problem(g), pov_problem(g), community_problem(g), godvote_problem(g), blacklist_problem(g),
-                        raw_problem(g) if src == "dlsite" else None):
+        for problem in (signal_problem(g), pov_problem(g), region_problem(g), community_problem(g), godvote_problem(g),
+                        blacklist_problem(g), raw_problem(g) if src == "dlsite" else None):
             if problem:
                 problems.append(f"{g.get('id')} {problem}")
         if g.get("pov") in POVS:
             povs[g["pov"]] = povs.get(g["pov"], 0) + 1
+        if g.get("region") == "cn":
+            domestic += 1
         for key in list(SIGNALS) + list(RATED) + ["community", "godvote", "blacklist"]:
             if g.get(key) is not None:
                 signals[key] = signals.get(key, 0) + 1
@@ -539,7 +556,8 @@ def check(path, min_updated, min_revision=0):
     notes.insert(4, f"VNDB 评分 vndb {signals.get('vndb', 0)} 部，Bangumi 评分 bgm {signals.get('bgm', 0)} 部，"
                     f"社区评分 community {signals.get('community', 0)} 部，神作复议票 godvote {signals.get('godvote', 0)} 部，"
                     f"社区黑榜 blacklist {signals.get('blacklist', 0)} 部（标注多人拉黑 {flagged} 部）；"
-                    f"主角视角 pov {sum(povs.values())} 部（{'，'.join(f'{k} {povs.get(k, 0)}' for k in POVS)}）；别名 aliases {aliased} 部")
+                    f"主角视角 pov {sum(povs.values())} 部（{'，'.join(f'{k} {povs.get(k, 0)}' for k in POVS)}）；别名 aliases {aliased} 部；"
+                    f"国产作品 {domestic} 部")
     recipe = f"{scoring.get('name')} version {scoring.get('version')}" if isinstance(scoring, dict) else "没有（用软件自带的）"
     notes.insert(5, f"综合榜配方：{recipe}；神作名单 {len(canon) if isinstance(canon, dict) else 0} 部；"
                     f"更新记录 {len(changelog) if isinstance(changelog, list) else 0} 个版本")

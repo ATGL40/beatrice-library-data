@@ -1423,6 +1423,38 @@
     "pov": "male"
   },
   {
+    "id": "RJ01165110",
+    "cat": "act",
+    "pov": "male",
+    "src": "dlsite",
+    "region": "cn",
+    "state": "released",
+    "title": "ラストロード",
+    "names": {
+      "ja": "ラストロード",
+      "zh": "末代君主",
+      "en": "Last Devil"
+    },
+    "mt": [],
+    "circle": "Mango Party",
+    "date": "2024-05-24",
+    "rate": 4.25,
+    "dl": 3044,
+    "rc": 566,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01165110.html",
+    "note": "扮演末代魔王走出城堡的 Roguelike 动作射击游戏，捕获各种族助手让魔族延续",
+    "genres": [
+      "235",
+      "303",
+      "251",
+      "317",
+      "046",
+      "128",
+      "129",
+      "186"
+    ]
+  },
+  {
     "id": "RJ01169914",
     "cat": "act",
     "pov": "female",
@@ -1836,6 +1868,38 @@
     ]
   },
   {
+    "id": "RJ01264206",
+    "cat": "act",
+    "pov": "male",
+    "src": "dlsite",
+    "region": "cn",
+    "state": "released",
+    "title": "女拳主義F-IST",
+    "names": {
+      "ja": "女拳主義F-IST",
+      "zh": "女拳主义F-ist！",
+      "en": "Waifu Fighter"
+    },
+    "mt": [],
+    "circle": "Mango Party",
+    "date": "2024-12-25",
+    "rate": 4.23,
+    "dl": 4939,
+    "rc": 745,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01264206.html",
+    "note": "女拳统治世界里的 2D 格斗游戏，打赢五位女格斗家再约会，五种对战模式",
+    "genres": [
+      "063",
+      "065",
+      "050",
+      "488",
+      "128",
+      "122",
+      "138",
+      "182"
+    ]
+  },
+  {
     "id": "RJ01267193",
     "cat": "act",
     "src": "dlsite",
@@ -2094,6 +2158,38 @@
       "324",
       "114",
       "313"
+    ]
+  },
+  {
+    "id": "RJ01381533",
+    "cat": "act",
+    "pov": "male",
+    "src": "dlsite",
+    "region": "cn",
+    "state": "released",
+    "title": "クラロロ - アビス・オブ・ザ・ソウル",
+    "names": {
+      "ja": "クラロロ - アビス・オブ・ザ・ソウル",
+      "zh": "クラロロ - アビス・オブ・ザ・ソウル",
+      "en": "Klaroro - Abyss of the Soul"
+    },
+    "mt": [],
+    "circle": "Mango Party",
+    "date": "2025-09-26",
+    "rate": 4.18,
+    "dl": 3868,
+    "rc": 426,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01381533.html",
+    "note": "用手机催眠光波打倒魔物娘再上前 H 的 2D 像素动作游戏，七大魔王等你征服",
+    "genres": [
+      "502",
+      "431",
+      "317",
+      "016",
+      "157",
+      "128",
+      "122",
+      "182"
     ]
   },
   {
@@ -2895,6 +2991,38 @@
     ]
   },
   {
+    "id": "RJ01576818",
+    "cat": "act",
+    "pov": "female",
+    "src": "dlsite",
+    "region": "cn",
+    "state": "released",
+    "title": "新人シスター・リティシア",
+    "names": {
+      "ja": "新人シスター・リティシア",
+      "zh": "新人シスター・リティシア",
+      "en": "Novice Sister Leticia"
+    },
+    "mt": [],
+    "circle": "Mango Party",
+    "date": "2026-05-01",
+    "rate": 4.13,
+    "dl": 1395,
+    "rc": 149,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01576818.html",
+    "note": "新人驱魔修女执行任务的像素横版动作游戏，H 场面只有她一个",
+    "genres": [
+      "432",
+      "431",
+      "096",
+      "101",
+      "160",
+      "324",
+      "162",
+      "128"
+    ]
+  },
+  {
     "id": "RJ01582983",
     "cat": "act",
     "src": "dlsite",
@@ -2965,6 +3093,7 @@
     "cat": "act",
     "pov": "female",
     "src": "dlsite",
+    "region": "cn",
     "state": "released",
     "title": "森海幻夢",
     "names": {
@@ -3065,6 +3194,36 @@
       "162",
       "113",
       "143"
+    ]
+  },
+  {
+    "id": "RJ01619404",
+    "cat": "act",
+    "pov": "female",
+    "src": "dlsite",
+    "region": "cn",
+    "state": "released",
+    "title": "プロトタイプ-YUSHA-",
+    "names": {
+      "ja": "プロトタイプ-YUSHA-",
+      "zh": "プロトタイプ-YUSHA-",
+      "en": "Prototype ~YUSHA~"
+    },
+    "mt": [],
+    "circle": "Mango Party",
+    "date": "2026-06-12",
+    "rate": 3.39,
+    "dl": 1316,
+    "rc": 108,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01619404.html",
+    "note": "化名「YUSHA」的女战斗员潜入地牢讨伐魔女的像素横版动作游戏，只有繁中和英文",
+    "genres": [
+      "432",
+      "431",
+      "024",
+      "300",
+      "146",
+      "162"
     ]
   },
   {
@@ -9149,6 +9308,7 @@
     "cat": "act",
     "pov": "female",
     "src": "steam",
+    "region": "cn",
     "state": "released",
     "title": "She Will Punish Them",
     "names": {
@@ -9364,6 +9524,78 @@
     "genres": [
       "509"
     ]
+  },
+  {
+    "id": "steam-1631210",
+    "cat": "act",
+    "src": "steam",
+    "region": "cn",
+    "state": "released",
+    "title": "Be My Girlfriends",
+    "names": {
+      "ja": "Be My Girlfriends",
+      "zh": "Be My Girlfriends",
+      "en": "Be My Girlfriends"
+    },
+    "mt": [],
+    "circle": "DigitalDream",
+    "date": "2022-04-12",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 70,
+      "reviews": 373
+    },
+    "note": "操控小鸡仔躲障碍、带女友们抵达终点的躲避小游戏加 galgame，多结局"
+  },
+  {
+    "id": "steam-1808780",
+    "cat": "act",
+    "src": "steam",
+    "region": "cn",
+    "state": "released",
+    "title": "祖玛少女/Zuma Girls",
+    "names": {
+      "ja": "祖玛少女/Zuma Girls",
+      "zh": "祖玛少女/Zuma Girls",
+      "en": "祖玛少女/Zuma Girls"
+    },
+    "mt": [],
+    "circle": "Goshujin Sama",
+    "date": "2022-05-01",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 82,
+      "reviews": 641
+    },
+    "note": "祖玛玩法加 RPG 技能的休闲弹珠射击游戏，三名美少女参战"
+  },
+  {
+    "id": "steam-1814490",
+    "cat": "act",
+    "src": "steam",
+    "region": "cn",
+    "state": "released",
+    "title": "Scratch Girl",
+    "names": {
+      "ja": "Scratch Girl",
+      "zh": "Scratch Girl",
+      "en": "Scratch Girl"
+    },
+    "mt": [],
+    "circle": "DigitalDream",
+    "date": "2021-12-14",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 73,
+      "reviews": 219
+    },
+    "note": "飞行射击加 galgame，打掉黑幕找出美少女触发剧情，分支多结局"
   },
   {
     "id": "steam-1860760",
@@ -9590,6 +9822,7 @@
     "cat": "act",
     "pov": "female",
     "src": "steam",
+    "region": "cn",
     "state": "released",
     "title": "Half-Demon Shinobi",
     "names": {
@@ -9611,6 +9844,65 @@
     "genres": [
       "432",
       "113"
+    ]
+  },
+  {
+    "id": "steam-2619510",
+    "cat": "act",
+    "pov": "male",
+    "src": "steam",
+    "region": "cn",
+    "state": "released",
+    "title": "Fantasy Amusement Park II",
+    "names": {
+      "ja": "遊園地ラプソディ2",
+      "zh": "幻欲游乐园2",
+      "en": "Fantasy Amusement Park II"
+    },
+    "mt": [],
+    "circle": "Cat Paw Game",
+    "date": "2024-05-31",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 67,
+      "reviews": 320
+    },
+    "note": "被传送到濒临倒闭的游乐园异世界，弹幕射击加恋爱养成，五位女主日语配音",
+    "genres": [
+      "502",
+      "136",
+      "073",
+      "312"
+    ]
+  },
+  {
+    "id": "steam-2685500",
+    "cat": "act",
+    "src": "steam",
+    "region": "cn",
+    "state": "released",
+    "title": "Falling with Ice Phoenix!",
+    "names": {
+      "ja": "最下層を目指せ！天空塔のフローヴィア",
+      "zh": "下来啊！冰鸟（是男人就下一百层）",
+      "en": "Falling with Ice Phoenix!"
+    },
+    "mt": [],
+    "circle": "F Project",
+    "date": "2024-11-21",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 92,
+      "reviews": 304
+    },
+    "note": "「是男人就下一百层」式的像素快节奏动作游戏，和失去魔力的魔物女王一路往下探索",
+    "genres": [
+      "431",
+      "317"
     ]
   },
   {
@@ -9683,6 +9975,68 @@
     ]
   },
   {
+    "id": "steam-2812180",
+    "cat": "act",
+    "pov": "male",
+    "src": "steam",
+    "region": "cn",
+    "state": "released",
+    "title": "Single By Choice",
+    "names": {
+      "ja": "Single By Choice",
+      "zh": "实力单身",
+      "en": "Single By Choice"
+    },
+    "mt": [],
+    "circle": "AIROTS / 非魚創意",
+    "date": "2024-06-23",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 90,
+      "reviews": 236
+    },
+    "note": "散发催情信息素的男主一路逃跑、被抓到就失去贞操的 2D 横版跑酷，纯爱逆推无 NTR",
+    "genres": [
+      "502",
+      "115",
+      "536",
+      "113",
+      "032"
+    ]
+  },
+  {
+    "id": "steam-2822030",
+    "cat": "act",
+    "pov": "male",
+    "src": "steam",
+    "region": "cn",
+    "state": "released",
+    "title": "Smash Girls",
+    "names": {
+      "ja": "スマッシュガールズ",
+      "zh": "乱斗少女",
+      "en": "Smash Girls"
+    },
+    "mt": [],
+    "circle": "18bitStudio",
+    "date": "2024-06-25",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 80,
+      "reviews": 468
+    },
+    "note": "被迫当黑帮总长的男主用拳头征服其他帮派的 2D 动作格斗游戏，总长享有性处理服务",
+    "genres": [
+      "502",
+      "113",
+      "143"
+    ]
+  },
+  {
     "id": "steam-3233390",
     "cat": "act",
     "pov": "female",
@@ -9718,6 +10072,7 @@
     "cat": "act",
     "pov": "female",
     "src": "steam",
+    "region": "cn",
     "state": "released",
     "title": "Succubus Successor: Delilah's Juicy Journey",
     "names": {
