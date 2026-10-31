@@ -72,7 +72,7 @@ tools/
 - **Steam 好评率不参与打分，只显示作参考。** Steam 作品要靠别的社区（批评空间、Bangumi 等）的评分打分；只有 Steam 好评率的作品算评价不足。
 - **算法可能出错。** 分数是各社区评价的汇总参考，资料不全也会偏；分不高不代表不好玩。
 
-只给已发售的 DLsite / 商业 / Steam 作品打分。
+只给已发售的海外 DLsite / 商业 / Steam 作品打分；国产作品（`region` 为 `cn`）不打分、不分档，也不算进热度的中位数，单独排国产人气榜（见下面）。
 
 - **口碑** `praise`：把作品在各个社区的评分合起来。认的社区和字段：DLsite（DLsite 作品的 `rate` 0–5 / `rc`）、批评空间（`egs.median` 0–100 / `egs.count`）、Steam（`steam.positive` 0–100 / `steam.reviews`）、VNDB（`vndb.rating` 10–100 / `vndb.votes`）、Bangumi（`bgm.score` 1–10 / `bgm.votes`）、我们自己的社区评分（`community.avg` 1–5 / `community.count`）。资料里有哪个就用哪个，配方的 `anchors` 里没写的社区不算。`appliesTo[社区]` 写了的，只对这些来源的作品算，空数组是不参与打分：VNDB 只看它对商业视觉小说的评分（`["commercial"]`），DLsite 和 Steam 作品上的 `vndb` 字段留着、但不算分；Steam 好评率是 `[]`，不参与打分（`steam` 字段留着，`k` / `anchors` 也留着，以后单独的榜可以用）。
   - 每个社区：评价人数少于 `minN[社区]` 的不算。评分按 `anchors[社区] = [低, 高]` 换成 R = (x − 低) ÷ (高 − 低) × 100，截到 `clamp`（0–100）。

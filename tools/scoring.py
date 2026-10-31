@@ -212,8 +212,8 @@ def heat(d, src, sc):
 
 
 def scoped(catalog):
-    """参与打分的作品：已发售的 DLsite / 商业 / Steam 作品"""
-    return [g for g in catalog["games"] if g.get("state") != "dev" and g.get("src") in SCORED]
+    """参与打分的作品：已发售的海外 DLsite / 商业 / Steam 作品（国产作品 region 为 cn 的不打分，单独排国产人气榜；热度的中位数也不算它们，和软件一致）"""
+    return [g for g in catalog["games"] if g.get("state") != "dev" and g.get("region") != "cn" and g.get("src") in SCORED]
 
 
 def composite(catalog):
