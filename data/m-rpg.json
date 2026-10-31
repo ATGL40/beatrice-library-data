@@ -10761,6 +10761,9 @@
     "pov": "male",
     "src": "steam",
     "region": "cn",
+    "also": [
+      "dlsite"
+    ],
     "state": "released",
     "title": "Mirai's Midnight Stream",
     "names": {

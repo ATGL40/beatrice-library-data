@@ -975,6 +975,16 @@
     "rate": 4.22,
     "dl": 20110,
     "rc": 2751,
+    "vndb": {
+      "id": "v54089",
+      "rating": 54.9,
+      "votes": 11
+    },
+    "bgm": {
+      "id": 536160,
+      "score": 5.6,
+      "votes": 7
+    },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01292820.html",
     "note": "靠约炮软件认识人妻、一步步调教夺人的 NTR 系 ADV，30 张基本 CG、两个结局",
     "genres": [
@@ -10714,6 +10724,34 @@
     "genres": [
       "431",
       "113"
+    ]
+  },
+  {
+    "id": "steam-4291500",
+    "cat": "adv",
+    "pov": "female",
+    "src": "steam",
+    "region": "cn",
+    "state": "released",
+    "title": "Secrets of the Heart",
+    "names": {
+      "ja": "スプリングラプソディ：詩ちゃんの秘密~",
+      "zh": "春日狂想曲：情窦初开的秘密",
+      "en": "Secrets of the Heart"
+    },
+    "mt": [],
+    "circle": "FallingDay",
+    "date": "2026-05-29",
+    "rate": null,
+    "dl": null,
+    "rc": null,
+    "steam": {
+      "positive": 89,
+      "reviews": 158
+    },
+    "note": "剧情向 AVG，女主加藤诗为帮摄影师男友接触各种人和世界，结局随你的选择变化",
+    "genres": [
+      "432"
     ]
   },
   {
