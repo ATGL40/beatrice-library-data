@@ -1,9 +1,16 @@
 {
   "version": 2,
   "updated": "2026-10-30",
-  "revision": 1,
+  "revision": 2,
   "source": "DLsite 销量榜（女主人公×RPG、男主人公×RPG、ADV（含数字小说）、SLG、动作，2016–2026）；商业作品（エロゲー批評空間 / VNDB）；Steam 成人向；Ci-en · FANBOX 开发中作品；民间榜单：エロゲー批評空間、VNDB（2016–2025 年前 20）；另补评分高、评价人数少的冷门佳作（DLsite、Steam）",
   "changelog": [
+    {
+      "updated": "2026-10-30",
+      "revision": 2,
+      "notes": [
+        "9 部作品的中文名改回大家常用的中文叫法：拔作岛、拔作岛2、王之出口、萨尔忒、小小生活、黑市等（上一版误用了英文名，英文名照样能搜到）"
+      ]
+    },
     {
       "updated": "2026-10-30",
       "revision": 1,

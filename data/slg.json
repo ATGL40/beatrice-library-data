@@ -1575,9 +1575,12 @@
     "title": "ぽんこつ生主ミライちゃん～えっちなコメント受付中～",
     "names": {
       "ja": "ぽんこつ生主ミライちゃん～えっちなコメント受付中～",
-      "zh": "No-good Streamer Mirai-chan! (Now accepting lewd comments)[zh Ver.]",
+      "zh": "废柴主播未来酱 ～欢迎色色评论～",
       "en": "Ponkotsu Streamer Mirai-chan"
     },
+    "aliases": [
+      "No-good Streamer Mirai-chan! (Now accepting lewd comments)"
+    ],
     "mt": [
       "en"
     ],
@@ -6801,7 +6804,7 @@
     "title": "Little Life",
     "names": {
       "ja": "Little Life",
-      "zh": "Little Life",
+      "zh": "小小生活",
       "en": "Little Life"
     },
     "mt": [],
@@ -7644,9 +7647,12 @@
     "title": "BLACK-MARKET",
     "names": {
       "ja": "BLACK-MARKET",
-      "zh": "Black Market",
+      "zh": "黑市",
       "en": "BLACK-MARKET"
     },
+    "aliases": [
+      "Black Market"
+    ],
     "mt": [],
     "circle": "いーめいどぷらす",
     "date": "2020-05-08",
