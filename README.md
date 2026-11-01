@@ -2,6 +2,9 @@
 
 桌面软件 [碧翠子禁书库（Beatrice Library）](https://github.com/ATGL40/beatrice-library) 的作品资料。软件自带一份资料的文字快照；这里是资料的源头，新的数据包在 [Releases](https://github.com/ATGL40/beatrice-library-data/releases) 发布。
 
+> [!IMPORTANT]
+> 公开版不含封面图片和作品简介（版权和 GitHub 内容规定的原因）。
+
 > 内容涉及成人向（R18）同人游戏，仅供成年人使用。
 
 ## 用数据包
@@ -217,6 +220,9 @@ py -m unittest discover -s tools                 # 改了 community.py / check_p
 ## English
 
 Catalog data for **Beatrice Library** (碧翠子禁书库), an offline desktop manager for adult doujin / visual-novel games. Adults (18+) only.
+
+> [!IMPORTANT]
+> The public version ships without cover images or work summaries (for copyright reasons and GitHub's content rules).
 
 - **Use:** download `beatrice-library-data-<date>.zip` from [Releases](https://github.com/ATGL40/beatrice-library-data/releases), then in the app: 设置 (Settings) → 作品资料 → 导入数据包 (Import data pack). Packs older than the app's built-in data are rejected.
 - **Text packs only:** released packs contain `catalog.json` only. Cover images are copyrighted by their owners and are never stored or distributed here. `tools/build_pack.py --covers <dir>` builds a pack with your own local covers (`<id>.jpg|jpeg|png|webp`); keep such packs to yourself. `--extra <file.json>` merges extra local entries (`{"games": [...], "rankings": {"<list id>": [items...]}}`) into the build.
