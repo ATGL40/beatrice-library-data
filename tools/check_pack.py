@@ -24,6 +24,10 @@ RATED = {"vndb": ("rating", 10, 100), "bgm": ("score", 1, 10)}  # VNDB / Bangumi
 POVS = ("female", "male", "both", "multi", "none")  # 主角视角：女主 / 男主 / 男女双视角 / 多视角 / 无固定主角
 REGIONS = ("cn",)  # 地区：cn 国产（大陆和港澳台，不分）；海外作品不写
 LANGS = ("ja", "zh", "en")
+DESC_BY = ("ai", "human")  # 简介是谁写的：ai（软件显示「AI 生成」标签）/ human（人写的或人工改过、确认过）
+DESC_CONF = ("high", "mid", "low")  # 简介的把握（只在 data/desc.json 里，不进数据包）
+DESC_KEYS = {"zh", "by", "date", "sources", "conf"}
+DESC_APP_KEYS = ("zh", "by", "date")  # 打进数据包的字段（作品的 desc）
 EXTS = {"jpg", "jpeg", "png", "webp"}
 NAME_OK = re.compile(r"[A-Za-z0-9._-]+")
 RESERVED = {"CON", "PRN", "AUX", "NUL"} | {f"{p}{i}" for p in ("COM", "LPT") for i in range(1, 10)}
@@ -163,6 +167,49 @@ def blacklist_problem(g):
         return ("的 blacklist 要是 {\"count\": 非负整数, \"flagged\": true 或 false, \"settled\": \"YYYY-MM-DD\"}"
                 "（可以再有 \"changed\": \"YYYY-MM-DD\"），没有 changed 或 flagged 是 true 时至少 1 人")
     return None
+
+
+def desc_entry_problem(v, keys=DESC_KEYS):
+    """一条简介：{"zh": 非空正文, "by": "ai" / "human", "date": "YYYY-MM-DD"}；data/desc.json 里还可以有
+    "sources": https 链接数组、"conf": high / mid / low（keys 是允许的字段）。返回问题说明或 None"""
+    if not isinstance(v, dict):
+        return "要是对象 {zh, by, date}"
+    if set(v) - set(keys):
+        return f"有不认识的字段 {sorted(set(v) - set(keys))}（只能有 {', '.join(sorted(keys))}）"
+    if not (isinstance(v.get("zh"), str) and v["zh"].strip()):
+        return "的 zh（中文正文）要是非空文字"
+    if v.get("by") not in DESC_BY:
+        return f"的 by 是 {v.get('by')!r}，要是 {' / '.join(DESC_BY)}"
+    if not is_date(v.get("date")):
+        return f"的 date 要写成 YYYY-MM-DD：{v.get('date')!r}"
+    if "sources" in v and not (isinstance(v["sources"], list) and all(isinstance(u, str) and u.startswith("https://") for u in v["sources"])):
+        return "的 sources 要是 https 链接的数组"
+    if "conf" in v and v["conf"] not in DESC_CONF:
+        return f"的 conf 是 {v['conf']!r}，要是 {' / '.join(DESC_CONF)}"
+    return None
+
+
+def desc_file_problems(descs, ids):
+    """data/desc.json：作品 id → 一条简介（见 desc_entry_problem）；id 要是 data/ 里有的作品。返回问题列表"""
+    if not isinstance(descs, dict):
+        return ["要是对象：作品 id → {zh, by, date, sources, conf}"]
+    out = []
+    for gid, v in descs.items():
+        if gid not in ids:
+            out.append(f"{gid} 不是 data/ 里的作品")
+            continue
+        problem = desc_entry_problem(v)
+        if problem:
+            out.append(f"{gid} {problem}")
+    return out
+
+
+def desc_problem(g):
+    """作品的 desc（数据包里的简介，build_pack.py 从 data/desc.json 合进来的）：可以没有；有就要正好是 {zh, by, date}，返回问题说明或 None"""
+    if "desc" not in g:
+        return None
+    problem = desc_entry_problem(g["desc"], DESC_APP_KEYS)
+    return f"的 desc {problem}" if problem else None
 
 
 def is_num(v):
@@ -453,7 +500,7 @@ def check(path, min_updated, min_revision=0):
     for gid, names in genres.items():
         if not (gid.isdigit() and isinstance(names, dict) and all(isinstance(names.get(k), str) and names[k] for k in LANGS)):
             problems.append(f"题材 {gid!r} 格式不对：要有 {', '.join(LANGS)} 三个名称")
-    tagged, signals, povs, aliased, flagged, domestic = 0, {}, {}, 0, 0, 0
+    tagged, signals, povs, aliased, flagged, domestic, described = 0, {}, {}, 0, 0, 0, {}
     for g in games:
         if not isinstance(g, dict) or not g.get("id"):
             continue
@@ -487,13 +534,15 @@ def check(path, min_updated, min_revision=0):
             else:
                 tagged += 1
         for problem in (signal_problem(g), pov_problem(g), region_problem(g), community_problem(g), godvote_problem(g),
-                        blacklist_problem(g), raw_problem(g) if src == "dlsite" else None):
+                        blacklist_problem(g), desc_problem(g), raw_problem(g) if src == "dlsite" else None):
             if problem:
                 problems.append(f"{g.get('id')} {problem}")
         if g.get("pov") in POVS:
             povs[g["pov"]] = povs.get(g["pov"], 0) + 1
         if g.get("region") == "cn":
             domestic += 1
+        if isinstance(g.get("desc"), dict) and g["desc"].get("by") in DESC_BY:
+            described[g["desc"]["by"]] = described.get(g["desc"]["by"], 0) + 1
         for key in list(SIGNALS) + list(RATED) + ["community", "godvote", "blacklist"]:
             if g.get(key) is not None:
                 signals[key] = signals.get(key, 0) + 1
@@ -557,7 +606,7 @@ def check(path, min_updated, min_revision=0):
                     f"社区评分 community {signals.get('community', 0)} 部，神作复议票 godvote {signals.get('godvote', 0)} 部，"
                     f"社区黑榜 blacklist {signals.get('blacklist', 0)} 部（标注多人拉黑 {flagged} 部）；"
                     f"主角视角 pov {sum(povs.values())} 部（{'，'.join(f'{k} {povs.get(k, 0)}' for k in POVS)}）；别名 aliases {aliased} 部；"
-                    f"国产作品 {domestic} 部")
+                    f"国产作品 {domestic} 部；简介 desc {sum(described.values())} 部（AI 生成 {described.get('ai', 0)}、人写 {described.get('human', 0)}）")
     recipe = f"{scoring.get('name')} version {scoring.get('version')}" if isinstance(scoring, dict) else "没有（用软件自带的）"
     notes.insert(5, f"综合榜配方：{recipe}；神作名单 {len(canon) if isinstance(canon, dict) else 0} 部；"
                     f"更新记录 {len(changelog) if isinstance(changelog, list) else 0} 个版本")

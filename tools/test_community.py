@@ -1,22 +1,28 @@
-"""community.py 的黑榜、识别报告、标签报告部分和 check_pack.py 对应的检查：py -m unittest discover -s tools（不读写 data/ 以外的东西，不改 data/）"""
+"""community.py 的黑榜、识别报告、标签报告、用户写的简介部分，build_pack.py / check_pack.py 对应的检查（含 data/desc.json 的简介）：
+py -m unittest discover -s tools（不读写 data/ 以外的东西，不改 data/；简介的打包测试在临时文件夹里复制一份 data/）"""
 import datetime
 import json
+import shutil
 import sys
+import tempfile
 import unittest
+import zipfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from build_pack import build_catalog  # noqa: E402
-from check_pack import blacklist_problem, region_problem, scoring_problems  # noqa: E402
-from community import Source, aggregate, extract, extract_recognition, extract_tags, place, settle_blacklist, spam_reason, write_reasons  # noqa: E402
+import build_pack  # noqa: E402
+from build_pack import build_catalog, merge_descs  # noqa: E402
+from check_pack import blacklist_problem, check, desc_entry_problem, desc_file_problems, desc_problem, region_problem, scoring_problems  # noqa: E402
+from community import (Source, aggregate, extract, extract_descs, extract_recognition, extract_tags, place, settle_blacklist,  # noqa: E402
+                       spam_reason, write_reasons)
 
 RULES = {"reasonRequired": "oppose", "reasonMinChars": 20}
 IDS = {"RJ1", "RJ2", "RJ3"}
 DAY = datetime.date(2026, 11, 1)
 
 
-def sub(ratings=None, votes=None, blacklist=None, kind="beatrice-ratings-submission", recognition=None, tags=None):
+def sub(ratings=None, votes=None, blacklist=None, kind="beatrice-ratings-submission", recognition=None, tags=None, descs=None):
     obj = {"kind": kind, "version": 1, "app": "x", "catalog": "2026-10-29", "ratings": ratings or {}}
     if votes is not None:
         obj["votes"] = votes
@@ -26,6 +32,8 @@ def sub(ratings=None, votes=None, blacklist=None, kind="beatrice-ratings-submiss
         obj["recognition"] = recognition
     if tags is not None:
         obj["tags"] = tags
+    if descs is not None:
+        obj["descs"] = descs
     return obj
 
 
@@ -170,6 +178,122 @@ class Tags(unittest.TestCase):
         self.assertIn("- 2026-10-29 · 少了：学生（400）\n- 2026-10-30 · 不对：触手（070）；少了：学生（400）；说明：其实没有触手", text)
         self.assertNotIn("· a ·", text)  # 不写是谁
         self.assertIn("（现在没有写了理由的投票）", text)
+
+
+class UserDescs(unittest.TestCase):
+    def test_cleaning(self):
+        out, drops = extract_descs(sub(descs={
+            "RJ1": {"text": "  自己写的简介  ", "date": "2026-11-01", "user": "alice"}, "RJ2": {"text": "字" * 2100, "date": "昨天"},
+            "RJ3": {"text": "   "}, "RJ9": {"text": "资料里没有"}, "RJ4": "坏"}), IDS | {"RJ4"})
+        self.assertEqual(out["RJ1"], {"text": "自己写的简介", "date": "2026-11-01"})
+        self.assertEqual(len(out["RJ2"]["text"]), 2000)
+        self.assertEqual(out["RJ2"]["date"], "")
+        self.assertEqual(sorted(out), ["RJ1", "RJ2"])
+        self.assertEqual(len(drops), 3)  # RJ3 空的、RJ9 资料里没有、RJ4 不是对象
+        self.assertTrue(all(d.startswith("简介") for d in drops))
+        self.assertEqual(extract_descs({"kind": "beatrice-marks", "descs": {"RJ1": {"text": "x"}}}, IDS), ({}, []))
+        self.assertEqual(extract_descs(sub(), IDS), ({}, []))  # 旧的提交没有这个字段
+        with self.assertRaises(ValueError):
+            extract_descs(sub(descs=[{"text": "x"}]), IDS)
+
+    def test_only_descs_accepted_and_written_locally(self):
+        sources = [src("a", 1, sub(descs={"RJ1": {"text": "只有简介\n也收", "date": "2026-11-01"}})), src("b", 1, sub({"RJ1": 4}, descs="坏"))]
+        community, tally, black, reasons, used, dropped, notes, replaced = aggregate(sources, IDS, {}, RULES)
+        self.assertEqual([r[0] for r in reasons if r[1] == "desc"], ["RJ1"])
+        self.assertEqual([d[0] for d in dropped], ["b.json"])  # descs 不是对象：整份不要
+        self.assertEqual(community, {})
+        out = Path(__file__).resolve().parent.parent / "submissions" / "_test_descs.md"
+        try:
+            write_reasons(out, reasons, {}, {"RJ1": "维尔莫林"}, DAY)
+            text = out.read_text(encoding="utf-8")
+        finally:
+            out.unlink(missing_ok=True)
+        self.assertIn("# 用户写的简介（本地，不发布）", text)
+        self.assertIn("## 维尔莫林（RJ1）· 1 段\n\n- 2026-11-01：只有简介 也收", text)
+        self.assertNotIn("· a ·", text)
+        self.assertIn("（现在没有写了理由的投票）", text)  # 简介不算进投票理由
+
+
+class PackDescs(unittest.TestCase):
+    """data/desc.json：check_pack 的检查、build_pack 合进作品（只带 zh / by / date），打好的包 check_pack 通过。
+    仓库里还没有 desc.json，这里把 data/ 复制到临时文件夹再放一份假的"""
+    OK = {"zh": "测试用的简介", "by": "ai", "date": "2026-11-01", "sources": ["https://example.com/a"], "conf": "high"}
+
+    def test_entry_checks(self):
+        self.assertIsNone(desc_entry_problem(self.OK))
+        self.assertIsNone(desc_entry_problem({"zh": "人写的", "by": "human", "date": "2026-11-01"}))  # sources / conf 可以没有
+        bad = [{**self.OK, "zh": ""}, {**self.OK, "zh": "   "}, {**self.OK, "zh": 3}, {k: v for k, v in self.OK.items() if k != "zh"},
+               {**self.OK, "by": "AI"}, {**self.OK, "by": None}, {k: v for k, v in self.OK.items() if k != "by"},
+               {**self.OK, "date": "昨天"}, {k: v for k, v in self.OK.items() if k != "date"},
+               {**self.OK, "sources": "https://x"}, {**self.OK, "sources": ["http://x"]}, {**self.OK, "conf": "高"},
+               {**self.OK, "en": "later"}, "正文", ["x"], None]
+        for v in bad:
+            self.assertTrue(desc_entry_problem(v), v)
+        problems = desc_file_problems({"RJ1": self.OK, "RJ9": self.OK, "RJ2": {**self.OK, "by": "robot"}}, IDS)
+        self.assertEqual(len(problems), 2)
+        self.assertTrue(any(p.startswith("RJ9 不是 data/ 里的作品") for p in problems))
+        self.assertTrue(any(p.startswith("RJ2 的 by") for p in problems))
+        self.assertTrue(desc_file_problems([self.OK], IDS))
+
+    def test_game_field(self):
+        self.assertIsNone(desc_problem({}))
+        self.assertIsNone(desc_problem({"desc": {"zh": "x", "by": "human", "date": "2026-11-01"}}))
+        self.assertTrue(desc_problem({"desc": self.OK}))  # 包里不该有 sources / conf
+        self.assertTrue(desc_problem({"desc": {"zh": "", "by": "ai", "date": "2026-11-01"}}))
+
+    def test_merge(self):
+        by_cat = {"adv": [{"id": "RJ1"}, {"id": "RJ2"}]}
+        merge_descs(by_cat, {"RJ1": {**self.OK, "zh": "  前后有空白  "}}, IDS)
+        self.assertEqual(by_cat["adv"][0]["desc"], {"zh": "前后有空白", "by": "ai", "date": "2026-11-01"})
+        self.assertNotIn("desc", by_cat["adv"][1])
+        with self.assertRaises(ValueError):
+            merge_descs(by_cat, {"RJ9": self.OK}, IDS)
+
+    def test_build_and_check(self):
+        real = build_pack.DATA
+        with tempfile.TemporaryDirectory() as tmp:
+            data = Path(tmp) / "data"
+            shutil.copytree(real, data)
+            games = [g for c in build_pack.CATS for g in json.loads((data / f"{c}.json").read_text(encoding="utf-8-sig"))][:3]
+            a, h, plain = (g["id"] for g in games)
+            (data / "desc.json").write_text(json.dumps({a: self.OK, h: {"zh": "人写的", "by": "human", "date": "2026-10-31"}},
+                                                       ensure_ascii=False), encoding="utf-8")
+            build_pack.DATA = data
+            try:
+                cat = build_catalog()
+                got = {g["id"]: g for g in cat["games"]}
+                self.assertEqual(got[a]["desc"], {"zh": "测试用的简介", "by": "ai", "date": "2026-11-01"})  # 不带 sources / conf
+                self.assertEqual(got[h]["desc"], {"zh": "人写的", "by": "human", "date": "2026-10-31"})
+                self.assertNotIn("desc", got[plain])
+                pack = Path(tmp) / "pack.zip"
+                with zipfile.ZipFile(pack, "w") as z:
+                    z.writestr("catalog.json", json.dumps(cat, ensure_ascii=False))
+                problems, notes = check(pack, None)
+                self.assertEqual(problems, [])
+                self.assertTrue(any("简介 desc 2 部（AI 生成 1、人写 1）" in n for n in notes))
+                # 包里的简介不合格：check_pack 报出来
+                got[a]["desc"]["by"] = "robot"
+                with zipfile.ZipFile(pack, "w") as z:
+                    z.writestr("catalog.json", json.dumps(cat, ensure_ascii=False))
+                self.assertTrue(any(p.startswith(f"{a} 的 desc") for p in check(pack, None)[0]))
+                # desc.json 里的 id 不存在、zh 是空的：打包失败
+                (data / "desc.json").write_text(json.dumps({"RJ-nope": self.OK}), encoding="utf-8")
+                with self.assertRaises(ValueError):
+                    build_catalog()
+                (data / "desc.json").write_text(json.dumps({a: {**self.OK, "zh": ""}}), encoding="utf-8")
+                with self.assertRaises(ValueError):
+                    build_catalog()
+                # 简介写进分类文件：打包失败（要写在 desc.json 里）
+                (data / "desc.json").unlink()
+                path = data / f"{games[0]['cat']}.json"
+                items = json.loads(path.read_text(encoding="utf-8-sig"))
+                next(g for g in items if g["id"] == a)["desc"] = {"zh": "x", "by": "ai", "date": "2026-11-01"}
+                path.write_text(json.dumps(items, ensure_ascii=False), encoding="utf-8")
+                with self.assertRaises(ValueError):
+                    build_catalog()
+            finally:
+                build_pack.DATA = real
+        self.assertNotIn("desc", {k for g in build_catalog()["games"] for k in g})  # 真的 data/ 现在没有 desc.json
 
 
 class Settle(unittest.TestCase):

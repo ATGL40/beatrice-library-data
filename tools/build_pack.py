@@ -20,8 +20,8 @@ import tempfile
 import zipfile
 from pathlib import Path
 
-from check_pack import (aka_ok, aliases_ok, blacklist_problem, canon_problems, changelog_problems, community_problem, godvote_problem, pov_problem,
-                        raw_problem, region_problem, scoring_problems, signal_problem)
+from check_pack import (DESC_APP_KEYS, aka_ok, aliases_ok, blacklist_problem, canon_problems, changelog_problems, community_problem, desc_file_problems,
+                        godvote_problem, pov_problem, raw_problem, region_problem, scoring_problems, signal_problem)
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -29,7 +29,7 @@ CATS = ["f-rpg", "m-rpg", "adv", "slg", "act", "other"]
 URL_SRCS = ("dlsite", "cien", "fanbox")  # 只有这几个来源写链接：DLsite 商店页、赞助站的支持页
 SRCS = ["dlsite", "fanza", "commercial", "steam", "cien", "fanbox"]
 SRC_BY_PREFIX = {"RJ": "dlsite", "fanza-": "fanza", "vndb-": "commercial", "steam-": "steam", "cien-": "cien", "fanbox-": "fanbox"}
-OTHER_FILES = {"meta.json", "rankings.json", "scoring.json", "genres.json", "canon.json"}
+OTHER_FILES = {"meta.json", "rankings.json", "scoring.json", "genres.json", "canon.json", "desc.json"}
 LANGS = ("ja", "zh", "en")
 EXTS = [".jpg", ".jpeg", ".png", ".webp"]
 NAME_OK = re.compile(r"[A-Za-z0-9._-]+")
@@ -79,6 +79,8 @@ def build_catalog(extras=()):
             raise ValueError(f"{gid} 的 cat 是 {g.get('cat')!r}，和 {where} 对不上")
         if "cover" in g or "thumb" in g:
             raise ValueError(f"{gid} 写了 cover / thumb：封面字段由打包脚本生成，{where} 里不要写")
+        if "desc" in g:
+            raise ValueError(f"{gid} 写了 desc：简介写在 data/desc.json 里，打包时合进来，{where} 里不要写")
         if "src" not in g:  # 旧格式 / 本地另加的条目：按 id 前缀补来源
             g["src"] = next((s for p, s in SRC_BY_PREFIX.items() if gid.startswith(p)), None)
         if g["src"] not in SRCS:
@@ -117,6 +119,8 @@ def build_catalog(extras=()):
     rankings = load(DATA / "rankings.json") if (DATA / "rankings.json").exists() else []
     for extra in extras:
         merge_extra(load(extra), extra.name, add, rankings)
+    if (DATA / "desc.json").exists():  # 作品简介（可以没有）：作品 id → {zh, by, date, sources, conf}
+        merge_descs(by_cat, load(DATA / "desc.json"), seen)
     catalog = {k: v for k, v in meta.items() if k not in ("games", "rankings", "scoring", "genres", "canon")}
     if genres:
         catalog["genres"] = genres
@@ -163,6 +167,19 @@ def merge_extra(ex, where, add, rankings):
         merged = lists[rid]["items"] + items
         merged.sort(key=lambda it: it.get("rank") if isinstance(it, dict) and isinstance(it.get("rank"), int) else 0)
         lists[rid]["items"] = merged
+
+
+def merge_descs(by_cat, descs, ids):
+    """data/desc.json 合进作品：每部有简介的作品多一个 desc = {zh, by, date}。
+    sources（来源网址）和 conf（把握）只留在 data/desc.json 给维护者重查用，不进数据包：软件不显示它们，也不该多出对外链接"""
+    problems = desc_file_problems(descs, ids)
+    if problems:
+        raise ValueError("data/desc.json：" + "；".join(problems))
+    for games in by_cat.values():
+        for g in games:
+            d = descs.get(g["id"])
+            if d:
+                g["desc"] = {k: d[k].strip() if k == "zh" else d[k] for k in DESC_APP_KEYS}
 
 
 def find_covers(catalog, cover_dir):
