@@ -50,7 +50,7 @@ def load(path):
     return json.loads(path.read_text(encoding="utf-8-sig"))
 
 
-def build_catalog(extras=()):
+def build_catalog(extras=(), descs=()):
     unknown = sorted(p.name for p in DATA.glob("*.json") if p.name not in OTHER_FILES and p.stem not in CATS)
     if unknown:
         raise ValueError(f"data/ 里有不认识的文件：{unknown}（作品按分类放在 {', '.join(c + '.json' for c in CATS)}）")
@@ -121,6 +121,8 @@ def build_catalog(extras=()):
         merge_extra(load(extra), extra.name, add, rankings)
     if (DATA / "desc.json").exists():  # 作品简介（可以没有）：作品 id → {zh, by, date, sources, conf}
         merge_descs(by_cat, load(DATA / "desc.json"), seen)
+    for path in descs:  # 本地另给的简介文件（--desc，格式同 data/desc.json）：公开数据里不放简介时，只打进本地自己的包
+        merge_descs(by_cat, load(path), seen, path.name)
     catalog = {k: v for k, v in meta.items() if k not in ("games", "rankings", "scoring", "genres", "canon")}
     if genres:
         catalog["genres"] = genres
@@ -169,12 +171,12 @@ def merge_extra(ex, where, add, rankings):
         lists[rid]["items"] = merged
 
 
-def merge_descs(by_cat, descs, ids):
+def merge_descs(by_cat, descs, ids, where="data/desc.json"):
     """data/desc.json 合进作品：每部有简介的作品多一个 desc = {zh, by, date}。
     sources（来源网址）和 conf（把握）只留在 data/desc.json 给维护者重查用，不进数据包：软件不显示它们，也不该多出对外链接"""
     problems = desc_file_problems(descs, ids)
     if problems:
-        raise ValueError("data/desc.json：" + "；".join(problems))
+        raise ValueError(f"{where}：" + "；".join(problems))
     for games in by_cat.values():
         for g in games:
             d = descs.get(g["id"])
@@ -224,11 +226,12 @@ def main():
     ap = argparse.ArgumentParser(description="把 data/ 打成碧翠子禁书库数据包")
     ap.add_argument("--covers", type=Path, help="封面文件夹；不给就只打文字包")
     ap.add_argument("--extra", type=Path, action="append", default=[], help="合并本地另加的作品和榜单条目，可以给多个")
+    ap.add_argument("--desc", type=Path, action="append", default=[], help="合并本地的作品简介文件（格式同 data/desc.json），可以给多个")
     ap.add_argument("--thumbs", type=Path, help="缩略图文件夹（缓存）：给 --covers 的封面做缩略图一起打进包")
     ap.add_argument("--out", type=Path, default=ROOT / "dist", help="输出文件夹，默认 dist/")
     args = ap.parse_args()
     try:
-        catalog = build_catalog(args.extra)
+        catalog = build_catalog(args.extra, args.desc)
         covers = {}
         if args.covers:
             if not args.covers.is_dir():

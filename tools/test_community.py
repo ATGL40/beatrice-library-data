@@ -296,6 +296,25 @@ class PackDescs(unittest.TestCase):
         self.assertNotIn("desc", {k for g in build_catalog()["games"] for k in g})  # 真的 data/ 现在没有 desc.json
 
 
+class PackLocalDescs(unittest.TestCase):
+    def test_desc_option_merges_a_local_file(self):
+        # 公开数据里不放简介：本地的简介文件用 --desc 只打进自己的包
+        import tempfile
+        games = build_catalog()["games"]
+        a = games[0]["id"]
+        with tempfile.TemporaryDirectory() as tmp:
+            f = Path(tmp) / "local-desc.json"
+            f.write_text(json.dumps({a: {"zh": "一段简介。", "by": "ai", "date": "2026-11-01", "sources": ["https://example.com"], "conf": "mid"}},
+                                    ensure_ascii=False), encoding="utf-8")
+            cat = build_catalog((), [f])
+            g = next(x for x in cat["games"] if x["id"] == a)
+            self.assertEqual(g["desc"], {"zh": "一段简介。", "by": "ai", "date": "2026-11-01"})
+            f.write_text(json.dumps({"no-such-id": {"zh": "x", "by": "ai", "date": "2026-11-01"}}), encoding="utf-8")
+            with self.assertRaises(ValueError) as e:
+                build_catalog((), [f])
+            self.assertIn("local-desc.json", str(e.exception))
+
+
 class Settle(unittest.TestCase):
     def test_threshold_and_share(self):
         out, moves = settle_blacklist(catalog(rule=RULE), {"RJ1": (5, 10), "RJ2": (5, 20), "RJ3": (4, 4)}, DAY)
