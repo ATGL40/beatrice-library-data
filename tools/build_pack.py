@@ -21,7 +21,8 @@ import zipfile
 from pathlib import Path
 
 from check_pack import (DESC_APP_KEYS, aka_ok, aliases_ok, blacklist_problem, canon_problems, changelog_problems, community_problem, desc_file_problems,
-                        godvote_problem, moved_problems, pov_problem, raw_problem, region_problem, scoring_problems, signal_problem)
+                        godvote_problem, moved_problems, pov_problem, raw_problem, region_problem, scoring_problems,
+                        series_problem, series_problems, signal_problem, voice_problem, zh_problem)
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -101,7 +102,8 @@ def build_catalog(extras=(), descs=()):
             bad = [x for x in g["genres"] if x not in genres]
             if bad:
                 raise ValueError(f"{gid} 的题材 {bad} 不在 data/genres.json 里")
-        problem = (signal_problem(g) or pov_problem(g) or region_problem(g) or community_problem(g) or godvote_problem(g)
+        problem = (signal_problem(g) or pov_problem(g) or region_problem(g) or voice_problem(g) or zh_problem(g)
+                   or series_problem(g) or community_problem(g) or godvote_problem(g)
                    or blacklist_problem(g) or (raw_problem(g) if g["src"] == "dlsite" else None))
         if problem:
             raise ValueError(f"{gid} {problem}")
@@ -119,6 +121,9 @@ def build_catalog(extras=(), descs=()):
     rankings = load(DATA / "rankings.json") if (DATA / "rankings.json").exists() else []
     for extra in extras:
         merge_extra(load(extra), extra.name, add, rankings)
+    problems = series_problems(g for games in by_cat.values() for g in games)
+    if problems:
+        raise ValueError("；".join(problems))
     if (DATA / "desc.json").exists():  # 作品简介（可以没有）：作品 id → {zh, by, date, sources, conf}
         merge_descs(by_cat, load(DATA / "desc.json"), seen)
     for path in descs:  # 本地另给的简介文件（--desc，格式同 data/desc.json）：公开数据里不放简介时，只打进本地自己的包

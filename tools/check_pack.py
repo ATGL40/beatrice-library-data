@@ -11,6 +11,7 @@ import json
 import re
 import sys
 import zipfile
+from collections import Counter
 from pathlib import Path
 
 CATALOG_VERSION = 2
@@ -111,6 +112,37 @@ def region_problem(g):
     if "region" in g and g["region"] not in REGIONS:
         return f"的 region 是 {g['region']!r}，要是 {' / '.join(REGIONS)}（海外作品不写）"
     return None
+
+
+def voice_problem(g):
+    """voice（配音）：可以不写（不知道）；有就要是布尔值，返回问题说明或 None"""
+    if "voice" in g and not isinstance(g["voice"], bool):
+        return f"的 voice 是 {g['voice']!r}，要是 true / false（不知道就不写）"
+    return None
+
+
+def zh_problem(g):
+    """zh（中文）：可以不写（不代表没有中文）；有就要是 official / fan，返回问题说明或 None"""
+    if "zh" in g and g["zh"] not in ("official", "fan"):
+        return f"的 zh 是 {g['zh']!r}，要是 official / fan（没查到就不写）"
+    return None
+
+
+def series_problem(g):
+    """series（系列键）：可以不写；有就要是非空字符串，不要求是作品 id，返回问题说明或 None"""
+    if "series" in g and not (isinstance(g["series"], str) and g["series"].strip()):
+        return f"的 series 是 {g['series']!r}，要是非空字符串（没有系列就不写）"
+    return None
+
+
+def series_counts(games):
+    """按全部作品统计合法的系列键，不改写键的内容"""
+    return Counter(g["series"] for g in games if isinstance(g, dict) and "series" in g and not series_problem(g))
+
+
+def series_problems(games):
+    """合并后的全部作品：同一个系列键至少出现两次，返回问题列表"""
+    return [f"series {key!r} 只有一部作品，同一个系列键至少要有两部作品" for key, n in series_counts(games).items() if n < 2]
 
 
 def community_problem(g):
@@ -554,7 +586,8 @@ def check(path, min_updated, min_revision=0):
                 problems.append(f"{g.get('id')} 的 genres 要是字符串数组，每个 id 都要在 genres 字典里")
             else:
                 tagged += 1
-        for problem in (signal_problem(g), pov_problem(g), region_problem(g), community_problem(g), godvote_problem(g),
+        for problem in (signal_problem(g), pov_problem(g), region_problem(g), voice_problem(g), zh_problem(g),
+                        series_problem(g), community_problem(g), godvote_problem(g),
                         blacklist_problem(g), desc_problem(g), raw_problem(g) if src == "dlsite" else None):
             if problem:
                 problems.append(f"{g.get('id')} {problem}")
@@ -569,6 +602,14 @@ def check(path, min_updated, min_revision=0):
                 signals[key] = signals.get(key, 0) + 1
         if isinstance(g.get("blacklist"), dict) and g["blacklist"].get("flagged") is True:
             flagged += 1
+
+    problems.extend(series_problems(games))
+    series = series_counts(games)
+    notes.append(f"有配音 {sum(isinstance(g, dict) and g.get('voice') is True for g in games)} 部，"
+                 f"无配音 {sum(isinstance(g, dict) and g.get('voice') is False for g in games)} 部，"
+                 f"官方中文 {sum(isinstance(g, dict) and g.get('zh') == 'official' for g in games)} 部，"
+                 f"民间汉化 {sum(isinstance(g, dict) and g.get('zh') == 'fan' for g in games)} 部，"
+                 f"同系列 {sum(n for n in series.values() if n >= 2)} 部、{sum(n >= 2 for n in series.values())} 个系列")
 
     rankings = cat.get("rankings", [])
     rk_items = rk_rj = rk_hit = 0
