@@ -329,7 +329,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "dlsite",
-    "region": "cn",
     "also": [
       "steam"
     ],
@@ -895,7 +894,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "dlsite",
-    "region": "cn",
     "state": "released",
     "title": "異世界ジャンケン勇者",
     "names": {
@@ -994,7 +992,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "dlsite",
-    "region": "cn",
     "also": [
       "steam"
     ],
@@ -5254,7 +5251,6 @@
     "cat": "adv",
     "pov": "female",
     "src": "dlsite",
-    "region": "cn",
     "state": "released",
     "title": "末日少女～ジェンナの凌○サバイバル日記(中国語パソコン版)",
     "names": {
@@ -6891,7 +6887,6 @@
     "cat": "adv",
     "pov": "female",
     "src": "dlsite",
-    "region": "cn",
     "also": [
       "steam"
     ],
@@ -7468,6 +7463,7 @@
     "voice": false,
     "note": "登场角色全为兽人的 ADV",
     "genres": [
+      "9001",
       "073",
       "502",
       "251",
@@ -8494,7 +8490,6 @@
     "id": "steam-1083210",
     "cat": "adv",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "符文女孩/Rune Girl",
     "names": {
@@ -8520,7 +8515,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "月球坠落时 Moon Fall",
     "names": {
@@ -8674,7 +8668,6 @@
     "id": "steam-1185680",
     "cat": "adv",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "White Wings ホワイトウィングス",
     "names": {
@@ -8804,6 +8797,7 @@
     "voice": false,
     "note": "结合自由探索、视觉小说与约会模拟的兽人题材成人游戏，可攻略角色 20 多名",
     "genres": [
+      "9001",
       "502",
       "182",
       "317"
@@ -8814,7 +8808,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "异世界的无厘头生活",
     "names": {
@@ -8843,7 +8836,6 @@
     "id": "steam-1346970",
     "cat": "adv",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Lens Life",
     "names": {
@@ -8952,7 +8944,6 @@
     "id": "steam-1393350",
     "cat": "adv",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Swaying Girl",
     "names": {
@@ -8978,7 +8969,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Cat's Kiss 猫缶舎",
     "names": {
@@ -9060,7 +9050,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Rebirth:Beware of Mr.Wang",
     "names": {
@@ -9090,7 +9079,6 @@
     "cat": "adv",
     "pov": "female",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Fallen girl - Black rose and the fire of desire",
     "names": {
@@ -9122,7 +9110,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Dragon Island",
     "names": {
@@ -9143,6 +9130,8 @@
     "zh": "official",
     "note": "救生员亨利和六只雄龙度过海岛假日的 BL 视觉小说",
     "genres": [
+      "119",
+      "9001",
       "502"
     ]
   },
@@ -9151,7 +9140,6 @@
     "cat": "adv",
     "pov": "female",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Chasing Tails ~A Promise in the Snow~",
     "names": {
@@ -9212,7 +9200,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "恋爱关系/Romance",
     "names": {
@@ -9279,7 +9266,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Like an Angel",
     "names": {
@@ -9300,6 +9286,7 @@
     "zh": "official",
     "note": "成人向 BL 游戏，养成加文字冒险，七条结局",
     "genres": [
+      "119",
       "502"
     ]
   },
@@ -9374,7 +9361,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "My Newborn Life In A Harem",
     "names": {
@@ -9488,7 +9474,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Lunar Mirror",
     "names": {
@@ -9627,7 +9612,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Elf boss's dog training",
     "names": {
@@ -9661,7 +9645,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Lovelorn sanatoriumⅠ",
     "names": {
@@ -9713,6 +9696,7 @@
     "voice": true,
     "note": "书店店员发现能把人变成兽人的魔法茶后人生被改变的视觉小说，多结局",
     "genres": [
+      "9001",
       "432",
       "143",
       "146",
@@ -9725,7 +9709,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "To Be or Not to Be",
     "names": {
@@ -9755,7 +9738,6 @@
     "id": "steam-2203030",
     "cat": "adv",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Girl Fantasy",
     "names": {
@@ -9818,7 +9800,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "My MILF Stepmom💋",
     "names": {
@@ -9849,7 +9830,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Lovelorn sanatorium Ⅲ",
     "names": {
@@ -9919,7 +9899,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Fantasy Amusement Park",
     "names": {
@@ -9949,7 +9928,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Game Of Evolution - Season 1",
     "names": {
@@ -9982,7 +9960,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "also": [
       "dlsite"
     ],
@@ -10061,7 +10038,6 @@
     "cat": "adv",
     "pov": "female",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Heart Cage",
     "names": {
@@ -10221,7 +10197,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Travel through the adult game and build a harem",
     "names": {
@@ -10254,7 +10229,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "The Wife Next Door",
     "names": {
@@ -10509,7 +10483,6 @@
     "id": "steam-3116500",
     "cat": "adv",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Summer at Smile Café",
     "names": {
@@ -10546,7 +10519,6 @@
     "id": "steam-3196180",
     "cat": "adv",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Trivia About You",
     "names": {
@@ -10567,6 +10539,7 @@
     "zh": "official",
     "note": "像素风的兽人恋爱视觉小说，搬进 Carol 的店后和兽人们共度日常",
     "genres": [
+      "9001",
       "431"
     ]
   },
@@ -10610,7 +10583,6 @@
     "cat": "adv",
     "pov": "female",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "The Ethereal Dream",
     "names": {
@@ -10713,7 +10685,6 @@
     "id": "steam-3570940",
     "cat": "adv",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Isekai Bistro",
     "names": {
@@ -10745,7 +10716,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "My Wife Wants to Be a Professional Cosplayer?!",
     "names": {
@@ -10779,7 +10749,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "The Cheated Man's Revenge: Triple the Payback",
     "names": {
@@ -10844,7 +10813,6 @@
     "id": "steam-3886870",
     "cat": "adv",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Harem Fantasy",
     "names": {
@@ -10881,7 +10849,6 @@
     "id": "steam-3907210",
     "cat": "adv",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Married Into Hell",
     "names": {
@@ -11078,7 +11045,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Cucked by My Wife",
     "names": {
@@ -11182,7 +11148,6 @@
     "cat": "adv",
     "pov": "female",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Secrets of the Heart",
     "names": {
@@ -11288,7 +11253,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "家有大貓 Nekojishi",
     "names": {
@@ -11309,6 +11273,8 @@
     "zh": "official",
     "note": "大学生突然看见三位猫科神灵的 BL 视觉小说，台湾民俗题材",
     "genres": [
+      "119",
+      "9001",
       "502"
     ]
   },
@@ -11317,7 +11283,6 @@
     "cat": "adv",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Trajectory of summer flower",
     "names": {

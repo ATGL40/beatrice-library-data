@@ -1479,7 +1479,6 @@
     "cat": "act",
     "pov": "male",
     "src": "dlsite",
-    "region": "cn",
     "state": "released",
     "title": "ラストロード",
     "names": {
@@ -1950,7 +1949,6 @@
     "cat": "act",
     "pov": "male",
     "src": "dlsite",
-    "region": "cn",
     "state": "released",
     "title": "女拳主義F-IST",
     "names": {
@@ -2258,7 +2256,6 @@
     "cat": "act",
     "pov": "male",
     "src": "dlsite",
-    "region": "cn",
     "state": "released",
     "title": "クラロロ - アビス・オブ・ザ・ソウル",
     "names": {
@@ -3129,7 +3126,6 @@
     "cat": "act",
     "pov": "female",
     "src": "dlsite",
-    "region": "cn",
     "state": "released",
     "title": "新人シスター・リティシア",
     "names": {
@@ -3232,7 +3228,6 @@
     "cat": "act",
     "pov": "female",
     "src": "dlsite",
-    "region": "cn",
     "state": "released",
     "title": "森海幻夢",
     "names": {
@@ -3345,7 +3340,6 @@
     "cat": "act",
     "pov": "female",
     "src": "dlsite",
-    "region": "cn",
     "state": "released",
     "title": "プロトタイプ-YUSHA-",
     "names": {
@@ -9738,7 +9732,6 @@
     "cat": "act",
     "pov": "female",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "She Will Punish Them",
     "names": {
@@ -9969,7 +9962,6 @@
     "id": "steam-1631210",
     "cat": "act",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Be My Girlfriends",
     "names": {
@@ -9994,7 +9986,6 @@
     "id": "steam-1808780",
     "cat": "act",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "祖玛少女/Zuma Girls",
     "names": {
@@ -10020,7 +10011,6 @@
     "id": "steam-1814490",
     "cat": "act",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Scratch Girl",
     "names": {
@@ -10277,7 +10267,6 @@
     "cat": "act",
     "pov": "female",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Half-Demon Shinobi",
     "names": {
@@ -10308,7 +10297,6 @@
     "cat": "act",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Fantasy Amusement Park II",
     "names": {
@@ -10340,7 +10328,6 @@
     "id": "steam-2685500",
     "cat": "act",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Falling with Ice Phoenix!",
     "names": {
@@ -10442,7 +10429,6 @@
     "cat": "act",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Single By Choice",
     "names": {
@@ -10476,7 +10462,6 @@
     "cat": "act",
     "pov": "male",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Smash Girls",
     "names": {
@@ -10539,7 +10524,6 @@
     "cat": "act",
     "pov": "female",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Succubus Successor: Delilah's Juicy Journey",
     "names": {

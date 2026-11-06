@@ -1,5 +1,37 @@
 [
   {
+    "id": "RJ01388042",
+    "cat": "f-rpg",
+    "pov": "female",
+    "src": "dlsite",
+    "state": "released",
+    "title": "呪いの鎧II(霊魔女傳奇)",
+    "names": {
+      "ja": "呪いの鎧II(霊魔女傳奇)",
+      "zh": "诅咒铠甲II(灵魔女传奇)",
+      "en": "The Cursed Armor 2 ~Legend of the Spirit Witch~"
+    },
+    "circle": "wolfzq",
+    "date": "2025-10-31",
+    "rate": 4.29,
+    "dl": 5519,
+    "rc": 761,
+    "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01388042.html",
+    "voice": true,
+    "zh": "official",
+    "note": "探索加多分支的动作 RPG，莉莉娜成为在暗夜里守护帝国的灵魔女",
+    "genres": [
+      "065",
+      "234",
+      "269",
+      "324",
+      "162",
+      "129",
+      "190",
+      "167"
+    ]
+  },
+  {
     "id": "cien-11070",
     "cat": "f-rpg",
     "pov": "female",
@@ -4051,7 +4083,6 @@
     "cat": "f-rpg",
     "pov": "female",
     "src": "dlsite",
-    "region": "cn",
     "state": "released",
     "title": "聖剣戦隊-戦闘員が潜入する洗脳の罠",
     "names": {
@@ -4902,7 +4933,6 @@
     "cat": "f-rpg",
     "pov": "female",
     "src": "dlsite",
-    "region": "cn",
     "state": "released",
     "title": "LUNA",
     "names": {
@@ -9098,7 +9128,6 @@
     "cat": "f-rpg",
     "pov": "female",
     "src": "dlsite",
-    "region": "cn",
     "state": "released",
     "title": "借金令嬢",
     "names": {
@@ -14249,7 +14278,6 @@
     "cat": "f-rpg",
     "pov": "female",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Third Crisis",
     "names": {
@@ -14347,7 +14375,6 @@
     "cat": "f-rpg",
     "pov": "female",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "Jerez's Arena Ⅲ",
     "names": {
@@ -14387,7 +14414,6 @@
     "cat": "f-rpg",
     "pov": "female",
     "src": "steam",
-    "region": "cn",
     "state": "released",
     "title": "緋月仙行錄",
     "names": {

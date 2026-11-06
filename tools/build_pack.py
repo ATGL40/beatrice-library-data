@@ -21,7 +21,7 @@ import zipfile
 from pathlib import Path
 
 from check_pack import (DESC_APP_KEYS, aka_ok, aliases_ok, blacklist_problem, canon_problems, changelog_problems, community_problem, desc_file_problems,
-                        godvote_problem, moved_problems, pov_problem, raw_problem, region_problem, scoring_problems,
+                        godvote_problem, moved_problems, picks_problems, pov_problem, raw_problem, scoring_problems,
                         series_problem, series_problems, signal_problem, voice_problem, zh_problem)
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -30,7 +30,7 @@ CATS = ["f-rpg", "m-rpg", "adv", "slg", "act", "other"]
 URL_SRCS = ("dlsite", "cien", "fanbox")  # 只有这几个来源写链接：DLsite 商店页、赞助站的支持页
 SRCS = ["dlsite", "fanza", "commercial", "steam", "cien", "fanbox"]
 SRC_BY_PREFIX = {"RJ": "dlsite", "fanza-": "fanza", "vndb-": "commercial", "steam-": "steam", "cien-": "cien", "fanbox-": "fanbox"}
-OTHER_FILES = {"meta.json", "rankings.json", "scoring.json", "genres.json", "canon.json", "desc.json", "moved.json"}
+OTHER_FILES = {"meta.json", "rankings.json", "scoring.json", "genres.json", "canon.json", "desc.json", "moved.json", "picks.json"}
 LANGS = ("ja", "zh", "en")
 EXTS = [".jpg", ".jpeg", ".png", ".webp"]
 NAME_OK = re.compile(r"[A-Za-z0-9._-]+")
@@ -102,7 +102,7 @@ def build_catalog(extras=(), descs=()):
             bad = [x for x in g["genres"] if x not in genres]
             if bad:
                 raise ValueError(f"{gid} 的题材 {bad} 不在 data/genres.json 里")
-        problem = (signal_problem(g) or pov_problem(g) or region_problem(g) or voice_problem(g) or zh_problem(g)
+        problem = (signal_problem(g) or pov_problem(g) or voice_problem(g) or zh_problem(g)
                    or series_problem(g) or community_problem(g) or godvote_problem(g)
                    or blacklist_problem(g) or (raw_problem(g) if g["src"] == "dlsite" else None))
         if problem:
@@ -128,7 +128,7 @@ def build_catalog(extras=(), descs=()):
         merge_descs(by_cat, load(DATA / "desc.json"), seen)
     for path in descs:  # 本地另给的简介文件（--desc，格式同 data/desc.json）：公开数据里不放简介时，只打进本地自己的包
         merge_descs(by_cat, load(path), seen, path.name)
-    catalog = {k: v for k, v in meta.items() if k not in ("games", "rankings", "scoring", "genres", "canon", "moved")}
+    catalog = {k: v for k, v in meta.items() if k not in ("games", "rankings", "scoring", "genres", "canon", "moved", "picks")}
     if genres:
         catalog["genres"] = genres
     catalog["games"] = [g for c in CATS for g in sorted(by_cat[c], key=lambda g: g["id"])]
@@ -151,6 +151,12 @@ def build_catalog(extras=(), descs=()):
             raise ValueError("data/moved.json：" + "；".join(problems))
         if moved:
             catalog["moved"] = moved
+    if (DATA / "picks.json").exists():
+        picks = load(DATA / "picks.json")
+        problems = picks_problems(picks, catalog["games"])
+        if problems:
+            raise ValueError("data/picks.json: " + "; ".join(problems))
+        catalog["picks"] = picks
     return catalog
 
 
