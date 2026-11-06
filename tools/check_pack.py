@@ -390,6 +390,27 @@ def canon_problems(canon, ids):
             out.append(f"canon 的 {wid} 要是 {{\"by\": \"manual\" 或 \"vote\", \"since\": \"YYYY-MM-DD\", \"note\": 说明（可选）}}")
     return out
 
+
+def moved_problems(moved, ids):
+    """旧 id → 新 id：旧作品已移出，新作品仍在资料里，不允许链和环。"""
+    if not isinstance(moved, dict):
+        return ["moved 不是对象（旧 id → 新 id）"]
+    out = []
+    for old, new in moved.items():
+        if not (isinstance(old, str) and old.strip() and isinstance(new, str) and new.strip()):
+            out.append(f"moved 的 {old!r} → {new!r}：键和值都要是非空字符串")
+            continue
+        if old in ids:
+            out.append(f"moved 的旧 id {old} 还在作品资料里")
+        if new not in ids:
+            out.append(f"moved 的新 id {new} 不在作品资料里")
+        if old == new:
+            out.append(f"moved 的旧 id {old} 不能等于新 id")
+        elif new in moved:
+            out.append(f"moved 的 {old} → {new} 形成链或环：新 id 不能又是旧 id")
+    return out
+
+
 CHANGELOG_NOTE_MAX = 300  # 一条说明最多几个字
 
 
@@ -584,6 +605,10 @@ def check(path, min_updated, min_revision=0):
         problems.extend(scoring_problems(scoring, id_set))
     if canon is not None:
         problems.extend(canon_problems(canon, id_set))
+    if "moved" in cat:
+        problems.extend(moved_problems(cat["moved"], id_set))
+        if isinstance(cat["moved"], dict):
+            notes.append(f"旧 id → 新 id 对照 moved {len(cat['moved'])} 条")
     changelog = cat.get("changelog")  # 更新记录（可以没有）；最新一条要是这份资料的版本
     if changelog is not None:
         log_problems = changelog_problems(changelog)
