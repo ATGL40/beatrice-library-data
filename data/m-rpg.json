@@ -125,6 +125,7 @@
       "votes": 15
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01006188.html",
+    "voice": true,
     "note": "重视战斗中H要素的 RPG，全程语音",
     "genres": [
       "502",
@@ -163,6 +164,8 @@
       "votes": 147
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01006672.html",
+    "voice": true,
+    "series": "RJ01006672",
     "note": "男主角视角的寝取奇幻 RPG，一周循环结构",
     "genres": [
       "502",
@@ -197,6 +200,8 @@
     "dl": 10810,
     "rc": 3591,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01006970.html",
+    "voice": false,
+    "series": "RJ01006970",
     "note": "与乳魔进行全自动战斗的短篇 RPG",
     "genres": [
       "065",
@@ -241,6 +246,8 @@
       "votes": 47
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01007980.html",
+    "voice": true,
+    "series": "RJ01007980",
     "note": "经营旅馆、操纵冒险者的经营 RPG",
     "genres": [
       "311",
@@ -281,6 +288,8 @@
       "votes": 70
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01010738.html",
+    "voice": true,
+    "zh": "official",
     "note": "角色扮演游戏（按 DLsite 作品形式 RPG 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "069",
@@ -317,6 +326,7 @@
       "votes": 7
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01028083.html",
+    "voice": false,
     "note": "骑士与三名随从中一人组队攻略迷宫的 RPG",
     "genres": [
       "502",
@@ -351,6 +361,8 @@
     "dl": 3906,
     "rc": 612,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01031073.html",
+    "voice": false,
+    "zh": "official",
     "note": "武侠题材的回合制战斗加文字恋爱 RPG，闯荡武林追查血凤阴谋，17 万字",
     "genres": [
       "502",
@@ -382,6 +394,8 @@
     "dl": 1135,
     "rc": 245,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01032903.html",
+    "voice": true,
+    "zh": "official",
     "note": "战后废土上和军用机器人少女艾玛同行的纯爱 RPG，慢慢解开她的过去",
     "genres": [
       "254",
@@ -421,6 +435,7 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01035651.html",
+    "voice": false,
     "note": "在末日废土中探索、结识女性角色的 RPG",
     "genres": [
       "502",
@@ -457,6 +472,8 @@
       "votes": 66
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01036146.html",
+    "voice": true,
+    "zh": "official",
     "note": "用手机接单、上门帮客户解决问题的 RPG",
     "genres": [
       "073",
@@ -487,6 +504,7 @@
     "rate": 4.8,
     "dl": 16714,
     "rc": 5236,
+    "voice": false,
     "note": "女性上位RPG",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01040712.html",
     "pov": "male"
@@ -514,6 +532,8 @@
     "dl": 1018,
     "rc": 165,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01043759.html",
+    "voice": true,
+    "zh": "official",
     "note": "收留离家出走的前女上司，被她反过来玩「奴隶游戏」的职场恋爱 RPG",
     "genres": [
       "232",
@@ -546,6 +566,8 @@
     "dl": 3086,
     "rc": 618,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01044157.html",
+    "voice": true,
+    "zh": "official",
     "note": "怕被青梅女友 NTR 的男主找经验丰富的妹妹特训的事件收集型 RPG，Live2D 动态 CG",
     "genres": [
       "062",
@@ -584,6 +606,8 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01049483.html",
+    "voice": false,
+    "series": "RJ01049483",
     "note": "英雄与反派女干部组织对抗的 RPG，系列第二作",
     "genres": [
       "068",
@@ -618,6 +642,7 @@
     "dl": 6187,
     "rc": 2374,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01061721.html",
+    "voice": false,
     "note": "被召唤的勇者攻略四座迷宫、挑战淫魔女王的 RPG",
     "genres": [
       "502",
@@ -652,6 +677,7 @@
     "dl": 280,
     "rc": 87,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01064869.html",
+    "voice": false,
     "note": "阿拉伯风奇幻世界里，青年与公主组队冒险的固定情侣短篇 RPG",
     "genres": [
       "065",
@@ -690,6 +716,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01071190.html",
+    "voice": false,
     "note": "在异世界与长角的亚人女性一同生活的 RPG",
     "genres": [
       "502",
@@ -728,6 +755,7 @@
       "votes": 23
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01075172.html",
+    "voice": true,
     "note": "人形机器人驾驶员主角对抗恐怖组织的 RPG，妻子线另有剧情",
     "genres": [
       "502",
@@ -764,6 +792,7 @@
     "dl": 15345,
     "rc": 4087,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01079783.html",
+    "voice": false,
     "note": "在梦境中躲避陷阱和魅魔追赶的逃脱型 RPG",
     "genres": [
       "433",
@@ -802,6 +831,8 @@
       "votes": 5
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01084678.html",
+    "voice": true,
+    "series": "RJ01084678",
     "note": "见习特警与两位前辈对抗犯罪组织的 RPG",
     "genres": [
       "063",
@@ -839,6 +870,7 @@
       "votes": 3
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01084920.html",
+    "voice": false,
     "note": "与女仆们在家中生活的事件探索型 RPG，无战斗",
     "genres": [
       "065",
@@ -869,6 +901,8 @@
     "rate": 4.6,
     "dl": 6141,
     "rc": 1648,
+    "voice": false,
+    "series": "RJ01087761",
     "note": "天空城が襲われ、ひとりぼっちになったあなたは、運命に導かれ、長く険しい冒険の旅が始まる!",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01087761.html",
     "pov": "male"
@@ -897,6 +931,7 @@
       "votes": 39
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01095162.html",
+    "voice": true,
     "note": "恋人被逐步夺走的探索型 RPG，无战斗、鼠标即可操作",
     "genres": [
       "502",
@@ -935,6 +970,7 @@
       "votes": 21
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01104377.html",
+    "voice": true,
     "note": "王道 NTR 题材的奇幻 RPG",
     "genres": [
       "497",
@@ -967,6 +1003,8 @@
     "dl": 2319,
     "rc": 267,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01105755.html",
+    "voice": false,
+    "zh": "official",
     "note": "主人公在不知情中，女友就在身边遭遇他人插足的点阵 RPG",
     "genres": [
       "502",
@@ -1003,6 +1041,7 @@
       "votes": 36
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01113199.html",
+    "voice": false,
     "note": "在神秘房间里与同学合作解谜逃脱的小型 RPG",
     "genres": [
       "065",
@@ -1044,6 +1083,8 @@
       "votes": 200
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01114724.html",
+    "voice": false,
+    "series": "RJ01114724",
     "note": "「魔物娘大冒险」悖论 RPG 最终章",
     "genres": [
       "058",
@@ -1076,6 +1117,8 @@
       "votes": 166
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01117570.html",
+    "voice": false,
+    "zh": "official",
     "note": "扮演审查官的 RPG",
     "genres": [
       "068",
@@ -1109,6 +1152,7 @@
     "dl": 8360,
     "rc": 2439,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01118550.html",
+    "voice": false,
     "note": "角色扮演游戏（按 DLsite 作品形式 RPG 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "502",
@@ -1147,6 +1191,7 @@
       "votes": 15
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01124261.html",
+    "voice": false,
     "note": "与三名女主角一起驾驶机器人战斗的 RPG",
     "genres": [
       "058",
@@ -1174,6 +1219,8 @@
     "rate": 4.57,
     "dl": 4824,
     "rc": 1312,
+    "voice": false,
+    "series": "RJ01129815",
     "note": "ドスケベショタ君が催眠を使ってデカ乳のお姉さん達と色々やっちゃう簡単RPG!",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01129815.html",
     "pov": "male"
@@ -1204,6 +1251,7 @@
       "votes": 13
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01132085.html",
+    "voice": true,
     "note": "男主角用特殊能力挑战高傲美女们的 RPG",
     "genres": [
       "502",
@@ -1242,6 +1290,8 @@
       "votes": 31
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01144692.html",
+    "voice": false,
+    "series": "RJ01051075",
     "note": "围绕神秘“秘宝”展开的 NTR 剧情 RPG 第二章",
     "genres": [
       "448",
@@ -1278,6 +1328,7 @@
       "votes": 23
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01144753.html",
+    "voice": true,
     "note": "和兽耳后辈一起探索满是异常状态的地下城",
     "genres": [
       "502",
@@ -1310,6 +1361,8 @@
     "dl": 2239,
     "rc": 458,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01158327.html",
+    "voice": false,
+    "zh": "official",
     "note": "帮修道院做贡献就能让巨乳修女用大○○报答的 RPG，三个坏结局一个好结局",
     "genres": [
       "096",
@@ -1347,6 +1400,7 @@
       "votes": 5
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01173771.html",
+    "voice": false,
     "note": "一边捕获魔物娘一边赚钱的高自由度 RPG",
     "genres": [
       "502",
@@ -1377,6 +1431,8 @@
     "dl": 2368,
     "rc": 365,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01175166.html",
+    "voice": false,
+    "zh": "official",
     "note": "搬到人妻隔壁的大学生每天打招呼、慢慢把她睡走的 NTR 系 RPG",
     "genres": [
       "218",
@@ -1415,6 +1471,7 @@
       "votes": 3
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01186364.html",
+    "voice": false,
     "note": "用“交涉”化解战斗危机的 RPG，登场角色三十多名",
     "genres": [
       "065",
@@ -1453,6 +1510,7 @@
       "votes": 53
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01187104.html",
+    "voice": false,
     "note": "横版视角战斗的和风 RPG，师徒一起备战御前比武",
     "genres": [
       "091",
@@ -1491,6 +1549,7 @@
       "votes": 3
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01190673.html",
+    "voice": false,
     "note": "以诱惑为主题的 RPG，事件全动画",
     "genres": [
       "073",
@@ -1522,6 +1581,8 @@
     "dl": 15920,
     "rc": 2459,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01199397.html",
+    "voice": true,
+    "zh": "official",
     "note": "丧尸末日题材的 NTR 生存 RPG",
     "genres": [
       "065",
@@ -1555,6 +1616,8 @@
     "dl": 1093,
     "rc": 164,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01203561.html",
+    "voice": true,
+    "zh": "official",
     "note": "住进女友家的大学生在欢迎会当晚和她妈妈搞上的 RPG，Live2D 动态 CG",
     "genres": [
       "014",
@@ -1590,6 +1653,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01206251.html",
+    "voice": false,
     "note": "充满减益卡和状态异常的卡组构筑 Roguelite",
     "genres": [
       "502",
@@ -1623,6 +1687,7 @@
     "dl": 758,
     "rc": 236,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01208116.html",
+    "voice": false,
     "note": "和大小姐结伴攻略地下城的 RPG",
     "genres": [
       "502",
@@ -1662,6 +1727,7 @@
       "votes": 5
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01214686.html",
+    "voice": true,
     "note": "站在反派一方捕获并洗脑变身女英雄的 RPG",
     "genres": [
       "533",
@@ -1700,6 +1766,7 @@
       "votes": 26
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01218810.html",
+    "voice": false,
     "note": "和片桐同学一起进行的小品探索 RPG 续作",
     "genres": [
       "063",
@@ -1734,6 +1801,7 @@
     "dl": 869,
     "rc": 332,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01223762.html",
+    "voice": false,
     "note": "在猛兽横行的无人岛上与少女合作探索、加深感情的 RPG，有多个结局",
     "genres": [
       "502",
@@ -1769,6 +1837,8 @@
       "votes": 25
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01225955.html",
+    "voice": false,
+    "series": "RJ01225955",
     "note": "SEQUEL 系列的女性优位 RPG",
     "genres": [
       "502",
@@ -1807,6 +1877,7 @@
       "votes": 13
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01233190.html",
+    "voice": false,
     "note": "探索、采集、调合秘药的冒险 RPG",
     "genres": [
       "502",
@@ -1849,6 +1920,7 @@
       "votes": 19
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01234826.html",
+    "voice": true,
     "note": "与精灵玛蒂尔达两人组队攻略地下城的 RPG",
     "genres": [
       "502",
@@ -1885,6 +1957,8 @@
       "votes": 181
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01234887.html",
+    "voice": true,
+    "zh": "official",
     "note": "为解除妹妹的淫魔化而冒险的寝取 RPG，含 DLC",
     "genres": [
       "065",
@@ -1926,6 +2000,8 @@
       "votes": 16
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01236860.html",
+    "voice": false,
+    "zh": "official",
     "note": "用女神赐予的“催眠”技能冒险的王道 RPG",
     "genres": [
       "502",
@@ -1948,6 +2024,7 @@
     "rate": 4.34,
     "dl": 26093,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01260762.html",
+    "voice": true,
     "note": "编队制的H对战 RPG，H场景为动画",
     "genres": [
       "063",
@@ -2002,6 +2079,8 @@
       "votes": 9
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01264534.html",
+    "voice": false,
+    "series": "RJ01264534",
     "note": "在魅魔栖息的迷宫岛屿冒险的 RPG",
     "genres": [
       "433",
@@ -2043,6 +2122,8 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01268332.html",
+    "voice": true,
+    "series": "RJ01268332",
     "note": "角色扮演游戏（按 DLsite 作品形式 RPG 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "502",
@@ -2073,6 +2154,7 @@
     "rate": 4.28,
     "dl": 9516,
     "rc": 1800,
+    "voice": true,
     "note": "【バイオーム生成型オープンワールド・エロRPG】30日間の異世界「なつやすみ」、迎えてくれるのは魔人のお姉さん達。自由研究「Hなモンスター娘図鑑」の完成を目指し",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01268655.html",
     "pov": "male"
@@ -2103,6 +2185,7 @@
       "votes": 14
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01274096.html",
+    "voice": true,
     "note": "构筑卡组的 Roguelite，与二十多种魔物娘交锋，点阵动画",
     "genres": [
       "431",
@@ -2139,6 +2222,7 @@
       "votes": 39
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01274832.html",
+    "voice": false,
     "note": "与个性鲜明的伙伴一起探寻世界之谜的长篇 RPG",
     "genres": [
       "502",
@@ -2177,6 +2261,8 @@
       "votes": 87
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01277734.html",
+    "voice": true,
+    "series": "RJ01006672",
     "note": "在突然出现的岛屿上冒险的分章节 RPG",
     "genres": [
       "260",
@@ -2218,6 +2304,7 @@
       "votes": 40
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01286782.html",
+    "voice": false,
     "note": "角色扮演游戏（按 DLsite 作品形式 RPG 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "509",
@@ -2255,6 +2342,8 @@
       "votes": 31
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01292348.html",
+    "voice": false,
+    "series": "RJ01292348",
     "note": "角色扮演游戏（按 DLsite 作品形式 RPG 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "317",
@@ -2285,6 +2374,8 @@
     "dl": 14696,
     "rc": 3029,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01297830.html",
+    "voice": true,
+    "zh": "official",
     "note": "魔法学校落第生用炼金术影响同学的校园 RPG",
     "genres": [
       "533",
@@ -2317,6 +2408,8 @@
     "dl": 6454,
     "rc": 839,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01310908.html",
+    "voice": true,
+    "zh": "official",
     "note": "和人妻同事被安排同住温泉旅馆七天的 NTR×纯爱 RPG，《元ギャルの人妻》的续篇",
     "genres": [
       "502",
@@ -2356,6 +2449,7 @@
       "votes": 6
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01313717.html",
+    "voice": false,
     "note": "反派视角 RPG，设计陷阱打倒最强女战士",
     "genres": [
       "502",
@@ -2394,6 +2488,7 @@
       "votes": 12
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01319586.html",
+    "voice": false,
     "note": "角色扮演游戏（按 DLsite 作品形式 RPG 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "065",
@@ -2426,6 +2521,7 @@
     "dl": 441,
     "rc": 115,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01324699.html",
+    "voice": false,
     "note": "新手冒险者一边完成任务一边偷看队友的 RPG，共 20 个任务",
     "genres": [
       "510",
@@ -2459,6 +2555,8 @@
     "dl": 4344,
     "rc": 748,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01328976.html",
+    "voice": true,
+    "zh": "official",
     "note": "被神关进「不做就出不去」的房间，和已婚的学姐越陷越深的视觉小说，文字细腻",
     "genres": [
       "062",
@@ -2493,6 +2591,7 @@
     "dl": 11189,
     "rc": 2087,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01344992.html",
+    "voice": false,
     "note": "中年男子用神秘卡片在城镇中为所欲为的探索 RPG",
     "genres": [
       "526",
@@ -2532,6 +2631,7 @@
       "votes": 104
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01345367.html",
+    "voice": false,
     "note": "两名女主角的寝取 RPG，战斗为动画演出",
     "genres": [
       "073",
@@ -2564,6 +2664,8 @@
     "dl": 1067,
     "rc": 136,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01353209.html",
+    "voice": true,
+    "zh": "official",
     "note": "和冷淡的性伴侣互相喜欢上，她却带来爆乳姐姐的 RPG，先调查找弱点再 H",
     "genres": [
       "268",
@@ -2601,6 +2703,7 @@
       "votes": 14
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01358255.html",
+    "voice": false,
     "note": "与几位妈妈约会、完成委托的简单探索型 RPG",
     "genres": [
       "218",
@@ -2640,6 +2743,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01359188.html",
+    "voice": false,
     "note": "角色扮演游戏（按 DLsite 作品形式 RPG 归类，复核放回时补的条目，玩法未逐一核对）"
   },
   {
@@ -2668,6 +2772,7 @@
       "votes": 8
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01361917.html",
+    "voice": true,
     "note": "3D 迷宫 RPG，击败的怪物娘可收为同伴",
     "genres": [
       "509",
@@ -2707,6 +2812,8 @@
       "votes": 17
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01364780.html",
+    "voice": false,
+    "series": "RJ01364780",
     "note": "失忆主人公寻找英雄的纯爱后宫奇幻 RPG",
     "genres": [
       "502",
@@ -2744,6 +2851,7 @@
       "votes": 159
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01373516.html",
+    "voice": false,
     "note": "恐怖＋动作要素的 RPG，在乡村中斩除精怪",
     "genres": [
       "502",
@@ -2783,6 +2891,7 @@
       "votes": 18
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01377481.html",
+    "voice": true,
     "note": "Live2D 立绘的陷阱迷宫 RPG，以部下视角陪剑圣攻略迷宫",
     "genres": [
       "065",
@@ -2824,6 +2933,8 @@
       "votes": 132
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01398124.html",
+    "voice": true,
+    "zh": "official",
     "note": "恐怖＋恋爱喜剧的 RPG，剧情以漫画形式呈现",
     "genres": [
       "073",
@@ -2858,6 +2969,8 @@
     "dl": 5157,
     "rc": 967,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01398668.html",
+    "voice": true,
+    "series": "RJ01051748",
     "note": "被困在病娇淫魔的梦境世界、要撑过七天的短篇探索游戏",
     "genres": [
       "065",
@@ -2895,6 +3008,8 @@
       "votes": 65
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01400992.html",
+    "voice": true,
+    "zh": "official",
     "note": "3D 偶像经纪人题材 RPG，以经纪人身份培养偶像",
     "genres": [
       "509",
@@ -2936,6 +3051,7 @@
       "votes": 8
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01406717.html",
+    "voice": false,
     "note": "在崩坏的现代都市中与少女一起求生的正统 RPG",
     "genres": [
       "065",
@@ -2974,6 +3090,7 @@
       "votes": 14
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01407342.html",
+    "voice": true,
     "note": "培养史莱姆、让女骑士堕落的反派 RPG",
     "genres": [
       "502",
@@ -3009,6 +3126,8 @@
     "dl": 3051,
     "rc": 465,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01408655.html",
+    "voice": false,
+    "zh": "official",
     "note": "护送救出的公主住进温泉小镇，一夜之间要防住各路人物下手的 NTR 向 RPG",
     "genres": [
       "235",
@@ -3043,6 +3162,7 @@
     "dl": 1960,
     "rc": 492,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01410139.html",
+    "voice": false,
     "note": "被淫魔困在布满陷阱的地下城里设法逃脱的 RPG，全场景 Live2D 动画",
     "genres": [
       "502",
@@ -3081,6 +3201,7 @@
       "votes": 9
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01416351.html",
+    "voice": false,
     "note": "角色扮演游戏（按 DLsite 作品形式 RPG 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "502",
@@ -3115,6 +3236,7 @@
     "dl": 13440,
     "rc": 2229,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01429140.html",
+    "voice": false,
     "note": "被召唤到异世界的勇者抵抗魔物诱惑的 RPG",
     "genres": [
       "502",
@@ -3153,6 +3275,7 @@
       "votes": 35
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01431277.html",
+    "voice": true,
     "note": "正统迷宫 RPG，可自由组队与捏人，装备系统丰富",
     "genres": [
       "533",
@@ -3181,6 +3304,7 @@
     "rate": 4.41,
     "dl": 5470,
     "rc": 1150,
+    "voice": false,
     "note": "無表情系最強ヒロイン、BSSゲーム。",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01436706.html",
     "pov": "male"
@@ -3212,6 +3336,8 @@
       "votes": 27
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01442791.html",
+    "voice": true,
+    "zh": "official",
     "note": "获得时停能力的勇者冒险 RPG",
     "genres": [
       "058",
@@ -3248,6 +3374,8 @@
       "votes": 55
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01444262.html",
+    "voice": true,
+    "zh": "official",
     "note": "角色扮演游戏（按 DLsite 作品形式 RPG 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "061",
@@ -3284,6 +3412,7 @@
       "votes": 15
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01469333.html",
+    "voice": false,
     "note": "反派视角 RPG 第二弹，设计陷阱打倒剑圣",
     "genres": [
       "502",
@@ -3310,6 +3439,8 @@
     "rate": 4.64,
     "dl": 1894,
     "rc": 262,
+    "voice": false,
+    "series": "RJ01129815",
     "note": "※本作はドスケベショタがひたすらデカパイの女の子をぶち犯していくゲームです♪",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01487533.html",
     "pov": "male"
@@ -3336,6 +3467,8 @@
     "dl": 6577,
     "rc": 757,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01488152.html",
+    "voice": false,
+    "series": "RJ01006970",
     "note": "向上攀登高塔、迎战众多乳魔的 Roguelite RPG",
     "genres": [
       "065",
@@ -3373,6 +3506,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01490571.html",
+    "voice": true,
     "note": "转生成魔王，与各种族结缘的 3D 后宫 RPG",
     "genres": [
       "509",
@@ -3408,6 +3542,8 @@
     "dl": 1805,
     "rc": 185,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01497069.html",
+    "voice": true,
+    "zh": "official",
     "note": "当被通缉的宇宙厨子，带着会变巨大怪兽的吃货少女跑遍行星找食材、洗清冤屈的 RPG",
     "genres": [
       "063",
@@ -3449,6 +3585,7 @@
       "votes": 12
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01528685.html",
+    "voice": false,
     "note": "大量收录女性主导场景的 RPG，全员圆满结局",
     "genres": [
       "058",
@@ -3474,6 +3611,7 @@
     "rate": 4.63,
     "dl": 14353,
     "rc": 2090,
+    "voice": true,
     "note": "妹が産まれる事になり夏休みの間、親戚の夢咲家が住む田舎「夏風村」へ行く事になったボク。広がる田園風景。照りつける太陽、セミやひぐらし達の虫の声。そして……ボクの",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01532752.html",
     "pov": "male"
@@ -3503,6 +3641,8 @@
       "votes": 88
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01542442.html",
+    "voice": false,
+    "zh": "official",
     "note": "全动画演出的都市探索 RPG，主人公是司机",
     "genres": [
       "073",
@@ -3532,6 +3672,7 @@
     "rate": 4.5,
     "dl": 3805,
     "rc": 654,
+    "voice": false,
     "note": "女の子キャラクターはみんな生徒！可愛い年下少女から逆レされちゃう女性優位シチュオンリー 童貞な担任の先生はエッチな適性検査(〇リコン認定試験)を無事に通過できる",
     "genres": [
       "502",
@@ -3570,6 +3711,8 @@
       "votes": 12
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01548022.html",
+    "voice": false,
+    "zh": "official",
     "note": "约 2 小时的短篇 RPG，在被催眠陷阱笼罩的城镇里自由行动",
     "genres": [
       "048",
@@ -3612,6 +3755,7 @@
       "votes": 10
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01572594.html",
+    "voice": true,
     "note": "角色扮演游戏（按 DLsite 作品形式 RPG 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "068",
@@ -3653,6 +3797,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01577847.html",
+    "voice": false,
     "note": "地下迷宫探索 RPG，与怪物娘一起冒险",
     "genres": [
       "311",
@@ -3695,6 +3840,7 @@
       "votes": 61
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01586101.html",
+    "voice": false,
     "note": "进地下城采集食材、经营酒馆的纯爱后宫 RPG",
     "genres": [
       "058",
@@ -3734,6 +3880,7 @@
       "votes": 9
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01603913.html",
+    "voice": false,
     "note": "异能者对抗异形的科幻剧情 RPG",
     "genres": [
       "502",
@@ -3771,6 +3918,7 @@
       "votes": 4
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01604961.html",
+    "voice": true,
     "note": "点阵风怪物对战 RPG，与敌方女训练师对决",
     "genres": [
       "073",
@@ -3805,6 +3953,8 @@
     "dl": 9692,
     "rc": 842,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01612168.html",
+    "voice": true,
+    "series": "RJ01123284",
     "note": "长篇探索型 NTR 题材 RPG（60 万字），与前作剧情独立",
     "genres": [
       "060",
@@ -3843,6 +3993,7 @@
       "votes": 10
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01613299.html",
+    "voice": false,
     "note": "主人公为复兴家族寻找结婚对象的冒险 RPG，带时间系统与多结局",
     "genres": [
       "069",
@@ -3882,6 +4033,7 @@
       "votes": 23
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01623698.html",
+    "voice": true,
     "note": "丈夫营救沦为奴隶的妻子的 NTR 题材 RPG",
     "genres": [
       "219",
@@ -3918,6 +4070,8 @@
       "votes": 6
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01624141.html",
+    "voice": true,
+    "zh": "official",
     "note": "点阵风生活 RPG，在魔族都市度过 30 天",
     "genres": [
       "073",
@@ -3943,6 +4097,7 @@
     "rate": 4.8,
     "dl": 16445,
     "rc": 1862,
+    "voice": false,
     "note": "女性上位RPG",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01641149.html",
     "pov": "male"
@@ -3974,6 +4129,7 @@
       "votes": 82
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01644040.html",
+    "voice": true,
     "note": "主人公在护士的帮助下挑战怪物娘迷宫的 RPG",
     "genres": [
       "533",
@@ -4012,6 +4168,7 @@
       "votes": 10
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01644833.html",
+    "voice": true,
     "note": "平民一路往上爬的成长型 RPG，可攻略 14 位女主角",
     "genres": [
       "063",
@@ -4044,6 +4201,8 @@
     "dl": 1376,
     "rc": 121,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01661962.html",
+    "voice": false,
+    "zh": "official",
     "note": "庆功宴上的国王游戏把心上人推向危险，男主要护住她的 NTR 向探索 RPG",
     "genres": [
       "255",
@@ -4074,6 +4233,7 @@
     "rate": 4.54,
     "dl": 1769,
     "rc": 161,
+    "voice": false,
     "note": "牛娘メイドさんに誘惑されながら探索する短編脱出ゲーム！牛娘メイドさん達の「ご主人様」にされちゃう前に館からの脱出を目指そう！",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01675314.html",
     "pov": "male"
@@ -4107,6 +4267,8 @@
       "votes": 8
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01680223.html",
+    "voice": false,
+    "zh": "official",
     "note": "超能力学园背景的 NTR 题材 RPG",
     "genres": [
       "212",
@@ -4145,6 +4307,7 @@
       "votes": 17
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01731048.html",
+    "voice": false,
     "note": "「ヤリステメスブター」的关联新作，无战斗的探索型 RPG",
     "genres": [
       "510",
@@ -4179,6 +4342,7 @@
     "dl": 1433,
     "rc": 138,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01742018.html",
+    "voice": true,
     "note": "和公会前台小姐遥一起攻略公会地下城的 RPG",
     "genres": [
       "073",
@@ -4213,6 +4377,7 @@
     "dl": 60198,
     "rc": 24840,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ062375.html",
+    "voice": false,
     "note": "仿勇者斗恶龙风格的成人 RPG",
     "genres": [
       "016",
@@ -4246,6 +4411,7 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ124868.html",
+    "voice": true,
     "note": "模仿勇者斗恶龙、战斗为H对战的 RPG",
     "genres": [
       "249",
@@ -4278,6 +4444,7 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ142825.html",
+    "voice": true,
     "note": "「马拉贡勇者」第二作，增加伪动画与语音"
   },
   {
@@ -4304,6 +4471,7 @@
       "votes": 14
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ147837.html",
+    "voice": true,
     "note": "与 7 名女主角一起旅行的 RPG，事件 150 个以上",
     "genres": [
       "234",
@@ -4335,6 +4503,7 @@
     "dl": 7892,
     "rc": 3974,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ163505.html",
+    "voice": false,
     "note": "以江户风世界为舞台的时代剧 RPG",
     "genres": [
       "063",
@@ -4373,6 +4542,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ165327.html",
+    "voice": false,
     "note": "角色扮演游戏（按 DLsite 作品形式 RPG 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "431",
@@ -4410,6 +4580,8 @@
       "votes": 24
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ166249.html",
+    "voice": true,
+    "zh": "fan",
     "note": "在暗黑大陆建设设施、开拓领地的经营型 RPG",
     "genres": [
       "048",
@@ -4442,6 +4614,8 @@
     "dl": 6346,
     "rc": 3638,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ166350.html",
+    "voice": false,
+    "series": "RJ166350",
     "note": "捕捉并培养魅魔作为同伴战斗的培育型 RPG",
     "genres": [
       "068",
@@ -4473,6 +4647,7 @@
     "dl": 3631,
     "rc": 2334,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ168036.html",
+    "voice": true,
     "note": "掷骰子在双六棋盘上前进的迷宫 RPG",
     "genres": [
       "065",
@@ -4507,6 +4682,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ168054.html",
+    "voice": true,
     "note": "以某 MMO 为题材的系列完结篇，回合制特殊对战 RPG",
     "genres": [
       "073",
@@ -4543,6 +4719,8 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ169029.html",
+    "voice": false,
+    "series": "RJ169029",
     "note": "战斗全程动画演出、剧本超过十万字的长篇 RPG",
     "genres": [
       "073",
@@ -4581,6 +4759,7 @@
       "votes": 7
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ170185.html",
+    "voice": false,
     "note": "角色扮演游戏（按 DLsite 作品形式 RPG 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "219",
@@ -4611,6 +4790,7 @@
     "dl": 3147,
     "rc": 1847,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ170385.html",
+    "voice": false,
     "note": "与妖精娘们组队冒险的后宫 RPG",
     "genres": [
       "235",
@@ -4642,6 +4822,7 @@
     "dl": 5491,
     "rc": 3224,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ171742.html",
+    "voice": true,
     "note": "与女孩结伴旅行、阻止魔王复活的点阵风 RPG",
     "genres": [
       "065",
@@ -4677,6 +4858,8 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ172048.html",
+    "voice": true,
+    "series": "RJ172048",
     "note": "以麻将对局代替战斗、可收服魔物的勇者斗恶龙风 RPG",
     "genres": [
       "317",
@@ -4710,6 +4893,7 @@
       "votes": 15
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ173867.html",
+    "voice": true,
     "note": "兽人主角为夺回和平生活而战、集结异族伙伴的 RPG",
     "genres": [
       "235",
@@ -4744,6 +4928,8 @@
       "votes": 9
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ174492.html",
+    "voice": false,
+    "series": "RJ174492",
     "note": "没有战斗能力的主角从淫魔之家脱出的 RPG",
     "genres": [
       "502",
@@ -4782,6 +4968,7 @@
       "votes": 3
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ174698.html",
+    "voice": true,
     "note": "各城镇设有特色店铺、以\"为被吸取而练级\"为主题的 RPG",
     "genres": [
       "006",
@@ -4818,6 +5005,8 @@
       "votes": 15
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ178145.html",
+    "voice": false,
+    "series": "RJ01293869",
     "note": "半龙主角为精灵少女解决委托的 RPG",
     "genres": [
       "046",
@@ -4851,6 +5040,7 @@
       "votes": 15
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ178610.html",
+    "voice": false,
     "note": "男主角组建后宫队伍冒险、可选善恶路线的 RPG",
     "genres": [
       "065",
@@ -4884,6 +5074,7 @@
     "dl": 5061,
     "rc": 2655,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ179039.html",
+    "voice": false,
     "note": "对抗把魔族都变成魅魔的魔王的冒险 RPG",
     "genres": [
       "016",
@@ -4915,6 +5106,7 @@
     "dl": 4362,
     "rc": 2454,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ179970.html",
+    "voice": false,
     "note": "可以轻松游玩的短篇特殊对战 RPG",
     "genres": [
       "068",
@@ -4949,6 +5141,7 @@
       "votes": 4
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ181931.html",
+    "voice": false,
     "note": "战斗全为H对战、在梦境世界探索的 RPG",
     "genres": [
       "317",
@@ -4983,6 +5176,8 @@
       "votes": 17
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ183798.html",
+    "voice": false,
+    "series": "RJ01293869",
     "note": "佣兵团团长在战乱之国招募成员的 RPG",
     "genres": [
       "046",
@@ -5013,6 +5208,7 @@
     "dl": 5516,
     "rc": 3187,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ183874.html",
+    "voice": false,
     "note": "离开迷宫等级就会归 1 的循环探索 RPG",
     "genres": [
       "317",
@@ -5043,6 +5239,8 @@
     "dl": 15484,
     "rc": 8688,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ184097.html",
+    "voice": false,
+    "zh": "official",
     "note": "操作一群无赖击败敌人的简单短篇 RPG",
     "genres": [
       "016",
@@ -5079,6 +5277,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ188093.html",
+    "voice": false,
     "note": "在 10 天期限内设法让精灵娘成为宠物的短篇 RPG",
     "genres": [
       "235",
@@ -5108,6 +5307,7 @@
     "dl": 5472,
     "rc": 3228,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ189203.html",
+    "voice": false,
     "note": "女主角命运随玩家选择改变的多路线奇幻 RPG",
     "genres": [
       "071",
@@ -5144,6 +5344,7 @@
       "votes": 7
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ191638.html",
+    "voice": false,
     "note": "以点阵动画表现的魔物娘冒险 RPG",
     "genres": [
       "431",
@@ -5176,6 +5377,9 @@
       "votes": 193
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ193419.html",
+    "voice": false,
+    "zh": "official",
+    "series": "RJ01225955",
     "note": "「SEQUEL」系列，女性上位题材 RPG",
     "genres": [
       "303",
@@ -5212,6 +5416,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ194013.html",
+    "voice": false,
     "note": "可自定义女主角外貌、和她一起冒险的 RPG",
     "genres": [
       "032",
@@ -5253,6 +5458,7 @@
       "votes": 16
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ194297.html",
+    "voice": true,
     "note": "带着五名精灵攻略迷宫的正统 3D 地牢 RPG",
     "genres": [
       "016",
@@ -5289,6 +5495,8 @@
       "votes": 7
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ195746.html",
+    "voice": false,
+    "series": "RJ195746",
     "note": "钓鱼、种田的慢生活 RPG，与寄宿家的三姐妹拉近关系",
     "genres": [
       "071",
@@ -5323,6 +5531,7 @@
       "votes": 30
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ195886.html",
+    "voice": false,
     "note": "与能变成各种魔物娘的史莱姆娘同居，养成加冒险的纯爱 RPG",
     "genres": [
       "502",
@@ -5359,6 +5568,7 @@
       "votes": 89
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ196613.html",
+    "voice": false,
     "note": "可自由行善作恶的多结局正统地牢 RPG",
     "genres": [
       "032",
@@ -5388,6 +5598,8 @@
     "dl": 7610,
     "rc": 3851,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ197526.html",
+    "voice": false,
+    "series": "RJ197526",
     "note": "七天内训练两名“人偶”通过测试的养成 RPG",
     "genres": [
       "070",
@@ -5422,6 +5634,7 @@
       "votes": 16
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ199211.html",
+    "voice": true,
     "note": "与青梅竹马魔法使结伴旅行的多结局 RPG",
     "genres": [
       "068",
@@ -5449,6 +5662,9 @@
     "dl": 69664,
     "rc": 26718,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ199731.html",
+    "voice": false,
+    "zh": "official",
+    "series": "RJ199731",
     "note": "躲避妖怪娘诱惑、一路逃走的逃跑 RPG",
     "src": "dlsite"
   },
@@ -5478,6 +5694,7 @@
       "votes": 7
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ200953.html",
+    "voice": false,
     "note": "角色扮演游戏（按 DLsite 作品形式 RPG 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "317",
@@ -5517,6 +5734,8 @@
       "votes": 97
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ201109.html",
+    "voice": false,
+    "series": "RJ01114724",
     "note": "「魔物娘大冒险」悖论 RPG 第二部，战败即被魔物娘H",
     "genres": [
       "115"
@@ -5546,6 +5765,7 @@
       "votes": 6
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ203431.html",
+    "voice": false,
     "note": "无战斗的探索 RPG，按时间追踪角色行动",
     "genres": [
       "008",
@@ -5580,6 +5800,9 @@
       "votes": 1701
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ203687.html",
+    "voice": false,
+    "zh": "official",
+    "series": "RJ203687",
     "note": "以格林童话为题材的黑暗奇幻 RPG",
     "genres": [
       "317",
@@ -5611,6 +5834,7 @@
     "dl": 5128,
     "rc": 3040,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ203963.html",
+    "voice": false,
     "note": "气氛明快的地牢探索 RPG",
     "genres": [
       "016",
@@ -5641,6 +5865,7 @@
       "votes": 29
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ204030.html",
+    "voice": false,
     "note": "黑暗奇幻 RPG，穿越迷宫般的暗之圣域寻找圣女之魂",
     "genres": [
       "015",
@@ -5675,6 +5900,8 @@
       "votes": 17
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ204404.html",
+    "voice": false,
+    "series": "RJ01472676",
     "note": "与从天而降的单翼女孩同行的传统 RPG",
     "genres": [
       "288",
@@ -5711,6 +5938,7 @@
       "votes": 14
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ209839.html",
+    "voice": false,
     "note": "在魔物环伺的世界中选择反抗或屈服的生存 RPG",
     "genres": [
       "433",
@@ -5748,6 +5976,7 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ210637.html",
+    "voice": false,
     "note": "敌人和同伴都会吸取能量的地牢探索 RPG",
     "genres": [
       "068",
@@ -5787,6 +6016,9 @@
       "votes": 21
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ211399.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ01112545",
     "note": "误入魅魔之国、设法逃出的 RPG",
     "genres": [
       "433",
@@ -5819,6 +6051,7 @@
     "dl": 21471,
     "rc": 6991,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ211885.html",
+    "voice": false,
     "note": "遗迹管理人与神秘少女一同探索遗迹的 RPG",
     "genres": [
       "502",
@@ -5854,6 +6087,8 @@
       "votes": 17
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ214761.html",
+    "voice": false,
+    "series": "RJ01292348",
     "note": "挑战解谜迷宫、迎娶魔界女子的续作 RPG",
     "genres": [
       "317",
@@ -5888,6 +6123,8 @@
       "votes": 8
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ217212.html",
+    "voice": false,
+    "zh": "official",
     "note": "可在城镇与森林自由冒险、过慢生活的开放式 RPG",
     "genres": [
       "317",
@@ -5922,6 +6159,8 @@
       "votes": 8
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ217826.html",
+    "voice": true,
+    "series": "RJ01112545",
     "note": "在魔物娘遗迹中战斗并寻找出口的 RPG",
     "genres": [
       "317",
@@ -5956,6 +6195,7 @@
       "votes": 26
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ219149.html",
+    "voice": false,
     "note": "角色扮演游戏（按 DLsite 作品形式 RPG 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "075",
@@ -5984,6 +6224,8 @@
     "rate": 4.61,
     "dl": 8681,
     "rc": 3882,
+    "voice": false,
+    "series": "RJ169029",
     "note": "P.D.creations「機械の少女」シリーズ最新作、フルアニメSFバトルファックRPG!‐前編‐",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ220046.html",
     "pov": "male"
@@ -6010,6 +6252,7 @@
     "dl": 5404,
     "rc": 3259,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ220172.html",
+    "voice": false,
     "note": "在旅馆与魔物娘交流并战斗的 RPG",
     "genres": [
       "317",
@@ -6044,6 +6287,7 @@
       "votes": 3
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ220470.html",
+    "voice": false,
     "note": "角色扮演游戏（按 DLsite 作品形式 RPG 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "051",
@@ -6077,6 +6321,8 @@
       "votes": 13
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ221052.html",
+    "voice": true,
+    "zh": "official",
     "note": "64 名角色登场、带动画演出的王道奇幻 RPG",
     "genres": [
       "317",
@@ -6111,6 +6357,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ221239.html",
+    "voice": false,
     "note": "在魅魔统治的岛上求生的 RPG",
     "genres": [
       "068",
@@ -6142,6 +6389,8 @@
     "dl": 12392,
     "rc": 6182,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ222872.html",
+    "voice": true,
+    "series": "RJ166350",
     "note": "在战斗中收服魅魔为同伴的 RPG，可选女主人公",
     "genres": [
       "317",
@@ -6179,6 +6428,9 @@
       "votes": 109
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ223237.html",
+    "voice": false,
+    "zh": "official",
+    "series": "RJ01225955",
     "note": "「SEQUEL」系列，女性上位题材 RPG",
     "genres": [
       "303",
@@ -6208,6 +6460,8 @@
     "dl": 51427,
     "rc": 20921,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ223459.html",
+    "voice": false,
+    "series": "RJ199731",
     "note": "「三枚护符」系列，登场 12 名妖怪娘",
     "genres": [
       "317",
@@ -6239,6 +6493,7 @@
     "dl": 17275,
     "rc": 7845,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ223611.html",
+    "voice": false,
     "note": "黑白画面的短篇 NTR 题材 RPG",
     "genres": [
       "048",
@@ -6272,6 +6527,8 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ226709.html",
+    "voice": false,
+    "series": "RJ213210",
     "note": "角色扮演游戏（按 DLsite 作品形式 RPG 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "433",
@@ -6302,6 +6559,7 @@
     "dl": 7673,
     "rc": 2298,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ227208.html",
+    "voice": false,
     "note": "收服野生魔物娘一起冒险的 RPG，魔物娘 28 种以上",
     "genres": [
       "063",
@@ -6332,6 +6590,7 @@
     "dl": 8132,
     "rc": 4004,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ227434.html",
+    "voice": false,
     "note": "新婚夫妻接委托攒钱买房的 RPG",
     "genres": [
       "219",
@@ -6366,6 +6625,8 @@
       "votes": 33
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ231491.html",
+    "voice": false,
+    "series": "RJ231491",
     "note": "在地下斗技场与 10 名女角色对战的 RPG",
     "genres": [
       "046",
@@ -6400,6 +6661,7 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ233656.html",
+    "voice": false,
     "note": "只有一座城镇的短篇 RPG，玩法接近 CG 集",
     "genres": [
       "003",
@@ -6431,6 +6693,7 @@
     "dl": 5277,
     "rc": 3164,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ233660.html",
+    "voice": false,
     "note": "主角的行动会改变女主角台词与结局的多结局 RPG",
     "genres": [
       "048",
@@ -6465,6 +6728,9 @@
       "votes": 1937
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ237469.html",
+    "voice": false,
+    "zh": "official",
+    "series": "RJ203687",
     "note": "以爱丽丝梦游仙境为题材的黑暗奇幻 RPG",
     "genres": [
       "317",
@@ -6496,6 +6762,7 @@
     "dl": 8771,
     "rc": 4826,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ240282.html",
+    "voice": false,
     "note": "男僧侣主角的奇幻 RPG，RPG Maker MV 制作",
     "genres": [
       "063",
@@ -6530,6 +6797,7 @@
       "votes": 255
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ240457.html",
+    "voice": true,
     "note": "带着可换装的少女探索地下城的 RPG",
     "genres": [
       "502",
@@ -6566,6 +6834,7 @@
       "votes": 20
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ246162.html",
+    "voice": false,
     "note": "王道奇幻长篇 RPG，剧情随女主角们的感情走向分支",
     "genres": [
       "212",
@@ -6597,6 +6866,7 @@
     "dl": 12845,
     "rc": 5895,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ248754.html",
+    "voice": true,
     "note": "可在丈夫和妻子两个视角间切换的动画 RPG",
     "genres": [
       "073",
@@ -6633,6 +6903,8 @@
       "votes": 98
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ249820.html",
+    "voice": false,
+    "series": "RJ01357968",
     "note": "全点阵动画的 RPG，在孤岛都市与女主角们并肩作战、共同生活",
     "genres": [
       "431",
@@ -6662,6 +6934,8 @@
     "dl": 12816,
     "rc": 5841,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ251009.html",
+    "voice": false,
+    "zh": "official",
     "note": "穿越进 RPG 世界、与只会重复台词的 NPC 互动的恶搞 RPG",
     "genres": [
       "128",
@@ -6694,6 +6968,9 @@
       "votes": 123
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ253732.html",
+    "voice": false,
+    "zh": "official",
+    "series": "RJ01225955",
     "note": "「SEQUEL」系列，女性上位题材 RPG，约 25 小时",
     "genres": [
       "303",
@@ -6728,6 +7005,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ255616.html",
+    "voice": false,
     "note": "男主角在女尊国家的斗技场挑战公主们的育成加卡牌战斗 RPG",
     "genres": [
       "502",
@@ -6762,6 +7040,7 @@
       "votes": 24
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ256172.html",
+    "voice": false,
     "note": "在丧尸与怪物横行的迷宫中求生的动画 RPG",
     "genres": [
       "073",
@@ -6791,6 +7070,7 @@
     "rate": 4.6,
     "dl": 4111,
     "rc": 1871,
+    "voice": false,
     "note": "仲間と一緒に冒険するえっちで楽しい王道RPGです!",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ256371.html",
     "pov": "male"
@@ -6821,6 +7101,7 @@
       "votes": 6
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ257752.html",
+    "voice": false,
     "note": "主角要守护两位青梅竹马的 RPG，结局随行动变化",
     "genres": [
       "222",
@@ -6855,6 +7136,7 @@
       "votes": 94
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ258588.html",
+    "voice": false,
     "note": "在开拓地与十位魔物娘女主角冒险、恋爱的 RPG，目标是幸福结局",
     "genres": [
       "502",
@@ -6888,6 +7170,7 @@
       "votes": 21
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ262862.html",
+    "voice": true,
     "note": "在冒险者聚集的岛上与女主角们组队冒险的动画 RPG",
     "genres": [
       "073",
@@ -6919,6 +7202,8 @@
     "rate": 4.68,
     "dl": 7147,
     "rc": 2973,
+    "voice": false,
+    "series": "RJ169029",
     "note": "P.D.creations「機械の少女」シリーズ最新作、フルアニメSFバトルファックRPG!‐中編‐",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ263914.html",
     "pov": "male"
@@ -6947,6 +7232,8 @@
       "votes": 13
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ264206.html",
+    "voice": false,
+    "zh": "official",
     "note": "冒险者青年与女仆一起讨伐山村迷宫的 RPG",
     "genres": [
       "068",
@@ -6984,6 +7271,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ265677.html",
+    "voice": false,
     "note": "为寻找失踪的姐姐而与淫魔作战的 RPG，以色诱战斗为核心",
     "genres": [
       "502",
@@ -7018,6 +7306,7 @@
       "votes": 51
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ265946.html",
+    "voice": false,
     "note": "战斗全是H、以败北推进的 RPG",
     "genres": [
       "502",
@@ -7055,6 +7344,7 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ266483.html",
+    "voice": true,
     "note": "自由度很高的大型 RPG，可从 100 多名伙伴中挑选队友",
     "genres": [
       "063",
@@ -7094,6 +7384,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ268129.html",
+    "voice": false,
     "note": "与淫魔进行特殊战斗的动画 RPG，也可选女主角游玩，场景 140 个以上",
     "genres": [
       "073",
@@ -7127,6 +7418,7 @@
     "dl": 5980,
     "rc": 2887,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ269568.html",
+    "voice": false,
     "note": "男主人公开放世界 RPG，自由度高，可在广大地图中自由行动",
     "genres": [
       "502",
@@ -7161,6 +7453,7 @@
     "dl": 7632,
     "rc": 4085,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ270123.html",
+    "voice": false,
     "note": "骑士诺亚重组骑士团、寻找被传送走的同伴的 RPG",
     "genres": [
       "502",
@@ -7197,6 +7490,8 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ270709.html",
+    "voice": false,
+    "series": "RJ01031172",
     "note": "以成为海盗王为目标、在各港口间航行的海盗 RPG",
     "genres": [
       "121",
@@ -7230,6 +7525,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ271878.html",
+    "voice": false,
     "note": "在梦中与魅魔进行小游戏对决的 RPG",
     "genres": [
       "506",
@@ -7255,6 +7551,8 @@
     "dl": 33503,
     "rc": 12654,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ272137.html",
+    "voice": false,
+    "series": "RJ199731",
     "note": "「三枚护符」系列，不战斗、只逃跑的 RPG",
     "src": "dlsite"
   },
@@ -7287,6 +7585,9 @@
       "votes": 37
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ273000.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ01112545",
     "note": "从魅魔潜伏的牧场脱出的 RPG",
     "genres": [
       "431",
@@ -7321,6 +7622,7 @@
       "votes": 4
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ273120.html",
+    "voice": false,
     "note": "在海滩与队友一边合作一边抢先搭讪的 RPG",
     "genres": [
       "065",
@@ -7355,6 +7657,7 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ274236.html",
+    "voice": false,
     "note": "在被梦魔支配的王国中冒险、营救同伴的男主 RPG",
     "genres": [
       "502",
@@ -7390,6 +7693,7 @@
       "votes": 8
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ275725.html",
+    "voice": false,
     "note": "在满是 NPC 的异世界自由行动的探索型 RPG，系列第二作",
     "genres": [
       "071",
@@ -7417,6 +7721,9 @@
     "rate": 4.64,
     "dl": 3327,
     "rc": 261,
+    "voice": false,
+    "zh": "official",
+    "series": "RJ199731",
     "note": "大ボリューム、逆レ・おねショタ・もんむすゲーム!",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ277094.html",
     "pov": "male"
@@ -7445,6 +7752,8 @@
       "votes": 50
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ277410.html",
+    "voice": true,
+    "series": "RJ234720",
     "note": "与兽耳女主角一起冒险的奇幻 RPG，有纯爱与 NTR 分支",
     "genres": [
       "234",
@@ -7480,6 +7789,7 @@
       "votes": 352
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ278019.html",
+    "voice": false,
     "note": "赛博朋克题材 RPG，与兔耳女仆一起拯救世界",
     "genres": [
       "311",
@@ -7511,6 +7821,7 @@
     "dl": 25638,
     "rc": 8579,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ278424.html",
+    "voice": false,
     "note": "在不思议之国冒险的女性上位 RPG",
     "src": "dlsite"
   },
@@ -7540,6 +7851,7 @@
       "votes": 3
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ278885.html",
+    "voice": true,
     "note": "男主角抵抗女神、鬼娘等人的等级吸取、踏上归乡之旅的 RPG",
     "genres": [
       "502",
@@ -7569,6 +7881,7 @@
     "dl": 5314,
     "rc": 2941,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ280977.html",
+    "voice": false,
     "note": "男主角在淫魔支配的箱庭世界中冒险的 RPG",
     "genres": [
       "065",
@@ -7599,6 +7912,8 @@
     "rate": 4.72,
     "dl": 4781,
     "rc": 1813,
+    "voice": true,
+    "series": "RJ174492",
     "note": "サイズ差+おねショタRPGの決定版に音声が実装!優しく甘く響く声が彩るフェティシズムRPGのDLCが登場です!",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ281273.html",
     "pov": "male"
@@ -7629,6 +7944,7 @@
       "votes": 19
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ282038.html",
+    "voice": false,
     "note": "无战斗的 NPC 题材探索 RPG，在城镇中与各种 NPC 互动",
     "genres": [
       "065",
@@ -7667,6 +7983,7 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ284439.html",
+    "voice": false,
     "note": "鼠标操作的快节奏 Roguelite RPG，与青梅竹马妻子一起讨伐魔王，纯爱向",
     "genres": [
       "502",
@@ -7700,6 +8017,7 @@
     "dl": 3901,
     "rc": 2030,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ286710.html",
+    "voice": false,
     "note": "角色扮演游戏（按 DLsite 作品形式 RPG 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "073",
@@ -7734,6 +8052,7 @@
       "votes": 49
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ287324.html",
+    "voice": false,
     "note": "转生为兽人的大叔在异世界冒险的剧情加探索 RPG，获 2020 年 DLsite Award 剧情奖",
     "genres": [
       "502",
@@ -7764,6 +8083,8 @@
     "rate": 4.68,
     "dl": 5574,
     "rc": 1991,
+    "voice": false,
+    "series": "RJ169029",
     "note": "【ver2.0】P.D.creations「機械の少女」シリーズ最新作、フルアニメSFバトルファックRPG後編(完結編)",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ290213.html",
     "pov": "male"
@@ -7794,6 +8115,7 @@
       "votes": 7
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ290996.html",
+    "voice": false,
     "note": "已婚冒险者在护送修女途中被诱惑的 RPG",
     "genres": [
       "096",
@@ -7827,6 +8149,7 @@
       "votes": 15
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ291293.html",
+    "voice": false,
     "note": "登场角色多为熟女的一本道 RPG，约 2–3 小时通关，场景可事后补全",
     "genres": [
       "218",
@@ -7861,6 +8184,7 @@
     "dl": 12158,
     "rc": 5025,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ292498.html",
+    "voice": false,
     "note": "与同好会女生比试性技的男性受方 RPG，2D 动画演出，无反转",
     "genres": [
       "073",
@@ -7892,6 +8216,7 @@
     "rate": 4.57,
     "dl": 4135,
     "rc": 1721,
+    "voice": false,
     "note": "女軍に占領された島を取り戻すため主人公の王子様が奮闘する、おね→ショタ、ショタ→おねRPGです。",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ296043.html",
     "pov": "male"
@@ -7915,6 +8240,7 @@
     "rate": 4.4,
     "dl": 6526,
     "rc": 2509,
+    "voice": false,
     "note": "男女のカップルをまとめて陵辱してしまうRPG",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ297476.html",
     "pov": "male"
@@ -7943,6 +8269,7 @@
       "votes": 37
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ297816.html",
+    "voice": true,
     "note": "和同伴们一起调查世界异变的地下城探索 RPG",
     "genres": [
       "078",
@@ -7975,6 +8302,7 @@
     "dl": 19297,
     "rc": 6708,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ298118.html",
+    "voice": false,
     "note": "角色扮演游戏（按 DLsite 作品形式 RPG 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "016",
@@ -8005,6 +8333,7 @@
     "dl": 738,
     "rc": 316,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ299045.html",
+    "voice": false,
     "note": "角色扮演游戏（按 DLsite 作品形式 RPG 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "223",
@@ -8041,6 +8370,7 @@
       "votes": 45
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ299558.html",
+    "voice": true,
     "note": "变成魔物向网游女玩家复仇的动画战斗 RPG",
     "genres": [
       "065",
@@ -8079,6 +8409,8 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ301169.html",
+    "voice": true,
+    "series": "RJ172048",
     "note": "融合麻将与 RPG 的勇者斗恶龙风脱衣麻将，可招募和配合魔物，系列第五作",
     "genres": [
       "065",
@@ -8106,6 +8438,7 @@
     "rate": 4.66,
     "dl": 23291,
     "rc": 8628,
+    "voice": true,
     "note": "CG260種類以上(一部アニメ有り) 男主人公/男性受けモノBFRPG。女性たちの性奴隷になれる性奴隷システム搭載、踏まれて乗られて搾られて情けなく欲情の白濁を",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ302522.html",
     "pov": "male"
@@ -8119,6 +8452,7 @@
     "rate": 4.63,
     "dl": 32467,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ304877.html",
+    "voice": true,
     "note": "同名作品的重制版，无战斗的 RPG",
     "id": "RJ304877",
     "names": {
@@ -8159,6 +8493,8 @@
       "votes": 65
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ306254.html",
+    "voice": false,
+    "zh": "official",
     "note": "传统练级刷装备的佣兵冒险 RPG，流程约 8–10 小时",
     "genres": [
       "502",
@@ -8189,6 +8525,8 @@
     "dl": 26245,
     "rc": 10893,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ306266.html",
+    "voice": true,
+    "series": "RJ195746",
     "note": "以夏日海岛为舞台的慢生活 RPG 第二作",
     "src": "dlsite"
   },
@@ -8211,6 +8549,7 @@
     "dl": 3057,
     "rc": 1394,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ308336.html",
+    "voice": false,
     "note": "角色扮演游戏（按 DLsite 作品形式 RPG 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "510",
@@ -8243,6 +8582,7 @@
     "dl": 19110,
     "rc": 6414,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ309528.html",
+    "voice": false,
     "note": "在奇幻 RPG 世界里与 NPC 互动的简单探索 RPG，可互动 NPC 约 60 人",
     "genres": [
       "065",
@@ -8279,6 +8619,8 @@
       "votes": 97
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ309598.html",
+    "voice": true,
+    "zh": "official",
     "note": "「不可思议的迷宫」式 Roguelike RPG，就地打造武器",
     "genres": [
       "073",
@@ -8314,6 +8656,8 @@
       "votes": 14
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ310786.html",
+    "voice": true,
+    "series": "RJ01268332",
     "note": "「BF」系列新作，与魔物娘对决的奇幻 RPG",
     "genres": [
       "502",
@@ -8350,6 +8694,7 @@
       "votes": 5
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ312484.html",
+    "voice": false,
     "note": "角色扮演游戏（按 DLsite 作品形式 RPG 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "510",
@@ -8385,6 +8730,7 @@
       "votes": 71
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ314606.html",
+    "voice": false,
     "note": "与不死族女主角交流的纯爱 RPG",
     "genres": [
       "502",
@@ -8418,6 +8764,7 @@
     "dl": 41105,
     "rc": 15570,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ316251.html",
+    "voice": false,
     "note": "无战斗的探索 RPG，对女仆恶作剧，约 8 小时",
     "src": "dlsite"
   },
@@ -8439,6 +8786,7 @@
     "rate": 4.18,
     "dl": 1436,
     "rc": 659,
+    "voice": false,
     "note": "少年は甘い毒に犯されていく…",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ317006.html",
     "pov": "male"
@@ -8469,6 +8817,7 @@
       "votes": 4
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ321373.html",
+    "voice": false,
     "note": "以最强魔女为对手、可战斗和拍照的 RPG Maker 制 RPG",
     "genres": [
       "049",
@@ -8507,6 +8856,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ321982.html",
+    "voice": true,
     "note": "全程配音、主角处于被动方的 M 向 RPG",
     "genres": [
       "433",
@@ -8545,6 +8895,8 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ323130.html",
+    "voice": false,
+    "series": "RJ198900",
     "note": "与魅魔战斗的 M 向 RPG 续作，每个角色都有败北事件",
     "genres": [
       "065",
@@ -8583,6 +8935,8 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ324801.html",
+    "voice": false,
+    "series": "RJ01293869",
     "note": "把徒弟培养成独当一面的魔法师的喜剧 RPG",
     "genres": [
       "065",
@@ -8612,6 +8966,7 @@
     "rate": 4.47,
     "dl": 8784,
     "rc": 2957,
+    "voice": false,
     "note": "混浴温泉に来た夫婦が寝取られるRPG",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ326547.html",
     "pov": "male"
@@ -8637,6 +8992,7 @@
     "dl": 11000,
     "rc": 4615,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ328356.html",
+    "voice": true,
     "note": "带动画、触摸互动和语音的 RPG",
     "genres": [
       "073",
@@ -8675,6 +9031,7 @@
       "votes": 22
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ328615.html",
+    "voice": false,
     "note": "以寝取られ为主题的剧情 RPG",
     "genres": [
       "502",
@@ -8710,6 +9067,7 @@
       "votes": 12
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ328940.html",
+    "voice": true,
     "note": "与 14 位怪物娘一起开拓灵山的长篇慢生活 RPG",
     "genres": [
       "502",
@@ -8748,6 +9106,8 @@
       "votes": 66
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ329602.html",
+    "voice": false,
+    "series": "RJ01225955",
     "note": "「SEQUEL」系列作品，女性主导的奇幻 RPG",
     "genres": [
       "502",
@@ -8786,6 +9146,8 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ332384.html",
+    "voice": true,
+    "series": "RJ172048",
     "note": "麻将与 RPG 结合、剧情走向由玩家选择的脱衣麻将游戏",
     "genres": [
       "065",
@@ -8820,6 +9182,7 @@
       "votes": 19
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ333871.html",
+    "voice": true,
     "note": "赛博朋克世界观、带动画演出的正统 RPG",
     "genres": [
       "073",
@@ -8851,6 +9214,7 @@
     "dl": 15364,
     "rc": 4650,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ334128.html",
+    "voice": false,
     "note": "在 RPG 风格世界中与 NPC 互动的短篇游戏",
     "genres": [
       "128",
@@ -8882,6 +9246,7 @@
       "votes": 24
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ335038.html",
+    "voice": false,
     "note": "当上卫兵抓捕女犯人的监狱题材动画 RPG",
     "genres": [
       "073",
@@ -8918,6 +9283,7 @@
       "votes": 4
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ335221.html",
+    "voice": false,
     "note": "被召唤进游戏世界、以通关为目标的爬塔 RPG",
     "genres": [
       "502",
@@ -8946,6 +9312,7 @@
     "rate": 4.53,
     "dl": 7214,
     "rc": 3300,
+    "voice": false,
     "note": "マナの変動により人間が減っていく世界…そんな状況下で手に取り合うを拒む帝国は因縁のあるランド共和国に戦争を仕掛ける…巻き込まれる国々は団結して帝国と戦う!…その",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ339089.html",
     "pov": "male"
@@ -8968,6 +9335,7 @@
     "rate": 4.34,
     "dl": 751,
     "rc": 402,
+    "voice": false,
     "note": "バトルファック形式のRPG。淫魔やお姉さんにイかされる前にイかせてあげましょう。",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ340550.html",
     "pov": "male"
@@ -8990,6 +9358,7 @@
     "rate": 4.57,
     "dl": 872,
     "rc": 395,
+    "voice": false,
     "note": "昼はモン娘と戦って技を鍛え、夜は鍛えた技で妻と仲良くなるRPG!",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ341156.html",
     "pov": "male"
@@ -9018,6 +9387,7 @@
       "votes": 40
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ342275.html",
+    "voice": false,
     "note": "与伙伴们一起追寻女主角艾娜记忆的奇幻 RPG",
     "genres": [
       "065",
@@ -9049,6 +9419,7 @@
     "dl": 12734,
     "rc": 4538,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ343056.html",
+    "voice": false,
     "note": "打倒魔王后的勇者小队陷入危机、主角设法救出同伴的 RPG",
     "genres": [
       "510",
@@ -9085,6 +9456,9 @@
       "votes": 119
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ344418.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ01006672",
     "note": "与恶魔少女同行的后宫奇幻 RPG",
     "genres": [
       "068",
@@ -9116,6 +9490,7 @@
     "dl": 1387,
     "rc": 457,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ350297.html",
+    "voice": true,
     "note": "以「Fate」系列为题材的同人二创点阵 RPG",
     "genres": [
       "502",
@@ -9152,6 +9527,7 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ352204.html",
+    "voice": false,
     "note": "训练学校毕业考试中男女对抗的陷阱冒险 RPG，多结局",
     "genres": [
       "448",
@@ -9191,6 +9567,7 @@
       "votes": 4
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ353158.html",
+    "voice": false,
     "note": "与 17 名角色交流的岛屿探索 RPG",
     "genres": [
       "071",
@@ -9220,6 +9597,7 @@
     "rate": 4.23,
     "dl": 943,
     "rc": 354,
+    "voice": false,
     "note": "サキュバス姉妹の精力回復を手伝う為に軟禁状態に陥ってしまった主人公。サキュバス達から解放される為に機嫌を取りながら奔走しよう。",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ353509.html",
     "pov": "male"
@@ -9254,6 +9632,7 @@
       "votes": 7
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ353573.html",
+    "voice": true,
     "note": "围绕宝石\"冰之心\"、三起事件交错展开的剧情 RPG",
     "genres": [
       "052",
@@ -9290,6 +9669,7 @@
       "votes": 14
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ354053.html",
+    "voice": false,
     "note": "在海、河、湖钓起 50 种\"鱼娘\"的钓鱼 RPG 第二作",
     "genres": [
       "063",
@@ -9333,6 +9713,8 @@
       "votes": 62
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ354914.html",
+    "voice": true,
+    "zh": "official",
     "note": "带动画、全语音的寝取られ题材 RPG，男主角视角",
     "genres": [
       "502",
@@ -9371,6 +9753,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ362203.html",
+    "voice": true,
     "note": "角色扮演游戏（按 DLsite 作品形式 RPG 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "502",
@@ -9408,6 +9791,8 @@
       "votes": 7
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ363637.html",
+    "voice": true,
+    "zh": "official",
     "note": "角色扮演游戏（按 DLsite 作品形式 RPG 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "510",
@@ -9438,6 +9823,8 @@
     "rate": 4.26,
     "dl": 5749,
     "rc": 1285,
+    "voice": true,
+    "zh": "official",
     "note": "【本格3DアクションRPG × エロ】",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ369260.html",
     "pov": "male"
@@ -9466,6 +9853,8 @@
       "votes": 28
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ369829.html",
+    "voice": false,
+    "zh": "official",
     "note": "包含料理、钓鱼、采集等要素的开放式生活 RPG，约 25 小时",
     "genres": [
       "218",
@@ -9502,6 +9891,8 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ380154.html",
+    "voice": false,
+    "series": "RJ01049483",
     "note": "战队英雄与反派女干部周旋的 RPG",
     "genres": [
       "068",
@@ -9539,6 +9930,7 @@
       "votes": 3
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ380450.html",
+    "voice": true,
     "note": "敌人和同伴都会对主角下手的 RPG",
     "genres": [
       "063",
@@ -9574,6 +9966,8 @@
       "votes": 239
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ384983.html",
+    "voice": true,
+    "zh": "official",
     "note": "房东接近搬进公寓的人妻的寝取 RPG",
     "genres": [
       "068",
@@ -9610,6 +10004,8 @@
       "votes": 164
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ392812.html",
+    "voice": true,
+    "zh": "official",
     "note": "新人驱灵师情侣调查山中旧案的寝取 RPG",
     "genres": [
       "502",
@@ -9639,6 +10035,7 @@
     "rate": 4.73,
     "dl": 15562,
     "rc": 5755,
+    "voice": false,
     "note": "モン娘×少年執事×はらぺこ姫!ゆるふわサバイバル奮闘記。おねショタ、いちゃラブ、逆レイプ!さまざまなシチュエーションをアニメーションつきCGで!",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ393283.html",
     "pov": "male"
@@ -9667,6 +10064,8 @@
       "votes": 122
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ397236.html",
+    "voice": true,
+    "zh": "official",
     "note": "与邪恶魔女战斗的 RPG",
     "genres": [
       "509",
@@ -9706,6 +10105,7 @@
       "votes": 6
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ399093.html",
+    "voice": false,
     "note": "可以操控街上人物的奇幻 RPG",
     "genres": [
       "502",
@@ -9750,6 +10150,7 @@
       "votes": 52
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ402299.html",
+    "voice": false,
     "note": "和女主角莫妮卡一起攻略地下城、按期缴钱的 Roguelike",
     "genres": [
       "502",
@@ -9771,6 +10172,7 @@
     "rate": 4.6,
     "dl": 74297,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ402577.html",
+    "voice": true,
     "note": "少年少女误入幽世村落的青春题材 RPG",
     "genres": [
       "066",
@@ -9815,6 +10217,8 @@
     "dl": 2378,
     "rc": 505,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ403684.html",
+    "voice": false,
+    "zh": "official",
     "note": "被妻子抛弃的中年大叔和部下的辣妹人妻搞上秘密关系的事件收集型 RPG，多结局",
     "genres": [
       "502",
@@ -9853,6 +10257,8 @@
       "votes": 4
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ408941.html",
+    "voice": true,
+    "series": "RJ172048",
     "note": "RPG 冒险与脱衣麻将结合的游戏完全版",
     "genres": [
       "065",
@@ -9890,6 +10296,7 @@
       "votes": 22
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ417027.html",
+    "voice": true,
     "note": "潜入宅邸搜集证据并脱出的 RPG，白天可与女仆们交流",
     "genres": [
       "078",
@@ -9927,6 +10334,7 @@
       "votes": 7
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ421882.html",
+    "voice": true,
     "note": "有 15 名女主角的学园生活交流 RPG，可换装",
     "genres": [
       "502",
@@ -9964,6 +10372,7 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ434033.html",
+    "voice": false,
     "note": "转生异世界后与猫耳少女共同生活的 RPG",
     "genres": [
       "065",
@@ -10005,6 +10414,7 @@
       "votes": 15
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ435864.html",
+    "voice": true,
     "note": "冒险者攻略地下迷宫、与同伴互动的 3D 动画迷宫 RPG",
     "genres": [
       "509",
@@ -10041,6 +10451,7 @@
       "votes": 3
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ437740.html",
+    "voice": true,
     "note": "恐怖风格的宅邸探索 RPG",
     "genres": [
       "218",
@@ -10078,6 +10489,7 @@
       "votes": 4
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ439767.html",
+    "voice": false,
     "note": "带着两名女伙伴攻略地下城的传统 RPG",
     "genres": [
       "510",
@@ -10117,6 +10529,7 @@
       "votes": 8
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ440510.html",
+    "voice": false,
     "note": "与伙伴们一起冒险的轻松向 RPG",
     "genres": [
       "064",
@@ -10152,6 +10565,8 @@
     "dl": 8214,
     "rc": 1579,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ441040.html",
+    "voice": true,
+    "zh": "official",
     "note": "扮演被精灵关押的兽人，越狱后用 2D 战斗打碎傲慢精灵的防具、让她们怀孕复仇的 RPG",
     "genres": [
       "235",
@@ -10190,6 +10605,7 @@
       "score": 7.3,
       "votes": 63
     },
+    "voice": true,
     "note": "黑暗奇幻的生存恐怖地牢 RPG，资源紧张、难度极高",
     "genres": [
       "502",
@@ -10228,6 +10644,8 @@
       "score": 6.9,
       "votes": 14
     },
+    "voice": false,
+    "zh": "official",
     "note": "开放地图的奇幻 RPG，可以自由探索和招募同伴，2024 年正式版",
     "genres": [
       "502",
@@ -10331,6 +10749,7 @@
       "positive": 96,
       "reviews": 1006
     },
+    "zh": "official",
     "note": "男同（熊系）题材的冒险 RPG",
     "genres": [
       "502",
@@ -10361,6 +10780,7 @@
       "positive": 82,
       "reviews": 5544
     },
+    "voice": true,
     "note": "从奴隶身份起步、改变世界的 3D 成人 RPG（抢先体验）",
     "genres": [
       "502",
@@ -10400,6 +10820,8 @@
       "score": 5.3,
       "votes": 12
     },
+    "voice": false,
+    "zh": "official",
     "note": "中世纪奇幻题材的探索 RPG，猎人主角接任务、升级装备",
     "genres": [
       "502",
@@ -10439,6 +10861,7 @@
       "rating": 68,
       "votes": 99
     },
+    "voice": true,
     "note": "扮演年轻巨龙夺回继承权、经营巢穴的 RPG（抢先体验）",
     "genres": [
       "502",
@@ -10476,6 +10899,8 @@
       "positive": 92,
       "reviews": 6424
     },
+    "voice": true,
+    "zh": "official",
     "note": "在海岛上探索、解谜、寻找失落宝藏的冒险游戏（RPG Maker 制作）",
     "genres": [
       "502",
@@ -10538,6 +10963,7 @@
       "positive": 94,
       "reviews": 444
     },
+    "zh": "official",
     "note": "老色批穿越异世界探索、打怪、找朋友的后宫 RPG，手绘画风",
     "genres": [
       "502",
@@ -10568,6 +10994,7 @@
       "positive": 82,
       "reviews": 158
     },
+    "zh": "official",
     "note": "低多边形画风的回合制动作 RPG，底层小人物打黑恶势力逆袭",
     "genres": [
       "502",
@@ -10601,6 +11028,7 @@
       "score": 6.9,
       "votes": 26
     },
+    "voice": true,
     "note": "侦探主角在小镇探索解谜、收集与战斗的 RPG，《Treasure of Nadia》同作者",
     "genres": [
       "502",
@@ -10635,6 +11063,7 @@
       "score": 6,
       "votes": 2
     },
+    "zh": "official",
     "note": "开放世界的捕捉对战 RPG，收集灵兽娘组建队伍",
     "genres": [
       "502",
@@ -10676,6 +11105,7 @@
       "score": 6.1,
       "votes": 66
     },
+    "zh": "official",
     "note": "穿越异世界的杂工在公会、铁匠铺等处打工的 RPG",
     "genres": [
       "502",
@@ -10714,6 +11144,8 @@
       "score": 5.4,
       "votes": 33
     },
+    "voice": true,
+    "zh": "official",
     "note": "点阵风剧情 RPG，在职场中守护重要的感情（DLsite 也有售）",
     "genres": [
       "502",
@@ -10786,6 +11218,8 @@
       "score": 6.4,
       "votes": 98
     },
+    "voice": true,
+    "zh": "official",
     "note": "仙门弟子挑战双尾狐妖的 RPG，带直播题材",
     "genres": [
       "502",
@@ -10818,6 +11252,7 @@
       "positive": 96,
       "reviews": 237
     },
+    "zh": "official",
     "note": "骑士把女哥布林挂在胸前当「肉铠甲」战斗的喜剧 RPG",
     "genres": [
       "502",
@@ -10861,6 +11296,8 @@
       "score": 6.6,
       "votes": 32
     },
+    "voice": true,
+    "zh": "official",
     "note": "为村庄收集素材、与各店铺女孩拉近关系的生活 RPG",
     "genres": [
       "502",
@@ -10897,6 +11334,7 @@
       "score": 5.8,
       "votes": 19
     },
+    "zh": "official",
     "note": "在孤岛上探险、钓鱼、做饭、解谜的冒险 RPG",
     "genres": [
       "502",
@@ -10936,6 +11374,7 @@
       "score": 5.5,
       "votes": 4
     },
+    "voice": false,
     "note": "第一人称迷宫探索、收服怪物少女的 RPG",
     "genres": [
       "432",
@@ -10968,6 +11407,7 @@
       "positive": 88,
       "reviews": 258
     },
+    "zh": "official",
     "note": "3×3 战术编队的养成 RPG 续作",
     "genres": [
       "502",
@@ -11040,6 +11480,8 @@
       "score": 6.8,
       "votes": 42
     },
+    "voice": true,
+    "zh": "official",
     "note": "在地下城探索、驾驶龙骑兵战斗的迷宫 RPG",
     "genres": [
       "502",
@@ -11084,6 +11526,7 @@
       "score": 6.5,
       "votes": 67
     },
+    "voice": true,
     "note": "以都市为据点探索地下迷宫的 3D 迷宫 RPG",
     "genres": [
       "502",
@@ -11128,6 +11571,8 @@
       "score": 9.3,
       "votes": 3687
     },
+    "voice": false,
+    "zh": "official",
     "note": "「兰斯」系列完结作，与人类各国联手对抗魔军的回合制卡牌战略 RPG",
     "genres": [
       "502",
@@ -11166,6 +11611,8 @@
       "rating": 72.4,
       "votes": 77
     },
+    "voice": true,
+    "series": "vndb-v19725",
     "note": "VenusBlood 系列的奇幻 RPG，以勇者一方为主角",
     "genres": [
       "502",
@@ -11212,6 +11659,8 @@
       "score": 6.9,
       "votes": 786
     },
+    "voice": true,
+    "zh": "fan",
     "note": "冒险与结婚系统结合的奇幻 RPG 系列第二作，回合制战斗加迷宫探索",
     "genres": [
       "502",
@@ -11257,6 +11706,8 @@
       "score": 7.4,
       "votes": 3259
     },
+    "voice": true,
+    "zh": "official",
     "note": "反派团伙在反乌托邦都市中行动并经营据点的回合制 RPG",
     "genres": [
       "502",

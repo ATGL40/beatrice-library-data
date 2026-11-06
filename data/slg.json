@@ -172,6 +172,7 @@
       "votes": 4
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01004084.html",
+    "voice": true,
     "note": "以宇宙为舞台、舰队战攻占行星的回合制战略游戏",
     "genres": [
       "311",
@@ -209,6 +210,7 @@
       "votes": 20
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01006462.html",
+    "voice": true,
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "071",
@@ -247,6 +249,8 @@
       "votes": 101
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01006720.html",
+    "voice": true,
+    "zh": "official",
     "note": "偷窥女孩生活并洗脑的 SLG",
     "genres": [
       "073",
@@ -284,6 +288,8 @@
       "votes": 3
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01007158.html",
+    "voice": false,
+    "series": "RJ01007158",
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "073",
@@ -321,6 +327,9 @@
       "votes": 3
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01021115.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ01021115",
     "note": "在拥挤电车与车站中行动的模拟游戏，系列第二作",
     "genres": [
       "301",
@@ -353,6 +362,8 @@
     "dl": 2743,
     "rc": 591,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01027321.html",
+    "voice": true,
+    "zh": "official",
     "note": "带着女仆私奔开荒的农场经营游戏，白天干活晚上甜蜜，还能从魔物手里救精灵",
     "genres": [
       "235",
@@ -381,6 +392,8 @@
     "rate": 4.37,
     "dl": 5008,
     "rc": 348,
+    "voice": false,
+    "zh": "official",
     "note": "A summer memory in the countryside.",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01030286.html"
   },
@@ -405,6 +418,8 @@
     "dl": 8375,
     "rc": 2736,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01031172.html",
+    "voice": false,
+    "series": "RJ01031172",
     "note": "招募同伴扩充佣兵团的轻量战棋模拟游戏，可高速战斗",
     "genres": [
       "502",
@@ -424,6 +439,8 @@
     "rate": 4.86,
     "dl": 101574,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01043101.html",
+    "voice": true,
+    "series": "RJ01043101",
     "note": "「撒娇鬼」半年后的冬假篇，完全新作",
     "id": "RJ01043101",
     "names": {
@@ -465,6 +482,8 @@
       "votes": 20
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01043407.html",
+    "voice": false,
+    "zh": "official",
     "note": "用点击让魔物填满世界的放置游戏，约 1～2 小时",
     "genres": [
       "096",
@@ -502,6 +521,7 @@
       "votes": 25
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01049120.html",
+    "voice": false,
     "note": "在南国岛屿上与女性们共同生活的模拟游戏",
     "genres": [
       "046",
@@ -540,6 +560,8 @@
       "votes": 3
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01051561.html",
+    "voice": false,
+    "series": "RJ01051561",
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "311",
@@ -581,6 +603,8 @@
       "votes": 196
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01052320.html",
+    "voice": true,
+    "zh": "official",
     "note": "点击操作的调教模拟，全动画全语音",
     "genres": [
       "071",
@@ -616,6 +640,8 @@
       "votes": 189
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01053661.html",
+    "voice": true,
+    "zh": "official",
     "note": "护身术道场题材的寝取模拟",
     "genres": [
       "502",
@@ -653,6 +679,8 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01054087.html",
+    "voice": false,
+    "series": "RJ01054087",
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "073",
@@ -687,6 +715,9 @@
     "dl": 12457,
     "rc": 2596,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01055524.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ01055524",
     "note": "和天降的辣妹机娘同居，安排日程打工、开发零件改造她的时间管理养成游戏",
     "genres": [
       "065",
@@ -719,6 +750,8 @@
     "dl": 4216,
     "rc": 670,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01056550.html",
+    "voice": true,
+    "zh": "official",
     "note": "继承母亲遗愿开便利店、和女店员们谈恋爱的经营 SLG+AVG，台湾风商品",
     "genres": [
       "065",
@@ -757,6 +790,8 @@
       "votes": 3
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01056644.html",
+    "voice": false,
+    "series": "RJ01051561",
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "311",
@@ -793,6 +828,8 @@
       "votes": 4
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01064780.html",
+    "voice": false,
+    "series": "RJ01051561",
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "311",
@@ -830,6 +867,8 @@
       "votes": 13
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01066136.html",
+    "voice": true,
+    "series": "RJ01066136",
     "note": "夏日乡下生活的日常模拟游戏",
     "genres": [
       "065",
@@ -860,6 +899,7 @@
     "rate": 4.34,
     "dl": 9697,
     "rc": 2730,
+    "voice": true,
     "note": "清楚で真面目な生徒会長が裏アカでエロ配信!  配信に参加&ハッキングして思い通りにしちゃうシミュレーションゲーム",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01072177.html"
   },
@@ -883,6 +923,8 @@
     "dl": 56135,
     "rc": 13218,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01073609.html",
+    "voice": true,
+    "zh": "official",
     "note": "3D 电车题材，使用催眠 APP 的调教模拟",
     "genres": [
       "509",
@@ -918,6 +960,8 @@
       "votes": 21
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01075284.html",
+    "voice": true,
+    "zh": "official",
     "note": "Live2D 互动与 ASMR 结合的魅魔陪伴模拟游戏",
     "genres": [
       "497",
@@ -953,6 +997,9 @@
       "votes": 9
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01081301.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ01081301",
     "note": "经营冒险者旅店、接待住客的模拟游戏，系列第二作",
     "genres": [
       "065",
@@ -993,6 +1040,7 @@
       "votes": 65
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01082260.html",
+    "voice": false,
     "note": "日常被催眠逐渐侵蚀的养成模拟",
     "genres": [
       "022",
@@ -1027,6 +1075,8 @@
       "votes": 24
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01083821.html",
+    "voice": false,
+    "zh": "official",
     "note": "《护身术道场》的独立续篇，以新角色为主的模拟游戏",
     "genres": [
       "302",
@@ -1059,6 +1109,7 @@
       "votes": 19
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01083992.html",
+    "voice": false,
     "note": "经营农场、与伴侣们组建家庭的养成模拟游戏",
     "genres": [
       "014",
@@ -1095,6 +1146,7 @@
       "votes": 4
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01087153.html",
+    "voice": true,
     "note": "以 3D 角色互动和后代繁衍为核心的养成模拟游戏",
     "genres": [
       "509",
@@ -1132,6 +1184,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01094244.html",
+    "voice": true,
     "note": "与女仆共同生活、可换装的互动模拟游戏",
     "genres": [
       "311",
@@ -1176,6 +1229,8 @@
       "votes": 39
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01094259.html",
+    "voice": true,
+    "zh": "official",
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "312",
@@ -1210,6 +1265,8 @@
     "dl": 4295,
     "rc": 698,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01094358.html",
+    "voice": true,
+    "zh": "official",
     "note": "扮演帝国军团长镇压边境、征服领土和女人的调教策略 AVG，有攻城战斗",
     "genres": [
       "526",
@@ -1237,6 +1294,8 @@
     "rate": 4.47,
     "dl": 11191,
     "rc": 3393,
+    "voice": true,
+    "series": "RJ01100898",
     "note": "マウスのみのお手軽操作。女の子にいろいろできちゃう、おさわりシミュレーション",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01100898.html"
   },
@@ -1263,6 +1322,8 @@
       "votes": 164
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01103194.html",
+    "voice": true,
+    "zh": "official",
     "note": "经营古式按摩店的模拟",
     "genres": [
       "219",
@@ -1288,6 +1349,8 @@
     "rate": 4.62,
     "dl": 18607,
     "rc": 3887,
+    "voice": true,
+    "zh": "official",
     "note": "体育倉庫で無理やりイカせ続ける!強制絶頂Live2Dフルアニメーション&フルボイス!",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01111622.html"
   },
@@ -1314,6 +1377,8 @@
       "votes": 14
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01116084.html",
+    "voice": true,
+    "zh": "official",
     "note": "用催眠 APP 调教女主播的模拟",
     "genres": [
       "509",
@@ -1353,6 +1418,7 @@
       "votes": 35
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01118876.html",
+    "voice": false,
     "note": "冒险者兼营酒馆与娼馆的经营 SLG，全程鼠标操作",
     "genres": [
       "502",
@@ -1388,6 +1454,8 @@
     "dl": 6768,
     "rc": 1137,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01124819.html",
+    "voice": true,
+    "zh": "official",
     "note": "救了房东太太后反过来要她以身相报，每天安排训练、打工、外出的调教养成游戏",
     "genres": [
       "063",
@@ -1435,6 +1503,8 @@
       "votes": 19
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01127013.html",
+    "voice": true,
+    "zh": "official",
     "note": "与朴素的打工女孩一起工作、慢慢拉近关系的模拟游戏",
     "genres": [
       "065",
@@ -1473,6 +1543,7 @@
       "votes": 8
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01131276.html",
+    "voice": false,
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "311",
@@ -1499,6 +1570,7 @@
     "rate": 4.49,
     "dl": 6000,
     "rc": 1241,
+    "voice": true,
     "note": "因習村で行われる巨乳双子巫女とのラブラブおねショタ姉妹丼。エロシーンは全てアニメーション&フルボイスのリアルタイムおさわりSLG",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01135649.html"
   },
@@ -1527,6 +1599,8 @@
       "votes": 20
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01137528.html",
+    "voice": true,
+    "zh": "official",
     "note": "养育人造人的 Live2D 育成游戏，性格随养育方式变化",
     "genres": [
       "311",
@@ -1555,6 +1629,7 @@
     "rate": 4,
     "dl": 3688,
     "rc": 774,
+    "voice": true,
     "note": "女子高生を監禁してあらゆる淫らなスキルを使って精神を完膚なきまでに破壊し、洗脳し、主人公のことを好きにさせる純愛凌辱サイコホラーゲームです。",
     "genres": [
       "073",
@@ -1600,6 +1675,8 @@
       "votes": 47
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01144461.html",
+    "voice": true,
+    "zh": "official",
     "note": "直接打字发弹幕与主播互动的模拟游戏",
     "genres": [
       "510",
@@ -1636,6 +1713,7 @@
       "votes": 34
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01150544.html",
+    "voice": true,
     "note": "捕获变身女英雄并洗脑的养成模拟",
     "genres": [
       "269",
@@ -1669,6 +1747,8 @@
       "votes": 26
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01154711.html",
+    "voice": true,
+    "zh": "official",
     "note": "入侵 Vtuber 的设备、查明其真实身份的模拟游戏",
     "genres": [
       "065",
@@ -1709,6 +1789,7 @@
       "votes": 53
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01161200.html",
+    "voice": true,
     "note": "与大小姐相处的 Live2D 触摸模拟",
     "genres": [
       "073",
@@ -1732,6 +1813,7 @@
     "rate": 3.76,
     "dl": 2712,
     "rc": 519,
+    "voice": false,
     "note": "万引きをしたと思われるJKにお仕置きと言う名のエッチなお触りなどをする昔のFLASHのようなお触りゲームです。",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01162152.html"
   },
@@ -1752,6 +1834,8 @@
     "rate": 4.2,
     "dl": 36315,
     "rc": 5383,
+    "voice": true,
+    "zh": "official",
     "note": "ドットアニメーションで拾った家出少女とたくさんHしよう!",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01164204.html"
   },
@@ -1771,6 +1855,7 @@
     "rate": 3.89,
     "dl": 7351,
     "rc": 980,
+    "voice": true,
     "note": "シンプル・カジュアルで、えっちなおつかいシミュレーションゲーム",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01165257.html"
   },
@@ -1801,6 +1886,7 @@
       "votes": 43
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01166703.html",
+    "voice": true,
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "068",
@@ -1837,6 +1923,7 @@
       "votes": 9
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01167615.html",
+    "voice": false,
     "note": "以点阵循环动画为主的东方 Project 同人互动作品",
     "genres": [
       "073",
@@ -1877,6 +1964,7 @@
       "votes": 4
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01169637.html",
+    "voice": true,
     "note": "以老虎机为核心玩法的魅魔主题游戏",
     "genres": [
       "433",
@@ -1916,6 +2004,8 @@
       "votes": 75
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01172438.html",
+    "voice": false,
+    "zh": "official",
     "note": "跟踪女孩并恶作剧的模拟，含催眠与时停",
     "genres": [
       "509",
@@ -1954,6 +2044,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01173055.html",
+    "voice": false,
     "note": "操作简单的约会模拟小品",
     "genres": [
       "311",
@@ -1989,6 +2080,8 @@
       "votes": 81
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01175290.html",
+    "voice": true,
+    "zh": "official",
     "note": "同居＋动作战斗＋Roguelike 的开放世界奇幻游戏",
     "genres": [
       "073",
@@ -2028,6 +2121,9 @@
       "votes": 55
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01178024.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ01178024",
     "note": "转生异世界、收集「爱的能量」的触摸模拟",
     "genres": [
       "311",
@@ -2066,6 +2162,9 @@
       "votes": 23
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01178251.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ01178251",
     "note": "与住在圣域的驴耳公主互动的实时 2D 动画游戏",
     "genres": [
       "073",
@@ -2096,6 +2195,7 @@
     "rate": 4.21,
     "dl": 2247,
     "rc": 527,
+    "voice": true,
     "note": "ダイスで判定!?SDアニメ満載な、新人教育メイドのエッチなお屋敷箱庭性活!!",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01179787.html",
     "pov": "female"
@@ -2123,6 +2223,8 @@
     "dl": 21773,
     "rc": 3246,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01189784.html",
+    "voice": true,
+    "zh": "official",
     "note": "和两个妹妹同居、安排每天行动攒好感的恋爱养成游戏，带小游戏和动画 H",
     "genres": [
       "073",
@@ -2153,6 +2255,7 @@
     "rate": 4.71,
     "dl": 3105,
     "rc": 965,
+    "voice": false,
     "note": "女主人公のショタおね同棲シミュレーション!",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01193650.html",
     "pov": "female"
@@ -2177,6 +2280,7 @@
     "rate": 4.36,
     "dl": 16348,
     "rc": 3019,
+    "voice": true,
     "note": "おねショタxショタおねの進化系露出SLG! 逆ラッキースケベ露出指令リアルタイムSLG! ボリューミーなヌキゲーがアナタのリビドーを刺激する!",
     "genres": [
       "509",
@@ -2207,6 +2311,7 @@
     "rate": 4.41,
     "dl": 4697,
     "rc": 964,
+    "voice": true,
     "note": "貴方は英雄的科学者の弟子…現在は組織に務めるドクターとして、 立〇響ちゃんや雪〇クリスちゃんのような装者や、 あの錬金術師を相手にイチャイチャできるのか!!常識",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01205846.html"
   },
@@ -2236,6 +2341,7 @@
       "votes": 120
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01212921.html",
+    "voice": true,
     "note": "与魅魔对决的轻量节奏游戏，为期十天",
     "genres": [
       "073",
@@ -2267,6 +2373,8 @@
     "dl": 14332,
     "rc": 2606,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01217518.html",
+    "voice": true,
+    "zh": "official",
     "note": "女调查员独闯宇宙殖民地的卡组构筑战斗游戏，36 种敌人都有专属战斗 H，六个结局全带 NTR",
     "genres": [
       "533",
@@ -2299,6 +2407,8 @@
     "dl": 1735,
     "rc": 265,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01217938.html",
+    "voice": true,
+    "zh": "official",
     "note": "当音乐制作人把妹妹捧成超级偶像的三年养成游戏，每个选择都左右她的命运",
     "genres": [
       "212",
@@ -2334,6 +2444,8 @@
       "votes": 39
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01221783.html",
+    "voice": true,
+    "zh": "official",
     "note": "操控触手调教冒险者的 Live2D 模拟游戏",
     "genres": [
       "311",
@@ -2361,6 +2473,7 @@
     "rate": 4.03,
     "dl": 3587,
     "rc": 776,
+    "voice": true,
     "note": "家でJKにHなことをするゲーム。",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01224649.html"
   },
@@ -2390,6 +2503,8 @@
       "votes": 84
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01226398.html",
+    "voice": true,
+    "series": "RJ01226398",
     "note": "与青梅竹马共度冬天的点阵动画模拟游戏，《SUMMER》续作",
     "genres": [
       "073",
@@ -2419,6 +2534,8 @@
     "rate": 4.48,
     "dl": 14888,
     "rc": 2037,
+    "voice": true,
+    "zh": "official",
     "note": "口淫風俗店～巨乳お姉さんのフェラチオ搾精",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01227609.html"
   },
@@ -2445,6 +2562,8 @@
     "dl": 2868,
     "rc": 502,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01230686.html",
+    "voice": true,
+    "zh": "official",
     "note": "病毒让城市秩序崩溃，男主每天分配行动带着青梅和女友逃出堕落之城的养成 ADV",
     "genres": [
       "062",
@@ -2476,6 +2595,8 @@
     "rate": 4.51,
     "dl": 14079,
     "rc": 1796,
+    "voice": false,
+    "zh": "official",
     "note": "ナースお姉さんの早漏改善トレーニング ～ 手袋コキ、強制連続射精、男の潮吹き ～ 自由度の高いアニメーションミニゲーム",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01237060.html"
   },
@@ -2498,6 +2619,8 @@
     "dl": 31749,
     "rc": 6099,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01244412.html",
+    "voice": true,
+    "zh": "official",
     "note": "教育与 NTR 结合的模拟游戏",
     "genres": [
       "502",
@@ -2533,6 +2656,9 @@
       "votes": 20
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01245835.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ01245835",
     "note": "设置感官遮断陷阱、建造地下城的模拟",
     "genres": [
       "431",
@@ -2563,6 +2689,7 @@
     "rate": 4.12,
     "dl": 16527,
     "rc": 2989,
+    "voice": true,
     "note": "本作は、簡単な操作性でリッチな痴漢体験を楽しめるシミュレーションゲームです。 通学時間を過ごす女子高生に他の人の視線を避けながらイタズラをしたり、服を脱がせたり",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01255617.html"
   },
@@ -2581,6 +2708,7 @@
     "rate": 4.31,
     "dl": 2326,
     "rc": 402,
+    "voice": true,
     "note": "とある日、あなたは援助交際を行う。相手は学校で有名なビッチで金髪JK。お金を払えば誰とでもヤってくれる。生意気であなたのことを舐めたそぶりを見せる彼女だが、徐々",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01259734.html"
   },
@@ -2600,6 +2728,8 @@
     "rate": 4.51,
     "dl": 13833,
     "rc": 1910,
+    "voice": true,
+    "zh": "official",
     "note": "おねショタ系のパイズリシミュレーションゲーム ～ 本作の特徴は巨乳と乳内射精です ～ 自由度の高いアニメーションミニゲーム",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01261702.html"
   },
@@ -2626,6 +2756,8 @@
     "dl": 1299,
     "rc": 190,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01261711.html",
+    "voice": true,
+    "zh": "official",
     "note": "扮演诸葛亮，把刘备托付的女儿刘婵培养成皇帝的经营养成游戏，三国题材",
     "genres": [
       "063",
@@ -2664,6 +2796,7 @@
       "votes": 48
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01261731.html",
+    "voice": false,
     "note": "人气低迷的女主播靠露出直播走红的模拟游戏",
     "genres": [
       "432",
@@ -2699,6 +2832,8 @@
     "dl": 13110,
     "rc": 2246,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01263980.html",
+    "voice": true,
+    "zh": "official",
     "note": "被绑去异星给暴君少女当宠物，一边讨好她一边练怪兽征服行星的养成 SLG，日语全语音",
     "genres": [
       "311",
@@ -2734,6 +2869,8 @@
     "dl": 3301,
     "rc": 447,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01268484.html",
+    "voice": true,
+    "zh": "official",
     "note": "和逃出封印的妖狐 OL 签约同居、完成她的恋爱课程的养成游戏，女主全程配音",
     "genres": [
       "541",
@@ -2770,6 +2907,8 @@
     "dl": 41945,
     "rc": 8985,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01271506.html",
+    "voice": false,
+    "zh": "official",
     "note": "种田、养动物、钓鱼的慢生活模拟"
   },
   {
@@ -2791,6 +2930,8 @@
     "rate": 4.54,
     "dl": 9710,
     "rc": 1296,
+    "voice": true,
+    "zh": "official",
     "note": "おねショタ系のフェラアニメゲーム～本作の特徴はひょっとこフェラとエロかつ激しい口内射精アニメ ～",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01272019.html"
   },
@@ -2820,6 +2961,8 @@
       "votes": 8
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01274276.html",
+    "voice": false,
+    "series": "RJ01054087",
     "note": "在地下斗技场挑战无败女王的指令式对战游戏",
     "genres": [
       "071",
@@ -2841,6 +2984,8 @@
     "rate": 4.73,
     "dl": 62583,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01274558.html",
+    "voice": false,
+    "series": "RJ01274558",
     "note": "白天正常生活、晚上开发妹妹的 30 天模拟，约 3 小时",
     "id": "RJ01274558",
     "names": {
@@ -2869,6 +3014,7 @@
     "rate": 4.61,
     "dl": 3293,
     "rc": 613,
+    "voice": true,
     "note": "ショタな僕とお姉ちゃんとお母さんのあまーい性活シミュレーション",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01277821.html",
     "pov": "male"
@@ -2896,6 +3042,8 @@
     "dl": 947,
     "rc": 134,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01280615.html",
+    "voice": true,
+    "zh": "official",
     "note": "和下级魅魔莉莉姆同住 30 天，打工约会喂饱她帮她升级的轻养成游戏",
     "genres": [
       "056",
@@ -2927,6 +3075,8 @@
     "rate": 4.39,
     "dl": 19533,
     "rc": 2437,
+    "voice": true,
+    "zh": "official",
     "note": "おねショタ系の逆レイプアニメゲーム、本作の特徴は下品な騎乗位生ハメセックスアニメ、いつでもどこでも生中出し",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01285169.html"
   },
@@ -2957,6 +3107,8 @@
       "votes": 20
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01293869.html",
+    "voice": false,
+    "series": "RJ01293869",
     "note": "末日题材的避难所求生 SLG，在封闭的避难所中同居生活",
     "genres": [
       "502",
@@ -2995,6 +3147,8 @@
       "votes": 55
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01295900.html",
+    "voice": true,
+    "series": "RJ01295900",
     "note": "在地方都市与 35 名以上女性交流的点阵 SLG",
     "genres": [
       "073",
@@ -3026,6 +3180,8 @@
     "rate": 4.39,
     "dl": 16504,
     "rc": 1974,
+    "voice": true,
+    "zh": "official",
     "note": "おねショタ系の逆レイプアニメゲーム、本作の特徴は下品な生ハメセックスアニメ、いつでもどこでも生中出し",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01301534.html"
   },
@@ -3049,6 +3205,8 @@
     "dl": 31326,
     "rc": 4445,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01305765.html",
+    "voice": true,
+    "zh": "official",
     "note": "Live2D 互动模拟，画面分格同时呈现表情与动作",
     "genres": [
       "065",
@@ -3081,6 +3239,8 @@
     "dl": 1493,
     "rc": 237,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01306847.html",
+    "voice": false,
+    "zh": "official",
     "note": "扮演粉色生命体在地下研究所复仇的探索射击游戏，用无限射精能力打倒无人机",
     "genres": [
       "063",
@@ -3119,6 +3279,8 @@
       "votes": 3
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01317267.html",
+    "voice": true,
+    "series": "RJ01317267",
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "065",
@@ -3154,6 +3316,8 @@
       "votes": 13
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01323899.html",
+    "voice": true,
+    "zh": "official",
     "note": "3D 人妻题材互动 SLG，含纯爱与复仇两条路线",
     "genres": [
       "509",
@@ -3188,6 +3352,8 @@
     "dl": 2884,
     "rc": 412,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01339274.html",
+    "voice": true,
+    "zh": "official",
     "note": "买到七天后就会停机的瑕疵机娘，和她一起修好身体的养成游戏，Spine 2D 全动画",
     "genres": [
       "263",
@@ -3219,6 +3385,8 @@
     "dl": 8100,
     "rc": 1049,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01345126.html",
+    "voice": true,
+    "zh": "official",
     "note": "纯鼠标操作的 Live2D 触摸游戏，帮发情期的狐狸姐姐解决烦恼，全程动画",
     "genres": [
       "073",
@@ -3259,6 +3427,8 @@
       "votes": 276
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01348926.html",
+    "voice": true,
+    "zh": "official",
     "note": "在奇幻都市与女仆一起生活的 SLG",
     "genres": [
       "312",
@@ -3294,6 +3464,8 @@
       "votes": 53
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01351531.html",
+    "voice": true,
+    "zh": "official",
     "note": "电车题材的 Roguelite，女搜查官反复挑战逐步变强",
     "genres": [
       "533",
@@ -3333,6 +3505,8 @@
       "votes": 34
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01363303.html",
+    "voice": true,
+    "zh": "official",
     "note": "女警题材的剧情 SLG，多路线分支",
     "genres": [
       "071",
@@ -3360,6 +3534,8 @@
     "dl": 2634,
     "rc": 330,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01368900.html",
+    "voice": true,
+    "zh": "official",
     "note": "海边小镇的养女艾米莉被推上圣女之位后的故事，经营养成游戏，日语配音",
     "genres": [
       "063",
@@ -3395,6 +3571,8 @@
     "dl": 550,
     "rc": 57,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01369474.html",
+    "voice": true,
+    "zh": "official",
     "note": "许愿让情趣娃娃有了生命，一点点照顾她变成真人的同居养成游戏",
     "genres": [
       "063",
@@ -3430,6 +3608,8 @@
     "dl": 1174,
     "rc": 128,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01375817.html",
+    "voice": true,
+    "zh": "official",
     "note": "继任城主误召唤出魔界少女莉丝，与她同居并建设城镇的经营养成游戏",
     "genres": [
       "257",
@@ -3463,6 +3643,7 @@
     "dl": 21756,
     "rc": 2664,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01380783.html",
+    "voice": true,
     "note": "3D 沙盒游戏，在沼泽废墟中自由探索",
     "genres": [
       "509",
@@ -3499,6 +3680,8 @@
       "votes": 72
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01386956.html",
+    "voice": true,
+    "zh": "official",
     "note": "救生员题材的 SLG，「NTRaholic」的精神续作",
     "genres": [
       "065",
@@ -3534,6 +3717,8 @@
       "votes": 29
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01387100.html",
+    "voice": true,
+    "zh": "official",
     "note": "实时 3D 职场题材互动 SLG",
     "genres": [
       "509",
@@ -3566,6 +3751,8 @@
     "dl": 1001,
     "rc": 114,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01391244.html",
+    "voice": true,
+    "zh": "official",
     "note": "穿越后给哥布林女司祭当仆人，照顾她的饱腹、清洁和性欲的恋爱养成游戏",
     "genres": [
       "065",
@@ -3603,6 +3790,9 @@
       "votes": 4
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01394659.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ01178024",
     "note": "异世界城镇中的 3D 互动模拟，可使用魔法和陷阱",
     "genres": [
       "311",
@@ -3641,6 +3831,8 @@
       "votes": 49
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01402070.html",
+    "voice": true,
+    "series": "RJ01226398",
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "073",
@@ -3678,6 +3870,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01407719.html",
+    "voice": false,
     "note": "女性主导氛围的触摸互动模拟",
     "genres": [
       "311",
@@ -3713,6 +3906,8 @@
       "votes": 15
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01409387.html",
+    "voice": false,
+    "zh": "official",
     "note": "足球题材的 SLG",
     "genres": [
       "302",
@@ -3753,6 +3948,8 @@
       "votes": 71
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01415588.html",
+    "voice": false,
+    "zh": "official",
     "note": "漂流到无人岛的男女一边求生一边脱出，约 4～5 小时",
     "genres": [
       "502",
@@ -3788,6 +3985,8 @@
       "votes": 60
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01435937.html",
+    "voice": true,
+    "zh": "official",
     "note": "Live2D 同居互动模拟，通过交流提升亲密度",
     "genres": [
       "073",
@@ -3826,6 +4025,8 @@
       "votes": 69
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01437470.html",
+    "voice": true,
+    "zh": "official",
     "note": "2D 点阵横版日常模拟",
     "genres": [
       "311",
@@ -3864,6 +4065,8 @@
       "votes": 68
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01437730.html",
+    "voice": true,
+    "zh": "official",
     "note": "以按摩为名的触摸游戏，一周约 2～3 小时，多结局",
     "genres": [
       "311",
@@ -3902,6 +4105,7 @@
       "votes": 10
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01446405.html",
+    "voice": false,
     "note": "与修女同居的日常互动模拟，提升好感度",
     "genres": [
       "311",
@@ -3939,6 +4143,8 @@
       "votes": 53
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01452526.html",
+    "voice": true,
+    "zh": "official",
     "note": "与家里蹲女儿同居的 3D 日常生活模拟",
     "genres": [
       "509",
@@ -3970,6 +4176,8 @@
     "dl": 3663,
     "rc": 455,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01456318.html",
+    "voice": true,
+    "zh": "official",
     "note": "全程 Live2D 的按摩模拟游戏，当按摩师慢慢解开丧夫雪豹人妻压抑的欲望",
     "genres": [
       "311",
@@ -4014,6 +4222,8 @@
       "votes": 168
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01459897.html",
+    "voice": true,
+    "zh": "official",
     "note": "动画演出的邻居人妻题材互动 SLG",
     "genres": [
       "073",
@@ -4053,6 +4263,7 @@
       "votes": 24
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01464588.html",
+    "voice": true,
     "note": "房间成了辣妹聚集地的日常 SLG",
     "genres": [
       "502",
@@ -4087,6 +4298,7 @@
       "votes": 40
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01465067.html",
+    "voice": true,
     "note": "与三名女同事在无人岛生存的后宫 SLG",
     "genres": [
       "285",
@@ -4127,6 +4339,8 @@
       "votes": 71
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01473408.html",
+    "voice": true,
+    "zh": "official",
     "note": "与公司后辈同居的 3D 日常模拟，做饭、打扫增进关系",
     "genres": [
       "509",
@@ -4160,6 +4374,7 @@
       "votes": 167
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01482095.html",
+    "voice": true,
     "note": "手绘 2D 动画的同居养成模拟，约 4～6 小时",
     "genres": [
       "222",
@@ -4205,6 +4420,8 @@
       "votes": 52
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01483203.html",
+    "voice": true,
+    "zh": "official",
     "note": "以 21 点为基础的对战卡牌游戏",
     "genres": [
       "066",
@@ -4243,6 +4460,7 @@
       "votes": 9
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01483219.html",
+    "voice": true,
     "note": "合租屋同居生活模拟",
     "genres": [
       "263",
@@ -4282,6 +4500,7 @@
       "votes": 8
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01500551.html",
+    "voice": true,
     "note": "暑假在度假地与辣妹女仆同居的日常模拟",
     "genres": [
       "311",
@@ -4308,6 +4527,8 @@
     "rate": 4.59,
     "dl": 9135,
     "rc": 570,
+    "voice": true,
+    "zh": "official",
     "note": "おねショタ×逆レのLive2Dアニメゲーム！完全フェラ特化ゲーム、累計1万本突破の「口淫風俗店」シリーズ最新作！可愛いショタがフェラ上手な三人のお姉さんたちに、",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01501349.html"
   },
@@ -4331,6 +4552,8 @@
     "dl": 1255,
     "rc": 63,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01503167.html",
+    "voice": false,
+    "zh": "official",
     "note": ""
   },
   {
@@ -4350,6 +4573,8 @@
     "dl": 2719,
     "rc": 232,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01503183.html",
+    "voice": false,
+    "zh": "official",
     "note": ""
   },
   {
@@ -4368,6 +4593,7 @@
     "rate": 4.42,
     "dl": 18491,
     "rc": 2331,
+    "voice": true,
     "note": "田舎のお姉ちゃんと共同生活3Dゲーム！「おちんちんおっきくなってるよ。えへへ。男の子だもんね?」お触りして、引き連れて、いろんなところでエッチ！",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01509750.html"
   },
@@ -4391,6 +4617,7 @@
     "dl": 4074,
     "rc": 574,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01521464.html",
+    "voice": false,
     "note": "魔族千金与失去色彩的女仆共度三十天、通过按摩培养感情的百合养成模拟",
     "genres": [
       "506",
@@ -4428,6 +4655,8 @@
       "votes": 16
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01527035.html",
+    "voice": false,
+    "series": "RJ01274558",
     "note": "能使用魔法的互动模拟，与三位魔女姐妹同居 30 天",
     "genres": [
       "311",
@@ -4462,6 +4691,8 @@
     "dl": 825,
     "rc": 73,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01537980.html",
+    "voice": true,
+    "zh": "official",
     "note": "环岛台湾追五个女孩的恋爱养成游戏，一边写毕业论文一边谈恋爱",
     "genres": [
       "255",
@@ -4499,6 +4730,7 @@
       "votes": 42
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01544625.html",
+    "voice": true,
     "note": "大学文艺社团题材的互动模拟，全语音",
     "genres": [
       "497",
@@ -4538,6 +4770,8 @@
       "votes": 9
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01549139.html",
+    "voice": true,
+    "zh": "official",
     "note": "3D 互动模拟，自由度较高的养成系统",
     "genres": [
       "509",
@@ -4574,6 +4808,8 @@
       "votes": 7
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01554226.html",
+    "voice": false,
+    "zh": "official",
     "note": "经营小食堂的模拟游戏，与员工少女一起让店铺兴旺",
     "genres": [
       "502",
@@ -4610,6 +4846,7 @@
       "votes": 21
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01556529.html",
+    "voice": true,
     "note": "在房间布置陷阱拆散情侣的策略 SLG",
     "genres": [
       "073",
@@ -4642,6 +4879,8 @@
     "dl": 3193,
     "rc": 221,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01562637.html",
+    "voice": true,
+    "zh": "official",
     "note": "隐居乡下的男主收留三只狐娘、一起经营农场顺便开发性爱的养成游戏",
     "genres": [
       "056",
@@ -4679,6 +4918,7 @@
       "votes": 9
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01574150.html",
+    "voice": true,
     "note": "3D 调教模拟，10 天内将等级提升到 100",
     "genres": [
       "509",
@@ -4716,6 +4956,7 @@
       "votes": 4
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01580202.html",
+    "voice": true,
     "note": "3D 互动模拟，设定为会员制秘密俱乐部",
     "genres": [
       "509",
@@ -4753,6 +4994,7 @@
       "votes": 8
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01595506.html",
+    "voice": false,
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "311",
@@ -4780,6 +5022,7 @@
     "rate": 4.79,
     "dl": 17001,
     "rc": 1729,
+    "voice": true,
     "note": "フォレスティア～ちいさな町の牧場ライフ～にボイスを追加するDLCです",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01623763.html"
   },
@@ -4804,6 +5047,7 @@
     "dl": 1515,
     "rc": 128,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01635155.html",
+    "voice": true,
     "note": "以面部服务专门店为舞台的触摸模拟游戏第二作",
     "genres": [
       "068",
@@ -4835,6 +5079,8 @@
     "dl": 3922,
     "rc": 336,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01636335.html",
+    "voice": true,
+    "zh": "official",
     "note": "全程 Live2D 的触摸恋爱游戏，帮为业绩发愁的公会兔女郎前台解压，附切水果式小游戏",
     "genres": [
       "311",
@@ -4868,6 +5114,7 @@
     "dl": 2158,
     "rc": 148,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01646966.html",
+    "voice": true,
     "note": "面向 VR 新手、尽量减少晕动等问题的 VR 互动模拟",
     "genres": [
       "509",
@@ -4905,6 +5152,7 @@
       "votes": 9
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01702695.html",
+    "voice": false,
     "note": "冒险者街按摩店经营 SLG",
     "genres": [
       "311",
@@ -4938,6 +5186,8 @@
     "dl": 1301,
     "rc": 94,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01703015.html",
+    "voice": true,
+    "series": "RJ01066136",
     "note": "与妈妈在都市共度夏天、逐步培养关系的模拟游戏",
     "genres": [
       "256",
@@ -4975,6 +5225,8 @@
       "votes": 20
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01722990.html",
+    "voice": true,
+    "zh": "official",
     "note": "与流浪猫娘同居的实时动画互动模拟，打工赚钱买食物",
     "genres": [
       "311",
@@ -5012,6 +5264,8 @@
       "votes": 18
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01724797.html",
+    "voice": true,
+    "zh": "official",
     "note": "3D 魅魔养成模拟，在限定天数内完成任务",
     "genres": [
       "509",
@@ -5033,6 +5287,7 @@
     "rate": 4.83,
     "dl": 133998,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ162718.html",
+    "voice": false,
     "note": "收养前奴隶少女、通过交流增进感情的模拟",
     "genres": [
       "071",
@@ -5079,6 +5334,8 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ170963.html",
+    "voice": true,
+    "series": "RJ170963",
     "note": "布置陷阱与魔物、改造迷宫迎击入侵者的迷宫经营 SLG",
     "genres": [
       "234",
@@ -5110,6 +5367,7 @@
     "dl": 2915,
     "rc": 1494,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ171622.html",
+    "voice": true,
     "note": "在 30 天内把少女露卡培养成剑斗士的养成模拟",
     "genres": [
       "073",
@@ -5145,6 +5403,7 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ171696.html",
+    "voice": true,
     "note": "点阵动画、全语音的轻量培育模拟游戏",
     "genres": [
       "311",
@@ -5174,6 +5433,7 @@
     "rate": 4.43,
     "dl": 8588,
     "rc": 4229,
+    "voice": true,
     "note": "お姉ちゃんと過ごす甘酸っぱい夏休みを描いた、インタラクティブ2.5Dおさわりゲーム。",
     "genres": [
       "509",
@@ -5205,6 +5465,7 @@
     "dl": 5976,
     "rc": 3219,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ172648.html",
+    "voice": false,
     "note": "全 36 章的长篇奇幻战棋 SRPG",
     "genres": [
       "046",
@@ -5235,6 +5496,7 @@
     "dl": 3353,
     "rc": 1773,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ174756.html",
+    "voice": false,
     "note": "用鼠标操作、自由度较高的培育模拟游戏",
     "genres": [
       "323",
@@ -5268,6 +5530,7 @@
       "votes": 25
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ176115.html",
+    "voice": false,
     "note": "调教魔物娘并经营娼馆的经营模拟",
     "genres": [
       "317",
@@ -5297,6 +5560,7 @@
       "votes": 21
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ179387.html",
+    "voice": true,
     "note": "实时 3D 的经营模拟",
     "genres": [
       "509",
@@ -5333,6 +5597,8 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ180795.html",
+    "voice": false,
+    "series": "RJ180795",
     "note": "以山贼头目为主角的长篇战棋 SRPG",
     "genres": [
       "034",
@@ -5363,6 +5629,7 @@
     "dl": 8379,
     "rc": 4263,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ183670.html",
+    "voice": false,
     "note": "通过小游戏劝酒的点阵触摸互动游戏",
     "genres": [
       "073",
@@ -5393,6 +5660,7 @@
     "dl": 7166,
     "rc": 2910,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ186688.html",
+    "voice": true,
     "note": "30 多关的正统战棋 SRPG，第二王子率领伙伴旅行",
     "genres": [
       "068",
@@ -5423,6 +5691,7 @@
     "dl": 2874,
     "rc": 1541,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ188230.html",
+    "voice": true,
     "note": "把无名新人偶像培养成顶级偶像的养成模拟",
     "genres": [
       "409",
@@ -5458,6 +5727,7 @@
       "votes": 15
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ188839.html",
+    "voice": true,
     "note": "支持 VR 的实时 3D 主视角模拟游戏",
     "genres": [
       "509",
@@ -5489,6 +5759,7 @@
     "dl": 8513,
     "rc": 3820,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ189414.html",
+    "voice": true,
     "note": "收服并培育角色、扩张势力的模拟游戏重制版",
     "genres": [
       "136",
@@ -5519,6 +5790,7 @@
     "dl": 4025,
     "rc": 1788,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ194321.html",
+    "voice": false,
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "311",
@@ -5553,6 +5825,8 @@
       "votes": 83
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ194521.html",
+    "voice": true,
+    "zh": "fan",
     "note": "女武将会被夺走的正统奇幻战略 SLG 第二作",
     "genres": [
       "241",
@@ -5586,6 +5860,8 @@
       "votes": 16
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ198014.html",
+    "voice": false,
+    "series": "RJ198014",
     "note": "扮演恶德司教的中世纪箱庭模拟游戏",
     "genres": [
       "065",
@@ -5616,6 +5892,7 @@
     "dl": 6537,
     "rc": 3295,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ199106.html",
+    "voice": true,
     "note": "鼠标拖拽操作的实时养成模拟",
     "genres": [
       "073",
@@ -5646,6 +5923,7 @@
     "dl": 7712,
     "rc": 3221,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ201058.html",
+    "voice": true,
     "note": "捕获各地女勇者、强化兽人军团的 3D 战略模拟",
     "genres": [
       "509",
@@ -5677,6 +5955,7 @@
     "dl": 6678,
     "rc": 3130,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ203624.html",
+    "voice": true,
     "note": "电车痴汉题材的模拟游戏",
     "genres": [
       "065",
@@ -5707,6 +5986,7 @@
     "dl": 3604,
     "rc": 1788,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ206855.html",
+    "voice": false,
     "note": "借神力时间停止的点阵触摸模拟游戏",
     "genres": [
       "311",
@@ -5738,6 +6018,7 @@
     "dl": 8301,
     "rc": 3756,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ207879.html",
+    "voice": false,
     "note": "带猎奇要素的简易塔防游戏",
     "genres": [
       "432",
@@ -5771,6 +6052,7 @@
       "votes": 9
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ208520.html",
+    "voice": true,
     "note": "以统一战国风异世界为目标的战略 SLG",
     "genres": [
       "016",
@@ -5810,6 +6092,8 @@
       "votes": 30
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ209685.html",
+    "voice": false,
+    "zh": "official",
     "note": "以四国为舞台、兼顾美食观光的地方制霸战略 SLG",
     "genres": [
       "310",
@@ -5847,6 +6131,7 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ209965.html",
+    "voice": false,
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "049",
@@ -5882,6 +6167,7 @@
       "votes": 3
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ213645.html",
+    "voice": false,
     "note": "奇幻题材的战略战术模拟，含奴隶战士系统，开发历时 9 年",
     "genres": [
       "016",
@@ -5917,6 +6203,7 @@
       "votes": 18
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ214446.html",
+    "voice": true,
     "note": "鼠标触摸操作的养成模拟，全语音",
     "genres": [
       "073",
@@ -5946,6 +6233,7 @@
     "dl": 4914,
     "rc": 2639,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ214906.html",
+    "voice": true,
     "note": "黑暗精灵调教师与精灵的调教 SLG",
     "genres": [
       "235",
@@ -5980,6 +6268,7 @@
       "votes": 28
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ216322.html",
+    "voice": true,
     "note": "自由度很高的指令选择式调教模拟",
     "genres": [
       "234",
@@ -6016,6 +6305,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ218388.html",
+    "voice": false,
     "note": "以职场为舞台的全点阵动画游戏",
     "genres": [
       "431",
@@ -6053,6 +6343,8 @@
       "votes": 274
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ220246.html",
+    "voice": true,
+    "zh": "fan",
     "note": "实时 3D 的调教模拟，可自定义角色",
     "genres": [
       "509",
@@ -6087,6 +6379,8 @@
       "votes": 29
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ220365.html",
+    "voice": true,
+    "series": "RJ01081301",
     "note": "经营冒险者旅店的模拟游戏",
     "genres": [
       "016",
@@ -6117,6 +6411,8 @@
     "dl": 19538,
     "rc": 7978,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ221485.html",
+    "voice": false,
+    "zh": "official",
     "note": "全点阵动画的拍卖题材经营模拟",
     "genres": [
       "235",
@@ -6147,6 +6443,7 @@
     "dl": 6269,
     "rc": 2706,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ222368.html",
+    "voice": false,
     "note": "以人外角色为对象的调教 SLG",
     "genres": [
       "311",
@@ -6180,6 +6477,8 @@
       "votes": 3
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ224252.html",
+    "voice": false,
+    "series": "RJ01007158",
     "note": "审问皇女、揭开帝国阴谋的触摸式 Flash 游戏",
     "genres": [
       "073",
@@ -6220,6 +6519,8 @@
       "votes": 736
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ228027.html",
+    "voice": true,
+    "zh": "official",
     "note": "与离家出走少女同居的生活模拟",
     "genres": [
       "071",
@@ -6256,6 +6557,7 @@
       "votes": 40
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ228459.html",
+    "voice": true,
     "note": "以家中为舞台的偷窥题材模拟第二作",
     "genres": [
       "155",
@@ -6286,6 +6588,7 @@
     "dl": 7671,
     "rc": 4217,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ229618.html",
+    "voice": false,
     "note": "摆弄支援职业神职者的模拟系游戏",
     "genres": [
       "070",
@@ -6325,6 +6628,8 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ230060.html",
+    "voice": false,
+    "series": "RJ180795",
     "note": "与搬来的青梅竹马同居的生活模拟",
     "genres": [
       "222",
@@ -6363,6 +6668,8 @@
       "votes": 15
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ233564.html",
+    "voice": true,
+    "zh": "official",
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "051",
@@ -6389,6 +6696,7 @@
     "rate": 4.15,
     "dl": 1979,
     "rc": 721,
+    "voice": false,
     "note": "明るく、エッチな\r\n母子交換シミュレーションゲームです",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ233622.html"
   },
@@ -6410,6 +6718,8 @@
     "dl": 7156,
     "rc": 3680,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ235158.html",
+    "voice": false,
+    "zh": "official",
     "note": "点击放置加触摸玩法的养成游戏",
     "genres": [
       "311",
@@ -6445,6 +6755,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ236253.html",
+    "voice": false,
     "note": "以百货公司电梯为舞台的全点阵动画游戏",
     "genres": [
       "431",
@@ -6480,6 +6791,7 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ236820.html",
+    "voice": true,
     "note": "支持 VR 的实时 3D 主观视角调教模拟",
     "genres": [
       "509",
@@ -6511,6 +6823,7 @@
     "dl": 11620,
     "rc": 4957,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ239244.html",
+    "voice": true,
     "note": "按选择分光暗两条路线、80 张地图以上的大体量 SRPG",
     "genres": [
       "068",
@@ -6547,6 +6860,7 @@
       "votes": 3
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ243445.html",
+    "voice": true,
     "note": "指挥魔物击退冒险者、同时经营店铺的魔王军养成与经营 SLG",
     "genres": [
       "014",
@@ -6585,6 +6899,8 @@
       "votes": 29
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ245378.html",
+    "voice": true,
+    "zh": "fan",
     "note": "《痴汉的冲动》的 IF 篇模拟游戏，讲述另一条故事线",
     "genres": [
       "049",
@@ -6616,6 +6932,8 @@
       "votes": 12
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ246337.html",
+    "voice": true,
+    "zh": "official",
     "note": "与 50 多名魅魔敌人作战、拯救王国的战略 RPG（SRPG）",
     "genres": [
       "073",
@@ -6656,6 +6974,8 @@
       "votes": 78
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ247530.html",
+    "voice": true,
+    "zh": "official",
     "note": "失忆魔王与随从潜入冒险者小镇的喜剧 SLG",
     "genres": [
       "068",
@@ -6685,6 +7005,9 @@
     "dl": 7355,
     "rc": 3791,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ247915.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ170963",
     "note": "新人魔王布置陷阱迎击女冒险者的地牢防守 SLG",
     "genres": [
       "324",
@@ -6720,6 +7043,7 @@
       "votes": 13
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ249587.html",
+    "voice": true,
     "note": "与 FGO 角色作战的据点防卫型横版战略 RPG",
     "genres": [
       "065",
@@ -6753,6 +7077,8 @@
       "votes": 94
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ254647.html",
+    "voice": false,
+    "zh": "official",
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "311",
@@ -6784,6 +7110,7 @@
       "votes": 100
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ256808.html",
+    "voice": false,
     "note": "修复监控录像、了解后巷故事的点阵 SLG",
     "genres": [
       "071",
@@ -6819,6 +7146,8 @@
       "votes": 5
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ257125.html",
+    "voice": false,
+    "zh": "official",
     "note": "照顾突然出现的小人族女孩、直到她能回到原来世界的养成模拟",
     "genres": [
       "311",
@@ -6849,6 +7178,7 @@
     "dl": 18327,
     "rc": 6720,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ257628.html",
+    "voice": false,
     "note": "点阵风搞笑模拟游戏，舞台是一个规则被改写的世界",
     "genres": [
       "069",
@@ -6879,6 +7209,7 @@
     "dl": 18096,
     "rc": 5107,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ257630.html",
+    "voice": false,
     "note": "用 Unity 和 Live2D 制作、用鼠标实时操作的互动小游戏",
     "genres": [
       "135",
@@ -6907,6 +7238,7 @@
     "dl": 7133,
     "rc": 3641,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ258095.html",
+    "voice": true,
     "note": "3D 恐怖探索加模拟养成，舞台是一座神秘洋馆",
     "genres": [
       "509",
@@ -6926,6 +7258,8 @@
     "rate": 4.78,
     "dl": 138207,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ258362.html",
+    "voice": true,
+    "series": "RJ01043101",
     "note": "在表姐妹家度过暑假的箱庭点阵 H 模拟",
     "id": "RJ258362",
     "names": {
@@ -6964,6 +7298,7 @@
       "votes": 9
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ258698.html",
+    "voice": false,
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "509",
@@ -6999,6 +7334,9 @@
       "votes": 13
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ260744.html",
+    "voice": false,
+    "zh": "official",
+    "series": "RJ01064183",
     "note": "点击（clicker）型模拟游戏，结局随培养方向变化，多结局",
     "genres": [
       "065",
@@ -7029,6 +7367,7 @@
     "dl": 5551,
     "rc": 3073,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ260986.html",
+    "voice": false,
     "note": "与魔物娘恋爱的夜总会经营模拟，结局全员幸福",
     "genres": [
       "058",
@@ -7057,6 +7396,7 @@
     "dl": 19590,
     "rc": 9245,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ261011.html",
+    "voice": true,
     "note": "在海滩上搭讪、逐步改变海滩风气的轻量模拟游戏",
     "genres": [
       "416",
@@ -7094,6 +7434,7 @@
       "votes": 16
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ262114.html",
+    "voice": false,
     "note": "和魅魔同居并养成的 SLG",
     "genres": [
       "065",
@@ -7128,6 +7469,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ266482.html",
+    "voice": true,
     "note": "跌入谷底的青年在夜晚街区展开复仇的模拟游戏",
     "genres": [
       "065",
@@ -7159,6 +7501,7 @@
     "dl": 5279,
     "rc": 1980,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ267088.html",
+    "voice": true,
     "note": "以诊所为舞台的动画模拟游戏",
     "genres": [
       "073",
@@ -7187,6 +7530,7 @@
     "dl": 10813,
     "rc": 5648,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ269745.html",
+    "voice": false,
     "note": "没有剧情、专注数值管理的经营小游戏",
     "genres": [
       "446",
@@ -7217,6 +7561,8 @@
     "dl": 3296,
     "rc": 756,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ271687.html",
+    "voice": false,
+    "zh": "official",
     "note": "扮演魅魔新娘艾莉卡，用各种事件帮丈夫解压的新婚生活养成游戏",
     "genres": [
       "060",
@@ -7250,6 +7596,8 @@
       "votes": 12
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ272131.html",
+    "voice": false,
+    "series": "RJ198014",
     "note": "扮演司教、以中世纪“初夜权”为题材的模拟游戏",
     "genres": [
       "016",
@@ -7294,6 +7642,8 @@
       "votes": 263
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ272680.html",
+    "voice": true,
+    "zh": "official",
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "032",
@@ -7322,6 +7672,7 @@
     "dl": 13558,
     "rc": 5027,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ273529.html",
+    "voice": true,
     "note": "勇者斗恶龙二创的战国式战略 SLG，统一大陆、招揽敌将",
     "genres": [
       "146",
@@ -7350,6 +7701,7 @@
     "rate": 3.96,
     "dl": 6151,
     "rc": 1768,
+    "voice": false,
     "note": "エロドットアニメゲーム(おねショタ)です\r\n引きこもりの姉にエッチさせてあげてください!",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ275092.html"
   },
@@ -7384,6 +7736,8 @@
       "votes": 46
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ278273.html",
+    "voice": true,
+    "zh": "official",
     "note": "与温柔姐姐同居、拥抱掏耳朵等日常互动的交流游戏",
     "genres": [
       "056",
@@ -7416,6 +7770,8 @@
     "dl": 3650,
     "rc": 812,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ278706.html",
+    "voice": false,
+    "zh": "official",
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "502",
@@ -7456,6 +7812,8 @@
       "votes": 16
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ280657.html",
+    "voice": true,
+    "series": "RJ280657",
     "note": "鼠标操作的触摸调教模拟，女主角 3 人",
     "genres": [
       "073",
@@ -7490,6 +7848,8 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ280842.html",
+    "voice": false,
+    "zh": "official",
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "509",
@@ -7529,6 +7889,9 @@
       "votes": 36
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ280974.html",
+    "voice": true,
+    "zh": "fan",
+    "series": "RJ280974",
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）"
   },
   {
@@ -7551,6 +7914,7 @@
     "dl": 14164,
     "rc": 5826,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ281027.html",
+    "voice": false,
     "note": "与仿生人女主角搭档的科幻题材模拟游戏",
     "genres": [
       "114",
@@ -7583,6 +7947,8 @@
     "dl": 7066,
     "rc": 2101,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ283584.html",
+    "voice": true,
+    "zh": "official",
     "note": "扮演亡国的新女王，每月处理政务复兴王国的经营策略 SLG，三年后向帝国复仇",
     "genres": [
       "060",
@@ -7627,6 +7993,8 @@
       "votes": 130
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ283778.html",
+    "voice": true,
+    "zh": "fan",
     "note": "即时 3D 与插画结合、角色会实时反应的互动调教模拟",
     "genres": [
       "509",
@@ -7665,6 +8033,8 @@
       "votes": 12
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ286256.html",
+    "voice": false,
+    "zh": "official",
     "note": "3D 与 2D 结合的娼馆经营模拟，雇用随机生成的角色并扩建设施",
     "genres": [
       "048",
@@ -7705,6 +8075,8 @@
       "votes": 87
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ286680.html",
+    "voice": true,
+    "zh": "official",
     "note": "正义女英雄分阶段堕落的模拟，部分为战斗",
     "genres": [
       "269",
@@ -7734,6 +8106,8 @@
     "rate": 4.79,
     "dl": 114119,
     "rc": 38217,
+    "voice": true,
+    "series": "RJ01043101",
     "note": "もっと、思い出に残る夏―――本編「あまえんぼ」が更に進化する追加パッチ!もっとエロエロな夏休みを満喫しよう!",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ286688.html"
   },
@@ -7768,6 +8142,9 @@
       "votes": 144
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ286695.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ280657",
     "note": "鼠标操作的触摸调教模拟，Live2D 动画",
     "genres": [
       "073",
@@ -7801,6 +8178,7 @@
       "votes": 13
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ287865.html",
+    "voice": false,
     "note": "为还债经营酒馆、守护女主不被其他男人夺走的经营模拟",
     "genres": [
       "048",
@@ -7834,6 +8212,9 @@
       "votes": 33
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ289232.html",
+    "voice": true,
+    "zh": "fan",
+    "series": "RJ280974",
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "149",
@@ -7861,6 +8242,7 @@
     "rate": 4.01,
     "dl": 4777,
     "rc": 1642,
+    "voice": false,
     "note": "そこは背徳の凌辱車両ー。夜の電車内でJKに悪戯をするインタラクティブ痴漢SLG第2弾。",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ289658.html"
   },
@@ -7890,6 +8272,8 @@
       "votes": 8
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ289780.html",
+    "voice": true,
+    "series": "RJ01178251",
     "note": "扮演禁欲中的国王、与妃子对话的 Live2D 互动游戏",
     "genres": [
       "073",
@@ -7924,6 +8308,8 @@
       "votes": 119
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ291561.html",
+    "voice": true,
+    "series": "RJ291561",
     "note": "哥布林生态模拟游戏",
     "genres": [
       "069",
@@ -7967,6 +8353,8 @@
       "votes": 192
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ292145.html",
+    "voice": true,
+    "zh": "official",
     "note": "率领魔族防守地下城的策略模拟",
     "genres": [
       "065",
@@ -8004,6 +8392,7 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ294102.html",
+    "voice": false,
     "note": "经营店铺、避免被搞垮的模拟经营游戏",
     "genres": [
       "446",
@@ -8036,6 +8425,8 @@
       "votes": 156
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ295125.html",
+    "voice": false,
+    "zh": "official",
     "note": "点阵画风的人妻寝取模拟",
     "genres": [
       "502",
@@ -8081,6 +8472,9 @@
       "votes": 169
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ295396.html",
+    "voice": false,
+    "zh": "official",
+    "series": "RJ295396",
     "note": "奴隶商人培养没落贵族千金参加地下格斗的养成模拟，Steam 版名为 Jerez's Arena",
     "genres": [
       "502",
@@ -8110,6 +8504,7 @@
     "rate": 4.58,
     "dl": 22569,
     "rc": 9132,
+    "voice": false,
     "note": "舞台は裏世界での売春宿。不幸な女性たちの弱みをたてに、AV撮影&売春で稼げ!",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ295803.html",
     "pov": "female"
@@ -8134,6 +8529,7 @@
     "dl": 11877,
     "rc": 3347,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ296365.html",
+    "voice": false,
     "note": "用鼠标实时操作的 Live2D 互动小游戏，有三种玩法",
     "genres": [
       "124",
@@ -8163,6 +8559,7 @@
       "votes": 8
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ300453.html",
+    "voice": true,
     "note": "与女仆在破旧房子里开始新生活的慢生活养成模拟",
     "genres": [
       "311",
@@ -8198,6 +8595,7 @@
       "votes": 49
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ301237.html",
+    "voice": true,
     "note": "与女仆同居的生活模拟，可换装、外出",
     "genres": [
       "056",
@@ -8230,6 +8628,7 @@
     "dl": 1786,
     "rc": 671,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ302069.html",
+    "voice": true,
     "note": "只能通过触摸胸部来推进、需要注意对方情绪的触摸模拟游戏，带少量 ADV 要素",
     "genres": [
       "073",
@@ -8268,6 +8667,7 @@
       "votes": 5
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ302928.html",
+    "voice": false,
     "note": "在现代都市赚钱、积累人气的魅魔养成 SLG，带全动画演出",
     "genres": [
       "073",
@@ -8306,6 +8706,7 @@
       "votes": 10
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ303351.html",
+    "voice": true,
     "note": "使用怪物与异常状态卡牌进行的卡牌策略 SLG",
     "genres": [
       "070",
@@ -8341,6 +8742,9 @@
       "votes": 86
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ304810.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ304810",
     "note": "与孤独妖狐一起生活的 Live2D 交流游戏",
     "genres": [
       "073",
@@ -8379,6 +8783,8 @@
       "votes": 12
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ305720.html",
+    "voice": false,
+    "series": "RJ01293869",
     "note": "以逃离僵尸横行的海岛为目标的模拟游戏",
     "genres": [
       "502",
@@ -8410,6 +8816,7 @@
     "rate": 3.88,
     "dl": 2244,
     "rc": 405,
+    "voice": false,
     "note": "やっと電車に乗ったけど、お姉さん達で一杯だった……  学校に遅刻したけど明日もこの電車に乗りたい・・・",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ306017.html"
   },
@@ -8431,6 +8838,7 @@
     "dl": 6285,
     "rc": 2512,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ307505.html",
+    "voice": false,
     "note": "东方 Project 同人，与咲夜互动的模拟游戏",
     "genres": [
       "071",
@@ -8458,6 +8866,9 @@
     "rate": 4.59,
     "dl": 5645,
     "rc": 1756,
+    "voice": true,
+    "zh": "official",
+    "series": "RJ307917",
     "note": "Live2Dでぬるぬる動く三編みロリちゃんに極太ディルドーをゴリゴリねじ込むオナホシミュレーター。多彩なパーツ切り替えによりお好みの姿でずぽずぽ可能。搾乳、性器",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ307917.html"
   },
@@ -8486,6 +8897,8 @@
       "votes": 36
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ309639.html",
+    "voice": false,
+    "series": "RJ309639",
     "note": "攻略隔壁人妻的恋爱模拟，按日程提升好感",
     "genres": [
       "065",
@@ -8520,6 +8933,9 @@
       "votes": 33
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ309823.html",
+    "voice": true,
+    "zh": "fan",
+    "series": "RJ280974",
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "302",
@@ -8558,6 +8974,8 @@
       "votes": 10
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ309886.html",
+    "voice": true,
+    "series": "RJ01007980",
     "note": "经营教团、扩大信徒的模拟游戏",
     "genres": [
       "311",
@@ -8588,6 +9006,7 @@
     "rate": 4.28,
     "dl": 1817,
     "rc": 603,
+    "voice": true,
     "note": "当サークルが過去に発売したエヴァン○リオン関連作品12作をまとめて約75%オフにしました。",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ313465.html"
   },
@@ -8614,6 +9033,9 @@
       "votes": 19
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ314702.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ01112545",
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "063",
@@ -8649,6 +9071,8 @@
     "dl": 5134,
     "rc": 1695,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ316999.html",
+    "voice": true,
+    "zh": "official",
     "note": "和神派来的金发恶魔少女同居、提升好感解锁事件的养成游戏，日常背后藏着恐怖真相",
     "genres": [
       "237",
@@ -8677,6 +9101,8 @@
     "rate": 4.22,
     "dl": 3543,
     "rc": 1469,
+    "voice": true,
+    "zh": "official",
     "note": "【おねしょたシミュレーション】ショータにエッチなことをするおさわりゲームです。お姉ちゃんのお友達を呼んで、色々とエッチをさせましょう。",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ318349.html"
   },
@@ -8696,6 +9122,8 @@
     "rate": 4.15,
     "dl": 981,
     "rc": 321,
+    "voice": true,
+    "zh": "official",
     "note": "【アニメーション+おねショタ】友達のお母さんがすごく変態で、ボクに変なことをしてくるんだ…。ボクのおちんちんがどんどん大きくなって、お母さんの目が少し怖いよ…",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ320362.html"
   },
@@ -8720,6 +9148,7 @@
     "dl": 3347,
     "rc": 807,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ322272.html",
+    "voice": false,
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "073",
@@ -8755,6 +9184,7 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ322566.html",
+    "voice": false,
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "502",
@@ -8787,6 +9217,7 @@
       "votes": 8
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ322970.html",
+    "voice": false,
     "note": "组建军队攻打他国的战争策略模拟游戏",
     "genres": [
       "302",
@@ -8824,6 +9255,7 @@
       "votes": 19
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ323674.html",
+    "voice": false,
     "note": "以雪中温泉旅馆为舞台的箱庭式点阵模拟游戏",
     "genres": [
       "431",
@@ -8859,6 +9291,7 @@
       "votes": 5
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ323781.html",
+    "voice": true,
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "065",
@@ -8893,6 +9326,8 @@
       "votes": 12
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ324247.html",
+    "voice": true,
+    "series": "RJ291561",
     "note": "经营哥布林巢穴的模拟游戏",
     "genres": [
       "302",
@@ -8928,6 +9363,8 @@
       "votes": 53
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ325126.html",
+    "voice": true,
+    "series": "RJ01021115",
     "note": "以拥挤电车为舞台的模拟游戏",
     "genres": [
       "114",
@@ -8965,6 +9402,7 @@
       "votes": 5
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ326025.html",
+    "voice": false,
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "128",
@@ -8997,6 +9435,7 @@
     "dl": 7669,
     "rc": 2100,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ327261.html",
+    "voice": false,
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "509",
@@ -9031,6 +9470,8 @@
     "dl": 12640,
     "rc": 4861,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ328453.html",
+    "voice": false,
+    "zh": "official",
     "note": "在和平的森林里与精灵女孩共同生活的模拟游戏",
     "genres": [
       "235",
@@ -9060,6 +9501,8 @@
     "rate": 4.49,
     "dl": 12266,
     "rc": 4878,
+    "voice": true,
+    "zh": "official",
     "note": "【王道おねショタ×アニメーション×クリッカーゲーム】優しい巨乳なお姉さんと大人しいショタくんのエッチな夏休み。",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ329202.html"
   },
@@ -9093,6 +9536,8 @@
       "votes": 67
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ331142.html",
+    "voice": true,
+    "zh": "official",
     "note": "借助“爱之妖精”的技能拯救奇幻世界的互动模拟游戏",
     "genres": [
       "073",
@@ -9127,6 +9572,8 @@
       "votes": 28
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ331694.html",
+    "voice": true,
+    "zh": "official",
     "note": "理解各种族的喜好、与转生者开的店竞争的经营 SLG",
     "genres": [
       "065",
@@ -9159,6 +9606,7 @@
     "dl": 11615,
     "rc": 5991,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ333182.html",
+    "voice": true,
     "note": "培养怪物娘并带她们战斗的养成 SLG",
     "genres": [
       "048",
@@ -9189,6 +9637,7 @@
     "rate": 4.03,
     "dl": 7329,
     "rc": 2530,
+    "voice": false,
     "note": "従姉のお姉ちゃんの寝込みを襲うLive2DアニメーションおさわりSLG",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ338230.html"
   },
@@ -9215,6 +9664,8 @@
     "dl": 2590,
     "rc": 601,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ341746.html",
+    "voice": true,
+    "zh": "official",
     "note": "扮演帝国男爵「指导」亡国女王服从的调教 SLG，三十万旧国民的命运看你怎么选",
     "genres": [
       "256",
@@ -9255,6 +9706,7 @@
       "votes": 10
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ341761.html",
+    "voice": true,
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "065",
@@ -9290,6 +9742,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ342292.html",
+    "voice": true,
     "note": "以老虎机为核心玩法的魅魔题材游戏",
     "genres": [
       "125",
@@ -9325,6 +9778,7 @@
       "votes": 92
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ342578.html",
+    "voice": true,
     "note": "用鼠标操作、角色实时反应的互动动画游戏，共五天",
     "genres": [
       "139",
@@ -9353,6 +9807,8 @@
     "rate": 4.28,
     "dl": 2034,
     "rc": 736,
+    "voice": true,
+    "series": "RJ01100898",
     "note": "手書きアニメによる簡単おさわりゲーム",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ343468.html"
   },
@@ -9388,6 +9844,9 @@
       "votes": 82
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ344628.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ01055524",
     "note": "让机器人女孩打工、解决居民烦恼并开发零件的养成模拟",
     "genres": [
       "065",
@@ -9418,6 +9877,7 @@
     "dl": 19010,
     "rc": 6680,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ344891.html",
+    "voice": false,
     "note": "作为魔王阵营贵族管理领地、培育怪物的点阵 SLG",
     "genres": [
       "431",
@@ -9455,6 +9915,7 @@
       "votes": 3
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ345267.html",
+    "voice": false,
     "note": "用鼠标实时操作的 VTuber 同人互动游戏",
     "genres": [
       "513",
@@ -9478,6 +9939,7 @@
     "rate": 4.33,
     "dl": 5516,
     "rc": 1874,
+    "voice": true,
     "note": "【僕が襲われる!逆痴漢シミュレーション】黒ギャルの愛羅と白ギャルの聖華は今日も他愛もないチャットをしていた。今日はいつも電車で乗り合わすショタっこを食うため聖華",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ352330.html"
   },
@@ -9511,6 +9973,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ354496.html",
+    "voice": true,
     "note": "扮演照料人的仿生人、治愈孤独上班族女性的生活模拟",
     "genres": [
       "056",
@@ -9552,6 +10015,8 @@
       "votes": 27
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ356209.html",
+    "voice": true,
+    "zh": "official",
     "note": "以甜蜜互动为主的兽耳大小姐调教模拟",
     "genres": [
       "502",
@@ -9593,6 +10058,9 @@
       "votes": 52
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ356899.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ01317267",
     "note": "与离家少女同居、打工赚生活费的日常 SLG",
     "genres": [
       "502",
@@ -9628,6 +10096,9 @@
       "votes": 13
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ362605.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ307917",
     "note": "Live2D 动态、鼠标同步操作的互动模拟器第四作",
     "genres": [
       "311",
@@ -9660,6 +10131,7 @@
     "dl": 23729,
     "rc": 8633,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ367308.html",
+    "voice": false,
     "note": "培育僵尸娘的调教养成模拟",
     "genres": [
       "071",
@@ -9706,6 +10178,8 @@
       "votes": 250
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ376315.html",
+    "voice": true,
+    "zh": "official",
     "note": "与怪兽公主同居，兼顾时间管理、恋爱与养成的模拟游戏",
     "genres": [
       "311",
@@ -9740,6 +10214,7 @@
       "votes": 3
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ378557.html",
+    "voice": true,
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "073",
@@ -9774,6 +10249,8 @@
     "dl": 1707,
     "rc": 387,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ378561.html",
+    "voice": true,
+    "zh": "official",
     "note": "当冥婚介绍所顾问，用感应、净化降低女鬼怨念、解开她们过往的恋爱养成游戏",
     "genres": [
       "502",
@@ -9808,6 +10285,8 @@
       "votes": 15
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ380242.html",
+    "voice": true,
+    "zh": "official",
     "note": "Live2D 动态、鼠标同步操作的互动模拟器第二作",
     "genres": [
       "311",
@@ -9845,6 +10324,7 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ381438.html",
+    "voice": true,
     "note": "玩家扮演触手怪物、对付被困女剑士的互动模拟",
     "genres": [
       "073",
@@ -9888,6 +10368,9 @@
       "votes": 69
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ383456.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ304810",
     "note": "与女仆索菲娅共同生活的 Live2D 治愈系交流模拟",
     "genres": [
       "056",
@@ -9923,6 +10406,8 @@
       "votes": 25
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ383745.html",
+    "voice": false,
+    "zh": "official",
     "note": "以整栋公寓为舞台的箱庭式模拟游戏",
     "genres": [
       "431",
@@ -9950,6 +10435,8 @@
     "dl": 56737,
     "rc": 9865,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ385039.html",
+    "voice": false,
+    "zh": "official",
     "note": "在废校中躲避幽灵、存活下来的游戏"
   },
   {
@@ -9972,6 +10459,7 @@
     "dl": 8558,
     "rc": 2960,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ385087.html",
+    "voice": true,
     "note": "与兽耳魔女互动的动画模拟",
     "genres": [
       "073",
@@ -10005,6 +10493,8 @@
     "dl": 9796,
     "rc": 2878,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ387608.html",
+    "voice": true,
+    "zh": "official",
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "509",
@@ -10037,6 +10527,8 @@
     "dl": 47270,
     "rc": 12154,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ390522.html",
+    "voice": false,
+    "zh": "official",
     "note": "在乡下度过一个夏天的点阵动画 SLG"
   },
   {
@@ -10062,6 +10554,9 @@
     "dl": 8105,
     "rc": 1870,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ390545.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ295396",
     "note": "经营角斗场，训练、调教奴隶剑士接委托挣钱并打擂台的养成 SLG，17 万字剧情",
     "genres": [
       "502",
@@ -10097,6 +10592,8 @@
     "dl": 1743,
     "rc": 376,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ392067.html",
+    "voice": true,
+    "zh": "official",
     "note": "雪山救回受伤妖狐、与她同居 30 天的养成游戏，每天四次行动攒好感",
     "genres": [
       "051",
@@ -10136,6 +10633,7 @@
       "votes": 11
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ392532.html",
+    "voice": true,
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "311",
@@ -10171,6 +10669,8 @@
     "dl": 6270,
     "rc": 1703,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ398295.html",
+    "voice": true,
+    "zh": "official",
     "note": "被青梅姐姐带回家重新生活的轻养成 ADV，剧情很重、有致郁警告，Live2D 动画",
     "genres": [
       "068",
@@ -10205,6 +10705,8 @@
     "dl": 4060,
     "rc": 851,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ400571.html",
+    "voice": true,
+    "zh": "official",
     "note": "被关进集中营的男主每天偷看心上人被侵犯、道德一点点崩塌的 NTR 向养成 ADV",
     "genres": [
       "222",
@@ -10238,6 +10740,8 @@
     "dl": 1035,
     "rc": 180,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ400602.html",
+    "voice": true,
+    "zh": "official",
     "note": "女记者为查明真相潜入娱乐圈，用身体换机会步步接近黑幕的养成 ADV",
     "genres": [
       "060",
@@ -10276,6 +10780,8 @@
       "votes": 15
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ400653.html",
+    "voice": true,
+    "zh": "official",
     "note": "村庄被蛮族盯上后逐步沦陷的模拟游戏",
     "genres": [
       "073",
@@ -10313,6 +10819,8 @@
       "votes": 16
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ401415.html",
+    "voice": true,
+    "series": "RJ291561",
     "note": "扮演哥布林经营巢穴的模拟游戏",
     "genres": [
       "016",
@@ -10348,6 +10856,8 @@
       "votes": 54
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ401420.html",
+    "voice": true,
+    "zh": "official",
     "note": "经营怪物农场与娼馆的黑市经营模拟",
     "genres": [
       "447",
@@ -10384,6 +10894,8 @@
       "votes": 30
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ401895.html",
+    "voice": false,
+    "zh": "official",
     "note": "对路人女学生突击检查的模拟",
     "genres": [
       "311",
@@ -10417,6 +10929,8 @@
     "dl": 2032,
     "rc": 350,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ402216.html",
+    "voice": true,
+    "zh": "official",
     "note": "为救弟弟被绑去卖身的女主在监禁中求生、谋划反击的养成 SLG",
     "genres": [
       "432",
@@ -10452,6 +10966,8 @@
     "dl": 3204,
     "rc": 639,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ402220.html",
+    "voice": true,
+    "zh": "official",
     "note": "和森林小屋里的魔女同居、被她用各种 SM 手段调教的养成游戏，男主一直是挨训的那方",
     "genres": [
       "262",
@@ -10489,6 +11005,8 @@
       "votes": 120
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ402638.html",
+    "voice": true,
+    "series": "RJ309639",
     "note": "与邻居人妻加深关系的寝取模拟第二作",
     "genres": [
       "219",
@@ -10523,6 +11041,8 @@
     "dl": 1578,
     "rc": 281,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ404156.html",
+    "voice": true,
+    "zh": "official",
     "note": "带婚约者去孤岛参加祭典陷入无限轮回，一次次救她的 NTR 向 ADV，10 万字",
     "genres": [
       "026",
@@ -10561,6 +11081,7 @@
       "votes": 10
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ410389.html",
+    "voice": false,
     "note": "招待前来拜访的勇者的魔物娘旅馆模拟游戏",
     "genres": [
       "056",
@@ -10593,6 +11114,8 @@
     "dl": 9984,
     "rc": 2143,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ415680.html",
+    "voice": true,
+    "zh": "official",
     "note": "可从 12 名角色中选择、支持 VR 的实时 3D 互动作品",
     "genres": [
       "509",
@@ -10632,6 +11155,8 @@
       "votes": 101
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ416147.html",
+    "voice": true,
+    "zh": "official",
     "note": "模拟游戏（按 DLsite 作品形式 SLN 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "058",
@@ -10662,6 +11187,7 @@
     "dl": 20216,
     "rc": 7763,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ417245.html",
+    "voice": true,
     "note": "培育无表情人形机器人的养成模拟，通关后有分数挑战",
     "genres": [
       "065",
@@ -10693,6 +11219,8 @@
     "rate": 4.55,
     "dl": 11914,
     "rc": 3749,
+    "voice": true,
+    "zh": "official",
     "note": "ムチムチで人妻な叔母さんと一緒に同棲していき、あまあまでドスケベな関係になっていく寝取り同棲シミュレーション",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ419396.html",
     "pov": "male"
@@ -10720,6 +11248,8 @@
     "dl": 1235,
     "rc": 321,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ428460.html",
+    "voice": true,
+    "zh": "official",
     "note": "下班去酒吧「融雪」陪三位姑娘喝酒聊天、慢慢攻略的纯爱恋爱游戏，Live2D 演出",
     "genres": [
       "502",
@@ -10759,6 +11289,8 @@
       "votes": 17
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ432234.html",
+    "voice": false,
+    "zh": "official",
     "note": "以单一玩法为主题的调教模拟",
     "genres": [
       "093",
@@ -10796,6 +11328,7 @@
       "votes": 3
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ432642.html",
+    "voice": false,
     "note": "用鼠标实时操作的互动模拟",
     "genres": [
       "513",
@@ -10829,6 +11362,8 @@
       "votes": 17
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ439912.html",
+    "voice": true,
+    "series": "RJ01295900",
     "note": "被任命为\"播种委员\"后在城镇生活的模拟游戏",
     "genres": [
       "073",
@@ -10869,6 +11404,7 @@
       "score": 4.9,
       "votes": 64
     },
+    "voice": true,
     "note": "太空歌剧题材，回合制战棋与弹幕射击交替进行的 3D 作品，2024 年正式版",
     "genres": [
       "073",
@@ -10900,6 +11436,7 @@
       "positive": 89,
       "reviews": 1850
     },
+    "zh": "official",
     "note": "可多人联机的农场模拟，培育的不是作物而是狗头人",
     "genres": [
       "509",
@@ -10936,6 +11473,7 @@
       "score": 3.8,
       "votes": 5
     },
+    "voice": true,
     "note": "3D 冒险养成游戏，捕捉并培育名为“奈菲林”的魔物混血种族（抢先体验）",
     "genres": [
       "509"
@@ -10964,6 +11502,7 @@
       "positive": 91,
       "reviews": 811
     },
+    "zh": "official",
     "note": "和 12 位大叔约会的 BL 恋爱模拟游戏，七条主线三条隐藏线",
     "genres": [
       "502"
@@ -10990,6 +11529,8 @@
       "positive": 90,
       "reviews": 1054
     },
+    "voice": true,
+    "zh": "official",
     "note": "从三位性格不同的女主角中选择并互动的 3D 恋爱模拟游戏",
     "genres": [
       "509"
@@ -11050,6 +11591,8 @@
       "positive": 84,
       "reviews": 4471
     },
+    "voice": true,
+    "zh": "official",
     "note": "在迷雾中探索、解救被困女孩的策略冒险游戏，Seek Girl 系列，Live2D",
     "genres": [
       "502",
@@ -11082,6 +11625,7 @@
       "score": 4.4,
       "votes": 5
     },
+    "zh": "official",
     "note": "收留一位失忆女子、与她共同生活的模拟游戏"
   },
   {
@@ -11107,6 +11651,7 @@
       "positive": 79,
       "reviews": 1150
     },
+    "zh": "official",
     "note": "美少女加塔防战略的 RPG，一边升级军队打仗一边邂逅美少女",
     "genres": [
       "502"
@@ -11135,6 +11680,7 @@
       "positive": 86,
       "reviews": 1305
     },
+    "zh": "official",
     "note": "乱世军阀题材的塔防战略游戏，建设经济、招募女将打天下",
     "genres": [
       "502"
@@ -11172,6 +11718,8 @@
       "rating": 71.8,
       "votes": 52
     },
+    "voice": true,
+    "zh": "official",
     "note": "东京情人旅馆经理的恋爱模拟",
     "genres": [
       "502",
@@ -11205,6 +11753,8 @@
       "score": 5.6,
       "votes": 59
     },
+    "voice": true,
+    "zh": "official",
     "note": "经营只在夜间营业的魅魔咖啡馆的模拟游戏",
     "genres": [
       "509",
@@ -11234,6 +11784,7 @@
       "positive": 69,
       "reviews": 479
     },
+    "zh": "official",
     "note": "被调去女子监狱管理女囚、攻略六位女孩的恋爱养成游戏",
     "genres": [
       "502",
@@ -11263,6 +11814,7 @@
       "positive": 81,
       "reviews": 537
     },
+    "zh": "official",
     "note": "建设经济、升级部队、招募女将对抗魔龙帝国的塔防战略游戏，系列续作",
     "genres": [
       "502"
@@ -11291,6 +11843,8 @@
       "positive": 83,
       "reviews": 925
     },
+    "voice": true,
+    "zh": "official",
     "note": "当被除名偶像的经纪人，安排日程帮她重返舞台的养成游戏，20 多套服装、多周目",
     "genres": [
       "502",
@@ -11324,6 +11878,8 @@
       "score": 5.5,
       "votes": 26
     },
+    "voice": true,
+    "zh": "official",
     "note": "古风青楼经营与角色互动的模拟游戏",
     "genres": [
       "446"
@@ -11352,6 +11908,8 @@
       "positive": 84,
       "reviews": 2111
     },
+    "voice": true,
+    "zh": "official",
     "note": "与龙族伙伴互动的兽人题材模拟游戏（抢先体验）",
     "genres": [
       "509"
@@ -11380,6 +11938,7 @@
       "positive": 70,
       "reviews": 218
     },
+    "zh": "official",
     "note": "年轻富豪把女仆后宫逐个改造成扶她的模拟视觉小说，艳情场面巨多",
     "genres": [
       "502",
@@ -11411,6 +11970,8 @@
       "positive": 79,
       "reviews": 580
     },
+    "voice": true,
+    "zh": "official",
     "note": "在异世界酒吧当老板兼调酒师，和魔物娘店员一起经营的模拟游戏，30 组 HCG",
     "genres": [
       "502",
@@ -11441,6 +12002,7 @@
       "positive": 75,
       "reviews": 1373
     },
+    "zh": "official",
     "note": "扮演女骑士招募伙伴、排兵布阵、经营城镇抵抗魅魔的自走棋加 galgame，细写她的堕落",
     "genres": [
       "432",
@@ -11472,6 +12034,7 @@
       "positive": 94,
       "reviews": 318
     },
+    "voice": true,
     "note": "可自定义的女主角一边上大学一边打工还学贷的生活模拟",
     "genres": [
       "432",
@@ -11513,6 +12076,8 @@
       "score": 5.5,
       "votes": 81
     },
+    "voice": true,
+    "zh": "official",
     "note": "经营一家酒馆、招募女性员工的 Live2D 模拟经营游戏",
     "genres": [
       "073"
@@ -11541,6 +12106,8 @@
       "positive": 91,
       "reviews": 716
     },
+    "voice": true,
+    "zh": "official",
     "note": "在人外娘开的健身房里接受「射精管理」的卡组构筑 Roguelite，只能绝对服从",
     "genres": [
       "502",
@@ -11572,6 +12139,8 @@
       "positive": 88,
       "reviews": 745
     },
+    "voice": true,
+    "zh": "official",
     "note": "管理两位偶像的行程和「身体保健」的时间管理养成游戏，双女主，Live2D",
     "genres": [
       "502",
@@ -11602,6 +12171,7 @@
       "positive": 66,
       "reviews": 218
     },
+    "zh": "official",
     "note": "当实验女子监狱的服务员满足女囚一切欲望的经营恋爱游戏，三位可攻略角色",
     "genres": [
       "502",
@@ -11644,6 +12214,8 @@
       "score": 5.8,
       "votes": 51
     },
+    "voice": true,
+    "zh": "official",
     "note": "对抗女英雄组织的策略模拟游戏，事件为 3D 动画",
     "genres": [
       "502",
@@ -11679,6 +12251,7 @@
       "score": 5.3,
       "votes": 158
     },
+    "zh": "official",
     "note": "种田、伐木、钓鱼的村庄经营角色扮演模拟游戏",
     "genres": [
       "502",
@@ -11708,6 +12281,7 @@
       "positive": 57,
       "reviews": 370
     },
+    "zh": "official",
     "note": "为报复人渣上司，一步步把他老婆抢过来的夺人向养成游戏，抢先体验中",
     "genres": [
       "502",
@@ -11767,6 +12341,7 @@
       "positive": 94,
       "reviews": 310
     },
+    "zh": "official",
     "note": "在奇幻世界中调教女性角色、选择决定结局的视觉小说",
     "genres": [
       "113",
@@ -11800,6 +12375,7 @@
       "positive": 71,
       "reviews": 380
     },
+    "zh": "official",
     "note": "反击刻薄上司后反而征服了 OL 同事们的职场后宫视觉小说，带挂机经营要素",
     "genres": [
       "502",
@@ -11828,6 +12404,8 @@
       "positive": 85,
       "reviews": 702
     },
+    "voice": true,
+    "zh": "official",
     "note": "扮演兽人调教精灵女王的互动模拟",
     "genres": [
       "502",
@@ -11860,6 +12438,7 @@
       "positive": 71,
       "reviews": 145
     },
+    "zh": "official",
     "note": "和继母、继阿姨、继妹们同住开派对的视觉小说，带模拟经营要素，目标解锁全部剧情",
     "genres": [
       "502",
@@ -11888,6 +12467,7 @@
       "positive": 87,
       "reviews": 1026
     },
+    "zh": "official",
     "note": "一步步掌控小镇居民的策略模拟游戏，带 RPG 要素",
     "genres": [
       "432",
@@ -11921,6 +12501,7 @@
       "score": 7.2,
       "votes": 48
     },
+    "zh": "official",
     "note": "荒岛生存建造游戏，可以采集、建房、驯服岛上居民，抢先体验版",
     "genres": [
       "432",
@@ -11953,6 +12534,7 @@
       "score": 7,
       "votes": 1
     },
+    "zh": "official",
     "note": "在海边森林旅馆打工的时间管理模拟",
     "genres": [
       "073",
@@ -11987,6 +12569,7 @@
       "score": 5.7,
       "votes": 38
     },
+    "zh": "official",
     "note": "古风恋爱模拟，随剧情与多位女子发展关系",
     "genres": [
       "502",
@@ -12019,6 +12602,8 @@
       "score": 5.6,
       "votes": 85
     },
+    "voice": true,
+    "zh": "official",
     "note": "异世界成人用品店经营模拟，与各种族店员一起开店",
     "genres": [
       "113",
@@ -12062,6 +12647,8 @@
       "score": 6,
       "votes": 111
     },
+    "voice": true,
+    "zh": "official",
     "note": "成为 VTuber 事务所经纪人、培养三位 VTuber 的养成模拟",
     "genres": [
       "502",
@@ -12095,6 +12682,8 @@
       "positive": 84,
       "reviews": 419
     },
+    "voice": true,
+    "zh": "official",
     "note": "被诬陷退学的男主卷进黑帮与世安局的争斗，塔防加恋爱养成，两位女主日语配音",
     "genres": [
       "502",
@@ -12130,6 +12719,8 @@
       "score": 6.3,
       "votes": 62
     },
+    "voice": true,
+    "zh": "official",
     "note": "以学院网球部为舞台的教练养成游戏，含网球比赛玩法",
     "genres": [
       "502",
@@ -12160,6 +12751,7 @@
       "positive": 82,
       "reviews": 736
     },
+    "zh": "official",
     "note": "大三学生进入名校后和女生们恋爱的养成模拟游戏，新加库存管理系统，Live2D",
     "genres": [
       "502",
@@ -12189,6 +12781,8 @@
       "positive": 76,
       "reviews": 209
     },
+    "voice": true,
+    "zh": "official",
     "note": "想当职业电竞选手的男主被傲娇青梅和性感邻居缠上的视觉小说加经营养成，日语配音",
     "genres": [
       "502",
@@ -12219,6 +12813,8 @@
       "positive": 92,
       "reviews": 280
     },
+    "voice": true,
+    "zh": "official",
     "note": "失业音乐家捡到魅魔女孩，一起做网络音乐直播的音游加恋爱养成，25 段动画 H",
     "genres": [
       "502",
@@ -12253,6 +12849,8 @@
       "score": 6.4,
       "votes": 20
     },
+    "voice": true,
+    "zh": "official",
     "note": "转生成中世纪小镇酒馆老板的经营冒险游戏",
     "genres": [
       "502"
@@ -12280,6 +12878,7 @@
       "positive": 91,
       "reviews": 372
     },
+    "zh": "official",
     "note": "经营咖啡店、雇佣女仆的经营模拟",
     "genres": [
       "432",
@@ -12309,6 +12908,8 @@
       "positive": 86,
       "reviews": 1367
     },
+    "voice": true,
+    "zh": "official",
     "note": "扮演院长经营医院的模拟游戏",
     "genres": [
       "113",
@@ -12369,6 +12970,8 @@
       "score": 6.1,
       "votes": 60
     },
+    "voice": true,
+    "zh": "official",
     "note": "二手电子产品店题材的经营模拟",
     "genres": [
       "113",
@@ -12404,6 +13007,8 @@
       "score": 5.2,
       "votes": 17
     },
+    "voice": true,
+    "zh": "official",
     "note": "带小游戏的澡堂经营模拟，改造濒临倒闭的店铺还债",
     "genres": [
       "502",
@@ -12439,6 +13044,7 @@
       "score": 5.6,
       "votes": 5
     },
+    "zh": "official",
     "note": "经营哥布林巢穴的建造策略游戏，管理人口、金币和口粮",
     "genres": [
       "431",
@@ -12468,6 +13074,8 @@
       "positive": 85,
       "reviews": 367
     },
+    "voice": true,
+    "zh": "official",
     "note": "带着精灵少女躲避王国卫兵、一边逃亡一边培养她的 3D 冒险",
     "genres": [
       "509",
@@ -12501,6 +13109,7 @@
       "score": 6,
       "votes": 2
     },
+    "zh": "official",
     "note": "渔夫题材的成人游戏，钓鱼时不断「钓」到意外收获",
     "genres": [
       "073",
@@ -12566,6 +13175,8 @@
       "score": 4.5,
       "votes": 6
     },
+    "voice": true,
+    "zh": "official",
     "note": "复仇题材的成人冒险游戏，在一个月内安排日程、玩小游戏",
     "genres": [
       "073",
@@ -12598,6 +13209,8 @@
       "score": 6.6,
       "votes": 67
     },
+    "voice": true,
+    "zh": "official",
     "note": "与朋友的妹妹同居三周的恋爱模拟",
     "genres": [
       "073",
@@ -12629,6 +13242,8 @@
       "positive": 89,
       "reviews": 291
     },
+    "voice": true,
+    "zh": "official",
     "note": "经营博客、满足订阅者要求的女主人公模拟游戏",
     "genres": [
       "432",
@@ -12659,6 +13274,7 @@
       "positive": 87,
       "reviews": 481
     },
+    "zh": "official",
     "note": "像素风按摩店经营放置游戏，雇佣员工、升级房间",
     "genres": [
       "431"
@@ -12719,6 +13335,7 @@
       "score": 6.6,
       "votes": 12
     },
+    "zh": "official",
     "note": "卡牌构筑 Roguelike 策略游戏，深入地下城唤醒大魔王",
     "genres": [
       "432"
@@ -12747,6 +13364,8 @@
       "positive": 89,
       "reviews": 998
     },
+    "voice": true,
+    "zh": "official",
     "note": "扮演上战场前只剩几个月的小侍从，练属性、打怪、追梦中情人的恋爱模拟 RPG",
     "genres": [
       "502"
@@ -12786,6 +13405,7 @@
       "score": 5.5,
       "votes": 187
     },
+    "voice": true,
     "note": "以海域国家为舞台、内政与战斗并重的战略 SLG",
     "genres": [
       "432",
@@ -12833,6 +13453,8 @@
       "rating": 73.1,
       "votes": 90
     },
+    "voice": true,
+    "series": "vndb-v19725",
     "note": "攻略据点、收服女神的回合制战略 SLG",
     "genres": [
       "502",
@@ -12886,6 +13508,7 @@
       "score": 6.7,
       "votes": 33
     },
+    "voice": true,
     "note": "培养冒险者挑战迷宫的养成 SLG",
     "genres": [
       "502",
@@ -12928,6 +13551,9 @@
       "score": 7.5,
       "votes": 1015
     },
+    "voice": true,
+    "zh": "fan",
+    "series": "vndb-v20418",
     "note": "收集知识、建造城堡要塞的战略 SRPG",
     "genres": [
       "502",
@@ -12969,6 +13595,9 @@
       "score": 8,
       "votes": 219
     },
+    "voice": true,
+    "zh": "fan",
+    "series": "vndb-v19725",
     "note": "「VenusBlood」系列的回合制战略 SLG，以海洋为舞台",
     "genres": [
       "502",
@@ -13020,6 +13649,7 @@
       "score": 6.5,
       "votes": 101
     },
+    "zh": "official",
     "note": "华琳在山中筑巢、迎击入侵者的地牢经营 SLG（《真・恋姫》题材，与 SofthouseChara 合作）",
     "genres": [
       "502",
@@ -13056,6 +13686,8 @@
       "rating": 79,
       "votes": 273
     },
+    "voice": true,
+    "zh": "official",
     "note": "经营女仆俱乐部、可自定义角色的 3D 模拟",
     "genres": [
       "502",
@@ -13105,6 +13737,9 @@
       "score": 6.7,
       "votes": 343
     },
+    "voice": true,
+    "zh": "fan",
+    "series": "vndb-v20418",
     "note": "建造并经营迷宫、带 SRPG 战斗的策略游戏",
     "genres": [
       "502",
@@ -13151,6 +13786,7 @@
       "score": 6.5,
       "votes": 27
     },
+    "voice": true,
     "note": "战国题材的剧情 ADV，穿插战场模拟玩法",
     "genres": [
       "502"
@@ -13191,6 +13827,8 @@
       "score": 7.1,
       "votes": 92
     },
+    "voice": true,
+    "series": "vndb-v19725",
     "note": "回合制战略模拟，培养并指挥部下攻略敌国",
     "genres": [
       "502",
@@ -13236,6 +13874,7 @@
       "score": 6.9,
       "votes": 80
     },
+    "voice": true,
     "note": "带模拟要素的电车痴汉题材拔作",
     "genres": [
       "502",
@@ -13277,6 +13916,7 @@
       "score": 6.5,
       "votes": 128
     },
+    "voice": true,
     "note": "带征服模拟要素的凌辱题材 SLG",
     "genres": [
       "502",

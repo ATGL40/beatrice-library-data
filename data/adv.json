@@ -71,6 +71,7 @@
     "dl": 341,
     "rc": 98,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01043173.html",
+    "voice": false,
     "note": "以「Fate」系列为题材、挠痒主题的同人视觉小说第三作",
     "genres": [
       "153"
@@ -101,6 +102,7 @@
       "votes": 4
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01047318.html",
+    "voice": false,
     "note": "3D 演出的短篇 ADV",
     "genres": [
       "509"
@@ -137,6 +139,8 @@
       "votes": 97
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01063798.html",
+    "voice": true,
+    "zh": "official",
     "note": "在神秘洋馆中展开的剧情 ADV，带动画演出",
     "genres": [
       "073",
@@ -174,6 +178,7 @@
       "votes": 16
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01067507.html",
+    "voice": true,
     "note": "和仿生人一起解谜的密室逃脱，3D 动画",
     "genres": [
       "509",
@@ -216,6 +221,8 @@
       "votes": 68
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01071861.html",
+    "voice": true,
+    "zh": "fan",
     "note": "描写前后辈恋爱关系的剧情 ADV",
     "genres": [
       "260",
@@ -246,6 +253,7 @@
     "rate": 4.29,
     "dl": 4416,
     "rc": 1073,
+    "voice": false,
     "note": "呪われた家から脱出するゲームです。",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01073589.html",
     "pov": "male"
@@ -268,6 +276,7 @@
     "rate": 4.65,
     "dl": 5458,
     "rc": 828,
+    "voice": false,
     "note": "おねショタと競泳水着がテーマの、ぬるぬる動くアニメーションを多用したショートノベルゲーム",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01082711.html"
   },
@@ -302,6 +311,7 @@
       "votes": 19
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01098750.html",
+    "voice": true,
     "note": "变身女主角堕落后的“后日谈”剧情 ADV，全程配音",
     "genres": [
       "268",
@@ -337,6 +347,8 @@
     "dl": 609,
     "rc": 112,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01116746.html",
+    "voice": true,
+    "zh": "official",
     "note": "召唤出和黑心女上司长得一模一样的魅魔、与她同居的数字小说",
     "genres": [
       "063",
@@ -373,6 +385,7 @@
       "votes": 20
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01124512.html",
+    "voice": true,
     "note": "选项分支式短篇恐怖 ADV，选错即进入坏结局",
     "genres": [
       "080",
@@ -411,6 +424,8 @@
       "votes": 473
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01143540.html",
+    "voice": true,
+    "zh": "official",
     "note": "封闭空间中的悬疑冒险游戏",
     "genres": [
       "091",
@@ -453,6 +468,7 @@
       "votes": 43
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01153311.html",
+    "voice": true,
     "note": "在有奇特习俗的村庄里观察妻子与周围人的 NTR 冒险游戏",
     "genres": [
       "065",
@@ -483,6 +499,7 @@
     "rate": 4.18,
     "dl": 6604,
     "rc": 1479,
+    "voice": true,
     "note": "記憶を失いながら館からの脱出を目指す。道中何か大切なものが失われていくような・・・?",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01156735.html"
   },
@@ -513,6 +530,7 @@
       "votes": 4
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01173579.html",
+    "voice": false,
     "note": "冒险游戏 / 视觉小说（按 DLsite 作品形式 ADV 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "061",
@@ -543,6 +561,8 @@
     "dl": 4966,
     "rc": 764,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01182383.html",
+    "voice": false,
+    "zh": "official",
     "note": "像素风经营 ADV，派遣打捞员下潜深海并管理资金",
     "genres": [
       "063",
@@ -577,6 +597,7 @@
     "dl": 13362,
     "rc": 2998,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01184706.html",
+    "voice": false,
     "note": "一边抵抗诱惑一边找出淫魔的推理 ADV",
     "genres": [
       "433",
@@ -611,6 +632,7 @@
     "dl": 1503,
     "rc": 231,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01189124.html",
+    "voice": false,
     "note": "与尿意赛跑的短篇解谜脱出游戏",
     "genres": [
       "502",
@@ -648,6 +670,7 @@
       "votes": 13
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01192692.html",
+    "voice": true,
     "note": "新闻部少女从怪异村庄脱出的短篇恐怖 ADV",
     "genres": [
       "432",
@@ -676,6 +699,7 @@
     "rate": 4.5,
     "dl": 4299,
     "rc": 996,
+    "voice": false,
     "note": "幽霊の証拠を集めて特定するだけのゲーム",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01200640.html",
     "pov": "female"
@@ -696,6 +720,7 @@
     "rate": 4.57,
     "dl": 7444,
     "rc": 1790,
+    "voice": true,
     "note": "史上最『凶』のエロ同人ゲーム「淫界◯柱アラカ」の完全二次創作ゲーム、爆誕! 健気で一途で凛々しくてかわいくて、散々えっちで酷い目にあいまくったヒロインをもう一度",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01213004.html"
   },
@@ -732,6 +757,8 @@
       "votes": 347
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01214934.html",
+    "voice": true,
+    "zh": "official",
     "note": "剧情向视觉小说",
     "genres": [
       "051",
@@ -765,6 +792,8 @@
     "dl": 27535,
     "rc": 3636,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01232290.html",
+    "voice": true,
+    "zh": "official",
     "note": "点阵画风的街道里掷骰前进的派对H模拟"
   },
   {
@@ -786,6 +815,7 @@
     "dl": 7785,
     "rc": 1092,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01242234.html",
+    "voice": true,
     "note": "像素风俯视角射击游戏，魔女在地下城中前进",
     "genres": [
       "432",
@@ -816,6 +846,7 @@
     "rate": 4.62,
     "dl": 7203,
     "rc": 1671,
+    "voice": false,
     "note": "情報収集して霊ノ物を特定するゲームです。",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01252415.html",
     "pov": "female"
@@ -846,6 +877,7 @@
       "votes": 4
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01252561.html",
+    "voice": true,
     "note": "经营公会并听取冒险者“败北报告”的冒险游戏",
     "genres": [
       "533",
@@ -878,6 +910,8 @@
     "dl": 1091,
     "rc": 189,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01273495.html",
+    "voice": true,
+    "zh": "official",
     "note": "用剪刀石头布打倒魔物娘、建后宫的异世界 ADV，16 个动画 CG",
     "genres": [
       "519",
@@ -908,6 +942,7 @@
     "rate": 4.07,
     "dl": 2381,
     "rc": 345,
+    "voice": false,
     "note": "危険なサキュバスの砦を護りにきた 勇者殿の逗留探索アドベンチャーノベル  貴族に狙われる か弱い?淫魔達を守るべく  魔族の領地で城に入る為のショタに擬態し彼女",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01276894.html"
   },
@@ -943,6 +978,7 @@
       "votes": 17
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01279330.html",
+    "voice": true,
     "note": "以一场特殊的教员录用考试为舞台的露出羞耻系冒险游戏，批评空间中央值 79",
     "genres": [
       "003",
@@ -986,6 +1022,8 @@
       "votes": 7
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01292820.html",
+    "voice": false,
+    "zh": "official",
     "note": "靠约炮软件认识人妻、一步步调教夺人的 NTR 系 ADV，30 张基本 CG、两个结局",
     "genres": [
       "063",
@@ -1030,6 +1068,7 @@
       "votes": 13
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01294420.html",
+    "voice": true,
     "note": "以恋人关系为主线的视觉小说",
     "genres": [
       "416",
@@ -1063,6 +1102,8 @@
     "dl": 8376,
     "rc": 1427,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01297885.html",
+    "voice": false,
+    "series": "RJ01297885",
     "note": "冒险游戏 / 视觉小说（按 DLsite 作品形式 ADV 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "069",
@@ -1098,6 +1139,8 @@
       "votes": 30
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01302746.html",
+    "voice": true,
+    "zh": "official",
     "note": "3D 偶像题材 ADV，在演唱会后台与偶像互动",
     "genres": [
       "509",
@@ -1141,6 +1184,7 @@
       "votes": 133
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01303557.html",
+    "voice": true,
     "note": "奇幻题材的剧情向视觉小说",
     "genres": [
       "502",
@@ -1176,6 +1220,7 @@
       "votes": 5
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01312461.html",
+    "voice": true,
     "note": "炼金术师少女挑战迷宫、收集素材制作道具的 ADV",
     "genres": [
       "263",
@@ -1206,6 +1251,7 @@
     "rate": 4.27,
     "dl": 2831,
     "rc": 488,
+    "voice": true,
     "note": "UnityとLive2Dでぬるぬるアニメーション! 日焼け娘との恥ずかしいお医者さんごっこで堪らずドックン!",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01315279.html"
   },
@@ -1236,6 +1282,7 @@
       "votes": 21
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01320589.html",
+    "voice": true,
     "note": "TS 题材变身女英雄 ADV，含战斗与败北情节",
     "genres": [
       "432",
@@ -1268,6 +1315,7 @@
     "dl": 11816,
     "rc": 1722,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01325238.html",
+    "voice": false,
     "note": "冒险游戏 / 视觉小说（按 DLsite 作品形式 ADV 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "432",
@@ -1305,6 +1353,7 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01327608.html",
+    "voice": true,
     "note": "伪恐怖风格的探索型脱出 ADV，在神秘酒店中寻找出口",
     "genres": [
       "433",
@@ -1342,6 +1391,7 @@
       "votes": 24
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01336441.html",
+    "voice": true,
     "note": "在无限循环的街道中寻找怪异的 ADV",
     "genres": [
       "256",
@@ -1372,6 +1422,7 @@
     "rate": 4.58,
     "dl": 8164,
     "rc": 1621,
+    "voice": true,
     "note": "『悪～い敵国女性に負けちゃうADV』勝利国の王である主人公は、支配宣言のために敵国へ出向く。なんとそこで出迎えるのは、美しき王女たち…敵国の悪い女性たちの色仕掛",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01337072.html"
   },
@@ -1402,6 +1453,7 @@
       "votes": 3
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01337485.html",
+    "voice": true,
     "note": "全语音的探索 ADV，和女孩一起在繁华街区闲逛",
     "genres": [
       "502",
@@ -1443,6 +1495,8 @@
       "votes": 20
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01341157.html",
+    "voice": true,
+    "zh": "fan",
     "note": "历时四年制作的魅魔题材长篇 ADV",
     "genres": [
       "235",
@@ -1473,6 +1527,7 @@
     "rate": 4.48,
     "dl": 7251,
     "rc": 1446,
+    "voice": false,
     "note": "謎のコロニーに迷い込んだ主人公は、一緒にいた母親、友達との合流を目指しながら脱出を目指す",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01341908.html"
   },
@@ -1494,6 +1549,8 @@
     "rate": 4.41,
     "dl": 4618,
     "rc": 551,
+    "voice": false,
+    "zh": "official",
     "note": "入るたびに形の変わる暗闇の迷宮、恐ろしい”搾精者”から逃げつつ脱出を目指せ。",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01343718.html"
   },
@@ -1524,6 +1581,7 @@
       "votes": 7
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01356756.html",
+    "voice": false,
     "note": "密室解谜式 ADV，在规则房间里做出选择、通过考验",
     "genres": [
       "432",
@@ -1562,6 +1620,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01374641.html",
+    "voice": true,
     "note": "职场题材的剧情 ADV，两种结局",
     "genres": [
       "502",
@@ -1596,6 +1655,7 @@
     "dl": 4709,
     "rc": 568,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01377690.html",
+    "voice": true,
     "note": "以 Live2D 动画为主的简短视觉小说",
     "genres": [
       "073",
@@ -1625,6 +1685,7 @@
     "dl": 1916,
     "rc": 311,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01377829.html",
+    "voice": false,
     "note": ""
   },
   {
@@ -1658,6 +1719,7 @@
       "votes": 13
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01394012.html",
+    "voice": true,
     "note": "Live2D 演出＋双耳录音全语音的百合题材 ADV",
     "genres": [
       "073",
@@ -1695,6 +1757,8 @@
       "votes": 19
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01399875.html",
+    "voice": true,
+    "zh": "official",
     "note": "梅麻吕 3D 的剧情 ADV，围绕按摩沙龙展开",
     "genres": [
       "509",
@@ -1736,6 +1800,9 @@
       "votes": 339
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01407125.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ01407125",
     "note": "猫娘系列「巧克力与香子兰」的后日谈恋爱 ADV",
     "genres": [
       "502",
@@ -1769,6 +1836,7 @@
     "dl": 375,
     "rc": 69,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01409301.html",
+    "voice": true,
     "note": "主人公在公园结识两位伪娘的 3D 动画短篇视觉小说",
     "genres": [
       "509",
@@ -1797,6 +1865,8 @@
     "dl": 4007,
     "rc": 642,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01410479.html",
+    "voice": true,
+    "zh": "official",
     "note": "点阵风和风恐怖 ADV，源自一盘来路不明的录像带",
     "genres": [
       "071",
@@ -1830,6 +1900,8 @@
     "dl": 7811,
     "rc": 1199,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01433228.html",
+    "voice": false,
+    "series": "RJ01297885",
     "note": "「8 番出口」式找异变游戏，在循环的车站中辨认异常",
     "genres": [
       "069",
@@ -1863,6 +1935,7 @@
     "dl": 7158,
     "rc": 1082,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01448686.html",
+    "voice": false,
     "note": "密室逃脱 ADV，在房间里寻找线索脱出",
     "genres": [
       "073",
@@ -1896,6 +1969,7 @@
     "dl": 6966,
     "rc": 1038,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01472150.html",
+    "voice": false,
     "note": "点击式密室逃脱游戏，约一小时可通关",
     "genres": [
       "078",
@@ -1924,6 +1998,7 @@
     "rate": 4.37,
     "dl": 7437,
     "rc": 864,
+    "voice": false,
     "note": "透明になり街中を白昼堂々 全裸徘徊！！一歩進む度に100円、ミッションをこなせば大金獲得、目標は百万円！！",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01479601.html"
   },
@@ -1948,6 +2023,8 @@
     "dl": 4270,
     "rc": 423,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01489257.html",
+    "voice": true,
+    "series": "RJ01215519",
     "note": "和仿生人女仆在海边小屋度假三天的视觉小说",
     "genres": [
       "509",
@@ -1987,6 +2064,7 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01518551.html",
+    "voice": false,
     "note": "节奏轻快的 NTR 题材视觉小说",
     "genres": [
       "432",
@@ -2029,6 +2107,8 @@
       "votes": 343
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01519244.html",
+    "voice": true,
+    "zh": "official",
     "note": "兄妹回到故乡村庄的伝奇纯爱视觉小说",
     "genres": [
       "212",
@@ -2054,6 +2134,8 @@
     "rate": 4.36,
     "dl": 1669,
     "rc": 100,
+    "voice": true,
+    "zh": "official",
     "note": "フル Live2D アニメーションで展開する“オナサポ”。 童貞ショタと犬系獣人のお姉さんが織りなす田舎での物語。",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01525427.html"
   },
@@ -2079,6 +2161,7 @@
     "dl": 11164,
     "rc": 1991,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01531293.html",
+    "voice": false,
     "note": "射击＋冒险游戏，以雇佣兵身份完成任务积累资源争取独立",
     "genres": [
       "311",
@@ -2113,6 +2196,7 @@
       "votes": 8
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01533435.html",
+    "voice": true,
     "note": "勇者与圣女讨伐魔王之后的剧情 ADV",
     "genres": [
       "432",
@@ -2146,6 +2230,8 @@
     "dl": 4094,
     "rc": 377,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01542346.html",
+    "voice": false,
+    "zh": "official",
     "note": "点阵风 ADV，在怪物娘世界中作为唯一人类男性求生",
     "genres": [
       "502",
@@ -2184,6 +2270,7 @@
       "votes": 4
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01546127.html",
+    "voice": true,
     "note": "暴风雪中借住雪山旅馆、与北欧姐妹相处的日常 ADV",
     "genres": [
       "073",
@@ -2218,6 +2305,7 @@
     "dl": 2479,
     "rc": 289,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01547051.html",
+    "voice": false,
     "note": "被扔进井底后潜入地下城、征服怪物娘的 ADV",
     "genres": [
       "502",
@@ -2260,6 +2348,7 @@
       "votes": 125
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01557100.html",
+    "voice": true,
     "note": "青梅竹马恋人被夺走的 NTR 题材 ADV",
     "genres": [
       "222",
@@ -2299,6 +2388,7 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01557728.html",
+    "voice": true,
     "note": "扮演冒险者公会前台、向妻子介绍任务的 ADV",
     "genres": [
       "048",
@@ -2334,6 +2424,7 @@
       "votes": 14
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01559937.html",
+    "voice": true,
     "note": "兄妹在边境村庄生活的 NTR 题材 ADV",
     "genres": [
       "502",
@@ -2371,6 +2462,7 @@
       "votes": 15
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ015622.html",
+    "voice": true,
     "note": "「高达 SEED」同人，两名女舰长的侍奉 ADV",
     "genres": [
       "068",
@@ -2404,6 +2496,7 @@
       "votes": 6
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01565362.html",
+    "voice": false,
     "note": "点阵风 ADV，治疗被病毒感染的人们、营救被绑走的恋人",
     "genres": [
       "431",
@@ -2442,6 +2535,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01571952.html",
+    "voice": true,
     "note": "失去丈夫的女主与公公同居的日常剧情 ADV",
     "genres": [
       "065",
@@ -2476,6 +2570,7 @@
     "dl": 3425,
     "rc": 260,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01577083.html",
+    "voice": true,
     "note": "男娘僧侣讨伐魔物的短篇 ADV",
     "genres": [
       "069",
@@ -2514,6 +2609,7 @@
       "votes": 5
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01578060.html",
+    "voice": false,
     "note": "换装＋城镇探索 ADV，女战士在妖精之城中保持理智",
     "genres": [
       "432",
@@ -2541,6 +2637,7 @@
     "rate": 4.61,
     "dl": 4388,
     "rc": 578,
+    "voice": false,
     "note": "母と息子の物語",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01591041.html"
   },
@@ -2566,6 +2663,8 @@
     "dl": 2218,
     "rc": 229,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01599178.html",
+    "voice": false,
+    "series": "RJ01297885",
     "note": "穿着被诅咒的装备在城镇中探索的 ADV",
     "genres": [
       "432",
@@ -2603,6 +2702,7 @@
       "votes": 22
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01605977.html",
+    "voice": true,
     "note": "圣女与骑士分阶段堕落的 ADV，鼠标操作",
     "genres": [
       "432",
@@ -2644,6 +2744,7 @@
       "votes": 30
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01609435.html",
+    "voice": false,
     "note": "法庭题材的剧情 ADV，偶像检察官揭穿罪犯谎言",
     "genres": [
       "432",
@@ -2673,6 +2774,7 @@
     "dl": 1260,
     "rc": 185,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01610787.html",
+    "voice": true,
     "note": ""
   },
   {
@@ -2693,6 +2795,7 @@
     "rate": 4.33,
     "dl": 2902,
     "rc": 319,
+    "voice": false,
     "note": "感覚遮断落とし穴に落ちた男の子の身体を改造しまくるゲームです！胸を大きくしたり、乳首やアナルを開発したり、性別や体格を変更してTS化することができます。",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01613615.html"
   },
@@ -2721,6 +2824,7 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01617031.html",
+    "voice": false,
     "note": "森林教会题材的短篇 ADV，每轮约 1 小时、含多种事件",
     "genres": [
       "069",
@@ -2759,6 +2863,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01619610.html",
+    "voice": false,
     "note": "躲避诱惑、从五杯牛奶中避开「中奖」的轮盘赌 ADV",
     "genres": [
       "065",
@@ -2791,6 +2896,7 @@
     "dl": 1740,
     "rc": 144,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01629425.html",
+    "voice": false,
     "note": "冒险游戏 / 视觉小说（按 DLsite 作品形式 ADV 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "058",
@@ -2828,6 +2934,8 @@
       "votes": 12
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01634952.html",
+    "voice": true,
+    "zh": "official",
     "note": "梅麻吕 3D「淫乱爆乳女教师」的游戏版 ADV",
     "genres": [
       "509",
@@ -2860,6 +2968,8 @@
     "dl": 1500,
     "rc": 72,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01681790.html",
+    "voice": false,
+    "zh": "official",
     "note": "开车回家途中，副驾驶的兽耳娘靠心算转移注意、忍耐便意的短篇游戏",
     "genres": [
       "161"
@@ -2891,6 +3001,7 @@
       "votes": 6
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01695762.html",
+    "voice": true,
     "note": "搬家后夫妻遭遇狂热粉丝的 NTR 题材 ADV",
     "genres": [
       "065",
@@ -2925,6 +3036,7 @@
     "dl": 2948,
     "rc": 233,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01705687.html",
+    "voice": true,
     "note": "江户时代长屋背景的 NTR 题材剧情 ADV",
     "genres": [
       "065",
@@ -2971,6 +3083,9 @@
       "votes": 76
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ026608.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ026608",
     "note": "「对魔忍」系列第一作的完全版，带动画",
     "genres": [
       "505",
@@ -3008,6 +3123,7 @@
       "votes": 78
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ030340.html",
+    "voice": true,
     "note": "在战舰上洗脑两名女军官的动画 ADV",
     "genres": [
       "219",
@@ -3046,6 +3162,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ030715.html",
+    "voice": true,
     "note": "30fps 触手动画的视觉小说",
     "genres": [
       "075",
@@ -3087,6 +3204,7 @@
       "votes": 3
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ032670.html",
+    "voice": false,
     "note": "调教题材 ADV，结局由玩家选择决定",
     "genres": [
       "104",
@@ -3125,6 +3243,7 @@
       "votes": 18
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ033066.html",
+    "voice": true,
     "note": "龙骑士公主题材的全动画 ADV",
     "genres": [
       "073",
@@ -3163,6 +3282,8 @@
       "votes": 45
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ043828.html",
+    "voice": true,
+    "series": "RJ026608",
     "note": "「对魔忍」系列外传，主角为魔界医生",
     "genres": [
       "505",
@@ -3202,6 +3323,9 @@
       "votes": 451
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ074254.html",
+    "voice": true,
+    "zh": "fan",
+    "series": "RJ01114724",
     "note": "「魔物娘大冒险」第一部，战败即被魔物娘H",
     "genres": [
       "115"
@@ -3238,6 +3362,9 @@
       "votes": 234
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ082981.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ026608",
     "note": "「对魔忍」系列，寝取题材 ADV",
     "genres": [
       "296",
@@ -3276,6 +3403,9 @@
       "votes": 389
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ087736.html",
+    "voice": true,
+    "zh": "fan",
+    "series": "RJ01114724",
     "note": "「魔物娘大冒险」第二部",
     "genres": [
       "115"
@@ -3311,6 +3441,7 @@
       "votes": 6
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ102113.html",
+    "voice": true,
     "note": "女主角 20 人、全程语音的学园 ADV",
     "genres": [
       "073",
@@ -3345,6 +3476,8 @@
       "votes": 5
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ104756.html",
+    "voice": false,
+    "series": "RJ104756",
     "note": "切换昼夜、在小镇中感染少女的 ADV",
     "genres": [
       "502",
@@ -3380,6 +3513,9 @@
       "votes": 529
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ115697.html",
+    "voice": true,
+    "zh": "fan",
+    "series": "RJ01114724",
     "note": "「魔物娘大冒险」完结篇",
     "genres": [
       "115"
@@ -3416,6 +3552,9 @@
       "votes": 1769
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ144678.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ01407125",
     "note": "猫娘巧克力和香草的喜剧视觉小说",
     "genres": [
       "051",
@@ -3452,6 +3591,8 @@
       "votes": 139
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ157313.html",
+    "voice": true,
+    "zh": "fan",
     "note": "偷看与道具题材的喜剧 ADV",
     "genres": [
       "263",
@@ -3483,6 +3624,7 @@
     "dl": 15567,
     "rc": 5905,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ167339.html",
+    "voice": true,
     "note": "实时 3D 的体育仓库题材游戏",
     "genres": [
       "509",
@@ -3518,6 +3660,7 @@
       "votes": 4
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ167937.html",
+    "voice": false,
     "note": "在 RPG 风地图上探索城镇、收集道具的续作 ADV",
     "genres": [
       "073",
@@ -3563,6 +3706,9 @@
       "votes": 1105
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ170327.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ01407125",
     "note": "在甜点店与猫娘姐妹共同生活的动态立绘 ADV",
     "genres": [
       "051",
@@ -3590,6 +3736,8 @@
     "rate": 4.47,
     "dl": 8118,
     "rc": 3602,
+    "voice": true,
+    "series": "RJ171098",
     "note": "吹奏楽部のおりこう美少女二人が不良たちにハメまわされて、淫語連発、アヘ顔をさらしてマゾ雌の本性に目覚めてゆく……!",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ171098.html"
   },
@@ -3612,6 +3760,8 @@
     "rate": 4.46,
     "dl": 3754,
     "rc": 1337,
+    "voice": true,
+    "series": "RJ174339",
     "note": "■いとこの草汰くんを預かることになった優璃。流されやすい性格に付け込まれ、年下の男の子にその身体を好き放題にされてしまい…",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ174339.html"
   },
@@ -3635,6 +3785,7 @@
     "dl": 6999,
     "rc": 4335,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ175039.html",
+    "voice": false,
     "note": "含分支选择与追加章节的奇幻 ADV",
     "genres": [
       "317",
@@ -3672,6 +3823,7 @@
       "votes": 25
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ175263.html",
+    "voice": true,
     "note": "以爱丽丝梦游仙境为题材的变身女英雄 ADV",
     "genres": [
       "269",
@@ -3701,6 +3853,7 @@
     "rate": 4.44,
     "dl": 5024,
     "rc": 2322,
+    "voice": true,
     "note": "たった一度の過ち、それを撮影されただけで彼女の日常は一変した。\r\n恋する少女は、淫らな被写体へと造り変えられてゆく……。",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ175431.html"
   },
@@ -3723,6 +3876,7 @@
     "rate": 4.47,
     "dl": 7245,
     "rc": 3183,
+    "voice": true,
     "note": "痴漢しても、生ハメしても、怒られないどころか電車内でパコパコ三昧☆ 美少女JKとのラブラブドスケベ天国!!",
     "genres": [
       "068",
@@ -3760,6 +3914,8 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ179471.html",
+    "voice": false,
+    "series": "RJ104756",
     "note": "「食尸鬼×食尸女」续作，感染少女后协力前进",
     "genres": [
       "502",
@@ -3789,6 +3945,7 @@
     "dl": 11722,
     "rc": 6073,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ179585.html",
+    "voice": true,
     "note": "和青梅竹马一起解谜、逃出密室的 3D 逃脱游戏",
     "genres": [
       "065",
@@ -3827,6 +3984,8 @@
       "votes": 452
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ179700.html",
+    "voice": true,
+    "zh": "fan",
     "note": "影绘风格的三篇一本道短篇 ADV",
     "genres": [
       "073",
@@ -3849,6 +4008,8 @@
     "rate": 4.5,
     "dl": 5219,
     "rc": 2015,
+    "voice": true,
+    "series": "RJ171098",
     "note": "クール系とおっとり系のJK2人は、男に罵られて興奮、チ○ポに夢中になっちゃうマゾ奴隷体質だった!?いじめられるのがたまらないド変態巨乳JKの痴態がたっぷり★",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ180354.html"
   },
@@ -3883,6 +4044,8 @@
       "votes": 6
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ180894.html",
+    "voice": false,
+    "series": "RJ180894",
     "note": "《魔物娘图鉴》二次创作，RPG 式探索加点阵动画的 ADV",
     "genres": [
       "431",
@@ -3910,6 +4073,7 @@
     "rate": 4.37,
     "dl": 3445,
     "rc": 1738,
+    "voice": true,
     "note": "エロくていやらしい身体をした悪いお姉ちゃんは僕たちがオシオキだ!",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ181268.html"
   },
@@ -3933,6 +4097,7 @@
     "dl": 1258,
     "rc": 426,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ183212.html",
+    "voice": true,
     "note": "夏日回乡的青年在废弃车站遇见能唤雨的少女的恋爱 ADV，Live2D 立绘",
     "genres": [
       "032",
@@ -3961,6 +4126,7 @@
     "rate": 4.48,
     "dl": 9646,
     "rc": 4140,
+    "voice": true,
     "note": "中出し、アナル調教、チンカス掃除、オモチャで連続アクメ責め……どんなHなお願いも断らないっ! 優しい美少女JKにHなおねだりし放題AVG!",
     "genres": [
       "068",
@@ -4002,6 +4168,7 @@
       "votes": 3
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ187017.html",
+    "voice": true,
     "note": "冒险游戏 / 视觉小说（按 DLsite 作品形式 ADV 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "256",
@@ -4041,6 +4208,7 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ188553.html",
+    "voice": true,
     "note": "忍住魅魔 5 天诱惑的全语音 ADV",
     "genres": [
       "433",
@@ -4070,6 +4238,8 @@
     "rate": 4.51,
     "dl": 3658,
     "rc": 1447,
+    "voice": true,
+    "series": "RJ188734",
     "note": "『最近、母親の様子がおかしい…』。友達?の言動と母親の様子に何か違和感を感じる息子『賢人』…。",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ188734.html"
   },
@@ -4096,6 +4266,8 @@
       "votes": 4
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ188985.html",
+    "voice": false,
+    "series": "RJ188985",
     "note": "被狗头人俘虏的女骑士在据点中移动推进剧情的点阵 ADV",
     "genres": [
       "431",
@@ -4130,6 +4302,7 @@
       "votes": 6
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ189578.html",
+    "voice": false,
     "note": "经营旅店的夫妇为偿还债务做出抉择的多结局 ADV",
     "genres": [
       "014",
@@ -4159,6 +4332,7 @@
     "dl": 1000,
     "rc": 339,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ191758.html",
+    "voice": true,
     "note": "《雨衣女友》的后篇，讲述雨停之后两人的故事的恋爱 ADV",
     "genres": [
       "032"
@@ -4195,6 +4369,8 @@
       "votes": 76
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ192704.html",
+    "voice": true,
+    "zh": "fan",
     "note": "战国背景的扶她百合 ADV 第三章",
     "genres": [
       "234",
@@ -4221,6 +4397,7 @@
     "rate": 4.49,
     "dl": 4482,
     "rc": 2115,
+    "voice": true,
     "note": "黒ギャル、清楚ビッチな尻軽援交JKをサプリの力でアヘらせまくりっ!中年チ○ポの虜にし、自分だけのドスケベペットに……!",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ193932.html"
   },
@@ -4243,6 +4420,7 @@
     "rate": 4.27,
     "dl": 1568,
     "rc": 662,
+    "voice": true,
     "note": "爆乳JKと愛らしい●学生の美少女姉妹を、おさわり痴漢レイプで墜とせ!!おさわり痴漢はなんと6回!1600以上のCG差分と1400ボイスが痴漢シーンを大いに盛り上",
     "genres": [
       "311",
@@ -4270,6 +4448,7 @@
     "rate": 4.21,
     "dl": 7032,
     "rc": 1367,
+    "voice": false,
     "note": "お姉さんに逆アナルされる少年のアニメーション",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ195088.html"
   },
@@ -4306,6 +4485,7 @@
       "votes": 119
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ195414.html",
+    "voice": true,
     "note": "剑术小町沦落游廓的时代剧 NTR 题材 ADV",
     "genres": [
       "051",
@@ -4335,6 +4515,7 @@
     "rate": 3.98,
     "dl": 6253,
     "rc": 2309,
+    "voice": true,
     "note": "リアルタイム3D作品!　動く女子校生をマウスで自由に弄り回せる!",
     "genres": [
       "509",
@@ -4374,6 +4555,8 @@
       "votes": 60
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ198010.html",
+    "voice": true,
+    "zh": "official",
     "note": "王女与女骑士沦为奴隶的 ADV",
     "genres": [
       "068",
@@ -4408,6 +4591,7 @@
       "votes": 9
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ199575.html",
+    "voice": false,
     "note": "全程点阵动画的宅邸逃脱 ADV",
     "genres": [
       "073",
@@ -4452,6 +4636,9 @@
       "votes": 920
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ200500.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ01407125",
     "note": "和猫娘们一起经营甜点店的日常 ADV 第三作",
     "genres": [
       "051",
@@ -4481,6 +4668,7 @@
     "dl": 1012,
     "rc": 409,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ201235.html",
+    "voice": true,
     "note": "冒险游戏 / 视觉小说（按 DLsite 作品形式 ADV 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "509",
@@ -4511,6 +4699,7 @@
     "rate": 4.37,
     "dl": 6979,
     "rc": 3353,
+    "voice": true,
     "note": "陸上部に所属する女子校生、千秋、沙希、早苗。夏合宿を利用して顧問の先生とエッチしちゃおうと計画を立てる。",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ202661.html"
   },
@@ -4544,6 +4733,8 @@
       "votes": 46
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ204332.html",
+    "voice": true,
+    "series": "RJ204332",
     "note": "变身女英雄被洗脑催眠的 ADV",
     "genres": [
       "068",
@@ -4572,6 +4763,7 @@
     "rate": 4.3,
     "dl": 1438,
     "rc": 765,
+    "voice": false,
     "note": "夫を亡くした専業主婦の佳苗は、夫の元上司の会社で働き始めるが…",
     "genres": [
       "213",
@@ -4601,6 +4793,7 @@
     "rate": 4.4,
     "dl": 1169,
     "rc": 487,
+    "voice": true,
     "note": "巨乳なおねえちゃんに女体化!?おとうとに甘え&ひたむきに求められちゃうイチャエロふたり暮らし!?体化定番シチュ&おねショタ定番シチュ満載♪♪",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ204925.html"
   },
@@ -4635,6 +4828,8 @@
       "votes": 130
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ204938.html",
+    "voice": true,
+    "zh": "fan",
     "note": "以洗脑为主题的动画演出 ADV",
     "genres": [
       "048",
@@ -4671,6 +4866,7 @@
       "votes": 103
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ205076.html",
+    "voice": true,
     "note": "被才貌双全的女主角调教的 M 向 ADV",
     "genres": [
       "068",
@@ -4694,6 +4890,7 @@
     "rate": 4.51,
     "dl": 1237,
     "rc": 654,
+    "voice": true,
     "note": "フェラ&ザーメン大好きなJK2人組、りりあとせりかによる、共通の趣味のための活動記録。無料でフェラチオをする代わりに、報酬として精液をもらっちゃいます。ちゅぱ音",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ211278.html"
   },
@@ -4714,6 +4911,7 @@
     "rate": 4.63,
     "dl": 1237,
     "rc": 345,
+    "voice": true,
     "note": "潜水が得意な少女カリンと共に島を旅する水中クリックアドベンチャーゲーム!",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ212109.html"
   },
@@ -4745,6 +4943,8 @@
       "votes": 141
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ212553.html",
+    "voice": true,
+    "zh": "official",
     "note": "冒充新兴宗教教主的 ADV",
     "genres": [
       "068",
@@ -4785,6 +4985,7 @@
       "votes": 3
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ214280.html",
+    "voice": false,
     "note": "以视角切换为特色的寝取 ADV",
     "genres": [
       "065",
@@ -4827,6 +5028,8 @@
       "votes": 6
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ214381.html",
+    "voice": false,
+    "series": "RJ180894",
     "note": "「魔物娘图鉴」二次创作的点阵动画 ADV 续作",
     "genres": [
       "431",
@@ -4865,6 +5068,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ214802.html",
+    "voice": true,
     "note": "用选项对抗女神诱惑的分支 ADV",
     "genres": [
       "448",
@@ -4881,6 +5085,7 @@
     "rate": 4.52,
     "dl": 16164,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ214895.html",
+    "voice": true,
     "note": "HTML5 制作的 2.5D 动画 ADV",
     "id": "RJ214895",
     "names": {
@@ -4913,6 +5118,8 @@
     "rate": 4.68,
     "dl": 3040,
     "rc": 1139,
+    "voice": true,
+    "series": "RJ188734",
     "note": "『最近、母親の様子がおかしい…』。そう思ってからしばらく経ったある夏の出来事…。",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ216930.html"
   },
@@ -4933,6 +5140,7 @@
     "rate": 4.43,
     "dl": 1701,
     "rc": 661,
+    "voice": true,
     "note": "ふたりっきりの空間でお姉ちゃんの山より重く海より深い愛に溺れてね……?お姉ちゃんにただただ愛し尽くされるだけの究極のヤンデレ愛生活をお楽しみください♪",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ218378.html"
   },
@@ -4962,6 +5170,8 @@
       "votes": 5
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ221783.html",
+    "voice": true,
+    "series": "RJ01178251",
     "note": "傲娇魔女登场、以忍耐为玩法的实时动画游戏",
     "genres": [
       "073",
@@ -5000,6 +5210,8 @@
       "votes": 240
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ221906.html",
+    "voice": true,
+    "zh": "official",
     "note": "冒险游戏 / 视觉小说（按 DLsite 作品形式 ADV 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "214",
@@ -5029,6 +5241,7 @@
     "dl": 1914,
     "rc": 934,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ222062.html",
+    "voice": true,
     "note": "改编自网络小说的丧尸末日题材视觉小说第二卷",
     "genres": [
       "225",
@@ -5056,6 +5269,8 @@
     "dl": 704,
     "rc": 93,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ222434.html",
+    "voice": false,
+    "zh": "official",
     "note": "末日世界里操控两名女性角色收集物资、躲避男人们活过十天的生存 ADV",
     "genres": [
       "060",
@@ -5086,6 +5301,7 @@
     "dl": 1644,
     "rc": 779,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ222970.html",
+    "voice": true,
     "note": "改编自网络小说的丧尸末日题材视觉小说第三卷",
     "genres": [
       "414",
@@ -5123,6 +5339,8 @@
       "votes": 21
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ227099.html",
+    "voice": false,
+    "zh": "official",
     "note": "文字输入式冒险小说，Live2D 与 Moho 动画，支持 Windows 与 Android",
     "genres": [
       "073",
@@ -5159,6 +5377,9 @@
       "votes": 7
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ227966.html",
+    "voice": false,
+    "zh": "fan",
+    "series": "RJ01103383",
     "note": "数字小说（按 DLsite 作品形式 DNV 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "509",
@@ -5199,6 +5420,7 @@
       "votes": 14
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ229568.html",
+    "voice": true,
     "note": "听女友讲述过去经历的 NTR 题材 ADV",
     "genres": [
       "048",
@@ -5232,6 +5454,8 @@
       "votes": 4
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ231265.html",
+    "voice": true,
+    "series": "RJ01178251",
     "note": "前作的后日谈，实时动画加忍耐玩法",
     "genres": [
       "073",
@@ -5269,6 +5493,8 @@
       "votes": 68
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ233486.html",
+    "voice": true,
+    "zh": "official",
     "note": "两位单亲妈妈题材的寝取 AVG",
     "genres": [
       "068",
@@ -5307,6 +5533,8 @@
       "votes": 39
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ233623.html",
+    "voice": true,
+    "zh": "official",
     "note": "原创战队女英雄的数字小说第 1 话",
     "genres": [
       "269",
@@ -5347,6 +5575,8 @@
       "votes": 560
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ233889.html",
+    "voice": true,
+    "zh": "fan",
     "note": "以圣女为主角的短篇 AVG",
     "genres": [
       "234",
@@ -5375,6 +5605,8 @@
     "rate": 4.6,
     "dl": 3455,
     "rc": 1161,
+    "voice": true,
+    "series": "RJ174339",
     "note": "■年下のいとこ、草汰くんの田舎に行くことになった姉妹。今度こそ流されないと誓う優璃だったが、やっぱり恥ずかしい目に遭う羽目に……",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ236148.html"
   },
@@ -5408,6 +5640,7 @@
       "votes": 3
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ237209.html",
+    "voice": true,
     "note": "冒险游戏 / 视觉小说（按 DLsite 作品形式 ADV 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "071",
@@ -5447,6 +5680,7 @@
       "votes": 40
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ237312.html",
+    "voice": true,
     "note": "妻子与前男友题材的 NTR 观察 AVG",
     "genres": [
       "068",
@@ -5476,6 +5710,7 @@
     "rate": 4.5,
     "dl": 4782,
     "rc": 1869,
+    "voice": false,
     "note": "男の精液を餌とする搾精生物が、少年の精を搾り尽くす! \r\n登場する搾精生物の数は28種類、それぞれにHシーンを完備!",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ238471.html"
   },
@@ -5507,6 +5742,9 @@
       "votes": 101
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ238792.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ238792",
     "note": "与女魔王在破旧小公寓同居的 AVG",
     "genres": [
       "065",
@@ -5540,6 +5778,7 @@
       "votes": 71
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ239810.html",
+    "voice": false,
     "note": "审查文件、检查身体、赚钱的关卡审查 ADV",
     "genres": [
       "311",
@@ -5571,6 +5810,8 @@
     "rate": 4.61,
     "dl": 3418,
     "rc": 1282,
+    "voice": false,
+    "series": "RJ241477",
     "note": "男の精液を餌とする搾精生物が、少年の精を搾り尽くす! \r\n登場する搾精生物の数は28種類、それぞれにHシーンを完備!",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ241477.html"
   },
@@ -5604,6 +5845,8 @@
       "votes": 56
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ245808.html",
+    "voice": true,
+    "series": "RJ204332",
     "note": "变身女英雄与敌对组织对抗的剧情 ADV",
     "genres": [
       "068",
@@ -5639,6 +5882,7 @@
       "votes": 8
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ247447.html",
+    "voice": false,
     "note": "冒险游戏 / 视觉小说（按 DLsite 作品形式 ADV 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "413",
@@ -5667,6 +5911,8 @@
     "rate": 4.62,
     "dl": 3019,
     "rc": 1042,
+    "voice": false,
+    "series": "RJ241477",
     "note": "男の精液を餌とする搾精生物が、少年の精を搾り尽くす! \r\n登場する搾精生物の数は28種類、それぞれにHシーンを完備!",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ247617.html"
   },
@@ -5700,6 +5946,7 @@
       "votes": 61
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ247829.html",
+    "voice": true,
     "note": "冒险游戏 / 视觉小说（按 DLsite 作品形式 ADV 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "073",
@@ -5729,6 +5976,8 @@
     "rate": 4.48,
     "dl": 5322,
     "rc": 2488,
+    "voice": true,
+    "series": "RJ026608",
     "note": "ママが近未来くノ一だったアドベンチャー",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ250595.html"
   },
@@ -5767,6 +6016,8 @@
       "votes": 222
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ251378.html",
+    "voice": true,
+    "zh": "official",
     "note": "冒险游戏 / 视觉小说（按 DLsite 作品形式 ADV 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "073",
@@ -5807,6 +6058,7 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ251850.html",
+    "voice": true,
     "note": "变身女主角对抗邪恶组织的长篇剧情 ADV，视觉素材 400 张以上",
     "genres": [
       "269",
@@ -5847,6 +6099,8 @@
       "votes": 164
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ251926.html",
+    "voice": true,
+    "zh": "fan",
     "note": "变成魔法少女的男主角迎来新伙伴和新敌人的热血恋爱喜剧 ADV 续作",
     "genres": [
       "269",
@@ -5889,6 +6143,7 @@
       "votes": 32
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ252911.html",
+    "voice": true,
     "note": "和损友式的女性朋友关系逐渐变化的日常 ADV",
     "genres": [
       "063",
@@ -5920,6 +6175,7 @@
     "dl": 14343,
     "rc": 6641,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ255815.html",
+    "voice": false,
     "note": "每次结果不同的随机陷阱游戏，事件 50 种以上",
     "genres": [
       "432",
@@ -5960,6 +6216,7 @@
       "votes": 39
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ258146.html",
+    "voice": true,
     "note": "M 向剧情 ADV，主角被一位强势的女生一步步摆布",
     "genres": [
       "068",
@@ -5995,6 +6252,8 @@
       "votes": 532
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ258973.html",
+    "voice": true,
+    "series": "RJ026608",
     "note": "对魔忍潜入任务题材、全程动画演出的 ADV",
     "genres": [
       "505",
@@ -6025,6 +6284,7 @@
     "dl": 6241,
     "rc": 3180,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ259793.html",
+    "voice": false,
     "note": "简单的探索型 ADV，文本约 100 万字、场景 100 个以上",
     "genres": [
       "433",
@@ -6052,6 +6312,7 @@
     "rate": 4.39,
     "dl": 4222,
     "rc": 1363,
+    "voice": false,
     "note": "マゾにとって超お得なM男向け短編フェムドムゲームをサービス!HCG10種類",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ262190.html"
   },
@@ -6075,6 +6336,7 @@
     "dl": 154,
     "rc": 51,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ264036.html",
+    "voice": false,
     "note": "系列首次加入尿意系统、剧情会随之分支的短篇视觉小说集",
     "genres": [
       "159"
@@ -6103,6 +6365,8 @@
       "votes": 4
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ269883.html",
+    "voice": true,
+    "zh": "official",
     "note": "冒险游戏 / 视觉小说（按 DLsite 作品形式 ADV 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "075",
@@ -6134,6 +6398,7 @@
     "dl": 4700,
     "rc": 2444,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ272213.html",
+    "voice": false,
     "note": "冒险游戏 / 视觉小说（按 DLsite 作品形式 ADV 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "432",
@@ -6160,6 +6425,7 @@
     "rate": 4.36,
     "dl": 8711,
     "rc": 2603,
+    "voice": true,
     "note": "×2歳の可愛いロリ巨乳○学生を 誘拐・監禁して、無理やりセックスします。リアルな拉致監禁レイプを疑似体験できるADVゲームです。",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ272990.html"
   },
@@ -6184,6 +6450,7 @@
     "dl": 157,
     "rc": 80,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ277012.html",
+    "voice": false,
     "note": "悬疑气氛浓厚的传奇 ADV",
     "genres": [
       "022",
@@ -6212,6 +6479,7 @@
     "rate": 4.65,
     "dl": 4435,
     "rc": 1213,
+    "voice": false,
     "note": "大人気人外娘逆レイプゲーのキャラ達による、捕食、丸呑みオンリーノベルゲーム総集編! 少年の主人公等がモンスター娘達に敗北し、捕食、消化されるまでをCG、文章、効",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ279436.html"
   },
@@ -6239,6 +6507,8 @@
       "votes": 50
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ281045.html",
+    "voice": false,
+    "series": "RJ231491",
     "note": "以前代魔王参谋身份在地下迷宫迎击讨伐队、辅佐新魔王的 ADV",
     "genres": [
       "502",
@@ -6267,6 +6537,8 @@
     "rate": 4.46,
     "dl": 7164,
     "rc": 3363,
+    "voice": false,
+    "series": "RJ282454",
     "note": "イタズラ小僧が漂流し、流れ着いた島で始まるHなセクハラ生活!  小さな体を武器に、グラマーなお姉ちゃん達にイタズラ種付けヤリ放題♪",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ282454.html"
   },
@@ -6301,6 +6573,8 @@
       "votes": 59
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ289767.html",
+    "voice": true,
+    "zh": "official",
     "note": "用 3D 模型动画表现女友主导 SM 互动的视觉小说，女主全程语音",
     "genres": [
       "509",
@@ -6343,6 +6617,7 @@
       "votes": 100
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ290854.html",
+    "voice": true,
     "note": "冒险游戏 / 视觉小说（按 DLsite 作品形式 ADV 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "068",
@@ -6384,6 +6659,7 @@
       "votes": 1
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ293815.html",
+    "voice": false,
     "note": "数字小说（按 DLsite 作品形式 DNV 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "433",
@@ -6415,6 +6691,7 @@
     "dl": 814,
     "rc": 205,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ296665.html",
+    "voice": true,
     "note": "以烟花大会为舞台、描写女主角忍耐便意的视觉小说系列第三作",
     "genres": [
       "064",
@@ -6447,6 +6724,7 @@
     "dl": 6397,
     "rc": 2472,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ298352.html",
+    "voice": false,
     "note": "点阵画风、与魅魔恋人甜蜜相处的视觉小说",
     "genres": [
       "431",
@@ -6477,6 +6755,7 @@
     "dl": 618,
     "rc": 238,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ299177.html",
+    "voice": true,
     "note": "和邻座温柔又爱捉弄人的褐肤辣妹从「只拥抱的关系」开始的恋爱视觉小说",
     "genres": [
       "058",
@@ -6508,6 +6787,7 @@
     "rate": 4.57,
     "dl": 6219,
     "rc": 2172,
+    "voice": true,
     "note": "底辺人生を歩み続けた用務員が自分を見下すメスガキたちに催眠アプリで復讐を…! 常識を改変し徹底的に辱め、好き放題に犯しまくる…!",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ299487.html"
   },
@@ -6535,6 +6815,7 @@
       "votes": 11
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ299836.html",
+    "voice": false,
     "note": "半同居大学生情侣的女友被搬来的邻居接近的 NTR 题材 ADV",
     "genres": [
       "065",
@@ -6569,6 +6850,7 @@
       "votes": 12
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ300721.html",
+    "voice": true,
     "note": "被迫成为「生殖活动委员」的学园 ADV",
     "genres": [
       "073",
@@ -6600,6 +6882,7 @@
     "rate": 4.55,
     "dl": 2566,
     "rc": 1003,
+    "voice": false,
     "note": "少年勇者と世話焼きヒーラーのイチャラブ短編",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ302288.html"
   },
@@ -6626,6 +6909,8 @@
     "dl": 1669,
     "rc": 205,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ303340.html",
+    "voice": true,
+    "zh": "official",
     "note": "转校生在电车上被「痴汉」，对方却是失散多年的妹妹，姐妹禁忌恋爱 AVG，有配音",
     "genres": [
       "060",
@@ -6666,6 +6951,8 @@
       "votes": 33
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ304857.html",
+    "voice": true,
+    "zh": "official",
     "note": "与女上司发展秘密关系的办公室题材 ADV",
     "genres": [
       "068",
@@ -6709,6 +6996,9 @@
       "votes": 643
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ307838.html",
+    "voice": true,
+    "zh": "official",
+    "series": "RJ01407125",
     "note": "猫娘系列第四作，围绕西点店和温泉旅行展开的日常恋爱 ADV",
     "genres": [
       "008",
@@ -6732,6 +7022,7 @@
     "rate": 4.6,
     "dl": 3527,
     "rc": 1158,
+    "voice": false,
     "note": "DLC第四弾、今回の新たな犠牲者は海外からの留学生3人! 女子校生の身体を目当てに、肝だめしでビビらせる! 失神まで追い込めば、その身体を欲望の赴くままにやりた",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ308502.html"
   },
@@ -6765,6 +7056,8 @@
       "votes": 66
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ308877.html",
+    "voice": true,
+    "zh": "official",
     "note": "与新任女教师 7 天恋爱故事的 3DCG 动画 ADV，场景可多角度观看",
     "genres": [
       "062",
@@ -6805,6 +7098,8 @@
       "votes": 23
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ309761.html",
+    "voice": true,
+    "zh": "official",
     "note": "冒险游戏 / 视觉小说（按 DLsite 作品形式 ADV 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "048",
@@ -6837,6 +7132,7 @@
     "dl": 1081,
     "rc": 421,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ311958.html",
+    "voice": false,
     "note": "人马娘在变了样的家里探索、寻找主人的手绘动画冒险游戏",
     "genres": [
       "073",
@@ -6870,6 +7166,7 @@
     "dl": 1327,
     "rc": 360,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ312658.html",
+    "voice": false,
     "note": "冒险游戏 / 视觉小说（按 DLsite 作品形式 ADV 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "510",
@@ -6906,6 +7203,8 @@
       "votes": 7
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ314380.html",
+    "voice": false,
+    "series": "RJ01103383",
     "note": "数字小说（按 DLsite 作品形式 DNV 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "509",
@@ -6931,6 +7230,7 @@
     "rate": 4.56,
     "dl": 932,
     "rc": 445,
+    "voice": false,
     "note": "爆乳援交JK二人に責められながら搾精されちゃうデジタルノベル。",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ314403.html"
   },
@@ -6953,6 +7253,7 @@
     "rate": 4.38,
     "dl": 1777,
     "rc": 471,
+    "voice": true,
     "note": "〇校生の東雲翠は、男なのに「姫」と呼ばれる男の娘。  そんな翠だったが、夏休み、田舎町の法事に参列した際に偶然見かけた美しい男の娘、ルイス莉緒に目を奪われる。 ",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ316911.html"
   },
@@ -6974,6 +7275,7 @@
     "rate": 4.41,
     "dl": 1321,
     "rc": 447,
+    "voice": true,
     "note": "エッチな事をしたくてたまらない少年が、思いあまってデリヘルの広告に電話をしてみる、おねショタLive2DアニメーションADVです。",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ319355.html"
   },
@@ -7005,6 +7307,7 @@
       "votes": 57
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ319875.html",
+    "voice": true,
     "note": "人妻寝取题材的动画 ADV",
     "genres": [
       "073",
@@ -7034,6 +7337,8 @@
     "rate": 4.64,
     "dl": 7959,
     "rc": 3372,
+    "voice": true,
+    "zh": "official",
     "note": "魔女と猫耳族のお姉さんたちがひっそりと暮らす隠れ里。そんな、不思議な世界に迷い込んでしまうお話。",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ320259.html"
   },
@@ -7063,6 +7368,7 @@
       "votes": 21
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ321839.html",
+    "voice": false,
     "note": "在当作材料仓库的废校里付钱H的游戏，约 3～4 小时",
     "genres": [
       "509",
@@ -7094,6 +7400,7 @@
       "votes": 5
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ324880.html",
+    "voice": false,
     "note": "RPG Maker 制的人妻题材短篇游戏",
     "genres": [
       "510",
@@ -7122,6 +7429,7 @@
     "rate": 4.35,
     "dl": 4410,
     "rc": 1408,
+    "voice": false,
     "note": "二人の少年が女の人にそっくりな人形を拾って秘密基地に持ち帰ってエッチなことをする、Live2DアニメーションADVです。",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ325255.html"
   },
@@ -7157,6 +7465,7 @@
       "votes": 2
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ325681.html",
+    "voice": false,
     "note": "登场角色全为兽人的 ADV",
     "genres": [
       "073",
@@ -7187,6 +7496,7 @@
     "rate": 4.38,
     "dl": 2123,
     "rc": 697,
+    "voice": false,
     "note": "僕とお姉さんとの夏休みの思い出シリーズのゲーム化です!",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ326922.html"
   },
@@ -7215,6 +7525,7 @@
       "votes": 7
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ327542.html",
+    "voice": true,
     "note": "数字小说（按 DLsite 作品形式 DNV 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "056",
@@ -7255,6 +7566,8 @@
       "votes": 18
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ334378.html",
+    "voice": true,
+    "series": "RJ238792",
     "note": "冒险游戏 / 视觉小说（按 DLsite 作品形式 ADV 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "068",
@@ -7291,6 +7604,8 @@
       "votes": 7
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ337712.html",
+    "voice": true,
+    "series": "RJ01103383",
     "note": "数字小说（按 DLsite 作品形式 DNV 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "509",
@@ -7323,6 +7638,7 @@
     "dl": 238,
     "rc": 58,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ340120.html",
+    "voice": false,
     "note": "以气枪为题材的 SM 视觉小说续作，女主角视角",
     "genres": [
       "432",
@@ -7351,6 +7667,7 @@
     "rate": 4.32,
     "dl": 23868,
     "rc": 1491,
+    "voice": true,
     "note": "怪しいおねぇちゃんと過ごす【7日間】の物語。",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ340907.html"
   },
@@ -7372,6 +7689,7 @@
     "rate": 4.43,
     "dl": 1921,
     "rc": 709,
+    "voice": false,
     "note": "短編おねしょた探索ホラー",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ341164.html",
     "pov": "male"
@@ -7399,6 +7717,8 @@
       "votes": 10
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ345152.html",
+    "voice": false,
+    "zh": "official",
     "note": "探索恐怖风格的短篇游戏",
     "genres": [
       "069",
@@ -7440,6 +7760,8 @@
       "votes": 9
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ362528.html",
+    "voice": true,
+    "zh": "fan",
     "note": "奇幻背景、以寝取らせ为主题的 ADV",
     "genres": [
       "219",
@@ -7475,6 +7797,7 @@
     "dl": 35257,
     "rc": 9540,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ370402.html",
+    "voice": false,
     "note": "点阵画面全动态的夏日假期 ADV",
     "src": "dlsite"
   },
@@ -7504,6 +7827,7 @@
       "votes": 29
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ373560.html",
+    "voice": false,
     "note": "在黑暗中探索的恐怖风 ADV，约 4～5 小时",
     "genres": [
       "502",
@@ -7536,6 +7860,7 @@
     "dl": 12973,
     "rc": 4594,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ389725.html",
+    "voice": false,
     "note": "被女孩抱着前进的解谜逃脱 ADV",
     "genres": [
       "065",
@@ -7574,6 +7899,7 @@
       "votes": 5
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ392741.html",
+    "voice": false,
     "note": "在废墟中和女孩相处的 ADV，约 6～8 小时",
     "genres": [
       "509",
@@ -7604,6 +7930,7 @@
     "dl": 357,
     "rc": 137,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ394802.html",
+    "voice": true,
     "note": "拯救世界后遭女神背叛的勇者展开复仇的后宫 ADV",
     "genres": [
       "063",
@@ -7634,6 +7961,8 @@
     "dl": 712,
     "rc": 171,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ395199.html",
+    "voice": true,
+    "zh": "official",
     "note": "收留落难的半兽天使后开始同居生活的恋爱 ADV 第一卷",
     "genres": [
       "051",
@@ -7679,6 +8008,8 @@
       "votes": 917
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ399143.html",
+    "voice": true,
+    "zh": "official",
     "note": "梦中女仆赛拉侍奉主角的无选项 ADV，约 3 小时",
     "genres": [
       "065",
@@ -7708,6 +8039,7 @@
     "rate": 4.64,
     "dl": 7061,
     "rc": 2412,
+    "voice": true,
     "note": "最弱のポンコツインプが人間の王城攻略に挑む!立ちはばかる兵士や最強の四天王たちを前に、インプちゃんのとった行動とは……",
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ402762.html"
   },
@@ -7737,6 +8069,7 @@
       "votes": 8
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ406616.html",
+    "voice": true,
     "note": "冒险游戏 / 视觉小说（按 DLsite 作品形式 ADV 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "160",
@@ -7770,6 +8103,7 @@
     "dl": 385,
     "rc": 128,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ408337.html",
+    "voice": true,
     "note": "获得特殊能力的主人公在城镇里建立后宫的 ADV",
     "genres": [
       "065",
@@ -7805,6 +8139,7 @@
       "votes": 20
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ410262.html",
+    "voice": false,
     "note": "Roguelite 卡牌冒险游戏",
     "genres": [
       "533",
@@ -7845,6 +8180,8 @@
       "votes": 15
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ418575.html",
+    "voice": true,
+    "zh": "official",
     "note": "被非攻略对象诱惑、坚持纯爱的 ADV",
     "genres": [
       "433",
@@ -7878,6 +8215,7 @@
     "dl": 173,
     "rc": 66,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ419937.html",
+    "voice": true,
     "note": "宅男主人公与爱 Cosplay 的辣妹们的后宫 ADV",
     "genres": [
       "065",
@@ -7918,6 +8256,8 @@
       "votes": 11
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ425935.html",
+    "voice": true,
+    "zh": "official",
     "note": "视觉小说与音声作品结合的魅魔题材作品，支持 VR",
     "genres": [
       "509",
@@ -7952,6 +8292,7 @@
     "dl": 5952,
     "rc": 2097,
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ433177.html",
+    "voice": false,
     "note": "数字小说（按 DLsite 作品形式 DNV 归类，复核放回时补的条目，玩法未逐一核对）",
     "genres": [
       "065",
@@ -7987,6 +8328,7 @@
       "votes": 14
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ435112.html",
+    "voice": false,
     "note": "以女主角为中心的剧情 ADV",
     "genres": [
       "065",
@@ -8029,6 +8371,7 @@
       "votes": 43
     },
     "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ439704.html",
+    "voice": true,
     "note": "被女性\"养育\"的养成式 ADV",
     "genres": [
       "063",
@@ -8065,6 +8408,7 @@
       "positive": 87,
       "reviews": 1562
     },
+    "voice": true,
     "note": "飓风中被困在别校校园、一边探索一边解开谜团的 3D 冒险游戏",
     "genres": [
       "502",
@@ -8098,6 +8442,8 @@
       "score": 5,
       "votes": 3
     },
+    "voice": true,
+    "zh": "official",
     "note": "洛夫克拉夫特风格的第一人称恐怖冒险游戏，含解谜与潜行",
     "genres": [
       "502",
@@ -8136,6 +8482,7 @@
       "score": 6.8,
       "votes": 8
     },
+    "voice": false,
     "note": "有分支选择和多结局的欧美成人视觉小说，含喜剧和剧情元素",
     "genres": [
       "502",
@@ -8165,6 +8512,7 @@
       "positive": 68,
       "reviews": 1579
     },
+    "zh": "official",
     "note": "跟着剧情探索神秘世界、和迷路猫咪、女仆、小女巫打交道的休闲冒险游戏"
   },
   {
@@ -8190,6 +8538,8 @@
       "positive": 87,
       "reviews": 987
     },
+    "voice": true,
+    "zh": "official",
     "note": "末日废土上和银发少女薰一起旅行的养成视觉小说，日语配音",
     "genres": [
       "502"
@@ -8227,6 +8577,8 @@
       "score": 8.3,
       "votes": 31
     },
+    "voice": true,
+    "zh": "fan",
     "note": "以大学生活为舞台、由选择推动剧情的成人视觉小说第一季",
     "genres": [
       "502",
@@ -8271,6 +8623,7 @@
       "score": 7,
       "votes": 2
     },
+    "voice": false,
     "note": "扮演私家侦探调查委托人离奇死亡事件的悬疑视觉小说",
     "genres": [
       "502",
@@ -8310,6 +8663,7 @@
       "score": 4.4,
       "votes": 5
     },
+    "zh": "official",
     "note": "沙盒式视觉小说，约 30–40 小时内容，在城市中与多名角色交往",
     "genres": [
       "502",
@@ -8338,6 +8692,8 @@
       "positive": 45,
       "reviews": 128
     },
+    "voice": true,
+    "zh": "official",
     "note": "茶太唱主题曲的动画视觉小说，破碎的家庭与霸凌阴影下三个人的冬季恋歌，40 张动态 CG",
     "genres": [
       "073"
@@ -8372,6 +8728,8 @@
       "rating": 82,
       "votes": 699
     },
+    "voice": true,
+    "zh": "fan",
     "note": "以大学生活为背景、选择驱动的成人视觉小说第二季",
     "genres": [
       "502",
@@ -8408,6 +8766,7 @@
       "positive": 98,
       "reviews": 218
     },
+    "voice": true,
     "note": "1919 年的苏格兰，退伍青年回到农场重建生活、带变身元素的视觉小说",
     "genres": [
       "502"
@@ -8442,6 +8801,7 @@
       "rating": 69.4,
       "votes": 107
     },
+    "voice": false,
     "note": "结合自由探索、视觉小说与约会模拟的兽人题材成人游戏，可攻略角色 20 多名",
     "genres": [
       "502",
@@ -8472,6 +8832,8 @@
       "positive": 67,
       "reviews": 200
     },
+    "voice": true,
+    "zh": "official",
     "note": "男主死后穿越异世界、和各种妹子探讨人生大事的搞笑视觉小说",
     "genres": [
       "502"
@@ -8499,6 +8861,7 @@
       "positive": 79,
       "reviews": 229
     },
+    "zh": "official",
     "note": "房东通过偷装的摄像头看楼上姐妹的生活、在突发事件时做选择的文字冒险"
   },
   {
@@ -8537,6 +8900,8 @@
       "score": 6.6,
       "votes": 54
     },
+    "voice": true,
+    "zh": "official",
     "note": "以大学新生生活为背景、选择驱动的成人视觉小说",
     "genres": [
       "502",
@@ -8575,6 +8940,7 @@
       "rating": 75.5,
       "votes": 157
     },
+    "voice": false,
     "note": "赛博朋克题材、由选择推动剧情的成人视觉小说",
     "genres": [
       "502",
@@ -8604,6 +8970,7 @@
       "positive": 89,
       "reviews": 4845
     },
+    "zh": "official",
     "note": "由多个独立小故事组成的互动小说，画面精美、操作简单"
   },
   {
@@ -8644,6 +9011,8 @@
       "score": 5.8,
       "votes": 43
     },
+    "voice": false,
+    "zh": "official",
     "note": "与被诅咒变成猫的女孩同居的轻松恋爱游戏",
     "genres": [
       "502"
@@ -8679,6 +9048,7 @@
       "rating": 65.3,
       "votes": 99
     },
+    "voice": true,
     "note": "美国大学校园生活题材、由选择推动剧情的视觉小说",
     "genres": [
       "502",
@@ -8708,6 +9078,8 @@
       "positive": 66,
       "reviews": 1993
     },
+    "voice": true,
+    "zh": "official",
     "note": "得到透视能力的男主用「真理之眼」一个个解开校园秘密的多结局互动小说",
     "genres": [
       "502"
@@ -8736,6 +9108,7 @@
       "positive": 70,
       "reviews": 1208
     },
+    "zh": "official",
     "note": "没落贵族千金被女伯爵囚进地牢，靠身体和智慧求生或沉沦的多结局视觉小说",
     "genres": [
       "432",
@@ -8767,6 +9140,7 @@
       "positive": 49,
       "reviews": 113
     },
+    "zh": "official",
     "note": "救生员亨利和六只雄龙度过海岛假日的 BL 视觉小说",
     "genres": [
       "502"
@@ -8795,6 +9169,7 @@
       "positive": 92,
       "reviews": 4314
     },
+    "zh": "official",
     "note": "鬼宅里狐狸少女和女主的百合喜剧恐怖视觉小说",
     "genres": [
       "432",
@@ -8825,6 +9200,7 @@
       "positive": 94,
       "reviews": 1112
     },
+    "voice": true,
     "note": "万圣夜被吸血鬼和魅魔两位怪物娘约会、要设法活下来的视觉小说",
     "genres": [
       "502",
@@ -8854,6 +9230,7 @@
       "positive": 84,
       "reviews": 2487
     },
+    "zh": "official",
     "note": "社畜男主的职场恋爱轻喜剧视觉小说，带不少趣味小游戏和动态 CG",
     "genres": [
       "502",
@@ -8920,6 +9297,7 @@
       "positive": 77,
       "reviews": 199
     },
+    "zh": "official",
     "note": "成人向 BL 游戏，养成加文字冒险，七条结局",
     "genres": [
       "502"
@@ -8949,6 +9327,7 @@
       "positive": 97,
       "reviews": 332
     },
+    "voice": true,
     "note": "《爱情真要命》第二部，继续在怪物们的约会中求生的视觉小说",
     "genres": [
       "502",
@@ -8982,6 +9361,8 @@
       "rating": 66.3,
       "votes": 53
     },
+    "voice": true,
+    "zh": "official",
     "note": "西方视觉小说，20 位可攻略角色各有独立剧情线",
     "genres": [
       "502",
@@ -9011,6 +9392,7 @@
       "positive": 73,
       "reviews": 303
     },
+    "zh": "official",
     "note": "被卡车撞死后换脸重生、欠下巨债替牛角女孩收集「爱」的 NTR 后宫视觉小说",
     "genres": [
       "502",
@@ -9052,6 +9434,7 @@
       "score": 8.3,
       "votes": 6
     },
+    "voice": false,
     "note": "以一个夏天为舞台、带选项分支的成人视觉小说",
     "genres": [
       "502",
@@ -9092,6 +9475,7 @@
       "score": 8,
       "votes": 1
     },
+    "voice": false,
     "note": "兄妹重返故乡海岛的剧情向 3D 视觉小说",
     "genres": [
       "502",
@@ -9122,6 +9506,7 @@
       "positive": 78,
       "reviews": 1043
     },
+    "zh": "official",
     "note": "天文异象后学生接连失踪，男主追查失踪女友下落的恐怖解谜 ADV，多结局",
     "genres": [
       "502"
@@ -9159,6 +9544,7 @@
       "score": 7,
       "votes": 1
     },
+    "voice": false,
     "note": "手绘风格的选择式生存恐怖冒险，成人内容可选",
     "genres": [
       "432",
@@ -9196,6 +9582,8 @@
       "rating": 69.9,
       "votes": 44
     },
+    "voice": false,
+    "zh": "official",
     "note": "多选项多结局的西方视觉小说",
     "genres": [
       "502",
@@ -9227,6 +9615,7 @@
       "positive": 96,
       "reviews": 215
     },
+    "voice": true,
     "note": "被谣言陷害的大学生向散布谣言的女生们复仇的视觉小说",
     "genres": [
       "502",
@@ -9256,6 +9645,8 @@
       "positive": 74,
       "reviews": 109
     },
+    "voice": true,
+    "zh": "official",
     "note": "女尊男卑世界里进入帝女集团接受七天「训狗」培训的探索 ADV，9 万字",
     "genres": [
       "502",
@@ -9288,6 +9679,7 @@
       "positive": 62,
       "reviews": 1980
     },
+    "zh": "official",
     "note": "发现青梅女友手机里的秘密后求助「苦主救助中心」的 NTR 向互动叙事游戏",
     "genres": [
       "502",
@@ -9318,6 +9710,7 @@
       "positive": 98,
       "reviews": 255
     },
+    "voice": true,
     "note": "书店店员发现能把人变成兽人的魔法茶后人生被改变的视觉小说，多结局",
     "genres": [
       "432",
@@ -9350,6 +9743,7 @@
       "positive": 89,
       "reviews": 8099
     },
+    "zh": "official",
     "note": "修仙题材的桌宠 AVG，被蛇妖附身的男主三十天内要找道侣双修续命，带养成和小游戏",
     "genres": [
       "502",
@@ -9379,6 +9773,7 @@
       "positive": 82,
       "reviews": 288
     },
+    "zh": "official",
     "note": "青春题材的恋爱视觉小说，讲一段暑假里的情事，还在抢先体验"
   },
   {
@@ -9410,6 +9805,7 @@
       "rating": 83.1,
       "votes": 164
     },
+    "voice": false,
     "note": "大学生活题材的 3D 视觉小说，剧情和分支较多",
     "genres": [
       "502",
@@ -9440,6 +9836,8 @@
       "positive": 61,
       "reviews": 645
     },
+    "voice": true,
+    "zh": "official",
     "note": "即将毕业的处男大学生被继母、健身教练和导师攻势包围的 3D 视觉小说，目标解锁全部剧情",
     "genres": [
       "502",
@@ -9469,6 +9867,7 @@
       "positive": 57,
       "reviews": 834
     },
+    "zh": "official",
     "note": "苦主和黄毛双线的 NTR 向互动叙事游戏，全剧情配音",
     "genres": [
       "502",
@@ -9504,6 +9903,8 @@
       "rating": 67.8,
       "votes": 28
     },
+    "voice": false,
+    "zh": "official",
     "note": "西方视觉小说，变成狼人的主人公结识各种怪物娘",
     "genres": [
       "502",
@@ -9536,6 +9937,8 @@
       "positive": 85,
       "reviews": 355
     },
+    "voice": true,
+    "zh": "official",
     "note": "深夜游乐园里的都市传说，打工人要在千金、修女和狐耳少女之间做选择的恋爱 ADV",
     "genres": [
       "502"
@@ -9564,6 +9967,7 @@
       "positive": 69,
       "reviews": 113
     },
+    "zh": "official",
     "note": "能源一夜消失后被迫参加生存游戏的大学生和女孩们的恋爱视觉小说，第一季",
     "genres": [
       "502",
@@ -9612,6 +10016,8 @@
       "score": 7,
       "votes": 465
     },
+    "voice": true,
+    "zh": "official",
     "note": "夏日乡村的 Live2D 恋爱冒险，批评空间中央值 81；日版《夏色クローバー》2025 年上架 DLsite",
     "genres": [
       "502",
@@ -9643,6 +10049,7 @@
       "positive": 95,
       "reviews": 386
     },
+    "zh": "official",
     "note": "丧尸末日中建立并保护幸存者派系的 3D 视觉小说",
     "genres": [
       "509",
@@ -9682,6 +10089,8 @@
       "score": 8.1,
       "votes": 9
     },
+    "voice": true,
+    "zh": "official",
     "note": "以侦探身份查明真相的病娇乙女向悬疑视觉小说",
     "genres": [
       "432",
@@ -9721,6 +10130,8 @@
       "rating": 65.4,
       "votes": 20
     },
+    "voice": true,
+    "zh": "official",
     "note": "西方视觉小说，主人公努力改变人生",
     "genres": [
       "502",
@@ -9752,6 +10163,8 @@
       "positive": 93,
       "reviews": 393
     },
+    "voice": true,
+    "zh": "official",
     "note": "人类与蜥蜴族和解后的奇幻视觉小说续作",
     "genres": [
       "073",
@@ -9791,6 +10204,8 @@
       "score": 7,
       "votes": 3
     },
+    "voice": false,
+    "zh": "official",
     "note": "以女主角为视角的 3D 剧情冒险，选择决定走向，抢先体验版",
     "genres": [
       "432",
@@ -9824,6 +10239,7 @@
       "positive": 79,
       "reviews": 158
     },
+    "zh": "official",
     "note": "母胎单身三十年穿越进后宫向黄油世界，不进 H 剧情就 BE 的搞笑视觉小说",
     "genres": [
       "502",
@@ -9856,6 +10272,7 @@
       "positive": 89,
       "reviews": 2056
     },
+    "zh": "official",
     "note": "RPG Maker 风格的剧情冒险，围绕邻居人妻展开多结局故事",
     "genres": [
       "502",
@@ -9888,6 +10305,7 @@
       "positive": 94,
       "reviews": 344
     },
+    "voice": true,
     "note": "新兵加入全员魔物娘的私营军事公司的喜剧视觉小说",
     "genres": [
       "502",
@@ -9928,6 +10346,7 @@
       "score": 8.7,
       "votes": 3
     },
+    "zh": "official",
     "note": "太空题材的西方视觉小说续作",
     "genres": [
       "502",
@@ -9968,6 +10387,8 @@
       "score": 7.8,
       "votes": 38
     },
+    "voice": false,
+    "zh": "official",
     "note": "后末日沙漠题材的 3D 渲染视觉小说，选择影响剧情，抢先体验版",
     "genres": [
       "502",
@@ -10005,6 +10426,7 @@
       "score": 4.8,
       "votes": 11
     },
+    "zh": "official",
     "note": "西方 3D 视觉小说，主人公辞职后搬到新城市，结识六位女主角",
     "genres": [
       "502",
@@ -10045,6 +10467,7 @@
       "score": 8,
       "votes": 2
     },
+    "zh": "official",
     "note": "西方 3D 视觉小说，主人公突然成为一家之主",
     "genres": [
       "502",
@@ -10109,6 +10532,8 @@
       "score": 6.1,
       "votes": 9
     },
+    "voice": true,
+    "zh": "official",
     "note": "在咖啡厅与八位女性相遇的 2D 互动恋爱冒险",
     "genres": [
       "113",
@@ -10139,6 +10564,7 @@
       "positive": 91,
       "reviews": 185
     },
+    "zh": "official",
     "note": "像素风的兽人恋爱视觉小说，搬进 Carol 的店后和兽人们共度日常",
     "genres": [
       "431"
@@ -10166,6 +10592,7 @@
       "positive": 93,
       "reviews": 492
     },
+    "zh": "official",
     "note": "轻松的点击式冒险游戏，精灵少女拯救村庄",
     "genres": [
       "432",
@@ -10201,6 +10628,7 @@
       "positive": 74,
       "reviews": 265
     },
+    "zh": "official",
     "note": "乙女向多结局 AVG，在蓝色月夜里邂逅已逝之人的灵魂",
     "genres": [
       "432"
@@ -10238,6 +10666,8 @@
       "score": 8,
       "votes": 1
     },
+    "voice": false,
+    "zh": "official",
     "note": "西方 3D 视觉小说，法学院学生的校园生活，含小游戏",
     "genres": [
       "502",
@@ -10271,6 +10701,7 @@
       "positive": 94,
       "reviews": 113
     },
+    "voice": true,
     "note": "痴迷熟女的青年进入儿时偶像经营的公司工作的喜剧视觉小说",
     "genres": [
       "502",
@@ -10300,6 +10731,8 @@
       "positive": 78,
       "reviews": 193
     },
+    "voice": true,
+    "zh": "official",
     "note": "在异世界餐酒馆里和各种魔物娘结缘、挖掘她们故事的视觉小说，带小游戏",
     "genres": [
       "317",
@@ -10330,6 +10763,8 @@
       "positive": 84,
       "reviews": 319
     },
+    "voice": true,
+    "zh": "official",
     "note": "陪热爱 Cosplay 的人妻向职业 coser 迈进的互动小说，18 组全动画 H",
     "genres": [
       "502",
@@ -10362,6 +10797,7 @@
       "positive": 62,
       "reviews": 107
     },
+    "zh": "official",
     "note": "被当 ATM 的龟男向黄毛和拜金女复仇的视觉小说，多结局",
     "genres": [
       "502",
@@ -10392,6 +10828,7 @@
       "positive": 94,
       "reviews": 118
     },
+    "zh": "official",
     "note": "召唤出恶魔少女后约会、培养感情并一起战斗的视觉小说，带时间管理",
     "genres": [
       "048",
@@ -10430,6 +10867,8 @@
       "score": 5.5,
       "votes": 6
     },
+    "voice": true,
+    "zh": "official",
     "note": "在后宫担任御医、周旋于阴谋之间的视觉小说",
     "genres": [
       "073",
@@ -10465,6 +10904,8 @@
       "score": 5.7,
       "votes": 23
     },
+    "voice": true,
+    "zh": "official",
     "note": "掷骰战斗＋恋爱喜剧的视觉小说，挑战 18 个试炼",
     "genres": [
       "431",
@@ -10504,6 +10945,8 @@
       "score": 7,
       "votes": 1
     },
+    "voice": true,
+    "zh": "official",
     "note": "西方视觉小说，围绕欲望、信任与秘密展开",
     "genres": [
       "502",
@@ -10543,6 +10986,8 @@
       "score": 5,
       "votes": 1
     },
+    "voice": false,
+    "zh": "official",
     "note": "失忆主人公在怪物横行世界中求生的冒险游戏",
     "genres": [
       "502"
@@ -10574,6 +11019,7 @@
       "score": 7,
       "votes": 1
     },
+    "zh": "official",
     "note": "与执念很深的女人之间奇妙关系的短篇故事",
     "genres": [
       "113",
@@ -10617,6 +11063,8 @@
       "score": 7.4,
       "votes": 438
     },
+    "voice": true,
+    "zh": "official",
     "note": "帮助屋顶上的两位幽灵少女撮合校园情侣的百合 ADV",
     "genres": [
       "432",
@@ -10648,6 +11096,7 @@
       "positive": 63,
       "reviews": 288
     },
+    "zh": "official",
     "note": "探讨绿帽癖心理的叙事向视觉小说，看妻子梅从羞耻到兴奋的转变，H 场面有动画",
     "genres": [
       "502",
@@ -10690,6 +11139,8 @@
       "score": 5.8,
       "votes": 379
     },
+    "voice": true,
+    "zh": "official",
     "note": "变成猫的女忍者住进主角家的短篇恋爱 ADV（Steam 版 R18 内容需另装补丁）",
     "genres": [
       "502",
@@ -10749,6 +11200,8 @@
       "positive": 89,
       "reviews": 158
     },
+    "voice": true,
+    "zh": "official",
     "note": "剧情向 AVG，女主加藤诗为帮摄影师男友接触各种人和世界，结局随你的选择变化",
     "genres": [
       "432"
@@ -10822,6 +11275,8 @@
       "score": 6.5,
       "votes": 558
     },
+    "voice": true,
+    "zh": "official",
     "note": "神社之子与神通力少女们的校园恋爱 ADV（Steam 版）",
     "genres": [
       "502",
@@ -10851,6 +11306,7 @@
       "positive": 92,
       "reviews": 4188
     },
+    "zh": "official",
     "note": "大学生突然看见三位猫科神灵的 BL 视觉小说，台湾民俗题材",
     "genres": [
       "502"
@@ -10879,6 +11335,8 @@
       "positive": 77,
       "reviews": 279
     },
+    "voice": true,
+    "zh": "official",
     "note": "十年前的约定，盛夏乡村之旅重逢的恋爱视觉小说",
     "genres": [
       "502"
@@ -10918,6 +11376,7 @@
       "score": 7,
       "votes": 1
     },
+    "voice": false,
     "note": "与狼族女孩们交流的英文原创视觉小说",
     "genres": [
       "432",
@@ -10957,6 +11416,8 @@
       "score": 7.3,
       "votes": 3
     },
+    "voice": true,
+    "zh": "official",
     "note": "以冬天与音乐为题材的英文原创恋爱视觉小说",
     "genres": [
       "502",
@@ -10994,6 +11455,7 @@
       "rating": 63.2,
       "votes": 37
     },
+    "voice": true,
     "note": "为救被魔女变成女性的青梅竹马，与魔女进行三次约会的视觉小说（抢先体验）",
     "genres": [
       "502",
@@ -11023,6 +11485,7 @@
       "positive": 95,
       "reviews": 119
     },
+    "zh": "official",
     "note": "大学生罗宾和室友兼青梅竹马艾莉西亚尝试捆绑的百合短篇视觉小说",
     "genres": [
       "432",
@@ -11063,6 +11526,8 @@
       "score": 6.8,
       "votes": 431
     },
+    "voice": true,
+    "zh": "official",
     "note": "在死者复苏的近未来东京再杀死者的赛博朋克 ADV",
     "genres": [
       "432",
@@ -11108,6 +11573,8 @@
       "score": 6.8,
       "votes": 1765
     },
+    "voice": true,
+    "zh": "official",
     "note": "以架空和风帝国复国为主线的忠义与恋爱 ADV",
     "genres": [
       "502"
@@ -11147,6 +11614,8 @@
       "score": 7,
       "votes": 207
     },
+    "voice": true,
+    "series": "vndb-v15744",
     "note": "商业 ADV / 视觉小说（复核放回时补的条目，按 VNDB 标签归类，玩法未逐一核对）",
     "genres": [
       "502",
@@ -11189,6 +11658,8 @@
       "score": 8.1,
       "votes": 1897
     },
+    "voice": true,
+    "zh": "official",
     "note": "商业 ADV / 视觉小说（复核放回时补的条目，按 VNDB 标签归类，玩法未逐一核对）",
     "genres": [
       "502",
@@ -11232,6 +11703,8 @@
       "score": 6.7,
       "votes": 819
     },
+    "voice": true,
+    "zh": "official",
     "note": "围绕学生会与才华横溢的女主角们的校园恋爱喜剧",
     "genres": [
       "502",
@@ -11274,6 +11747,8 @@
       "score": 7.3,
       "votes": 1299
     },
+    "voice": true,
+    "zh": "fan",
     "note": "《少女理论》系列的续篇恋爱 ADV，主角以服装设计为目标",
     "genres": [
       "502",
@@ -11315,6 +11790,9 @@
       "score": 7.2,
       "votes": 1764
     },
+    "voice": true,
+    "zh": "official",
+    "series": "vndb-v18148",
     "note": "冥界皇女来到人间后展开的喜剧恋爱 ADV",
     "genres": [
       "502",
@@ -11358,6 +11836,8 @@
       "score": 6.7,
       "votes": 2653
     },
+    "voice": true,
+    "zh": "official",
     "note": "主角照顾一群\"残念\"大小姐的喜剧恋爱 ADV",
     "genres": [
       "502"
@@ -11397,6 +11877,7 @@
       "score": 7.6,
       "votes": 175
     },
+    "voice": true,
     "note": "调查并解决学园七大不可思议的怪奇 ADV",
     "genres": [
       "502",
@@ -11437,6 +11918,8 @@
       "score": 7.2,
       "votes": 948
     },
+    "voice": true,
+    "zh": "fan",
     "note": "从相识到婚后都有描写的长篇恋爱 ADV",
     "genres": [
       "502",
@@ -11479,6 +11962,7 @@
       "score": 6.9,
       "votes": 197
     },
+    "voice": true,
     "note": "六名男女被监禁、被迫参加死亡游戏的推理 ADV",
     "genres": [
       "502",
@@ -11525,6 +12009,8 @@
       "score": 6.7,
       "votes": 1566
     },
+    "voice": true,
+    "zh": "fan",
     "note": "商业 ADV / 视觉小说（复核放回时补的条目，按 VNDB 标签归类，玩法未逐一核对）",
     "genres": [
       "502",
@@ -11572,6 +12058,8 @@
       "score": 7.5,
       "votes": 3152
     },
+    "voice": true,
+    "zh": "official",
     "note": "能以\"言灵\"操纵他人的主角在小镇生活的学园恋爱 ADV",
     "genres": [
       "502",
@@ -11613,6 +12101,7 @@
       "score": 7.3,
       "votes": 177
     },
+    "voice": true,
     "note": "以新选组为题材的幕末时代剧 ADV",
     "genres": [
       "502"
@@ -11653,6 +12142,8 @@
       "score": 6.8,
       "votes": 7504
     },
+    "voice": true,
+    "zh": "official",
     "note": "在温泉小镇与神刀、诅咒相关的和风校园恋爱 ADV",
     "genres": [
       "502",
@@ -11695,6 +12186,7 @@
       "score": 7,
       "votes": 53
     },
+    "voice": true,
     "note": "light 蒸汽朋克“Silverio”系列第二作，热血战斗 ADV",
     "genres": [
       "502",
@@ -11740,6 +12232,9 @@
       "score": 6.2,
       "votes": 2333
     },
+    "voice": true,
+    "zh": "fan",
+    "series": "vndb-v19233",
     "note": "在洋馆中反复轮回、追查真相的猎奇悬疑 ADV",
     "genres": [
       "432",
@@ -11791,6 +12286,8 @@
       "score": 6.9,
       "votes": 956
     },
+    "voice": true,
+    "zh": "official",
     "note": "在特殊学园重新体验校园生活的青春 ADV",
     "genres": [
       "502"
@@ -11834,6 +12331,8 @@
       "score": 6.7,
       "votes": 2351
     },
+    "voice": true,
+    "zh": "official",
     "note": "在花朵寄宿生命的世界里描写信赖与羁绊的 ADV",
     "genres": [
       "502"
@@ -11871,6 +12370,7 @@
       "score": 7.4,
       "votes": 189
     },
+    "voice": true,
     "note": "能听到他人心声的主角解决事件的推理悬疑 ADV",
     "genres": [
       "502",
@@ -11909,6 +12409,9 @@
       "score": 6.4,
       "votes": 4981
     },
+    "voice": true,
+    "zh": "official",
+    "series": "vndb-v19829",
     "note": "能力者事件与恋爱交织的系列 ADV 第一章",
     "genres": [
       "502",
@@ -11950,6 +12453,9 @@
       "score": 7.5,
       "votes": 1000
     },
+    "voice": true,
+    "zh": "official",
+    "series": "vndb-v18148",
     "note": "人气恋爱喜剧 ADV 的续作",
     "genres": [
       "502",
@@ -11992,6 +12498,8 @@
       "score": 6.7,
       "votes": 838
     },
+    "voice": true,
+    "zh": "fan",
     "note": "以校园连续事件为主线的悬疑 ADV",
     "genres": [
       "502",
@@ -12042,6 +12550,8 @@
       "score": 8.1,
       "votes": 3562
     },
+    "voice": true,
+    "zh": "official",
     "note": "以绘画和艺术为主题的长篇剧情 ADV，《サクラノ詩》的续作",
     "genres": [
       "432",
@@ -12088,6 +12598,8 @@
       "score": 7.2,
       "votes": 2004
     },
+    "voice": true,
+    "zh": "fan",
     "note": "剧情悬疑色彩浓厚的恋爱 ADV",
     "genres": [
       "502",
@@ -12129,6 +12641,8 @@
       "score": 7.5,
       "votes": 316
     },
+    "voice": true,
+    "zh": "fan",
     "note": "和风小镇背景的恋爱 ADV",
     "genres": [
       "502"
@@ -12168,6 +12682,7 @@
       "score": 7.8,
       "votes": 58
     },
+    "voice": true,
     "note": "商业 ADV / 视觉小说（复核放回时补的条目，按 VNDB 标签归类，玩法未逐一核对）",
     "genres": [
       "502",
@@ -12217,6 +12732,8 @@
       "score": 7.9,
       "votes": 2777
     },
+    "voice": true,
+    "zh": "fan",
     "note": "在虚拟现实世界中与人工智能少女一同拯救人类的科幻 ADV",
     "genres": [
       "502",
@@ -12259,6 +12776,8 @@
       "score": 8.3,
       "votes": 2108
     },
+    "voice": true,
+    "zh": "official",
     "note": "《苍之彼方的四重奏》的续篇 FD，围绕飞行竞技展开的后日谈 ADV",
     "genres": [
       "502"
@@ -12296,6 +12815,8 @@
       "score": 7.3,
       "votes": 2124
     },
+    "voice": true,
+    "zh": "fan",
     "note": "围绕许愿“青鸟”传说展开的恋爱 ADV",
     "genres": [
       "502",
@@ -12341,6 +12862,8 @@
       "score": 7.4,
       "votes": 2290
     },
+    "voice": true,
+    "zh": "official",
     "note": "从“先交往看看”开始的社会人恋爱 ADV",
     "genres": [
       "502",
@@ -12380,6 +12903,8 @@
       "score": 6.1,
       "votes": 984
     },
+    "voice": true,
+    "zh": "official",
     "note": "文字能化为异能的世界里展开的悬疑 ADV",
     "genres": [
       "502",
@@ -12433,6 +12958,9 @@
       "score": 7.2,
       "votes": 4879
     },
+    "voice": true,
+    "zh": "official",
+    "series": "vndb-v19829",
     "note": "「9-nine-」系列第二部，异能战斗与悬疑 ADV",
     "genres": [
       "502",
@@ -12476,6 +13004,9 @@
       "score": 7.6,
       "votes": 3367
     },
+    "voice": true,
+    "zh": "official",
+    "series": "vndb-v21852",
     "note": "平凡学生与来留学的异国公主相遇的恋爱 ADV",
     "genres": [
       "502",
@@ -12517,6 +13048,7 @@
       "score": 6.2,
       "votes": 114
     },
+    "voice": true,
     "note": "商业 ADV / 视觉小说（复核放回时补的条目，按 VNDB 标签归类，玩法未逐一核对）",
     "genres": [
       "502"
@@ -12559,6 +13091,8 @@
       "score": 6.4,
       "votes": 119
     },
+    "voice": true,
+    "zh": "fan",
     "note": "商业 ADV / 视觉小说（复核放回时补的条目，按 VNDB 标签归类，玩法未逐一核对）",
     "genres": [
       "502",
@@ -12599,6 +13133,8 @@
       "score": 7.1,
       "votes": 724
     },
+    "voice": true,
+    "zh": "fan",
     "note": "侦探社主角追查连续猎奇事件的推理悬疑 ADV",
     "genres": [
       "502",
@@ -12640,6 +13176,8 @@
       "score": 6.8,
       "votes": 1634
     },
+    "voice": true,
+    "zh": "official",
     "note": "与女主角们在合租房同居的恋爱 ADV",
     "genres": [
       "502",
@@ -12678,6 +13216,8 @@
       "score": 6.5,
       "votes": 4462
     },
+    "voice": true,
+    "zh": "official",
     "note": "异能者学园里执行潜入任务的恋爱 ADV",
     "genres": [
       "502",
@@ -12718,6 +13258,8 @@
       "score": 6.2,
       "votes": 64
     },
+    "voice": true,
+    "zh": "fan",
     "note": "Navel 制作的近未来恋爱 ADV",
     "genres": [
       "502"
@@ -12755,6 +13297,8 @@
       "score": 8.2,
       "votes": 2770
     },
+    "voice": true,
+    "zh": "official",
     "note": "以“魔女”与转生为主题的长篇奇幻剧情 ADV",
     "genres": [
       "502",
@@ -12795,6 +13339,9 @@
       "score": 6.6,
       "votes": 734
     },
+    "voice": true,
+    "zh": "fan",
+    "series": "vndb-v22553",
     "note": "商业 ADV / 视觉小说（复核放回时补的条目，按 VNDB 标签归类，玩法未逐一核对）",
     "genres": [
       "502",
@@ -12842,6 +13389,8 @@
       "score": 7.1,
       "votes": 1349
     },
+    "voice": true,
+    "zh": "fan",
     "note": "CLOCKUP 制作的奇幻题材 ADV",
     "genres": [
       "502",
@@ -12894,6 +13443,7 @@
       "score": 6.6,
       "votes": 130
     },
+    "voice": true,
     "note": "商业 ADV / 视觉小说（复核放回时补的条目，按 VNDB 标签归类，玩法未逐一核对）",
     "genres": [
       "502",
@@ -12938,6 +13488,8 @@
       "score": 8.4,
       "votes": 916
     },
+    "voice": true,
+    "zh": "fan",
     "note": "主角加入独立乐队、追逐音乐梦想的青春剧情 ADV",
     "genres": [
       "502"
@@ -12978,6 +13530,9 @@
       "score": 7,
       "votes": 660
     },
+    "voice": true,
+    "zh": "official",
+    "series": "vndb-v22880",
     "note": "被星之女神牵线的恋爱喜剧 ADV",
     "genres": [
       "502",
@@ -13019,6 +13574,7 @@
       "score": 7,
       "votes": 62
     },
+    "voice": true,
     "note": "AKABEiSOFT3 制作的纯爱 ADV",
     "genres": [
       "502",
@@ -13057,6 +13613,9 @@
       "score": 7.4,
       "votes": 4592
     },
+    "voice": true,
+    "zh": "official",
+    "series": "vndb-v22899",
     "note": "在性规范特殊的小岛上，主角们对抗岛上规则的喜剧 ADV",
     "genres": [
       "502",
@@ -13099,6 +13658,9 @@
       "score": 6.2,
       "votes": 344
     },
+    "voice": true,
+    "zh": "official",
+    "series": "vndb-v22880",
     "note": "「宿星的女朋友」续作，新增女主角路线",
     "genres": [
       "502",
@@ -13144,6 +13706,8 @@
       "score": 7.4,
       "votes": 1285
     },
+    "voice": true,
+    "zh": "official",
     "note": "在雪之小镇迎来圣诞、反复轮回的悬疑 ADV",
     "genres": [
       "502"
@@ -13183,6 +13747,8 @@
       "score": 6.9,
       "votes": 523
     },
+    "voice": true,
+    "zh": "fan",
     "note": "以梦与回忆为主题、多视角叙事的剧情 ADV",
     "genres": [
       "502",
@@ -13224,6 +13790,9 @@
       "score": 6.9,
       "votes": 4142
     },
+    "voice": true,
+    "zh": "official",
+    "series": "vndb-v19829",
     "note": "《9-nine-》系列第三章，围绕神器碎片与超能力事件展开的奇幻 ADV",
     "genres": [
       "502",
@@ -13265,6 +13834,9 @@
       "score": 8.1,
       "votes": 2803
     },
+    "voice": true,
+    "zh": "official",
+    "series": "vndb-v22899",
     "note": "在规则荒诞的海岛上展开对抗的喜剧 ADV 续作",
     "genres": [
       "502",
@@ -13309,6 +13881,8 @@
       "score": 6,
       "votes": 244
     },
+    "voice": true,
+    "zh": "fan",
     "note": "ウグイスカグラ制作的科幻恋爱 ADV",
     "genres": [
       "502"
@@ -13351,6 +13925,8 @@
       "score": 7,
       "votes": 835
     },
+    "voice": true,
+    "zh": "official",
     "note": "夏日海边小镇的青春恋爱 ADV",
     "genres": [
       "502",
@@ -13392,6 +13968,9 @@
       "score": 7.4,
       "votes": 2096
     },
+    "voice": true,
+    "zh": "official",
+    "series": "vndb-v21852",
     "note": "《金色ラブリッチェ》的续篇 FD，补完各女主角的后续故事",
     "genres": [
       "502",
@@ -13433,6 +14012,9 @@
       "score": 7.3,
       "votes": 965
     },
+    "voice": true,
+    "zh": "fan",
+    "series": "vndb-v24803",
     "note": "各女主角路线独立成章的纯爱恋爱 ADV",
     "genres": [
       "502",
@@ -13474,6 +14056,9 @@
       "score": 5.8,
       "votes": 992
     },
+    "voice": true,
+    "zh": "fan",
+    "series": "vndb-v24987",
     "note": "围绕天才女主角的科幻恋爱视觉小说",
     "genres": [
       "502"
@@ -13511,6 +14096,8 @@
       "score": 6.7,
       "votes": 91
     },
+    "voice": true,
+    "zh": "official",
     "note": "穿越到源平合战时代的历史题材视觉小说",
     "genres": [
       "502",
@@ -13549,6 +14136,8 @@
       "score": 6.9,
       "votes": 2270
     },
+    "voice": true,
+    "zh": "official",
     "note": "以“租借恋人”为题材的恋爱喜剧 ADV",
     "genres": [
       "502",
@@ -13587,6 +14176,9 @@
       "score": 7.2,
       "votes": 1568
     },
+    "voice": true,
+    "zh": "official",
+    "series": "vndb-v26000",
     "note": "与恶魔少女同居、展开轻松日常的恋爱喜剧 ADV",
     "genres": [
       "502",
@@ -13626,6 +14218,9 @@
       "score": 7.3,
       "votes": 1873
     },
+    "voice": true,
+    "zh": "fan",
+    "series": "vndb-v26307",
     "note": "按日历推进、各女主独立攻略的甜蜜恋爱视觉小说",
     "genres": [
       "502",
@@ -13668,6 +14263,8 @@
       "score": 6.4,
       "votes": 3931
     },
+    "voice": true,
+    "zh": "official",
     "note": "主角与女主角们经营咖啡馆、同时卷入“死神之蝶”事件的恋爱 ADV",
     "genres": [
       "502",
@@ -13709,6 +14306,9 @@
       "score": 7.4,
       "votes": 378
     },
+    "voice": true,
+    "zh": "fan",
+    "series": "vndb-v24803",
     "note": "《在月之彼岸邂逅》的 Fan Disc，描写交往后的甜蜜日常",
     "genres": [
       "502",
@@ -13753,6 +14353,9 @@
       "score": 7.7,
       "votes": 4354
     },
+    "voice": true,
+    "zh": "official",
+    "series": "vndb-v19829",
     "note": "异能战斗题材系列视觉小说的第四作",
     "genres": [
       "502",
@@ -13797,6 +14400,8 @@
       "score": 7.6,
       "votes": 2365
     },
+    "voice": true,
+    "zh": "official",
     "note": "主角穿越到大正时代东京当侦探的推理恋爱视觉小说",
     "genres": [
       "502",
@@ -13835,6 +14440,8 @@
       "score": 7.4,
       "votes": 1886
     },
+    "voice": true,
+    "zh": "official",
     "note": "由三个不同时代、不同主角的故事组成的视觉小说",
     "genres": [
       "502",
@@ -13882,6 +14489,8 @@
       "score": 7.1,
       "votes": 918
     },
+    "voice": true,
+    "zh": "official",
     "note": "公主女主角在西洋城堡中展开的剧情 ADV，有多个坏结局",
     "genres": [
       "432",
@@ -13928,6 +14537,9 @@
       "score": 7.4,
       "votes": 2906
     },
+    "voice": true,
+    "zh": "official",
+    "series": "vndb-v27057",
     "note": "商业 ADV / 视觉小说（复核放回时补的条目，按 VNDB 标签归类，玩法未逐一核对）",
     "genres": [
       "502",
@@ -13969,6 +14581,9 @@
       "score": 6.8,
       "votes": 3149
     },
+    "voice": true,
+    "zh": "official",
+    "series": "vndb-v27449",
     "note": "学生会成员一起进行创作活动的校园恋爱视觉小说",
     "genres": [
       "502",
@@ -14011,6 +14626,7 @@
       "score": 6.1,
       "votes": 62
     },
+    "voice": true,
     "note": "商业 ADV / 视觉小说（复核放回时补的条目，按 VNDB 标签归类，玩法未逐一核对）",
     "genres": [
       "502",
@@ -14053,6 +14669,9 @@
       "score": 7.1,
       "votes": 1095
     },
+    "voice": true,
+    "zh": "fan",
+    "series": "vndb-v28283",
     "note": "校园日常喜剧风格的恋爱视觉小说",
     "genres": [
       "502",
@@ -14095,6 +14714,8 @@
       "score": 6.4,
       "votes": 1147
     },
+    "voice": true,
+    "zh": "fan",
     "note": "女主角们争夺主角的校园恋爱喜剧视觉小说",
     "genres": [
       "502",
@@ -14136,6 +14757,9 @@
       "score": 6.9,
       "votes": 789
     },
+    "voice": true,
+    "zh": "fan",
+    "series": "vndb-v28712",
     "note": "近未来背景、以剑术大赛为主线的恋爱视觉小说",
     "genres": [
       "502"
@@ -14173,6 +14797,8 @@
       "score": 7.4,
       "votes": 1506
     },
+    "voice": true,
+    "zh": "fan",
     "note": "1999 年同名作的重制版，围绕\"世界末日\"的多视角心理悬疑视觉小说",
     "genres": [
       "432",
@@ -14218,6 +14844,8 @@
       "score": 7.3,
       "votes": 355
     },
+    "voice": true,
+    "zh": "fan",
     "note": "奇幻世界中主角与公主踏上旅途的剧情向视觉小说",
     "genres": [
       "502",
@@ -14262,6 +14890,8 @@
       "score": 6.8,
       "votes": 307
     },
+    "voice": true,
+    "zh": "official",
     "note": "女主角视角、多分支的魔法少女战斗题材视觉小说",
     "genres": [
       "432",
@@ -14311,6 +14941,8 @@
       "score": 7.5,
       "votes": 1800
     },
+    "voice": true,
+    "zh": "fan",
     "note": "以剧团和戏剧为主题、单一真结局的剧情向视觉小说",
     "genres": [
       "502",
@@ -14354,6 +14986,7 @@
       "score": 7.1,
       "votes": 304
     },
+    "voice": true,
     "note": "以社交网络为契机展开的日常恋爱视觉小说",
     "genres": [
       "502",
@@ -14393,6 +15026,9 @@
       "score": 6.3,
       "votes": 259
     },
+    "voice": true,
+    "zh": "official",
+    "series": "vndb-v29884",
     "note": "魔法存在的架空现代都市中的恋爱视觉小说",
     "genres": [
       "502"
@@ -14430,6 +15066,9 @@
       "score": 7.2,
       "votes": 1060
     },
+    "voice": true,
+    "zh": "official",
+    "series": "vndb-v15744",
     "note": "以冬日旅途为主题、带时间跳跃情节的百合视觉小说",
     "genres": [
       "432",
@@ -14475,6 +15114,8 @@
       "score": 6.6,
       "votes": 556
     },
+    "voice": true,
+    "zh": "official",
     "note": "只有一位女主角、描写重逢后恋爱生活的视觉小说",
     "genres": [
       "502",
@@ -14518,6 +15159,8 @@
       "score": 6.8,
       "votes": 476
     },
+    "zh": "official",
+    "series": "vndb-v30726",
     "note": "警察主角卷入阴谋、带侦探要素的剧情向视觉小说",
     "genres": [
       "502",
@@ -14562,6 +15205,8 @@
       "score": 7,
       "votes": 183
     },
+    "voice": true,
+    "zh": "fan",
     "note": "在两位女主角之间做出选择的恋爱 ADV",
     "genres": [
       "432",
@@ -14606,6 +15251,9 @@
       "score": 8.6,
       "votes": 3921
     },
+    "voice": true,
+    "zh": "official",
+    "series": "vndb-v22899",
     "note": "以关押变态的监狱为舞台、搞笑与剧情并重的 ADV",
     "genres": [
       "502",
@@ -14652,6 +15300,8 @@
       "score": 6,
       "votes": 1003
     },
+    "voice": true,
+    "zh": "fan",
     "note": "围绕同人创作活动展开的校园恋爱视觉小说",
     "genres": [
       "502",
@@ -14692,6 +15342,8 @@
       "score": 7.2,
       "votes": 1042
     },
+    "voice": true,
+    "zh": "official",
     "note": "主角女装进入女子学园的恋爱喜剧视觉小说",
     "genres": [
       "502"
@@ -14731,6 +15383,8 @@
       "score": 7.4,
       "votes": 347
     },
+    "voice": true,
+    "zh": "fan",
     "note": "Liar-soft 出品、以封闭\"庭园\"为舞台的哥特风剧情 ADV",
     "genres": [
       "432",
@@ -14771,6 +15425,9 @@
       "score": 7,
       "votes": 667
     },
+    "voice": true,
+    "zh": "fan",
+    "series": "vndb-v24987",
     "note": "科幻题材、单一结局的剧情向视觉小说",
     "genres": [
       "502",
@@ -14809,6 +15466,9 @@
       "score": 6.8,
       "votes": 115
     },
+    "voice": true,
+    "zh": "fan",
+    "series": "vndb-v19725",
     "note": "商业 ADV / 视觉小说（复核放回时补的条目，按 VNDB 标签归类，玩法未逐一核对）",
     "genres": [
       "502",
@@ -14857,6 +15517,9 @@
       "score": 7.9,
       "votes": 1329
     },
+    "voice": true,
+    "zh": "fan",
+    "series": "vndb-v26307",
     "note": "雪国小镇背景的恋爱 ADV，《アマカノ2》的追加篇",
     "genres": [
       "502",
@@ -14901,6 +15564,8 @@
       "score": 6.5,
       "votes": 568
     },
+    "voice": true,
+    "zh": "official",
     "note": "末世后的和风世界中带战斗要素的剧情向视觉小说",
     "genres": [
       "502",
@@ -14935,6 +15600,9 @@
       "rating": 75.7,
       "votes": 203
     },
+    "voice": true,
+    "zh": "fan",
+    "series": "vndb-v32269",
     "note": "CRYSTALiA 出品的恋爱剧情 ADV",
     "genres": [
       "502"
@@ -14974,6 +15642,8 @@
       "score": 6.5,
       "votes": 247
     },
+    "voice": true,
+    "zh": "fan",
     "note": "SMEE 出品的恋爱喜剧 ADV",
     "genres": [
       "502",
@@ -15018,6 +15688,9 @@
       "score": 5.8,
       "votes": 139
     },
+    "voice": true,
+    "zh": "official",
+    "series": "vndb-v32706",
     "note": "商业 ADV / 视觉小说（复核放回时补的条目，按 VNDB 标签归类，玩法未逐一核对）",
     "genres": [
       "502",
@@ -15060,6 +15733,8 @@
       "score": 5.9,
       "votes": 382
     },
+    "voice": true,
+    "zh": "fan",
     "note": "Whirlpool 出品的恋爱剧情 ADV",
     "genres": [
       "502",
@@ -15100,6 +15775,7 @@
       "score": 7,
       "votes": 224
     },
+    "voice": true,
     "note": "克苏鲁风格的伝奇悬疑 ADV",
     "genres": [
       "502",
@@ -15138,6 +15814,8 @@
       "score": 6.7,
       "votes": 1852
     },
+    "voice": true,
+    "zh": "official",
     "note": "可以同时和两位女主角交往的恋爱喜剧 ADV",
     "genres": [
       "502",
@@ -15173,6 +15851,8 @@
       "rating": 67.9,
       "votes": 17
     },
+    "voice": true,
+    "zh": "fan",
     "note": "分章发售的恋爱 ADV 的最终章",
     "genres": [
       "502"
@@ -15213,6 +15893,8 @@
       "score": 7.4,
       "votes": 1581
     },
+    "voice": true,
+    "zh": "official",
     "note": "商业 ADV / 视觉小说（复核放回时补的条目，按 VNDB 标签归类，玩法未逐一核对）",
     "genres": [
       "502",
@@ -15259,6 +15941,9 @@
       "score": 7.2,
       "votes": 1053
     },
+    "voice": true,
+    "zh": "fan",
+    "series": "vndb-v33175",
     "note": "商业 ADV / 视觉小说（复核放回时补的条目，按 VNDB 标签归类，玩法未逐一核对）",
     "genres": [
       "502",
@@ -15299,6 +15984,9 @@
       "score": 6.7,
       "votes": 1169
     },
+    "voice": true,
+    "zh": "official",
+    "series": "vndb-v27449",
     "note": "商业 ADV / 视觉小说（复核放回时补的条目，按 VNDB 标签归类，玩法未逐一核对）",
     "genres": [
       "502",
@@ -15339,6 +16027,8 @@
       "score": 6.2,
       "votes": 190
     },
+    "voice": true,
+    "zh": "official",
     "note": "以双胞胎为题材的恋爱 ADV",
     "genres": [
       "432"
@@ -15376,6 +16066,8 @@
       "score": 6.8,
       "votes": 637
     },
+    "voice": true,
+    "zh": "official",
     "note": "あざらしそふと出品、夏日背景的恋爱 ADV",
     "genres": [
       "502",
@@ -15417,6 +16109,9 @@
       "score": 7.2,
       "votes": 556
     },
+    "voice": true,
+    "zh": "fan",
+    "series": "vndb-v28283",
     "note": "学园恋爱 ADV《放学后的灰姑娘》续作",
     "genres": [
       "502",
@@ -15461,6 +16156,9 @@
       "score": 6.1,
       "votes": 114
     },
+    "voice": true,
+    "zh": "official",
+    "series": "vndb-v32706",
     "note": "商业 ADV / 视觉小说（复核放回时补的条目，按 VNDB 标签归类，玩法未逐一核对）",
     "genres": [
       "502",
@@ -15504,6 +16202,8 @@
       "score": 6.4,
       "votes": 304
     },
+    "voice": true,
+    "zh": "official",
     "note": "与懒散龙族公主同居的恋爱喜剧 ADV 系列第三作",
     "genres": [
       "502",
@@ -15546,6 +16246,8 @@
       "score": 6.5,
       "votes": 231
     },
+    "voice": true,
+    "zh": "official",
     "note": "Purple software 系列作第一部，以\"越界\"为主题的恋爱剧情 ADV",
     "genres": [
       "502",
@@ -15591,6 +16293,8 @@
       "score": 6.6,
       "votes": 143
     },
+    "voice": true,
+    "zh": "official",
     "note": "从一个吻开始的恋爱剧情 ADV",
     "genres": [
       "502",
@@ -15633,6 +16337,8 @@
       "score": 7,
       "votes": 528
     },
+    "voice": true,
+    "zh": "fan",
     "note": "以七天为期限展开的恋爱剧情 ADV",
     "genres": [
       "502",
@@ -15674,6 +16380,8 @@
       "score": 6.8,
       "votes": 1591
     },
+    "voice": true,
+    "zh": "official",
     "note": "以神秘废村为舞台的和风传奇 ADV",
     "genres": [
       "502",
@@ -15713,6 +16421,9 @@
       "rating": 74.5,
       "votes": 84
     },
+    "voice": true,
+    "zh": "fan",
+    "series": "vndb-v32269",
     "note": "吸血鬼题材的剧情恋爱 ADV",
     "genres": [
       "502",
@@ -15751,6 +16462,7 @@
       "score": 6.5,
       "votes": 254
     },
+    "voice": true,
     "note": "以“撒娇”为主题的轻松恋爱 ADV",
     "genres": [
       "502",
@@ -15793,6 +16505,8 @@
       "score": 5.8,
       "votes": 2300
     },
+    "voice": true,
+    "zh": "official",
     "note": "天使降临日常的恋爱喜剧 ADV",
     "genres": [
       "502",
@@ -15834,6 +16548,9 @@
       "score": 6.5,
       "votes": 392
     },
+    "voice": true,
+    "zh": "fan",
+    "series": "vndb-v26000",
     "note": "阴阳师主角调查妖怪与失踪事件的和风奇幻 ADV",
     "genres": [
       "502",
@@ -15876,6 +16593,8 @@
       "score": 6.9,
       "votes": 423
     },
+    "voice": true,
+    "zh": "official",
     "note": "甜点店题材恋爱 ADV 系列第三作",
     "genres": [
       "502",
@@ -15917,6 +16636,8 @@
       "score": 6.4,
       "votes": 298
     },
+    "voice": true,
+    "zh": "fan",
     "note": "女装主角混入剑术学园的恋爱 ADV",
     "genres": [
       "502",
@@ -15958,6 +16679,8 @@
       "score": 6.3,
       "votes": 76
     },
+    "voice": true,
+    "series": "vndb-v29884",
     "note": "《ハッピーライヴ ショウアップ!》的续篇恋爱 ADV",
     "genres": [
       "502"
@@ -15994,6 +16717,8 @@
       "score": 6.9,
       "votes": 163
     },
+    "voice": true,
+    "zh": "official",
     "note": "被困在镜中世界的剧情恋爱 ADV",
     "genres": [
       "118",
@@ -16037,6 +16762,7 @@
       "score": 6,
       "votes": 50
     },
+    "voice": true,
     "note": "以“注定坏结局的大小姐”为主角的剧情恋爱 ADV",
     "genres": [
       "502"
@@ -16076,6 +16802,9 @@
       "score": 6.1,
       "votes": 1188
     },
+    "voice": true,
+    "zh": "official",
+    "series": "vndb-v27057",
     "note": "剑士主角与雪女之间的单女主和风 ADV",
     "genres": [
       "502",
@@ -16118,6 +16847,8 @@
       "score": 6.5,
       "votes": 728
     },
+    "voice": true,
+    "zh": "fan",
     "note": "围绕恋爱传闻展开的校园恋爱喜剧 ADV",
     "genres": [
       "502",
@@ -16159,6 +16890,7 @@
       "score": 6.5,
       "votes": 224
     },
+    "voice": true,
     "note": "和风奇幻背景、与巫女并肩作战的剧情 ADV",
     "genres": [
       "502",
@@ -16199,6 +16931,8 @@
       "score": 6.4,
       "votes": 907
     },
+    "voice": true,
+    "zh": "fan",
     "note": "能听见心声的主角与家人间的恋爱 ADV",
     "genres": [
       "502",
@@ -16241,6 +16975,9 @@
       "score": 6.1,
       "votes": 143
     },
+    "voice": true,
+    "zh": "official",
+    "series": "vndb-v45381",
     "note": "猫忍系列的衍生恋爱 ADV",
     "genres": [
       "502",
@@ -16284,6 +17021,8 @@
       "score": 6.1,
       "votes": 213
     },
+    "voice": true,
+    "zh": "official",
     "note": "女装主角与大小姐们之间的恋爱喜剧 ADV",
     "genres": [
       "502",
@@ -16326,6 +17065,8 @@
       "score": 5.1,
       "votes": 1019
     },
+    "voice": true,
+    "zh": "official",
     "note": "选择决定分支的现代学园恋爱 ADV",
     "genres": [
       "502"
@@ -16365,6 +17106,8 @@
       "score": 6.8,
       "votes": 370
     },
+    "voice": true,
+    "zh": "official",
     "note": "主角被召唤到异世界、与女主角们一起改变世界的奇幻 ADV",
     "genres": [
       "502"
@@ -16402,6 +17145,8 @@
       "score": 5.4,
       "votes": 246
     },
+    "voice": true,
+    "zh": "fan",
     "note": "战后国家里围绕吸血鬼与超能力展开的政治悬疑 ADV",
     "genres": [
       "502"
@@ -16445,6 +17190,8 @@
       "score": 6.2,
       "votes": 118
     },
+    "voice": true,
+    "zh": "fan",
     "note": "以游戏制作为题材的多女主恋爱 ADV",
     "genres": [
       "502",
@@ -16486,6 +17233,9 @@
       "score": 6.3,
       "votes": 373
     },
+    "voice": true,
+    "zh": "fan",
+    "series": "vndb-v28712",
     "note": "近未来剑术大会题材的热血战斗 ADV",
     "genres": [
       "502",
@@ -16526,6 +17276,8 @@
       "score": 5.9,
       "votes": 803
     },
+    "voice": true,
+    "zh": "official",
     "note": "女装主角潜入近未来军校的反乌托邦题材 ADV",
     "genres": [
       "502",
@@ -16568,6 +17320,8 @@
       "score": 6.6,
       "votes": 526
     },
+    "voice": true,
+    "zh": "official",
     "note": "在宿舍和咖啡店展开的恋爱喜剧 ADV",
     "genres": [
       "502",
@@ -16611,6 +17365,8 @@
       "score": 4.8,
       "votes": 232
     },
+    "voice": true,
+    "zh": "fan",
     "note": "夏天里一群朋友之间的青春群像剧 ADV",
     "genres": [
       "502",
@@ -16658,6 +17414,8 @@
       "score": 6.6,
       "votes": 228
     },
+    "voice": true,
+    "zh": "official",
     "note": "被诅咒的海岛上多主角视角展开的暴力悬疑 ADV",
     "genres": [
       "502",
@@ -16702,6 +17460,8 @@
       "score": 6.7,
       "votes": 351
     },
+    "voice": true,
+    "zh": "fan",
     "note": "魔法与战斗的奇幻世界里，按顺序解开多条路线谜团的 ADV",
     "genres": [
       "502",
@@ -16745,6 +17505,7 @@
       "score": 7.1,
       "votes": 73
     },
+    "voice": true,
     "note": "奇幻世界的巨乳后宫 ADV 系列第五作",
     "genres": [
       "502",
@@ -16786,6 +17547,8 @@
       "score": 6.8,
       "votes": 432
     },
+    "voice": true,
+    "zh": "fan",
     "note": "作家主角在西式宅邸中卷入谜团的悬疑 ADV",
     "genres": [
       "502",
@@ -16828,6 +17591,7 @@
       "score": 7,
       "votes": 320
     },
+    "voice": true,
     "note": "经典伝奇作品「无颜之月」的新作，和风洋馆的剧情 ADV",
     "genres": [
       "502",
@@ -16866,6 +17630,8 @@
       "score": 7,
       "votes": 997
     },
+    "voice": true,
+    "zh": "official",
     "note": "以冬日乡村为舞台的甜蜜恋爱 ADV 系列第三作",
     "genres": [
       "502",
@@ -16913,6 +17679,9 @@
       "score": 7.4,
       "votes": 509
     },
+    "voice": true,
+    "zh": "fan",
+    "series": "vndb-v33175",
     "note": "带异能战斗剧情的多女主奇幻 ADV",
     "genres": [
       "502"
@@ -16953,6 +17722,7 @@
       "score": 6.9,
       "votes": 217
     },
+    "voice": true,
     "note": "两名女性从相识到结婚的百合剧情 ADV",
     "genres": [
       "432",
@@ -16999,6 +17769,7 @@
       "score": 6.8,
       "votes": 234
     },
+    "voice": true,
     "note": "调教题材的拔作 ADV 系列第三作",
     "genres": [
       "502",
@@ -17055,6 +17826,8 @@
       "score": 6.1,
       "votes": 157
     },
+    "voice": true,
+    "zh": "official",
     "note": "未来月面都市中的机器人科幻 ADV",
     "genres": [
       "502",
@@ -17087,6 +17860,7 @@
       "median": 75,
       "count": 25
     },
+    "voice": false,
     "note": "商业 ADV / 视觉小说（复核放回时补的条目，按 VNDB 标签归类，玩法未逐一核对）"
   },
   {
@@ -17123,6 +17897,8 @@
       "score": 6.8,
       "votes": 716
     },
+    "voice": true,
+    "zh": "fan",
     "note": "ASa Project 的轻松多女主恋爱喜剧 ADV",
     "genres": [
       "502",
@@ -17163,6 +17939,8 @@
       "score": 6.2,
       "votes": 294
     },
+    "voice": true,
+    "zh": "fan",
     "note": "商业 ADV / 视觉小说（复核放回时补的条目，按 VNDB 标签归类，玩法未逐一核对）",
     "genres": [
       "118",
@@ -17203,6 +17981,8 @@
       "score": 7,
       "votes": 554
     },
+    "voice": true,
+    "zh": "fan",
     "note": "和风伝奇题材的剧情 ADV，「废村少女」系列续作",
     "genres": [
       "502",
@@ -17248,6 +18028,9 @@
       "score": 6.3,
       "votes": 453
     },
+    "voice": true,
+    "zh": "fan",
+    "series": "vndb-v27449",
     "note": "以创作社团为舞台的恋爱 ADV，「出格创作」系列的续篇",
     "genres": [
       "502",
@@ -17289,6 +18072,7 @@
       "score": 7.3,
       "votes": 325
     },
+    "voice": true,
     "note": "异世界巨乳题材的后宫拔作 ADV",
     "genres": [
       "502",
@@ -17331,6 +18115,8 @@
       "score": 8,
       "votes": 46
     },
+    "voice": true,
+    "zh": "fan",
     "note": "parade. 的剧情向成人 ADV",
     "genres": [
       "502"
@@ -17371,6 +18157,8 @@
       "score": 6.8,
       "votes": 339
     },
+    "voice": true,
+    "zh": "fan",
     "note": "Role Player 系列的姐妹直播题材拔作 ADV",
     "genres": [
       "502",
@@ -17412,6 +18200,7 @@
       "score": 6.5,
       "votes": 274
     },
+    "voice": true,
     "note": "以大学生活为舞台的多女主恋爱 ADV",
     "genres": [
       "502",
@@ -17447,6 +18236,8 @@
       "rating": 73.1,
       "votes": 43
     },
+    "voice": true,
+    "series": "vndb-v28712",
     "note": "刀剑战斗题材的恋爱 ADV"
   },
   {
@@ -17478,6 +18269,8 @@
       "rating": 68.6,
       "votes": 131
     },
+    "voice": true,
+    "zh": "fan",
     "note": "主角被神明变成女孩的性转恋爱喜剧 ADV",
     "genres": [
       "502",
@@ -17522,6 +18315,7 @@
       "score": 5.9,
       "votes": 23
     },
+    "voice": true,
     "note": "以战国武将娘为主角的历史题材 ADV，岛津篇",
     "genres": [
       "502"
@@ -17562,6 +18356,7 @@
       "score": 6.2,
       "votes": 117
     },
+    "voice": true,
     "note": "亡国精灵公主堕落题材的奇幻 ADV",
     "genres": [
       "432",
@@ -17606,6 +18401,8 @@
       "score": 6.9,
       "votes": 1883
     },
+    "voice": true,
+    "zh": "fan",
     "note": "柚子社的多女主恋爱 ADV",
     "genres": [
       "502",
@@ -17644,6 +18441,8 @@
       "score": 7.5,
       "votes": 1514
     },
+    "voice": true,
+    "zh": "official",
     "note": "紫社的多女主恋爱 ADV",
     "genres": [
       "502",
@@ -17683,6 +18482,9 @@
       "score": 7,
       "votes": 75
     },
+    "voice": true,
+    "zh": "official",
+    "series": "vndb-v45381",
     "note": "猫耳忍者题材的恋爱喜剧 ADV 系列续作",
     "genres": [
       "502"
@@ -17721,6 +18523,7 @@
       "score": 5.9,
       "votes": 25
     },
+    "voice": true,
     "note": "以主题咖啡厅为舞台的恋爱 ADV 续作"
   },
   {
@@ -17758,6 +18561,7 @@
       "score": 6.1,
       "votes": 71
     },
+    "voice": true,
     "note": "シルキーズプラス 的剧情向 ADV",
     "genres": [
       "502"
@@ -17800,6 +18604,8 @@
       "score": 6.1,
       "votes": 57
     },
+    "voice": true,
+    "zh": "fan",
     "note": "「Tayutama」系列的新作恋爱 ADV",
     "genres": [
       "502"
@@ -17837,6 +18643,8 @@
       "score": 6,
       "votes": 230
     },
+    "voice": true,
+    "series": "vndb-v30726",
     "note": "「流星世界演员」系列的剧情 ADV 新作",
     "genres": [
       "502",
@@ -17877,6 +18685,8 @@
       "score": 7.9,
       "votes": 2020
     },
+    "voice": true,
+    "zh": "official",
     "note": "CRYSTALiA 的多女主恋爱喜剧 ADV",
     "genres": [
       "502",
@@ -17918,6 +18728,7 @@
       "score": 6,
       "votes": 29
     },
+    "voice": true,
     "note": "夏日题材的后宫拔作 ADV",
     "genres": [
       "502",
@@ -17960,6 +18771,7 @@
       "score": 6.1,
       "votes": 53
     },
+    "voice": true,
     "note": "单女主的甜蜜同居恋爱 ADV",
     "genres": [
       "502"
@@ -18004,6 +18816,7 @@
       "score": 6.4,
       "votes": 130
     },
+    "zh": "official",
     "note": "Liar-soft 的伝奇剧情 ADV",
     "genres": [
       "502",
@@ -18049,6 +18862,7 @@
       "score": 5.8,
       "votes": 44
     },
+    "voice": true,
     "note": "同居题材的恋爱 ADV 系列第三作",
     "genres": [
       "502"
@@ -18084,6 +18898,7 @@
       "rating": 66.8,
       "votes": 22
     },
+    "voice": true,
     "note": "分卷发售的悬疑剧情 ADV 第一卷",
     "genres": [
       "502"
@@ -18124,6 +18939,8 @@
       "score": 6.2,
       "votes": 140
     },
+    "voice": true,
+    "zh": "official",
     "note": "HOOKSOFT 的多女主恋爱 ADV",
     "genres": [
       "502"
@@ -18163,6 +18980,8 @@
       "score": 6.9,
       "votes": 187
     },
+    "voice": true,
+    "zh": "fan",
     "note": "商业 ADV / 视觉小说（复核放回时补的条目，按 VNDB 标签归类，玩法未逐一核对）",
     "genres": [
       "502",
@@ -18203,6 +19022,8 @@
       "score": 6.6,
       "votes": 176
     },
+    "voice": true,
+    "zh": "fan",
     "note": "紫社的多女主恋爱 ADV",
     "genres": [
       "502",
@@ -18248,6 +19069,8 @@
       "score": 6.7,
       "votes": 112
     },
+    "voice": true,
+    "zh": "fan",
     "note": "CloverGAME 的恋爱 ADV",
     "genres": [
       "502",
@@ -18288,6 +19111,8 @@
       "score": 6.5,
       "votes": 123
     },
+    "voice": true,
+    "series": "vndb-v22553",
     "note": "Frill 的剧情向 ADV",
     "genres": [
       "502",
@@ -18376,6 +19201,8 @@
       "score": 6.3,
       "votes": 339
     },
+    "voice": true,
+    "zh": "fan",
     "note": "ASa Project 的多女主恋爱 ADV",
     "genres": [
       "502",
@@ -18419,6 +19246,7 @@
       "score": 6.7,
       "votes": 143
     },
+    "voice": true,
     "note": "异世界巨乳题材的后宫拔作 ADV，间谍篇",
     "genres": [
       "502",
@@ -18460,6 +19288,7 @@
       "score": 6.8,
       "votes": 55
     },
+    "voice": true,
     "note": "CloverGAME 的恋爱 ADV",
     "genres": [
       "502"
